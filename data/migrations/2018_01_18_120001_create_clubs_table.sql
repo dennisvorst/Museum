@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS `clubs` (
+  `idclub` int(11) NOT NULL AUTO_INCREMENT,
+  `cdstatus` char(1) COLLATE utf8_unicode_ci NOT NULL DEFAULT 'N',
+  `nmsearch` varchar(10) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `nmclub` varchar(25) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `nmfull` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `ftlocation` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `ftfield` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `ftaddress` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `ftpostalcode` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `nmcity` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `ftphone` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `featured` tinyint(1) NOT NULL DEFAULT '0',
+  `nmprimarycolor` char(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `nmsecondarycolor` char(10) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `nmtertiarycolor` int(11) DEFAULT NULL,
+  `dtlastmut` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `nmlastmut` varchar(50) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `dtprevmut` datetime DEFAULT NULL,
+  `dtcreated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`idclub`)
+) ENGINE=InnoDB AUTO_INCREMENT=239 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

@@ -1,0 +1,5 @@
+# ignore all third party software
+src/3rd/class/
+
+# ignore the google tracker 
+src/config/analyticstracking.php

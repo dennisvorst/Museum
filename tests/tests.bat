@@ -1,0 +1,2 @@
+rem ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/EmailTest
+.\vendor\bin\phpunit --bootstrap D:\inetpub\htdocs\baseballmuseum\vendor\autoload.php D:\inetpub\htdocs\baseballmuseum\tests\EmailTest
