@@ -10,10 +10,11 @@ Website for the Dutch base- and softballmuseum.
 
 ## 3rd Party development
 
-| Name | Source |
-| XXAMP | https://www.apachefriends.org/index.html |
-| Composer | https://getcomposer.org/ |
-| phpunit | https://phpunit.de/ |
+| Name | Source | Command line | 
+| XXAMP | https://www.apachefriends.org/index.html | |
+| Composer | https://getcomposer.org/ | |
+| phpunit | https://phinx.org/ | composer require-dev phpunit/phpunit |
+| PHINX | | robmorgan/phinx | composer require robmorgan/phinx |
 
 ## Shopping list (todo)
 
@@ -22,3 +23,9 @@ Website for the Dutch base- and softballmuseum.
 * get rid of artisteer references 
 * create tests for existing classes
 * delete email class and test after creating first actual test.
+
+## Release info
+| Date | Description |
+|-|-|
+| 22 march 2019 | Initial commit |
+| 22 march 2019 | Added migration using phinx |

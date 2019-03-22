@@ -8,6 +8,10 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        '72142d7b40a3a0b14e91825290b5ad82' => __DIR__ . '/..' . '/cakephp/core/functions.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '028fdea3165c4ba1ecccc83b7fec69fc' => __DIR__ . '/..' . '/cakephp/collection/functions.php',
+        '948ad5488880985ff1c06721a4e447fe' => __DIR__ . '/..' . '/cakephp/utility/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     );
 
@@ -22,12 +26,33 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
         ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
+            'Symfony\\Contracts\\' => 18,
+            'Symfony\\Component\\Yaml\\' => 23,
+            'Symfony\\Component\\Filesystem\\' => 29,
+            'Symfony\\Component\\Console\\' => 26,
+            'Symfony\\Component\\Config\\' => 25,
+        ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+            'Phinx\\' => 6,
         ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
+        ),
+        'C' => 
+        array (
+            'Cake\\Utility\\' => 13,
+            'Cake\\Log\\' => 9,
+            'Cake\\Datasource\\' => 16,
+            'Cake\\Database\\' => 14,
+            'Cake\\Core\\' => 10,
+            'Cake\\Collection\\' => 16,
+            'Cake\\Cache\\' => 11,
         ),
     );
 
@@ -42,9 +67,41 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
+        ),
+        'Symfony\\Contracts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/contracts',
+        ),
+        'Symfony\\Component\\Yaml\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
+        'Symfony\\Component\\Filesystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/filesystem',
+        ),
+        'Symfony\\Component\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Symfony\\Component\\Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/config',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Phinx\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/robmorgan/phinx/src/Phinx',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
@@ -53,6 +110,34 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Cake\\Utility\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cakephp/utility',
+        ),
+        'Cake\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cakephp/log',
+        ),
+        'Cake\\Datasource\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cakephp/datasource',
+        ),
+        'Cake\\Database\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cakephp/database',
+        ),
+        'Cake\\Core\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cakephp/core',
+        ),
+        'Cake\\Collection\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cakephp/collection',
+        ),
+        'Cake\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cakephp/cache',
         ),
     );
 
@@ -67,8 +152,33 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
     );
 
     public static $classMap = array (
+        'Article' => __DIR__ . '/../..' . '/src/class/Article.php',
+        'Articles' => __DIR__ . '/../..' . '/src/class/Articles.php',
+        'CheckBox' => __DIR__ . '/../..' . '/src/class/CheckBox.php',
+        'Club' => __DIR__ . '/../..' . '/src/class/Club.php',
+        'Clubretired' => __DIR__ . '/../..' . '/src/class/Clubretired.php',
+        'Clubs' => __DIR__ . '/../..' . '/src/class/Clubs.php',
+        'Competition' => __DIR__ . '/../..' . '/src/class/Competition.php',
+        'Competitions' => __DIR__ . '/../..' . '/src/class/Competitions.php',
+        'Contact' => __DIR__ . '/../..' . '/src/class/Contact.php',
+        'Country' => __DIR__ . '/../..' . '/src/class/Country.php',
+        'DataBase' => __DIR__ . '/../..' . '/src/class/Database.php',
+        'Date' => __DIR__ . '/../..' . '/src/class/Date.php',
         'Email' => __DIR__ . '/../..' . '/src/Email.php',
+        'Game' => __DIR__ . '/../..' . '/src/class/Game.php',
+        'Games' => __DIR__ . '/../..' . '/src/class/Games.php',
+        'HallOfFamers' => __DIR__ . '/../..' . '/src/class/HallOfFamers.php',
         'Help' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Help.php',
+        'Home' => __DIR__ . '/../..' . '/src/class/Home.php',
+        'HtmlField' => __DIR__ . '/../..' . '/src/class/HtmlField.php',
+        'HtmlGrid' => __DIR__ . '/../..' . '/src/class/HtmlGrid.php',
+        'HtmlSelect' => __DIR__ . '/../..' . '/src/class/HtmlSelect.php',
+        'HtmlTable' => __DIR__ . '/../..' . '/src/class/HtmlTable.php',
+        'ListPage' => __DIR__ . '/../..' . '/src/class/ListPage.php',
+        'MainPage' => __DIR__ . '/../..' . '/src/class/MainPage.php',
+        'Menu' => __DIR__ . '/../..' . '/src/class/Menu.php',
+        'MenuBar' => __DIR__ . '/../..' . '/src/class/MenuBar.php',
+        'Mobile_Detect' => __DIR__ . '/../..' . '/src/3rd/class/Mobile_Detect.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
         'PHPUnit\\Framework\\AssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/AssertionFailedError.php',
@@ -440,6 +550,10 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
         'PHP_Token_XOR_EQUAL' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD_FROM' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
+        'Participant' => __DIR__ . '/../..' . '/src/class/Participant.php',
+        'Participants' => __DIR__ . '/../..' . '/src/class/Participants.php',
+        'Person' => __DIR__ . '/../..' . '/src/class/Person.php',
+        'Persons' => __DIR__ . '/../..' . '/src/class/Persons.php',
         'PharIo\\Manifest\\Application' => __DIR__ . '/..' . '/phar-io/manifest/src/values/Application.php',
         'PharIo\\Manifest\\ApplicationName' => __DIR__ . '/..' . '/phar-io/manifest/src/values/ApplicationName.php',
         'PharIo\\Manifest\\Author' => __DIR__ . '/..' . '/phar-io/manifest/src/values/Author.php',
@@ -507,6 +621,9 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
         'PharIo\\Version\\VersionConstraintParser' => __DIR__ . '/..' . '/phar-io/version/src/VersionConstraintParser.php',
         'PharIo\\Version\\VersionConstraintValue' => __DIR__ . '/..' . '/phar-io/version/src/VersionConstraintValue.php',
         'PharIo\\Version\\VersionNumber' => __DIR__ . '/..' . '/phar-io/version/src/VersionNumber.php',
+        'Photo' => __DIR__ . '/../..' . '/src/class/Photo.php',
+        'Photos' => __DIR__ . '/../..' . '/src/class/Photos.php',
+        'Search' => __DIR__ . '/../..' . '/src/class/Search.php',
         'SebastianBergmann\\CodeCoverage\\CodeCoverage' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/CodeCoverage.php',
         'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',
         'SebastianBergmann\\CodeCoverage\\Driver\\Driver' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Driver/Driver.php',
@@ -607,6 +724,13 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
         'SebastianBergmann\\Timer\\RuntimeException' => __DIR__ . '/..' . '/phpunit/php-timer/src/RuntimeException.php',
         'SebastianBergmann\\Timer\\Timer' => __DIR__ . '/..' . '/phpunit/php-timer/src/Timer.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'SingleItemPage' => __DIR__ . '/../..' . '/src/class/SingleItemPage.php',
+        'Social' => __DIR__ . '/../..' . '/src/class/Social.php',
+        'Source' => __DIR__ . '/../..' . '/src/class/Source.php',
+        'Stat' => __DIR__ . '/../..' . '/src/class/Stat.php',
+        'Stats' => __DIR__ . '/../..' . '/src/class/Stats.php',
+        'Tab' => __DIR__ . '/../..' . '/src/class/Tab.php',
+        'Teams' => __DIR__ . '/../..' . '/src/class/Teams.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
         'TheSeer\\Tokenizer\\NamespaceUri' => __DIR__ . '/..' . '/theseer/tokenizer/src/NamespaceUri.php',
@@ -616,6 +740,8 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
+        'Video' => __DIR__ . '/../..' . '/src/class/Video.php',
+        'Videos' => __DIR__ . '/../..' . '/src/class/Videos.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
