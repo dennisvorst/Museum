@@ -23,6 +23,8 @@ Website for the Dutch base- and softballmuseum.
 * get rid of artisteer references 
 * create tests for existing classes
 * delete email class and test after creating first actual test.
+* change the email adres of the site inbto info@honkbalmuseum.nl
+* 
 
 ## Release info
 | Date | Description |
