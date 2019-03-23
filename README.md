@@ -15,8 +15,8 @@ Website for the Dutch base- and softballmuseum.
 |-|-|-|
 | XXAMP | https://www.apachefriends.org/index.html | |
 | Composer | https://getcomposer.org/ | |
-| phpunit | https://phinx.org/ | composer require-dev phpunit/phpunit |
-| PHINX | | robmorgan/phinx | composer require robmorgan/phinx |
+| phpunit | https://phpunit.de/ | composer require-dev phpunit/phpunit |
+| PHINX | | https://phinx.org/ | composer require robmorgan/phinx |
 
 ## Shopping list (todo)
 
