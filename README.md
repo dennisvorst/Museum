@@ -24,10 +24,13 @@ Website for the Dutch base- and softballmuseum.
 * create tests for existing classes
 * delete email class and test after creating first actual test.
 * change the email adres of the site inbto info@honkbalmuseum.nl
-* 
+* the export was made from the wrong database, photos are missing after 3100712.
+* build check to match photos and thumbnails with records 
+* the personarticles seed fails. Fix it by taking the seeder out and replacing it with the script 
 
 ## Release info
 | Date | Description |
 |-|-|
 | 22 march 2019 | Initial commit |
 | 22 march 2019 | Added migration using phinx |
+| 23 march 2019 | Added seeding using phinx |
