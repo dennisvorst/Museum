@@ -4,25 +4,25 @@ We are misusing the seed and migration functions of Phinx to fill the databases 
 
 ## Setup
 1. Drop the database 
-...
+```
 drop database museum_dev;
-...
+```
 2. Create a new database 
-...
+```
 create database museum_dev;
-...
+```
 3. Run the Phinx migration 
 Open a command window and in the project's root enter:
-...
+```
 vendor\bin\phinx migrate
-...
+```
 4. Run the Phinx seed 
 Open a command window and in the project's root enter:
-...
+```
 vendor\bin\phinx seed:run
-...
+```
 5. Add constraints to the database
-...
+```
 /*halloffamers*/
 ALTER TABLE halloffamers ADD CONSTRAINT `HallOfFamers_1` FOREIGN KEY (`idperson`) REFERENCES `persons`(`idperson`);
 ALTER TABLE halloffamers ADD CONSTRAINT `HallOfFamers_2` FOREIGN KEY (`idphoto`) REFERENCES `photos`(`idphoto`);
@@ -105,6 +105,6 @@ ALTER TABLE `clubretired` ADD CONSTRAINT `ClubRetired_2` FOREIGN KEY (`idperson`
 /*clubvideos*/
 ALTER TABLE `clubvideos` ADD CONSTRAINT `ClubVideos_1` FOREIGN KEY (`idvideo`) REFERENCES `videos` (`id`);
 ALTER TABLE `clubvideos` ADD CONSTRAINT `ClubVideos_2` FOREIGN KEY (`idclub`) REFERENCES `clubs` (`idclub`);
-...
+```
 
 
