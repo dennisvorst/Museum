@@ -54,18 +54,6 @@ class RostersMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE rosters ADD CONSTRAINT `Rosters_1` FOREIGN KEY (idcompetition) REFERENCES `competitions`(`idcompetition`);";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE rosters ADD CONSTRAINT `Rosters_2` FOREIGN KEY (idparticipant) REFERENCES `teams`(`idteam`) ;";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE rosters ADD CONSTRAINT `Rosters_3` FOREIGN KEY (idperson) REFERENCES `persons`(`idperson`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

@@ -52,14 +52,6 @@ class PersonarticlesMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE personarticles ADD CONSTRAINT `PersonArticles_1` FOREIGN KEY (`idperson`) REFERENCES `persons`(`idperson`);";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE personarticles ADD CONSTRAINT `PersonArticles_2` FOREIGN KEY (`idarticle`) REFERENCES `articles`(`idarticle`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

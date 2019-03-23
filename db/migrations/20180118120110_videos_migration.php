@@ -37,15 +37,15 @@ class VideosMigration extends AbstractMigration
     public function up()
     {
 		$sql = "CREATE TABLE IF NOT EXISTS `videos` (";
-		$sql .= "`idvideo` int(11) NOT NULL AUTO_INCREMENT,";
+		$sql .= "`id` int(11) NOT NULL AUTO_INCREMENT,";
 		$sql .= "`nmvideo` varchar(25) COLLATE utf8_unicode_ci NOT NULL DEFAULT '' COMMENT 'Title of the video',";
 		$sql .= "`nmurl` varchar(250) COLLATE utf8_unicode_ci NOT NULL COMMENT 'Url at youtube',";
 		$sql .= "`ftdepicted` text COLLATE utf8_unicode_ci NOT NULL,";
-		$sql .= "`featured` tinyint(1) NOT NULL DEFAULT '0',";
-		$sql .= "`dtlastmut` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',";
-		$sql .= "`nmlastmut` varchar(256) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',";
-		$sql .= "`dtprevmut` datetime,";
-		$sql .= "PRIMARY KEY (`idvideo`)";
+		$sql .= "`is_featured` tinyint(1) NOT NULL DEFAULT '0',";
+		$sql .= "`updated_at` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',";
+		$sql .= "`updated_by` varchar(256) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',";
+		$sql .= "`created_at` datetime,";
+		$sql .= "PRIMARY KEY (`id`)";
 		$sql .= ") ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;";
 
     	$count = $this->execute($sql);

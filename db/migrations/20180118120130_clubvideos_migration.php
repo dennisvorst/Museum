@@ -52,14 +52,6 @@ class ClubvideosMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE `clubvideos` ADD CONSTRAINT `ClubVideos_1` FOREIGN KEY (`idvideo`) REFERENCES `videos` (`idvideo`);";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE `clubvideos` ADD CONSTRAINT `ClubVideos_2` FOREIGN KEY (`idclub`) REFERENCES `clubs` (`idclub`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

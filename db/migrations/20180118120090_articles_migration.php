@@ -58,10 +58,6 @@ class ArticlesMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE articles ADD CONSTRAINT `ArticleSource_1` FOREIGN KEY (idsource) REFERENCES `sources`(`idsource`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

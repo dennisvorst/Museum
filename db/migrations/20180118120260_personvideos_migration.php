@@ -52,14 +52,6 @@ class PersonvideosMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE `personvideos` ADD CONSTRAINT `PersonVideos_1` FOREIGN KEY (`idvideo`) REFERENCES `videos`(`idvideo`);";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE `personvideos` ADD CONSTRAINT `PersonVideos_2` FOREIGN KEY (`idperson`) REFERENCES `persons`(`idperson`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

@@ -50,15 +50,6 @@ class HalloffamersMigration extends AbstractMigration
 		$sql .= ") ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='HallOfFamers table';";
 
     	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE halloffamers ADD CONSTRAINT `HallOfFamers_1` FOREIGN KEY (`idperson`) REFERENCES `persons`(`idperson`);";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE halloffamers ADD CONSTRAINT `HallOfFamers_2` FOREIGN KEY (`idphoto`) REFERENCES `photos`(`idphoto`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

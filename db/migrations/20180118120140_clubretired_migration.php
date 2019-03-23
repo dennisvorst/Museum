@@ -52,14 +52,6 @@ class ClubretiredMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE `clubretired` ADD CONSTRAINT `ClubRetired_1` FOREIGN KEY (`idclub`) REFERENCES `clubs` (`idclub`);";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE `clubretired` ADD CONSTRAINT `ClubRetired_2` FOREIGN KEY (`idperson`) REFERENCES `persons` (`idperson`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

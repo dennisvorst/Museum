@@ -51,14 +51,6 @@ class ArticlephotosMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE articlephotos ADD CONSTRAINT `PhotoArticlePhotos_1` FOREIGN KEY (idphoto) REFERENCES `photos`(`idphoto`);";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE articlephotos ADD CONSTRAINT `ArticleArticlePhotos_1` FOREIGN KEY (idarticle) REFERENCES `articles`(`idarticle`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

@@ -61,18 +61,6 @@ class GamesMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE games ADD CONSTRAINT `Games_1` FOREIGN KEY (`idcompetition`) REFERENCES `competitions` (`idcompetition`) ;";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE games ADD CONSTRAINT `Games_2` FOREIGN KEY (`idhome`) REFERENCES `participants` (`idparticipant`) ;";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE games ADD CONSTRAINT `Games_3` FOREIGN KEY (`idaway`) REFERENCES `participants` (`idparticipant`) ;";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

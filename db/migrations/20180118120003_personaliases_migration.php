@@ -50,11 +50,6 @@ class PersonaliasesMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-
-		$sql = "ALTER TABLE personaliases ADD CONSTRAINT `PersonAliases_1` FOREIGN KEY (`idperson`) REFERENCES `persons` (`idperson`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

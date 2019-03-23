@@ -78,22 +78,6 @@ class PitchingMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE fielding ADD CONSTRAINT `Pitching_1` FOREIGN KEY (idteam) REFERENCES `teams` (`idteam`) ;";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE fielding ADD CONSTRAINT `Pitching_2` FOREIGN KEY (idperson) REFERENCES `persons` (`idperson`) ;";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE fielding ADD CONSTRAINT `Pitching_3` FOREIGN KEY (idparticipant) REFERENCES `participants` (`idparticipant`) ;";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE fielding ADD CONSTRAINT `Pitching_4` FOREIGN KEY (idcompetition) REFERENCES `competitions` (`idcompetition`) ;";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

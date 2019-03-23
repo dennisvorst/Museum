@@ -53,10 +53,6 @@ class TeamsMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE teams ADD CONSTRAINT `ClubTeams_1` FOREIGN KEY (idclub) REFERENCES `clubs` (`idclub`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

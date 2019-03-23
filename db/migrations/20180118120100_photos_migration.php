@@ -60,10 +60,6 @@ class PhotosMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql .= "ALTER TABLE photos ADD CONSTRAINT `PhotoSource_1` FOREIGN KEY (idsource) REFERENCES `sources`(`idsource`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.

@@ -77,21 +77,6 @@ class HittingMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE fielding ADD CONSTRAINT `Hitting_1` FOREIGN KEY (idteam) REFERENCES `teams` (`idteam`) ;";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE fielding ADD CONSTRAINT `Hitting_2` FOREIGN KEY (idperson) REFERENCES `persons` (`idperson`) ;";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE fielding ADD CONSTRAINT `Hitting_3` FOREIGN KEY (idparticipant) REFERENCES `participants` (`idparticipant`) ;";
-
-    	$count = $this->execute($sql);
-
-		$sql = "ALTER TABLE fielding ADD CONSTRAINT `Hitting_4` FOREIGN KEY (idcompetition) REFERENCES `competitions` (`idcompetition`) ;";
-
-    	$count = $this->execute($sql);
     }
 
     /**

@@ -59,10 +59,6 @@ class CompetitionsMigration extends AbstractMigration
 
     	$count = $this->execute($sql);
 
-		$sql = "ALTER TABLE competitions ADD FOREIGN KEY (idorganizer) REFERENCES `clubs` (`idclub`);";
-
-    	$count = $this->execute($sql);
-
     }
     /**
      * Migrate Down.
