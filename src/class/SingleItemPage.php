@@ -20,10 +20,10 @@ class SingleItemPage extends MainPage{
 	var $ftrepresentation; /* the fields that make up the representation in a list. */
 
 	/* applies to all records */
-	var $dtlastmut;
-	var $nmlastmut;
-	var $dtprevmut;
-	var $featured;
+	var $updated_at;
+	var $updated_by;
+	var $created_at;
+	var $is_featured;
 
 	/* constructor */
 	function __construct(){
@@ -177,10 +177,10 @@ class SingleItemPage extends MainPage{
 			print_r(__METHOD__ . "<br/>");
 		}
 
-		$ftlabels["dtlastmut"]		= "";
-		$ftlabels["nmlastmut"]		= "";
-		$ftlabels["dtprevmut"]		= "";
-		$ftlabels["featured"]		= "Op voorpagina";
+		$ftlabels["updated_at"]		= "";
+		$ftlabels["updated_by"]		= "";
+		$ftlabels["created_at"]		= "";
+		$ftlabels["is_featured"]		= "Op voorpagina";
 
 		return $ftlabels;
 	}
@@ -201,31 +201,31 @@ class SingleItemPage extends MainPage{
 			print_r(__METHOD__ . "<br/>");
 		}
 
-		return HtmlField::createField("featured", "checkbox", $ftvalue);
+		return HtmlField::createField("is_featured", "checkbox", $ftvalue);
 	}
 
-	function getEditNmlastmut($ftvalue = null){
+	function getEditUpdatedBy($ftvalue = null){
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");
 		}
 
-		return HtmlField::createField("nmlastmut", "hidden", $ftvalue);
+		return HtmlField::createField("updated_by", "hidden", $ftvalue);
 	}
 
-	function getEditDtlastmut($ftvalue = null){
+	function getEditUpatedAt($ftvalue = null){
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");
 		}
 
-		return HtmlField::createField("dtlastmut", "hidden", $ftvalue);
+		return HtmlField::createField("updated_at", "hidden", $ftvalue);
 	}
 
-	function getEditDtprevmut($ftvalue = null){
+	function getEditCreatedAt($ftvalue = null){
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");
 		}
 
-		return HtmlField::createField("dtprevmut", "hidden", $ftvalue);
+		return HtmlField::createField("created_at", "hidden", $ftvalue);
 	}
 }
 ?>

@@ -3,7 +3,7 @@
 
 use Phinx\Seed\AbstractSeed;
 
-class PersonaliasesSeeder extends AbstractSeed
+class LineupsSeeder extends AbstractSeed
 {
     /**
      * Run Method.
@@ -16,17 +16,10 @@ class PersonaliasesSeeder extends AbstractSeed
     public function run()
     {
     	$data = [
-[
-	'idalias' => '1',
-	'idperson' => '268',
-	'nmperson' => 'Piet Luteijn',
-	'created_at' => '2019-03-24 09:20:06',
-	'changed_by' => 'info@honkbalmuseum.nl',
-],
 
     	];
 
-        $table = $this->table('personaliases');
+        $table = $this->table('fielding');
         $table->insert($data)
               ->save();
 

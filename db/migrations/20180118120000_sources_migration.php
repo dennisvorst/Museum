@@ -49,10 +49,11 @@ class SourcesMigration extends AbstractMigration
   		$sql .= "`ftemail` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,";
   		$sql .= "`ftwebsite` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,";
   		$sql .= "`cdpermission` char(1) COLLATE utf8_unicode_ci NOT NULL DEFAULT 'N',";
-  		$sql .= "`dtlastmut` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',";
-  		$sql .= "`nmlastmut` varchar(50) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',";
-  		$sql .= "`dtprevmut` datetime DEFAULT NULL,";
-  		$sql .= "`dtcreated` timestamp NOT NULL DEFAULT '2004-12-31 23:00:00',";
+
+		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
+		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
+		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+
   		$sql .= "PRIMARY KEY (`idsource`),";
   		$sql .= "KEY `nmzoek` (`nmsearch`,`nmsource`)";
   		$sql .= ") ENGINE=InnoDB AUTO_INCREMENT=50 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='Source data';";

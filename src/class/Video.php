@@ -26,7 +26,7 @@ class Video extends SingleItemPage{
 
 		$this->nmvideo		= $this->ftrecord['nmvideo'];
 		$this->nmurl		= $this->ftrecord['nmurl'];
-		$this->featured		= $this->ftrecord['featured'];
+		$this->is_featured		= $this->ftrecord['is_featured'];
 	}
 
 	function createThumbnail($nrsize = 3){
@@ -46,7 +46,7 @@ class Video extends SingleItemPage{
 
 		return $html;
 	}
-	
+
 	function getYoutubeThumbnail($nmurl){
 		return "https://img.youtube.com/vi/{$nmurl}/0.jpg";
 	}

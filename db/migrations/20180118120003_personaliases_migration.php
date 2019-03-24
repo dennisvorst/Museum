@@ -40,10 +40,11 @@ class PersonaliasesMigration extends AbstractMigration
 		$sql .= "`idalias` int(11) NOT NULL AUTO_INCREMENT,";
 		$sql .= "`idperson` int(11) NOT NULL,";
 		$sql .= "`nmperson` varchar(50) COLLATE utf8_unicode_ci NOT NULL,";
-		$sql .= "`dtlastmut` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',";
-		$sql .= "`nmlastmut` varchar(50) COLLATE utf8_unicode_ci NOT NULL,";
-		$sql .= "`dtprevmut` datetime DEFAULT NULL,";
-		$sql .= "`dtcreated` timestamp NOT NULL DEFAULT '2004-12-31 23:00:00',";
+
+		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
+		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
+		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+
 		$sql .= "PRIMARY KEY (`idalias`),";
 		$sql .= "KEY `PersonAliases_2` (`idperson`)";
 		$sql .= ") ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;";

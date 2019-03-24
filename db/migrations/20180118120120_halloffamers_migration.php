@@ -42,8 +42,11 @@ class HalloffamersMigration extends AbstractMigration
 		$sql .= "`idphoto` int(11) NOT NULL,";
 		$sql .= "`dthof` date NOT NULL,";
 		$sql .= "`biography` text NOT NULL,";
-		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,";
-		$sql .= "`updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',";
+
+		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
+		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
+		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+
 		$sql .= "PRIMARY KEY (`id`),";
 		$sql .= "KEY (`idperson`),";
 		$sql .= "KEY (`idphoto`)";

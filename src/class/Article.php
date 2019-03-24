@@ -53,11 +53,11 @@ class Article extends SingleItemPage{
 		$this->cdtype		= $this->ftrecord['cdtype'];
 
 		$this->ftarticle	= $this->ftrecord['ftarticle'];
-		$this->featured		= $this->ftrecord['featured'];
+		$this->is_featured		= $this->ftrecord['is_featured'];
 
-		$this->dtlastmut	= $this->ftrecord['dtlastmut'];
-		$this->nmlastmut	= $this->ftrecord['nmlastmut'];
-		$this->dtprevmut	= $this->ftrecord['dtprevmut'];
+		$this->created_at	= $this->ftrecord['created_at'];
+		$this->updated_at	= $this->ftrecord['updated_at'];
+		$this->updated_by	= $this->ftrecord['updated_by'];
 	}
 
 	function createThumbnail(){
@@ -339,7 +339,7 @@ class Article extends SingleItemPage{
 	}
 
 	function getPersons(){
-		
+
 		/* get the persons that go with the article */
 		$query	= "SELECT p.idperson FROM personarticles a, persons p WHERE idarticle = $this->id AND a.idperson = p.idperson ORDER BY p.nmlast"	;
 		$rows	= $this->queryDb($query);

@@ -30,7 +30,7 @@ class Competition extends SingleItemPage{
 		$this->cdsport			= $this->ftrecord['cdsport'];
 		$this->cdclass			= $this->ftrecord['cdclass'];
 		$this->cdgender			= $this->ftrecord['cdgender'];
-		$this->featured			= $this->ftrecord['featured'];
+		$this->is_featured			= $this->ftrecord['is_featured'];
 	}
 
 	function createThumbnail(){

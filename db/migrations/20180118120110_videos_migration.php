@@ -42,9 +42,11 @@ class VideosMigration extends AbstractMigration
 		$sql .= "`nmurl` varchar(250) COLLATE utf8_unicode_ci NOT NULL COMMENT 'Url at youtube',";
 		$sql .= "`ftdepicted` text COLLATE utf8_unicode_ci NOT NULL,";
 		$sql .= "`is_featured` tinyint(1) NOT NULL DEFAULT '0',";
-		$sql .= "`updated_at` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',";
-		$sql .= "`updated_by` varchar(256) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',";
-		$sql .= "`created_at` datetime,";
+
+		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
+		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
+		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+
 		$sql .= "PRIMARY KEY (`id`)";
 		$sql .= ") ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;";
 

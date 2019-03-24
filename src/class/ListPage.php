@@ -63,7 +63,7 @@ class ListPage extends MainPage{
 			print_r(__METHOD__ . "<br/>");
 		}
 
-		$query = "SELECT * FROM $this->nmtable WHERE featured = 1 ";
+		$query = "SELECT * FROM $this->nmtable WHERE is_featured = 1 ";
 		if (!empty($ftorderby)){
 			$query .= $ftorderby;
 		}

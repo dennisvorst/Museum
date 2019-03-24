@@ -63,7 +63,7 @@ class Person extends SingleItemPage{
 		$this->dtsend 		= $this->ftrecord['dtsend'];
 		$this->nmclubstart 	= $this->ftrecord['nmclubstart'];
 		$this->ftbiography 	= $this->ftrecord['ftbiography'];
-		$this->featured 	= $this->ftrecord['featured'];
+		$this->is_featured 	= $this->ftrecord['is_featured'];
 	}
 
 	function getContent($nmCurrentTab, $nrCurrentPage){

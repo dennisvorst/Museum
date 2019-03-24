@@ -46,28 +46,8 @@ class Club extends SingleItemPage{
 		$this->nmsecondarycolor	= $this->ftrecord['nmsecondarycolor'];
 		$this->nmtertiarycolor	= $this->ftrecord['nmtertiarycolor'];
 
-		$this->featured			= $this->ftrecord['featured'];
+		$this->is_featured			= $this->ftrecord['is_featured'];
 	}
-
-//	function createThumbnail(){
-//		/* create the thumbnail image */
-//        $data = "<table>\n";
-//        $data .= "<tr>\n";
-//        $data .= "<td rowspan='3'>Clublogo</td>\n";
-//        $data .= "<td><a href='" . $this->getUrl() . "' >$this->nmfull</a></td>\n";
-//        $data .= "</tr>\n";
-
-//        $data .= "<tr>\n";
-//        $data .= "<td>$this->ftlocation</td>\n";
-//        $data .= "</tr>\n";
-
-//        $data .= "<tr>\n";
-//        $data .= "<td>$this->ftfield</td>\n";
-//        $data .= "</tr>\n";
-
-//        $data .= "</table>\n";
-//        return $data;
-//    }//createThumbnail
 
 	function createThumbnail($nrsize = 3){
 		/* create the thumbnail image */

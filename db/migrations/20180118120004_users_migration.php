@@ -3,7 +3,7 @@
 
 use Phinx\Migration\AbstractMigration;
 
-class PhotosMigration extends AbstractMigration
+class UsersMigration extends AbstractMigration
 {
     /**
      * Change Method.
@@ -36,28 +36,18 @@ class PhotosMigration extends AbstractMigration
      */
     public function up()
     {
-		$sql = "CREATE TABLE IF NOT EXISTS `photos` (";
-		$sql .= "`idphoto` int(11) NOT NULL AUTO_INCREMENT,";
-		$sql .= "`idsource` int(11) NOT NULL DEFAULT '0',";
-		$sql .= "`nmphotographer` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,";
-		$sql .= "`nrorder` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,";
-		$sql .= "`nryear` int(4) DEFAULT NULL,";
-		$sql .= "`dtpublish` date DEFAULT NULL,";
-		$sql .= "`idoriginal` tinyint(1) NOT NULL DEFAULT '0',";
-		$sql .= "`idmugshot` tinyint(1) NOT NULL DEFAULT '0',";
-		$sql .= "`idaction` tinyint(1) NOT NULL DEFAULT '0',";
-		$sql .= "`idteamphoto` tinyint(1) NOT NULL DEFAULT '0',";
-		$sql .= "`ftdepicted` text COLLATE utf8_unicode_ci,";
-		$sql .= "`ftdescription` text COLLATE utf8_unicode_ci,";
-		$sql .= "`is_featured` tinyint(1) NOT NULL DEFAULT '0',";
+
+		$sql = "CREATE TABLE `users` (";
+		$sql .= "`iduser` int(11) NOT NULL,";
+		$sql .= "`nmuser` varchar(20) NOT NULL,";
+		$sql .= "`ftemail` varchar(150) NOT NULL,";
+		$sql .= "`nmpassword` varchar(20) NOT NULL,";
 
 		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
 		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
-		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+		$sql .= "`changed_at` timestamp NULL DEFAULT NULL";
 
-		$sql .= "PRIMARY KEY (`idphoto`),";
-		$sql .= "KEY `idbron` (`idsource`)";
-		$sql .= ") ENGINE=InnoDB AUTO_INCREMENT=3100171 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='Photo data';";
+		$sql .= ") ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='User table';";
 
     	$count = $this->execute($sql);
 
@@ -67,6 +57,6 @@ class PhotosMigration extends AbstractMigration
      */
     public function down()
     {
-        $this->table('photos')->drop()->save();
+        $this->table('personaliases')->drop()->save();
     }
 }

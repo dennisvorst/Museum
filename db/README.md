@@ -105,6 +105,11 @@ ALTER TABLE `clubretired` ADD CONSTRAINT `ClubRetired_2` FOREIGN KEY (`idperson`
 /*clubvideos*/
 ALTER TABLE `clubvideos` ADD CONSTRAINT `ClubVideos_1` FOREIGN KEY (`idvideo`) REFERENCES `videos` (`id`);
 ALTER TABLE `clubvideos` ADD CONSTRAINT `ClubVideos_2` FOREIGN KEY (`idclub`) REFERENCES `clubs` (`idclub`);
+
+/*roles*/
+ALTER TABLE `roles` ADD CONSTRAINT `Roles_1` FOREIGN KEY (`idclub`) REFERENCES `clubs` (`idclub`);
+ALTER TABLE `roles` ADD CONSTRAINT `Roles_2` FOREIGN KEY (`idperson`) REFERENCES `persons` (`idperson`);
+
 ```
 
 

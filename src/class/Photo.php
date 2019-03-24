@@ -67,7 +67,7 @@ class Photo extends SingleItemPage{
 		$this->idteamphoto		= $this->ftrecord['idteamphoto'];
 		$this->ftdepicted		= $this->ftrecord['ftdepicted'];
 		$this->ftdescription	= $this->ftrecord['ftdescription'];
-		$this->featured			= $this->ftrecord['featured'];
+		$this->is_featured			= $this->ftrecord['is_featured'];
 	}
 
 //	function createThumbnail(){

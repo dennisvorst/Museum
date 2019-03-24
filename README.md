@@ -21,13 +21,11 @@ Website for the Dutch base- and softballmuseum.
 ## Shopping list (todo)
 
 * Figure out how to properly migrate and seed the database 
-* anonimify the player data
-* get rid of artisteer references 
 * create tests for existing classes
-* delete email class and test after creating first actual test.
-* change the email adres of the site inbto info@honkbalmuseum.nl
+* change the email adres of the site into info@honkbalmuseum.nl
 * build check to match photos and thumbnails with records 
-* the personarticles seed fails. Fix it by taking the seeder out and replacing it with the script 
+* anonimify the usersseeder 
+* anonimify the personsseeder
 
 ## Release info
 | Date | Description |
@@ -37,3 +35,4 @@ Website for the Dutch base- and softballmuseum.
 | 23 march 2019 | Added seeding using phinx |
 | 23 march 2019 | Added missing photo records |
 | 24 march 2019 | Deleted artisteer references |
+| 24 march 2019 | Changed database columns |

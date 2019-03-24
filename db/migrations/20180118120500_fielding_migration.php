@@ -54,10 +54,11 @@ class FieldingMigration extends AbstractMigration
 		$sql .= "`nrsbaperc` varchar(5) COLLATE utf8_unicode_ci DEFAULT NULL,";
 		$sql .= "`nrpb` int(3) DEFAULT NULL,";
 		$sql .= "`nrci` int(3) DEFAULT NULL,";
-		$sql .= "`dtlastmut` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',";
-		$sql .= "`nmlastmut` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,";
-		$sql .= "`dtprevmut` datetime DEFAULT NULL,";
-		$sql .= "`dtcreated` timestamp NOT NULL DEFAULT '2004-12-31 23:00:00',";
+
+		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
+		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
+		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+
 		$sql .= "PRIMARY KEY (`idfielding`),";
 		$sql .= "KEY `Fielding_1` (`idteam`),";
 		$sql .= "KEY `Fielding_2` (`idperson`),";

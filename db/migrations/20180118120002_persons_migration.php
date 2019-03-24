@@ -64,11 +64,12 @@ class PersonsMigration extends AbstractMigration
     	$sql .= "`idclub` int(11) DEFAULT NULL,";
     	$sql .= "`nmclubstart` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,";
     	$sql .= "`ftbiography` varchar(250) COLLATE utf8_unicode_ci DEFAULT NULL,";
-    	$sql .= "`featured` tinyint(1) DEFAULT NULL,";
-    	$sql .= "`dtlastmut` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',";
-    	$sql .= "`nmlastmut` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,";
-    	$sql .= "`dtprevmut` datetime DEFAULT NULL,";
-    	$sql .= "`dtcreated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
+    	$sql .= "`is_featured` tinyint(1) DEFAULT NULL,";
+
+		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
+		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
+		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+
     	$sql .= "PRIMARY KEY (`idperson`)";
     	$sql .= ") ENGINE=InnoDB AUTO_INCREMENT=1063 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci COMMENT='Persons table';";
 

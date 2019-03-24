@@ -41,10 +41,11 @@ class ClubarticlesMigration extends AbstractMigration
 		$sql .= "`idarticle` int(11) NOT NULL,";
 		$sql .= "`idclub` int(11) NOT NULL,";
 		$sql .= "`cdmanually` tinyint(1) NOT NULL DEFAULT '0',";
-		$sql .= "`dtlastmut` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',";
-		$sql .= "`nmlastmut` varchar(50) COLLATE utf8_unicode_ci NOT NULL,";
-		$sql .= "`dtprevmut` datetime DEFAULT NULL,";
-		$sql .= "`dtcreated` timestamp NOT NULL DEFAULT '2004-12-31 23:00:00',";
+
+		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
+		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
+		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+
 		$sql .= "PRIMARY KEY (`idarticleclub`),";
 		$sql .= "UNIQUE KEY `idarticle_2` (`idarticle`,`idclub`),";
 		$sql .= "KEY `ClubArticles_1` (`idclub`),";

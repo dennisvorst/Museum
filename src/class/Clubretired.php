@@ -117,9 +117,9 @@ class Clubretired extends SingleItemPage{
 					</td>
 					<td><input type="text" name="nrjersey<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['nrjersey']; ?>"></td>
 					<td><input type="hidden" name="idretired<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['idretired']; ?>"></td>
-					<td><input type="hidden" name="dtlastmut<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['dtlastmut']; ?>"></td>
-					<td><input type="hidden" name="nmlastmut<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['nmlastmut']; ?>"></td>
-					<td><input type="hidden" name="dtprevmut<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['dtprevmut']; ?>"></td>
+					<td><input type="hidden" name="updated_at<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['updated_at']; ?>"></td>
+					<td><input type="hidden" name="updated_by<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['updated_by']; ?>"></td>
+					<td><input type="hidden" name="created_at<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['created_at']; ?>"></td>
 
 					</td>
 				</tr>
@@ -152,9 +152,9 @@ class Clubretired extends SingleItemPage{
 					</td>
 					<td><input type="text" name="nrjersey1" value=""></td>
 					<td><input type="hidden" name="idretired1" value="<?php echo $this->getId(); ?>"></td>
-					<td><input type="hidden" name="dtlastmut1" value=""></td>
-					<td><input type="hidden" name="nmlastmut1" value=""></td>
-					<td><input type="hidden" name="dtprevmut1" value=""></td>
+					<td><input type="hidden" name="updated_at" value=""></td>
+					<td><input type="hidden" name="updated_by" value=""></td>
+					<td><input type="hidden" name="created_at" value=""></td>
 
 					</td>
 				</tr>
