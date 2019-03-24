@@ -36,3 +36,4 @@ Website for the Dutch base- and softballmuseum.
 | 22 march 2019 | Added migration using phinx |
 | 23 march 2019 | Added seeding using phinx |
 | 23 march 2019 | Added missing photo records |
+| 24 march 2019 | Deleted artisteer references |

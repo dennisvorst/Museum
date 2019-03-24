@@ -54,7 +54,7 @@ require_once "class/Videos.php";
 require_once "3rd/class/Mobile_Detect.php";
 
 //*********************************************************
-// *** Determine the device type 
+// *** Determine the device type
 //*********************************************************
 /* get the mobile properties */
 $detect = new Mobile_Detect;
@@ -118,7 +118,7 @@ if (empty($nmclass)){
 }
 ?>
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US"><head><!-- Created by Artisteer v4.1.0.59861 -->
+<html dir="ltr" lang="en-US"><head>
 	<!-- set the UTF-8 properties -->
 	<!-- as defined in : https://www.toptal.com/php/a-utf-8-primer-for-php-and-mysql -->
     <meta charset="UTF-8">
@@ -227,16 +227,16 @@ if (empty($nmclass)){
     </div>
     <!-- unobtrusive javascript -->
     <!-- jQuery library -->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
 	<!-- if it is not loaded -->
 	<script>window.jQuery || document.write('<script src="3rd/js/jquery-3.2.1.min.js"><\/script>');</script>
-    
+
     <!-- Bootstrap JavaScript Library -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- if it is not loaded -->
 	<script>window.jQuery || document.write('<script src="3rd/js/bootstrap.min.js"><\/script>');</script>
-    
+
 </body>
 </html>
