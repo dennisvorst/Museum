@@ -8,8 +8,5 @@ vendor/bin/phinx seed:run
 vendor/bin/phinx seed:run -s UserSeeder
 
 ## To Do 
-* User 
-* lineups 
-* relationships 
-* roles
-* clubretired
+* Persons
+* Users 

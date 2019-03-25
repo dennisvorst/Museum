@@ -36,3 +36,4 @@ Website for the Dutch base- and softballmuseum.
 | 23 march 2019 | Added missing photo records |
 | 24 march 2019 | Deleted artisteer references |
 | 24 march 2019 | Changed database columns |
+| 25 march 2019 | First tests added using PHPunit |
