@@ -6,8 +6,8 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 // *** Include Section
 //*********************************************************
-require_once "class/CheckBox.php";
-require_once "class/SingleItemPage.php";
+require_once "CheckBox.php";
+require_once "SingleItemPage.php";
 
 class Photo extends SingleItemPage{
 	var $debug 			= false;

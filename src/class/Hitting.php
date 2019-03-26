@@ -4,22 +4,22 @@ class Hitting{
 
 	/*** Hitting Stats ***/
 	/* Batting Average */
-	public static function calculateBattingAverage(int $totalHits = null, int $atBats = null): float{
+	public static function calculateBattingAverage(int $totalHits = null, int $atBats = null): float {
 		/* calculate the batting average 
 		totalHits = The total number of hits produced 
 		atBats = the number of at bats
 		*/	
 		if($totalHits > $atBats) {
-			throw new Exception('Total hits is larger than the number of at bats.');
+			throw new MyException('Total hits is larger than the number of at bats.', 10);
 		}		
 		
 		if (empty($atBats)){
 			/* there is no average when there were no at bats */
-			return "---";
+			return null;
 		}
 		$average	= ($totalHits/$atBats);
 		$average	= ltrim(number_format($average, 3), '0');;
-		return $average;
+		return "" . $average;
 	}
 	
 	/* Slugging Percentage */

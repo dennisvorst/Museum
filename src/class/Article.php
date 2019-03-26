@@ -3,11 +3,12 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-require_once "class/Date.php";
-require_once "class/Photo.php";
-require_once "class/Source.php";
-require_once "class/CheckBox.php";
-require_once "class/SingleItemPage.php";
+require_once "Date.php";
+require_once "Photo.php";
+require_once "Source.php";
+require_once "CheckBox.php";
+require_once "SingleItemPage.php";
+
 
 class Article extends SingleItemPage{
 	var $nmtitle	= "Artikelen";
@@ -56,8 +57,8 @@ class Article extends SingleItemPage{
 		$this->is_featured		= $this->ftrecord['is_featured'];
 
 		$this->created_at	= $this->ftrecord['created_at'];
-		$this->updated_at	= $this->ftrecord['updated_at'];
-		$this->updated_by	= $this->ftrecord['updated_by'];
+		$this->changed_at	= $this->ftrecord['changed_at'];
+		$this->changed_by	= $this->ftrecord['changed_by'];
 	}
 
 	function createThumbnail(){

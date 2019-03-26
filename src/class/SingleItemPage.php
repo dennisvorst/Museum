@@ -6,8 +6,8 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 // *** Include Section
 //*********************************************************
-require_once "class/MainPage.php";
-require_once "class/HtmlField.php";
+require_once "MainPage.php";
+require_once "HtmlField.php";
 
 class SingleItemPage extends MainPage{
 	var $debug	= false;
