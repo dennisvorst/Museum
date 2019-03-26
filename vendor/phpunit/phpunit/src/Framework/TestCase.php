@@ -119,12 +119,12 @@ abstract class TestCase extends Assert implements Test, SelfDescribing
     private $expectedException;
 
     /**
-     * @var string
+     * @var null|string
      */
     private $expectedExceptionMessage;
 
     /**
-     * @var string
+     * @var null|string
      */
     private $expectedExceptionMessageRegExp;
 
@@ -570,12 +570,12 @@ abstract class TestCase extends Assert implements Test, SelfDescribing
         return $this->expectedExceptionCode;
     }
 
-    public function getExpectedExceptionMessage(): string
+    public function getExpectedExceptionMessage(): ?string
     {
         return $this->expectedExceptionMessage;
     }
 
-    public function getExpectedExceptionMessageRegExp(): string
+    public function getExpectedExceptionMessageRegExp(): ?string
     {
         return $this->expectedExceptionMessageRegExp;
     }
@@ -787,9 +787,7 @@ abstract class TestCase extends Assert implements Test, SelfDescribing
                 $var['methodName'] = $this->name;
             }
 
-            $template->setVar(
-                $var
-            );
+            $template->setVar($var);
 
             $php = AbstractPhpProcess::factory();
             $php->runTestJob($template->render(), $this, $result);
@@ -1746,22 +1744,11 @@ abstract class TestCase extends Assert implements Test, SelfDescribing
                 }
 
                 if (!isset($passedKeys[$dependency])) {
-                    $this->status = BaseTestRunner::STATUS_SKIPPED;
-
-                    $this->result->startTest($this);
-
-                    $this->result->addError(
-                        $this,
-                        new SkippedTestError(
-                            \sprintf(
-                                'This test depends on "%s" to pass.',
-                                $dependency
-                            )
-                        ),
-                        0
-                    );
-
-                    $this->result->endTest($this, 0);
+                    if (!\is_callable($dependency, false, $callableName) || $dependency !== $callableName) {
+                        $this->markWarningForUncallableDependency($dependency);
+                    } else {
+                        $this->markSkippedForMissingDependecy($dependency);
+                    }
 
                     return false;
                 }
@@ -1798,6 +1785,40 @@ abstract class TestCase extends Assert implements Test, SelfDescribing
         }
 
         return true;
+    }
+
+    private function markSkippedForMissingDependecy(string $dependency): void
+    {
+        $this->status = BaseTestRunner::STATUS_SKIPPED;
+        $this->result->startTest($this);
+        $this->result->addError(
+            $this,
+            new SkippedTestError(
+                \sprintf(
+                    'This test depends on "%s" to pass.',
+                    $dependency
+                )
+            ),
+            0
+        );
+        $this->result->endTest($this, 0);
+    }
+
+    private function markWarningForUncallableDependency(string $dependency): void
+    {
+        $this->status = BaseTestRunner::STATUS_WARNING;
+        $this->result->startTest($this);
+        $this->result->addWarning(
+            $this,
+            new Warning(
+                \sprintf(
+                    'This test depends on "%s" which does not exist.',
+                    $dependency
+                )
+            ),
+            0
+        );
+        $this->result->endTest($this, 0);
     }
 
     /**

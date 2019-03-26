@@ -188,7 +188,7 @@ abstract class Assert
         }
 
         if ($checkForObjectIdentity !== true) {
-            self::createWarning('The optional $checkForObjectIdentity parameter of assertContains() is deprecated and will be removed in PHPUnit 9.');
+            self::createWarning('The optional $checkForObjectIdentity parameter of assertContains() is deprecated and will be removed in PHPUnit 9. Refactor your test to use assertContainsEquals() instead.');
         }
 
         if ($checkForNonObjectIdentity !== false) {
@@ -225,6 +225,13 @@ abstract class Assert
                 'array, traversable or string'
             );
         }
+
+        static::assertThat($haystack, $constraint, $message);
+    }
+
+    public static function assertContainsEquals($needle, iterable $haystack, string $message = ''): void
+    {
+        $constraint = new TraversableContains($needle, false, false);
 
         static::assertThat($haystack, $constraint, $message);
     }
@@ -272,7 +279,7 @@ abstract class Assert
         }
 
         if ($checkForObjectIdentity !== true) {
-            self::createWarning('The optional $checkForObjectIdentity parameter of assertNotContains() is deprecated and will be removed in PHPUnit 9.');
+            self::createWarning('The optional $checkForObjectIdentity parameter of assertNotContains() is deprecated and will be removed in PHPUnit 9. Refactor your test to use assertNotContainsEquals() instead.');
         }
 
         if ($checkForNonObjectIdentity !== false) {
@@ -313,6 +320,13 @@ abstract class Assert
                 'array, traversable or string'
             );
         }
+
+        static::assertThat($haystack, $constraint, $message);
+    }
+
+    public static function assertNotContainsEquals($needle, iterable $haystack, string $message = ''): void
+    {
+        $constraint = new LogicalNot(new TraversableContains($needle, false, false));
 
         static::assertThat($haystack, $constraint, $message);
     }
@@ -1409,7 +1423,7 @@ abstract class Assert
      */
     public static function assertClassHasAttribute(string $attributeName, string $className, string $message = ''): void
     {
-        if (!self::isValidAttributeName($attributeName)) {
+        if (!self::isValidClassAttributeName($attributeName)) {
             throw InvalidArgumentHelper::factory(1, 'valid attribute name');
         }
 
@@ -1429,7 +1443,7 @@ abstract class Assert
      */
     public static function assertClassNotHasAttribute(string $attributeName, string $className, string $message = ''): void
     {
-        if (!self::isValidAttributeName($attributeName)) {
+        if (!self::isValidClassAttributeName($attributeName)) {
             throw InvalidArgumentHelper::factory(1, 'valid attribute name');
         }
 
@@ -1455,7 +1469,7 @@ abstract class Assert
      */
     public static function assertClassHasStaticAttribute(string $attributeName, string $className, string $message = ''): void
     {
-        if (!self::isValidAttributeName($attributeName)) {
+        if (!self::isValidClassAttributeName($attributeName)) {
             throw InvalidArgumentHelper::factory(1, 'valid attribute name');
         }
 
@@ -1479,7 +1493,7 @@ abstract class Assert
      */
     public static function assertClassNotHasStaticAttribute(string $attributeName, string $className, string $message = ''): void
     {
-        if (!self::isValidAttributeName($attributeName)) {
+        if (!self::isValidClassAttributeName($attributeName)) {
             throw InvalidArgumentHelper::factory(1, 'valid attribute name');
         }
 
@@ -1507,7 +1521,7 @@ abstract class Assert
      */
     public static function assertObjectHasAttribute(string $attributeName, $object, string $message = ''): void
     {
-        if (!self::isValidAttributeName($attributeName)) {
+        if (!self::isValidObjectAttributeName($attributeName)) {
             throw InvalidArgumentHelper::factory(1, 'valid attribute name');
         }
 
@@ -1533,7 +1547,7 @@ abstract class Assert
      */
     public static function assertObjectNotHasAttribute(string $attributeName, $object, string $message = ''): void
     {
-        if (!self::isValidAttributeName($attributeName)) {
+        if (!self::isValidObjectAttributeName($attributeName)) {
             throw InvalidArgumentHelper::factory(1, 'valid attribute name');
         }
 
@@ -3017,7 +3031,7 @@ abstract class Assert
     {
         self::createWarning('readAttribute() is deprecated and will be removed in PHPUnit 9.');
 
-        if (!self::isValidAttributeName($attributeName)) {
+        if (!self::isValidClassAttributeName($attributeName)) {
             throw InvalidArgumentHelper::factory(2, 'valid attribute name');
         }
 
@@ -3066,7 +3080,7 @@ abstract class Assert
             throw InvalidArgumentHelper::factory(1, 'class name');
         }
 
-        if (!self::isValidAttributeName($attributeName)) {
+        if (!self::isValidClassAttributeName($attributeName)) {
             throw InvalidArgumentHelper::factory(2, 'valid attribute name');
         }
 
@@ -3109,7 +3123,7 @@ abstract class Assert
             throw InvalidArgumentHelper::factory(1, 'object');
         }
 
-        if (!self::isValidAttributeName($attributeName)) {
+        if (!self::isValidClassAttributeName($attributeName)) {
             throw InvalidArgumentHelper::factory(2, 'valid attribute name');
         }
 
@@ -3211,7 +3225,12 @@ abstract class Assert
         return $hint;
     }
 
-    private static function isValidAttributeName(string $attributeName): bool
+    private static function isValidObjectAttributeName(string $attributeName): bool
+    {
+        return (bool) \preg_match('/[^\x00-\x1f\x7f-\x9f]+/', $attributeName);
+    }
+
+    private static function isValidClassAttributeName(string $attributeName): bool
     {
         return (bool) \preg_match('/[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/', $attributeName);
     }

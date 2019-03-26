@@ -142,6 +142,13 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
     );
 
     public static $prefixesPsr0 = array (
+        '\\' => 
+        array (
+            '\\' => 
+            array (
+                0 => __DIR__ . '/../..' . '/src/class',
+            ),
+        ),
         'P' => 
         array (
             'Prophecy\\' => 
@@ -164,11 +171,12 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
         'Country' => __DIR__ . '/../..' . '/src/class/Country.php',
         'DataBase' => __DIR__ . '/../..' . '/src/class/Database.php',
         'Date' => __DIR__ . '/../..' . '/src/class/Date.php',
-        'Email' => __DIR__ . '/../..' . '/src/Email.php',
+        'Email' => __DIR__ . '/../..' . '/src/class/Email.php',
         'Game' => __DIR__ . '/../..' . '/src/class/Game.php',
         'Games' => __DIR__ . '/../..' . '/src/class/Games.php',
         'HallOfFamers' => __DIR__ . '/../..' . '/src/class/HallOfFamers.php',
         'Help' => __DIR__ . '/..' . '/phpunit/phpunit/src/Util/Help.php',
+        'Hitting' => __DIR__ . '/../..' . '/src/class/Hitting.php',
         'Home' => __DIR__ . '/../..' . '/src/class/Home.php',
         'HtmlField' => __DIR__ . '/../..' . '/src/class/HtmlField.php',
         'HtmlGrid' => __DIR__ . '/../..' . '/src/class/HtmlGrid.php',
@@ -325,6 +333,7 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
         'PHPUnit\\Runner\\BaseTestRunner' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/BaseTestRunner.php',
         'PHPUnit\\Runner\\BeforeFirstTestHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/BeforeFirstTestHook.php',
         'PHPUnit\\Runner\\BeforeTestHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/BeforeTestHook.php',
+        'PHPUnit\\Runner\\DefaultTestResultCache' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/DefaultTestResultCache.php',
         'PHPUnit\\Runner\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Exception.php',
         'PHPUnit\\Runner\\Filter\\ExcludeGroupFilterIterator' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Filter/ExcludeGroupFilterIterator.php',
         'PHPUnit\\Runner\\Filter\\Factory' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Filter/Factory.php',
@@ -339,7 +348,6 @@ class ComposerStaticInit4e4325d044e6061e6e5851adaafe6054
         'PHPUnit\\Runner\\TestHook' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/TestHook.php',
         'PHPUnit\\Runner\\TestListenerAdapter' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Hook/TestListenerAdapter.php',
         'PHPUnit\\Runner\\TestResultCache' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/TestResultCache.php',
-        'PHPUnit\\Runner\\TestResultCacheInterface' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/TestResultCacheInterface.php',
         'PHPUnit\\Runner\\TestSuiteLoader' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/TestSuiteLoader.php',
         'PHPUnit\\Runner\\TestSuiteSorter' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/TestSuiteSorter.php',
         'PHPUnit\\Runner\\Version' => __DIR__ . '/..' . '/phpunit/phpunit/src/Runner/Version.php',
