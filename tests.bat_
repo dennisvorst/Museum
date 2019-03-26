@@ -1,0 +1,9 @@
+REM https://phpunit.de/getting-started/phpunit-8.html
+REM .\vendor\bin\phpunit --bootstrap .\vendor\autoload.php --testdox tests
+<<<<<<< HEAD
+REM .\vendor\bin\phpunit --bootstrap .\vendor\autoload.php .\tests\EmailTest
+
+.\vendor\bin\phpunit --bootstrap .\vendor\autoload.php .\tests\Unit\
+=======
+.\vendor\bin\phpunit --bootstrap .\vendor\autoload.php .\tests\Unit
+>>>>>>> bd0243425073a5b74228a95c20f6164a6dff34ad
