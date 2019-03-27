@@ -32,12 +32,12 @@ class Videos extends ListPage{
 		}
 
 		/* get the total number of elements */
-		$ftquery = "SELECT count(*) AS nrtotal FROM clubvideos cv, videos v WHERE v.idvideo = cv.idvideo AND cv.idclub = $id";
+		$ftquery = "SELECT count(*) AS nrtotal FROM clubvideos cv, videos v WHERE v.id = cv.idvideo AND cv.idclub = $id";
 		$nrTotPages = $this->queryDB($ftquery);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the videos */
-		$ftquery = "SELECT v.* FROM clubvideos cv, videos v WHERE v.idvideo = cv.idvideo AND cv.idclub = $id ORDER BY v.nmvideo";
+		$ftquery = "SELECT v.* FROM clubvideos cv, videos v WHERE v.id = cv.idvideo AND cv.idclub = $id ORDER BY v.nmvideo";
 		$this->ftrows = $this->queryDB($ftquery);
 
 		return $this->getTabPage("club", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
@@ -49,12 +49,12 @@ class Videos extends ListPage{
 		*/
 
 		/* get the total number of elements */
-		$ftquery = "SELECT count(*) AS nrtotal FROM personvideos pv, videos v WHERE v.idvideo = pv.idvideo AND pv.idperson = $id";
+		$ftquery = "SELECT count(*) AS nrtotal FROM personvideos pv, videos v WHERE v.id = pv.idvideo AND pv.idperson = $id";
 		$nrTotPages = $this->queryDB($ftquery);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the videos */
-		$ftquery = "SELECT v.* FROM personvideos pv, videos v WHERE v.idvideo = pv.idvideo AND pv.idperson = $id ORDER BY v.nmvideo";
+		$ftquery = "SELECT v.* FROM personvideos pv, videos v WHERE v.id = pv.idvideo AND pv.idperson = $id ORDER BY v.nmvideo";
 		$this->ftrows = $this->queryDB($ftquery);
 
 		return $this->getTabPage("person", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);

@@ -22,7 +22,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '46',
 	'ftdescription' => 'Cranston rondt het derde honk in de simpel gewonnen thuiswedstrijd tegen Kinheim',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2',
@@ -30,7 +30,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '45',
 	'ftdescription' => 'Caroline Straver in actie tegen Terrasvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '3',
@@ -38,7 +38,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '44',
 	'ftdescription' => 'Ronald Jaarsma aan slag voor HCAW in een van de makkelijk gewonnen wedstrijden tegen Almere.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '4',
@@ -46,7 +46,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '43',
 	'ftdescription' => 'RCH-coach Tony Rombley blijft optimistisch ondanks de sombere vooruitzichten. \'Degradatie? Nee, daarhouden we geen rekening mee\'.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '5',
@@ -54,7 +54,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '42',
 	'ftdescription' => 'Draijer was bijzonder goed op dreef voor HCAW in het thuisduel met Expos.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '6',
@@ -62,7 +62,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '41',
 	'ftdescription' => 'De werper van Hilversum staat klaar om de vijandelijke slagman met een pitch te bestoken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '7',
@@ -70,7 +70,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '40',
 	'ftdescription' => 'Ralph Milliard: \'Ik heb overal schijt aan\'.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '8',
@@ -78,7 +78,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '39',
 	'ftdescription' => 'Amsterdam Expos slaat ook tegen Pioniers zijn slag. De Amsterdammers bleven door de dubbele zege ongeslagen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '9',
@@ -86,7 +86,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '38',
 	'ftdescription' => 'Ralph Milliard: \" Dat contracteren van een speler voor mijn positie was het laatste duwtje dat ik nodig had.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '10',
@@ -94,7 +94,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '37',
 	'ftdescription' => 'Patrick de Lange bestookt een ADO\'er met een Curvebal',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '11',
@@ -102,7 +102,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '36',
 	'ftdescription' => 'HCAW-catcher Nick Fridsma heeft de door Neptunus-slagman Percy Isenia gemiste bal al in de handschoen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '12',
@@ -110,7 +110,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '35',
 	'ftdescription' => 'Tweede honkman Willy Reineta van ADO springt omhoog om Kinheim-speler Raymond Hofer te ontwijken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '14',
@@ -118,7 +118,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '33',
 	'ftdescription' => 'Danny Wout: \"In de tijd dat ik geblesseerd was en dacht dat ik nooit meer op de heuvel zou staan, heb ik wel honderd keer in m\'n plakboek zitten bladeren\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '15',
@@ -126,7 +126,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '32',
 	'ftdescription' => 'Herman Thomas (gehurkt) en Bas Langezaal, het coachingduo van HCAW dat dit seizoen het Haarlemse machtsblok wil breken. \"Ze vinden dat daar altijd alles beter is, en de laatste jaren had men er ook recht van spreken. Maar het moment van struikelen is nabi',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '16',
@@ -134,7 +134,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '31',
 	'ftdescription' => 'Coach Hickinson geeft tekens aan de slagvrouw van Zuidvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '17',
@@ -142,7 +142,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '30',
 	'ftdescription' => 'Jurriaan Lobbezoo',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '18',
@@ -150,7 +150,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '7',
 	'ftdescription' => 'HCAW-pitcher Michiel van Kampen bestookt een opponent van Tornado\'s met een curvebal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '19',
@@ -158,7 +158,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '8',
 	'ftdescription' => 'Frank Koene :\"Ik ben, denk ik, wel een typische gozer met inderdaad een grote bek.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '20',
@@ -166,7 +166,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '9',
 	'ftdescription' => 'Wayne Norton: \"Goodwill kweken en de sport promoten, dat is onze insteek\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '21',
@@ -174,7 +174,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '10',
 	'ftdescription' => 'Frank Koene: \"De kern van HCAW heeft ook niet het eeuwige leven.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '22',
@@ -182,7 +182,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '11',
 	'ftdescription' => 'Tweede-honkman Lars Koehorst kon gisteren tegen Pioniers niet voorkomen dat de opponent van Pioniers net op tijd het honk bereikte.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '23',
@@ -190,7 +190,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '12',
 	'ftdescription' => 'De slagman van Hilversum Hurricanes wacht op de aangooi van de pitcher van Falcons Lelystad.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '24',
@@ -198,7 +198,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '13',
 	'ftdescription' => 'Carolien Straver heeft net een bal gegooid naar een slagvrouw van Terrasvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '25',
@@ -206,7 +206,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '14',
 	'ftdescription' => 'Lloyd Todmann: \"Ik wil dat mijn team de tegenstander sloopt. Die bal moet over of tegen de hekken',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '26',
@@ -214,7 +214,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '15',
 	'ftdescription' => 'Alexander Smit',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '27',
@@ -222,7 +222,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '16',
 	'ftdescription' => 'Quincy Bernardus rondt het derde honk en is op weg naar de gelijkmaker van HCAW tegen PSV.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '28',
@@ -230,7 +230,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '17',
 	'ftdescription' => 'Marcel Ultee, de nieuwe coach van Hilversum:\"We moeten proberen ons te handhaven, maar lukt dat niet dan is er nog geen man overboord. Mijn belangrijkste doel is om die jongens enthousiast te maken voor het honkbal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '29',
@@ -238,7 +238,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '18',
 	'ftdescription' => 'De tirade van HCAW-baas Ron Jaarsma over de partijdige arbitrage heeft voor een fikse nasleep gezorgd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '30',
@@ -246,7 +246,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '19',
 	'ftdescription' => 'HCAW-slagman Ronald Jaarsma deinst terug voor een worp van Neptunus-pitcher Rob Cordemans',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '31',
@@ -254,7 +254,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '20',
 	'ftdescription' => 'HCAW\'er Ralph Milliard maakt dubbelspel in het zaterdagse duel met Almere',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '32',
@@ -262,7 +262,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '21',
 	'ftdescription' => 'Ralph Milliard heeft het in Nederland prima naar zijn zin.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '33',
@@ -270,7 +270,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '22',
 	'ftdescription' => 'Jurjan Koenen tikt de honkloper van RCH die op weg is naar het derde honk uit, om vervolgens de bal naar een te gooien voor het dubbelspel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '34',
@@ -278,7 +278,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '23',
 	'ftdescription' => 'Steve Murray',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '35',
@@ -286,7 +286,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '24',
 	'ftdescription' => 'Micky Jansen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '36',
@@ -294,7 +294,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '25',
 	'ftdescription' => 'De nieuwe werper van HCAW, de Canadees Steve Murray, gooide gisteren zijn eerste vijf innings voor de club',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '37',
@@ -302,7 +302,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '26',
 	'ftdescription' => 'Caroline Straver in opperste concentratie in de doubleheader tegen Schiedam.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '38',
@@ -310,7 +310,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '27',
 	'ftdescription' => 'Robert Eenhoorn (midden), bondscoach van de Nederlandse honkbalploeg \"Voor mij is iedere wedstrijd hetzelfde.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '39',
@@ -318,7 +318,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '28',
 	'ftdescription' => 'Jurriaan Lobbezoo',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '40',
@@ -326,7 +326,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '29',
 	'ftdescription' => 'Na twaalf jaar keerde Dave Daniels terug als hoofdcoach bij HCAW. \"Ik ben hier teruggekomen om straks goed afscheid te kunnen nemen...\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '41',
@@ -334,7 +334,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '47',
 	'ftdescription' => 'Een van de HCAW-werpers in actie tegen Pioniers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '42',
@@ -342,7 +342,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '48',
 	'ftdescription' => 'Expos-coach Chico Jesurun kijkt bij voorkeur naar boven.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '43',
@@ -350,7 +350,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '49',
 	'ftdescription' => 'Maaike Zijlstra in actie',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '44',
@@ -358,7 +358,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '50',
 	'ftdescription' => 'Patrick Beljaards',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '45',
@@ -366,7 +366,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '51',
 	'ftdescription' => 'Rob Bus: ,,Ik denk dat als we met een aantal verstandige mensen een keertje uit eten gaan de hele zaak met Neptunus in een avond uit de wereld is.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '46',
@@ -374,7 +374,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '52',
 	'ftdescription' => 'Micky Jansen en Maud Braakman',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '47',
@@ -382,7 +382,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '53',
 	'ftdescription' => 'Een speler van Neptunus komt te laat op het honk in het duel met HCAW',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '48',
@@ -390,7 +390,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '121',
 	'ftdescription' => 'HCAW-catcher Nick Fridsma blijft knap overeind op het moment dat Neptuniaan Johnny Balentina de thuisplaat probeert te bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '49',
@@ -398,7 +398,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '123',
 	'ftdescription' => 'HCAW pitchers Bas van Leeuwen en Remy Meijer honkballen momenteel in Lausanne, Zwitserland op het Europees kampioenschap voor de jeugd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '50',
@@ -406,7 +406,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '124',
 	'ftdescription' => 'Edsel Martis gaat in het nieuwe seizoen de reserves van Mr. Cocker HCAW. Daarmee halen de Bussummers een flinke dosis ervaring en kennis in huis.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '51',
@@ -414,7 +414,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '125',
 	'ftdescription' => 'Michael Duursma van HCAW arriveert net te laat op het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '52',
@@ -422,7 +422,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '126',
 	'ftdescription' => 'Carolien Straver wierp goed, maar HCAW had er weinig baat bij.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '53',
@@ -430,7 +430,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '127',
 	'ftdescription' => 'Korte stop Michael Duursma van HCAW mist de bal, waardoor Bob van Aalen van Neptunus veilig het tweede honk kan bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '54',
@@ -438,7 +438,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '128',
 	'ftdescription' => 'Pitcher RenÃ© Rijst (vierde van links) wordt besprongen door ploeggenoten van HCAW nadat de niet zichtbare Jeffrey Cranston met een schitterende vangbal de laatste nul heeft gemaakt tegen Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '55',
@@ -446,7 +446,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '127',
 	'ftdescription' => 'Na een foutje van korte-stop Michael Duursma kan Neptuniaan Bob van Aalen het tweede honk bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '56',
@@ -454,7 +454,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '128',
 	'ftdescription' => 'De HCAW-spelers bespringen elkaar na de bizarre ontknoping van de strijd om het kampioenschap.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '57',
@@ -462,7 +462,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '129',
 	'ftdescription' => 'De honkballers van HCAW bevestigden hun vorm van de reguliere competitie in de Holland Series. In de finale versloegen zij in vier wedstrijden het Rotterdamse Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '58',
@@ -470,7 +470,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '130',
 	'ftdescription' => 'Mr. Cocker HCAW doet komend seizoen weer mee om de landstitel',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '59',
@@ -478,7 +478,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '131',
 	'ftdescription' => 'HCAWÃ©r Roy Berrevoets houdt nauwlettend een RCHÃ©r in de gaten',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '60',
@@ -486,7 +486,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '132',
 	'ftdescription' => 'HCAWÂ´er Jeffrey Cranston bereikt de thuisplaat',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '61',
@@ -494,7 +494,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '133',
 	'ftdescription' => 'Het veelbelovende junioren-A-team van de Honkbalclub Allen Weerbaar, met coach F. Vrenegoor en de jongste HCAW-er, de zoon van voorzitter I. v. d. Schouw.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '62',
@@ -502,7 +502,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '134',
 	'ftdescription' => 'Herman Beidschat (links) en Rob Hoffman: perfect game.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '63',
@@ -510,14 +510,14 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '135',
 	'ftdescription' => 'Hier is Boudewijn Maat hard op weg de eerste run voor Nederland te scoren. Hij bereikt het derde honk op een honkslag; van Rueben Leysner, terwijl Spanjes derde honkman Vega vergeefs op de bal wacht',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '64',
 	'idarticle' => '335',
 	'idphoto' => '136',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '65',
@@ -525,7 +525,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '137',
 	'ftdescription' => ',,Uit zegt de scheidsrechter op het eerste honk, waar de Oranje-man Dolf de Zwart net te laat arriveert om de Italiaanse stellingen opnieuw uit balans te brengen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '66',
@@ -533,7 +533,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '138',
 	'ftdescription' => 'Boudewijn Maat heeft zijn honk al verlaten en maakt al aanstalten de bal terug te werpen, als Cameroni (7) het honk bereikt. Scheidsrechter Romoglia heft de arm: Cameroni is out.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '67',
@@ -541,7 +541,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '34',
 	'ftdescription' => 'Zuidvogels-coach Alex Nansink (links):\"Het is een trieste zaak dat de club zo laag speelt\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '68',
@@ -550,7 +550,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'ftdescription' => 'Jaap de Koning
 ...zilver...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '69',
@@ -558,7 +558,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '1',
 	'ftdescription' => 'BUSSUM - Ans van Thienen van  ORVVO/HCAW wordt uitgetikt op  het  1e honk na een poging het 2e honk te stelen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '70',
@@ -566,7 +566,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '2',
 	'ftdescription' => 'BUSSUM â€” De dames van ORWO-HCAW wonnen zondag nipt (2-1) van Actie \'68. Het was de strijd voor de bovenste plaats, die de Bussumse dames nu alleen bezetten. Eveline Verdam (foto) opent hier de score. Zij is met clubgenote Jeanet Poort in de selectie van Jong Oranje opgenomen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '71',
@@ -574,7 +574,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '5',
 	'ftdescription' => 'BUSSUM â€” De dames van ORWO-HCAW boekten zondag de vijfde achtereenvolgende overwinning. Nu moest het Brabantse Roef eraan geloven. Het werd 13-2 voor de Bussumse dames. Hier op de foto scoort Ria Platvoet â€žÃ©Ã©n van de dertien\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '72',
@@ -582,7 +582,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '175',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '73',
@@ -590,7 +590,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '176',
 	'ftdescription' => 'Buitisma van Sparta heeft de bal pas gevangen, nadat de OVVO\'er Wedman het eerste honk heeft bereikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '74',
@@ -598,7 +598,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '3',
 	'ftdescription' => 'BUSSUM â€” Twee duizend man waren er zondagmiddag Ã¯n de Honkbalvallei bij de wedstrijd ORWO-HCAWâ€”Dorlas Quick en bleven bijna drie en een half uur in de ban van deze titanenstrijd, die tenslotte onbeslist (2â€”2) eindigde. Hier op de foto steelt Roy Jansen het derde honk. Hij zou niet verder komen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '75',
@@ -606,7 +606,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '178',
 	'ftdescription' => 'De kampioensploeg van het Bussumse HCAW verlaat verheugd het veld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '76',
@@ -614,7 +614,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '179',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '77',
@@ -622,7 +622,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '180',
 	'ftdescription' => 'Haarlem-Nicols\' coach Ge HOOGENBOS plannen voor betere ontwikkeling van de honkbalsport.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '78',
@@ -630,7 +630,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '181',
 	'ftdescription' => 'Jan Schriek - hulpcoach ORWO HCAW',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '79',
@@ -638,7 +638,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '182',
 	'ftdescription' => 'Ronald Jaarsma gaat door toedoen van Pionier Johnny Walker uit bij een steelpoging.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '80',
@@ -646,7 +646,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '183',
 	'ftdescription' => 'Jurjan Koenen tikt op het derde honk Johnny Balentina uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '81',
@@ -654,7 +654,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '184',
 	'ftdescription' => 'Patrick de Lange hield zaterdag de slagploeg van Kinheim onder de duim.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '82',
@@ -662,7 +662,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '185',
 	'ftdescription' => 'HCAW\'er Michael Duursma (8) tikt een honkloper van Neptunus uit. Het mocht niet baten. De Bussummers gingen in de vierde wedstrijd in de Holland Series met 7-2 onderuit en moesten de landstitel laten aan Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '83',
@@ -670,7 +670,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '186',
 	'ftdescription' => 'Roy Berrevoets: â€žIk heb wÃ©l respect voor Farley. Ik ben het gewoon lang niet altijd met hem eens\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '84',
@@ -678,7 +678,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '187',
 	'ftdescription' => 'Kinheim-rechtsvelder Gershwin Baly bereikt in de zesde inning veilig het derde honk. De aangooi van rechtsvelder Glenn Romney is te laat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '85',
@@ -686,7 +686,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '188',
 	'ftdescription' => 'En dat is drie! De honkballers van Neptunus vieren een feestje, inclusief high-fives, na de derde zege in de best-of-five tegen Pioniers. De Rotterdammers kunnen zich nu gaan opmaken voor de Holland Series tegen HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '86',
@@ -694,7 +694,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '189',
 	'ftdescription' => 'HCAW-catcher Max Brevet tikt in het duel van zaterdag met Kinheim een tegenstander uit op de thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '87',
@@ -702,7 +702,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '190',
 	'ftdescription' => 'Het beslissende moment in de honkbalwedstrijd HCAWâ€”ABC. Rob van der Gaast sloeg in de laatste inning een homerun en wordt hier door zijn clubgenoten in triomf binnengehaald.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '88',
@@ -710,7 +710,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '191',
 	'ftdescription' => 'Ada Majoor ...alleen spelen...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '89',
@@ -718,7 +718,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '192',
 	'ftdescription' => 'Johnny Gutierrez ...hoopvol...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '90',
@@ -726,7 +726,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '193',
 	'ftdescription' => 'Honkbalstadion vlak voor de opening.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '91',
@@ -734,7 +734,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '194',
 	'ftdescription' => 'Jan D. Swart',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '92',
@@ -742,7 +742,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '195',
 	'ftdescription' => 'Ignace Boel ...principe...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '93',
@@ -750,7 +750,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '196',
 	'ftdescription' => 'Ignace Boel (links, 17 jaar) en Bob Krijnen (rechts, 18 jaar) spelen dit jaar waarschijnlijk in het tweede team van HCAW. In de Nederlandse jeugdploeg zullen zij niet uitkomen, want ze willen niet naar de kapper gestuurd worden: â€žBeroving van persoonlijke vrijheid\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '94',
@@ -758,7 +758,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '199',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '95',
@@ -766,7 +766,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '255',
 	'ftdescription' => 'BUSSUM - Peter van der Ster ontwijkt handig een poging van Hudson John om hem uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '96',
@@ -774,7 +774,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '256',
 	'ftdescription' => 'ADE FYTH: eerste no-run zege tegen Hans Corpeleijn\'s ADO.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '97',
@@ -782,7 +782,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '257',
 	'ftdescription' => 'Razendsnel gooit OVVO-man Paul Smit zich languit terug op het tweede honk, HCAW-eerste honkman Rob de Graeve kan hem niet meer uittikken',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '98',
@@ -790,7 +790,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '258',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '99',
@@ -798,7 +798,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '259',
 	'ftdescription' => 'Achtervanger Crouwel (OVVO) tikt de Spartaan Van de Wilk uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '100',
@@ -806,7 +806,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '260',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '101',
@@ -814,7 +814,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '261',
 	'ftdescription' => 'Wim Hageman bereikt het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '102',
@@ -822,7 +822,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '262',
 	'ftdescription' => 'Arnoud Blom bereikt hier met een buiklanding veilig het tweede honk,',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '103',
@@ -830,7 +830,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '263',
 	'ftdescription' => 'De Amerikaan Southwick toonde zich tijdens zijn eerste wedstrijd al onmiddellijk produktief door snel een home-run te slaan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '104',
@@ -838,7 +838,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '264',
 	'ftdescription' => 'Harry van de Berg, door Sparta-coach Van de Tol doorgestuurd naar de thuisplaat wordt uitgemaakt door Nicote-catcher Arnoud Blom (links).',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '105',
@@ -846,7 +846,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '265',
 	'ftdescription' => 'JOHN VAN WESTRENEN: baan boven honkbal',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '106',
@@ -854,7 +854,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '266',
 	'ftdescription' => 'Een spectaculair standje bij Feijenoordâ€”Orwo HCAW',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '107',
@@ -862,7 +862,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '267',
 	'ftdescription' => 'Herman Beidschat: â€žEigenlijk hoop ik niet, dat Nederland Europees kampioen wordt. Dan zal men eindelijk inzien, dat er iets gedaan moet worden.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '108',
@@ -870,7 +870,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '268',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '109',
@@ -878,7 +878,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '269',
 	'ftdescription' => 'hulocoach Jan Schriek (links) kijkt toe hoe Alvin Martha het eerste honk bereikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '110',
@@ -886,7 +886,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '264',
 	'ftdescription' => 'Dit is het einde van het topduel tussen Sparta Ã©n Raak Nicols. Herrie van de Berg van de Roterdamse wordt op de â€žthuisplaat\" uitgetikt door achtervanger Blom.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '111',
@@ -894,7 +894,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '191',
 	'ftdescription' => 'Ada Majoor (ORWO HCAW)',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '112',
@@ -902,7 +902,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '270',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '113',
@@ -910,7 +910,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '271',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '114',
@@ -918,7 +918,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '273',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '115',
@@ -926,7 +926,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '274',
 	'ftdescription' => 'Marianne van Diemen en Leo Nagtegaal nog in sportkostuum, volgende   week in bruidstooi',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '116',
@@ -934,7 +934,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '267',
 	'ftdescription' => 'Werper Herman Beidschat moest zijn ploeg Nicols op de heuvel te hulp schieten om ADO-winst te voorkomen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '117',
@@ -942,7 +942,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '275',
 	'ftdescription' => 'Het Hoofdklasseteam van ORWO/HCAW uit Bussum dat j.l. zondag de juiste inzet en spelinzicht demonstreerde en de Gooise honkballiefhebbers a.s. zaterdag 2 juni in de honkbalvallei hopenlijk opnieuw met een overwinning verrast. Tegenstander is Hotam /STORKS uit Haarlem.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '118',
@@ -950,7 +950,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '276',
 	'ftdescription' => 'Een verlaten honkbalvallei. Een ongebruikelijk beeld op een tijdstip waarop het eerste honkbalnegental van ORWO HCAW zijn thuiswedstrijden pleegt te spelen. De regen was het afgelopen weekeinde echter de grote spelbreker. Het gehele honkbalprogramma moest worden afgelast.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '119',
@@ -958,7 +958,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '278',
 	'ftdescription' => 'Veilig op het honk: maar wel met het gravel tot diep in de keel. Deze HCAW\'er moest daarom even spugen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '120',
@@ -966,7 +966,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '279',
 	'ftdescription' => 'Jeffrey Cranston duikt op tijd op het kussen. De Sparta-honkman komt net te laat',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '121',
@@ -974,7 +974,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '281',
 	'ftdescription' => 'Orlando Stewart was zaterdag prima op dreef namens Sparta, maar hij had de pech dat HCAW-collega Patrick Tensen ook uitstekend voor de dag kwam.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '122',
@@ -982,7 +982,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '282',
 	'ftdescription' => 'Jurjan Koenen wordt onthaald door ploeggenoten na. een punt in de wedstrijd van zaterdag tegen Quick.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '123',
@@ -990,7 +990,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '283',
 	'ftdescription' => 'Coen Lammerts van Pioniers bereikt veilig het tweede honk omdat ADO\'s Korte stop Eugene Henson de bal mist.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '124',
@@ -998,7 +998,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '284',
 	'ftdescription' => 'Een Bussumse homerun wordt in het HCAW-kamp luid bejubeld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '125',
@@ -1006,7 +1006,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '285',
 	'ftdescription' => 'Henny Jenken heeft er, ondanks het feit dat hij nog niet echt heeft kunnen inventariseren, vertrouwen in dat HCAW hoog gaat eindigen dit jaar.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '126',
@@ -1014,7 +1014,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '287',
 	'ftdescription' => 'De uit Amerika terug gekeerde werper Mike Crouwel is een enorme aanwinst voor de Haarlem Nicols.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '127',
@@ -1022,7 +1022,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '288',
 	'ftdescription' => 'Mendes wordt door zijn ploeggenoten gefeliciteerd met zijn solohomerun. Het zou het enige Bussumse punt blijken in het duel met Nicols.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '128',
@@ -1030,7 +1030,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '289',
 	'ftdescription' => 'Van Buuren van Neptunus bereikt veilig het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '129',
@@ -1038,7 +1038,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '290',
 	'ftdescription' => 'TRAINER/COACH RUUD KOK: \"De jongens moeten nog erg veel leren',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '130',
@@ -1046,7 +1046,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '291',
 	'ftdescription' => 'Mendes heeft namens HCAW uitgehaald voor een rake klap. De slagman verkeerde in een prima vorm en scoorde vier uit vier ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '131',
@@ -1054,7 +1054,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '292',
 	'ftdescription' => 'Nicols-speler Bill Groot bereikt net tweede honk voordat ADO\'er Eugene Henson hem kan uitvangen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '132',
@@ -1062,7 +1062,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '293',
 	'ftdescription' => 'Commotie in het slagperk nadat Jurjan Koenen (12) door de werper van Pioniers is geraakt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '133',
@@ -1070,7 +1070,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '294',
 	'ftdescription' => 'Een archieffoto van RenÃ© Rijst. De Weesper werd door HCAW-werper Caspar van Rijnbach vol in het gezicht getroffen, waarna er Ã¨en opstootje ontstond.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '134',
@@ -1078,7 +1078,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '295',
 	'ftdescription' => 'De umpire kan uitstekend zien dat HCAWâ€™er Lars Koehorst op tijd de thuisplaat bereikt: 1-0.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '135',
@@ -1086,7 +1086,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '296',
 	'ftdescription' => 'Korte stop Myram Wyman van Kinheim tikt Orvin Gonsales van Quick uit op het tweede honk. Het mag Kinheim niet baten, want in de dubbele confrontatie incasseert de koploper de ene na de andere dreun.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '136',
@@ -1094,7 +1094,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '297',
 	'ftdescription' => 'Een speler van Nicols wordt safe gegeven het tweede honk Links HCA Wâ€™er Lars Koehorst.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '137',
@@ -1102,7 +1102,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '298',
 	'ftdescription' => 'Robert Moore vlak voor een pitch tegen Kinheim. De Amerikaan kon geen geweldige indruk achterlaten in de Bussumse vallei.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '138',
@@ -1110,7 +1110,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '299',
 	'ftdescription' => 'Met een nonchalant tikje met zijn linkervoet maakt HCAW\'er Roy Berrevoets op het eerste honk een eind aan de aspiraties van een Pirates-speler.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '139',
@@ -1118,7 +1118,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '298',
 	'ftdescription' => 'Robert Moore',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '140',
@@ -1126,7 +1126,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '300',
 	'ftdescription' => 'Danny Wout: \"Dat harde leven daar zag ik gewoon niet zitten \"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '141',
@@ -1134,7 +1134,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '301',
 	'ftdescription' => 'De aangooi van werper Didi Gregorius op korte stop Byron Ward (beiden van Nicols) is perfect, waardoor Marcel Bijvanck van Pirates op het tweede honk sneuvelt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '142',
@@ -1142,7 +1142,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '302',
 	'ftdescription' => 'Arthur Wingelaar van ADO bereikt net op tijd het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '143',
@@ -1150,7 +1150,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '303',
 	'ftdescription' => 'Patrick van Doorn',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '144',
@@ -1158,7 +1158,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '304',
 	'ftdescription' => 'Mr.Cocker/HCAW 1993',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '145',
@@ -1166,7 +1166,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '305',
 	'ftdescription' => 'HCAW\'er Lars Koehorst in een acrobatische actie bij het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '146',
@@ -1174,7 +1174,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '306',
 	'ftdescription' => 'Reinier Abrahamsen van HCAW duikt, in een duel met Pioniers, naar het derde honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '147',
@@ -1182,7 +1182,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '307',
 	'ftdescription' => 'Paul Smit, de nieuwe coach van Pioniers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '148',
@@ -1190,7 +1190,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '308',
 	'ftdescription' => 'Reinier Abrahamsen bereikt veilig het honk in het eerste duel met Pioniers. HCAW wan overigens beide wedstrijden.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '149',
@@ -1198,7 +1198,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '309',
 	'ftdescription' => 'Edwin Fokke van Kinheim is net op tijd terug op het eerste honk in het treffen met Quick ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '150',
@@ -1206,7 +1206,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '310',
 	'ftdescription' => 'HCAW-coach Hennie Jenken (rechts) feliciteert Clive Mendes met zijn home-run tijdens de wedstrijd van zaterdag',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '151',
@@ -1214,7 +1214,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '311',
 	'ftdescription' => 'Het softballteam van HCAW dat door een overwinning op Actif kampioen werd van het district Midden-Nederland. Zittend v.l.n.r.: Anneke Cock, Lucie de Haan, Irene Laan, en Magda Boel. Staand v.l.n.r.: coach W. van Beek, Gerda Roeten, Ria Platvoet, Yvonne Boer, Ada. Majoor en Elly Fijth',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '152',
@@ -1222,7 +1222,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '312',
 	'ftdescription' => 'De eerste honkvrouw van de HCAW-Actif combinatie weet met veel moeite een bal te onderscheppen. De speelster van het Nederlands team, heeft het honk echter al bereikt en kan niet meer uitgetikt worden.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '153',
@@ -1230,7 +1230,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '313',
 	'ftdescription' => 'Een actiefoto uit een Gooise softball-derby. EÃ©n van de dames heeft zojuist de bal met een ferme slag het veld in geslagen, terwijl de achtervangster erop voorbereid was dat de slag eventueel gemist zou worden. De scheidsrechter kijkt nauwlettend toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '154',
@@ -1238,7 +1238,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '314',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '155',
@@ -1246,7 +1246,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '315',
 	'ftdescription' => 'Johnny Gutierrez',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '156',
@@ -1254,7 +1254,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '316',
 	'ftdescription' => 'HET KAMPIOENSTEAM VAN HCAW',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '157',
@@ -1262,7 +1262,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '317',
 	'ftdescription' => 'Ada Majoor bereikt na een stootslag te hebben geplaatst het eerste honk. Even later zal zij haar team een 2â€”0 voorsprong bezorgen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '158',
@@ -1270,7 +1270,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '318',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '159',
@@ -1278,7 +1278,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '319',
 	'ftdescription' => 'RONALD KING, center, with his family: seated, from left, son Dan, wife Linda and son Steve,- on floor, son Jeff, daughter Angie and foreign student Han DeBruyn.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '160',
@@ -1286,7 +1286,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '320',
 	'ftdescription' => 'Jan Kort Invites GR To Holland',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '161',
@@ -1294,7 +1294,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '321',
 	'ftdescription' => 'Frank Ravesloot and Rob Tolhuysen - two boys with the baseball team visiting the area from Bussum, Netherlands.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '162',
@@ -1302,7 +1302,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '322',
 	'ftdescription' => 'RenÃ© Rijst',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '163',
@@ -1310,7 +1310,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '323',
 	'ftdescription' => 'Pioniers-catcher Daniel de Haan lijkt Kinheim-speler Jeffrey Verbij - na een klap van Mike Crouwel â€¢ van het winnende punt af te houden. Maar op de tweede foto is te zien hoe de Hoofddorper de bal uit zijn handen laat vallen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '164',
@@ -1318,7 +1318,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '324',
 	'ftdescription' => 'Kinheim-coach Ted Arnold kijkt na het verlies weg van zijn spelers, Sherwin Cijntje, Jeffrey Verbij en Patrick Vielvoye (vlnr), die In de dug-out hun teleurstelling wegslikken. Walter van Dijk (staand) staart in het niets. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '165',
@@ -1326,7 +1326,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '326',
 	'ftdescription' => 'Seconden voor de beslissende nul in het duel van gisteren met Kinheim beseffen de gespannen kijkende spelers van HCAW dat het landskampioenschap bijna een feit is.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '166',
@@ -1334,7 +1334,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '327',
 	'ftdescription' => 'Lars Koehorst van HCAW gooit na het veroveren van de landstitel zijn coach Craig McGinness nat',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '167',
@@ -1342,7 +1342,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '328',
 	'ftdescription' => 'Roy Berrevoets haalt de thuisplaat, maar daar schoot HCAW tegen Kinheim weinig mee op.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '168',
@@ -1350,7 +1350,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '329',
 	'ftdescription' => 'Coach Craig McGinnis gaat op de schouders na het behalen van de landstitel door HCAW, de eerste in de geschiedenis van de bijna veertigjarige club',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '169',
@@ -1358,7 +1358,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '330',
 	'ftdescription' => 'HCAW-coach Craig McGinnis krijgt van zijn spelers een emmer water over zich heen, nadat het Nederlands honkbalkampioenschap is veroverd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '170',
@@ -1366,7 +1366,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '331',
 	'ftdescription' => 'Al is hier een speler van Kinheim het slachtoffer, zaterdag ging toch wel degelijk HCAW in de eigen vallei knock-out.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '171',
@@ -1374,7 +1374,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '333',
 	'ftdescription' => 'De tweede-honkman van Twins kan niet verhinderen dat een HCAW\'er met een sliding het honk bereikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '172',
@@ -1382,7 +1382,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '334',
 	'ftdescription' => 'HCAW\'er Ronald de Jong maakt een buiksliding tijdens de wedstrijd in Bussum.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '173',
@@ -1390,7 +1390,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '335',
 	'ftdescription' => 'Kinheim-coach Ted Arnold ziet vanuit de dug-out dat het niet goed Is. â€žSoms moet je tets opofferen voor het uiteindelijke doel.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '174',
@@ -1398,7 +1398,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '338',
 	'ftdescription' => 'Woensdagavond was er hoogspanning bij de softbalwedstrijd tussen de heren van HCAW en BSC (Utrecht) Bij winst zouden de Bussumers kampioen zijn, maar het werd 9-9, zodat men de titel nog niet kon binnenhalen. Het feest kan toch doorgaan als de laatste partij wordt gewonnen Op de foto links Anco de Smet die het eerste punt van de negen scoorde.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '175',
@@ -1406,7 +1406,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '343',
 	'ftdescription' => 'Rob Hoffmann',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '176',
@@ -1414,7 +1414,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '344',
 	'ftdescription' => '<Rob Hoffmann>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '177',
@@ -1422,7 +1422,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '345',
 	'ftdescription' => 'Een spelmoment uit de wedstrijd HCAW-De Hazenkamp, die zaterdag in De Kuil werd gespeeld. Ben van de Luitgaren tracht het eerste honk te stelen, doch de aangooi van het Hazenkamp-veld op het eerste honk komt op tijd. De veldscheidsrechter geeft ,,uit\". HCAW won niettemin met 9-2. Voor verslag zie pagina 5.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '178',
@@ -1430,7 +1430,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '344',
 	'ftdescription' => '<rob hoffmann>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '179',
@@ -1438,7 +1438,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '343',
 	'ftdescription' => '<Rob Hoffmann>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '180',
@@ -1446,7 +1446,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '346',
 	'ftdescription' => '<Wim de Zwart>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '181',
@@ -1454,7 +1454,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '347',
 	'ftdescription' => 'Het kampioensteam van de H.C.A.W. Staande van links naar rechts: Rob Back, rechtsvelder; Reinier Vroom, reserve; Pierre Wingelaar, reserve; Rob Ruizendaal, eerste honkman; Rob Hoffman, werper; Wim Koenders, reserve; Roel Boodt, tweede honkman, aanvoerder en coach; Ton Luteijn, achtervanger. Zittend van links naar rechts: Ben van der Luitgaren, linksvelder; Roelof Kloeten, derde honkman; Piet Back, korte stop, en Gerard de Haan, midwelder',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '182',
@@ -1462,7 +1462,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '348',
 	'ftdescription' => 'Toen zaterdagmiddag in de zevende inning het kampioenschap van de honkbalclub Allen Weerbaar een feit was, verschenen twee jongelui op het veld met de aankondiging van de eerste promotiewedstrijd voor een plaats in de overgangsklasse. Dertienhonderd toeschouwers woonden de wedstrijd in De Kuil bij, waaruit mag blijken, dat de honkbalsport in Bussum tot een van de meest populaire sporten mag worden gerekend. Geen wonder overigens met een zo succesvol team',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '183',
@@ -1470,7 +1470,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '343',
 	'ftdescription' => '<Rob Hoffmann>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '184',
@@ -1478,7 +1478,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '349',
 	'ftdescription' => 'Wethouder mr. J. Boor (rechts) kwam zaterdagavond het bestuur van de Bussumse honkbalclub Allen Weerbaar gelukwensen met het behaalde kampioenschap. De wethouder complimenteert voorzitter I.van der Schouw, terwijl naast de voorzitter bestuurslid-honkballer Gerard de Haan toekijkt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '185',
@@ -1486,7 +1486,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '350',
 	'ftdescription' => '<veld>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '186',
@@ -1494,7 +1494,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '351',
 	'ftdescription' => '<Rob Hoffmann, J. Boor>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '187',
@@ -1502,7 +1502,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '352',
 	'ftdescription' => 'Rob Hoffmann als eerste werper van de Nederlandse honkbalploeg, werd aangemoedigd door de vele Bussumse honkbalvrienden',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '188',
@@ -1510,7 +1510,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '353',
 	'ftdescription' => 'Het Nederlands honkbalteam zoals het voor de wedstrijd in Bussum stond aangetreden',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '189',
@@ -1518,7 +1518,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '354',
 	'ftdescription' => 'De werper van H.C.K. tracht met een bliksemsnelle aangooi naar het eerste honk de wat ver van het honk gedwaalde H.C.A.W.\'er uit te maken. Het zou niet lukken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '190',
@@ -1526,7 +1526,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '355',
 	'ftdescription' => '<sportvelden hilversum>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '191',
@@ -1534,7 +1534,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '356',
 	'ftdescription' => '<Burgemeester Cramer>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '192',
@@ -1542,7 +1542,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '357',
 	'ftdescription' => 'Roel Kloeten snelt over de thuisplaat en bezorgt  daarmee  H.C.A.W.  in  de  strijd tegen S.C. Haarlem een veilige 3â€”0 voorsprong. Dat gebeurde zaterdagmiddag in de vijfde inning',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '193',
@@ -1550,7 +1550,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '358',
 	'ftdescription' => 'Een spelmoment uit de honkbalwedstrijd H.C.A.W.-H.H.C. H.C.A.W. aan slag terwijl op het derde honk een Bussumer klaar staat om de thuisplaat te bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '194',
@@ -1558,7 +1558,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '359',
 	'ftdescription' => 'H.C.A.W. scoort, terwijl de catcher van H.H.C, machteloos toekijkt. Moment uit de honkbalwedstrijd in De Kuil.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '195',
@@ -1566,7 +1566,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '360',
 	'ftdescription' => 'Hanneke de Boer biedt de spelers van HCAW een bloemetje aan, terwijl de eveneens achtjarige batboy Idse van der Schouw extra belangstellend toeziet hoe dat in zijn werk gaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '196',
@@ -1574,7 +1574,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '361',
 	'ftdescription' => 'Rob Hoffmann van HCAW stond de eerste drie innings op de heuvel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '197',
@@ -1583,7 +1583,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'ftdescription' => 'Het Nederlands Negental, dat dinsdagavond in een matige wedstrijd in de Kuil met 2â€”1 verloor van het Amerikaanse studententeam Knickerbockers.
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '198',
@@ -1591,7 +1591,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '363',
 	'ftdescription' => '<Rob Hoffmann>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '199',
@@ -1599,7 +1599,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '364',
 	'ftdescription' => 'Het juniorenteam van HCAW speelde dit weekeinde een wedstrijd tegen Sparta, om het junioren-kampioenschap van Nederland. Na de vijfde inning weigerde Sparta, dat inmiddels met 1â€”0 voorstond verder te spelen, daar het te donker werd. Het is nog niet bekend of deze wedstrijd overgespeeld zal worden.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '200',
@@ -1607,7 +1607,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '365',
 	'ftdescription' => 'Een van de H.C.A.W.-ers aan slag in de thuiswedstrijd tegen Sparta.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '201',
@@ -1615,7 +1615,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '366',
 	'ftdescription' => 'In de laatste slagbeurt behaalde HCAW zaterdagmiddag de overwinning op Storks. Uitbundige vreugde bij de thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '202',
@@ -1623,7 +1623,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '367',
 	'ftdescription' => 'Ruud Moninckx, de catcher van HCAW is vrijdag in het huwelijk getreden. Zaterdagmiddag werden hij en zijn echtgenote vÃ³Ã³r de wedstrijd tegen Storks nog gauw even in de bloemetjes gezet.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '203',
@@ -1632,7 +1632,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'ftdescription' => '<Op de foto het succesvolle Bussumse team.>
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '204',
@@ -1640,7 +1640,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '369',
 	'ftdescription' => '<plaatje 1>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '205',
@@ -1648,7 +1648,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '370',
 	'ftdescription' => '<plaatje 2>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '206',
@@ -1656,7 +1656,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '371',
 	'ftdescription' => '<plaatje 3>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '207',
@@ -1664,7 +1664,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '372',
 	'ftdescription' => 'Nog onder de indruk van het gejuich van de Bussumse supporters namen de spelers van HCAW in het honkbalstadion de Escamp afscheid. De laatste line-up in de eerste klasse. Door een 12â€”1 overwinning werd glansrijk de hoofdklasse bereikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '208',
@@ -1672,7 +1672,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '373',
 	'ftdescription' => 'Het naar de hoofdklasse van de K.N.H.B. gepromoveerde team van HCAW, onmiddellijk na de succesvolle wedstrijd tegen Storks in Den Haag. Jimmy Bell staat verscholen achter Rob Hoffmann.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '209',
@@ -1680,7 +1680,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '374',
 	'ftdescription' => 'Jimmy Bell brengt de stand voor HCAW in de eerste innings op 3-0. Scheidsrechter Schijvenaar kijkt nauwlettend toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '210',
@@ -1688,7 +1688,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '375',
 	'ftdescription' => 'Beeld uit de honkbalwedstrijd tussen HCAW en HVGA tijdens een slagbeurt van de gasten. De belangstelling voor deze wedstrijd was bijzonder groot.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '211',
@@ -1696,7 +1696,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '376',
 	'ftdescription' => 'Spelmoment uit de honkbalontmoeting HCAW-UVV. Hier bezet een UVV-er het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '212',
@@ -1704,7 +1704,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '377',
 	'ftdescription' => 'Tijdens de honkbalwedstrijd van The Scimitars in Bussum kwam een van de spelers ongelukkig terecht. Hij werd bij het eerste honk, snel weer â€žopgelapt\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '213',
@@ -1712,7 +1712,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '378',
 	'ftdescription' => 'Spannend moment uit het duel HCAW-Volewijckers',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '214',
@@ -1720,7 +1720,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '379',
 	'ftdescription' => ',,In\", zegt de scheidsrechter als een HCAW-er het honk bereikt in de wedstrijd tegen PSV. HCAW won met 5â€”1.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '215',
@@ -1728,7 +1728,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '381',
 	'ftdescription' => 'Ook deze speler van HCAW ging uit door de op de foto rechts staande speler van HCTIW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '216',
@@ -1736,7 +1736,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '382',
 	'ftdescription' => 'Herman Thomas',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '217',
@@ -1744,7 +1744,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '383',
 	'ftdescription' => 'HCAW besloot zaterdag middag de honkbalcompetitie met een klinkende 5â€”1 overwinning op Schoten. De zege werd in de eerste inning in feite al veroverd. Toen kwam HCAW met 4â€”0 voor. Hier het moment, waarop de thuisclub scoort. De catcher van Schoten staat gereed om de te bal te vangen, maar het is te laat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '218',
@@ -1752,7 +1752,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '384',
 	'ftdescription' => 'Het ogenblik waarop HCAW de gelijkmaker (1-1) scoort in de thuiswedstrijd tegen Storks. Het zou in dezelfde inning zelfs 3â€”1 voor de Bussumers worden, die even later weer tegen een 5â€”3 achterstand moesten aankijken. Uiteindelijk werd het nog 5â€”5 en dat betekende (na de 12â€”2 zege in Den Haag) drie winstpunten voor hoofdklasser HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '219',
@@ -1760,7 +1760,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '385',
 	'ftdescription' => 'Jan Schriek kreeg aan slag een keiharde bal van de werper tegen het dijbeen. Dat leverde weliswaar een vrije loop naar het eerste honk op <analyseren>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '220',
@@ -1768,7 +1768,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '386',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '221',
@@ -1776,7 +1776,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '387',
 	'ftdescription' => 'Rob Hoffmann op de heuvel in de strijd tegen ABC. Ondaks goede werpresultaten won ABC onbedreigd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '222',
@@ -1784,7 +1784,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '388',
 	'ftdescription' => 'Honkbal is een spel vol verrassingen. Dat ondervond HCAW dit weekeinde tweemaal tegen ABC. In Buitenveldert werd met 5â€”4 verloren. Een dag later werd het in Bussum zelfs 5â€”0 voor ABC. Hier het moment, waarop HCAW bijna scoort, maar voor de thuisplaat wordt een tegenpunt nog juist voorkomen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '223',
@@ -1792,7 +1792,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '389',
 	'ftdescription' => 'Honkbal Sparta - HCAW 9-0. Het 8ste punt voor Sparta gescoord door Hans Augustinus met een fraaie sliding op de thuisplaat. Achtervanger Moninckx van HCAW is te laat en hoofdscheidsrechter Ronnenberg geeft ,,safe\'\'.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '224',
@@ -1800,7 +1800,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '392',
 	'ftdescription' => 'Vreugde  bij   Sparta:  de   eerste  homerun is geslagen en de stand is 1â€”0. Het was nog  maar het begin van het slaggeweld, dat men zaterdag in de Kuil heeft kunnen zien.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '225',
@@ -1808,7 +1808,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '391',
 	'ftdescription' => 'Ade Fijth kreeg in de thuiswedstrijd tegen Sparta de taak Hoffmann in de tweede inning bij een 4â€”0 achterstand, te vervangen. Hij weerde zich overigens kranig.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '226',
@@ -1816,7 +1816,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '394',
 	'ftdescription' => 'Peter de Graeve belandt met een spectaculaire duik op het derde honk tijdens de zaterdag gespeelde wedstrijd tussen HCAW en Storks.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '227',
@@ -1824,7 +1824,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '395',
 	'ftdescription' => 'Vreuge in de gelederen van HCAW. De smadelijke 10-0 achterstand in de eerste ontmoeting tegen Storks is teruggebracht tot 10-2 dankzij een homerun van Ade Fijth, die op de thuisplaat wordt gelukgewenst door zijn ploeggenoten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '228',
@@ -1832,7 +1832,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '396',
 	'ftdescription' => 'Spelmoment uit de wedstrijd HCAW - ABC. Een snelle reactie brengt deze HCAW\'er nog tijdig terug op het honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '229',
@@ -1840,7 +1840,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '397',
 	'ftdescription' => 'Het team van HCAW, dat zaterdagmiddag de competitie in de hoofdklasse begon met een 3-1 overwinning op ABC uit Amsterdam.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '230',
@@ -1848,7 +1848,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '398',
 	'ftdescription' => 'Het derde team van HCAW dat mede dank zij de goede zorgen van coach Remmers, zaterdag het kampioenschap binnenhaalde door een 5-4 overwinning op Donar II',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '231',
@@ -1856,7 +1856,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '399',
 	'ftdescription' => 'Hier het moment waarop HCAW in feite de nederlaag tegen Schoten een feit ziet worden. Enkele ogenblikken nadat Hazel de stand op 2-1 had gebracht stormde Ade Fijth over de thuisplaat. Hij was een fractie van een seconde te laat. Op de thuisplaat werd hij door een snel reagerende catcher uitgetikt. De scheidsrechter laat er in het, strijdgewoel geen twijfel over bestaan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '232',
@@ -1864,7 +1864,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '400',
 	'ftdescription' => 'Het team van HCAW, dat zaterdag een teleurstellende 3-1 nederlaag leed tegen Schoten. Tussen de HCAW-ers de heer H. Sitters, die met zijn eerste-hulpkoffertje veertig jaar lang een bekende verschijning is geweest op de Bussumse sportvelden. Hij is destijds onderscheiden toen hij een kwart eeuw de eerste hulp had verleend bij Allen Weerbaar. Zaterdag was hij voor de laatste maal aanwezig bij HCAW. De heer Sitters (67) vindt het nu welletjes. Hij is wel tot de conclusie gekomen, dat er voor hem bij voetbalwedstrijden meer te doen valt dan bij honkbalontmoetingen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '233',
@@ -1872,7 +1872,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '401',
 	'ftdescription' => 'Rob Hoffmann',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '234',
@@ -1880,7 +1880,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '402',
 	'ftdescription' => 'Tweemaal snelde Julio Hazel zaterdagmiddag voor HCAW over de thuisplaat. De eerste keer leverde dat een punt op.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '235',
@@ -1888,7 +1888,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '403',
 	'ftdescription' => 'De tweede keer was het HCK-veld sneller; op de thuisplaat ging Hazel uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '236',
@@ -1896,7 +1896,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '404',
 	'ftdescription' => 'De sportvallei in aanbouw',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '237',
@@ -1904,7 +1904,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '405',
 	'ftdescription' => 'Dick Veldhuizen was een van de weinige HCAW-ers, die kans zagen het eerste honk te bereiken in de wedstrijd HCAW-Haarlem-Nicols. Hier is hij een fractie van een seconde eerder op de kussens dan de eerste honkman met de bal',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '238',
@@ -1912,7 +1912,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '406',
 	'ftdescription' => 'Een speler van ABC bereikt het derde honk, gistermiddag in de Kuil.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '239',
@@ -1920,7 +1920,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '407',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '240',
@@ -1928,7 +1928,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '410',
 	'ftdescription' => 'Vreugde en gelukwensen op de thuisplaat Rob Hoffmann en Piet Back feliciteren Cranston met de homerun. Later zou Van Ewijk hetzelfde presteren',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '241',
@@ -1936,7 +1936,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '411',
 	'ftdescription' => 'Hier het moment waarop HCAW met 2-1 de leiding neemt in de wedstrijd tegen Feijenoord',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '242',
@@ -1944,7 +1944,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '412',
 	'ftdescription' => 'Een snelle aangooi van de Feijenoord-werper naar de eerste honkman, maar de HCAW-er is toch eerder terug op het honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '243',
@@ -1952,7 +1952,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '413',
 	'ftdescription' => 'Rob Hoffmann van HCAW zorgde zaterdagmiddag in De Kuil voor de eerste homerun. Hier wordt hij met gejuich binnengehaald door zijn ploeggenoten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '244',
@@ -1960,7 +1960,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '414',
 	'ftdescription' => 'Doordat Arrindell (L) van Sparta de bal niet kon bereiken, gelukt het hier de HCAW-speler v.d. Ster (R) met een sliding veilig op het tweede honk te komen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '245',
@@ -1968,7 +1968,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '415',
 	'ftdescription' => 'Juichend wordt hier Morris Cranston ingehaald, nadat een fenomenale slag voor een homerun had gezorgd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '246',
@@ -1976,7 +1976,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '416',
 	'ftdescription' => 'Voor de tweede home-run zorgde Julio Hazel, die hier een vriendelijk tikje krijgt van Jan van Ewijk.. Later zou blijken dat dit tweede punt goud waard was.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '247',
@@ -1984,7 +1984,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '417',
 	'ftdescription' => 'Actie op het eerste honk. Een snelle aangooi van Rob Hoffmann wordt goed door Jan van Ewijk verwerkt en de HCK speler is uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '248',
@@ -1992,7 +1992,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '418',
 	'ftdescription' => 'Beeld uit het softbaltoernooi van HCAW op sportpark-Zuid. Hier een actie van een slagvrouwe van HCAW I, die tot een homerun zou leiden.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '249',
@@ -2000,7 +2000,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '419',
 	'ftdescription' => 'Met een geweldige sprint gaat hier Morris Cranston over de thuisplaat. Links Ade Fijth die even tevoren uitging.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '250',
@@ -2008,7 +2008,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '420',
 	'ftdescription' => 'Als door een blok getroffen ging HCAW catcher Wim Rijnders tegen de grond, toen hij een bal van werper Rob Hoffmann tegen zijn masker kreeg. Zonder kwalijke gevolgen gelukkig, want even later was hij alweer op de been.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '251',
@@ -2016,7 +2016,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '421',
 	'ftdescription' => 'Spanning op het tweede honk, waar een Sorks speler zich ruggelings in veiligheid tracht te brengen. Met goed gevolg overigens.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '252',
@@ -2024,7 +2024,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '422',
 	'ftdescription' => 'Slagbeurt voor Julio Hazel. De klap is wel raak, maar niet hard genoeg en hij wordt uitgevangen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '253',
@@ -2032,7 +2032,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '423',
 	'ftdescription' => 'Zaterdag was voor de honkballers eem enerverende dag. In totaal werden vier home-runs gescoord. Waarvan drie door HCAW. Hier komt Rob van der Gaast omringd door zijn ploegmakkers, na een slag-over-het-hek binnen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '254',
@@ -2040,7 +2040,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '424',
 	'ftdescription' => 'Deze sliding van een OVVO\'er komt net te laat. De scheidsrechter beslist: uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '255',
@@ -2048,7 +2048,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '425',
 	'ftdescription' => 'Met hamer en spijkers wordt hier de thuisplaat vastgenageld, die volkomen los was komen te liggen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '256',
@@ -2056,7 +2056,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '426',
 	'ftdescription' => 'Stofhappen voor Wim van der Ster. Gekluisterd aan het eerste honk wilde hij een honk stelen, maar zijn poging werd door de werper opgemerkt. De scheidsrechter geeft hier overigens ,,in\'\'.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '257',
@@ -2064,7 +2064,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '427',
 	'ftdescription' => 'Gistermiddag in De Kuil veel vuurwerk bij de wedstrijd HCAW-ABC. In totaal werden zeven home-runs geslagen. De eerste kwam tot stand door een ferme tik van Jan van Ewijk, die hier binnenkomt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '258',
@@ -2072,7 +2072,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '429',
 	'ftdescription' => '<leeg>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '259',
@@ -2080,7 +2080,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '430',
 	'ftdescription' => 'Vergeefse duik van Rob van der Gaast op het eerste honk, waarop hij door de snelle aangooi van de Sparta-werper niet tijdig kon terigkeren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '260',
@@ -2088,7 +2088,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '431',
 	'ftdescription' => 'Naarmate de achterstand van HCAW op Sparta groter werd, werden ook de worpen van Fijth onmachtiger. Na rijp beraad op de heuvel besloot men Filipiak de plaats van Fijth in te laten nemen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '261',
@@ -2096,7 +2096,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '432',
 	'ftdescription' => 'Gespannen wacht Rob Rijnders op de bal. De aangooi komt echter net te laat en Augustinus scoort voor Sparta het eerste punt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '262',
@@ -2104,7 +2104,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '433',
 	'ftdescription' => 'Wim van der Ster bereikt met een duik het eerste honk voordat de eerste honkman van Haarlem Nicols de bal ontvangt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '263',
@@ -2112,7 +2112,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '434',
 	'ftdescription' => 'Zittend glijdt de Haarlemspeler naar het tweede honk, maar te laat arriveert hij daar. ,,Uit\'\' geeft de scheidsrechter.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '264',
@@ -2120,7 +2120,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '435',
 	'ftdescription' => 'Een speler van Haarlem Nicols wordt opgelapt tijdens de ontmoeting HCAW-Haarlem N. in De Kuil te Bussum. De Haarlemmer kreeg een door Fijth geworpen bal tegen het been. Water doet wonderen bij honkbal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '265',
@@ -2128,7 +2128,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '436',
 	'ftdescription' => 'Het team uit Zambia',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '266',
@@ -2136,7 +2136,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '437',
 	'ftdescription' => 'Een enorme harde slag van Peter van Dalen bleek goed voor een home-run en twee punten, omdat Morris Cranston eveneens over de thuisplaat werd gebracht.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '267',
@@ -2144,7 +2144,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '438',
 	'ftdescription' => 'HCAW-catcher Wim Rijnders kreeg een harde bal tegen de knie en bleek direct uitgeschakeld. Hij werd vervangen door Jan Schriek.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '268',
@@ -2152,7 +2152,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '439',
 	'ftdescription' => 'Tijdig terug op het eerste honk is hier Morris Cranston, die zich door de snaal aangooi van de werper naar de eerste honkman niet liet verrassen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '269',
@@ -2160,7 +2160,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '441',
 	'ftdescription' => 'Pitcher Janny Toom (Actif) tijdens de wedstrijd HCAW/Actif - Gazellen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '270',
@@ -2168,7 +2168,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '442',
 	'ftdescription' => 'Eerste honkman Rob Hoffmann krijgt niet tijdig de bal toegeworpen en de Storks speler krijt ,,In\'\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '271',
@@ -2176,7 +2176,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '443',
 	'ftdescription' => 'Werper Ade Fijth, wiens spel vergeleken met de wedstrijd tegen HCK weer aan kracht inboette.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '272',
@@ -2184,7 +2184,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '445',
 	'ftdescription' => '....Ria Platvoet, Yvonne Boer, Ada Majoor, Elly Fijth',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '273',
@@ -2192,7 +2192,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '446',
 	'ftdescription' => 'Door een stootslag slaagde Wout erin de thuisplaat te bereiken, waarmee het tweede, en tevens laatste, punt voor Gooi Utrecht een feit was.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '274',
@@ -2200,7 +2200,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '447',
 	'ftdescription' => 'Ondanks de luide aanmoedigingen van het duizendkoppige publiek slaagde J. Hazel er niet in de bal over de afrastering te jagem.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '275',
@@ -2209,7 +2209,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'ftdescription' => 'Zittend v.l.n.r.: J v. d. Schouw, F. Veraan, R. van Dijk, F. Willemse, R. Klip, P. Visser. Staand v.l.n.r.: R. Filipiak R Tolhuysen, A. de Leeuw, N. van Leeuwen f jeugdcoach), J. J. van Dyk, J. Beyer, R. Gelsing.
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '277',
@@ -2218,7 +2218,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'ftdescription' => 'Zittend v.l.n.r. .E. Mol, F. Bruineman, R. de Bruin, J. de Graaf. Staand v.l.n.r.: W. Hageman, H. van Zanten, J. van Ee, R. de Graeve, B. Krijnen.
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '278',
@@ -2226,7 +2226,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '450',
 	'ftdescription' => 'Staand v.l.n.r.:B. Bus, H. Scholten, B. Derkx, P. KÃ¶ller, G. KlÃ¼ck, G. van Leeuwen (coach), B. Koenders. Zittend v.l.n.r.: R. Schel, I. Boel, R. v. d. Laan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '279',
@@ -2234,7 +2234,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '451',
 	'ftdescription' => 'Rob van der Gaast bereikte de thuisplaat net iets te laat, waardoor hij door de OVVO-catcher kan worden uitgetikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '280',
@@ -2242,7 +2242,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '452',
 	'ftdescription' => 'Ade Fijth scoorde twee van de drie homeruns waarvoor hij luidruchtig door zijn teamgenoten werd gehuldigd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '281',
@@ -2250,7 +2250,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '453',
 	'ftdescription' => 'Peter van Dijk terug op het eerste honk, voordat Feijenoords pitcher zijn eerste honkman de bal toe kan werpen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '282',
@@ -2258,7 +2258,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '454',
 	'ftdescription' => 'Een staande ovatie en een stevige handdruk voor Ade Fijth, die met een enorme klap de bal over de afrastering joeg en daarmee twee punten wist te scoren. Het zouden overigens voor HCAW wel de enige punten blijven.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '283',
@@ -2266,7 +2266,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '456',
 	'ftdescription' => 'De dames -van HCAW hebben zaterdag de softballwedstrijd tegen PSV gewonnen. Het werd een boeiend duel in de Kuil.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '284',
@@ -2274,7 +2274,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '457',
 	'ftdescription' => 'Moment vol actie uit  de  honkbalwedstrijd tussen de junioren van HCAW en Sparta, zondag gespeeld in de Kuil.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '285',
@@ -2282,7 +2282,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '458',
 	'ftdescription' => 'Met een fraaie danspas weet tweede honkman Briesen (ABC) de sliding van Van Ewijk (HCAW) te ontwijken. Van Ewijk had net het honk aangeraakt waardoor hij de tweede man van HCAW naar de kant doet verdwijnen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '286',
@@ -2290,7 +2290,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '459',
 	'ftdescription' => 'Strijd om een honk in de ontmoeting HCAW-ABC. Zaterdagmiddag in de Kuil gespeeld. ABC won met 5-0.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '287',
@@ -2298,7 +2298,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '460',
 	'ftdescription' => 'Het HCAW-team na het gist eren behaalde landskampioenschap',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '288',
@@ -2306,7 +2306,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '461',
 	'ftdescription' => 'Beeld uit de wedstrijd van HCAW tegen Sparta, zaterdagmiddag in ,,De Kuilâ€™â€™',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '289',
@@ -2314,7 +2314,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '462',
 	'ftdescription' => 'Het kampioensteam van de HCAW-Junioren ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '290',
@@ -2322,7 +2322,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '463',
 	'ftdescription' => 'Vreugde bij HCAW om de overwinning. Vooraan rechts Ade Fijth, die Rob Hoffmann feliciteert met zijn prestaties na de lange tijd van rust, die hij heef t moeten nemen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '291',
@@ -2330,7 +2330,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '464',
 	'ftdescription' => 'Placidus komt veilig binnen op het eerste honk, want Ade Fijth heeft de bal niet kunnen bemachtigen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '292',
@@ -2338,7 +2338,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '467',
 	'ftdescription' => 'HCAW-pionier Verkerk heeft zondagmiddag al het mogelijke gedaan om het terrein in bruikbare staat te houden of te brengen. Vergeefse moeite, want tegen twee uur liet de scheidsrechter de wachtenden niet langer in het onzekere: de ontmoeting HCAWâ€”Storks werd afgelast. Op de foto is de heer Verkerk nog bezig de lijnen te spuiten op een doornatte thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '293',
@@ -2346,7 +2346,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '468',
 	'ftdescription' => 'Beeld uit de wedstrijd HCAW-Terrasvogels, zaterdagmiddag in De Kuil',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '294',
@@ -2354,7 +2354,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '469',
 	'ftdescription' => 'Julio Hazel wordt door zijn teamgenoten opgewacht, na de formidabele home-run. Later zou hij nog eens voor een home-run zorgen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '295',
@@ -2362,7 +2362,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '470',
 	'ftdescription' => 'HCAW kreeg het gisteren in De Kuil beslist niet gemakkelijk in de strijd tegen ABC. Op de foto passeert een ABC-er het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '296',
@@ -2370,7 +2370,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '471',
 	'ftdescription' => '<BRL-team>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '297',
@@ -2378,7 +2378,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '472',
 	'ftdescription' => 'De bal op weg van de werper van HCAW naar de slagman. Moment uit de honkbalstrijd tussen HCAW tegen ADO afgelopen zaterdagmiddag in De Kuil te Bussum.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '298',
@@ -2386,7 +2386,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '473',
 	'ftdescription' => 'Beeld uit de softballwedstrijd tussen Zuidvogels en Actif, vrijdag gespeeld',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '299',
@@ -2394,7 +2394,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '474',
 	'ftdescription' => 'Beeld uit de zesde innings van de honkbalwedstrijd HCAW-Haarlem Nicols Dassie Rasmijn wordt, ondanks een fraaie sliding, uitgemaakt voor de thuisplaat door catcher Fred Remmers. Geen punt dus voor de Nicols. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '300',
@@ -2402,7 +2402,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '475',
 	'ftdescription' => 'Drie honkslagen slechts stond Herman Beidschat zaterdagmiddag het HCAW-team toe. Hier het moment waarop Jan van Ewijk aan slag is.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '301',
@@ -2410,7 +2410,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '476',
 	'ftdescription' => 'HCAW boekte dit weekeinde povere resultaten. Zaterdag werd gespeeld tegen Neptunus, waarvan hier een wedstrijdopname. Zondag werd aangetreden tegen De Volewijckers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '302',
@@ -2418,7 +2418,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '477',
 	'ftdescription' => 'Een OVVO\'er bereikte moeiteloos het eerste honk',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '303',
@@ -2426,7 +2426,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '478',
 	'ftdescription' => 'Julio Hazel maakte een fraaie sliding op het derde honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '304',
@@ -2434,7 +2434,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '479',
 	'ftdescription' => 'Een speler van Flying Petrels wordt vakkundig uitgetikt door de eerste honkman van BRL.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '305',
@@ -2442,7 +2442,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '480',
 	'ftdescription' => 'Het eerste team van HCAW voor het begin van de competitie. Hoogstwaarschijnlijk zal dit team nog voor heel wat problemen komen te staan om zich in de hoofdklasse te kunnen handhaven.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '306',
@@ -2450,7 +2450,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '481',
 	'ftdescription' => 'Onze fotograaf, gewapend met een visseoog-lens, zag gistermiddag kans het hele honkbal gebeuren in De Kuil met de camera te vangen tijdens de ontmoeting HCAWâ€”OVVO, die in een nederlaag voor HCAW eindigde.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '307',
@@ -2458,7 +2458,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '482',
 	'ftdescription' => 'Spelmoment uit de wedstrijd HCAW - OVVO, zondagmiddag in de Kuil.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '308',
@@ -2466,7 +2466,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '484',
 	'ftdescription' => 'HCAW verloor dit weekeinde tweemaal van Sparta. Eervol weliswaar en een goede indruk achterlatend, maar de punten gingen naar Rotterdam. Op de foto een beeld uit de strijd in de Kuil zaterdagmiddag.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '309',
@@ -2474,7 +2474,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '486',
 	'ftdescription' => 'Sportvallei',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '310',
@@ -2482,7 +2482,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '487',
 	'ftdescription' => 'Moment uit de honkbalstrijd HCAW-ABC, zaterdagmiddag in ,,De Kuil\'\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '311',
@@ -2490,7 +2490,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '488',
 	'ftdescription' => 'Wim Hageman en Rob de Graeve',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '312',
@@ -2498,7 +2498,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '489',
 	'ftdescription' => 'Beeld van de honkbalontmoeting HCAW-Feijenoord, zaterdagmiddag in de Bussumse Kuil.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '313',
@@ -2506,7 +2506,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '490',
 	'ftdescription' => 'Door een foute aangooi van de Feijenoord werper op het eerste honk de HCAW-er Peter van Dijk zijn poging een honk te stelen met succes bekronen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '314',
@@ -2514,7 +2514,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '491',
 	'ftdescription' => 'Sportvallei',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '315',
@@ -2522,7 +2522,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '492',
 	'ftdescription' => 'Beeld uit de wedstrijd HCAW-Storks zaterdag in De Kuil',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '316',
@@ -2530,7 +2530,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '493',
 	'ftdescription' => 'Beeld van de zaterdag in De Kuil te Bussum gespeelde honkbalwedstrijd Gooi/Utrechtâ€”Amsterdam.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '317',
@@ -2538,7 +2538,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '494',
 	'ftdescription' => 'Spectaculaire duik van Wim Crouwel, eerste honkman van het samengestelde Amsterdamse team.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '318',
@@ -2546,7 +2546,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '495',
 	'ftdescription' => 'HCAW aan slag zaterdag in De Kuil tegen Haarlem Nicols. Het werd een debacle ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '319',
@@ -2554,7 +2554,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '496',
 	'ftdescription' => 'Een HCAW\'er bereikt het eerste honk. Veel verder zou hij echter niet komen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '320',
@@ -2562,7 +2562,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '497',
 	'ftdescription' => 'Sportvallei',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '321',
@@ -2570,7 +2570,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '498',
 	'ftdescription' => 'dug-out',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '322',
@@ -2578,7 +2578,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '474',
 	'ftdescription' => 'Een beeld uit een wedstrijd tussen een team dat men tot de Nederlandse top rekent of de Nederlandse top is (Haarlem Nicols) en een team dat daar steeds meer bij achter dreigt te raken (HCAW). Op de foto: v.l.n.r. Fred Remmers (HCAW), Dassie Rasmijn (Nicols) en scheidsrechter Mast.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '323',
@@ -2586,7 +2586,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '499',
 	'ftdescription' => 'AndrÃ© Boddendijk',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '324',
@@ -2594,7 +2594,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '500',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '325',
@@ -2602,7 +2602,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '501',
 	'ftdescription' => 'Burgemeester A. Admiraal opende het clubhuis van HCAW met een onderhandse worp. Misschien dat hij daarmee wilde zeggen dat ook softball â€žin\" is bij HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '326',
@@ -2610,7 +2610,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '502',
 	'ftdescription' => 'Een spelmoment uit de wedstrijd ORWO HCAW 3â€”Donar Jaski 2, welke de Bussumers het kampioenschap opleverde.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '327',
@@ -2618,7 +2618,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '503',
 	'ftdescription' => 'Het. bestuur van HCAW in de oude samenstelling. Van links naar rechts de heren Van Meurs, Mabelis, Simons, Hoffmann, Kort, Bakker, Wessels en Fijth. Christa Dehl-Koene was wegens een kaakoperatie niet aanwezig.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '328',
@@ -2626,7 +2626,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '504',
 	'ftdescription' => 'Peter de Graeve, hier nog niet wetende dat Frank v.d. Putten in wordt gegeven, staat de HCK loper met de bal in de hand op te wachten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '329',
@@ -2634,7 +2634,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '505',
 	'ftdescription' => 'Werpster Rini Remmers in actie tegen Flying Petrels uit Purmerend.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '330',
@@ -2642,7 +2642,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '506',
 	'ftdescription' => 'De heer en mevrouw Dinkla, winnaars, van de reis naar Ierland, worden gefeliciteerd door de heer Ligthart van Primair',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '331',
@@ -2650,7 +2650,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '507',
 	'ftdescription' => 'Een onderdeel van de familierit. In de honkbalvallei moest in de slagtunnel van HCAW geworpen worden.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '332',
@@ -2658,7 +2658,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '508',
 	'ftdescription' => 'Rob de Graeve slaagt er in een speler van De Volewijckers op het eerste honk uit te maken. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '333',
@@ -2666,7 +2666,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '509',
 	'ftdescription' => '<lange heul>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '334',
@@ -2674,7 +2674,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '510',
 	'ftdescription' => 'Ad Smith staat wel gereed om de bal te vangen, maar de man van Giants Diemen is net iets eerder op het tweede honk, zoals de foto duidelijk aangeeft. ORWO/HCAW verloor kansloos van Giants.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '335',
@@ -2682,7 +2682,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '512',
 	'ftdescription' => 'Ad Smit komt op het tweede honk dankzij een sliding, in de honkbalwedstrijd tussen ORWO/HCAW en Sparta, gisteren in Bussum gespeeld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '336',
@@ -2690,7 +2690,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '513',
 	'ftdescription' => 'Mevrouw G. Stensell, echtgenote van de president van de â€žBlue Lake Fine Arts Camp\" hier tussen mevrouw Beatrice SchrÃ¶der en de heer H. Blom van de Gooise Operette Vereniging.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '337',
@@ -2698,7 +2698,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '514',
 	'ftdescription' => '<onbekend>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '338',
@@ -2706,7 +2706,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '515',
 	'ftdescription' => 'Als er niet langs kan, moet er er maar onderdoor, schijnt Ad Smit te zeggen, terwijl hij zijn slaghelm verliezend, tijdig het eerste honk bereikt \'m de ontmoeting tegen Ajax.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '339',
@@ -2714,7 +2714,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '516',
 	'ftdescription' => 'Placidus scoort 7-6 en brengt de hoop terug bij HCAW. En toch werd het een Bussumse nederlaag in Amsterdam',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '340',
@@ -2722,7 +2722,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '517',
 	'ftdescription' => 'Rob de Graeve bereikt tijdig het eerste honk',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '341',
@@ -2730,7 +2730,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '518',
 	'ftdescription' => 'Wim Hageman bereikt met een sliding het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '342',
@@ -2738,7 +2738,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '519',
 	'ftdescription' => 'Julio Hazel komt te laat op het derde honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '343',
@@ -2746,7 +2746,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '520',
 	'ftdescription' => 'Kan ik het halen, of kan ik het niet halen, lijkt Martha te denken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '344',
@@ -2754,7 +2754,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '521',
 	'ftdescription' => 'Rob Filipiak bereikt het eerste honk net op tijd in de wedstrijd HCAW - Haarlem Nicols. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '345',
@@ -2762,7 +2762,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '522',
 	'ftdescription' => 'Rob Filipiak aan slag.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '346',
@@ -2770,7 +2770,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '523',
 	'ftdescription' => 'De bezoekers van de honkbalwedstrijden van OVVO en Ajax in Amsterdam profiteren bij elke ontmoeting van het elektronische scorebord, dat de stand nauwkeurig bijhoudt. Ook HCAW krijgt binnenkort een soortgelijk bor, waarmee de toeschouwers ten zeerste gediend zullen zijn. Op de foto het scorebord in het Amsterdamse honkbalstadion.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '347',
@@ -2778,7 +2778,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '524',
 	'ftdescription' => 'Alvin Martha gaat uit onder protest.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '348',
@@ -2786,7 +2786,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '525',
 	'ftdescription' => 'Julio Hazel bereikt grijnzend het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '349',
@@ -2794,7 +2794,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '526',
 	'ftdescription' => 'Ad Smith',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '350',
@@ -2802,7 +2802,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '527',
 	'ftdescription' => 'Lijf aam lijf gevecht tussen Rob de Graeve en Marcel de Bruin.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '351',
@@ -2810,7 +2810,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '528',
 	'ftdescription' => 'Allan Harris bereikt het eerste honk terwijl Hudson John zich afvraagt waar de bal is gebleven.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '352',
@@ -2818,7 +2818,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '529',
 	'ftdescription' => 'Zij hij dan toch in zijn. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '353',
@@ -2826,7 +2826,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '530',
 	'ftdescription' => 'Ad Fijth',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '354',
@@ -2834,7 +2834,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '531',
 	'ftdescription' => 'Wim Hageman',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '355',
@@ -2842,7 +2842,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '532',
 	'ftdescription' => 'Stijlvolle ren van Rob Filipiak',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '356',
@@ -2850,7 +2850,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '533',
 	'ftdescription' => 'Ad Smith en Wim Hageman na de ,,strafexpeditie\'\' van coach Fraser.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '357',
@@ -2858,7 +2858,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '534',
 	'ftdescription' => 'Rob de Graeve ontvangt de bal te laat om een aanstormende Spartaan te beletten het eerste honk te bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '358',
@@ -2866,7 +2866,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '536',
 	'ftdescription' => 'Julio Hazel bereikt hier weliswaar het derde honk, maar het mocht niet baten. Zijn teamgenoot Frank Baily werd met drie slag aan de kant gezet en dat betekende de derde nul.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '359',
@@ -2874,7 +2874,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '537',
 	'ftdescription' => 'Eerste honkman AndrÃ© Boddendijk weerde zich aan slag voortreffelijk, twee honkslagen uit vier slagbeurten. Hier bereikt hij het derde honk voor Dick v.d. Berg hem kan uittikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '360',
@@ -2882,7 +2882,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '538',
 	'ftdescription' => 'Julio Hazel landt te laat om deze honkloper van Storks uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '361',
@@ -2890,7 +2890,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '539',
 	'ftdescription' => 'Wim Hageman van ORWO HCAW komt enkele centimeters te kort om het derde honk te bereiken. Robert Maat staat gereed om de midvelder uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '362',
@@ -2898,7 +2898,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '540',
 	'ftdescription' => 'Irene Vredenbregt, 2 punten',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '363',
@@ -2906,7 +2906,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '541',
 	'ftdescription' => 'Julio Hazel (ORWO HCAW) doet een vertwijfelde poging om het derde honk te bereiken. Steenbrugge (Feijenoord) is hem echter te vlug af.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '364',
@@ -2914,7 +2914,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '542',
 	'ftdescription' => 'Ad Smith (ORWO HCAW) zette zijn aanval op de thuisplaat te snel in. Hij werd ingesloten en door Steenbrugge van Feyenoord uitgetÃ¯kt. De Feyenoorders zijn reeds op weg naar de dug out, Ad Smith teleurgesteld op het derde honk achterlatende.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '365',
@@ -2923,7 +2923,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'ftdescription' => 'Jos Hanou van ORWO HCAW 3 wordt door coach Wessels gefeliciteerd met zijn home-run, welke hij sloeg in de wedstrijd Zuidvogelsâ€”ORWO HCAW
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '366',
@@ -2931,7 +2931,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '544',
 	'ftdescription' => 'De geschorste coach van ORWO HCAW, Jan Prins, geeft hulpcoach Jan Schriek instructies over de te volgen tactiek',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '367',
@@ -2939,7 +2939,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '545',
 	'ftdescription' => 'Ajax is voor ORWO HCAW altijd een moeilijke tegenstander. Terreinknecht Verkerk zei dan ook: â€žAls ORWO HCAW van Ajax wint, steek ik mijn jas op de werpheuvel in brand\". ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '368',
@@ -2947,7 +2947,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '546',
 	'ftdescription' => 'Ad Smith op weg naar de thuisplaat op weg naar het eerste punt in de wedstrijd ORWO HCAW - Storks',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '369',
@@ -2955,7 +2955,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '547',
 	'ftdescription' => 'JAN PRINS - afscheid na 3 jaar',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '370',
@@ -2963,7 +2963,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '548',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '371',
@@ -2971,7 +2971,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '70',
 	'ftdescription' => 'Julio Hazel - gedrost',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '372',
@@ -2979,7 +2979,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'idphoto' => '549',
 	'ftdescription' => '...Julio Hazel...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '373',
@@ -2988,7 +2988,7 @@ class ArticlephotosSeeder extends AbstractSeed
 	'ftdescription' => '... Wim Hageman ...
 naar VS',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '374',
@@ -2997,7 +2997,7 @@ naar VS',
 	'ftdescription' => '...Ad Smith...
 routine',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '375',
@@ -3005,7 +3005,7 @@ routine',
 	'idphoto' => '552',
 	'ftdescription' => 'AD FIJTH (ORWO HCAW)',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '376',
@@ -3013,7 +3013,7 @@ routine',
 	'idphoto' => '553',
 	'ftdescription' => 'Rickey Placidus',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '377',
@@ -3021,7 +3021,7 @@ routine',
 	'idphoto' => '554',
 	'ftdescription' => 'Frederick Lewis (links) en Eddy Hallman, op het moment dat de opname gemaakt werd nog niet wetend dat zij twee jaar zijn geschorst, in de honkbalvallei in Bussum.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '378',
@@ -3029,7 +3029,7 @@ routine',
 	'idphoto' => '550',
 	'ftdescription' => 'Wim Hageman',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '379',
@@ -3037,7 +3037,7 @@ routine',
 	'idphoto' => '551',
 	'ftdescription' => 'Ad Smith',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '380',
@@ -3045,7 +3045,7 @@ routine',
 	'idphoto' => '555',
 	'ftdescription' => 'De ORWO HCAW-selectie in de honkbalvallei in Bussum bijeen voor een tweedaags trainingskamp.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '381',
@@ -3053,7 +3053,7 @@ routine',
 	'idphoto' => '277',
 	'ftdescription' => 'Ad Smith (links) en Wim Hageman bereiden zich conscentieus voor op het komende seizoen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '382',
@@ -3061,7 +3061,7 @@ routine',
 	'idphoto' => '556',
 	'ftdescription' => 'De drie werpers van ORWO HCAW, v.l.n.r. RenÃ© Boin, AndrÃ© Boddendijk en Jan de Graaf. Wie zal zaterdag de spits afbijten tegen Raak Nicols?',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '383',
@@ -3069,7 +3069,7 @@ routine',
 	'idphoto' => '267',
 	'ftdescription' => 'Honkbalinternational Herman Beidschat zal het de slagploeg van ORWO HCAW ongetwijfeld zeer lastig maken, Hier is hij in actie tegen de nationale kampioen Sparta.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '384',
@@ -3077,7 +3077,7 @@ routine',
 	'idphoto' => '557',
 	'ftdescription' => 'Arnoud Blom slaagt er in Ad Smith van de thuisplaat te houden. Hij behoedt zijn team hierdoor voor een 2â€”0 achterstand',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '385',
@@ -3085,7 +3085,7 @@ routine',
 	'idphoto' => '558',
 	'ftdescription' => 'Hageman scoort het eerste punt voor ORWO HCAW tegen Raak Nicols.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '386',
@@ -3093,7 +3093,7 @@ routine',
 	'idphoto' => '559',
 	'ftdescription' => 'Jan de Graaf probeert met een snoekduik het eerste honk te bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '387',
@@ -3101,7 +3101,7 @@ routine',
 	'idphoto' => '560',
 	'ftdescription' => 'Ad Smith is veilig',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '388',
@@ -3109,7 +3109,7 @@ routine',
 	'idphoto' => '561',
 	'ftdescription' => 'Guus v.d. Bovenkamp (25) in actie tijdens het treffen tussen Ministerpark en Domstad Dodgers',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '389',
@@ -3117,7 +3117,7 @@ routine',
 	'idphoto' => '562',
 	'ftdescription' => 'Berry Eygendaal (ADO) is Leo Nagtegaal te snel af. Veilig bereikt hij het derde honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '390',
@@ -3125,7 +3125,7 @@ routine',
 	'idphoto' => '563',
 	'ftdescription' => 'De van ORWO HCAW overgekomen Frank Bruineman in actie in de succesvolle formatie van Ministerpark.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '391',
@@ -3133,7 +3133,7 @@ routine',
 	'idphoto' => '564',
 	'ftdescription' => 'â€žKomt die bal nu nooit\" lijkt Rob de Graeve (nr 18) te denken. Deze Sparta-speler is Ã©Ã©n van de velen die in het treffen ORWO HCAWâ€”Sparta de honken zal bezetten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '392',
@@ -3141,7 +3141,7 @@ routine',
 	'idphoto' => '565',
 	'ftdescription' => 'Burgemeester Fontein - op sportieve toer',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '393',
@@ -3149,7 +3149,7 @@ routine',
 	'idphoto' => '566',
 	'ftdescription' => 'Burgemeester Fontein van Huizen wordt voorgesteld aan het eerste honkbal negental van Zuidvogels. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '394',
@@ -3157,7 +3157,7 @@ routine',
 	'idphoto' => '567',
 	'ftdescription' => 'Bart Seidel arriveert op derde honk. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '395',
@@ -3165,7 +3165,7 @@ routine',
 	'idphoto' => '568',
 	'ftdescription' => 'Ministerpark in de anaval tegen Donar-Jaski 2',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '396',
@@ -3173,7 +3173,7 @@ routine',
 	'idphoto' => '569',
 	'ftdescription' => 'Alan Harris is niet op tijd om Hudson John van het derde honk te houden. De Feyenoorder zou later Ã©Ã©n van de zes punten voor de Rotterdammers scoren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '397',
@@ -3181,7 +3181,7 @@ routine',
 	'idphoto' => '570',
 	'ftdescription' => 'Spelbeeld uit de wedstrijd Zuidvogels-ORWO-HCAW 3. Het wachten is op de bal, maar die komt te laat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '398',
@@ -3189,7 +3189,7 @@ routine',
 	'idphoto' => '571',
 	'ftdescription' => 'Berry Klaver (rechts) op weg naar het derde honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '399',
@@ -3197,7 +3197,7 @@ routine',
 	'idphoto' => '572',
 	'ftdescription' => 'Rob de Graeve (ORWO-HCAW) - winnend punt',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '400',
@@ -3205,7 +3205,7 @@ routine',
 	'idphoto' => '573',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '401',
@@ -3213,7 +3213,7 @@ routine',
 	'idphoto' => '574',
 	'ftdescription' => 'Discussie met scheidsrechter mevrouw van Eist (2e van links) over een genomen beslissing. Het werd prettig geregeld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '402',
@@ -3221,7 +3221,7 @@ routine',
 	'idphoto' => '576',
 	'ftdescription' => 'Wim Hageman (l) en Arnold Smit (r) medewerkers aan Europese titel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '403',
@@ -3229,7 +3229,7 @@ routine',
 	'idphoto' => '578',
 	'ftdescription' => 'Ria Platvoet aan slag. Ze had een flink aandeel in de zege.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '404',
@@ -3237,7 +3237,7 @@ routine',
 	'idphoto' => '579',
 	'ftdescription' => 'Anco de Smet (Amerika-ganger) in actie. Het bleek allemaal vergeefse moeite, want in de vijfde inning was het inpakken en wegwezen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '405',
@@ -3245,7 +3245,7 @@ routine',
 	'idphoto' => '580',
 	'ftdescription' => 'De Tsjechische heren toonden zich zeer slagvaardig en lieten van het Vituscollege geen spaan heel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '406',
@@ -3253,7 +3253,7 @@ routine',
 	'idphoto' => '583',
 	'ftdescription' => 'Wim koenders, de coach van de Amerika gangers',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '407',
@@ -3261,7 +3261,7 @@ routine',
 	'idphoto' => '584',
 	'ftdescription' => 'Johanna Mulder (l), echtgenote van Ajacied Jan, passeert de thuisplaat in het belangrijke treffen tegen het Arnhemse ESCA.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '408',
@@ -3269,7 +3269,7 @@ routine',
 	'idphoto' => '585',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '409',
@@ -3277,7 +3277,7 @@ routine',
 	'idphoto' => '586',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '410',
@@ -3285,7 +3285,7 @@ routine',
 	'idphoto' => '587',
 	'ftdescription' => 'ORWO/HCAW heeft zich tegen Flying Petrels bijna veilig gesteld voor de degradatie.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '411',
@@ -3293,7 +3293,7 @@ routine',
 	'idphoto' => '588',
 	'ftdescription' => 'ORWO/HCAW heeft haar supportersclub. De oprichters zijn v.l.n.r.: Ton Arends, Ben Verkerk, Floor Rozenboom, Rob Schaftenaar, Piet v. d. Kolk en Sjoerd van Driel. Onder: Het jongste lid Joyce Hazel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '412',
@@ -3301,7 +3301,7 @@ routine',
 	'idphoto' => '589',
 	'ftdescription' => 'Rob van der Gaast komt veilig thuis in de derde slagbeurt. De stand wordt 3-4.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '413',
@@ -3309,7 +3309,7 @@ routine',
 	'idphoto' => '590',
 	'ftdescription' => 'Hudson John de clown van Feijenoord heeft een homerun geslagen. Het is de vierde in de honkbalvallei. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '414',
@@ -3317,7 +3317,7 @@ routine',
 	'idphoto' => '591',
 	'ftdescription' => 'Leo Nagtegaal maakt het eerste punt voor ORWO-HCAW tegen Hotam Storks.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '415',
@@ -3325,7 +3325,7 @@ routine',
 	'idphoto' => '592',
 	'ftdescription' => 'Eddie Hallman heeft ADO-werper Ferry Neuteboom geveld met een honkslag. Helpers schieten toe om de ongelukkige pitcher op te lappen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '416',
@@ -3333,7 +3333,7 @@ routine',
 	'idphoto' => '593',
 	'ftdescription' => 'Wim Hageman (ORWO HCAW) bereikt de thuisplaat. Catcher Bodaan ontvangt de bal te laat om de Bussumer af te stoppen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '417',
@@ -3341,7 +3341,7 @@ routine',
 	'idphoto' => '594',
 	'ftdescription' => 'John van Westrenen rondt het derde honk en gaat op weg naar de thuisplaat. Leo Nagtegaal wacht tevergeefs op de bal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '418',
@@ -3349,7 +3349,7 @@ routine',
 	'idphoto' => '550',
 	'ftdescription' => 'Wim Hageman - homerun in Den Haag',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '419',
@@ -3357,7 +3357,7 @@ routine',
 	'idphoto' => '595',
 	'ftdescription' => 'Uit constateert de veldscheidsrechter. Derde honkman Leo Nagtegaal rent juichend naar de dug out.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '420',
@@ -3365,7 +3365,7 @@ routine',
 	'idphoto' => '596',
 	'ftdescription' => 'Eddy Hallman heeft geleerd van de fouten die hij het vorige weekeinde heeft gemaakt. Hij tikte nu wel degelijk honken en plaat aan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '421',
@@ -3373,7 +3373,7 @@ routine',
 	'idphoto' => '597',
 	'ftdescription' => 'RenÃ© Boin, de zegevierende werper van ORWO HCAW. neemt de gelukwensen van zijn ploeggenoten in ontvangst. Vandaag werden hem opnieuw vele felicitaties deelachtig: Hij huwde.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '422',
@@ -3381,7 +3381,7 @@ routine',
 	'idphoto' => '598',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '423',
@@ -3389,7 +3389,7 @@ routine',
 	'idphoto' => '599',
 	'ftdescription' => 'De grote onbekende in het persteam bleek niemand minder dan Herman Beidschat te zijn.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '424',
@@ -3397,7 +3397,7 @@ routine',
 	'idphoto' => '54',
 	'ftdescription' => 'Ade Fijth',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '425',
@@ -3405,7 +3405,7 @@ routine',
 	'idphoto' => '600',
 	'ftdescription' => 'Rob de Graeve - naar Ministerpark',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '426',
@@ -3413,7 +3413,7 @@ routine',
 	'idphoto' => '601',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '427',
@@ -3421,7 +3421,7 @@ routine',
 	'idphoto' => '602',
 	'ftdescription' => 'Frank Lewis en Eddy Hallman',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '428',
@@ -3429,7 +3429,7 @@ routine',
 	'idphoto' => '603',
 	'ftdescription' => 'Ade Fijth',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '429',
@@ -3437,7 +3437,7 @@ routine',
 	'idphoto' => '531',
 	'ftdescription' => 'Wim Hageman',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '430',
@@ -3445,7 +3445,7 @@ routine',
 	'idphoto' => '604',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '431',
@@ -3453,7 +3453,7 @@ routine',
 	'idphoto' => '606',
 	'ftdescription' => 'Ade Fijth straks weer in de Bussumse honkbal piste. Twee jaar speelde hij bij Sparta en vierde er evenveel kampioenschappen. ORWO-HCAW verwacht wel wat van hem. Ade in het dagelijks leven hier te zien met zijn werkgevers Frits en Gradus Aalbers, die alle medewerking verlenen bij Ade\'s sportbeoefening. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '432',
@@ -3461,7 +3461,7 @@ routine',
 	'idphoto' => '557',
 	'ftdescription' => 'Een van de vele prachtige acties vorig jaar bij ORWO-HCAW-Haarlem Nicols. Wordt het volgende week opnieuw een spektakelstuk?',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '433',
@@ -3469,7 +3469,7 @@ routine',
 	'idphoto' => '607',
 	'ftdescription' => 'Zuidvogels traint intensief. Men wil het komende seizoen hoge ogen gooien. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '434',
@@ -3478,7 +3478,7 @@ routine',
 	'ftdescription' => 'Beeld uit Zuidvogels-ORWO-HCAW 3 (anno 1973). Morgen staan de teams weer tegenover elkaar
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '435',
@@ -3486,7 +3486,7 @@ routine',
 	'idphoto' => '608',
 	'ftdescription' => 'Peter Laanen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '436',
@@ -3494,7 +3494,7 @@ routine',
 	'idphoto' => '609',
 	'ftdescription' => 'Laanen: breedtegroei van belang',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '437',
@@ -3502,7 +3502,7 @@ routine',
 	'idphoto' => '610',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '438',
@@ -3510,7 +3510,7 @@ routine',
 	'idphoto' => '611',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '439',
@@ -3518,7 +3518,7 @@ routine',
 	'idphoto' => '612',
 	'ftdescription' => 'Bill Groot',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '440',
@@ -3526,7 +3526,7 @@ routine',
 	'idphoto' => '613',
 	'ftdescription' => 'Judsel Baranco',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '441',
@@ -3534,7 +3534,7 @@ routine',
 	'idphoto' => '614',
 	'ftdescription' => 'Craig McGinnis',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '442',
@@ -3542,7 +3542,7 @@ routine',
 	'idphoto' => '615',
 	'ftdescription' => 'Don Wedman',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '443',
@@ -3550,7 +3550,7 @@ routine',
 	'idphoto' => '616',
 	'ftdescription' => 'Tonny Cohen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '444',
@@ -3558,7 +3558,7 @@ routine',
 	'idphoto' => '617',
 	'ftdescription' => 'Jan van der Laan jr.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '445',
@@ -3566,7 +3566,7 @@ routine',
 	'idphoto' => '618',
 	'ftdescription' => 'Het Helderse speelveld',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '446',
@@ -3574,7 +3574,7 @@ routine',
 	'idphoto' => '619',
 	'ftdescription' => 'Clive Mendes (r): \"s\'avonds vroeg naar bed\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '447',
@@ -3582,7 +3582,7 @@ routine',
 	'idphoto' => '620',
 	'ftdescription' => 'Mendes in actie bij Kansas',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '448',
@@ -3590,7 +3590,7 @@ routine',
 	'idphoto' => '621',
 	'ftdescription' => 'V.l.n.r.: Jim Dimick, Judi Garman, Bobo Brayton en Bill Arce',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '449',
@@ -3598,7 +3598,7 @@ routine',
 	'idphoto' => '622',
 	'ftdescription' => 'Alfons Beentjes en Rob Walgien',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '450',
@@ -3606,7 +3606,7 @@ routine',
 	'idphoto' => '623',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '451',
@@ -3614,7 +3614,7 @@ routine',
 	'idphoto' => '624',
 	'ftdescription' => 'Robert Maat: \'naar m\'n zin bij ICL\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '452',
@@ -3622,7 +3622,7 @@ routine',
 	'idphoto' => '625',
 	'ftdescription' => 'ICL Alphians: groei in de breedte',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '453',
@@ -3630,7 +3630,7 @@ routine',
 	'idphoto' => '626',
 	'ftdescription' => 'Ola UVV: de jeugd krijgt de ruimte',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '454',
@@ -3638,7 +3638,7 @@ routine',
 	'idphoto' => '627',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '455',
@@ -3646,7 +3646,7 @@ routine',
 	'idphoto' => '628',
 	'ftdescription' => 'Harry van den Berg',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '456',
@@ -3654,7 +3654,7 @@ routine',
 	'idphoto' => '629',
 	'ftdescription' => 'Koos van der Mark...\'Als het niets zou zijn geworden, was het absoluut Sparta\'s laatste jaar geweest\'...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '457',
@@ -3662,7 +3662,7 @@ routine',
 	'idphoto' => '630',
 	'ftdescription' => 'Harry Koster',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '458',
@@ -3670,7 +3670,7 @@ routine',
 	'idphoto' => '631',
 	'ftdescription' => 'Harry Koster: \'Graag tegen Aztecs starten...\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '459',
@@ -3678,7 +3678,7 @@ routine',
 	'idphoto' => '632',
 	'ftdescription' => 'Bill Jeffrey (l) met de prijswinnaars van \'zijn\' toernooi',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '460',
@@ -3686,7 +3686,7 @@ routine',
 	'idphoto' => '633',
 	'ftdescription' => 'Pat Murphy...\'Ieder duel is voor mij hetzelfde als de zevende wedstrijd van de World Series\'...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '461',
@@ -3694,7 +3694,7 @@ routine',
 	'idphoto' => '634',
 	'ftdescription' => 'De zusjes van de Heijkant',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '462',
@@ -3702,7 +3702,7 @@ routine',
 	'idphoto' => '635',
 	'ftdescription' => 'Nico de Bie',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '463',
@@ -3710,7 +3710,7 @@ routine',
 	'idphoto' => '636',
 	'ftdescription' => 'Hoezo Twins?',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '464',
@@ -3718,7 +3718,7 @@ routine',
 	'idphoto' => '637',
 	'ftdescription' => 'Nicols-catcher Halderman sneuvelt in het zicht van de haven. Benningshof is sneller.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '465',
@@ -3726,7 +3726,7 @@ routine',
 	'idphoto' => '638',
 	'ftdescription' => 'Nicolette van Vilsteren scoort voor HHC',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '466',
@@ -3734,7 +3734,7 @@ routine',
 	'idphoto' => '639',
 	'ftdescription' => 'Wilson van Feyenoord gaat met een dubbelspel uit op tweede honk',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '467',
@@ -3742,7 +3742,7 @@ routine',
 	'idphoto' => '640',
 	'ftdescription' => 'DaniÃ«lle Oene',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '468',
@@ -3750,7 +3750,7 @@ routine',
 	'idphoto' => '641',
 	'ftdescription' => 'Jan-Dick Leurs',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '469',
@@ -3758,7 +3758,7 @@ routine',
 	'idphoto' => '642',
 	'ftdescription' => 'Oranje, kampioen 1987',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '470',
@@ -3766,7 +3766,7 @@ routine',
 	'idphoto' => '643',
 	'ftdescription' => 'Marcel Kruyt',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '471',
@@ -3774,7 +3774,7 @@ routine',
 	'idphoto' => '644',
 	'ftdescription' => '<onbekend>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '472',
@@ -3782,7 +3782,7 @@ routine',
 	'idphoto' => '645',
 	'ftdescription' => 'Spectaculaire van Havanna\'s korte stop Mesa kan niet voorkomen dat Bill Groot het tweede honk bereikt',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '473',
@@ -3790,7 +3790,7 @@ routine',
 	'idphoto' => '646',
 	'ftdescription' => 'Hans Lemmink kan niet verhinderen dat An Hsi Li scoort voor Taiwan',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '474',
@@ -3798,7 +3798,7 @@ routine',
 	'idphoto' => '647',
 	'ftdescription' => 'Pedro Chavez...Toernooien als WPT ideaal voor ontwikkeling van jonge spelers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '475',
@@ -3806,7 +3806,7 @@ routine',
 	'idphoto' => '648',
 	'ftdescription' => 'Theo Vleesshouwer reikt de hoofdprijs uit aan Wang Ying van China',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '476',
@@ -3814,7 +3814,7 @@ routine',
 	'idphoto' => '649',
 	'ftdescription' => 'Li Chunxiao maakt dubbelspel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '477',
@@ -3822,7 +3822,7 @@ routine',
 	'idphoto' => '650',
 	'ftdescription' => 'LuciÃ«nne Geels speelde, evenals Marlies van der Putten, verdedigend een perfect toernooi in Oklahoma ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '478',
@@ -3830,7 +3830,7 @@ routine',
 	'idphoto' => '651',
 	'ftdescription' => 'Ton Schouten',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '479',
@@ -3838,7 +3838,7 @@ routine',
 	'idphoto' => '652',
 	'ftdescription' => 'Rikkert Faneyte, teleurstellend in ItaliÃ«',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '480',
@@ -3846,7 +3846,7 @@ routine',
 	'idphoto' => '653',
 	'ftdescription' => 'Teleurstelling op de Nicols-bank',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '481',
@@ -3854,7 +3854,7 @@ routine',
 	'idphoto' => '654',
 	'ftdescription' => 'Kwakernaat safe op het tweede honk',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '482',
@@ -3862,7 +3862,7 @@ routine',
 	'idphoto' => '655',
 	'ftdescription' => 'Op zo\'n veld kun je een home run hÃ©Ã©Ã©l lang nakijken..',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '483',
@@ -3870,7 +3870,7 @@ routine',
 	'idphoto' => '656',
 	'ftdescription' => 'Ad HarlÃ©, ontwikkelingswerker in Limburg',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '484',
@@ -3878,7 +3878,7 @@ routine',
 	'idphoto' => '657',
 	'ftdescription' => 'Rikkert Faneijte: \'Ik probeer altijd beter te zijn\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '485',
@@ -3886,7 +3886,7 @@ routine',
 	'idphoto' => '658',
 	'ftdescription' => 'Rikkert Faneijte: \'ik heb geen idolen in het honkbal\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '486',
@@ -3894,7 +3894,7 @@ routine',
 	'idphoto' => '659',
 	'ftdescription' => 'Jim Dietz instrueert zijn ploeg',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '487',
@@ -3902,7 +3902,7 @@ routine',
 	'idphoto' => '660',
 	'ftdescription' => 'Montejano, de enige senior in de Aztecs-selectie op het WPT',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '488',
@@ -3910,7 +3910,7 @@ routine',
 	'idphoto' => '661',
 	'ftdescription' => 'Annette van Opzeeland, \'Amerika hoeft niet zo nodig\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '489',
@@ -3918,7 +3918,7 @@ routine',
 	'idphoto' => '662',
 	'ftdescription' => 'Annette van Opzeeland, thuis bij de \'eigen\' oefenaccommodatie',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '490',
@@ -3926,7 +3926,7 @@ routine',
 	'idphoto' => '663',
 	'ftdescription' => 'DaniÃ«lle Oene: \'ik vind het nog steeds leuk om te doen\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '491',
@@ -3934,7 +3934,7 @@ routine',
 	'idphoto' => '664',
 	'ftdescription' => 'Bart Volkerijk: \"ik denk alle medewerking te krijgen\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '492',
@@ -3942,7 +3942,7 @@ routine',
 	'idphoto' => '665',
 	'ftdescription' => 'Robert Eenhoorn: \'tijd vrijmaken\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '493',
@@ -3950,7 +3950,7 @@ routine',
 	'idphoto' => '666',
 	'ftdescription' => 'Het honkbalveld en clubhuis van de County Hitters',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '494',
@@ -3958,7 +3958,7 @@ routine',
 	'idphoto' => '667',
 	'ftdescription' => 'Henk Groenendaal overhandigt een presentje aan Eva Becking als 30.000ste lid van de KNBSB',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '495',
@@ -3966,7 +3966,7 @@ routine',
 	'idphoto' => '668',
 	'ftdescription' => 'Na de zesde inning een volle bak..',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '496',
@@ -3974,7 +3974,7 @@ routine',
 	'idphoto' => '669',
 	'ftdescription' => 'Marcel Kruyt van Brugman Keukens Neptunus is net op tijd terug op het eerste honk. Johnson Wood van Multifax Tijgers moet dat tot zijn spijt constateren',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '497',
@@ -3982,7 +3982,7 @@ routine',
 	'idphoto' => '670',
 	'ftdescription' => 'Edsel Martis scoort het eerste punt voor Detach Pirates in de topper tegen Opel Nicols. Gerlach Halderman kan dat niet voorkomen. Umpire Fred de Kramer wacht nog even af.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '498',
@@ -3990,7 +3990,7 @@ routine',
 	'idphoto' => '671',
 	'ftdescription' => 'llja van Eijnsbergen scoort, catcher Yvette Willemsen is te laat',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '499',
@@ -3998,7 +3998,7 @@ routine',
 	'idphoto' => '672',
 	'ftdescription' => 'Eliott Rivera van Kinheim bereikt hier tegen OVVO veilig het tweede honk',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '500',
@@ -4006,7 +4006,7 @@ routine',
 	'idphoto' => '673',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '501',
@@ -4014,7 +4014,7 @@ routine',
 	'idphoto' => '674',
 	'ftdescription' => 'Tot hier en niet verder. Smit tegen Mitsubishi in de Honkbalweek van 1980.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '502',
@@ -4022,7 +4022,7 @@ routine',
 	'idphoto' => '675',
 	'ftdescription' => 'Paul Smit scoort voor Nederland',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '503',
@@ -4030,7 +4030,7 @@ routine',
 	'idphoto' => '676',
 	'ftdescription' => 'Het bestuur en de coach: felicitaties',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '504',
@@ -4038,7 +4038,7 @@ routine',
 	'idphoto' => '677',
 	'ftdescription' => 'Detach-vreugde',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '505',
@@ -4046,7 +4046,7 @@ routine',
 	'idphoto' => '678',
 	'ftdescription' => 'Koster en Richardson',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '506',
@@ -4054,7 +4054,7 @@ routine',
 	'idphoto' => '679',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '507',
@@ -4062,7 +4062,7 @@ routine',
 	'idphoto' => '680',
 	'ftdescription' => 'Scheidsrechter Pieters, krijgt de onderscheiding als \'scheidsrechter van het jaar 1986\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '508',
@@ -4070,7 +4070,7 @@ routine',
 	'idphoto' => '681',
 	'ftdescription' => 'Peter Laanen ontvangt een fraai schilderij',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '509',
@@ -4078,7 +4078,7 @@ routine',
 	'idphoto' => '682',
 	'ftdescription' => 'De Kinheim-junioren, honkbalkampioen van 1987',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '510',
@@ -4086,7 +4086,7 @@ routine',
 	'idphoto' => '683',
 	'ftdescription' => 'De Texla-bestuurders op het terrein van hun club, dat weldra ais ijsbaan weer onder water zal staan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '511',
@@ -4094,7 +4094,7 @@ routine',
 	'idphoto' => '684',
 	'ftdescription' => 'Het eerste honkbaltoernooi op Texel werd een groot succes',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '512',
@@ -4102,7 +4102,7 @@ routine',
 	'idphoto' => '685',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '513',
@@ -4110,7 +4110,7 @@ routine',
 	'idphoto' => '686',
 	'ftdescription' => 'Het begeleidingsteam van Brugman Keukens Neptunus voor 1988. Zittend Jan van der Sande(l) en Jan de Vos. Staand v.l.n.r. Leo Taal, Ab Bruinekool, Huub Kohl, Leen Staub, Nico van Meeteren en Dick van der Noordt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '514',
@@ -4118,7 +4118,7 @@ routine',
 	'idphoto' => '687',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '515',
@@ -4126,7 +4126,7 @@ routine',
 	'idphoto' => '688',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '516',
@@ -4134,7 +4134,7 @@ routine',
 	'idphoto' => '689',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '517',
@@ -4142,7 +4142,7 @@ routine',
 	'idphoto' => '690',
 	'ftdescription' => 'Kampioen Vreeburg na aankomst op schiphol',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '518',
@@ -4150,7 +4150,7 @@ routine',
 	'idphoto' => '691',
 	'ftdescription' => 'Het fraaie stadion van Seoul, waarin 1982 het WK werd gespeeld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '519',
@@ -4158,7 +4158,7 @@ routine',
 	'idphoto' => '692',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '520',
@@ -4166,7 +4166,7 @@ routine',
 	'idphoto' => '693',
 	'ftdescription' => 'Gerlach Halderman:\'lk heb niet veel van Murphy geleerd\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '521',
@@ -4174,7 +4174,7 @@ routine',
 	'idphoto' => '694',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '522',
@@ -4182,7 +4182,7 @@ routine',
 	'idphoto' => '695',
 	'ftdescription' => 'Craig Montvidas: \'Ik dacht het tijd was om aan iets nieuws te beginnen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '523',
@@ -4190,7 +4190,7 @@ routine',
 	'idphoto' => '696',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '524',
@@ -4198,7 +4198,7 @@ routine',
 	'idphoto' => '697',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '525',
@@ -4206,7 +4206,7 @@ routine',
 	'idphoto' => '698',
 	'ftdescription' => 'Honkbal en regen verdragen elkaar niet, dan roei je dus met de riemen die je hebt',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '526',
@@ -4214,7 +4214,7 @@ routine',
 	'idphoto' => '699',
 	'ftdescription' => '\'Blowing bubbles forever\', featuring Robert Eenhoorn',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '527',
@@ -4222,7 +4222,7 @@ routine',
 	'idphoto' => '700',
 	'ftdescription' => 'Hoe zou een Voldendamse er in kimono uitzien?',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '528',
@@ -4230,7 +4230,7 @@ routine',
 	'idphoto' => '701',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '529',
@@ -4238,7 +4238,7 @@ routine',
 	'idphoto' => '702',
 	'ftdescription' => 'De heer F.E. Staller overhandigt symbolisch de eerste Easton-knuppel aan KNBSB-bestuurslid Jules de Pierre. Links Truus Ruiter en Stanley Staller jr met een ander model uit het Easton-assortiment ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '530',
@@ -4246,7 +4246,7 @@ routine',
 	'idphoto' => '703',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '531',
@@ -4254,7 +4254,7 @@ routine',
 	'idphoto' => '704',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '532',
@@ -4262,7 +4262,7 @@ routine',
 	'idphoto' => '705',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '533',
@@ -4270,7 +4270,7 @@ routine',
 	'idphoto' => '706',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '534',
@@ -4278,7 +4278,7 @@ routine',
 	'idphoto' => '707',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '535',
@@ -4286,7 +4286,7 @@ routine',
 	'idphoto' => '708',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '536',
@@ -4294,7 +4294,7 @@ routine',
 	'idphoto' => '709',
 	'ftdescription' => 'Dick Bliek: vizier op Polen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '537',
@@ -4302,7 +4302,7 @@ routine',
 	'idphoto' => '710',
 	'ftdescription' => 'Roberto Bianchi: verantwoordelijk voor de uitschakeling van Parma',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '538',
@@ -4310,7 +4310,7 @@ routine',
 	'idphoto' => '711',
 	'ftdescription' => 'Bol in overleg met Connie Jonkman (L) en Debbie de Gids.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '539',
@@ -4318,7 +4318,7 @@ routine',
 	'idphoto' => '712',
 	'ftdescription' => 'Kees Bol stopt bij Schiedam, zelfs deze smeekbede van z\'n speelsters bracht daar geen verandering in.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '540',
@@ -4326,7 +4326,7 @@ routine',
 	'idphoto' => '713',
 	'ftdescription' => 'De nieuwe aanwinsten voor Neptunus, links Ferreiro, rechts Pestana',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '541',
@@ -4334,7 +4334,7 @@ routine',
 	'idphoto' => '714',
 	'ftdescription' => 'Ron Fraser, lid van de Eregalerij, werd in 1961 op het Haarlemse Honkbaltoernooi verkozen tot homerun-koning van de coaches. Z\'n prijs: een paar Hollandse klompen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '542',
@@ -4342,7 +4342,7 @@ routine',
 	'idphoto' => '715',
 	'ftdescription' => 'Roel Klaassen: \'Honkbal leent zich bij uitstek voor hypnose\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '543',
@@ -4350,7 +4350,7 @@ routine',
 	'idphoto' => '716',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '544',
@@ -4358,7 +4358,7 @@ routine',
 	'idphoto' => '717',
 	'ftdescription' => 'Barrett: meer wedstrijden verhogen het niveau',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '545',
@@ -4366,7 +4366,7 @@ routine',
 	'idphoto' => '718',
 	'ftdescription' => 'John Barrett: \'ik ben alleen geÃ¯nteresseerd in een eerlijk verloop van de wedstrijd',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '546',
@@ -4374,7 +4374,7 @@ routine',
 	'idphoto' => '719',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '547',
@@ -4382,7 +4382,7 @@ routine',
 	'idphoto' => '836',
 	'ftdescription' => 'Craig Montvidas: ,,Ik heb nooit het gevoel gehad uitgekeken te zijn op het softbalteam\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '548',
@@ -4390,7 +4390,7 @@ routine',
 	'idphoto' => '721',
 	'ftdescription' => 'Raymond Bronsgeest',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '549',
@@ -4398,7 +4398,7 @@ routine',
 	'idphoto' => '722',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '550',
@@ -4406,7 +4406,7 @@ routine',
 	'idphoto' => '723',
 	'ftdescription' => 'Marijke Bouman: \'voor de speelsters is het goed eens een ander gezicht te zien\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '551',
@@ -4414,7 +4414,7 @@ routine',
 	'idphoto' => '724',
 	'ftdescription' => 'Marijke Bouman: twintig jaar tegen Bloemendaal en Terrasvogels wordt wat eentonig',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '552',
@@ -4422,7 +4422,7 @@ routine',
 	'idphoto' => '725',
 	'ftdescription' => 'V.l.n.r.Nadine Verkuyl, Marijke Zwierenberg en Ingrid Brusse van HSVThe Batters samen met leermeester Jack Van Swijgenhoven',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '553',
@@ -4430,7 +4430,7 @@ routine',
 	'idphoto' => '727',
 	'ftdescription' => 'Rob Hoffmann',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '554',
@@ -4438,7 +4438,7 @@ routine',
 	'idphoto' => '728',
 	'ftdescription' => 'Wim Koenders: geen slapeloze nachten meer. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '555',
@@ -4446,7 +4446,7 @@ routine',
 	'idphoto' => '729',
 	'ftdescription' => 'Hans Krijnen: Al smedend wordt men smid.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '556',
@@ -4454,7 +4454,7 @@ routine',
 	'idphoto' => '730',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '557',
@@ -4462,7 +4462,7 @@ routine',
 	'idphoto' => '731',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '558',
@@ -4470,7 +4470,7 @@ routine',
 	'idphoto' => '732',
 	'ftdescription' => 'Hans Krijnen: show brengen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '559',
@@ -4478,7 +4478,7 @@ routine',
 	'idphoto' => '733',
 	'ftdescription' => 'Fred Remmers, coach dames ORWO-HCAW: opnieuw proberen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '560',
@@ -4486,7 +4486,7 @@ routine',
 	'idphoto' => '734',
 	'ftdescription' => 'Carel van Joolen: bezeten van softbal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '561',
@@ -4494,7 +4494,7 @@ routine',
 	'idphoto' => '735',
 	'ftdescription' => 'TherÃ¨se Steinmetz: weer eens wat anders.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '562',
@@ -4502,7 +4502,7 @@ routine',
 	'idphoto' => '736',
 	'ftdescription' => '<geen>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '563',
@@ -4510,7 +4510,7 @@ routine',
 	'idphoto' => '737',
 	'ftdescription' => 'BUSSUM â€” ORWOâ€”HCAW verloor beide malen van Sparta en dat was dus een slecht begin. Beeld uit de return in Bussum. Bart Seidel komt veilig op het eerste honk, maar zou niet veel verder komen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '564',
@@ -4518,7 +4518,7 @@ routine',
 	'idphoto' => '738',
 	'ftdescription' => 'BUSSUM â€” Het was weer een slecht weekeinde voor ORWO-HCAW door het dubbele verlies tegen de Nicols. Hier een beeld uit de thuiswedstrijd waarin Arnold Smith (links) en Jan de Graaf (rechts) een Nicols man uitmaakten op het tweede honk. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '565',
@@ -4526,7 +4526,7 @@ routine',
 	'idphoto' => '739',
 	'ftdescription' => 'BUSSUM â€” Jos Kervers op foto in ren terug naar het eerste honk. Hij trachtte het tweede honk te pakken, maar zag de moeilijkheden in. Hij werd toch uitgemaakt door de eerste honkman van de Hagenaars, die de bal zoals te zien in de handschoen krijgt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '566',
@@ -4534,7 +4534,7 @@ routine',
 	'idphoto' => '740',
 	'ftdescription' => 'BUSSUM â€” ORWO-HCAW heeft het afgelopen weekeinde twee keer gewonnen van Lottgering Schoten. Thuis ging het niet bepaald van een leien dakje, want pas in de slotfase kon de winst worden gepakt, dankzij kapitale fouten in het Haarlemse veld. Hier op de foto scoort Rasmijn 0-4 in de zesde inning. Rechts catcher Alfred de Leeuw, die nog geen bal in zicht heeft. Links hoofdscheidsrechter Pauwels, die met zijn secondanten Baas en Post de partij uitstekend leidde. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '567',
@@ -4542,7 +4542,7 @@ routine',
 	'idphoto' => '741',
 	'ftdescription' => 'BUSSUM -- â€žTikkie jij bent hem\" schijnt AndrÃ© Boddendijk (links) te hebben gezegd, maar de OVVO-loper was tijdig op het eerste honk terug. De wedstrijd was uitermate spannend en werd pas in de elfde inning ten gunste van de Bussummers beslist (4â€”3).',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '568',
@@ -4550,7 +4550,7 @@ routine',
 	'idphoto' => '742',
 	'ftdescription' => 'HUIZEN â€” Nel Hoogmoed van Zuidvogels (links) verovert een honk in de wedstrijd tegen FAK, die met 2â€”0 gewonnen werd. Het was de tweede zege op de Bilthovense dames want in de uitwedstrijd was het 10â€”5 geworden. Zuidvogels neemt de koppositie in.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '569',
@@ -4558,7 +4558,7 @@ routine',
 	'idphoto' => '743',
 	'ftdescription' => 'BUSSUM â€” Een spelfragment van de dames van ORWO HCAW die in de Honkbalvallei dit keer op De Meteoor opnieuw de zege behaalden.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '570',
@@ -4566,7 +4566,7 @@ routine',
 	'idphoto' => '744',
 	'ftdescription' => 'BUSSUM â€” Twijfelachtig moment tijdens de wedstrijd ORWO/HCAWâ€”Sparta: uit of in?',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '571',
@@ -4574,7 +4574,7 @@ routine',
 	'idphoto' => '745',
 	'ftdescription' => 'HUIZEN â€” Een spelfragment van de wedstrijd OF Ministerparkâ€”Thamen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '572',
@@ -4582,7 +4582,7 @@ routine',
 	'idphoto' => '747',
 	'ftdescription' => 'Naarden â€“ een overzicht van het nieuwe honkbalveld, tijdens de afgelopen zondag gespeelde wedstrijd. Op de voorgrond de spelers van Feijenoord. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '573',
@@ -4590,7 +4590,7 @@ routine',
 	'idphoto' => '748',
 	'ftdescription' => 'Bussum - De wedstrijd ORWO HCAW - Tetramin Nicols had een enigszins dramatisch verloop voor de Bussummers, die drie punten tegen kregen op beslissingen van hoofdscheidsrechter Corpeleijn (links) die eerst uit en later in gaf. Rechts Alfred de Leeuw op wie het allemaal neerkwam. Op de foto hier een echt gescoord punt en daarover was geen discussie. Links van de arbiter Kees Wijdekop.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '574',
@@ -4598,7 +4598,7 @@ routine',
 	'idphoto' => '749',
 	'ftdescription' => 'Oosterloo FM speelde thuis een voortreffelijke partij tegen koploper Dustbane Pirates. Het leek â€žremise\" te worden maar in de tiende inning sloeg JosÃ© Fanijte een homerun en dat was de beslissende klap. Hier een beeld uit de partij. De ,,Pirate\" lijkt met zijn sliding onder eerste honkman door te gaan. De loper is safe blijkens het gebaar van de veldscheidsrechter.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '575',
@@ -4606,7 +4606,7 @@ routine',
 	'idphoto' => '750',
 	'ftdescription' => 'ORWOâ€”HCAW ging het afgelopen weekeinde twee keer onder tegen Olga ADO, waardoor de Bussummers vaster op de onderste plaats kwamen. In Bussum zondag werd het zelfs Oâ€”7. Op de foto bereikt AndrÃ© Boddendijk het eerste honk. De ADOâ€™er Jaap Bijl komt een armlengte te kort.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '576',
@@ -4614,7 +4614,7 @@ routine',
 	'idphoto' => '751',
 	'ftdescription' => 'De regen is tot dusver nauwelijks een spelbreker geweest bij de honkbalwedstrijden, maar zaterdagmiddag in de Bussumse honkbalvallei was Pluvius na lange afwezigheid weer van de partij. Na 3 innings was het inrukken geblazen. Onze fotograaf maakte van de gelegenheid gebruik een plaatje te schieten van de â€žafdruipende\" toeschouwers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '577',
@@ -4622,7 +4622,7 @@ routine',
 	'idphoto' => '752',
 	'ftdescription' => 'In Naarden was het zaterdag na vier innings onmogelijk om verder te spelen. Hier nog een spelbeeld uit deze ,,afgebroken partij\". In Utrecht zondag gingen de Naarders met 12â€”6 onder.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '578',
@@ -4630,7 +4630,7 @@ routine',
 	'idphoto' => '753',
 	'ftdescription' => 'Charlotte Fontein geheel rechts tikt de Capac-loopster, maar de arbitrage op voorgrond geeft in. Tussen beide scheidsrechters Nel Hoogmoed.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '579',
@@ -4638,7 +4638,7 @@ routine',
 	'idphoto' => '754',
 	'ftdescription' => 'Oosterloo FM ging zaterdag in Naarden roemloos onder tegen Eurostars (3-17). Een spelbeeld uit de eenzijdige wedstrijd. Links Peter van Dijk, die zijn fraaie luchtsprong ten spijt, de Rotterdamse loper niet van het derde honk kan houden',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '580',
@@ -4646,7 +4646,7 @@ routine',
 	'idphoto' => '755',
 	'ftdescription' => 'De dames van ORWO-HCAW gingen zondagmiddag roemloos ten onder egen Actie \'68. Het werd 6â€”14 in deze vrij kleurloze partij. Hier op de foto lijkt Rieneke Moesker binnen te komen, maar ze zal worden uitgegeven.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '581',
@@ -4654,7 +4654,7 @@ routine',
 	'idphoto' => '756',
 	'ftdescription' => 'Jeanette de Gooyer scoort hier 3â€”2 op een tik van Charlotte Fontein, die in de achtste inning (verlenging) opnieuw een rake klap zou â€žuitdelen\", waarop Petra Brocken het winnende punt scoorde. Het was een enerverende partij, die Zuidvogels verdiend won door grote inzet. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '582',
@@ -4662,7 +4662,7 @@ routine',
 	'idphoto' => '757',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '583',
@@ -4670,7 +4670,7 @@ routine',
 	'idphoto' => '758',
 	'ftdescription' => 'Dinsdagmiddag arriveerde de Italiaanse honkbalclub Novara in Bussum. In de Dug-Inn was de ontvangst en nog \'s avonds werd de eerste wedstrijd gespeeld en gewonnen. Het gezelschap bestaande uit 23 man blijft tot maandag de gast van ORWO-HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '584',
@@ -4678,7 +4678,7 @@ routine',
 	'idphoto' => '759',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '585',
@@ -4686,7 +4686,7 @@ routine',
 	'idphoto' => '760',
 	'ftdescription' => 'In Bussum ging ORWO-HCAW onnodig onder tegen OVVO. Hier scoren de Amsterdammers. Alfred de Leeuw (links), die overigens een uitstekende partij als catcher speelde kon de Amsterdammer niet â€žaanhouden\". Het werd 4-3 voor OVVO.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '586',
@@ -4694,7 +4694,7 @@ routine',
 	'idphoto' => '761',
 	'ftdescription' => 'Dick Nagtegaal (rechts uit of in. Daarover was nog de nodige discussie met de arbiter, die tenslotte de Ministerparkman naar de dug-out verwees. Er werden in de wedstrijd tegen de Spartaan meer aanvechtbare beslissingen genomen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '587',
@@ -4702,7 +4702,7 @@ routine',
 	'idphoto' => '762',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '588',
@@ -4710,7 +4710,7 @@ routine',
 	'idphoto' => '763',
 	'ftdescription' => 'Vreugde was er na afloop bij de dames van ORWOâ€”HCAW die het kampioenschap in eigen huis binnenhaalden na een 4â€”1 zege op UVV. Na de bloemenhulde de feestelijke drank: champagne, die supporters hadden aangedragen. Hier het feestende team met links coach Fred Remmers en rechts de assistentâ€”coach Gerard Ploeger.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '589',
@@ -4718,7 +4718,7 @@ routine',
 	'idphoto' => '764',
 	'ftdescription' => 'Vier Bussumers waren nodig om Frans Breek uit te maken op zijn steelpoging en dat lukte ten slotte. De Haarlemmer had er verstandig aan gedaan op zijn â€žstek\" te blijven want even later sloeg ploegmaat Hudson John een homerun.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '590',
@@ -4726,7 +4726,7 @@ routine',
 	'idphoto' => '765',
 	'ftdescription' => 'Manuela de Jong heeft de rechtervoet op het kussen en zal de bal tijdig in de handschoen krijgen. Rechts de veldscheidsrechter die duidelijk de Capac-loopster ziet uitgaan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '591',
@@ -4734,7 +4734,7 @@ routine',
 	'idphoto' => '766',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '592',
@@ -4742,7 +4742,7 @@ routine',
 	'idphoto' => '767',
 	'ftdescription' => 'Nel Hoogmoed scoort hier het zevende punt voor Zuidvogels, waardoor de stand op 7-4 komt in de vijfde inning. Jos Lamers en Monique van Aars zouden in die zelfde slagbeurt nog volgen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '593',
@@ -4752,7 +4752,7 @@ routine',
 Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 55 cm lang, aldus de trotse vader, was zondag toch in actie bij ORWO-HCAW. Hier op de foto zal hij de bal nog niet goed raken, maar later was hij goed voor de eerste honkslag. Boddendijk speelde een nuttige partij.
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '594',
@@ -4760,7 +4760,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '769',
 	'ftdescription' => 'Hans van Leeuwen: Statisticus nummer twee.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '595',
@@ -4768,7 +4768,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '770',
 	'ftdescription' => 'Alfred de Leeuw van HCAW gaat uit de thuisplaat door een goede actie van catcher Louis Schultz.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '596',
@@ -4776,7 +4776,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '771',
 	'ftdescription' => 'Craig Montvidas, de grote uitblinker bij HCAW, in volle actie op het derde honk in de wedstrijd tegen Kinheim.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '597',
@@ -4784,7 +4784,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '772',
 	'ftdescription' => 'Op spectaculaire wijze weet Craig Montvidas van HCAW het tweede honk te stelen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '598',
@@ -4792,7 +4792,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '773',
 	'ftdescription' => 'ADO-catcher Van Rest (links) kan Steward niet van scoren afhouden.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '599',
@@ -4800,7 +4800,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '774',
 	'ftdescription' => 'RenÃ© Boin van Hilversum steelt het tweede honk, maar werd uitgemaakt door Ton de Jager',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '600',
@@ -4808,7 +4808,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '775',
 	'ftdescription' => 'Rob Groeneveldt van UVV wordt op de thuisplaat uitgetikt door catcher Bart Seidel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '601',
@@ -4816,7 +4816,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '776',
 	'ftdescription' => 'Bart Seidel van HCAW in volle actie op het tweede honk, terwijl Henk van \'t Klooster hem van offensieve daden probeert af te houden',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '602',
@@ -4824,7 +4824,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '777',
 	'ftdescription' => 'Het tweede honk is onbereikbaar voor deze Hilversum-speler.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '603',
@@ -4832,7 +4832,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '778',
 	'ftdescription' => 'De teleurstelling is van het gezicht van PSV\'s tweede honkman Fred van Gulik af te lezen wanneer Guus van Bon voor Hilversum het tweede honk steelt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '604',
@@ -4840,7 +4840,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '779',
 	'ftdescription' => 'HCAW-catcher De Leeuw (midden) kan niet voorkomen, dat Boer een run scoort voor Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '605',
@@ -4848,7 +4848,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '780',
 	'ftdescription' => 'Steward glijdt over de thuisplaat, en brengt HCAW in het thuisduel met Kinheim op 9-0.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '606',
@@ -4856,7 +4856,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '781',
 	'ftdescription' => 'Pas in de vierde inning zorgde Hageman voor HCAW\'s eerste honkslag in de confrontatie met Nicols.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '607',
@@ -4864,7 +4864,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '782',
 	'ftdescription' => 'Cees Herkemij protesteerde fel, nadat Craig Montvidas wegens onregelmatig slaan naar de dugout werd gestuurd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '608',
@@ -4872,7 +4872,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '783',
 	'ftdescription' => 'Alfio Troeman (midden) komt net op tijd binnen op het eerste honk, voordat honkman Steve Matthew hem uit kan tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '609',
@@ -4880,7 +4880,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '784',
 	'ftdescription' => 'Wim Hageman (voorgrond) ziet zijn poging de thuisplaat te bereiken mislukken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '610',
@@ -4888,7 +4888,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '785',
 	'ftdescription' => 'Een spelsituatie uit de partij tussen de Antillen en de Japanse amateurkampioen Tokio.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '611',
@@ -4896,7 +4896,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '786',
 	'ftdescription' => 'Coach Volkerijk (links) haalt verhaal bij hoofdscheidsrechter Barett. nadat deze Urbanus had uit gegeven op de thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '612',
@@ -4904,7 +4904,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '787',
 	'ftdescription' => 'Alfio Troeman van Nederland steelt met een duik het tweede honk. Carlos Ferrer (links) van Porto Rico wacht op de bal (Foto: ANP)',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '613',
@@ -4912,7 +4912,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '788',
 	'ftdescription' => 'Dank zij een homerun van Charles Urbanus nam Nederland de leiding tegen AustraliÃ«.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '614',
@@ -4920,7 +4920,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '789',
 	'ftdescription' => 'Hazel ...niet happig...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '615',
@@ -4928,7 +4928,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '790',
 	'ftdescription' => 'Derks: â€žIk kom er voor uit dat ik het werk niet goed heb gedaan. Dat mag me geen tweede keer gebeuren\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '616',
@@ -4936,7 +4936,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '791',
 	'ftdescription' => 'Remmers â€œHCAW miste alleen geroutineerde speelsters op de sleutelposities in het veld\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '617',
@@ -4944,7 +4944,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '792',
 	'ftdescription' => 'Ultee ziet voor zijn team perspectieven in de tweede klasse.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '618',
@@ -4952,7 +4952,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '793',
 	'ftdescription' => 'Vreugde bij Parma, nadat de Italiaanse slagman Corradi (met helm) met twee man op de honken een homerun had geslagen en de stand daarmee op 6-2 bracht.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '619',
@@ -4960,7 +4960,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '794',
 	'ftdescription' => 'Frank Bailey van HCAW gaat uit op het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '620',
@@ -4968,7 +4968,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '795',
 	'ftdescription' => 'HCAW-manager Jeff Archer (25). en coach Wil Kitselaar (26) in debat met scheidsrechter Vorst. Hickinson. naar thuis of niet?',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '621',
@@ -4976,7 +4976,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '796',
 	'ftdescription' => 'HCAW-er Wim Hageman gaat uit op het tweede honk, nadat hij met een honkslag Alfred de Leeuw de score heeft laten openen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '622',
@@ -4985,7 +4985,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'ftdescription' => 'Neptunus-speier Rob Groeneveld wordt op het tweede honk uitgetikt door HCAWâ€™s tweede honkman Eric de Vries.
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '623',
@@ -4993,7 +4993,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '798',
 	'ftdescription' => 'Het nieuwe Oranje-duo Cees Herkemij (links) en Jim Stoeckel bezig aan de voorbereiding voor de Europese titelstrijd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '624',
@@ -5001,7 +5001,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '799',
 	'ftdescription' => 'Gerard Blacquiere gaat ui t op de thuisplaat door toedoen van de Italiaanse catcher Carlo Guzman. Links hoofdscheidsrechter Chris Pieters ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '625',
@@ -5009,7 +5009,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '800',
 	'ftdescription' => 'Op een honkslag van Paul Smit scoort Eddie Tromp het eerste Nederlandse punt: 1-0. Catcher Eduardo Urrizzi raakt bij deze actie geblesseerd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '626',
@@ -5017,7 +5017,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '801',
 	'ftdescription' => 'Vreugde bij de Nederlandse honkballers en hun aanhang na de 8-1 overwinning van gistermiddag op ItaliÃ«, waardoor de elfde Europese titel werd veroverd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '627',
@@ -5025,7 +5025,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '802',
 	'ftdescription' => 'Franco Martis (12) scoort 1-0 voor HCAW in de wedstrijd tegen Amstel Tijgers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '628',
@@ -5033,7 +5033,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '803',
 	'ftdescription' => 'Hilversummer Dirk Peters bereikt veilig het derde honk, waar PSV\'er Frits Kampers te laat tikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '629',
@@ -5041,7 +5041,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '804',
 	'ftdescription' => 'HAGEMAN ...aandeel in de score...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '630',
@@ -5049,7 +5049,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '805',
 	'ftdescription' => 'Loes Jongejan van HCAW steelt het tweede honk. Leida Rebel van Zuidvogels komt te laat omdat te verhinderen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '631',
@@ -5057,7 +5057,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '806',
 	'ftdescription' => 'HCAWâ€™er Scott Donop bereikt veilig het derde honk en scoort even later het enige punt in de wedstrijd tegen ADO.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '632',
@@ -5065,7 +5065,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '807',
 	'ftdescription' => 'Alfred de Leeuw van HCAW tikt op de thuisplaat Quick\'er Joe Ross uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '633',
@@ -5073,7 +5073,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '808',
 	'ftdescription' => 'De Hilversummer Bas Defize scoort 3-3 in de wedstrijd tegen PSV. Catcher Ruud van Vessem krijgt de bal te laat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '634',
@@ -5081,7 +5081,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '809',
 	'ftdescription' => 'Spartaan Marcel Kruit steelt met succes het tweede honk in de wedstrijd tegen Hilversum.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '635',
@@ -5089,7 +5089,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '810',
 	'ftdescription' => 'Hilversummer Roy Petrus (rechts) kan niet verhinderen dat Alfred Huges van  Schoten het tweede honk steelt',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '636',
@@ -5097,7 +5097,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '811',
 	'ftdescription' => 'Roel Klaassen scoort 4-1 voor Amstel Tijgers in het duel met HCAW. Catcher Alfred de Leeuw staat machteloos.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '637',
@@ -5105,7 +5105,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '812',
 	'ftdescription' => 'Pieter Brons van Hilversum gaat uit bij zijn poging om het tweede honk te bereiken tegen Zuidvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '638',
@@ -5113,7 +5113,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '813',
 	'ftdescription' => 'Craig Montvidas (rechts) heef t zojuist het tweede honk gestolen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '639',
@@ -5121,7 +5121,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '814',
 	'ftdescription' => 'Alfred de Leeuw steelt het tweede honk. Nicols\' tweede honkman Frank Bos (rechts) heeft de bal laten glippen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '640',
@@ -5129,7 +5129,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '815',
 	'ftdescription' => 'Eric Boshuijzen pleit tevens voor uitbreiding van de hoofdklasse.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '641',
@@ -5137,7 +5137,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '816',
 	'ftdescription' => 'Craig Montvidas (rechts) is uitgemaakt door de korte stop van ADO Lou Halkema, die de sliding van de Bussumer met een fraaie sprong ontwijkt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '642',
@@ -5145,7 +5145,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '817',
 	'ftdescription' => 'Craig Montvidas, altijd goed voor een spectaculair plaatje, wordt onder het toeziend oog van de scheidsrechter en Charles Urbanus uitgetikt, door Amstel Tigers\' korte stop Jim Sieval.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '643',
@@ -5153,7 +5153,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '818',
 	'ftdescription' => 'HCAW-speler Sidney Hickinson is op tijd terug op het eerste honk bij een pick-off poging van de niet zichtbare Pirates-werper Marco Loevendie.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '644',
@@ -5161,7 +5161,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '819',
 	'ftdescription' => 'Alfred de Leeuw wordt ondanks zijn snoekduik uitgegeven door de scheidsrechter. Op de foto is echter duidelijk te zien dat de honkman van Neptunus de bal nog niet in zijn bezit heeft als de HCAW-speler het kussen bereikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '645',
@@ -5169,7 +5169,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '820',
 	'ftdescription' => 'Sidney Hickinson (uiterst rechts) verkleint de achterstand van HCAW in het thuisduel tot 1-2. Nicols-catcher Rob Klaver is bal en handschoen kwijt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '646',
@@ -5177,7 +5177,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '821',
 	'ftdescription' => 'HAGEMAN .geen verrassing.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '647',
@@ -5185,7 +5185,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '822',
 	'ftdescription' => 'Arnold Whitfield (links op voorgrond) ziet zijn poging slagen het tweede honk te stelen. HCAW-kortestop Gijs Selderijk (liggend) kan daar ook niets meer aan veranderen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '648',
@@ -5193,7 +5193,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '823',
 	'ftdescription' => 'Jenken (tweede van rechts) wordt gefeliciteerd door zijn ploeggenoten. Via een homerun - met twee man aan boord - heeft hij Nederland teruggebracht in de race.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '649',
@@ -5201,7 +5201,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '824',
 	'ftdescription' => 'PETERS ...ontspannen sfeer...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '650',
@@ -5209,7 +5209,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '825',
 	'ftdescription' => 'Jan Knol kan niet voorkomen dat de Japanner Ekuo Nakaya veilig het tweede honk bereikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '651',
@@ -5217,7 +5217,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '826',
 	'ftdescription' => 'Jeannette Bus, de derde honkvrouw van HCAW, tikt Marinka Stuvel van Terrasvogels uit in het zaterdag gespeelde duel om de landstitel',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '652',
@@ -5225,7 +5225,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '827',
 	'ftdescription' => 'Craig Montvidas: â€žEr zijn mensen die zeggen dat softball alleen maar veel geld kost en dat daar niet tegenover staat. Aan de ene kant hebben ze wel gelijk, vandaar dat we ons nadrukkelijker voor de club inzetten\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '653',
@@ -5233,7 +5233,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '828',
 	'ftdescription' => 'Willemse glijdt het eerste punt voor DSC\'74 over de thuisplaat.\\',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '654',
@@ -5241,7 +5241,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '829',
 	'ftdescription' => 'Erik Boshuijzen: â€žWanneer we de toonaangevende positie willen handhaven zullen we binnen Ã©Ã©n jaar terug moeten zijn op het oude niveau. De spelers hebben de morele plicht om daaraan mee te werken\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '655',
@@ -5249,7 +5249,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '830',
 	'ftdescription' => 'Craig Montvidas (links) ,,In elk geval zullen we vanaf mei iedere dinsdag tegen een hoofdklasser spelen. Enerzijds om toeschouwers te blijven trekken en anderzijds om het niveau op peil te houden, zodat de eventuele stap vooruit niet te groot zal zijn.â€',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '656',
@@ -5257,7 +5257,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '831',
 	'ftdescription' => 'De softbalsters van Naarden hebben er lol in, ook al ontbreekt de basis voor prestaties op hoog niveau. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '657',
@@ -5265,7 +5265,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '832',
 	'ftdescription' => 'Rob Wentink: â€žHet zou mij teleurstellen als de titel dit seizoen onze neus voorbij gaat\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '658',
@@ -5273,7 +5273,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '833',
 	'ftdescription' => 'Peter van den Bergh: â€žHet gaat steeds beter met dat provinciecluppie, want zo moet je het natuurlijk wel zien\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '659',
@@ -5281,7 +5281,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '834',
 	'ftdescription' => 'Sidney Hickinson steelt het tweede honk en zal even later in de thuiswedstrijd tegen Sparks het enige en winnende punt voor HCAW scoren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '660',
@@ -5289,7 +5289,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '835',
 	'ftdescription' => 'Hilversum en ABC hebben dit weekeinde niet lang op het veld gestaan. Na drie innings, toen Hilversum dank zij een punt van Paul Wolf met 1-0 voorstond, brak de hemel boven het Hilversumse sportpark open. Binnen tien minuten stond het veld blank en was verder spelen onmogelijk. De wedstrijd moet te zijner tijd in zijn geheel worden overgespeeld. Op de foto een beeld uit â€ždroge\" tijden. ABC-speler Stepels (links) is uitgemaakt op het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '661',
@@ -5297,7 +5297,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '836',
 	'ftdescription' => 'MONTVIDAS ...dubieuze wissel..',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '662',
@@ -5305,7 +5305,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '837',
 	'ftdescription' => 'RCH-eerste honkman Remco van Buuren maakt een vergeefse duik naar de bal. Sven van de Graaf (rechts) bereikt hierdoor veilig het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '663',
@@ -5313,7 +5313,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '838',
 	'ftdescription' => 'Hickinson: ,,Mochten we kampioen worden, en als de sfeer en de wilskracht zo blijven heb ik daar alle vertrouwen in, dan zullen er absoluut versterkingen moeten komen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '664',
@@ -5321,7 +5321,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '839',
 	'ftdescription' => 'PETERS ...gebroken pink...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '665',
@@ -5329,7 +5329,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '840',
 	'ftdescription' => 'POORT ...opdreef...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '666',
@@ -5337,7 +5337,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '841',
 	'ftdescription' => 'Paul Smit, de catcher van de Nederlandse honkbalploeg, komt veilig binnen en brengt daarmee de stand op 4-0. Met scoren had Oranje trouwens weinig moeite, want in de tweede innings was de stand al 9-0.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '667',
@@ -5345,7 +5345,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '842',
 	'ftdescription' => 'Charles Urbanus voelt vlak voor het bereiken van de thuisplaat de handschoen mÃ©t bal van de Cubaanse achtervanger Alberto Martinez op zijn rug. Met al twee man uit betekende dat het eind van de wedstrijd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '668',
@@ -5353,7 +5353,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '843',
 	'ftdescription' => 'Actiemoment uit de wedstrijd tegen Nicaragua. Gerard Blaquiere scoort het veertiende punt voor Nederland.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '669',
@@ -5361,7 +5361,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '844',
 	'ftdescription' => 'Met een spectaculaire duik vangt Gerard Blaquiere een loper van Taiwan uit',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '670',
@@ -5369,7 +5369,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '845',
 	'ftdescription' => 'Terwijl de Belgische eerste-honkman nog op de bal wacht, vervolgt de van HCAW afkomstige Nederlandse loper Sidney Hickinson rap zijn weg',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '671',
@@ -5377,7 +5377,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '846',
 	'ftdescription' => 'STOECKEL ...sportvrienden...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '672',
@@ -5385,7 +5385,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '847',
 	'ftdescription' => 'MONTVIDAS ... geen voordeel..',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '673',
@@ -5393,7 +5393,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '848',
 	'ftdescription' => 'Vreugde bij HCAW nadat de ploeg zich heeft verzekerd van de rentree in de hoofdklasse. Coach Craig Montvidas mag op de schouders van zijn spelers meegenieten van het succes.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '674',
@@ -5401,7 +5401,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '849',
 	'ftdescription' => 'Roland de Groot zet HCAW in de tweede wedstrijd tegen TTT met een buiksliding op een 1-0 voorsprong. Tom Burns (rechts) en hoofdscheidsrechter Visser zijn de toeschouwers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '675',
@@ -5409,7 +5409,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '850',
 	'ftdescription' => 'Rob Wentink ,,Er lopen bij BSC Hilversum jongens rond, die onder mijn leiding dat extra stapje niet meer kunnen verzetten. Misschien lukt dat wel met een ander aan het roer\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '676',
@@ -5417,7 +5417,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '851',
 	'ftdescription' => 'Craig Montvidas brengt zich op het eerste honk in veiligheid, voordat Pirates\' eerste honkman, Peter van Erk (links), de HCAWâ€™er kan uittikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '677',
@@ -5425,7 +5425,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '852',
 	'ftdescription' => 'HOFFMANN ...meer spelvreugde...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '678',
@@ -5433,7 +5433,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '853',
 	'ftdescription' => 'HCAW-werper Robert Hoffmann (links achtergrond) poogt, zonder succes, in samenwerking met zijn eerste honkman Onno Rip (20) Tijgers-speler Henk Boeren te elimineren',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '679',
@@ -5441,7 +5441,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '854',
 	'ftdescription' => 'Eerste honkman Onno Rip van HCAW zorgt er met een spectaculaire vangbal voor dat hij niet een eind moet lopen om de bal te halen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '680',
@@ -5449,7 +5449,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '855',
 	'ftdescription' => 'HCAWâ€™s eerste honkman Onno Rip is te laat met het uit tikken van UVV-er Ernst Engbrenghof, getuige het â€žsafe\" gebaar van de scheidsrechter.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '681',
@@ -5457,7 +5457,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '856',
 	'ftdescription' => 'ADO-speler Harrie Heikoop is bijtijds terug op het honk. zodat de actie van AndrÃ© Dalmulder (links) overbodig is.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '682',
@@ -5465,7 +5465,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '857',
 	'ftdescription' => 'MONTVIDAS ...geblesseerd...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '683',
@@ -5473,7 +5473,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '858',
 	'ftdescription' => 'Sven van der Graaf (HCAW) wordt vlak voor de thuisplaat uitgetikt door Nicols-catcher Gerlach Halderman in het zaterdag met 2-4 verloren duel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '684',
@@ -5481,7 +5481,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '859',
 	'ftdescription' => 'VOLKERIJK ...Later ingezet...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '685',
@@ -5489,7 +5489,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '860',
 	'ftdescription' => 'Fred MÃ¤kel: â€žHet niveau in de eerste klasse ligt zoveel lager, dat we er opnieuw met kop en schouders bovenuit zouden steken\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '686',
@@ -5497,7 +5497,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '861',
 	'ftdescription' => 'Gerard Blacquiere is net op tijd op Chang Yaw-Teing uit te tikken. De Taiwanse slagman duikt vergeefs over het kletsnatte gras ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '687',
@@ -5505,7 +5505,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '862',
 	'ftdescription' => 'Zuidvogels\' eerste honkman Bob Krijnen voorkomt met een fraaie stretch, dat Hilversummer Erik Ultee op het honk komt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '688',
@@ -5513,7 +5513,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '863',
 	'ftdescription' => 'Vreugde bij de Canadezen nadat Larry Downes een home-run van zijn knuppel heeft laten vertrekken. Nederland verloor de finale in Haarlem met ontgoochelende cijfers: 4-17.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '689',
@@ -5521,7 +5521,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '864',
 	'ftdescription' => 'Een speler van HCAW is net iets eerder bij het honk dan de bal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '690',
@@ -5529,7 +5529,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '865',
 	'ftdescription' => 'Sydney Hickinson krijgt de door Keith McGrath aangegooide bal wel op de knuppel maar aangezien de bal niet in het veld verdwijnt kon de Bussumer geen honkslag laten noteren',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '691',
@@ -5537,7 +5537,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '866',
 	'ftdescription' => 'Hilversum-catcher Wetser kan niet verhinderen dat Hesselink namens Run \'71 5-4 laat aantekenen. Verder laat Hilversum het echter niet komen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '692',
@@ -5545,7 +5545,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '867',
 	'ftdescription' => 'Ben van den Berg werpt de bal ijlings naar eerste honkman en uitblinker Onno Rip. Bart van der Voort is echter net op tijd terug op het eerste kussen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '693',
@@ -5553,7 +5553,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '868',
 	'ftdescription' => 'Een vrij unieke situatie tijdens de honkbalwedstrijd Felix II-Ducks. De Hilversummer Dirk Peters komt dankzij vier-wijd op het eerste honk. Zonder dat er ook maar een actie plaatsvindt, steelt Peters vervolgens het tweede en derde kussen en hij slaagt er ook nog in de thuisplaat te bereiken: 1-0 voor Felix II. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '694',
@@ -5561,7 +5561,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '869',
 	'ftdescription' => 'Een vrij unieke situatie tijdens de honkbalwedstrijd Felix II-Ducks. De Hilversummer Dirk Peters komt dankzij vier-wijd op het eerste honk. Zonder dat er ook maar een actie plaatsvindt, steelt Peters vervolgens het tweede en derde kussen en hij slaagt er ook nog in de thuisplaat te bereiken: 1-0 voor Felix II. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '695',
@@ -5569,7 +5569,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '870',
 	'ftdescription' => 'Een vrij unieke situatie tijdens de honkbalwedstrijd Felix II-Ducks. De Hilversummer Dirk Peters komt dankzij vier-wijd op het eerste honk. Zonder dat er ook maar een actie plaatsvindt, steelt Peters vervolgens het tweede en derde kussen en hij slaagt er ook nog in de thuisplaat te bereiken: 1-0 voor Felix II. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '696',
@@ -5577,7 +5577,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '871',
 	'ftdescription' => 'HCAW\'er Roland de Groot (nummer 21) bereikt de thuisplaat voor ADO-catcher Frank van Rest hem kan tikken. De Groot brengt de stand hiermee op 1-1. Op de achtergrond de goedkeurende blik van Sidney Hickinson.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '697',
@@ -5585,7 +5585,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '872',
 	'ftdescription' => 'Henk Robberse (links) en Jim Cobussen fungeerden respectievelijk als penningmeeester en voorzitter van de jeugdcommissie. â€žHCAW is een vereniging geworden, die je langzamerhand moet gaan runnen als een besloten vennootschap\", zegt de ex-praeses.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '698',
@@ -5593,7 +5593,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '873',
 	'ftdescription' => 'Ondanks de financiÃ«ie nood, waarin HCAW verkeert, zien Jan MÃ¤kel (links) en Jan Kort het voortbestaan van de club niet in gevaar komen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '699',
@@ -5601,7 +5601,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '874',
 	'ftdescription' => 'AndrÃ© Dalmulder tekent het zesde punt aan voor HCAW. Giants-catcher Ron van Zuilichem zal door zijn veld niet op tijd bereikt worden om de score van Dalmulder tegen te gaan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '700',
@@ -5609,7 +5609,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '875',
 	'ftdescription' => 'HICKINSON ...woordenwisseling...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '701',
@@ -5617,7 +5617,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '876',
 	'ftdescription' => 'Roland de Groot (tweede van links) glijdt over de thuisplaat voor Nicols-catcher Gerlach Halderman de HCAW-er kan uittikken en zorgt voor 3-4. Alfred de Leeuw en scheidsrechter De Mos kijken toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '702',
@@ -5625,7 +5625,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '877',
 	'ftdescription' => 'De eerste honkman van Zuidvogels kan niet verhinderen dat Hilversum-speler Marcel Bonte (11) het kussen veilig bereikt',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '703',
@@ -5633,7 +5633,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '878',
 	'ftdescription' => 'Koos van der Mark (uiterst rechts), hulp-coach van Sparta, sleept zijn broer John (nummer Ã©Ã©n) weg voor hij meer onaardige dingen gaat doen tegen de liggende en half zichtbare HCAW-eerste honkman Onno Rip. Links kijkt Robbert Hoffmann toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '704',
@@ -5641,7 +5641,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '847',
 	'ftdescription' => 'MONTVIDAS ...onbegrijpelijk...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '705',
@@ -5649,7 +5649,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '879',
 	'ftdescription' => 'Amstel Tijgers-korte stop Robert Knol (rechts) heeft AndrÃ© Dalmulder bij zijn poging het tweede honk te stelen uitgetikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '706',
@@ -5657,7 +5657,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '880',
 	'ftdescription' => 'Mike Flinn, beste slagman van HCAW, bereikt met een sliding veilig het derde honk, dat door de half zichtbare â€žPiraat\" Byron Ward bewaakt wordt. Coach Craig Montvidas (in de Franse toiletzit) kijkt toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '707',
@@ -5665,7 +5665,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '881',
 	'ftdescription' => 'HCAW-catcher Lourens van den Berg (rechts) is in afwachting van de bal, terwijl een Utrechtse honkloper de thuisplaat bereikt. Dit tot groot genoegen van een medespeler.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '708',
@@ -5673,7 +5673,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '882',
 	'ftdescription' => 'De honkscheidsrechter (rechts) geeft aan dat HCAW-speler Tico Flemming bijtijds terug is op het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '709',
@@ -5681,7 +5681,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '883',
 	'ftdescription' => 'Kinheim-catcher Marcel van de Bosch heeft Tico Capriles net voor de thuisplaat uitgetikt, omdat de HCAW-er verzuimde een sliding te maken. Links bekijkt hoofdscheidsrechter Chris Pieters het tafereel goed voor hij tot zijn beslissing komt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '710',
@@ -5689,7 +5689,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '884',
 	'ftdescription' => 'HCAW-er Alfred de Leeuw (15) slaagt er in het tweede honk te bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '711',
@@ -5697,7 +5697,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '885',
 	'ftdescription' => 'De Belg Oswald Boermans duikt in de richting van Gerard BlacquiÃ¨re in een poging de Nederlander uit te tikken op het tweede honk. Links kijkt de Belg Werner Hameleers toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '712',
@@ -5705,7 +5705,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '886',
 	'ftdescription' => 'DE LEEUW ... meest constant...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '713',
@@ -5713,7 +5713,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '887',
 	'ftdescription' => 'Marcel Joost (31), Ã©Ã©n van de uitblinkers in de Nederlandse honkbalploeg, neemt lachend de felicitaties van enkele teamgenoten in ontvangst na een homerun, die goed was voor drie punten tegen ItaliÃ«.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '714',
@@ -5721,7 +5721,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '888',
 	'ftdescription' => 'Het eerste duel met HCAW met OVVO werd zaterdag geplaagd door zware regenval. De scheidsrechters inspecteren hier na een bui het veld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '715',
@@ -5729,7 +5729,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '889',
 	'ftdescription' => 'Onno Rip van HCAW kan met een snoekduik nog net op tijd het honk bereiken. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '716',
@@ -5737,7 +5737,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '890',
 	'ftdescription' => 'Craig Montvidas: â€ž Wanneer je de play-offs haalt, speel je 42 wedstrijden, dus zes meer dan dit seizoen. Dat is niet veel\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '717',
@@ -5745,7 +5745,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '891',
 	'ftdescription' => 'Lourens van de Berg (midden) steelt voor HCAW het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '718',
@@ -5753,7 +5753,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '892',
 	'ftdescription' => 'Alfred de Leeuw aan slag voor HCAW. Zonder al te veel succes, want de Bussumers werden ingeven innings geklopt: 12-2.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '719',
@@ -5761,7 +5761,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '893',
 	'ftdescription' => 'Montvidas: â€žIk heb geen problemen met wie dan ook, maar ik krijg soms gewoon te weinig terug voor wat ik doe\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '720',
@@ -5769,7 +5769,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '894',
 	'ftdescription' => 'Een wedstrijdmoment dat voor nogal wat tumult zou zorgen. Edsel Martis van Pirates zal ,,in\" worden gegeven, hetgeen bij HCAW tot grote woede leidde.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '721',
@@ -5777,7 +5777,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '895',
 	'ftdescription' => 'Maud Kampman: â€žEr wordt lekker agressief gesoftbald, iets dat Montvidas erin heeft weten te brengen.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '722',
@@ -5785,7 +5785,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '896',
 	'ftdescription' => 'Herman Beidschat: â€žMaar ik ben en blijf een Einzelganger\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '723',
@@ -5793,7 +5793,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '897',
 	'ftdescription' => 'Eerste-honkvrouwe Gemma Denteneer heeft de weddenschap met assistent-coach Herman Thomas gewonnen, waarna de baard van laatstgenoemde er aan moet geloven. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '724',
@@ -5801,7 +5801,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '898',
 	'ftdescription' => 'De 44-jarige Pete Rose verbeterde het 57 jaar oude honkslagenrecord van de beroemde Ty Cobb. Rose was tot tranen toe bewogen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '725',
@@ -5809,7 +5809,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '899',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '726',
@@ -5817,7 +5817,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '900',
 	'ftdescription' => 'Pioniers tweede honkman Hans Bodeman moet hoog opspringen om een sliding van Gijs Selderijk te ontwijken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '727',
@@ -5825,7 +5825,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '901',
 	'ftdescription' => 'Ondanks zijn sliding bereikt AndrÃ© Dalmulder volgens scheidsrechter Hazel te laat het eerste honk. De â€žcall\" van Hazel zou grote boosheid bij de HCAW-coaches Beidschat en Koenders tot gevolg hebben.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '728',
@@ -5833,7 +5833,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '902',
 	'ftdescription' => 'HCAW\'s eerste honkman Gijs Selderijk poogt tevergeefs UVV-speler Marlon Fluonia uit te maken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '729',
@@ -5841,7 +5841,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '903',
 	'ftdescription' => 'AndrÃ© Dalmulder scoort HCAW\'s enige en winnende punt tegen Kinheim. Scheidsrechter Cees Bouterse en Kinheimwerper Thijs Smidt kijken toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '730',
@@ -5849,7 +5849,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '904',
 	'ftdescription' => 'HCAW-er Tony Rombley bereikt net op tijd het eerste honk. Steve Matthew van Giants constateert dat ook.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '731',
@@ -5857,7 +5857,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '905',
 	'ftdescription' => 'DE LEEUW ..te laat met uittikken..',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '732',
@@ -5865,7 +5865,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '906',
 	'ftdescription' => 'Capriles steelt namens HCAW het tweede honk. Urbanus van Tijgers krijgt de bal te laat in de handschoen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '733',
@@ -5873,7 +5873,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '907',
 	'ftdescription' => 'Richardson loopt de 3-3 binnen voor HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '734',
@@ -5881,7 +5881,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '871',
 	'ftdescription' => 'Hickinson (op de achtergrond) speelde tegen Sparta een puike partij. Mede door zijn inbreng werden de Rotterdammers met 5-7 verslagen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '735',
@@ -5889,7 +5889,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '908',
 	'ftdescription' => 'HCAW-er Tony Rombley duikt juist op tijd terug naar het tweede honk. Bob van Aalen (rechts) is de tweede honkman van Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '736',
@@ -5897,7 +5897,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '909',
 	'ftdescription' => 'Sven van de Graaf maakt Rocky Angela uit op het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '737',
@@ -5905,7 +5905,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '910',
 	'ftdescription' => 'SLUIJTER ...slappe arm...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '738',
@@ -5913,7 +5913,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '911',
 	'ftdescription' => 'Net voordat de speler van Sparta hem uit kan tikken komt de Bussumer aan op het tweede honk en voorkomt daarmee een nul.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '739',
@@ -5921,7 +5921,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '912',
 	'ftdescription' => 'De werper van Petrels probeert een Hilversummer uit te maken op het eerste honk, maar die heeft goed opgelet en is op tijd terug.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '740',
@@ -5929,7 +5929,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '913',
 	'ftdescription' => 'Charles Urbanus vertolkte een belangrijke rol in de Nederlandse honkbalploeg, want door toedoen van zijn solo-homerun werd het verzet van Oranje\'s Amerikaanse tegenstander gebroken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '741',
@@ -5937,7 +5937,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '914',
 	'ftdescription' => 'Harvey Shapiro: â€žWij doen gewoon wat mogelijk is binnen het systeem. Inzet is voor ons het sleutelwoord\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '742',
@@ -5945,7 +5945,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '915',
 	'ftdescription' => 'Terwijl Jacky Jacoba (links) de bal ontvangt, steelt Kwang Hwa-speler Hsin Sheng Cheng het derde honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '743',
@@ -5953,7 +5953,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '916',
 	'ftdescription' => 'Alfred de Leeuw: â€œIk verwacht echt dat Beidschat ermee ophoudt. Het zou best wel eens kunnen dat Paul Smit van Tijgers volgend jaar coach wordt van HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '744',
@@ -5961,7 +5961,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '917',
 	'ftdescription' => 'Knol heeft de bal gevangen voordat de Amerikaan Scot Servais het tweede honk heeft kunnen bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '745',
@@ -5969,7 +5969,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '918',
 	'ftdescription' => 'Paul Smit moet zich strekken om een Puertoricaan te kunnen uitmaken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '746',
@@ -5977,7 +5977,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '919',
 	'ftdescription' => 'Paul Smit slaagt er niet in het tweede honk te bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '747',
@@ -5985,7 +5985,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '920',
 	'ftdescription' => 'Charles Urbanus voert op het tweede honk een dubbelspel uit Op de grond ligt de Italiaan Guido Poma.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '748',
@@ -5993,7 +5993,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '921',
 	'ftdescription' => 'Bill Groot (rechts) probeert de tweede honkman van Taiwan, Yan Teing Chang, met een fraaie schijnbeweging te ontwijken, maar zijn poging bleef zonder resultaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '749',
@@ -6002,7 +6002,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'ftdescription' => '<>
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '750',
@@ -6010,7 +6010,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '923',
 	'ftdescription' => 'Werper Jan Hijzelendoorn had het gisteren tegen Venezuela bijzonder moeilijk. Hij kan Pedro Amas hier ook niet van scoren afhouden.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '751',
@@ -6018,7 +6018,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '924',
 	'ftdescription' => 'De spelers van Taiwan kunnen hun emoties niet beheersen na het horen van het nieuws dat de voorzitter van hun bond, Yen, is overleden. De vanezen. zaterdag winnaars tegen Cuba (4-3), lieten hun tranen de vrije loop.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '752',
@@ -6026,7 +6026,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '925',
 	'ftdescription' => 'Een speler van HCAW bereikt veilig het tweede honk in het duel met Feyenoord.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '753',
@@ -6034,7 +6034,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '926',
 	'ftdescription' => 'BEIDSCHAT ...vertrek niet onverwacht...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '754',
@@ -6042,7 +6042,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '927',
 	'ftdescription' => 'HCAW-er Sven van der Graaf bereikt met een sliding veilig het tweede honk in de met 3-4 verloren wedstrijd tegen Pioniers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '755',
@@ -6050,7 +6050,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '928',
 	'ftdescription' => 'Zuidvogels-speler Arthur Sabander (rechts) neemt de felicitaties van zijn ploeggenoten in ontvangst na zijn home-run in de tweede inning.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '756',
@@ -6058,7 +6058,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '929',
 	'ftdescription' => 'HCAW-speler Roland de Groot maakt zich zo lang mogelijk, maar zal toch niet tijdig het tweede honk weten te bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '757',
@@ -6066,7 +6066,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '930',
 	'ftdescription' => 'Roland de Groot, tweede honkman van HCAW, kijkt de door hem naar het eerste honk gegooide bal ter voltooiing van een dubbelspel na en ontwijkt de sliding van een speler van Terrasvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '758',
@@ -6074,7 +6074,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '931',
 	'ftdescription' => 'Jolanda Schipper: â€žHet zou zo kunnen zijn dat het heel goed gaat met ons, maar we kunnen ook verliezen van een zwakke ploeg\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '759',
@@ -6082,7 +6082,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '932',
 	'ftdescription' => 'Montvidas: â€œIedereen bij ons heeft zijn best gedaan, maar vandaag was Terrasvogels gewoon een maatje te groot.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '760',
@@ -6090,7 +6090,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '933',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '761',
@@ -6098,7 +6098,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '934',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '762',
@@ -6106,7 +6106,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '935',
 	'ftdescription' => 'Dirk van \'t Klooster eerder dit seizoen in actie tegen zijn oude club Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '763',
@@ -6114,7 +6114,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '937',
 	'ftdescription' => 'Dirk van \'t Klooster.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '764',
@@ -6122,7 +6122,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '938',
 	'ftdescription' => 'Een speler van Pioniers bereikt net op tijd het kussen in het duel met HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '765',
@@ -6130,7 +6130,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '939',
 	'ftdescription' => 'Nick Stuifbergen in actie tijdens de door HCAW gewonnen wedstrijd van gisteren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '766',
@@ -6138,7 +6138,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '940',
 	'ftdescription' => 'Patrick Vielvoye',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '767',
@@ -6146,7 +6146,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '941',
 	'ftdescription' => 'Oud-HCAW\'er Quincy Bernardus glijdt terug naar het eerste honk waar Sidney de Jong hem hoopt uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '768',
@@ -6154,7 +6154,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '942',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '769',
@@ -6162,7 +6162,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '943',
 	'ftdescription' => 'De softbalsters van Zuidvogels haalden twee keer fors uit tegen Tex Town Tigers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '770',
@@ -6170,7 +6170,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '944',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '771',
@@ -6178,7 +6178,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '945',
 	'ftdescription' => 'Een van de pitchers van HCAW 2 gooit een curvebal richting een slagman van Gryphons. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '772',
@@ -6186,7 +6186,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '946',
 	'ftdescription' => 'De stemming is bij HCAW beneden peil na de nederlaag tegen Sparta/Feyenoord.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '773',
@@ -6194,7 +6194,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '947',
 	'ftdescription' => 'Een speler van Pioniers in safe in de door HCAW gewonnen wedstrijd van zaterdag',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '774',
@@ -6202,7 +6202,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '948',
 	'ftdescription' => 'Roel Koolen duikt terug naar het eerste honk tijdens het duel met Cuba .',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '775',
@@ -6210,7 +6210,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '949',
 	'ftdescription' => 'Lunchtijd voor Cuba, Japan en Amerika in hotel Haarlem-Zuid.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '776',
@@ -6218,7 +6218,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '950',
 	'ftdescription' => 'HCAW\'er Sidney de Jong krijgt een curvebal van Veltkamp op zich af.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '777',
@@ -6226,7 +6226,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '951',
 	'ftdescription' => 'Mo DeConge: â€žIk heb aanbiedingen gehad van andere clubs, maar ik houd van HCAW.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '778',
@@ -6234,7 +6234,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '952',
 	'ftdescription' => 'Martijn Meeuwis, de infielder van HCAW, probeert een dubbelspel te maken tegen ADO',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '779',
@@ -6242,7 +6242,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '953',
 	'ftdescription' => 'HCAW-pitcher Jurjen van Zijl verstuurt een curvebal naar een Amsterdamse slagman.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '780',
@@ -6250,7 +6250,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '954',
 	'ftdescription' => 'Marcus Huijzer wierp een uitstekende partij voor Hurricanes tegen The Blokes.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '781',
@@ -6258,7 +6258,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '955',
 	'ftdescription' => 'Het team dat medio juni winnaar werd op de velden van HCAW van de Nederlandse kampioenschappen Senior League.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '782',
@@ -6266,7 +6266,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '956',
 	'ftdescription' => 'Ronald Jaarsma is safe op het tweede honk en kijkt wat er achter hem gebeurt',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '783',
@@ -6274,7 +6274,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '957',
 	'ftdescription' => 'HCAW had het thuis een stuk eenvoudiger tegen Sparta/Feyenoord dan in Rotterdam.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '784',
@@ -6282,7 +6282,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '958',
 	'ftdescription' => 'Kenny Berkenbosch van HCAW in actie in de partij van zaterdag.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '785',
@@ -6290,7 +6290,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '959',
 	'ftdescription' => 'Sidney de Jong heeft wat problemen met de manier waarop coach Patrick Vielvoye sommige zaken benaderde.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '786',
@@ -6298,7 +6298,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '960',
 	'ftdescription' => 'Patrick Vielvoye: â€žIk voel het als een tekortkoming van mezelf dat ik niet meer heb kunnen betekenen voor HCAW.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '787',
@@ -6306,7 +6306,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '961',
 	'ftdescription' => 'In het veld van HCAW werden gistermiddag wel erg veel fouten gemaakt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '788',
@@ -6314,7 +6314,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '962',
 	'ftdescription' => 'Tweedehonkman Norbert Lokhorst (Pioniers) heeft Martijn Meeuwis (HCAW) uitgetikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '789',
@@ -6322,7 +6322,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '963',
 	'ftdescription' => 'Slagvrouw Ginger de Weert van Zuidvogels (rechts) en HCAW-catcher Kelly van der Veen anticiperen op de naderende bal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '790',
@@ -6330,7 +6330,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '964',
 	'ftdescription' => 'De softbalsters van Zuidvogels lieten in het tweede duel weinig heel van Pioniers: 14-0.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '791',
@@ -6338,7 +6338,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '965',
 	'ftdescription' => 'HCAW-catcher Sidney de Jong tijdens het thuisduel',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '792',
@@ -6346,7 +6346,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '966',
 	'ftdescription' => 'Cliff Foster: â€žIk ben geen machine. Ik had vaker nee moeten zeggen.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '793',
@@ -6354,7 +6354,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '967',
 	'ftdescription' => 'Robert Moore: ,,De pleziertjes komen niet op de eerste plaats, ik ben hier om te honkballen. I have a job to do.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '794',
@@ -6362,7 +6362,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '968',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '795',
@@ -6370,7 +6370,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '969',
 	'ftdescription' => 'Sportredacteur Jan Bruineman ook zaterdag en zondag in actie voor onze krant. â€žOver de sportvelden loop ik al dertig jaar rond en nog altijd met plezier.\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '796',
@@ -6378,7 +6378,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '970',
 	'ftdescription' => 'In een Cessna zullen de parachutisten van Icarus morgen worden aangevoerd naar de Honkbalvallei, om dan te springen. Het zal weer een grote happening worden en dat is ook de opzet. Op de foto Torn Verschoor, die een â€žduik\" neemt',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '797',
@@ -6386,7 +6386,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '971',
 	'ftdescription' => 'Honkbal was in het afgelopen weekeinde weer aan de orde, maar verre van ideaal weer voor deze zomersport. Over het spel van Nikon-HCAW was ook geen reden tot zonnigheid, want de Bussummers verloren zowel thuis al uit van Nicols. Hier een spelbeeld uit de wedstrijd van afgelopen zaterdag in de Bussumse honkbalvallei. AndrÃ© Boddendijk bereikt hier veilig het tweede honk, maar zou de thuisplaat niet halen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '798',
@@ -6394,7 +6394,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '972',
 	'ftdescription' => 'Nikon/HCAWâ€”Sparta was afgelopen dinsdagavond een aantrekkelijk duel, dat echter een negatief resultaat opleverde voor de Bussumers, die overigens beter verdiend hadden. Hier op de foto voltooit AndrÃ© Boddendijk een dubbelspel, waarvan wij er later nog Ã©Ã©n te zien kregen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '799',
@@ -6402,7 +6402,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '973',
 	'ftdescription' => 'Zondag in de Bussumse honkbalvallei had Nikon-HCAW stellig kansen om de eerste winst binnen te halen, maar om in voetbaltermen te spreken: â€žDe aanvallen werden niet afgerond\". Inzet was er overigens wel bij de Bussumers, die het wel erg hoog zit, dat men nog geen punt heeft veroverd. Hier op de foto een geconcentreerde Wim Hageman, die duidelijk het eerste honk pakt. King Zschuschen â€žligt\" nog in de wachtkamer.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '800',
@@ -6410,7 +6410,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '974',
 	'ftdescription' => 'Nikon HCAW was afgelopen zaterdag nergens tegen het toch niet imponerende Unique Giants, dat overigens wel met grote inzet speelde. De Bussumers verloren (terecht) met 6-1. Hier een spelbeeld uit het begin van de wedstrijd waar Alfred de Leeuw wordt uitgemaakt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '801',
@@ -6418,7 +6418,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '975',
 	'ftdescription' => 'In het Bussumse honkbalstadion was het zondag weer â€žhuilen\" geblazen en dat zag er niet naar uit, omdat Nikon-HCAW daags daarvoor van Olga ADO had gewonnen. Nu werd het 11-0 voor de Hagenaars die hun koppositie door die zege wisten te handhaven. Op de foto links Louis Jacobs, die zo te zien de â€žin\" gegeven John van Gulik in zijn kraag wil pakken. Het was echter een vreedzame affaire tussen beide honkballers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '802',
@@ -6426,7 +6426,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '976',
 	'ftdescription' => 'Voor Nikon-HCAW was het een bijzonder goed Pinksterweekeinde. Zaterdagmiddag in Bussum werd met 7-1 van Schoten gewonnen en op de tweede Pinksterdag trokken de Bussumers opnieuw aan het langste einde met nog ruim verschil. Men heeft daardoor de degradatieplaats verlaten en die aan Schoten overgedaan. Hier een spelmoment uit de thuiswedstrijd. Bart Seidel bereikt tijdig het derde honk en zou later 5-0 scoren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '803',
@@ -6434,7 +6434,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '977',
 	'ftdescription' => 'Beyen Ministerpark en de Volewijckers kwamen in het Pinksterweekeinde twee keer tegen elkaar in het strijdperk en deelden de punten na spannende partijen. Hier een spelbeeld uit de return in Naarden (4-5). Peter van Dijk (rechts) maakte op het tweede honk een Volewijcker uit en daarover was nogal wat discussie. De scheidsrechter bleef bij zijn beslissing: uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '804',
@@ -6442,7 +6442,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '978',
 	'ftdescription' => 'Voor de dames van Nikon-HCAW werd de dubbel tegen Storks een drama. In Den Haag werd met 10-4 verloren en in de honkbalvallei was het verschil nog groter (4-15). Op de foto links Simone de Vries, die een Storks speelster op het tweede honk uitmaakt',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '805',
@@ -6450,7 +6450,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '979',
 	'ftdescription' => 'Marcel Wetser (links) en Sven van der Graaf (rechts) hier steunend op de honkbalknuppels, zijn voor Nikon-HCAW toch wel, zij het kleine, steunpilaren, Zij zorgen ervoor dat de Bussumse hoofdklasser zo min mogelijk geld behoeft te besteden aan ballen. Hun werk wordt dan ook erg gewaardeerd door bestuur en spelers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '806',
@@ -6458,7 +6458,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '980',
 	'ftdescription' => 'Nikon-HCAWâ€”Dorlas Quick werd door de Bussummers gewonnen, dat wil zeggen men haalde er het volle pond: vier punten uit. HCAW onderscheidde zich ook in de uitvoering van de dubbelspelen, waarvan hier in de vijfde inning het beeld. Sydney Hickinson nog op de grond liggend had Bernardus fraai uitgevangen en hij had nog â€žtijd\" voor een aangooi op Ã©Ã©n en dat betekende de ondergang van Carlo Stamper.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '807',
@@ -6466,7 +6466,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '981',
 	'ftdescription' => 'Het oudste lid van de softbal-afdeling, Toon Otten (met pet) toont de hem zojuist overhandigde gouden HCAW-bal. Naast hem coÃ¶rdinator Carel van Joolen en voorzitter Hans Krijnen. Rechts op deze foto Goois Nieuwsblad-sportredacteur Jan Bruineman die de bal overhandigde.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '808',
@@ -6474,7 +6474,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '982',
 	'ftdescription' => 'Nikon-HCAW heeft in het afgelopen weekeinde weer vier punten behaald en werkte zich naar een zesde plaats. In Bussum was het een matige 5-3 zege, maar in Utrecht veel ruimer (11-3). Hier op de foto in de thuiswedstrijd scoort Ade Fijth het eerste punt voor zijn club. Rechts de Utrechtse achtervanger Tom Stamer, die gelaten op de bal staat te wachten. In het midden hoofdscheidsrechter Vorst.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '809',
@@ -6482,7 +6482,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '531',
 	'ftdescription' => 'Wim Hageman: homerun en slaggemiddelde van 1000',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '810',
@@ -6490,7 +6490,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '983',
 	'ftdescription' => 'Ade Fijth bereikte hier het derde honk. Hij zal daarna het eerste punt te scoren. Fijth, geheel links maakte in feite de partij ook uit, want op zijn daverende klap kon Wim Hageman 10-0 laten aantekenen. Nikon-Hcaw is door de dubbele zege weer verder op de ranglijst gestegen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '811',
@@ -6498,7 +6498,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '984',
 	'ftdescription' => 'RenÃ© Boin: Winnenden werper bij no-runzege (10-2-2)',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '812',
@@ -6506,7 +6506,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '985',
 	'ftdescription' => 'Hank Aaron: van bat-boy tot homerun koning, vergelijkenderwijze in Amerika: \"van krantenjongen tot miljonair\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '813',
@@ -6514,7 +6514,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '986',
 	'ftdescription' => 'Nkon-HCAWâ€”Sparta werd 4-0, een positieve uitslag voor de Bussumers die nog niet eerder tegen de Rotterdammers was bereikt. Hier gaat Ade Fijth het eerste punt voor zijn ploeg scoren op een twee honkslag van Rickey Placides. Hoofdscheidsrechter Staller en Sparta-catcher Alfio Truman â€žturen\" nog naar de bal. Links Rob v.d. Veen, de volgende slagman, die echter op drie slag zou uitgaan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '814',
@@ -6522,7 +6522,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '987',
 	'ftdescription' => 'Nel Hoogmoed bereikt de thuisplaat en brengt de stand op 3-7, een achterstand die pas in de zevende inning kon worden weggewerkt. In de verlenging was haar honkslag goed voor het winnende punt, dat Jeannette de Gooyer kon scoren. Geheel links Marcia Lamers, die beide wedstrijden de verdediging leidde.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '815',
@@ -6530,7 +6530,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '988',
 	'ftdescription' => 'Dinsdagavond in de Honkbalvallei was er sprake van een ware happening, toen Nikon-Hcaw in actie was tegen de vermaarde Caiifornia Stags. De Amerikanen konden in de laatste slagbeurt een achterstand omzetten in een 7-5 voordeel. Hier scoort Pribbles het eerste punt voor de Stags, met geheel links werper RenÃ© Boin, die een glansrol vervulde. Hier probeert hij de niet meer zichtbare catcher Bart Seidel bij te springen, maar de Amerikaan was al binnen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '816',
@@ -6538,7 +6538,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '989',
 	'ftdescription' => 'HCAW-Kinheim wat zaterdag in de Vallei aan de orde, een wedstrijd die op goed peil stond. De Bussumers trokken aan het kortste einde door gebrek aan slagkracht, hoewel het slaan op Nol Beenders een moeilijke zaak was. De Kinheim-werper had ook de volle aandacht voor een man op de honken. Hier probeert hij (niet zichtbaar) een HCAW\'er uit te maken In samenwerking met zijn eerste honkman, wat hier niet lukte.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '817',
@@ -6546,7 +6546,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '990',
 	'ftdescription' => 'HCAW-Nicols was dinsdagavond een toch wel aantrekkelijke partij ondanks de 0-1 uitslag. Louis Jacobs geheel links zal hier in samenwerking met Alfred de Leeuw een Nicols speler het scoren beletten. De man werd prompt ingesloten en kreeg het \"tikkie\". ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '818',
@@ -6554,7 +6554,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '991',
 	'ftdescription' => 'HCAW-speler Ricky Placides tracht glijdend het tweede honk te bereiken. Zonder succes echter. Hij werd uitgevangen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '819',
@@ -6562,7 +6562,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '992',
 	'ftdescription' => ' ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '820',
@@ -6570,7 +6570,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '993',
 	'ftdescription' => 'Een van de talloze boeiende momenten uit de gisteravond gespeelde wedstrijd van Zuidvogels en HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '821',
@@ -6578,7 +6578,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '994',
 	'ftdescription' => 'Een beeld uit de softbalwedstrijd Zuidvogels-Capac.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '822',
@@ -6586,7 +6586,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '995',
 	'ftdescription' => ' ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '823',
@@ -6594,7 +6594,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '996',
 	'ftdescription' => 'HCAW-ADO In de Bussumse honkbalvallei leverde een 3-0 zege op voor de Bussumers. Hier scoort Louis Jacobs het punt voor zijn club. Met inspanning van al zijn krachten had hij de thuisplaat gestolen. Scheidsrechter Pauwels, links geeft de ter aarde gestortte Jacobs, armen wijd uitgespreid, in. ADO catcher Frank van Rest op de rug , lijkt boven op Jacobs te gaan zitten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '824',
@@ -6602,7 +6602,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '997',
 	'ftdescription' => 'Zondagmiddag in de Bussumse honkbalvallei oefende het team tegen de jeugd van HCAW (16-21). Hier een beeld van het inslaan door de uitverkorenen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '825',
@@ -6610,7 +6610,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '998',
 	'ftdescription' => 'Remko Blaauw (15) van HCAW, is de enige speler van die club, geselecteerd in het nationale adspiranten-team. Hij maakt deel uit van de werperstaf van vier man.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '826',
@@ -6618,7 +6618,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '999',
 	'ftdescription' => 'Beeld uit de wedstrijd Beyen Ministerpark-Cuir 2000, met rechts Rob de Graeve die veilig op het eerste honk is geland. Hij laat de Hiiversummer wat men noemt: de hielen zien.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '827',
@@ -6626,7 +6626,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1000',
 	'ftdescription' => 'HCAW-Schoten zondagmiddag in de Bussumse vallei, kreeg pas laat enige aantrekkelijkheid. Hier een beeld uit de derde inning. Rob Koehorst heeft het derde honk bereikt en wordt aanvankelijk uitgegeven, getuige de handbeweging van de veldscheidsrechter, maar gaf later in omdat nummer 17 van HCAW de bal had losgelaten. Op een wilde worp zou Koehorst daarna 0-1 scoren. Na elf innings werd het 3-2 voor HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '828',
@@ -6634,7 +6634,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1001',
 	'ftdescription' => 'Ron Gelsing (19) van HCAW, een ware pechvogel. Hij raakte voor het begin van de derde wedstrijd geblesseerd en kon het toen wel vergeten. Hij vreest zelfs dit seizoen niet meer te kunnen spelen. Ron moest zijn tijd verder op de bank door brengen, maar van kijken leerde hij ook veel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '829',
@@ -6642,7 +6642,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1002',
 	'ftdescription' => 'Beeld uit de wedstrijd tegen Holland-Michigan, die een 9-2 zege opleverde voor de Bussumse jongens. In het midden Han Husken en rechts op de rug gezien Ries van Maarschalkerweerd, die kennelijk te laat kwamen om de tegenstander uit te maken. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '830',
@@ -6650,7 +6650,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1003',
 	'ftdescription' => 'Mark Werley (rechts) zal de bal in de handschoen krijgen, maar zo te zien staat Hans Soepnel al op het honk, maar waar deze jongeling naar uitkijkt, was voor ons een raadsel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '831',
@@ -6658,7 +6658,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1004',
 	'ftdescription' => 'HCAW-Quick ging zaterdagmiddag in Bussum de mist in, want in de vijfde inning was de honkbalpret uit wegens hevige regen. Onze fotograaf had reeds kort na het begin een aantrekkelijke plaat geschoten, die wij onze lezers toch niet willen onthouden. Louis Jacobs links maakt zijn vroegere clubgenoot Jules Elbers op het derde honk uit. Dat gebeurde in de tweede inning.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '832',
@@ -6666,7 +6666,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1005',
 	'ftdescription' => 'Astrid Wijdekop (links) en Wil de Geus (rechts) twee dames uit het softball team, die het slowpitch wel voorstaan. â€žHet is eenvoudiger en ook recreatiever ingesteld, waardoor de animo bij de wat ouderen beslist zal toenemen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '833',
@@ -6674,7 +6674,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1006',
 	'ftdescription' => 'Jan Kort (55) was de onvolprezen chef d\'equipe van de Michigangangers. Veel werk is door hem verricht vÃ³Ã³r en tijdens het verblijf in Grand Rapids. Jan, de bescheidenheid zelf zegt dat hij het de meest gewone zaak vindt jonge mensen een stuk levensvreugde te geven. â€žIk ben ook blij, dat ze het zo gewaardeerd hebben\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '834',
@@ -6682,7 +6682,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1007',
 	'ftdescription' => 'In de tweede inning van de wedstrijd HCAW-UVV was het prijsschieten voor de Bussumers die in die slagbeurt acht runs scoorden. Hier op de foto Rickey Placides die er 4-0 van kan maken met links een beetje beteuterde Rob v.d. Veen die op een mislukte stootslag door de Utrechtse catcher werd uitgevangen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '835',
@@ -6690,7 +6690,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1008',
 	'ftdescription' => 'Een spelmoment uit de gisteravond gespeelde wedstrijd van HCAW tegen Zuidvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '836',
@@ -6698,7 +6698,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1009',
 	'ftdescription' => 'Ade Fijth voor het laatst in beeld. De nu 31-jarige HCAW\'er speelde afgelopen zaterdag zijn laatste wedstrijd voor de club die hij 19 jaar trouw diende en menig wapenfeit voor de Bussumse club bevocht. Zijn laatste partij was grandioos, want zonder meer kan gezegd worden, dat hij eerst als eerste honkman en later als werper zijn club in de bekerfinale bracht. Na afloop van het vier uren durende gevecht, werd Ade Fijth door bestuur en spelers gehuldigd. Als afscheidscadeau kreeg hij een filmapparaat. Voor echtgenote Jacqueline waren er bloemen evenals voor Sparta speler Hamilton Richardson, die voor het laatst in Bussum het slaghout hanteerde. Hij zet er ook een punt achter.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '837',
@@ -6706,7 +6706,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1010',
 	'ftdescription' => ' ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '838',
@@ -6714,7 +6714,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1011',
 	'ftdescription' => 'De bekerfinale tussen HCAW en de Nicols was hartverwarmend en duurde liefst vijftien innings. Toen grepen de landskampioenen het winnende punt, dat op de plaats door onze fotograaf werd vastgelegd. Leo Naaktgeboren scoorde 2-3 en dat was na ruim drie en een half uur spelen. In de â€žnabeurt\" moest het dappere HCAW het antwoord schuldig blijven.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '839',
@@ -6722,7 +6722,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1012',
 	'ftdescription' => 'Hier het jeugdteam van Zuidvogels (aspiranten A), dat afgelopen zaterdag de landstitel binnenhaalde in Apeldoorn. Geheel rechts coach Jan Muijs en geheel links RenÃ© Sluijter, pitcher van de Zuidvogels\' hoofdmacht, die Jan in de strijd om de nationale titel terzijde heeft gestaan. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '840',
@@ -6730,7 +6730,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1013',
 	'ftdescription' => 'De honkbalvallei nu stil en verlaten zal pas in april volgend jaar deze beelden weer tonen. De honkballers van Nikon-HCAW zullen dan weer de wei ingaan, maar de wintertraining gata binnenkort beginnen. De indeling van de competitie is inmiddels bekend. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '841',
@@ -6738,7 +6738,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1014',
 	'ftdescription' => 'Richard Reichle',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '842',
@@ -6746,7 +6746,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1015',
 	'ftdescription' => 'Cees Herkemij: \"Binnen een jaar of twee, drie probeer ik een vernieuwd HCAW binnen de lijnen te brengen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1000',
@@ -6754,7 +6754,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1200',
 	'ftdescription' => 'EÃ©n van de vele hoogvliegers die de Amerikaanse honkbalcompetitie telt: Curt Ford van de St. Louis Cardinals.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1001',
@@ -6762,7 +6762,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1201',
 	'ftdescription' => 'Het scorebord van het stadion staat vol met allerhande reclame.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1002',
@@ -6770,7 +6770,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1202',
 	'ftdescription' => 'Een speler van HCAW bereikt de thuisplaat m het duel met streekgenoot Hilversum.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1003',
@@ -6778,7 +6778,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1203',
 	'ftdescription' => 'Dave Daniels (vierde van rechts): ,,Ik denk dat sommige spelers het in zich hebben om over een paar seizoenen in Oranje te honkballen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1004',
@@ -6786,7 +6786,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1204',
 	'ftdescription' => 'Erik Ultee: ,,Tijdens gesprekken heb ik duidelijk gemaakt wat ik wilde en daarmee is men akkoord gegaan\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1005',
@@ -6794,7 +6794,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1205',
 	'ftdescription' => 'Ruud Schnitker: ,,Ik heb maar Ã©Ã©n doel: kampioen worden\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1006',
@@ -6802,7 +6802,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1206',
 	'ftdescription' => 'HCAW-coach Ruud Elfers instrueert Petra Beek, het vijftienjarige talent, dat afkomstig is van Zuidvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1007',
@@ -6810,7 +6810,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1207',
 	'ftdescription' => 'Een HCAWâ€™er doet verwoede pogingen om een speler van De Spartaan uit te maken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1008',
@@ -6818,7 +6818,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1208',
 	'ftdescription' => 'Een HCAW-speler (links) is net te laat om een honkballer van Kinheim op het tweede honk uit te maken ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1009',
@@ -6826,7 +6826,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1209',
 	'ftdescription' => 'Nog net op het nippertje is een speler van Zuidvogels op het tweede honk beland. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1010',
@@ -6834,7 +6834,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1210',
 	'ftdescription' => 'Een speler van HCAW gaat uit op het tweede honk in het duel met Sparta.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1011',
@@ -6842,7 +6842,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1211',
 	'ftdescription' => 'De opspringende Bob van Aalen slaagt er niet in de bij het derde honk teruggekeede HCAW\'er Totti Martina uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1012',
@@ -6850,7 +6850,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1212',
 	'ftdescription' => 'Een moment uit de wedstrijd Zuidvogels-Tex Town Tigers van gisteren. De thuisploeg, uit met 4-1 verslagen door sterk optreden van de TTT-pitcher, haalde in het tweede duel haar gram: 8-3.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1013',
@@ -6858,7 +6858,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1213',
 	'ftdescription' => 'HCAW-speler Clive Mendes (links) op weg naar het derde honk tijdens het tweede duel met Spartan. De honkman van de Amsterdammers lijkt van schrik weg te springen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1014',
@@ -6866,7 +6866,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1214',
 	'ftdescription' => 'Sven van der Graaf bereikt het eerste honk op het moment dat Peter van Erk de bal vangt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1015',
@@ -6874,7 +6874,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1215',
 	'ftdescription' => 'Terwijl het nieuws losbrandde over het stoppen van Giants \'24 werd gisteren gewoon doorgewerkt bij de bouw van de accommodatie in het Fanny Blankers-Koen Sportpark. Kleedkamers en clubhuis kunnen worden voltooid, de bouw van het stadion gaat echter niet door.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1016',
@@ -6882,7 +6882,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1216',
 	'ftdescription' => 'Met verslagenheid namen de spelers gisteravond kennis van het uit de competitie nemen van de Almeerse hoofdklasser.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1017',
@@ -6890,7 +6890,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1217',
 	'ftdescription' => 'Voor de spelers werden ingelicht door het bestuur stelde de al jaren in Nederland woonachtige Amerikaan Matthew zijn pas gearriveerde landgenoten Sneed en Hughes aan de bar al op de hoogte van de ontwikkelingen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1018',
@@ -6898,7 +6898,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1218',
 	'ftdescription' => 'Secretaris Geert van Eijk sluit niet uit, dat het stoppen van Giants \'24 gevolgen heeft voor Giants \'82.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1019',
@@ -6906,7 +6906,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1219',
 	'ftdescription' => 'Een slagman van New Giants kan in het gisteren gespeelde duel met Sparta net de bal ontwijken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1020',
@@ -6914,21 +6914,21 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1220',
 	'ftdescription' => 'Arjan Rector: ,,Die degradatie-poule kunnen we waarschijnlijk niet ontlopen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1022',
 	'idarticle' => '4012',
 	'idphoto' => '1222',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1024',
 	'idarticle' => '3085',
 	'idphoto' => '1224',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1025',
@@ -6936,7 +6936,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1225',
 	'ftdescription' => 'Een honkman van HCAW (links) is net te laat om een speler van Giants uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1027',
@@ -6944,7 +6944,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1227',
 	'ftdescription' => 'Rikkert Faneyte (rechts) slaagt erin het tweede honk te stelen. Dallas-speler Gary Donofrid staat nog te wachten op de  aangooi van zijn achtervanger.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1028',
@@ -6952,7 +6952,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1228',
 	'ftdescription' => 'Een speler van Sparta bereikt veilig het eerste honk in het duel met HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1029',
@@ -6960,7 +6960,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1229',
 	'ftdescription' => 'Floor Blaauw: â€žMet het aanwezige materiaal moet HCAW het echt kunnen redden\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1030',
@@ -6968,7 +6968,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1230',
 	'ftdescription' => 'Peter Laanen blijft in een commissie op de achtergrond werken bij de KNBSB',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1031',
@@ -6976,7 +6976,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1231',
 	'ftdescription' => 'Een speler van Quick probeert uit alle macht het honk te bereiken, terwijl een HCAW speler dat tracht te verhinderen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1032',
@@ -6984,14 +6984,14 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1232',
 	'ftdescription' => 'Door de stretch van Roy Berrevoets valt er weer een simpele nul op het eerste honk van HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1036',
 	'idarticle' => '3121',
 	'idphoto' => '1236',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1037',
@@ -6999,7 +6999,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1237',
 	'ftdescription' => 'Robert Linario (rechts) van Groot-BrittanniÃ« vangt de Nederlander Elton Wilson uit op het eerste honk. Desondanks won Nederland met ruime cijfers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1038',
@@ -7007,7 +7007,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1238',
 	'ftdescription' => 'Wilson heeft namens Nederland weer eens een keer keihard uitgehaald tegen ItaliÃ«.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1039',
@@ -7015,7 +7015,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1239',
 	'ftdescription' => 'Kwakernaak kan veilig het honk bereiken. Daar kan de honkman van PSV niets aan veranderen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1040',
@@ -7023,7 +7023,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1240',
 	'ftdescription' => 'De Italianen juichen nadat zij via, een 7-5-overwinning Nederland als Europese kampioen hebben onttroond.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1041',
@@ -7031,7 +7031,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1241',
 	'ftdescription' => 'RenÃ© Rijst hier in actie tegen Groot-BrittaniÃ« (het duel waarin hij twee home-runs sloeg):.â€žHet is een goed bonkbaljaar voor mij geweest\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1042',
@@ -7039,7 +7039,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1242',
 	'ftdescription' => 'Een speler van Twins wordt uitgevangen op het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1043',
@@ -7047,7 +7047,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1243',
 	'ftdescription' => 'Craig Montvidas: â€žMocht ik naar Nederland terugkeren, dan zal ik zeker weer in Bussum belanden, want HCAW is en blijft mijn club\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1044',
@@ -7055,7 +7055,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1244',
 	'ftdescription' => 'HCAW-voorzitter John Derks: ,,Het is een verkeerde voorstelling van zaken als men denkt dat het samengaan met Tijgers alleen voor HCAW profijtelijk is\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1045',
@@ -7063,7 +7063,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1245',
 	'ftdescription' => 'Een fragment uit de wedstrijd tussen HCAW en Neptunus. De Rotterdammers wonnen het duel en het Urbanus-toernooi.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1046',
@@ -7071,7 +7071,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1246',
 	'ftdescription' => 'Een speelster van Utrecht wordt door de scheidsrechter ..safe\" gegeven.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1047',
@@ -7079,7 +7079,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1247',
 	'ftdescription' => 'Herkemij (derde van rechts): â€žDe spelers zullen geen kans krijgen om aan de stoelpoten van de coach te zagen.â€',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1048',
@@ -7087,7 +7087,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1248',
 	'ftdescription' => 'Veen: â€žOp het ogenblik voel ik er niets voor om naar bijvoorbeeld HCAW te gaan\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1049',
@@ -7095,7 +7095,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1249',
 	'ftdescription' => 'Selderijk: â€žDegradatie? Absoluut onmogelijk\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1050',
@@ -7103,7 +7103,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1250',
 	'ftdescription' => 'Anneke Groeneveld (links): â€žTen opzichte van vorig jaar beschikken we over minder individuele klasse\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1051',
@@ -7111,7 +7111,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1251',
 	'ftdescription' => 'Nelson Orman mist een vangbal op het tweede honk, waardoor Marcel Buurman het kussen veilig kan bereiken. Links Edsel Martis.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1052',
@@ -7119,7 +7119,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1252',
 	'ftdescription' => 'ANNEMIEK VAN KAPPEL',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1053',
@@ -7127,7 +7127,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1253',
 	'ftdescription' => 'Een niet te herkennen speler van HCAW (links) tracht in het duel met ADO het eerste honk te bereiken. Robert John wacht op de bal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1054',
@@ -7135,7 +7135,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1254',
 	'ftdescription' => 'Een speler van Nicols zal net op tijd het eerste honk bereiken. De aangooi komt te laat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1055',
@@ -7143,7 +7143,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1255',
 	'ftdescription' => 'De tweede honkman van HCAW krijgt de bal iets te laat in de handschoen, waardoor de Neptunus-speler het kussen kan bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1056',
@@ -7151,7 +7151,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1256',
 	'ftdescription' => 'Karin Brookhuis (25) op weg naar het kussen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1057',
@@ -7159,7 +7159,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1257',
 	'ftdescription' => 'Aoki doet een krampachtige poging een speler van Neptunus de doorgang te beletten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1058',
@@ -7167,7 +7167,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1258',
 	'ftdescription' => 'Pieter Selderijk (foto) liet, samen met Rob de Wolf, Flying Petrels zaterdag met veel kansen. Terwijl de thuisploeg er lustig op los scoorde bleven de gasten op vijf punten steken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1059',
@@ -7175,14 +7175,14 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1259',
 	'ftdescription' => 'Jim Stoeckel: â€žEen toernooi als dit is niet te vergelijken met de competitie\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1060',
 	'idarticle' => '3198',
 	'idphoto' => '1260',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1061',
@@ -7190,7 +7190,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1261',
 	'ftdescription' => 'Roland de Groot: â€žAls je alleen naar het aantal nederlagen kijkt, dan kun je wellicht de verkeerde conclusies trekken\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1062',
@@ -7198,7 +7198,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1262',
 	'ftdescription' => 'Met een lange stap bereikt een HCAW\'er veilig het honk in het duel van zondag met Kinheim.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1066',
@@ -7206,7 +7206,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1266',
 	'ftdescription' => 'Een speelster van HCAW is in op het derde honk, ondanks de directe aanwezigheid van twee tegenstandsters van Terrasvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1067',
@@ -7214,7 +7214,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1267',
 	'ftdescription' => 'Mecir is er heilig van overtuigd dat hij er weer bovenop komt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1068',
@@ -7222,7 +7222,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1268',
 	'ftdescription' => 'CASPAR VAN RIJNBACH',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1069',
@@ -7230,7 +7230,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1269',
 	'ftdescription' => 'In het HCAW-kamp wordt een homerun begroet.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1070',
@@ -7238,7 +7238,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1270',
 	'ftdescription' => 'Een poging tot een pick-off op het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1071',
@@ -7246,14 +7246,14 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1271',
 	'ftdescription' => 'Een spelmoment uit de wedstrijd Zuidvogels-UVV, die de Huizers met 3-8 verloren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1072',
 	'idarticle' => '3248',
 	'idphoto' => '1272',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1073',
@@ -7261,7 +7261,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1273',
 	'ftdescription' => 'Craig Montvidas: â€žHet is hoog tijd dat je een keus maakt. Of drastische maatregelen, of altijd blijven vechten voor een plek tussen de vijfde en tiende positie\",',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1074',
@@ -7269,7 +7269,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1274',
 	'ftdescription' => 'Een HCAW\'er aan slag tijdens het zaterdagduel met Pirates.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1075',
@@ -7277,7 +7277,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1275',
 	'ftdescription' => 'Een speelster van HCAW is uitgegaan en een tegenstandster heeft de bal al gegooid voor een dubbelspel',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1076',
@@ -7285,7 +7285,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1276',
 	'ftdescription' => 'De speelsters van HCAW werden gisteravond in de eigen kantine gehuldigd door de club.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1077',
@@ -7293,7 +7293,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1277',
 	'ftdescription' => 'ROBERT EENHOORN',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1078',
@@ -7301,7 +7301,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1278',
 	'ftdescription' => 'Herkemij staart over het veld, terwijl zijn spelers zich in de dug-out bevinden\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1079',
@@ -7309,7 +7309,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1279',
 	'ftdescription' => 'BjÃ¶rn Diemer (links) en Tom van den Berg: â€žDe sfeer is werkelijk ontzettend goed\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1080',
@@ -7317,7 +7317,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1280',
 	'ftdescription' => 'HCAW-coach Ruud Elfers gelooft dat zijn ploeg sterk genoeg is om het wegvallen van Kate Allen (ziekte van Pfeiffer) op te vangen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1081',
@@ -7325,7 +7325,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1281',
 	'ftdescription' => 'Coach Erik Ultee (midden): â€žIk ben heel gelukkig met het feit dat wij veel eigen jeugd in het eerste hebben kunnen inpassen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1082',
@@ -7333,7 +7333,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1282',
 	'ftdescription' => 'Pirates-catcher Ronald Stoovelaar heeft de blunderende Clive Mendes uitgemaakt op de thuisplaat Tot woede van coach Cees Herkemij',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1083',
@@ -7341,7 +7341,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1283',
 	'ftdescription' => 'Een speler van HCAW bereikt veilig1 het eerste kussen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1084',
@@ -7349,7 +7349,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1284',
 	'ftdescription' => 'Een speler van HCAW bereikt nog net op tijd het derde honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1088',
@@ -7357,7 +7357,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1288',
 	'ftdescription' => 'Een speelster van HCAW bereikt veilig het tweede honk, hoewel een Wassenaarster in afwachting is van de bal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1089',
@@ -7365,7 +7365,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1289',
 	'ftdescription' => 'Clive Mendes van HCAW is op tijd terug op het eerste honk om een pick-off te verhinderen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1090',
@@ -7373,7 +7373,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1290',
 	'ftdescription' => 'Marcel Kruyt (rechts) van Neptunus bereikt veilig het derde honk. Frans van Huffel van HCAW is in afwachting van de bal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1091',
@@ -7381,7 +7381,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1291',
 	'ftdescription' => 'HCAWâ€™er Reinier Abrahamsen bereikt veilig het eerste honk in het duel met Kinheim.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1092',
@@ -7389,7 +7389,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1292',
 	'ftdescription' => 'ANNEMIEK VAN KAPPEL',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1093',
@@ -7397,7 +7397,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1293',
 	'ftdescription' => 'Weerts haalt uit namens Zuidvogels. Op de achtergrond kijkt Gijs Selderijk. die door de Huizer blessureproblemen de handschoen weer moest aantrekken, toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1094',
@@ -7405,7 +7405,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1294',
 	'ftdescription' => 'HCAWâ€™er Milliard raakt geblesseerd in de wedstrijd van zaterdag tegen Sparta.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1095',
@@ -7413,7 +7413,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1295',
 	'ftdescription' => 'Annemiek van Kappel bereikt het derde honk ondanks de aanwezigheid van twee Schiedamsen, van wie er overigens een geen al te geÃ¯nspireerde indruk maakt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1096',
@@ -7421,7 +7421,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1296',
 	'ftdescription' => 'FRANS GROOT',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1097',
@@ -7429,7 +7429,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1297',
 	'ftdescription' => 'Teleurgestelde HCAW\'ers pakken hun bullen als bij een 6-2-voorsprong het thuisduel met ADO is verregend.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1098',
@@ -7437,7 +7437,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1298',
 	'ftdescription' => 'Clive Mendes in een vertwijfelde poging om de bal te vangen. Erik Volkerijk van ADO probeert het honk te bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1099',
@@ -7445,7 +7445,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1299',
 	'ftdescription' => 'Mark Foster van Baltimore steelt het tweede honk, nadat de Nederlander Peter Boon de bal heeft gemist.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1100',
@@ -7453,14 +7453,14 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1300',
 	'ftdescription' => 'Jacky Jakoba is tijdig op het derde honk. De poging van de Cubaan Orlando Hernandez om de Nederlander uit te maken mislukt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1101',
 	'idarticle' => '3335',
 	'idphoto' => '1301',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1102',
@@ -7468,7 +7468,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1302',
 	'ftdescription' => 'HCAW-pitcher Patrick van Doorn probeert een pick-off met hulp van eerete-honkman Roy Berrevoets, maar de Nicols-loper is bijtijds terug.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1103',
@@ -7476,7 +7476,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1303',
 	'ftdescription' => 'HCAW-werper Patrick van Doorn in actie tijdens de thuiswedstrijd van gisteren tegen Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1104',
@@ -7484,7 +7484,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1304',
 	'ftdescription' => 'Cranston, vooral aan slag prima op dreef dit weekeinde, bereikt veilig het honk in de wedstrijd van zaterdag.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1105',
@@ -7492,7 +7492,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1305',
 	'ftdescription' => 'Ron Jaarsma: â€žHCAW moet zich voorbereiden op de Europese competitie\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1106',
@@ -7500,7 +7500,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1306',
 	'ftdescription' => 'Cees Herkemij: â€žOfficieel ben ik nog niet door de bond benaderd\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1107',
@@ -7508,7 +7508,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1307',
 	'ftdescription' => 'Ralph Milliard bereikt veilig het honk in het duel van zaterdag. De Bussumers wonnen met 3-2 van Kinheim en verzekerden zich zodoende van een plekje in de play-offs.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1108',
@@ -7516,7 +7516,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1308',
 	'ftdescription' => 'FRANS GROOT',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1109',
@@ -7524,7 +7524,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1309',
 	'ftdescription' => 'CRAIG MCGINNIS',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1110',
@@ -7532,7 +7532,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1310',
 	'ftdescription' => 'Maud Kampman van HCAW probeert over de thuisplaat te komen in het duel van zaterdag.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1111',
@@ -7540,7 +7540,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1311',
 	'ftdescription' => 'Van Huffel zwaait naar de bal in het duel van zaterdag tussen HCAW en Nicols, dat door de Haarlemmers met 9-11 werd gewonnen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1112',
@@ -7548,7 +7548,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1312',
 	'ftdescription' => 'HCAW\'er Patrick van Doorn hoefde gisteravond maar vier honkslagen te incasseren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1113',
@@ -7556,7 +7556,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1313',
 	'ftdescription' => 'Clive Mendes heeft een enorme klap in gedachten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1114',
@@ -7564,7 +7564,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1314',
 	'ftdescription' => 'Speler Alfons Godet, pr-man Nico Dunnebier, comitÃ©voorzitter Marijke Mulder en coach Didi Quant (van links naar rechts) kijken op de tribune aan \'t Jagerspaadje uit naar de start van de Europacup herensoftbal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1115',
@@ -7572,7 +7572,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1315',
 	'ftdescription' => 'Marijke Mulder (links), voorzitter van het organisatiecomitÃ©, toont de zojuist binnengekomen Europacup. Het kleinood bleek vorig jaar in Praag, waar Hilversum won, niet aanwezig.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1116',
@@ -7580,7 +7580,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1316',
 	'ftdescription' => 'Honkbalcoach Jim Stoeckel aan de vooravond van het EK: â€žWorden we geen Europees kampioen dan heb ik gefaald\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1117',
@@ -7588,7 +7588,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1317',
 	'ftdescription' => 'Madelon Beek (links) staat niet onwelwillend tegenover een buitenlands softbalavontuur. Zus Petra daarentegen denkt voorlopig niet aan een dergelijke sprong in het diepe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1118',
@@ -7596,7 +7596,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1318',
 	'ftdescription' => 'Een Hilversum-speler bijt in het stof, maar is op tijd bij het honk. De wat stram ogende Caribe-honkman is te laat om zijn tegenstander te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1119',
@@ -7604,14 +7604,14 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1319',
 	'ftdescription' => 'De Fransman Patrice Baduin (onder) verovert het door Robert Niggebrugge bewaakte honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1120',
 	'idarticle' => '3373',
 	'idphoto' => '1320',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1121',
@@ -7619,7 +7619,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1321',
 	'ftdescription' => 'FRANS GROOT',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1122',
@@ -7627,7 +7627,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1322',
 	'ftdescription' => 'Ook Bart Volkerijk was niet in staat het tweede verlies voor Nederland tegen te houden.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1123',
@@ -7635,7 +7635,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1323',
 	'ftdescription' => 'Behalve de dubbel met Bloemendaal stond er voor de selectie van HCAW zaterdag nog meer op het programma. Om geld voor Europacup-deelname bijeen te sprokkelen, werden in het Bussumse centrum auto\'s gewassen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1124',
@@ -7643,7 +7643,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1324',
 	'ftdescription' => 'Clive Mendez kan met een elegant sprongetje schaafwonden en ander letsel voorkomen bij een actie op het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1125',
@@ -7651,7 +7651,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1325',
 	'ftdescription' => 'Edsel Martis bereikt veilig het derde honk namens HCAW na een double-steal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1126',
@@ -7659,7 +7659,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1326',
 	'ftdescription' => 'Eric van Bennekom hield het zaterdag tegen Kinheim tot in de vierde inning vol. Toen werd de HCAW-werper van de heuvel gehaald.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1127',
@@ -7667,7 +7667,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1327',
 	'ftdescription' => 'AP',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1128',
@@ -7675,7 +7675,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1328',
 	'ftdescription' => 'HCAWâ€™er Edsel Martis (links op de foto) wordt uitbundig begroet als hij na een homerun de thuisplaat bereikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1129',
@@ -7683,7 +7683,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1329',
 	'ftdescription' => 'De slagman van ADO is het slachtoffer geworden en moet worden opgelapt door de verzorger.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1130',
@@ -7691,7 +7691,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1330',
 	'ftdescription' => 'HCAW-werper Jan van Gorkum speelde zaterdag een belangrijke rol bij het behalen van de 6-2-zege op Pirates.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1131',
@@ -7699,7 +7699,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1331',
 	'ftdescription' => 'HCAW\'er Jeffrey Cranston bereikt veilig het honk in het met liefst zes homeruns gelardeerde duel met Nicols.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1132',
@@ -7707,7 +7707,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1332',
 	'ftdescription' => 'Strakke gezichten in de dug-out van HCAW op het Charles-Urbanustoernooi. Op de voorgrond Reinier Abrahamsen, die tijdens de voorbereiding op het seizoen zijn pink brak.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1133',
@@ -7715,7 +7715,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1333',
 	'ftdescription' => 'Fred Fransz: â€žEenmaal buiten hebben we de puntjes op de i gezet, zowel qua organisatie als discipline.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1134',
@@ -7723,7 +7723,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1334',
 	'ftdescription' => 'Randy Taylor: â€žWe gaan natuurlijk voor het kampioenschap, maar met de derde of vierde plaats zijn we ook tevreden \".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1135',
@@ -7731,7 +7731,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1335',
 	'ftdescription' => 'Ruud Elfers, de coach van het eerste team van \'HCAW, bezig met pupil Petra Beek.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1136',
@@ -7739,7 +7739,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1336',
 	'ftdescription' => 'Cranston is net op tijd op het kussen, voordat een Pirates-honkman hem kan uittikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1137',
@@ -7747,7 +7747,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1337',
 	'ftdescription' => 'Jeffrey  Cranston van HCAW torpedeert een honkman van Neptunus tijdens het duel van zaterdag',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1138',
@@ -7755,7 +7755,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1338',
 	'ftdescription' => 'De coach van De Spartaan, met in zijn kielzog- een aantal spelers, protesteert tegen een beslissing van de umpire.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1139',
@@ -7763,7 +7763,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1339',
 	'ftdescription' => 'Ron Jaarsma: â€žWe zijn zelf via een gestructureerd plan uit een diep dal geklommen. Die plannen zijn echt niet geheim. Wie er behoefte aan heeft, ze zo bij me komen ophalen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1140',
@@ -7771,7 +7771,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1340',
 	'ftdescription' => 'Ludwig Bernadina van ADO heeft pijn in de wedstrijd van zaterdag als hij is geraakt door de werper van HCAW, Eduard van Bennekom.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1141',
@@ -7779,7 +7779,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1341',
 	'ftdescription' => 'Terwijl een Zuidvogels-speler nog op de bal wacht, heeft de UVV\'er het honk al bereikt. De Utrechters waren dit weekeinde oppermachtig.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1142',
@@ -7787,7 +7787,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1342',
 	'ftdescription' => 'Zuidvogels bijt in het stof tegen UVV',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1143',
@@ -7795,7 +7795,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1343',
 	'ftdescription' => 'Zuidvogels bijt in het stof tegen UVV',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1144',
@@ -7803,14 +7803,14 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1344',
 	'ftdescription' => 'Herman van Gijlswijk: â€žDe bonzen hier in BelgiÃ« hebben het contact met de werkelijkheid verloren\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1145',
 	'idarticle' => '3444',
 	'idphoto' => '1345',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1146',
@@ -7818,14 +7818,14 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1346',
 	'ftdescription' => 'Tijdens de wedstrijd ontstond er even onduidelijkheid, toen Novara zijn werper Melassi wilde laten slaan ten koste van aangewezen slagman Frau. HCAW dacht dat zulks in strijd was met de reglementen en wilde protesteren. Echter, het bleek een legale actie van de Italianen en vijf minuten later kon men weer verder gaan met de wedstrijd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1147',
 	'idarticle' => '3445',
 	'idphoto' => '1347',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1148',
@@ -7833,7 +7833,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1348',
 	'ftdescription' => 'HCAW\'er Edsel Martis is tijdens de partij tegen het Italiaanse Milano bijtijds terug op het honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1149',
@@ -7841,7 +7841,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1349',
 	'ftdescription' => 'Russell wil op het tweede honk een slagman van Quick uittikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1150',
@@ -7849,7 +7849,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1350',
 	'ftdescription' => 'Ralph Milliard kijkt angstig naar de tweede-honkscheidsrechter, die hem echter safe geeft.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1151',
@@ -7857,7 +7857,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1351',
 	'ftdescription' => 'Jennifer Cobussen in actie tijdens de double-header van zaterdag tussen HCAW en Bloemendaal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1152',
@@ -7865,7 +7865,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1352',
 	'ftdescription' => 'Bondscoach Jan-Dick Leurs wrijft eens door zijn haren tijdens de wedstrijd tegen Japan, die door Nederland met 0-10 werd verloren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1153',
@@ -7873,7 +7873,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1353',
 	'ftdescription' => 'Ralph Milliard, hoog in de lucht, in actie tijdens het duel met Japan. De Japanner Susumu Yosinaga gaat uit op het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1154',
@@ -7881,7 +7881,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1354',
 	'ftdescription' => 'Bob van Aalen doet op het tweede honk een poging JosÃ© Lorenzana uit te tikken. De umpire besliste echter in het voordeel van de slagman uit Puerto Rico.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1155',
@@ -7889,7 +7889,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1355',
 	'ftdescription' => 'De Japanner Mitsuru wordt op het tweede honk uitgetikt door de korte stop van de Sullivans, Darren Dreasky.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1156',
@@ -7897,7 +7897,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1356',
 	'ftdescription' => 'Milliard moet terugduiken richting eerste honk om een pick-off van Nicols te voorkomen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1157',
@@ -7905,7 +7905,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1357',
 	'ftdescription' => 'HCAW-catcher RenÃ© van Huffel wacht tevergeefs op de bal om Eddy Dix uit te tikken. De Quick-speler maakt het tiende punt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1158',
@@ -7913,7 +7913,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1358',
 	'ftdescription' => 'Anouk Mels: ,,Het gaat niet goed bij de KNBSB. Waarschijnlijk doet de bond wel zijn best, maar de faciliteiten zijn niet denderend\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1159',
@@ -7921,7 +7921,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1359',
 	'ftdescription' => 'HCAW-voorzitter John Derks (rechts) complimenteert, met gevoel voor humor, de eerste secretaris van de Russische ambassade Valeri Koeletsjov met diens pitchers-kwaliteiten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1160',
@@ -7929,7 +7929,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1360',
 	'ftdescription' => 'Kate Allen: â€žHet enthousiasme bij de speelsters in Engeland is minstens zo groot als in Nederland\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1161',
@@ -7937,7 +7937,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1361',
 	'ftdescription' => 'Clive Mendes vuurt zijn ploeggenoten aan tijdens de gisteren door HCAW gewonnen wedstrijd tegen Pirates.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1162',
@@ -7945,7 +7945,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1362',
 	'ftdescription' => 'Eerste honkman Khoury van Pirates (16) is net te laat om Nicols\' Faneijte uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1163',
@@ -7953,7 +7953,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1363',
 	'ftdescription' => 'Groot was gisteravond de feestvreugde bij de softbalsters van Mr.Cocker/ HCAW. Het is de dames van coach Ruud Elfers gelukt om de landstitel te prolongeren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1164',
@@ -7961,7 +7961,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1364',
 	'ftdescription' => 'Jesper Panduro (links) en Bob Beese zullen tijdens het Europacup-toernooi voor Hilversum plaatsnemen op de werpersheuvel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1165',
@@ -7969,7 +7969,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1365',
 	'ftdescription' => 'CRAIG MCGINNIS',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1166',
@@ -7977,7 +7977,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1366',
 	'ftdescription' => 'Zuidvogels-trainer Fred Fransz (links) en teambegeleider Ger van Dongen (rechts) zijn trots op \'hun\' Amerikaan, Pete Yarasavich. â€žEen winnend lot uit de loterij\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1167',
@@ -7985,7 +7985,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1367',
 	'ftdescription' => 'Roland Schols: â€ž Vanwege m\'n gezondheid moet ik doseren, op de training, maar ook in de wedstrijd\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1168',
@@ -7993,7 +7993,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1368',
 	'ftdescription' => 'HCAW-coach Ruud Elfers: â€žWe gaan weer voor de dubbel. HCAW steekt momenteel technisch en tactisch nog beter in elkaar dan vorig jaar\". ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1169',
@@ -8001,7 +8001,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1369',
 	'ftdescription' => 'ANOUK MELS',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1170',
@@ -8009,7 +8009,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1370',
 	'ftdescription' => 'Alex Nansink in actie tijdens de wedstrijd van zaterdag\" tussen Zuidvogels en De Hazenkamp. Hij was met 0.8OO de beste slag-man.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1171',
@@ -8017,7 +8017,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1371',
 	'ftdescription' => 'De umpire kan uitstekend zien dat HCAW\'er Lars Koehorst op tijd de thuisplaat bereikt: 1-0.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1172',
@@ -8025,7 +8025,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1372',
 	'ftdescription' => 'ROBERT MOORE',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1173',
@@ -8033,7 +8033,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1373',
 	'ftdescription' => 'Sydney Hickinson wordt net niet uitgevangen wanneer hij in nood een sliding maakt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1174',
@@ -8041,7 +8041,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1374',
 	'ftdescription' => 'Bert Blyleven: â€žNu wordt het tijd om echt volwassen te worden\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1175',
@@ -8049,7 +8049,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1375',
 	'ftdescription' => 'Korte stop Lars Koehorst tikt Joe Goodwin van Baltimore uit op het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1176',
@@ -8057,7 +8057,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1376',
 	'ftdescription' => 'Een speler van Hilversum lijkt ingesloten tussen het eerste en tweede honk, maar hij zal niet uitgaan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1177',
@@ -8065,7 +8065,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1377',
 	'ftdescription' => 'Peter Callenbach ia actie tegen de Italianen. De pitcher van Nederland gooide gisteravond weinig verkeerde ballen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1178',
@@ -8073,7 +8073,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1378',
 	'ftdescription' => 'HCAW-coach Henny Jenken (rechts) feliciteert Clive Mendes met zijn home-run tijdens de wedstrijd van zaterdag',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1179',
@@ -8081,7 +8081,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1379',
 	'ftdescription' => 'Pitcher Ingrid Kroon van HCAW stak in goede vorm. Ze leidde de Bussumse dames gisteren vanaf de heuvel naar het landskampioenschap.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1180',
@@ -8089,7 +8089,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1380',
 	'ftdescription' => 'Schols gooide gisteren tegen UVV 2 een perfecte wedstrijd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1181',
@@ -8097,7 +8097,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1381',
 	'ftdescription' => 'Het succesvolle team van HCAW en de begeleiders poseren met de cup na de lange terugreis vanuit Nice.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1182',
@@ -8105,7 +8105,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1382',
 	'ftdescription' => 'De Hilversumse honkballers druipen af na verlies tegen Almere, maar zouden de andere twee poule-wedstrijden winnen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1183',
@@ -8113,7 +8113,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1383',
 	'ftdescription' => 'Craig McGinnis: â€žIk ben erg gedreven. Door die instelling botste ik soms met anderen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1184',
@@ -8121,7 +8121,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1384',
 	'ftdescription' => 'Herman Thomas (rechts) en zijn assistent Hans Snel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1185',
@@ -8129,7 +8129,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1385',
 	'ftdescription' => '\'Speler/coach Pete Yarasavich (staand) vormt met Alex Nansink (links) en Peter Stuifzand het begeleidingsteam van Zuidvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1186',
@@ -8137,7 +8137,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1386',
 	'ftdescription' => 'Hilversum moet volgens coach Randy Taylor nu bewijzen dat het een Ã©cht goed team is geworden.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1187',
@@ -8145,7 +8145,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1387',
 	'ftdescription' => 'Lars Koehorst steelt het tweede honk namens HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1188',
@@ -8153,7 +8153,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1388',
 	'ftdescription' => 'Danny Wout was zaterdagmiddag allerminst op dreef namens HCAW in het duel met Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1189',
@@ -8161,7 +8161,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1389',
 	'ftdescription' => 'CLIVE MENDES',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1190',
@@ -8169,7 +8169,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1390',
 	'ftdescription' => 'Janzen staat namens HCAW te wachten op een pitch van Quick-werper Peter Callenbach.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1191',
@@ -8177,7 +8177,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1391',
 	'ftdescription' => 'Jeffrey Cranston heeft uitgehaald in de partij van zaterdag tussen HCAW en Twins, een partij die de Bussumers met 3-6 verloren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1192',
@@ -8185,7 +8185,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1392',
 	'ftdescription' => 'Roland Schols beschaamde het vertrouwen van de coaches van Hilversum niet. Als werper en ais aangewezen slagman deed hij het goed.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1193',
@@ -8193,7 +8193,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1393',
 	'ftdescription' => 'Janzen probeert in de negende inning van de wedstrijd van zaterdag nog wat terug te doen namens HCAW. Vergeefs, want de Bussumers verloren met 0-11.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1194',
@@ -8201,7 +8201,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1394',
 	'ftdescription' => 'DANNY WOUT',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1195',
@@ -8209,7 +8209,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1395',
 	'ftdescription' => 'Een HCAW\'er bereikt veilig het derde honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1196',
@@ -8217,7 +8217,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1396',
 	'ftdescription' => 'Teri Klement van Twins glijdt over de thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1197',
@@ -8225,7 +8225,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1397',
 	'ftdescription' => 'HCAW-catcher Nick Fridsma maakt op de thuisplaat een speler van Pirates uit na een knappe aangooi uit het Bussumse verre veld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1198',
@@ -8233,7 +8233,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1398',
 	'ftdescription' => 'Spelers van HCAW dekken zaterdag het speelveld af. Desondanks wordt het duel met Quick even later vanwege de regen afgelast.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1199',
@@ -8241,7 +8241,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1399',
 	'ftdescription' => 'Urney Mercera van Hilversum sprint langs de honken tijdens het duel met Robur\'54, dat de Hilversummers met 2-3 verloren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1200',
@@ -8249,7 +8249,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1400',
 	'ftdescription' => 'Roy Berrevoets: â€žIk zie het al voor me: Berrevoets die daar vreselijk fanatiek gaat lopen schreeuwen. De jongens zien me aankomen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1201',
@@ -8257,7 +8257,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1401',
 	'ftdescription' => '1 JULI 1994',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1202',
@@ -8265,7 +8265,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1402',
 	'ftdescription' => 'Een speler van Zuidvogels heeft zaterdag uitgehaald. De catcher van HCAW 2 en de umpire kijken de bal na..',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1203',
@@ -8273,7 +8273,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1403',
 	'ftdescription' => 'In een dubbelspel gaat de HCAW\'er Victor Simon (onder) uit op het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1204',
@@ -8281,7 +8281,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1404',
 	'ftdescription' => 'Een slagman van Hilversum stapt opzij om een wijdbal van de Utrechtse pitcher te laten passeren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1205',
@@ -8289,7 +8289,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1405',
 	'ftdescription' => 'Oranje-speler Johnny Balentina is bijtijds terug op het eerste honk',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1206',
@@ -8297,7 +8297,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1406',
 	'ftdescription' => 'Pete Yarasavich van Zuidvogels wordt tijdens het zaterdag gespeelde duel met Badhoevedorp uitgetikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1207',
@@ -8305,7 +8305,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1407',
 	'ftdescription' => 'Een speelster van HCAW is safe omdat de opponente van Terrasvogels de bal uit de handschoen heeft laten vallen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1208',
@@ -8313,7 +8313,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1408',
 	'ftdescription' => 'Cranston bereikt met een sliding veilig het derde honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1209',
@@ -8321,7 +8321,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1409',
 	'ftdescription' => 'EPA',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1210',
@@ -8329,7 +8329,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1410',
 	'ftdescription' => 'Een speelster van HCAW laat een wijdbal passeren van de werpster van Twins, Margot Mels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1211',
@@ -8337,7 +8337,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1411',
 	'ftdescription' => 'Herman Thomas: â€žIk zou niets liever allerlei talentvolle meiden van vijftien, zestien jaar naar HCAW halen, in het tweede klaarstomen en zorgen voor de doorstroming naar het eerste\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1212',
@@ -8345,7 +8345,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1412',
 	'ftdescription' => 'Francis Janzen in het slagperk voor HCAW in de gewonnen thuiswedstrijd tegen Twins.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1213',
@@ -8353,7 +8353,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1413',
 	'ftdescription' => 'De Europacup is binnen. Vreugde bij de HCAW-dames, die voor het derde opeenvolgende jaar de Europese beker voor landskampioenen pakten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1214',
@@ -8361,7 +8361,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1414',
 	'ftdescription' => 'Terreinknechten in Haarlem en spelers van beide teams zijn na drie innings bezig om het speelveld weer droog te krijgen, hetgeen zal lukken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1215',
@@ -8369,7 +8369,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1415',
 	'ftdescription' => 'HERMAN THOMAS',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1216',
@@ -8377,7 +8377,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1416',
 	'ftdescription' => 'Madelon Beek van HCAW (links) kijkt meewarig\' lachend naar de feestende speelsters en begeleiders van Twins.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1217',
@@ -8385,7 +8385,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1417',
 	'ftdescription' => 'Robert Eenhoorn: â€žIn de komende drie weken zal ik me moeten waarmaken\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1218',
@@ -8393,7 +8393,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1418',
 	'ftdescription' => 'Clive Mendes: â€žToen ik een klein mannetje was, zocht ik honderd stenen bij elkaar en met een bamboestok stond ik die dan weg te hengsten. De hele dag door hoorde je \'pats\'\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1219',
@@ -8401,7 +8401,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1419',
 	'ftdescription' => 'Zuidvogels-coach Tony Rombley: â€žHet team staat wel zo\'n beetje vast en daar houd ik eigenlijk niet zo van\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1220',
@@ -8409,7 +8409,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1420',
 	'ftdescription' => 'Remco Koopmeiners: â€žIk wil dat we dit seizoen allemaal in hetzelfde spoor beginnen en eindigen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1221',
@@ -8417,7 +8417,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1421',
 	'ftdescription' => 'Lars Koehorst. Jurjan Koenen. Jeffrey Cranston en RenÃ© Rijst (van links naar rechts) bejubelen de eerste (vier) Bussumse punten in de openingsinning van de thuiswedstrijd tegen Twins.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1222',
@@ -8425,7 +8425,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1422',
 	'ftdescription' => 'Een honkman van Quick komt te laat om HCAW-speler Nick Fridsma uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1223',
@@ -8433,7 +8433,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1423',
 	'ftdescription' => 'CLIVE MENDES',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1224',
@@ -8441,7 +8441,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1424',
 	'ftdescription' => 'Caspar van Rijnbach, die gisteren goed gooide maar wÃ©l vier slagmensen van De Spartaan raakte, pitcht een bal in de richting van een Amsterdammer.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1225',
@@ -8449,7 +8449,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1425',
 	'ftdescription' => 'Wil Kitslaar: â€ž We houden van Ron. Een fantastische kerel\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1226',
@@ -8457,7 +8457,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1426',
 	'ftdescription' => 'Alsof Efram Sluis (midden, in de armen van Roland Schols) de bui al ziet hangen. De catcher van Zuidvogels lijkt nauwelijks blij met z\'n homerun. Zijn ploegmaten zijn uitbundiger.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1227',
@@ -8465,7 +8465,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1427',
 	'ftdescription' => 'Edwin Fokke van HCAW is net niet op tijd bij het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1228',
@@ -8473,7 +8473,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1428',
 	'ftdescription' => 'Clive Mendes tekende in het duel met Twins voor liefst drie home runs. Mendes bracht in totaal zeven man over de thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1229',
@@ -8481,7 +8481,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1429',
 	'ftdescription' => 'Een speler van Zuidvogels bereikt het derde honk. Een Tigers-honkballer is onderuitgegaan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1230',
@@ -8489,7 +8489,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1430',
 	'ftdescription' => 'Clive Mendes van HCAW bereikt net op tijd een honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1231',
@@ -8497,7 +8497,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1431',
 	'ftdescription' => 'Clive Mendes trachtte er aan slag het beste van te maken in het duel met Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1232',
@@ -8505,7 +8505,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1432',
 	'ftdescription' => 'Spelers, van Zuidvogels kijken wat terneergeslagen naar de verrichtingen van ploeggenoten in de wedstrijd tegen HMS.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1233',
@@ -8513,7 +8513,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1433',
 	'ftdescription' => 'HCAW-coach Edward Kreuning (midden) overlegt tijdens de wedstrijd tegen Zuidvogels met pitcher Jurrian Lobbezoo (12) en catcher Sebastian Franke.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1234',
@@ -8521,7 +8521,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1434',
 	'ftdescription' => 'De Cubaan Padro is ingesloten tussen het derde honk en de thuisplaat en wordt uitgetikt door Giel ten Bosch ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1235',
@@ -8529,7 +8529,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1435',
 	'ftdescription' => 'Nederlands derde-honkman Comenencia tikt de doorglijdende Fransman Meurant uit en kijkt meteen of de scheidsrechter het heeft waargenomen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1236',
@@ -8537,7 +8537,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1436',
 	'ftdescription' => 'Pitcher Danny Wout in actie. De werper van Oranje stond de Russen in vier innings slechts twee punten toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1237',
@@ -8545,7 +8545,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1437',
 	'ftdescription' => 'Johnny Balentina bereikt met een stoffige duik de thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1238',
@@ -8553,7 +8553,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1438',
 	'ftdescription' => 'Op geheel eigen wijze, kruipend als een rusp, viert het Nederlands honkbalteam het binnenhalen van de Europese titel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1239',
@@ -8561,7 +8561,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1439',
 	'ftdescription' => 'Jurjan Koenen (paknummer 12) heeft een home run geslagen en ploeggenoot Clive Mendes staat hem op te wachten voor een \'high five\'.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1240',
@@ -8569,7 +8569,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1440',
 	'ftdescription' => 'HCAW-coach Graig McGinnis (midden) en Jeffrey Cranston zijn boos op scheidsrechter Prins, nadat laatstgenoemde een vermoed geval van schijn heeft weggewuifd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1241',
@@ -8577,7 +8577,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1441',
 	'ftdescription' => 'Terwijl HCAW-catcher Wollit Martha op de bal wacht, scoort Giel ten Bosch het eerste punt voor Kinheim in het duel van zaterdag.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1242',
@@ -8585,7 +8585,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1442',
 	'ftdescription' => 'ANOUK MELS',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1243',
@@ -8593,7 +8593,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1443',
 	'ftdescription' => 'Een speelster van HCAW glijdt over de thuisplaat en dreigt daarbij haar helm te verliezen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1244',
@@ -8601,7 +8601,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1444',
 	'ftdescription' => 'Een HCAW\'er denkt een punt te scoren tegen De Spartaan, maar mist de thuisplaat en kan worden uitgemaakt door de Amsterdamse catcher.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1245',
@@ -8609,7 +8609,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1445',
 	'ftdescription' => 'Cal Ripken: â€žHet is geen record waarvoor je iets moet presteren. Het is gewoon een kwestie van elke dag komen opdagen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1246',
@@ -8617,7 +8617,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1446',
 	'ftdescription' => 'Tony Rombley: â€žIk zou dat geld zelf zo los kunnen krijgen, maar ik vind het mijn taak gewoon niet\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1247',
@@ -8625,7 +8625,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1447',
 	'ftdescription' => 'RenÃ© Rijst staat juichend op een ploeggenoot te wachten wanneer die op het punt staat om een punt te scoren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1248',
@@ -8633,7 +8633,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1448',
 	'ftdescription' => 'De spelers van HCAW en coach Craig McGinnis (uiterst links) verwerken de teleurstelling na de nederlaag van zaterdag.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1249',
@@ -8641,7 +8641,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1449',
 	'ftdescription' => 'De speelsters van HCAW met de beker. Rechts (met bril) vertrekkend coach Koopmeiners.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1250',
@@ -8649,7 +8649,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1450',
 	'ftdescription' => 'HCAW-pitcher Hubert in actie tegen een slagman van Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1251',
@@ -8657,7 +8657,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1451',
 	'ftdescription' => 'Brian Farley: â€žBij de club is men een beetje gemakzuchtig. Ze doen hier graag dingen waar ze goed in zijn\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1252',
@@ -8665,7 +8665,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1452',
 	'ftdescription' => 'Gonny Reijnen: â€žZonder overdrijving\' kan je zeggen dat ik toch wel behoorlijk eigengereid ben.â€',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1253',
@@ -8673,7 +8673,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1453',
 	'ftdescription' => 'HCAW\'er Roy Berrevoets houdt nauwlettend een RCH\'er in de gaten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1254',
@@ -8681,7 +8681,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1454',
 	'ftdescription' => 'Een honkloper van Zuidvogels lijkt veilig net kussen te hebben bereikt in het duel met Hilversum.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1255',
@@ -8689,7 +8689,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1455',
 	'ftdescription' => 'HCAW-werpster Nicole Meinster probeert een slagvrouw van Pirates uit te maken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1256',
@@ -8697,7 +8697,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1456',
 	'ftdescription' => 'HCAWâ€™er Jeffrey Cranston bereikt de thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1257',
@@ -8705,7 +8705,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1457',
 	'ftdescription' => 'Een speelster van Terrasvogels heeft de bal vol op de knuppel genomen in het duel met HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1258',
@@ -8713,7 +8713,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1458',
 	'ftdescription' => 'HCAW legt zwak PSV ook op pijnbank',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1259',
@@ -8721,7 +8721,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1459',
 	'ftdescription' => '|HP|',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1260',
@@ -8729,7 +8729,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1460',
 	'ftdescription' => '|HP|',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1261',
@@ -8737,7 +8737,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1461',
 	'ftdescription' => 'Cranston heeft in het luchtledige geslagen en de catcher van Neptunus laat de bal uit de handschoen vallen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1262',
@@ -8745,7 +8745,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1462',
 	'ftdescription' => 'Gino Arrindell staat op hetpunt om voor HCAW het derde honk tepasseren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1263',
@@ -8753,7 +8753,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1463',
 	'ftdescription' => 'JOE LEWIS',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1264',
@@ -8761,7 +8761,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1464',
 	'ftdescription' => 'Jurjan Koenen wordt bejubeld nadat hij een homerun heeft geslagen voor HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1265',
@@ -8769,7 +8769,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1465',
 	'ftdescription' => 'HCAW-ooach Brian Farley (links) en zijn Sparta-collega Rob Hendriks krijgen een plaquette ter gelegenheid van het duizendste duel van de Bussumers in de hoofdklasse.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1266',
@@ -8777,7 +8777,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1466',
 	'ftdescription' => 'Al gaat deze bal mis, toch timmerde HCAW er dit weekeinde tegen Twins behoorlijk op los. De Bussumers sloegen in totaal 46 honkslagen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1267',
@@ -8785,7 +8785,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1467',
 	'ftdescription' => 'HCAW-pitcher Caroline Straver (rechts) haalde een aanzienlijk hoger niveau dan de werpsters van Terrasvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1268',
@@ -8793,7 +8793,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1468',
 	'ftdescription' => 'Pitcher Brauckmiller kon het Cubaanse slaggeweld zoals verwacht niet indammen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1269',
@@ -8801,7 +8801,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1469',
 	'ftdescription' => 'Wouter van Nigtevegt: â€œIk heb nooit gedacht: ik ga dood\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1270',
@@ -8809,7 +8809,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1470',
 	'ftdescription' => 'Jeffrey Cranston is middels een sliding veilig op het derde honk in het duel van gisteren met PSV.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1271',
@@ -8817,7 +8817,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1471',
 	'ftdescription' => 'HCAWâ€™er Romney (links) heeft de bal over de hekken geslagen en loopt net als ploeggenoot Duursma rustig langs de kussens',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1272',
@@ -8825,7 +8825,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1472',
 	'ftdescription' => 'Koehorst heeft uitgehaald voor een ferme tik in het duel met Kinheim.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1273',
@@ -8833,7 +8833,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1473',
 	'ftdescription' => '26 AUGUSTUS 1998 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1274',
@@ -8841,7 +8841,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1474',
 	'ftdescription' => 'Carolien Straver wierp goed, maar HCAW had er weinig baat bij.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1275',
@@ -8849,7 +8849,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1475',
 	'ftdescription' => 'Mark McGwire weet het, het publiek ook. Het record is binnen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1276',
@@ -8857,7 +8857,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1476',
 	'ftdescription' => 'Roos Boer: â€ž We kunnen Petra en Madelon Beek toch niet met lege handen afscheid van HCAW laten nemen? Zulke speelsters verdienen op z\'n minst een prijs. En waarom zou dat niet de Europacup 1 kunnen zijn?\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1277',
@@ -8865,7 +8865,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1477',
 	'ftdescription' => 'Giel ten Bosch haalt voor Kinheim met een sliding de thuisplaats. HCAW-catcher Nick Fridsma komt net te laat, ziet ook de Haarlemmer Mike Crouwel (7).',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1278',
@@ -8873,7 +8873,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1478',
 	'ftdescription' => 'JEFFREY CRANSTON',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1279',
@@ -8881,7 +8881,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1479',
 	'ftdescription' => 'Allan Henriquez ontvangt uit handen van Annie Kerkhof-Jochems, secretaris van het district Oost van de KNBSB, een bondsonderscheiding vanwege zijn grote inzet en toewijding voor Hilversum',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1280',
@@ -8889,7 +8889,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1480',
 	'ftdescription' => 'Petra (links) en Madelon Beek met hun laatste Europacup in het vip-barretje van HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1281',
@@ -8897,7 +8897,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1481',
 	'ftdescription' => 'Lars Koehorst, goed voor twee homeruns, steelt hier het tweede honk. Neptunus\' tweede-honkman Bob van Aalen heeft de bal laten vallen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1282',
@@ -8905,7 +8905,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1482',
 	'ftdescription' => 'Pitcher RenÃ© Rijst (vierde van links) wordt besprongen door ploeggenoten van HCAW nadat de niet zichtbare Jeffrey Cranston met een schitterende vangbal de laatste nul heeft gemaakt tegen Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1283',
@@ -8913,7 +8913,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1483',
 	'ftdescription' => ' ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1284',
@@ -8921,7 +8921,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1484',
 	'ftdescription' => ' ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1285',
@@ -8929,7 +8929,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1485',
 	'ftdescription' => 'HCAW\'er Clive Mendes slaat een homerun in de zaterdag gespeelde confrontatie met Sparta.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1286',
@@ -8937,7 +8937,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1486',
 	'ftdescription' => 'Peter Callenbach',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1287',
@@ -8946,7 +8946,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'ftdescription' => 'Sylvia Rienks
 ...donderslag...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1288',
@@ -8954,7 +8954,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1203',
 	'ftdescription' => 'Dave Daniels',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1289',
@@ -8962,7 +8962,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1488',
 	'ftdescription' => 'HCAW\'er Jeffrey Cranston maakt een fraaie stretch op het eerste honk in een poging om een ADO-speler uit te maken. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1290',
@@ -8970,7 +8970,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1489',
 	'ftdescription' => 'Een speler van HCAW moet tijdens het tweede duel met Giants terug naar het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1291',
@@ -8978,7 +8978,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1490',
 	'ftdescription' => 'Een speelster van Pirates wordt op het kussen uitgemaakt door een HCAW\'ster. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1292',
@@ -8987,7 +8987,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'ftdescription' => 'Pete Rose, de in opspraak geraakte honkbalmanager, schijnt alleen aan geld, gokken of sport te kunnen denken.
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1293',
@@ -8995,7 +8995,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1230',
 	'ftdescription' => 'Peter Laanen: \'\'Wie Herbert Dijkstra feliciteert met zijn in Calgary behaalde zilveren medaille, gaat gewoon enorm af\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1294',
@@ -9003,7 +9003,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1493',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1295',
@@ -9011,7 +9011,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1494',
 	'ftdescription' => 'Een interessanten avond belooft de demonstratie van het  honkbalspel in de Bussumsche Sportweek: onze foto geeft het moment van den slag aan het werk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1296',
@@ -9019,7 +9019,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1493',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1297',
@@ -9027,7 +9027,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1493',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1298',
@@ -9035,7 +9035,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1495',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1299',
@@ -9043,7 +9043,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1496',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1300',
@@ -9051,7 +9051,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1497',
 	'ftdescription' => 'Wim Hageman bezorgt HCAW al glijdend het enige punt in het uitduel met Nicols.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1301',
@@ -9059,7 +9059,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1498',
 	'ftdescription' => 'Alfred de Leeuw lijkt het tweede honk te bereiken maar hij glijdt er voorbij en wordt alsnog uitgetikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1302',
@@ -9067,7 +9067,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1499',
 	'ftdescription' => 'Rickey Placidus slaagt erin het tweede honk te stelen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1303',
@@ -9075,7 +9075,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1500',
 	'ftdescription' => 'Brian Lewis van UVV is safe op het derde honk. HCAW-er Alfred de Leeuw wacht tevergeefs op de bal vanuit het outfield.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1304',
@@ -9083,7 +9083,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1501',
 	'ftdescription' => 'Wim Hageman wordt op de thuisplaat uitgemaakt door Tico Flemming, de catcher van Quick.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1305',
@@ -9091,7 +9091,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1502',
 	'ftdescription' => 'Alfred de Leeuw scoort 9-2 voor HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1306',
@@ -9099,7 +9099,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1503',
 	'ftdescription' => 'Kees Vree scoort 4-0 voor Giants. HCAW-catcher Bart Seidel (rechts) kan niets uitrichten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1307',
@@ -9107,7 +9107,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1504',
 	'ftdescription' => 'VOLKERIJK ...uitblinker...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1308',
@@ -9115,7 +9115,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1505',
 	'ftdescription' => 'John Jonkers van Sparta komt op tijd terug op het eerste honk. Frank Bailey denkt zijn tegenspeler uitgetikt te hebben.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1309',
@@ -9123,7 +9123,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1506',
 	'ftdescription' => 'Sidney Hickinson steelt het tweede honk voor HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1310',
@@ -9131,7 +9131,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1507',
 	'ftdescription' => 'Good-old Ade Fijth volop in actie voor HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1311',
@@ -9139,7 +9139,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1508',
 	'ftdescription' => 'Alfred de Leeuw (rechts) gaat uit op het tweede honk na een poging dit kussen te stelen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1312',
@@ -9147,7 +9147,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1509',
 	'ftdescription' => 'Haitse de Vries slaagt erin het tweede honk te stelen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1313',
@@ -9155,7 +9155,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1510',
 	'ftdescription' => 'Een van de weinige goede acties van HCAW: Don Wedman wordt door Alfred de Leeuw uitgemaakt op het tweede honk. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1314',
@@ -9163,7 +9163,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1511',
 	'ftdescription' => 'Peter van der Ster slaagt erin het tweede honk te bereiken. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1315',
@@ -9172,7 +9172,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'ftdescription' => 'IRENE BRANDSEN ... geselecteerd...
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1316',
@@ -9180,7 +9180,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1513',
 	'ftdescription' => 'Cees Herkemij was terecht ,,in de wolken\" na de opmerkelijke dubbele zege van HCAw.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1317',
@@ -9188,7 +9188,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1514',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1318',
@@ -9196,7 +9196,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1515',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1319',
@@ -9204,7 +9204,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1516',
 	'ftdescription' => 'Fred Remmers, de achtervanger van HCAW, heeft de bal al in zijn handschoen. Het betekende drie slag voor deze speler van De Volewijckers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1320',
@@ -9212,7 +9212,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1517',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1321',
@@ -9220,7 +9220,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1518',
 	'ftdescription' => 'Een loopster van HCAW wordt op het tweede honk uitgetikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1322',
@@ -9228,7 +9228,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1519',
 	'ftdescription' => 'Op de foto v.l.n.r.: J. M. F. Zonneveld, G. J. Lakeman jr., dhr. BoÃ¯n, HCAW-voorzitter Kort, burgemeester A. Admiraal, mevrouw E. Barnard-Visscher, drs. W. N. Bax, mr. H. A. F. Velu en drs. P. Reeskamp. Behalve de burgemeester en de raadsleden op de foto kochten mevrouw mr. E. J. Pfeiffer, drs. F. Th. Witkamp, J. C. Schild en mevrouw J. Freeman-Nagel een certificaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1323',
@@ -9236,7 +9236,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1520',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1324',
@@ -9244,7 +9244,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1521',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1325',
@@ -9252,7 +9252,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1522',
 	'ftdescription' => 'Waar blijft de bal? Links Ada Majoor van HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1326',
@@ -9260,7 +9260,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1523',
 	'ftdescription' => 'Een overzicht van het HCAW-complex. Op de voorgrond het hoofdveld, waar de buitenveldhekken deze week omheen gezet worden. Op de achtergrond het tweede veld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1327',
@@ -9268,7 +9268,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '583',
 	'ftdescription' => 'WIM KOENDERS ... goede geest ...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1328',
@@ -9276,7 +9276,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '547',
 	'ftdescription' => 'JAN PRINS ...sterker...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1329',
@@ -9284,7 +9284,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1524',
 	'ftdescription' => 'De drie trainers van Zuidvogels. Van links naar rechts: Jaap Diemer, Wim Hoek en Rob Veen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1330',
@@ -9292,7 +9292,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1525',
 	'ftdescription' => 'Twee details van de te bouwen kantine van HCAW. In principe is men al akkoord met het ontwerp, echter de algehele goedkeuring moet nog komen. De kantine zal voor een goot deel door de leden van HCAW worden gebouwd. Boven een gedeelte van de plattegrond. Onder een gedeelte van de voorgevel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1331',
@@ -9300,7 +9300,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1526',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1332',
@@ -9308,7 +9308,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1527',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1333',
@@ -9316,7 +9316,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1528',
 	'ftdescription' => 'Burgemeester A. Admiraal van Bussum knipt het lint door Rechts van de burgemeester de wethouder mevrouw mr E. J. Pfeiffer Achter de burgemeester HCAW-voorzitter J. Kort.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1334',
@@ -9324,7 +9324,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '70',
 	'ftdescription' => 'JULIO HAZEL',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1335',
@@ -9333,7 +9333,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'ftdescription' => 'RICKEY PLACIDUS ..nummer Ã©Ã©n..
 ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1336',
@@ -9341,7 +9341,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1529',
 	'ftdescription' => 'Ade Fijth had het in het afgelopen weekeinde bijzonder druk. Zaterdag werper, zondag eerste honkman en werper. Het was op het laatst toch te veel voor hem.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1337',
@@ -9349,7 +9349,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1530',
 	'ftdescription' => 'Rob Hoffmann verbeten werpend tegen Haarlem Nicols. Negen innings hield hij het vol. Vooral in het begin ging het als vanouds met Hoffmann.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1338',
@@ -9357,7 +9357,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '54',
 	'ftdescription' => 'Ade Fijth',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1339',
@@ -9365,7 +9365,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '70',
 	'ftdescription' => 'Julio Hazel',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1340',
@@ -9373,7 +9373,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1531',
 	'ftdescription' => 'Een verwarde situatie op het tweede honk. Piet van de Wilk (21) is uit. Hij glijdt wel naar het tweede honk waar ook Ben de Brouwer net gearriveerd is. Jan de Graaf (links) en Rob Hoffmann (15) kijken toe hoe Ad Smith tikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1341',
@@ -9381,7 +9381,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1532',
 	'ftdescription' => 'Hans Augustinus bereikt op tijd het tweede honk. Ad Smith (rechts) wacht nog op de bal Scheidsrechter Meijer geeft de Spartaan in.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1342',
@@ -9389,7 +9389,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1533',
 	'ftdescription' => 'De tweede honkman van HMS is te laat om de honkloper van Zuidvogels uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1343',
@@ -9397,7 +9397,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '531',
 	'ftdescription' => 'WIM HAGEMAN ... beslissende klap...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1344',
@@ -9405,7 +9405,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1534',
 	'ftdescription' => 'Nico Bouter was zaterdag de win-nende werper voor Chefana.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1345',
@@ -9413,7 +9413,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1535',
 	'ftdescription' => 'Ada Majoor mag naar het thuishonk lopen omdat Zuidvogels de enige fout, heeft gemaakt, Marian van Diemen van HCAW en Kuidvogels-werpster Marjo Eitjes (met staarten) kijken toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1346',
@@ -9421,7 +9421,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1537',
 	'ftdescription' => 'Ade Fijth wacht op de bal, die door Rob Hoffmann is aangegooid. De honkloper van ADO is op tijd terug op het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1347',
@@ -9429,7 +9429,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '727',
 	'ftdescription' => 'ROB HOFFMANN ..winnend..',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1348',
@@ -9437,7 +9437,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1538',
 	'ftdescription' => 'Gerrie Bunschoten van Zuidvogels goochelt met de bal terwijl Irene Laan van HCAW veilig op het derde honk is. Links scheidrechter Amse. In het midden Magda Boel en op de voorgrond HCAW-coach Johnny Gutierrez.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1349',
@@ -9445,7 +9445,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1539',
 	'ftdescription' => 'Ook onder de grond kon deze honkloper van Zuidvogels het tweede honk niet bereiken. Zuidvogels won wel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1350',
@@ -9453,7 +9453,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '727',
 	'ftdescription' => 'Rob Hoffmann',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1351',
@@ -9461,7 +9461,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '54',
 	'ftdescription' => 'Ade Fijth',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1352',
@@ -9469,7 +9469,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '70',
 	'ftdescription' => 'Julio Hazel',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1353',
@@ -9477,7 +9477,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1540',
 	'ftdescription' => 'Deze honkloper (op de grond) van OVVO heeft het tweede honk wel bereikt. Ad Smith (links) en Allen Harris zien de bal voorbij gaan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1354',
@@ -9485,7 +9485,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1541',
 	'ftdescription' => 'Discussie op de werpheuvel Dat gebeurde in de moeilijke negende inning. Het hielp.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1355',
@@ -9493,7 +9493,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1542',
 	'ftdescription' => 'Allen Harris tikt de honkloper van OVVO, Ron Tuinder, op het tweede honk uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1356',
@@ -9501,7 +9501,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1543',
 	'ftdescription' => 'Het softballteam van Zuidvogels, dat maandagavond uitkwam tegen Actif. Links coach Aart Kruimer.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1357',
@@ -9509,7 +9509,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1544',
 	'ftdescription' => 'Rinie Amse heeft hier een van haar home-runs geslagen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1358',
@@ -9517,7 +9517,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1545',
 	'ftdescription' => 'Julio Hazel is op tijd terug op het derde honk. De Ajacieden hadden het in de inning waarin dit gebeurde bijzonder moeilijk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1359',
@@ -9525,7 +9525,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1546',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1360',
@@ -9533,7 +9533,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1547',
 	'ftdescription' => 'Een honkloopster van Quick komt te laat op het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1361',
@@ -9541,7 +9541,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1548',
 	'ftdescription' => 'Ade Fijth',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1362',
@@ -9549,7 +9549,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '70',
 	'ftdescription' => 'Julio Hazel',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1363',
@@ -9557,7 +9557,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '70',
 	'ftdescription' => 'JULIO HAZEL ...gedrost...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1364',
@@ -9565,7 +9565,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1545',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1365',
@@ -9573,7 +9573,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1549',
 	'ftdescription' => 'Het softballteam van HCAW dat zaterdag van Wiesbaden Flyerettes won. Achterste rij -van links naar-rechts: assisten-coach Fred Remmers, Elly Fijth, Ria Platvoet, Magda Boel, Lucy de Haan, Riny Amse, Francine Timmers. Voorste rij: coach John Gutierrez, Irene Laan, Els van Diemen, Ada Majoor en Margriet Kreutzer. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1366',
@@ -9581,7 +9581,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1550',
 	'ftdescription' => 'En weer hobbelt een bal naar het eerste honk. Margriet Kreutzer is al lang gearriveerd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1367',
@@ -9589,7 +9589,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1551',
 	'ftdescription' => 'Margriet Kreutzer bereikt met een sliding de thuisplaat. Van links naar rechts Ria Platvoet, scheidsrechter Spermon, Wiesbaden-catcher Cohlins en Margriet Kreutzer.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1368',
@@ -9597,7 +9597,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1552',
 	'ftdescription' => 'Het team van de California Stags, zoals dat gisteravond in Bussum aantrad tegen HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1369',
@@ -9605,7 +9605,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1553',
 	'ftdescription' => 'Een van de spelers van California Stags haalt het tweede honk net niet.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1370',
@@ -9613,7 +9613,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1555',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1371',
@@ -9621,7 +9621,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1556',
 	'ftdescription' => 'Johnny Jonkers bereikt het derde honk. Een onderdeel van een seconde later zou hij scoren omdat Jan de Graaf de bal laat doorschieten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1372',
@@ -9629,7 +9629,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1557',
 	'ftdescription' => 'Ricky Placidus (rechts) concentreert zich voor zijn beurt aan slag. Links zijn clubgenoten Rob Filipiak en Allen Harris.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1373',
@@ -9637,7 +9637,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1558',
 	'ftdescription' => 'Gerrie Bunschoten (midden) op weg naar een homerun. De speelster van Zuidvogels wordt doorgestuurd door coach Aart Kruimer. Magda Boel (rechts) kijkt de bal na.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1374',
@@ -9645,7 +9645,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1559',
 	'ftdescription' => 'Een moment in de wedstrijd HCAWâ€”Sparta. Rob van der Gaast â€žrondt\" het tweede honk na een veldfout. John Jonkers van Sparta kijkt toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1375',
@@ -9653,7 +9653,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1560',
 	'ftdescription' => 'Allan Harris bereikt met een sliding het tweede honk. Simon Arrinndell heeft de bal te laat ontvangen. Scheidsrechter Stotter geeft â€žin\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1376',
@@ -9661,7 +9661,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1561',
 	'ftdescription' => 'Op een klap van Ad Smith heeft Rob Hoffmann het derde honk bereikt. Derde honkman Ton Bodaan van Storks wacht nog op de bal. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1377',
@@ -9669,7 +9669,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1562',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1378',
@@ -9677,7 +9677,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1563',
 	'ftdescription' => 'Allan Harris',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1379',
@@ -9685,7 +9685,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1564',
 	'ftdescription' => 'Allan Harris (rechts) in actie tegen Storks.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1380',
@@ -9693,7 +9693,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1565',
 	'ftdescription' => 'Het geeft geen pas een fout zo groot uit te meten, maar het is een mooie actiefoto: Allan Harris (rechts) laat de door Roley Wout (links) aangegooide bal vallen en Huub Kohl is veilig op het tweede honk. Dat geeft scheidsrechter Wedemeijer ook aan. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1381',
@@ -9701,7 +9701,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1566',
 	'ftdescription' => 'Allan Harris is uit op het tweede honk. Aad Verheul, de tweede honkman van Feijenoord, heeft hem uitgetikt. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1382',
@@ -9709,7 +9709,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1567',
 	'ftdescription' => 'King Zschuschen steelt het tweede honk. Ad Smith moet de bal nog krijgen terwijl Allan Harris toe komt lopen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1383',
@@ -9717,7 +9717,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1568',
 	'ftdescription' => 'Jaap Bijl van ADO is net op tijd op het eerste honk. Rob van der Gaast ontvangt de bal te laat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1384',
@@ -9725,7 +9725,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1569',
 	'ftdescription' => 'Waar blijft de bal? Een Actif-speelster bereikt het derde honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1385',
@@ -9733,7 +9733,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '526',
 	'ftdescription' => 'Ad Smith',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1386',
@@ -9741,7 +9741,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1570',
 	'ftdescription' => 'Magda Boel van HCAW (rechts) is veilig op het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1387',
@@ -9749,7 +9749,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1572',
 	'ftdescription' => 'Spelmoment uit de honkbalwedstrijd HCAWâ€”OVVO.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1388',
@@ -9757,7 +9757,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1573',
 	'ftdescription' => 'Niet zo duwen. Rob Filipiak (voorgrond) in de clinch met eerste honkman Jelle Postma van OVVO, Scheidsrechter Schrijver geeft Filipiak â€žinâ€',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1389',
@@ -9765,7 +9765,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1574',
 	'ftdescription' => 'Ad Smith bereikt het tweede honk. Dick Prinsen en Han Koch proberen hem uit te maken. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1390',
@@ -9773,7 +9773,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '583',
 	'ftdescription' => 'Wim Koenders is de succesvolle trainer/ coach van Chefana. De honkballers uit Naarden werden zaterdag kampioen en promoveren naar de eerste klasse van Rayon Midden Nederland.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1391',
@@ -9781,7 +9781,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1575',
 	'ftdescription' => 'Het kampioensteam van Chefana.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1392',
@@ -9789,7 +9789,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1576',
 	'ftdescription' => 'Rob van der Gaast gaat uit op het eerste honk. Rechts scheidsrechter Pieters, die het moest ontgelden bij het publiek wegens enkele aanvechtbare beslissingen. De eerste honkman is Boudewijn Maat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1393',
@@ -9797,7 +9797,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1577',
 	'ftdescription' => 'Julio Hazel, die de Hitters Trofee van het Goois Nieuwsblad won.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1394',
@@ -9805,7 +9805,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1578',
 	'ftdescription' => 'Julio Hazel komt binnen en brengt daarmee de stand in de wedstrijd HCAW â€” Feijenoord op 1â€”3.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1395',
@@ -9813,7 +9813,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '70',
 	'ftdescription' => 'Julio Hazel',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1396',
@@ -9821,7 +9821,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '727',
 	'ftdescription' => 'Rob Hoffmann',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1397',
@@ -9829,7 +9829,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1579',
 	'ftdescription' => 'Dugg Inn',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '1398',
@@ -9837,7 +9837,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '1580',
 	'ftdescription' => 'De HCAW-kantine van voren. Het hek stond open en onse fotograaf was zo vriendelijk aan de wens van de HCAW-ers te voldoen. De volgende keer misschien een foto van het interieur.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2000',
@@ -9845,7 +9845,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2000',
 	'ftdescription' => 'Ruud ter Wijden als gastwerper bij ORWO-HCAW onder het toeziend oog van Julio Hasel. Het ging hem goed af. Het werd slag.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2001',
@@ -9853,7 +9853,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2001',
 	'ftdescription' => 'BUSSUM â€” Ellen Bussemaker veilig geland in honkbalvallei na haar parachutesprong. Zij overhandigt vice-praeses Wim Boin de eerste speelbal, die Ruud ter Weijden (midden) zal werpen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2002',
@@ -9861,7 +9861,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2002',
 	'ftdescription' => 'BUSSUM â€” Roley Wout veilig op het derde honk. De pet is voor zijn gezicht gekomen. Hij speelde een opvallend goede wedstrijd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2003',
@@ -9869,7 +9869,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2003',
 	'ftdescription' => 'Parachutespringer Elle van Bussemaker ,,onderwegâ€ naar ORWO-HCAW. Het werd een veilige landing.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2004',
@@ -9877,7 +9877,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2004',
 	'ftdescription' => 'Frank Smit van Luycks Giants was ook goed voor een ererondje na zijn homerun. Zijn makkers maken hier de geruikelijke opwachting. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2005',
@@ -9885,7 +9885,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2005',
 	'ftdescription' => 'BUSSUM â€“ Wim Hageman ,,sneuveltâ€ voor de thuisplaat. Arbiter Pieters is daar heel zeker van. Hageman zou het later goedmaken met zijn homerun, een uitzonderlijke presentatie in de Honkbalvallei. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2006',
@@ -9893,7 +9893,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2006',
 	'ftdescription' => 'Wim Koenders (coach) â€žMijn jongens doen er alles voor om hoger op te komenâ€. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2007',
@@ -9901,7 +9901,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2007',
 	'ftdescription' => 'Bij de 2000 toeschouwers was ook wethouder K. Houtzager (links). Rechts W. Boin vice-praeses van HCAW die hem kennelijk moed inspreekt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2008',
@@ -9909,7 +9909,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2008',
 	'ftdescription' => 'Jan de Graaf komt behouden thuis. Hij scoort het eerste punt voor de Bussum Bucs. Er zouden er nog drie volgen, maar het was niet genoeg. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2009',
@@ -9917,7 +9917,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2009',
 	'ftdescription' => 'Jeanette Poort juichend over de thuisplaat na haar homerun. Zij had mede door het fraaie dubbelspel (later uitgevoerd) een groot aandeel in de Bussumse zege.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2010',
@@ -9925,7 +9925,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2010',
 	'ftdescription' => 'Leo Nagtegaal stevig op het tweede honk. King Zschuschen (rechts) wacht tevergeefs op de bal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2011',
@@ -9933,7 +9933,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2011',
 	'ftdescription' => 'Wim Hageman heeft een driehonkslag gegeven. Hij is veilig â€žgeland\". Hij scoorde later het enige tegenpunt in de eerste partij tegen Schoten, dat met 3â€”1 won.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2012',
@@ -9941,7 +9941,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2012',
 	'ftdescription' => 'Rob de Graeve is op tijd op een Soester uit te maken. Hij zou in deze spannende strijd in de verlenging het winnende punt scoren voor OFM.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2013',
@@ -9949,7 +9949,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2013',
 	'ftdescription' => 'Bart Seidel heeft Paul Smit te pakken voor hij thuis kan komen. Wim Hageman had feilloos op het aangegooid. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2014',
@@ -9957,7 +9957,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2014',
 	'ftdescription' => 'Paul Koster van Feyenoord zal het â€žthuisfront\" niet halen. Hij werd een prooi van de Bussumse velders.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2015',
@@ -9965,7 +9965,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2015',
 	'ftdescription' => 'Het softbalteam van Zuidvogels, dat uitstekend debuteert in de landelijke eerste klasse. Ze staan op de tweede plaats.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2016',
@@ -9973,7 +9973,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2016',
 	'ftdescription' => 'Leo Nagtegaal haalt uit. Het werd een tweehonkslag. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2017',
@@ -9981,7 +9981,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2017',
 	'ftdescription' => 'Peter van der Ster komt met een prachtige sliding op tijd thuis. Het was het zesde punt, dat werd gescoord en er zouden nog twee runs volgen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2018',
@@ -9989,7 +9989,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2018',
 	'ftdescription' => 'RenÃ© Boin uitgeschakeld',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2019',
@@ -9997,7 +9997,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2019',
 	'ftdescription' => 'Ron van der Laan (Oosterloo FM) zeer sterk op de heuvel, sneuvelt hier voor de thuisplaat. De scheidsrechter geeft hem duidelijk â€žout\". ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2020',
@@ -10005,7 +10005,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2020',
 	'ftdescription' => 'Huub Kohl (Feijenoord) tweede van rechts op weg naar de thuisplaat. Bart Seidel zal hem echter uittikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2021',
@@ -10013,7 +10013,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2021',
 	'ftdescription' => 'Huub Kohl heeft het niet gehaald. Bart Seidel (liggend), maar triomfantelijk de bal in de hand. Huub Kohl droop woedend af. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2022',
@@ -10021,7 +10021,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2022',
 	'ftdescription' => 'Ignace Boel scoort het tiende punt voor Oosterloo FM. Cees Spillekom (links) staat er voor in de houding.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2023',
@@ -10029,7 +10029,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2023',
 	'ftdescription' => 'Els van den Bos scoort hier het tweede punt voor ORWO-HCAW. De stand werd 2-5, waarin geen verandering meer kwam. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2024',
@@ -10037,7 +10037,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2024',
 	'ftdescription' => 'Ade Fijth heeft tijdig â€žingegrepen\". Charles Urbanus haalde het eerste honk niet. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2025',
@@ -10045,7 +10045,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2025',
 	'ftdescription' => 'Een duidelijk ,,uitâ€ voor Wim Hageman, die zich overigens niet gemakkelijk laat verschalken.. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2026',
@@ -10053,7 +10053,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2026',
 	'ftdescription' => 'Wim Hageman: enige HCAW\'er in Honkbalweek',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2027',
@@ -10061,7 +10061,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2027',
 	'ftdescription' => 'Ade Fijth heeft het karwei â€žplat\". Hij was de winnende werper, ditmaal uiterst belangrijk, want daardoor bleef ORWO-HCAW hoofdklasser.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2028',
@@ -10069,7 +10069,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2028',
 	'ftdescription' => 'Een gebruikelijk tafereel: Julio Hazel in discussie met scheidsrechter. Bart Seidel is de stille getuige. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2029',
@@ -10077,7 +10077,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2029',
 	'ftdescription' => 'Voor de zoveelste maal bereikt een Zuidvogels-speelster het eerste honk. Hier is Petra Brocken aan bod. De huizer dames wonnen van Hotam Storks met 17â€”2. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2030',
@@ -10085,7 +10085,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2030',
 	'ftdescription' => 'Op het zonovergoten sportpark deze aankondiging, haast niet te geloven, het veld was afgekeurd.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2031',
@@ -10093,7 +10093,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2031',
 	'ftdescription' => 'Aart Kruimer (33): van begin af coach bij Zuidvogels. De gymnastiekleraar die nu medicijnen studeert en volgend jaar zijn examen gaat doen wil met team de hoofdklasse halen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2032',
@@ -10101,7 +10101,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2032',
 	'ftdescription' => 'Jos Lamers: captain en catcher van het succesvolle Zuidvogels team. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2033',
@@ -10109,7 +10109,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2033',
 	'ftdescription' => 'Wim Hageman: nuttige speler',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2034',
@@ -10117,7 +10117,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2034',
 	'ftdescription' => 'Nederland doet het goed in de Haarlemse Honkbalweek. De ORWO-HCAW\'er Wim Hageman heeft tot grote voldoening van de Bussumse fans zijn steentje aan het succes bijgedragen. De homerun tegen Arzizona leverde twee punten op. Hageman bleef er als altijd erg nuchter onder.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2035',
@@ -10125,7 +10125,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2035',
 	'ftdescription' => 'Ron van der Laan: winnende werper bij Oosterloo FM. Hij scoorde ook het beslissende punt voor zijn team dat bijzonder belangrijk was. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2036',
@@ -10133,7 +10133,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2036',
 	'ftdescription' => 'Roly Wout: Belangrijk aandeel in het succes. Hij sloeg in Rotterdam twee homeruns en op zijn overige tikken werden veel punten verzameld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2037',
@@ -10141,7 +10141,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2037',
 	'ftdescription' => 'AndrÃ© Boddemlijk: eindelijk weer eens winnende werper.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2038',
@@ -10149,7 +10149,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2038',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2039',
@@ -10157,7 +10157,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2039',
 	'ftdescription' => 'HUIZEN - De luchtsprong van Gerrie Bunschoten was niet tevergeefs. De bal â€žsnorde\" veilig in de handschoen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2040',
@@ -10165,7 +10165,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2040',
 	'ftdescription' => 'BUSSUM â€“ Bart Seidel (midden) heeft de thuisplaat veroverd, Wade Jansen wacht nog op de bal, maar die kwam nog lang niet. RenÃ© Boin zou ook nog scoren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2041',
@@ -10173,7 +10173,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2041',
 	'ftdescription' => 'Ada Majoor (midden) dolgelukkig over haar geslagen homerun, die twee punten opleverde, wordt hartelijk onthaald door een aantal medespeelsters. Het zou een doorslaggevende klap blijken. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2042',
@@ -10181,7 +10181,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2042',
 	'ftdescription' => 'Ignace Boel bereikt het eerste honk hoewel zich dit op de foto niet laat aanzien. De eerste honkman liet later zijn honk â€žschieten\". (Bestelnr. 3615)',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2043',
@@ -10189,7 +10189,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2043',
 	'ftdescription' => 'HUIZEN - De luchtsprong van Gerrie Bunschoten was niet tevergeefs. De bal â€žsnorde\" veilig in de handschoen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2044',
@@ -10197,7 +10197,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2044',
 	'ftdescription' => 'RenÃ© Boin: In Nederlands B-team.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2045',
@@ -10205,7 +10205,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2045',
 	'ftdescription' => 'Wim Koenders: Terug uit de States weer op zijn post bij Oosterloo FM',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2046',
@@ -10213,7 +10213,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2046',
 	'ftdescription' => 'Ron v. d. Laan in actie op de werpheuvel. Hij vocht een verbitterd gevecht uit met zijn tegenspeler Berry van Doorn. De Bussummer kwam tot betere cijfers, maar de strijd bleef onbeslist ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2047',
@@ -10221,7 +10221,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2047',
 	'ftdescription' => 'Rob de Graeve gaat een honkslag geven en bereikte daarna zelfs het derde honk. De prachtige scoringspositie ging later verloren door een volkomen mislukte stootslag van Berry Klaver. Het was de beste kans voor de Naarders gemest. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2048',
@@ -10229,7 +10229,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2048',
 	'ftdescription' => 'BUSSUM â€“ Jan de Graaf (HCAW) bereikt hier het derde honk in de honkbalwedstrijd Midden-Nederland-Rotterdam, die zondagmiddag in de honkbalvallei werd gespeeld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2049',
@@ -10237,7 +10237,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2049',
 	'ftdescription' => 'NAARDEN â€” Sponsor Oosterloo Fashion stelde na het behalen van het kampioenschap van â€žzijn\" Ministerpark een nieuwe vlag ter beschikking. De heer Oosterloo (op de foto rechts naast de vlag) sprak daarbij de hoop uit dat â€žbinnenkort de mannen van HCAW en Haarlem Nicols tegen deze vlag moeten aankijken\"... Op de foto verder het team van Oosterloo FM dat buiten in de bloemetjes werd gezet.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2050',
@@ -10245,7 +10245,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2050',
 	'ftdescription' => 'NAARDEN â€“ De werper van Oosterloo FM, Nico Bouter, in volle actie. Hij nam de plaats op de heuvel in de derde inning over van Ron v.d. Laan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2051',
@@ -10253,7 +10253,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2051',
 	'ftdescription' => 'Julio Hazel: leuke trip voor de boeg',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2052',
@@ -10261,7 +10261,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2052',
 	'ftdescription' => 'Geen promotie voor HCAW en Zuidvogels',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2053',
@@ -10269,7 +10269,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2053',
 	'ftdescription' => 'Naarden. Nico Bouter (29) de nestor, man van het eerste uur in het Oosterloo Fashion Ministerpark team, hier aan de slag in de wedstrijd, die OFM het kampioenschap opleverde in 1974. Nico Bouter zal straks weer in actie komen, zij het in een andere functie. Men heeft de werperstaf kunnen uitbreiden. Bouter is een all round honkballer, dus elke plaats is goed. De captain heeft veel vertrouwen voor het nieuwe seizoen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2054',
@@ -10277,7 +10277,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2054',
 	'ftdescription' => 'Bussum. Alle aandacht voor oefenmeester Schrijvers van de peanuts van ORWO-HCAW, die hier het â€žslagwerk\" verzorgd. Misschien zien wij over een jaar of tien Ã©Ã©n of meer van die knapen in de hoofdmacht van de Bussumse club spelen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2055',
@@ -10285,7 +10285,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2055',
 	'ftdescription' => 'BUSSUM â€” Op de achtergrond de honkbalarena waar straks weer het een en ander te beleven zal zijn. Op de achtergrond het fundament van de perstribune die over enkele weken gereed voor het gebruik zal komen. Bestelnir. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2056',
@@ -10293,7 +10293,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2056',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2057',
@@ -10301,7 +10301,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2057',
 	'ftdescription' => 'BUSSUM â€” ORWO-HCAW wil haar gasten zondag goed ontvangen bij de openingswedstrijd tegen Haarlem Nicols. Daarvoor moesten nog vele handen uit de mouwen worden gestoken. Nabij die Dug-Inn is nu alles betegeld. Een aantal banken dienden nog een opknapbeurt te krijgen. Achter de dug-out van de thuisclub is men doende een onderkomen aan te brengen voor de persvertegenwoordigers en de officiÃ«le scoorder. Dat karwei is nog niet plat, maar een kwestie van korte tijd. Op de foto een aantal vrijwilligers met op de achtergrond voorzitter W. Boin, die zich bijzonder verheugd toonde over de inzet van de manschappen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2058',
@@ -10309,7 +10309,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2058',
 	'ftdescription' => 'Floor Blaauw Zuidvogels: hoger vliegen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2059',
@@ -10317,7 +10317,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2059',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2060',
@@ -10325,7 +10325,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2060',
 	'ftdescription' => 'HUIZEN â€” Softball was ook weer te beleven, Jos Lamers (Zuidvogels) links verovert een honk in de wedstrijd die ging tegen de Meteoor en met 7â€”3 werd gewonnen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2061',
@@ -10333,7 +10333,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2061',
 	'ftdescription' => 'BUSSUM â€” Strijd om een honk in de partij tussen Orwo/HCAW en Haarlem Nicols, die de gasten met 12â€”0 wonnen. Grote teleurstelling was er bij de 1500 toeschouwers, die dit niet hadden verwacht na de 5â€”3 zege in Haarlem. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2062',
@@ -10341,7 +10341,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2062',
 	'ftdescription' => 'BUSSUM â€“ Andre Boddendijk: al twee homeruns',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2063',
@@ -10349,7 +10349,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2063',
 	'ftdescription' => 'BUSSUM â€” In de Honkbalvallei was er zaterdag voor Orwo-HCAW een happy-end in de wedstrijd tegen Olga-ADO. Het werd 3â€”2 na een achterstand van 2â€”0. Op de foto een beeld uit de derde inning. King Zschuschen, derde honkman van de Hagenaars, wacht de bal af. Die zal hem tijdig bereiken en de Bussumse slagman is uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2064',
@@ -10357,7 +10357,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2064',
 	'ftdescription' => 'BUSSUM â€” Ada Majoor (links) van Orwo-HCAW maakt een Roef speelster uit vlak voor de thuisplaat. De Bussumse dames wonnen dit partijtje met grote cijfers: 16â€”3.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2065',
@@ -10365,7 +10365,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2065',
 	'ftdescription' => 'HUIZEN â€” Op Sportpark Bestevaer werd op Hemelvaartsdag een softbal-derby gehouden tussen Zuidvogels en ORWO/HCAW. Na een fijne wedstrijd mocht ORWO/HCAW zich de winmaar noemen met de stand van 1â€”3.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2066',
@@ -10373,7 +10373,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2066',
 	'ftdescription' => 'Zuidvogels goed hersteld',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2067',
@@ -10381,7 +10381,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2067',
 	'ftdescription' => 'BUSSUM â€” Beeld uit de wedstrijd Orwo-HCAWâ€”Hotam Storks. Links Arnold Smith die een dubbelspel tracht uit te voeren. Jan de Graaf rechts ziet het wel zitten. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2068',
@@ -10389,7 +10389,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2068',
 	'ftdescription' => 'BUSSUM â€” Groot tumult na de scheidsrechterlijke beslissing dat John van Westrenen in werd gegeven op het tweede honk. In het midden coach Jan Schriek die zijn protest niet zag toegewezen. Het nare incident zou de inleiding worden tot de niet verwachte mederlaag (5â€”8). ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2069',
@@ -10397,7 +10397,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2069',
 	'ftdescription' => 'NAARDEN â€” Oosterloo Fasihion Ministerpark won in Naarden van Odiz (Zaandam) met 4â€”1. Op de foto links Marcel Huizing die een honk in bezit neemt. In de return werd het 7â€”5 voor de Naarders, die nu door de dubbele zege in het voorste gelid zijn gekomen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2070',
@@ -10405,7 +10405,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2070',
 	'ftdescription' => 'BUSSUM â€” Een lachende Marjan Nagtegaal (rechts) na haar homerun die twee punten opleverde. De Bussumse dames wonnen met 7â€”3 van EHS. Het werd een dubbele zege want uit was met 10â€”8 gewonnen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2071',
@@ -10413,7 +10413,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2071',
 	'ftdescription' => 'Zuidvogels: monsterzege',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2072',
@@ -10421,7 +10421,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2072',
 	'ftdescription' => 'NAARDEN â€“ Ron v.d. Laan rechts is op het tweede honk gekomen. Scheidsrechter gaf in, maar de ABCâ€™ers waren het er niet mee eens. Voor ons was v.d. Laan ook duidelijk uit. Oosterloo FM had hiermede geluk. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2073',
@@ -10429,7 +10429,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2073',
 	'ftdescription' => 'BUSSUM â€” Jan de Graaf veilig â€žgeland\" op het tweede honk. De Feyenoordman moet nog lang wachten voordat de bal in zijn bezit kwam. De Graaf was meer malen succesvol met het stelen van honken en aan slag stond hij ook zijn mannetje.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2074',
@@ -10437,7 +10437,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2074',
 	'ftdescription' => 'BUSSUM â€” Het herensoftball floreert goed ORWO-HCAW, Het ledental verdubbelde bijna en nog steeds melden zich liefhebbers. Vooral de wat ouderen voelen zich tot deze sport aangetrokken. Er wordt elke dinsdagavond intensief getraind. Onze fotograaf was daarvan getuige en schoot er een plaatje van. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2075',
@@ -10445,7 +10445,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2075',
 	'ftdescription' => 'BUSSUM â€” Jeanet Poort op topsnelheid verovert de thuisplaat in de zesde inning toen de ORWO/HCAW liefst acht puntten scoorden en uitkwamen op een 13â€”0 zege tegen de Flying Petrels. Op de achtergrond het â€žvijandelijke kamp\". En daar zag men het via de vele acties van de Bussumse dames niet meer zitten. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2076',
@@ -10453,7 +10453,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2076',
 	'ftdescription' => 'BUSSUM â€” Arnold Smith in stofwolken gehuld steelt in de achtste inning het tweede honk, nadat hij geraakt door de werper op het eerste gekomen was. Hij zou de klus afmaken door 3â€”1 te scoren, maar daar was een fout van korte stop Hattem v. d. Molen mede debet aan.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2077',
@@ -10461,7 +10461,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2077',
 	'ftdescription' => 'BUSSUM â€” In de achtste inning van de wedstrijd ORWO/HCAWâ€”OVVO was er nog een incident. Paul Smit was het niet eens met een beslissing van hoofdscheidsrechter Hout en die kreeg dat op een minder gebruikelijke wijze te horen. Coach Hans Overwagt werd op het matje geroepen en die deed ook nog een duit in het zakje. Het gevolg was dat de heer Hout hem maar de dug-out verwees. Aanvoerder Jelle Postma (midden) van OVVO hoort het vonnis aan. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2078',
@@ -10469,7 +10469,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2078',
 	'ftdescription' => 'ORWO-HCAW en OVVO speelden remise',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2079',
@@ -10477,7 +10477,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2079',
 	'ftdescription' => 'BUSSUM â€” Woensdagmiddag is op het gemeentehuis van Bussum het huwelijk voltrokken tussen 0nno Hoekstra en Edith Dekker. Bruidegom Hoekstra hoont bij de werperstaf van ORWO-HCAW en vanzelfsprekend was er uit de honkbalfamilie grote belangstelling om het feest luister bij te zetten. Onno Hoekstra meldde zich op zijn tiende jaar bij de Bussumse honkbalclub en is nu tot de top doorgedrongen. Hij was Ã©Ã©n seizoen weg om zijn geluk bij het toenmalige Donar te beproeven, maar keerde op het oude nest terug. De bruid is een fervent supportster en van het Ã©Ã©n is het ander gekomen. Na het kerkelijk huwelijk was er in â€žDe Tafelberg\" te Blaricum een receptie en daar had het bruidspaar ook niet te klagen over belangstelling. Onno en Edith hadden een onvergetelijke dag.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2080',
@@ -10485,7 +10485,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2080',
 	'ftdescription' => 'BUSSUM â€” Joop KÃ¶hler, hoofdredacteur van Inside, het bondsorgaan van de KNHB, opende zaterdag voordat de wedstrijd ORWOâ€”HCAW een aanvang nam de Pers-Inn, het onderkomen van de persvertegenwoordigers en scoorders. Vice-voorzitter van 0RWO-HCAW Hans Krijnen moest de honneurs waarnemen voor preases Wim Boin, die wegens ziekte verstek had laten gaan. De heer KÃ¶hler vond de aanwinst in de honkbalvallei een unieke zaak. Hans Krijnen had eerder woorden van lof toegezwaaid aan de bouwers. Voor Wim Boin was er toch een pleister op de wonde. Zijn club won beide ontmoetingen tegen Lottgering Schoten. Rechts op de foto Joop KÃ¶hler die de persmensen en genodigden verzoekt zich naar binnen te spoeden. Links Hans Krijnen, die zijn ,,baasâ€ uitstekend verving.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2081',
@@ -10493,7 +10493,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2081',
 	'ftdescription' => 'BUSSUM â€” ORWO-HCAW beleefde een vreugdevol weekeinde door de dubbele zege op Lottgering-Schoten. Hier in de thuiswedstrijd is Elvin Martha (ex-HCAW) zijn oude ploeg-makker Arnold Smith iets te vlug af, Smith zou later in de wedstrijd revanche nemen door twee honken te stelen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2082',
@@ -10501,7 +10501,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2082',
 	'ftdescription' => 'HUIZEN Jacqueline Meyer (Zuidvogels) links op weg naar de thuisplaat Charlotte Fontein heeft een homerun geslagen en zal haar clubgenote volgen. De stand werd daardoor op 4â€”2 gebracht. Zuidvogels zou uiteindelijk met 12â€”6 winimen en verzekerde zich wan een plaats in de kampioenspoule. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2083',
@@ -10509,7 +10509,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2083',
 	'ftdescription' => 'Zuidvogels na zege op EHS: eerste en in kampioenspoule',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2084',
@@ -10517,7 +10517,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2084',
 	'ftdescription' => 'NAARDEN - Ron v. d. Laan (links) kan het alleen wel af om een HCTIW speler voor het tweede honk uit te maken. Ron Huizing links behoeft uitsluitend toe te kijken. De Amsterdammers kregen geen punt op het scorebord. De Naarders drie, zodat het een no run zege werd. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2085',
@@ -10525,7 +10525,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2085',
 	'ftdescription' => 'NAARDEN â€” Het succesvolle team vam Oosterloo FM presenteerde zich zaterdagmiddag in de gloednieuwe pakken, oranje-zwart. VÃ³Ã³r de wedstrijd tegen HCTW had men zoals uit de foto blijkt al de nodige schik. De stemming werd er na de 3â€”0 zege niet minder op. Staamde van links naar rechts: Bertus Klaver, Ron Huizing, Rob de Graeve, Ron v. d. Laan, Peter van Dijk, Dick Nagtegaal, Cees Spillekom en sponsor de heer A. Oosterloo. Zittend van v.l.n.r: Wim Koenders (coach) Ignace Boel, Marcel Huizing, Jan v. d. Bunt, Berry Klaver en Nico Bouter. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2086',
@@ -10533,7 +10533,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2086',
 	'ftdescription' => 'NAARDEN â€” Ron Huizing (midden) staat met lege handen. De bal is niet zuiver aangegooid. De Hilversum speler bereikt dan ook veilig het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2087',
@@ -10541,7 +10541,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2087',
 	'ftdescription' => 'NAARDEN â€” Peter van Dijk hier in actie op de werpheuvel. Hij moest te elfder ure Marcel Huizing vervangen, die vrijdagavond bij een aanrijding aan het been gewond raakte. Peter van Dijk klaarde het uitstekend.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2088',
@@ -10549,7 +10549,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2088',
 	'ftdescription' => 'Oosterloo-Ministerpark door oog van de naald gekropen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2089',
@@ -10557,7 +10557,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2089',
 	'ftdescription' => 'BUSSUM â€” Na de 50 uur honkbal werd er champagne gedronken. Op de foto de man, die de laatste slok naar binnen werkte.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2090',
@@ -10565,7 +10565,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2090',
 	'ftdescription' => 'BUSSUM â€” 50 uur non-stop honkbal in de Vallei werden volgemaakt. Een groep spelers in afwachting van het openknallen van de champagnefles. De monden staan al open om de eerste dronk te gaan wijden op de goede afloop.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2091',
@@ -10573,7 +10573,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2091',
 	'ftdescription' => 'BUSSUM â€” Astrid Sturkeboom van ORWO-HCAW (rechts) sloeg op haar twee honkslag een punt binnen, maar dat was lang niet voldoende. Links Jos Lamers catcher van Zuidvogels die op een slaggemiddelde van 750 zou komen. Zuidvogels won met 9-2 en leverde 15 honkslagen af op pitcher Riny Remmers. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2092',
@@ -10581,7 +10581,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2092',
 	'ftdescription' => 'HUIZEN â€” Goed uitgevoerde stootslag van Jacqueline Meyer. Charlotte Fontein kon daardoor het elfde punt laten aantekenen. Zuidvogels won de partij tegen Roef met 12â€”0. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2093',
@@ -10589,7 +10589,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2093',
 	'ftdescription' => 'BUSSUM â€“ Onno Hoekstra: pitcher in moeilijke zaken',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2094',
@@ -10597,7 +10597,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2094',
 	'ftdescription' => 'BUSSUM â€” Duidelijke foutslag vam ORWO-HCAW. De Bussumers zouden maar drie keer goed raken. Uit de honkslagen kwamen geen puntten. Op de achtergrond het publiek, dat zich veel van de partij tegen de Nicols had voorgesteld. Het werd een smadelijke 10â€”0 nederlaag voor ORWO-HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2095',
@@ -10605,7 +10605,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2095',
 	'ftdescription' => 'NAARDEN â€” Ignace Boel links is veilig geland op het tweede honk. De DVH-speler staat nog op de â€žuitkijk\". Overigens geen ongezellig tafereel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2096',
@@ -10613,7 +10613,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2096',
 	'ftdescription' => 'BUSSUM â€” Ria Platvoet (rechts) volledig geconcentreerd in de wedstrijd tegen de Meteoor. De bal komt â€žaangevoerd\" en Ria zal de toesnellende speelster tijdig uittikken. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2097',
@@ -10621,7 +10621,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2097',
 	'ftdescription' => 'BUSSUM â€” Robbie v. d. Veen (18) nieuwkomer in de hoofdmacht van ORWO HCAW vangt hier in de zevende inning Louwe Halkema fraai uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2098',
@@ -10629,7 +10629,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2098',
 	'ftdescription' => 'ORWO-HCAW stelde fans teleur door halve winst op Hotam Storks',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2099',
@@ -10637,7 +10637,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2099',
 	'ftdescription' => 'BUSSUM â€” Riny Remmers (no 18) van ORWO-HCAW is Charlotte Fonteijn van Zuidvogels iets te vlug af. Riny Remmers pakte het tweede honk. Rechts Marcia Lamers en links op de achtergrond Helga Fidder, die het duel aanzien. Zuidvogels won deze belangrijke partij met 10-1.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2100',
@@ -10645,7 +10645,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2100',
 	'ftdescription' => 'BUSSUM â€” In de honkbalvallei ging zaterdagmiddag de dames interland softbal Nederlandâ€”ItaliÃ« in een dubbel. Nedenland won beide keren en wel met de cijfers 9â€”5 en 13â€”0. Hier verovert een Nederlandse speelster het eerste honk en daar is geen moeilijkheid over zoals uit de foto blijkt. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2101',
@@ -10653,7 +10653,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2101',
 	'ftdescription' => 'Interland in Bussum: Nederland-ItaliÃ« (dames)',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2102',
@@ -10661,7 +10661,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2102',
 	'ftdescription' => 'NAARDEN â€” Rob de Graeve (links) gaat een â€žGeus\" uitmaken op het eerste honk. De eerste honkman van de Naarders deed in de tweede inning aan slag ook goed werk. Hij sloeg twee man binnen waardoor de stand op 4-1 kwam. Het werd uiteindelijk 5â€”2.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2103',
@@ -10669,7 +10669,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2103',
 	'ftdescription' => 'Bussum, Ade Fijth: grote ervaring',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2104',
@@ -10677,7 +10677,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2104',
 	'ftdescription' => 'Bussum: Wim Hageman: eervolle verkiezing',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2105',
@@ -10685,7 +10685,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2105',
 	'ftdescription' => 'BUSSUM â€” Zaterdagmorgen arriveerden de jonge Amerikaanse honkballers in Bussum. Het was bij de Dug-Inn een drukte van belang zoals o.m. uit de foto blijkt. Aan de bagage ontbrak een plunjezak met speelballen. Die is naar alle waarschijnlijkheid op het vliegveld in de States achtergebleven.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2106',
@@ -10693,7 +10693,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2106',
 	'ftdescription' => 'BUSSUM â€” Mike Zuziak en Jan Kort in een plezierig gesprek tijdens de wedstrijd van The Falcons tegen Oosterloo FM. Zuziak, enthousiast over de geweldige ontvangst in Bussum, lichtte ons na afloop van de strijd in over de sportbeoefening in Grand Rapids, de home town van president Ford en daar is men zeer trots op.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2107',
@@ -10701,7 +10701,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2107',
 	'ftdescription' => 'Mike Zuziak en The Falcons waarderen grote gastvrijheid',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2108',
@@ -10709,7 +10709,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2108',
 	'ftdescription' => 'HUIZEN â€” Nel Hoogmoed, coach Zuidvogels: dolgelukkig na zege op Roef.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2109',
@@ -10717,7 +10717,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2109',
 	'ftdescription' => 'BUSSUM - Donald Golcynski (44), coach van The Falcons had zondagavond vrij, maar was nu zelf â€žactief\" bij de softbalwedstrijd tegen de gastouders. Don kreeg de feestsigaar van Jan Kort en geniet hier op het eerste honk van deze echt Hollandse â€žfakkel\". Of deze niet-roker nadelige gevolgen heeft ondervonden, vermeldt de geschiedenis niet ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2110',
@@ -10725,7 +10725,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2110',
 	'ftdescription' => 'BUSSUM â€” Mike Zuziak, de begeleider van The Falcons hier zelf in actie tijdens de softballwedstrijd tegen de gastouders. Mike liet duidelijk zien, dat hij als assisten-chef sport en recreatie ook zijn kennis van zaken in praktijk kan brengen. Hier is een driehonkslag in aantocht, waarop twee man zouden scoren. Op de achtergrond Ã©Ã©n van zijn pupillen, die het meesterwerk aandachtig gadeslaat. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2111',
@@ -10733,7 +10733,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2111',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2112',
@@ -10741,7 +10741,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2112',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2113',
@@ -10749,7 +10749,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2113',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2114',
@@ -10757,7 +10757,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2114',
 	'ftdescription' => 'NAARDEN â€” Het team van Oosterloo FM, na de winnend afgesloten wedstrijd {tegen The Herons. Mem wist op het moment van de foto nog niet dat het kampioenschap behaald was. Dat kon ook niet, want een dag later speelde concurrent DVH pas. Toen die verloor kon het feest losbarsten. 0p de foto v.l.n.r. staand: Marcel Huizing, Rob de Graeve, Peter van Dijk, Dick Nagtegaal en Bertus Klaver. Zittend v.l.n.r. Cees Spillekom, Berry Klaver, Jan v. d. Bunt, Nico Bouter en Ron v. d. Laan. Ignace Boel en Ron Huizing ontbreken op deze foto, omdat ze nog met vakantie waren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2115',
@@ -10765,7 +10765,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2115',
 	'ftdescription' => 'NAARDEN â€” Een beeld uit de achteraf, beslissende wedstrijd voor het kampioenschap van Oosterloo FM. Berry Klaver pakt hier het eerste honk, voordat een Herons-man hem uit kan vangen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2116',
@@ -10773,7 +10773,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2116',
 	'ftdescription' => 'BUSSUM â€” ORWO-HCAW slaagt erin het eerste honk te stelen in de wedstrijd tegen Roef. De Bussumse softbalsters wonnen in Bussum met 8â€”2. In Moergestel brachten zij het er belangrijk minder goed van af.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2117',
@@ -10781,7 +10781,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2117',
 	'ftdescription' => 'BUSSUM. â€” Een Sparta-speler probeert in Bussum het tweede honk te spelen, maar ORWO-HCAW is attent de man wordt uitgevangen. Het baatte de Bussumers niet, want zij verloren tweemaal met flinke cijfers. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2118',
@@ -10789,7 +10789,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2118',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2119',
@@ -10797,7 +10797,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2119',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2120',
@@ -10805,7 +10805,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2120',
 	'ftdescription' => 'Bussum â€” Zaterdag: Ade Fijth mist een bal op \'het eerste bonk, OVVO haalt het makkelijk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2121',
@@ -10813,7 +10813,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2121',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2122',
@@ -10821,7 +10821,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2122',
 	'ftdescription' => 'BUSSUM â€” Lachend bereikt een speelster van Hotam Storks het honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2123',
@@ -10829,7 +10829,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2123',
 	'ftdescription' => 'BUSSUM â€” Jos Kervers (no. 14) in stofwolken gehuld is duidelijk in, gezien het gebaar van de veldscheidsrechter',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2124',
@@ -10837,7 +10837,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2124',
 	'ftdescription' => 'BUSSUM â€” Holy nam in de eerste inning de leiding. De scheidsrechter geeft duidelijk in. In het midden Ignace Boel de catcher van Oosterloo FM, die het zo te zien somber bekijkt',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2125',
@@ -10845,7 +10845,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2125',
 	'ftdescription' => 'Oosterloo FM: kans op promotie',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2126',
@@ -10853,7 +10853,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2126',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2127',
@@ -10861,7 +10861,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2127',
 	'ftdescription' => 'BUSSUM â€” De bekerwedstrijd 0RWO-HCAWâ€” Nicols duurde ruim drieÃ«nhalf uur. Na negen innings was het 3-3 en moest er verlengd wonden. Pas in de vijftiende inning viel de beslissing in het voordeel van de Nicols. ORWO-HCAW ging dus in de vijftiende ronde â€žknock-out.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2128',
@@ -10869,7 +10869,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2128',
 	'ftdescription' => 'Jan de Graaf: een evenement voor mij. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2129',
@@ -10877,7 +10877,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2129',
 	'ftdescription' => 'Wim Hageman: weer een leuke trip',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2130',
@@ -10885,7 +10885,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2130',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2131',
@@ -10893,7 +10893,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2131',
 	'ftdescription' => 'Carl Yastrzemski: aanvoerder Boston Red Sox een geweldige speler.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2132',
@@ -10901,7 +10901,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2132',
 	'ftdescription' => 'Joop van Bolhuis',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2133',
@@ -10909,7 +10909,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2133',
 	'ftdescription' => 'Ben Verkerk: â€žVoor honkbal ben ik s nachts wakker te maken.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2134',
@@ -10917,7 +10917,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2134',
 	'ftdescription' => 'Richard Reichle',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2135',
@@ -10925,7 +10925,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2135',
 	'ftdescription' => 'Cees Herkemeij: ,,binnen een jaar of twee, drie probeer ik een vernieuwd HCAW binnen de lijnen te brengenâ€.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2136',
@@ -10933,7 +10933,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2136',
 	'ftdescription' => 'Julio Hazel: ,, We zijn toch duidelijk de underdog, een club zonder naam.â€',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2137',
@@ -10941,7 +10941,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2137',
 	'ftdescription' => 'Ade Fijth: Een versterking voor het softbalteam van HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2138',
@@ -10949,7 +10949,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2138',
 	'ftdescription' => 'Sidney Hickinson (rechts) scoort het vierde punt voor HCAW in de thuiswedstrijd tegen Sparta.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2139',
@@ -10957,7 +10957,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2139',
 	'ftdescription' => 'HCAWâ€™s Van de Veen slaagt er niet in Richardson op het tweede honk uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2140',
@@ -10965,7 +10965,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2140',
 	'ftdescription' => 'HCAW-speler Hickinson bereikt het eerste honk in de thuiswedstrijd tegen Kinheim, die door de scheidsrechter in de tweede innings werd gestaakt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2141',
@@ -10973,7 +10973,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2141',
 	'ftdescription' => 'Monsterscore Knickerbockers',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2142',
@@ -10981,7 +10981,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2142',
 	'ftdescription' => 'Het moment, waarop Richard Reichle de stand op spectaculaire wijze op 5-2 brengt. Ado cathcer Louis Witloks is kansloos terwijl Bart Seidel (rechts) bezwerende gebaren maakt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2143',
@@ -10989,7 +10989,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2143',
 	'ftdescription' => 'Reichle (tweede van links) brengt het tiende punt voor HCAW over de thuisplaat',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2144',
@@ -10997,7 +10997,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2144',
 	'ftdescription' => 'Urbanus bereikt glijdend het derde honk; Reichle komt te laat',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2145',
@@ -11005,7 +11005,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2145',
 	'ftdescription' => 'HCAW-er De Leeuw (midden) is uitgemaakt op het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2146',
@@ -11013,7 +11013,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2146',
 	'ftdescription' => 'Eerste nederlaag Zuidvogels ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2147',
@@ -11021,7 +11021,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2147',
 	'ftdescription' => 'HCAWâ€™er Reichle (rechts) steelt het tweede honk in het duel met Nicols',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2148',
@@ -11029,7 +11029,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2148',
 	'ftdescription' => 'Bart Seidel',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2149',
@@ -11037,7 +11037,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2149',
 	'ftdescription' => 'Eddy Tromp, HCAWâ€™s sterke pitcher, steelt het tweede honk in het duel met giants',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2150',
@@ -11045,7 +11045,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2150',
 	'ftdescription' => 'Via een stoffige duik bereikt Richard Reichle veilig het tweede honk. Tiger Don Wedman komt, ondanks zijn sprongkunst, net te laat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2151',
@@ -11053,7 +11053,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2151',
 	'ftdescription' => 'Zowel Frank Bailey als Franko Martis (rechts) claimen een punt. Hoofdscheidsrechter Klein-Smit geeft echter uit Kinheim-catcher Hans Augustinus is er maar bij gaan liggen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2152',
@@ -11061,7 +11061,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2152',
 	'ftdescription' => 'Seidel (links) tikt Sieval uit op de thuisplaat',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2153',
@@ -11069,7 +11069,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2153',
 	'ftdescription' => 'Kinheimer Thomas steelt het derde honk. Tromp (rechts) komt te laat om de pitcher uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2154',
@@ -11077,7 +11077,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2154',
 	'ftdescription' => 'Ben Richardson is op tijd terug op het tweede honk voordat de korte stop van Korea, Jae Bak Kim (rechts) hem kan uittikken. Op de achtergrond scheidsrechter Pachecho.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2155',
@@ -11085,7 +11085,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2155',
 	'ftdescription' => 'Wim Koenders',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2156',
@@ -11093,7 +11093,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2156',
 	'ftdescription' => 'Louis Jacobs werd voor het duel met Canada gepasseerd vanwege zijn slechte prestatie tegen AustraliÃ«.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2157',
@@ -11101,7 +11101,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2157',
 	'ftdescription' => 'Voor coach Ernie Meijers (links) was het vooral van belang, hoe Nederland zich aan slag zou gedragen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2158',
@@ -11109,7 +11109,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2158',
 	'ftdescription' => 'HCAW-speler Sven van der Graaf (22) slaagt erin het tweede honk te stelen, doordat Pioniers-tweede honkman Marcel Meijers (rechts) de bal niet vast kan houden. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2159',
@@ -11117,7 +11117,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2159',
 	'ftdescription' => 'De sliding van Nicols-speler Robert Eenhoorn is tevergeefs. HCAW-werper Peter van Dalen heeft hem op het eerste honk reeds uitgemaakt. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2160',
@@ -11125,7 +11125,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2160',
 	'ftdescription' => 'Ondanks dat de eerste honkman van Flying Petrels zich tot het uiterst strekt, gaat de bal aan hem voorbij. Zuidvogels-speler Gijs Selderijk bereikt daardoor veilig het eerste honk. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2161',
@@ -11133,7 +11133,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2161',
 	'ftdescription' => 'Alfred de Leeuw haalt op de foto uit voor een homerun.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2162',
@@ -11141,7 +11141,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2162',
 	'ftdescription' => 'En kan even later door zijn ploeggenoten Ben van de Berg, Peter van Dalen, Sven van der Graaf en Tico Flemming (v.l.n.r.) met een feestelijk â€žhigh five\" worden binnengehaald.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2163',
@@ -11149,7 +11149,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2163',
 	'ftdescription' => 'Boel: .Iemand die geen verstand heeft van honkbal moet zich er niet mee bemoeien\". ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2164',
@@ -11157,7 +11157,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2164',
 	'ftdescription' => 'HCAW-kortestop Dave Rose (links) heeft Harrie Veldwijk op het tweede honk uitgemaakt en zal de bal naar het eerste honk gooien om het dubbelspel te voltooien. Roland de Groot (rechts) kijkt toe. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2165',
@@ -11165,7 +11165,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2165',
 	'ftdescription' => 'Margaret Sutter: ,,Het is een kwestie van werken, eten, slapen\". ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2166',
@@ -11173,7 +11173,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2166',
 	'ftdescription' => 'Hoofdscheidsrechter John Barett (rechts) ziet toe hoe Neptunus-speler Jan Venema het eerste punt scoort. HCAW-catcher Tico Flemming (links) is nog in afwachting van de bal ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2167',
@@ -11181,7 +11181,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2167',
 	'ftdescription' => 'De tweede honkman van ADO, Geza Kovacs, zit met de bal in zijn handschoen klaar om HCAW-er Tico Flemming uit te maken bij zijn steelpoging. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2168',
@@ -11189,7 +11189,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2168',
 	'ftdescription' => 'Volgens de Amerikanen Jef Grande (links) en Dave Rose is voor een aantal van hun ploeggenoten verliezen net zoiets geworden als tandenpoetsen; het hoort erbij. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2169',
@@ -11197,7 +11197,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2169',
 	'ftdescription' => 'HCAW\'s eerste honkvrouw Marieke Sijmons in opperste concentratie in de topper tegen Bloemendaal en met lucht genoeg voor een kauwgumbel. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2170',
@@ -11205,7 +11205,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2170',
 	'ftdescription' => 'DE VRIES',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2171',
@@ -11213,7 +11213,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2171',
 	'ftdescription' => 'Zuidvogels-pitcher Robbert Hoffmann in actie tijdens het duel met Flying Petrels. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2172',
@@ -11221,7 +11221,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2172',
 	'ftdescription' => 'AndrÃ© Dalmulder ontvangt de bal te laat om deze speler van De Spartaan op het tweede honk uit te tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2173',
@@ -11229,7 +11229,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2173',
 	'ftdescription' => 'Trainster coach Nel Hoogmoed: â€žIk vraag me echt wel eens af, waarom ik me nog uitsloof\'.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2174',
@@ -11237,7 +11237,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2174',
 	'ftdescription' => 'UVV-er Bob Shannon glijdt het tweede punt voor zijn ploeg over de thuisplaat. HCAW-catcher Tico Flemming (links) zal vervolgens de bal uit zijn handschoen laten vallen, waarna Marlon Fluonia nog 0-3 kan scoren. Aart van Gorcum, Eric de Vries en hoofdscheidsrechter Van Beek (van links af) zijn de toeschouwers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2175',
@@ -11245,7 +11245,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2175',
 	'ftdescription' => 'Tweede-honkman Tsjang Jaw-Teng van Taiwan heeft de op de grond liggende Gerlach Halderman uitgemaakt en probeert nog een dubbelspel te forceren met de man op het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2176',
@@ -11253,7 +11253,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2176',
 	'ftdescription' => 'Zuidvogels-werper RenÃ© Sluyter kijkt met een verbeten gezicht een worp na in de met 10-9 gewonnen wedstrijd tegen Sparks. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2177',
@@ -11261,7 +11261,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2177',
 	'ftdescription' => 'Catcher Hans Lemmink komt te laat, waardoor eerste honkman Li An-Shi kan scoren voor Taiwan. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2178',
@@ -11269,7 +11269,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2178',
 	'ftdescription' => 'Pat Murphy, de manager van het Nederlands honkbalteam, heeft op het EK tot dusverre weinig reden tot klagen. Misschien vandaag, als ItaliÃ« de eerste en enige serieuze tegenstander is. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2179',
@@ -11277,7 +11277,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2179',
 	'ftdescription' => 'De scheidsrechter en de Italiaanse achtervanger volgen de verrichtingen van de Nederlandse slagman Jacky Jacoba. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2180',
@@ -11285,7 +11285,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2180',
 	'ftdescription' => 'De directe aanpak van coach Pat Murphy heeft de Nederlandse honkballers op het EK in Barcelona gestimuleerd tot opvallende prestaties',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2181',
@@ -11293,7 +11293,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2181',
 	'ftdescription' => 'Dave Rose van HCAW moet een duik maken om op tijd terug te zijn op het honk. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2182',
@@ -11301,7 +11301,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2182',
 	'ftdescription' => 'Een HCAW-er bereikt net niet op tijd het tweede honk in het eerste duel met ADO, dat de Bussumse ploeg zaterdag met 1-4 verloor. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2183',
@@ -11309,7 +11309,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2183',
 	'ftdescription' => 'HCAW\'s tweede honkman Roland de Groot heeft een speler van Pioniers uitgemaakt op het tweede honk en zal vervolgens de bal naar Ã©Ã©n gooien om het dubbelspel te vervolmaken. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2184',
@@ -11317,7 +11317,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2184',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2185',
@@ -11325,7 +11325,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2185',
 	'ftdescription' => 'Gijs Selderijk gooit teleurgesteld zijn helm op de grond nadat hij is uitgegaan in het duel met Tilburg.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2186',
@@ -11333,7 +11333,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2186',
 	'ftdescription' => 'Tweede honkman Arthur Sabandar (links) van het gepromoveerde Zuidvogels zit met de bal in de handschoen klaar om de aanstormende honkloper van Tex Town Tigers uit te tikken. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2187',
@@ -11341,7 +11341,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2187',
 	'ftdescription' => 'HCAW-werper Eric de Vries (midden) probeert een speler van Feijenoord met een ,,pick-off\' op het eerste honk te elimineren. De Rotterdammer brengt zich met een duik bijtijds in veiligheid. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2188',
@@ -11349,7 +11349,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2188',
 	'ftdescription' => 'MONTVIDAS ... geen favorieten ...',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2189',
@@ -11357,7 +11357,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2189',
 	'ftdescription' => 'De eerste honkvrouw van HHC moet in de spagaat om Petra Goedkoop van HCAW uit te krijgen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2190',
@@ -11365,7 +11365,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2190',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2191',
@@ -11373,7 +11373,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2191',
 	'ftdescription' => 'De foto toont scheidsrechter Bodaan, die het teken geeft dat Jacobs (Neptunus) safe is op het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2192',
@@ -11381,7 +11381,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2192',
 	'ftdescription' => 'Ondanks een gebroken middenhandsbeentje was Pirates-pitcher Rikkert Faneyte gisteren de absolute uitblinker in het duel met Neptunus.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2193',
@@ -11389,7 +11389,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2193',
 	'ftdescription' => 'De Vries: â€žHet is al gauw van: ,,Je hebt zeker een grote achterzak\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2194',
@@ -11397,7 +11397,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2194',
 	'ftdescription' => 'Eten speler van Giants probeert de thuisplaat te halen. De catcher van Pirates is echt: het bezit van de bal.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2195',
@@ -11405,7 +11405,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2195',
 	'ftdescription' => 'Een spelsituatie uit de wedstrijd HCAW-Bloemendaal',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2196',
@@ -11413,7 +11413,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2196',
 	'ftdescription' => 'Clive Mendez bereikt veilig het tweede honk na een fout van de korte stop van Sparta.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2197',
@@ -11421,7 +11421,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2197',
 	'ftdescription' => 'Michael Hofman van Zuidvogels (links) gaat uit op het eerste honk na een opofferingsstootslag.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2198',
@@ -11429,7 +11429,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2198',
 	'ftdescription' => 'Sven van de Graaf van HCAW (rechts) gaat uit op het tweede honk tijdens het thuisduel met PSV. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2199',
@@ -11437,7 +11437,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2199',
 	'ftdescription' => 'Spelmoment uit de spectaculair verlopen confrontatie tussen HCAW en Nicols, waarbij de Haarlemse gasten het duel met een dubbelspel besluiten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2200',
@@ -11445,7 +11445,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2200',
 	'ftdescription' => 'Martin Ronnenbergh: ,,Misschien dat er onbewust een gevoel was ontstaan van: dit jaar zal het wel weer lukken. Nou, dat viel dus behoorlijk tegen.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2201',
@@ -11453,7 +11453,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2201',
 	'ftdescription' => 'Roland de Groot van HCAW (21) gaat uit op het tweede honk na een dubbelspel van UVV',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2202',
@@ -11461,7 +11461,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2202',
 	'ftdescription' => 'Alfred de Leeuw laat het eerste punt aantekenen voor HCAW in de thuiswedstrijd tegen Pirates: 2-1. Het mocht uiteindelijk niet baten voor de Bussumers',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2203',
@@ -11469,7 +11469,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2203',
 	'ftdescription' => 'Dirk Peters (rechts) en Rob Wentink moeten HCAW in een rustiger vaarwater zien te krijgen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2204',
@@ -11477,7 +11477,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2204',
 	'ftdescription' => 'Sidney Hickinson: â€žIk was het zat om steeds op mijn tenen te moeten lopen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2205',
@@ -11485,7 +11485,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2205',
 	'ftdescription' => 'Laura Tat: ,,Marco van Hoften leert ons een hoop nieuwe dingen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2206',
@@ -11493,7 +11493,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2206',
 	'ftdescription' => 'Roly Wout: â€žWij beschikken over aardig wat routine en dat kan de doorslag gaan geven\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2207',
@@ -11501,7 +11501,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2207',
 	'ftdescription' => 'Een speler van HCAW bereikt tijdig het honk na een buiklanding.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2208',
@@ -11509,7 +11509,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2208',
 	'ftdescription' => 'Sven van der Graaf, dit weekeinde bijzonder goed op dreef voor HCAW, probeert met een sliding een Amsterdams dubbelspel op te breken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2209',
@@ -11517,7 +11517,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2209',
 	'ftdescription' => 'Hoogtepunt van het toernooi: een wedstrijd tussen \'peanuts\' en een seniorenteam van De Zuidvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2210',
@@ -11525,7 +11525,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2210',
 	'ftdescription' => 'Alfred de Leeuw in actie tijdens de wedstrijd HCAW-Neptunus, die de Bussumse ploeg in zeven innings verloor: 3-13.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2211',
@@ -11533,7 +11533,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2211',
 	'ftdescription' => 'Jurjan Koenen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2212',
@@ -11541,7 +11541,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2212',
 	'ftdescription' => 'Marcel Joost van Nicols (links) wordt uitgevangen tijdens het duel met HCAW. Desondanks wonnen de Haarlemmers met 0-9.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2213',
@@ -11549,7 +11549,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2213',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2214',
@@ -11557,7 +11557,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2214',
 	'ftdescription' => 'Roland Schols: â€žIk heb er eigenlijk geen moment aan getwijfeld dat we bovenin zouden meedraaien\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2215',
@@ -11565,7 +11565,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2215',
 	'ftdescription' => 'Jacky Jacoba van Giants wordt op het derde honk uitgetikt door Jurjan Koenen van HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2216',
@@ -11573,7 +11573,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2216',
 	'ftdescription' => 'De HCAW-er Clive Mendez haalt uit voor een honkslag. Op de achtergrond kijkt Alex Nansink gespannen toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2217',
@@ -11581,7 +11581,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2217',
 	'ftdescription' => 'Montvidas: â€žAls we ook dit jaar kampioen worden, zal de softbalwereld ons pas echt als topploeg erkennen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2218',
@@ -11589,7 +11589,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2218',
 	'ftdescription' => 'Dirk Peters: â€žEr is bij ons, net als elders in de maatschappij, een situatie waarin iedereen die zijn nek uitsteekt het risico loopt dat zijn hoofd wordt afgehakt\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2219',
@@ -11597,7 +11597,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2219',
 	'ftdescription' => 'Catcher Alfred de Leeuw (links) is in afwachting van de bal, die door een speler van De Spartaan in het verre veld is geslagen. Zo kan een andere Amsterdammer via een sliding Ã©Ã©n van de elf punten scoren voor zijn team.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2220',
@@ -11605,7 +11605,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2220',
 	'ftdescription' => 'Clive Mendez',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2221',
@@ -11613,7 +11613,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2221',
 	'ftdescription' => 'HCAW-coach Dirk Peters (rechts) mag zijn werk niet afmaken in de Bussumse honkbalvallei. Rob Wentink (links), assistent van de coach, toonde zich solidair met Peters en hield het voor gezien bij HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2222',
@@ -11621,7 +11621,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2222',
 	'ftdescription' => 'HCAW\'s eerste honkman Roy Berrevoets vangt de bal net te laat om PSV\'er Ger Jansen uit te maken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2223',
@@ -11629,7 +11629,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2223',
 	'ftdescription' => 'Roland de Groot een UVV\'er heeft uitgemaakt op twee, werpt hij de bal naar het eerste honk voor een dubbelspel.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2224',
@@ -11637,7 +11637,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2224',
 	'ftdescription' => 'Op het moment dat Giants in Amsterdam Pirates afdroogde, speelde Nicols thuis tegen Tijgers, een duel dat de Haarlemmers moeizaam met 10-9 wonnen. Hier vangt Knol van Tijgers (rechts) Nicols-speler Prinsen uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2225',
@@ -11645,7 +11645,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2225',
 	'ftdescription' => 'Alfred de Leeuw speelde gisteren zijn laatste wedstrijd voor HCAW. Na Seoel stopt de Bussumse catcher met honkballen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2226',
@@ -11653,7 +11653,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2226',
 	'ftdescription' => 'Alfred de Leeuw loopt een Bussums punt over de thuisplaat. Kinheim catcher Jan-Willem van de Wetering krijgt de bal te laat aangegooid. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2227',
@@ -11661,7 +11661,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2227',
 	'ftdescription' => 'CRAIG MONTVIDAS',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2228',
@@ -11669,7 +11669,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2228',
 	'ftdescription' => 'De honkballers van HCAW voor het vertrek naar ItaliÃ«.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2229',
@@ -11677,7 +11677,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2229',
 	'ftdescription' => 'Eric de Bruin (links) bereikt de thuisplaat voordat de Canadese achtervanger Greg O\'Halloran hem kan uittikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2230',
@@ -11685,7 +11685,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2230',
 	'ftdescription' => 'HERMAN THOMAS',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2231',
@@ -11693,7 +11693,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2231',
 	'ftdescription' => 'ROBERT EENHOORN',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2232',
@@ -11701,7 +11701,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2232',
 	'ftdescription' => 'Een Hilversummer scoort Ã©Ã©n van de vijftien punten voor zijn ploeg na een wilde worp van de DSS-pitcher.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2233',
@@ -11709,7 +11709,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2233',
 	'ftdescription' => 'Slagfestijn Hilversum tegen DSS',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2234',
@@ -11717,7 +11717,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2234',
 	'ftdescription' => 'Fred MÃ¤kel',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2235',
@@ -11725,7 +11725,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2235',
 	'ftdescription' => 'Eric de Vries',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2236',
@@ -11733,7 +11733,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2236',
 	'ftdescription' => 'Alfred de Leeuw: â€žHet is mooi geweest zoâ€',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2237',
@@ -11741,7 +11741,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2237',
 	'ftdescription' => 'Alfred de Leeuw klaar voor het vertrek naar Seoel. â€žOm alleen al mee te lopen in de parade op de openingsdag vind ik fantastisch\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2238',
@@ -11749,7 +11749,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2238',
 	'ftdescription' => 'Annemieke van Kappel ontvangt de bal net te laat op het tweede honk, waardoor de Bloemendaal-loopster (rechts) veilig het kussen bereikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2239',
@@ -11757,7 +11757,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2239',
 	'ftdescription' => 'Een wat beduusde HCAW-coach Herman Thomas staat in het middelpunt van het spontane feestje, dat de Bussumse softbaldames na het behalen van de landstitel op touw hebben gezet.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2240',
@@ -11765,7 +11765,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2240',
 	'ftdescription' => 'Henk van Zijtveld, Frits Budding, Guus van Bon en Didi Quant (v.l.n.r.) met de kampioensbeker: â€žWe hebben het meest complete team van Nederland\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2241',
@@ -11773,7 +11773,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2241',
 	'ftdescription' => 'HAITZE DE VRIES',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2300',
@@ -11781,7 +11781,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2300',
 	'ftdescription' => 'Craig McGinnis: ,,Tegenstanders zullen ons met liefde van de Nederlandse kaart willen vegen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2301',
@@ -11789,7 +11789,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2301',
 	'ftdescription' => 'Sidney Hickinson: ..Ik ben altijd een streber geweest en verlang die perfectie ook van mijn spelersâ€',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2302',
@@ -11797,7 +11797,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2302',
 	'ftdescription' => 'HCAW-speelster Petra Beek: â€žOnze kansen? Ik heb nog niet alle teams gezien, maar de play-offs moeten we toch zeker weer kunnen halen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2303',
@@ -11805,7 +11805,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2303',
 	'ftdescription' => 'HCAW-catcher Jurjan Koenen ziet een speler van Neptunus uithalen. De Rotterdammers waren veel sterker en wonnen dan ook het Urbanus-toernooi.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2304',
@@ -11813,7 +11813,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2304',
 	'ftdescription' => 'HCAW\'er Roy Berrevoets glijdt binnen over de thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2305',
@@ -11821,7 +11821,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2305',
 	'ftdescription' => 'Martine Stiemer aan slag voor de softbaldames van HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2306',
@@ -11829,7 +11829,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2306',
 	'ftdescription' => 'Michael Hartung: ,,Ik ben een makkelijke jongen. Er is geen coach of manager die ooit ruzie met mij zal krijgen.â€',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2307',
@@ -11837,7 +11837,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2307',
 	'ftdescription' => 'Een HCAWâ€™er bereikt tijdig het eerste honk in het duel met Kinheim',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2308',
@@ -11845,7 +11845,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2308',
 	'ftdescription' => 'Honkbalvoorzitter Peter van \'t Klooster: ,,Ik het het afgelopen jaar ook gemerkt dat een aantal clubs het bestuurtje schoppen tot kunst heeft verheven\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2309',
@@ -11853,7 +11853,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2309',
 	'ftdescription' => 'HCA W\'er Jurjan Koenen is op tijd bij het honk. De Bussumer liet tegen Twins zijn driehonderdste honkslag in de hoofdklasse noteren.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2310',
@@ -11861,7 +11861,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2310',
 	'ftdescription' => 'McGinnis ziet HCAW bij Twins opzichtig falen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2311',
@@ -11869,7 +11869,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2311',
 	'ftdescription' => 'De Zuidvogels-catcher mist de bal zodat een speler van Flying Petrels over de thuisplaat kan komen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2312',
@@ -11877,7 +11877,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2312',
 	'ftdescription' => 'FRANS GROOT',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2313',
@@ -11885,7 +11885,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2313',
 	'ftdescription' => 'Jurjan Koenen (HCAW) heeft net op tijd net honk van Neptunus bereikt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2314',
@@ -11893,7 +11893,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2314',
 	'ftdescription' => 'HCAW is aan slag tijdens het duel met Ducks.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2315',
@@ -11901,7 +11901,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2315',
 	'ftdescription' => 'Een speler van Alphians springt hoog op als een Zuidvogel met een sliding aan komt vliegen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2316',
@@ -11909,7 +11909,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2316',
 	'ftdescription' => 'HCAW\'er Ronald de Jong- raakt de bal op net werpen van Richard Orman.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2317',
@@ -11917,7 +11917,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2317',
 	'ftdescription' => 'Frans de Bruyn, coach van de softbalsters van Mr. Cocker/HCAW, geeft aanwijzing-en aan twee van zijn speelster.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2318',
@@ -11925,7 +11925,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2318',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2319',
@@ -11933,7 +11933,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2319',
 	'ftdescription' => 'Danny Wout kon de aanvallende aspiraties van Nettuno niet beteugelen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2320',
@@ -11941,7 +11941,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2320',
 	'ftdescription' => 'RON JAARSMA',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2321',
@@ -11949,7 +11949,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2321',
 	'ftdescription' => 'Berrevoets steelt het tiende punt voor HCAW na een fout in het ADO-veld. De Haagse catcher Jeff Diskin is net te laat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2322',
@@ -11957,7 +11957,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2322',
 	'ftdescription' => 'Defensief liet HCAW gisteravond in het duel met Neptunus een goede indruk achter. Zo wordt hier een speler van de bezoekers op het eerste honk in toom gehouden. In aanvallend opzicht konden de Bussumers echter geen vuist maken tegen de koploper.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2323',
@@ -11965,7 +11965,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2323',
 	'ftdescription' => 'Amber Dammers: â€ž Voorlopig wil ik gewoon proberen bij de selectie te blijven \".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2324',
@@ -11973,7 +11973,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2324',
 	'ftdescription' => 'Clive Mendes heeft met volle tegenwind een homerun geslagen en daarvoor komt heel HCAW wel even uit de dug-out.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2325',
@@ -11981,7 +11981,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2325',
 	'ftdescription' => 'Pitcher Eric Veen kon Zuidvogels gisteren niet aan de winst op Badhoevedorp helpen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2326',
@@ -11989,7 +11989,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2326',
 	'ftdescription' => 'Jurriaan Lobbezoo: ,,De kans dat je de Major League haalt is, zelfs als je zoals ik wel gedraft ben. maar een op vierhonderd\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2327',
@@ -11997,7 +11997,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2327',
 	'ftdescription' => 'Greg Maddux ontving alleen al voor het zetten van zijn handtekening onder de vijfjarige overeenkomst bij de Atlanta Braves zes miljoen gulden tekengeld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2328',
@@ -12005,7 +12005,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2328',
 	'ftdescription' => 'Maddux best betaalde honkballer ter wereld',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2329',
@@ -12013,7 +12013,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2329',
 	'ftdescription' => 'EK herensoftbal in Bussum rekent komende week op een grote schare Antilliaanse fans, net als in 1991 tijdens het Europacup-toernooi in Hilversum.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2330',
@@ -12021,7 +12021,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2330',
 	'ftdescription' => 'De softbal-dames 1 ploeg van BSC Hilversum in training.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2331',
@@ -12029,7 +12029,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2331',
 	'ftdescription' => 'Jesper Panduro: ,,De training-en bij ASC Hilversum verschilden niet eens zoveel met die in mijn vaderland. Waar ik dacht een grote stap voorwaarts te kunnen zetten, bleef mijn niveau min ofmeer hetzelfde\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2332',
@@ -12037,7 +12037,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2332',
 	'ftdescription' => 'Een Tsjechische speler bekijkt met een open en een dicht oog de verrichtingen aan slag van een ploeggenoot in de finale tegen Denemarken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2333',
@@ -12045,7 +12045,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2333',
 	'ftdescription' => 'Berrevoets: ,.Stel dat ik niet begin op het EK, dan zal ik de eerste dagen toch zeker mijn kans krijgen. Het is zaak die te grijpenâ€ .',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2334',
@@ -12053,7 +12053,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2334',
 	'ftdescription' => 'HCAW viert de homerun van Bas Kitslaar (midden) in het duel met Alphians.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2335',
@@ -12061,7 +12061,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2335',
 	'ftdescription' => 'De Italiaanse honkballers doen gek na hun overwinning op Nederland.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2336',
@@ -12069,7 +12069,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2336',
 	'ftdescription' => 'RenÃ© Rijst stond gisteren voor HCAW op de heuvel in net duel met Sparta. De Bussumers wonnen met ruime cijfers (9-0) van de Rotterdammers.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2337',
@@ -12077,7 +12077,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2337',
 	'ftdescription' => 'Craig McGinnis - HCAW-Sparta. De club gaat de kleurrijke Amerikaan straks missen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2338',
@@ -12085,7 +12085,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2338',
 	'ftdescription' => 'Petra Beek maakt het derde punt in de wedstrijd tegen Sparks. Het zou de laatste score van de avond zijn: 3-0.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2339',
@@ -12093,7 +12093,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2339',
 	'ftdescription' => 'Mike Hartung (tweede van rechts) lost Jurriaan Lobbezoo af op de heuvel van HCAW. Coach Craig McGinnis geeft de reliever nog de laatste instructies mee.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2340',
@@ -12101,7 +12101,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2340',
 	'ftdescription' => 'De HCAW-dames geconcentreerd bijeen tijdens een van de dode spelmomenten op zaterdagavond.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2341',
@@ -12109,7 +12109,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2341',
 	'ftdescription' => 'HCAW\'er Clive Mendes heeft een homerun geslagen en is op weg naar de thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2342',
@@ -12117,7 +12117,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2342',
 	'ftdescription' => 'Madelon Beek aan slag in het duel van zaterdag, dat HCAW met 1-0 won.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2400',
@@ -12125,7 +12125,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2400',
 	'ftdescription' => 'Brian Farley: â€žIk overzie veel als coach en vind dat ook het boeiende van de job\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2401',
@@ -12133,7 +12133,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2401',
 	'ftdescription' => 'Urney Mercera (links) en Edward Spanner, het nieuwe Hilversumse \'koningskoppel\'.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2402',
@@ -12141,7 +12141,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2402',
 	'ftdescription' => 'Sydney Hickinson: ,,Ik kom nu beter beslagen ten ijs\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2403',
@@ -12149,7 +12149,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2403',
 	'ftdescription' => 'HCAW-pitcher Judith van Kampen: â€žIk heb met moeite mijn stijl kunnen veranderen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2404',
@@ -12157,7 +12157,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2404',
 	'ftdescription' => 'Een speler van Hilversum snelt langs de honken en verliest zijn helm. De geel-blauwen wonnen het eigen toernooi met groot gemak.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2405',
@@ -12165,7 +12165,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2405',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2406',
@@ -12173,7 +12173,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2406',
 	'ftdescription' => 'Lars Koehorst van HCAW steelt het derde honk in de ontmoeting met Twins.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2407',
@@ -12181,7 +12181,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2407',
 	'ftdescription' => 'Speler/coach Gonny Farley van HCAW aan slag in de ontmoeting tegen Sparks',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2408',
@@ -12189,7 +12189,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2408',
 	'ftdescription' => 'Edson Ludowika steelt het tweede honk tegen Tilburg. Ook de Brabantse tweede-honkman Niek Hermans ziet dat de HCAWâ€™er safe is.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2409',
@@ -12197,7 +12197,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2409',
 	'ftdescription' => 'Ronald Jaarsma: â€žIk ben niet iemand die snel de handdoek gooit\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2410',
@@ -12205,7 +12205,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2410',
 	'ftdescription' => 'Ronald Jaarsma gaat door toedoen van Pionier Johnny Walker uit bij een steelpoging.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2411',
@@ -12213,7 +12213,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2411',
 	'ftdescription' => 'ANDRIES CREMER',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2412',
@@ -12221,7 +12221,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2412',
 	'ftdescription' => 'Een speelster van TYBB sneuvelt op de thuisplaat in het duel met HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2413',
@@ -12229,7 +12229,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2413',
 	'ftdescription' => 'Ronald Jaarsma is op weg naar het eerste honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2414',
@@ -12237,7 +12237,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2414',
 	'ftdescription' => 'Neptuniaan Harvey Monte laat zich van het honk af plukken door Jeffrey Cranston, die de gepasseerde Roy Berrevoets verving',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2415',
@@ -12245,7 +12245,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2415',
 	'ftdescription' => 'Brian Farley wil nu echte krijgers zien bij HCAW',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2416',
@@ -12253,7 +12253,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2416',
 	'ftdescription' => 'Gino Arrindell neemt de bal vol op de knuppel in het duel met ADO.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2417',
@@ -12261,7 +12261,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2417',
 	'ftdescription' => 'Glenn Romney: ,,Tuurlijk denk ik wel eens aan de Spelen in Sydney, maar het is wel zaak de dingen op een rijtje te houden. Dus, in mijn gedachte komt nu eerst het Europacuptoernooiâ€. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2418',
@@ -12269,7 +12269,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2418',
 	'ftdescription' => 'Mendes heeft een homerun geslagen tegen Sparta en komt met gebalde vuist over de thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2419',
@@ -12277,7 +12277,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2419',
 	'ftdescription' => 'De Cubaan Reyes bereikt in de finale tegen Nederland veilig het derde honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2420',
@@ -12285,7 +12285,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2420',
 	'ftdescription' => 'Michael Duursma (8) is op de achtergrond bezig een Tilburger op het tweede honk uit te maken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2421',
@@ -12293,7 +12293,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2421',
 	'ftdescription' => 'Clive Mendes ontsnapte gisteravond in Amsterdam maar net aan een schorsing. Uit woede over een beslissing wilde hij verhaal halen bij de umpire. Ploeggenoot Jeffrey Cranston kon dat nog net voorkomen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2422',
@@ -12301,7 +12301,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2422',
 	'ftdescription' => 'HCAW\'er Nick Fridsma is korte stop Johnny Walker van Pioniers te vlug af op het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2423',
@@ -12309,7 +12309,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2423',
 	'ftdescription' => 'Johnny Balentina (23) feliciteert Evert-Jan \'t Hoen, nadat laatstgenoemde een homerun heeft gescoord in de EK-finale tegen ItaliÃ«.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2424',
@@ -12317,7 +12317,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2424',
 	'ftdescription' => 'Een speelster van HCAW probeert het honk te bereiken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2425',
@@ -12325,7 +12325,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2425',
 	'ftdescription' => 'Honkballers van Cuba gaan een activist, die tijdens een kwalificatieduel voor de OS het veld opliep, met de nationale vlag te lijf.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2426',
@@ -12333,7 +12333,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2426',
 	'ftdescription' => 'Robert Eenhoorn van Neptunus krabbelt overeind, nadat hij op het tweede honk is gesneuveld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2427',
@@ -12341,7 +12341,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2427',
 	'ftdescription' => 'Eelco Kool: â€žDeze groep is zo gemotiveerd, die laat zich het feest niet meer ontnemen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2428',
@@ -12349,7 +12349,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2428',
 	'ftdescription' => 'Hilversum-catcher Demis Rosa slaat vol ongeloof de handen voor z\'n gezicht na de nederlaag tegen Robur 2.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2429',
@@ -12357,7 +12357,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2429',
 	'ftdescription' => 'De duels tussen HCAW en Terrasvogels, zoals nier half juli, worden altijd gespeeld op het scherp van de snede. Onsportief gaat het er nooit toe.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2430',
@@ -12365,7 +12365,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2430',
 	'ftdescription' => 'Andre Prins over de Spelen in Atlanta: â€žMoeten die meiden met zijn allen in een kring staan en een touwtje vasthouden. Daar word je echt niet beter van \".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2431',
@@ -12373,7 +12373,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2431',
 	'ftdescription' => 'Liesbeth Hofland van HCAW probeert een slidende Italiaanse honkloopster van Macerata uit te maken op het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2432',
@@ -12381,7 +12381,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2432',
 	'ftdescription' => 'Edward Spanner',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2433',
@@ -12389,7 +12389,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2433',
 	'ftdescription' => 'Macerata laat geen steek vallen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2434',
@@ -12397,7 +12397,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2434',
 	'ftdescription' => 'Jurriaan Lobbezoo',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2435',
@@ -12405,7 +12405,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2435',
 	'ftdescription' => 'Eerste honkman Jeffrey Cranston (links) laat een aangooi van catcher Nick Fridsma glippen, waardoor Harvey Monte van Neptunus eerst veilig terugkeert naar het eerste honk, om van de doorgeschoten bal te profiteren en naar het tweede honk te gaan. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2500',
@@ -12413,7 +12413,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2500',
 	'ftdescription' => 'De Tsjech Pavel Budsky van HCAW heeft na een doorgeschoten bal tijdig het derde honk bereikt in de wedstrijd tegen Kinheim.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2501',
@@ -12421,7 +12421,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2501',
 	'ftdescription' => 'Lars Koehorst: â€žHeus, er is weleens ruzie, maar praten blijkt altijd mogelijk\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2502',
@@ -12429,7 +12429,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2502',
 	'ftdescription' => 'Carolien Straver: â€žIk ben niet meer weg te slaan uit Bussum. HCAW is mijn cluppie, ik voel me er thuis\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2503',
@@ -12437,7 +12437,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2503',
 	'ftdescription' => 'Straver voelt zich thuis tussen \'Arrogante Wijven\'',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2504',
@@ -12445,7 +12445,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2504',
 	'ftdescription' => 'Jerry Frank, hier in zijn vorige periode bij Hilversum: â€žHoewel het altijd moeilijk is een voorspelling\' te doen, denk ik dat we ver kunnen komen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2505',
@@ -12453,7 +12453,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2505',
 	'ftdescription' => 'Sebastiaan Franke van RCH maakt een dubbelspel waarbij Jeffrey Cranston op de thuisplaat al is gesneuveld.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2506',
@@ -12461,7 +12461,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2506',
 	'ftdescription' => 'HCAW\'er Cranston is bijtijds terug op het kussen na een pick-off van Neptunus-pitcher Cordemans',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2507',
@@ -12469,7 +12469,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2507',
 	'ftdescription' => 'Een speler van Zuidvogels bereikt met een \'head-firstsliding\' tijdig het honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2508',
@@ -12477,7 +12477,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2508',
 	'ftdescription' => 'Pavel Budsky: â€žAls Nederlander of Italiaan is het al verdraaid moeilijk om je voet tussen de deur te krijgen in Amerika, laat staan als je uit TsjechiÃ« komt\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2509',
@@ -12485,7 +12485,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2509',
 	'ftdescription' => 'Pavel Budsky moet snel terug naar het eerste honk na een vangbal van Kinheim. Links de eerste-honkman van de Haarlemmers, Willem Oosterhof.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2510',
@@ -12493,7 +12493,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2510',
 	'ftdescription' => 'Slagploeg HCAW laat het weer geheel afweten',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2511',
@@ -12501,7 +12501,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2511',
 	'ftdescription' => 'Een speelster van HCAW weet het honk niet op tijd te bereiken, want haar tegenstandster heeft de bal al in de handschoen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2512',
@@ -12509,7 +12509,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2512',
 	'ftdescription' => 'Jan Dick Leurs: â€žHet was helemaal geen honkbalkwestie, voor Reitsma was het een principekwestie\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2513',
@@ -12517,7 +12517,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2513',
 	'ftdescription' => 'Jan Dick Leurs: ,,Ik heb een week nodig om het ontslag te verwerken, maar ik weet dat ik verder moet met een leven zonder honkbal\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2514',
@@ -12525,7 +12525,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2514',
 	'ftdescription' => 'Lars Koehorst, Tim van Pareren, Elston Hansen',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2515',
@@ -12533,7 +12533,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2515',
 	'ftdescription' => 'Een speler van Zuidvogels komt net te laat op het derde honk. De opponent van Domstad Dodgers heeft de bal al in zijn handschoen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2516',
@@ -12541,7 +12541,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2516',
 	'ftdescription' => 'Carolien Straver, werpster van HCAW, hoefde zaterdag slechts Ã©Ã©n tegenpunt te incasseren tegen Schiedam.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2517',
@@ -12549,7 +12549,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2517',
 	'ftdescription' => 'Ronald Jaarsma steelt het tweede honk. Expos\' kortestop Tim van Pareren probeert hem tevergeefs, met een wat raar sprongetje, uit te maken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2518',
@@ -12557,7 +12557,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2518',
 	'ftdescription' => 'De honkloopster van Zuidvogels en een Haarlemse honkvrouwe knokken om de gunst van de scheidsrechter. Wie is het eerst met het voetje op het kussen?',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2519',
@@ -12565,7 +12565,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2519',
 	'ftdescription' => 'Nick Fridsma in actie tijdens de wedstrijd HCAW-Pioniers vorige zomer. Korte stop Johnny Walker probeert de catcher van de Bussumer uit te tikken op het tweede honk.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2520',
@@ -12573,7 +12573,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2520',
 	'ftdescription' => 'BRIAN FARLEY',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2521',
@@ -12581,7 +12581,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2521',
 	'ftdescription' => 'Elena Lavrentiova en Elena Soutyrina kunnen volgens Zuidvogels-coach Hans Snel het verschil maken tussen wel of niet bij de eerste acht eindigen in de eerste klasse.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2522',
@@ -12589,7 +12589,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2522',
 	'ftdescription' => 'Urney Mercera: â€žTot nu toe hebben tegenstanders ons niet verslagen, nee, wij hebben ze laten winnen\".',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2523',
@@ -12597,7 +12597,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2523',
 	'ftdescription' => 'BRIAN FARLEY',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2524',
@@ -12605,7 +12605,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2524',
 	'ftdescription' => '<>',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2525',
@@ -12613,7 +12613,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2525',
 	'ftdescription' => 'HCAW-werpster Nicole Meinster in actie tijdens de eerste partij tegen Terrasvogels, die de Bussumse formatie nipt verloor.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2526',
@@ -12621,7 +12621,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2526',
 	'ftdescription' => 'Uitblinker Giel ten Bosch ontvangt de bal op tijd om de Japanner Hiroki Fujitani uit te kunnen tikken.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2527',
@@ -12629,7 +12629,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2527',
 	'ftdescription' => 'Nederland neemt, in de persoon van Mike Crouwel en RenÃ© Rijst, de welverdiende felicitaties van ItaliÃ« in ontvangst.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2528',
@@ -12637,7 +12637,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2528',
 	'ftdescription' => 'Een speelster van Onze Gezellen wordt uitgetikt door de honkvrouw van Zuidvogels.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2529',
@@ -12645,7 +12645,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2529',
 	'ftdescription' => 'De coach van het Amerikaanse honkbalteam, Gillespie, gaat tijdens het duel met Oranje tekeer tegen de scheidsrechter. De coach werd vervolgens van het veld gestuurd en moest de wedstrijd vanaf de tribune volgen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2530',
@@ -12653,7 +12653,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2530',
 	'ftdescription' => 'Lars Koehorst is net op tijd terug bij het door Percy Isenia bewaakte eerste honk bij een Rotterdamse poging tot een pick-off.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2531',
@@ -12661,7 +12661,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2531',
 	'ftdescription' => 'Robert Eenhoorn en zijn zoontje Ryan bij de honkbal-school in Rotterdam, waar hij zich straks met nog meer toewijding op zal werpen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2532',
@@ -12669,7 +12669,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2532',
 	'ftdescription' => 'WYNAND RIEMSLAG',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2533',
@@ -12677,7 +12677,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2533',
 	'ftdescription' => 'Een speelster van Terrasvogels heeft uitgehaald voor een hit in het duel met HCAW.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2534',
@@ -12685,7 +12685,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2534',
 	'ftdescription' => 'GONNY FARLEY ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2535',
@@ -12693,7 +12693,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2535',
 	'ftdescription' => 'Hensley Meulens, de man die power moet toevoegen aan het Nederlands honkbalteam.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2536',
@@ -12701,7 +12701,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2536',
 	'ftdescription' => 'De Nederlandse catcher Johnny Balentina tikt op de thuisplaat de AustraliÃ«r Glenn Reeves uit.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2537',
@@ -12709,7 +12709,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2537',
 	'ftdescription' => 'Teleurgestelde gezichten in de Nederlandse dug-out tijdens de wedstrijd tegen Japan. Links de startende werper Orlando Stewart. die al snel werd gewisseld. Naast hem HCAW\'er Jurriaan Lobbezoo.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2538',
@@ -12717,7 +12717,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2538',
 	'ftdescription' => 'Ken Brauckmiller leverde tegen Cuba een unieke prestatie als pitcher van Oranje.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2539',
@@ -12725,7 +12725,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2539',
 	'ftdescription' => 'JURRIAAN LOBBEZOO',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2540',
@@ -12733,7 +12733,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2540',
 	'ftdescription' => 'Tim Harrell, de werper van Zuid-Afrika, gaat van vreugde door de knieÃ«n wanneer Nederland op sensationele wijze met 3-2 is verslagen.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2541',
@@ -12741,7 +12741,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2541',
 	'ftdescription' => 'RON JAARSMA',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2542',
@@ -12749,7 +12749,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2542',
 	'ftdescription' => 'Mathijs Degeling volgde zaterdag tegen PSV international Patrick de Lange op als werper van HCAW 2.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2543',
@@ -12757,7 +12757,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2543',
 	'ftdescription' => 'HCAW\'er Henson is het niet eens met een beslissing van de umpire en haalt verhaal. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2544',
@@ -12765,7 +12765,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2544',
 	'ftdescription' => 'Patrick de Lange: â€žIn de periodes dat ik pijn had en niet kon gooien, spookte het door mijn hoofd dat ik Athene misschien moest vergeten, dat mag duidelijk zijn. Dat olympisch toernooi wil ik dolgraag nog eens meemaken.\" ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2545',
@@ -12773,7 +12773,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2545',
 	'ftdescription' => 'Jurjan Koenen rondt de honken in de eenvoudig gewonnen wedstrijd tegen Kinheim.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2546',
@@ -12781,7 +12781,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2546',
 	'ftdescription' => 'De Amerikaanse linkshandige werper Jason Godkin leidt in de beginfase van de wedstrijd de verdediging voor HCAW tegen Almere. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2547',
@@ -12789,7 +12789,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2547',
 	'ftdescription' => 'Ronald Jaarsma maakt een swing in het duel met Pioniers, dat de Bussumers in de verlenging wisten te winnen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2548',
@@ -12797,7 +12797,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2548',
 	'ftdescription' => 'Noemi Boekel: Ja, het gaat goed. Niet alleen als catcher maar ook aan slag draai ik op dit moment sterk.\" ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2549',
@@ -12805,7 +12805,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2549',
 	'ftdescription' => 'Jurjan Koenen heeft uitgehaald in het duel met Kinheim. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2550',
@@ -12813,7 +12813,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2550',
 	'ftdescription' => 'Sidney de Jong (rechts) naast scorer Adrie Berrevoets moedigt zijn medespelers aan. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2551',
@@ -12821,7 +12821,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2551',
 	'ftdescription' => 'HCAW-pitcher Jeroen Deken in actie tegen Tornado\'s. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2552',
@@ -12829,7 +12829,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2552',
 	'ftdescription' => 'Franklin Mauricio: â€žHet is niet reÃ«el om te veronderstellen dat dit team meteen weer terug zal keren naar de hoofdklasse.\" ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2553',
@@ -12837,7 +12837,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2553',
 	'ftdescription' => 'Jeffrey Cranston direct na een swing in het duel met Almere. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2554',
@@ -12845,7 +12845,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2554',
 	'ftdescription' => 'Twee spelers van Zuidvogels wisselen \'high fives\' uit na weer een punt tegen UVV 2.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2555',
@@ -12853,7 +12853,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2555',
 	'ftdescription' => 'Robert Eenhoorn, hier in discussie met een umpire, vindt dat de focus nu compleet op de Spelen moet liggen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2556',
@@ -12861,7 +12861,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2556',
 	'ftdescription' => 'Chih-Yao Chan maakt het enige punt voor Taiwan door de thuisplaat te stelen tegen Cuba. Catcher Luis Ferrales ving de honkloper vol op het lichaam op en blesseerde zich.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2557',
@@ -12869,7 +12869,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2557',
 	'ftdescription' => 'Danny Miranda brengt de stand op 2-0 voor Cuba. Hij is Reagen Buckly van Reno Astros te snel af ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2558',
@@ -12877,7 +12877,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2558',
 	'ftdescription' => 'Raily Legito steelt voor Nederland een honk, terwijl de Cubaan Enrique Diaz toekijkt. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2559',
@@ -12885,7 +12885,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2559',
 	'ftdescription' => 'HCAW\'er Ralph Milliard (staand) viert met Raily Legito een feestje vlak nadat Nederland de finale van de Haarlemse Honkbalweek winnend heeft afgesloten.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2560',
@@ -12893,7 +12893,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2560',
 	'ftdescription' => 'De Italiaanse softbalmeisjes werkten gisteravond op het veld van Zuidvogels in Huizen een eerste training af. Vandaag begint het toernooi met als hoofdprijs deelname aan de wereldkampioenschappen Little League in Amerika. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2561',
@@ -12901,7 +12901,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2561',
 	'ftdescription' => 'Bondscoach Robert Eenhoorn geeft op de heuvel aanwijzingen aan pitcher Dave Draijer en catcher Maikel Benner. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2562',
@@ -12909,7 +12909,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2562',
 	'ftdescription' => 'Calvin Maduro: â€žTerug naar Baltimore Orioles? Ik sluit dat niet eens uit en dat lijkt misschien vreemd als je ziet hoe ik ben behandeld.\"',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2563',
@@ -12917,7 +12917,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2563',
 	'ftdescription' => 'Ronald Jaarsma',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2564',
@@ -12925,7 +12925,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2564',
 	'ftdescription' => 'Een speler van Zuidvogels maakt een actie in het duel met Tilburg. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2565',
@@ -12933,7 +12933,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2565',
 	'ftdescription' => 'Zuidvogels-coach Wim Geestman: â€žWie goed is voor zijn vrouw, zal goedheid ervaren. En andersom, wie zijn vrouw slaat, die kan een keer een klap terug krijgen.\" ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2566',
@@ -12941,7 +12941,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2566',
 	'ftdescription' => 'Een loopster van HCAW staat klaar om naar huis te rennen. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2567',
@@ -12949,7 +12949,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2567',
 	'ftdescription' => 'Een speler van Neptunus wordt uitgetikt door een HCAW-honkman. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2568',
@@ -12957,7 +12957,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2568',
 	'ftdescription' => 'Nick Fridsma glijdt in het duel met Tornado\'s tijdig over de thuisplaat.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2569',
@@ -12965,7 +12965,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2569',
 	'ftdescription' => 'HCAW-pitcher Jason Godkin: â€žIk heb hier echt dierbare vriendschappen met mensen gekregen.\" ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2570',
@@ -12973,7 +12973,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2570',
 	'ftdescription' => 'Een poging om een speler van Kinheim met een pick-off uit te maken, strandt hier. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2571',
@@ -12981,7 +12981,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2571',
 	'ftdescription' => 'Een HCAW\'er die een bal op de knuppel krijgt, het was gisteren een zeldzaamheid. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2572',
@@ -12989,7 +12989,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2572',
 	'ftdescription' => 'Vreugde in de HCAW-gelederen als de Bussumers de score hebben geopend. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2573',
@@ -12997,7 +12997,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2573',
 	'ftdescription' => 'Neptunus-aanvoerder Jeroen Sluijter heeft de beker in ontvangst genomen en begint aan een ereronde. ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2574',
@@ -13005,7 +13005,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2574',
 	'ftdescription' => 'Het debacle in beeld. De Nederlandse ploeg heeft op de Olympische Spelen met 22-2 verloren van AustraliÃ« en treurt.',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2575',
@@ -13013,7 +13013,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2575',
 	'ftdescription' => 'Selectiebeleid bond ergert clubs',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2576',
@@ -13021,7 +13021,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2576',
 	'ftdescription' => 'Lars Koehorst: â€žTien jaar geleden hadden we een echte ploeg.\" ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idarticlephoto' => '2577',
@@ -13029,7 +13029,7 @@ Andre Boddendijk zondagmorgen vroeg vader geworden van een zoon 9 pond zwaar en 
 	'idphoto' => '2577',
 	'ftdescription' => 'Jeffrey Cranston: â€žIk ga het sociale leven bij HCAW zeker missen.\" ',
 	'created_at' => '2019-03-24 09:15:09',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 
     	];

@@ -55,8 +55,8 @@ class ClubsMigration extends AbstractMigration
   		$sql .= "`nmtertiarycolor` int(11) DEFAULT NULL,";
 
 		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
-		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
-		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+		$sql .= "`updated_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
+		$sql .= "`updated_at` timestamp NULL DEFAULT NULL,";
 
   		$sql .= "PRIMARY KEY (`idclub`)";
   		$sql .= ") ENGINE=InnoDB AUTO_INCREMENT=239 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;";

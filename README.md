@@ -27,6 +27,7 @@ Website for the Dutch base- and softballmuseum.
 * anonimify the personsseeder
 * Can all plural classes be moved to collections in their representative classes
 * alters stat and stats classes in functional specific statclasses 
+* change changed_by into updated_by, same for at
 
 ## Release info
 | Date | Description |

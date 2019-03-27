@@ -24,7 +24,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '116',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '2',
@@ -33,7 +33,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '190',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '3',
@@ -42,7 +42,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '216',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '4',
@@ -51,7 +51,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '217',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '5',
@@ -60,7 +60,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '218',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '6',
@@ -69,7 +69,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '305',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '7',
@@ -78,7 +78,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '319',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '8',
@@ -87,7 +87,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '769',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '9',
@@ -96,7 +96,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '770',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '10',
@@ -105,7 +105,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '208',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '11',
@@ -114,7 +114,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '771',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '12',
@@ -123,7 +123,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '14',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '13',
@@ -132,7 +132,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '374',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '14',
@@ -141,7 +141,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '225',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '15',
@@ -150,7 +150,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '227',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '16',
@@ -159,7 +159,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '224',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '17',
@@ -168,7 +168,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '202',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '18',
@@ -177,7 +177,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '223',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '19',
@@ -186,7 +186,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '772',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '20',
@@ -195,7 +195,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '773',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '21',
@@ -204,7 +204,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '774',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '22',
@@ -213,7 +213,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '226',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '23',
@@ -222,7 +222,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '228',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '24',
@@ -231,7 +231,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '775',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '26',
@@ -240,7 +240,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '776',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '27',
@@ -249,7 +249,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '219',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '28',
@@ -258,7 +258,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '221',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '29',
@@ -267,7 +267,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '344',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '30',
@@ -276,7 +276,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '220',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '31',
@@ -285,7 +285,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '777',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '32',
@@ -294,7 +294,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '778',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '33',
@@ -303,7 +303,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '222',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '34',
@@ -312,7 +312,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '779',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '35',
@@ -321,7 +321,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '780',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '36',
@@ -330,7 +330,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '781',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '37',
@@ -339,7 +339,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '41',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '38',
@@ -348,7 +348,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '782',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '39',
@@ -357,7 +357,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '783',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '40',
@@ -366,7 +366,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '784',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '41',
@@ -375,7 +375,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '785',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '42',
@@ -384,7 +384,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '786',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '43',
@@ -393,7 +393,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '787',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '44',
@@ -402,7 +402,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '788',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '45',
@@ -411,7 +411,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '789',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '46',
@@ -420,7 +420,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '790',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '47',
@@ -429,7 +429,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '791',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '48',
@@ -438,7 +438,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '385',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '49',
@@ -447,7 +447,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '792',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '50',
@@ -456,7 +456,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '793',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '51',
@@ -465,7 +465,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '794',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '52',
@@ -474,7 +474,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '795',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '53',
@@ -483,7 +483,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '796',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '54',
@@ -492,7 +492,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '797',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '55',
@@ -501,7 +501,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '798',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '56',
@@ -510,7 +510,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '799',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '57',
@@ -519,7 +519,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '800',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '58',
@@ -528,7 +528,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '801',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '59',
@@ -537,7 +537,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '802',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '60',
@@ -546,7 +546,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '803',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '61',
@@ -555,7 +555,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '804',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '62',
@@ -564,7 +564,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '805',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '63',
@@ -573,7 +573,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '304',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '64',
@@ -582,7 +582,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '806',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '65',
@@ -591,7 +591,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '807',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '66',
@@ -600,7 +600,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '373',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '67',
@@ -609,7 +609,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '193',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '68',
@@ -618,7 +618,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '808',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '69',
@@ -627,7 +627,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '809',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '70',
@@ -636,7 +636,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '810',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '72',
@@ -645,7 +645,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '811',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '73',
@@ -654,7 +654,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '197',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '74',
@@ -663,7 +663,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '812',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '75',
@@ -672,7 +672,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '813',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '76',
@@ -681,7 +681,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '814',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '77',
@@ -690,7 +690,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '815',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '78',
@@ -699,7 +699,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '816',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '79',
@@ -708,7 +708,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '817',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '80',
@@ -717,7 +717,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '818',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '81',
@@ -726,7 +726,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '819',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '82',
@@ -735,7 +735,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '820',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '83',
@@ -744,7 +744,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '821',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '84',
@@ -753,7 +753,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '822',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '85',
@@ -762,7 +762,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '823',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '86',
@@ -771,7 +771,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '824',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '87',
@@ -780,7 +780,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '825',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '88',
@@ -789,7 +789,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '826',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '89',
@@ -798,7 +798,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '827',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '90',
@@ -807,7 +807,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '828',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '91',
@@ -816,7 +816,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '829',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '92',
@@ -825,7 +825,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '830',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '93',
@@ -834,7 +834,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '831',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '94',
@@ -843,7 +843,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '832',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '95',
@@ -852,7 +852,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '833',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '96',
@@ -861,7 +861,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '834',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '97',
@@ -870,7 +870,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '285',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '98',
@@ -879,7 +879,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '835',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '99',
@@ -888,7 +888,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '836',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '100',
@@ -897,7 +897,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '767',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '101',
@@ -906,7 +906,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '837',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '102',
@@ -915,7 +915,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '838',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '103',
@@ -924,7 +924,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '839',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '104',
@@ -933,7 +933,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '840',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '105',
@@ -942,7 +942,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '841',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '106',
@@ -951,7 +951,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '842',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '107',
@@ -960,7 +960,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '843',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '108',
@@ -969,7 +969,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '844',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '109',
@@ -978,7 +978,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '846',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '110',
@@ -987,7 +987,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '848',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '111',
@@ -996,7 +996,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '847',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '112',
@@ -1005,7 +1005,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '849',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '113',
@@ -1014,7 +1014,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '850',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '114',
@@ -1023,7 +1023,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '851',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '115',
@@ -1032,7 +1032,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '383',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '116',
@@ -1041,7 +1041,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '852',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '117',
@@ -1050,7 +1050,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '853',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '118',
@@ -1059,7 +1059,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '854',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '119',
@@ -1068,7 +1068,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '855',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '120',
@@ -1077,7 +1077,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '856',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '121',
@@ -1086,7 +1086,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '857',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '122',
@@ -1095,7 +1095,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '858',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '123',
@@ -1104,7 +1104,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '859',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '124',
@@ -1113,7 +1113,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '860',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '125',
@@ -1122,7 +1122,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '861',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '126',
@@ -1131,7 +1131,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '862',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '127',
@@ -1140,7 +1140,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '864',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '128',
@@ -1149,7 +1149,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '383',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '129',
@@ -1158,7 +1158,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '216',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '130',
@@ -1167,7 +1167,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '190',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '131',
@@ -1176,7 +1176,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '116',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '132',
@@ -1185,7 +1185,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '217',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '133',
@@ -1194,7 +1194,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '770',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '134',
@@ -1203,7 +1203,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '374',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '135',
@@ -1212,7 +1212,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '305',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '136',
@@ -1221,7 +1221,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '865',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '137',
@@ -1230,7 +1230,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '866',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '138',
@@ -1239,7 +1239,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '353',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '139',
@@ -1248,7 +1248,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '867',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '140',
@@ -1257,7 +1257,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '868',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '141',
@@ -1266,7 +1266,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '811',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '148',
@@ -1275,7 +1275,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '383',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '149',
@@ -1284,7 +1284,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '190',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '150',
@@ -1293,7 +1293,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '116',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '151',
@@ -1302,7 +1302,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '216',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '152',
@@ -1311,7 +1311,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '217',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '153',
@@ -1320,7 +1320,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '770',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '154',
@@ -1329,7 +1329,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '374',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '155',
@@ -1338,7 +1338,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '90',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '156',
@@ -1347,7 +1347,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '811',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '157',
@@ -1356,7 +1356,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '353',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '158',
@@ -1365,7 +1365,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '378',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '159',
@@ -1374,7 +1374,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '865',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '160',
@@ -1383,7 +1383,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '319',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '161',
@@ -1392,7 +1392,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '869',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '162',
@@ -1401,7 +1401,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '382',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '163',
@@ -1410,7 +1410,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '870',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '164',
@@ -1419,7 +1419,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '871',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '165',
@@ -1428,7 +1428,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '380',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '166',
@@ -1437,7 +1437,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '414',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '167',
@@ -1446,7 +1446,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '811',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '168',
@@ -1455,7 +1455,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '872',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '169',
@@ -1464,7 +1464,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '190',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '170',
@@ -1473,7 +1473,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '116',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '171',
@@ -1482,7 +1482,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '383',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '172',
@@ -1491,7 +1491,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '217',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '173',
@@ -1500,7 +1500,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '216',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '174',
@@ -1509,7 +1509,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '373',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '175',
@@ -1518,7 +1518,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '398',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '176',
@@ -1527,7 +1527,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '90',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '177',
@@ -1536,7 +1536,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '380',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '178',
@@ -1545,7 +1545,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '353',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '179',
@@ -1554,7 +1554,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '34',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '180',
@@ -1563,7 +1563,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '869',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '181',
@@ -1572,7 +1572,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '374',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '182',
@@ -1581,7 +1581,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '395',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '183',
@@ -1590,7 +1590,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '390',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '184',
@@ -1599,7 +1599,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '873',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '185',
@@ -1608,7 +1608,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '391',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '186',
@@ -1617,7 +1617,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '380',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '187',
@@ -1626,7 +1626,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '90',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '188',
@@ -1635,7 +1635,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '190',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '189',
@@ -1644,7 +1644,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '216',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '190',
@@ -1653,7 +1653,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '196',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '191',
@@ -1662,7 +1662,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '34',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '192',
@@ -1671,7 +1671,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '874',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '193',
@@ -1680,7 +1680,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '875',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '194',
@@ -1689,7 +1689,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '395',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '195',
@@ -1698,7 +1698,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '876',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '196',
@@ -1707,7 +1707,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '871',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '197',
@@ -1716,7 +1716,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '877',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '198',
@@ -1725,7 +1725,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '382',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '199',
@@ -1734,7 +1734,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '878',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '200',
@@ -1743,7 +1743,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '383',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '201',
@@ -1752,7 +1752,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '398',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '202',
@@ -1761,7 +1761,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '390',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '203',
@@ -1770,7 +1770,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '869',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '204',
@@ -1779,7 +1779,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '383',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '205',
@@ -1788,7 +1788,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '90',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '206',
@@ -1797,7 +1797,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '190',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '207',
@@ -1806,7 +1806,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '385',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '208',
@@ -1815,7 +1815,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '380',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '209',
@@ -1824,7 +1824,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '397',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '210',
@@ -1833,7 +1833,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '34',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '211',
@@ -1842,7 +1842,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '384',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '212',
@@ -1851,7 +1851,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '395',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '213',
@@ -1860,7 +1860,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '391',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '214',
@@ -1869,7 +1869,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '836',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '215',
@@ -1878,7 +1878,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '396',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '216',
@@ -1887,7 +1887,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '382',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '217',
@@ -1896,7 +1896,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '877',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '218',
@@ -1905,7 +1905,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '879',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '219',
@@ -1914,7 +1914,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '398',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '220',
@@ -1923,7 +1923,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '875',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '221',
@@ -1932,7 +1932,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '869',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '222',
@@ -1941,7 +1941,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '391',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '223',
@@ -1950,7 +1950,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '90',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '224',
@@ -1959,7 +1959,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '396',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '225',
@@ -1968,7 +1968,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '190',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '226',
@@ -1977,7 +1977,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '216',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '227',
@@ -1986,7 +1986,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '813',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '228',
@@ -1995,7 +1995,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '380',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '229',
@@ -2004,7 +2004,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '385',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '230',
@@ -2013,7 +2013,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '384',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '231',
@@ -2022,7 +2022,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '395',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '232',
@@ -2031,7 +2031,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '877',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '233',
@@ -2040,7 +2040,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '386',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '234',
@@ -2049,7 +2049,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '34',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '235',
@@ -2058,7 +2058,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '880',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '236',
@@ -2067,7 +2067,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '875',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '237',
@@ -2076,7 +2076,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '881',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '238',
@@ -2085,7 +2085,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '382',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '239',
@@ -2094,7 +2094,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '77',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '240',
@@ -2103,7 +2103,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '90',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '241',
@@ -2112,7 +2112,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '216',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '242',
@@ -2121,7 +2121,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '197',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '243',
@@ -2130,7 +2130,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '380',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '244',
@@ -2139,7 +2139,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '190',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '245',
@@ -2148,7 +2148,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '383',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '246',
@@ -2157,7 +2157,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '396',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '247',
@@ -2166,7 +2166,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '34',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '248',
@@ -2175,7 +2175,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '384',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '249',
@@ -2184,7 +2184,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '395',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '250',
@@ -2193,7 +2193,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '385',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '251',
@@ -2202,7 +2202,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '813',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '252',
@@ -2211,7 +2211,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '353',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '253',
@@ -2220,7 +2220,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '882',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '254',
@@ -2229,7 +2229,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '391',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '255',
@@ -2238,7 +2238,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '877',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '256',
@@ -2247,7 +2247,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '382',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '257',
@@ -2256,7 +2256,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '77',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '258',
@@ -2265,7 +2265,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '880',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '259',
@@ -2274,7 +2274,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '216',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '260',
@@ -2283,7 +2283,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '883',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '261',
@@ -2292,7 +2292,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '280',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '262',
@@ -2301,7 +2301,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '396',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '263',
@@ -2310,7 +2310,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '353',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '264',
@@ -2319,7 +2319,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '90',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '265',
@@ -2328,7 +2328,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '380',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '266',
@@ -2337,7 +2337,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '391',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '267',
@@ -2346,7 +2346,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '268',
@@ -2355,7 +2355,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '884',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '269',
@@ -2364,7 +2364,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '813',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '270',
@@ -2373,7 +2373,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '77',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '271',
@@ -2382,7 +2382,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '882',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '272',
@@ -2391,7 +2391,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '885',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '273',
@@ -2400,7 +2400,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '385',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '274',
@@ -2409,7 +2409,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '886',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '275',
@@ -2418,7 +2418,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '340',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '276',
@@ -2427,7 +2427,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '391',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '277',
@@ -2436,7 +2436,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '90',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '278',
@@ -2445,7 +2445,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '380',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '279',
@@ -2454,7 +2454,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '216',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '280',
@@ -2463,7 +2463,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '281',
@@ -2472,7 +2472,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '887',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '282',
@@ -2481,7 +2481,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '886',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '283',
@@ -2490,7 +2490,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '885',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '284',
@@ -2499,7 +2499,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '285',
@@ -2508,7 +2508,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '286',
@@ -2517,7 +2517,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '196',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '287',
@@ -2526,7 +2526,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '888',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '288',
@@ -2535,7 +2535,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '889',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '289',
@@ -2544,7 +2544,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '403',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '290',
@@ -2553,7 +2553,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '890',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '291',
@@ -2562,7 +2562,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '891',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '292',
@@ -2571,7 +2571,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '892',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '293',
@@ -2580,7 +2580,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '893',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '294',
@@ -2589,7 +2589,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '894',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '295',
@@ -2598,7 +2598,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '90',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '296',
@@ -2607,7 +2607,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '895',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '297',
@@ -2616,7 +2616,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '298',
@@ -2625,7 +2625,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '380',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '299',
@@ -2634,7 +2634,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '300',
@@ -2643,7 +2643,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '896',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '301',
@@ -2652,7 +2652,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '84',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '302',
@@ -2661,7 +2661,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '391',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '303',
@@ -2670,7 +2670,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '897',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '304',
@@ -2679,7 +2679,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '77',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '305',
@@ -2688,7 +2688,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '893',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '306',
@@ -2697,7 +2697,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '898',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '307',
@@ -2706,7 +2706,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '891',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '308',
@@ -2715,7 +2715,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '892',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '309',
@@ -2724,7 +2724,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '310',
@@ -2733,7 +2733,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '886',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '311',
@@ -2742,7 +2742,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '312',
@@ -2751,7 +2751,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '340',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '313',
@@ -2760,7 +2760,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '899',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '314',
@@ -2769,7 +2769,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '900',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '315',
@@ -2778,7 +2778,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '68',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '316',
@@ -2787,7 +2787,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '84',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '317',
@@ -2796,7 +2796,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '318',
@@ -2805,7 +2805,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '354',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '319',
@@ -2814,7 +2814,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '82',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '320',
@@ -2823,7 +2823,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '90',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '321',
@@ -2832,7 +2832,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '92',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '322',
@@ -2841,7 +2841,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '349',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '323',
@@ -2850,7 +2850,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '324',
@@ -2859,7 +2859,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '77',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '325',
@@ -2868,7 +2868,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '901',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '326',
@@ -2877,7 +2877,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '895',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '327',
@@ -2886,7 +2886,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '328',
@@ -2895,7 +2895,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '30',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '329',
@@ -2904,7 +2904,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '78',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '330',
@@ -2913,7 +2913,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '898',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '331',
@@ -2922,7 +2922,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '902',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '332',
@@ -2931,7 +2931,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '332',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '333',
@@ -2940,7 +2940,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '334',
@@ -2949,7 +2949,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '903',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '335',
@@ -2958,7 +2958,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '336',
@@ -2967,7 +2967,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '90',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '337',
@@ -2976,7 +2976,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '85',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '338',
@@ -2985,7 +2985,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '339',
@@ -2994,7 +2994,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '340',
@@ -3003,7 +3003,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '341',
@@ -3012,7 +3012,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '31',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '342',
@@ -3021,7 +3021,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '83',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '343',
@@ -3030,7 +3030,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '84',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '344',
@@ -3039,7 +3039,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '77',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '345',
@@ -3048,7 +3048,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '904',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '346',
@@ -3057,7 +3057,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '66',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '347',
@@ -3066,7 +3066,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '30',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '348',
@@ -3075,7 +3075,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '354',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '349',
@@ -3084,7 +3084,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '78',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '350',
@@ -3093,7 +3093,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '906',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '351',
@@ -3102,7 +3102,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '907',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '352',
@@ -3111,7 +3111,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '82',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '353',
@@ -3120,7 +3120,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '352',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '354',
@@ -3129,7 +3129,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '908',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '355',
@@ -3138,7 +3138,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '329',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '356',
@@ -3147,7 +3147,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '909',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '357',
@@ -3156,7 +3156,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '358',
@@ -3165,7 +3165,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '82',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '359',
@@ -3174,7 +3174,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '354',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '360',
@@ -3183,7 +3183,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '910',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '361',
@@ -3192,7 +3192,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '362',
@@ -3201,7 +3201,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '363',
@@ -3210,7 +3210,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '364',
@@ -3219,7 +3219,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '85',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '365',
@@ -3228,7 +3228,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '31',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '366',
@@ -3237,7 +3237,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '911',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '367',
@@ -3246,7 +3246,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '84',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '368',
@@ -3255,7 +3255,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '325',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '369',
@@ -3264,7 +3264,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '352',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '370',
@@ -3273,7 +3273,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '390',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '371',
@@ -3282,7 +3282,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '187',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '372',
@@ -3291,7 +3291,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '77',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '373',
@@ -3300,7 +3300,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '332',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '374',
@@ -3309,7 +3309,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '137',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '375',
@@ -3318,7 +3318,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '376',
@@ -3327,7 +3327,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '66',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '377',
@@ -3336,7 +3336,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '26',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '378',
@@ -3345,7 +3345,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '914',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '379',
@@ -3354,7 +3354,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '910',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '380',
@@ -3363,7 +3363,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '381',
@@ -3372,7 +3372,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '382',
@@ -3381,7 +3381,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '915',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '383',
@@ -3390,7 +3390,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '384',
@@ -3399,7 +3399,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '385',
@@ -3408,7 +3408,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '916',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '386',
@@ -3417,7 +3417,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '329',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '387',
@@ -3426,7 +3426,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '192',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '388',
@@ -3435,7 +3435,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '390',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '390',
@@ -3444,7 +3444,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '918',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '391',
@@ -3453,7 +3453,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '332',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '392',
@@ -3462,7 +3462,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '393',
@@ -3471,7 +3471,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '919',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '394',
@@ -3480,7 +3480,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '909',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '395',
@@ -3489,7 +3489,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '53',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '396',
@@ -3498,7 +3498,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '908',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '397',
@@ -3507,7 +3507,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '17',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '398',
@@ -3516,7 +3516,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '34',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '399',
@@ -3525,7 +3525,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '330',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '400',
@@ -3534,7 +3534,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '44',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '401',
@@ -3543,7 +3543,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '921',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '402',
@@ -3552,7 +3552,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '174',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '403',
@@ -3561,7 +3561,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '404',
@@ -3570,7 +3570,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '405',
@@ -3579,7 +3579,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '406',
@@ -3588,7 +3588,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '407',
@@ -3597,7 +3597,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '408',
@@ -3606,7 +3606,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '915',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '409',
@@ -3615,7 +3615,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '329',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '410',
@@ -3624,7 +3624,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '411',
@@ -3633,7 +3633,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '922',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '412',
@@ -3642,7 +3642,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '280',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '413',
@@ -3651,7 +3651,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '914',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '414',
@@ -3660,7 +3660,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '415',
@@ -3669,7 +3669,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '325',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '416',
@@ -3678,7 +3678,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '332',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '417',
@@ -3687,7 +3687,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '192',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '418',
@@ -3696,7 +3696,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '923',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '419',
@@ -3705,7 +3705,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '924',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '420',
@@ -3714,7 +3714,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '421',
@@ -3723,7 +3723,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '328',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '422',
@@ -3732,7 +3732,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '423',
@@ -3741,7 +3741,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '424',
@@ -3750,7 +3750,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '910',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '425',
@@ -3759,7 +3759,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '426',
@@ -3768,7 +3768,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '427',
@@ -3777,7 +3777,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '84',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '428',
@@ -3786,7 +3786,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '429',
@@ -3795,7 +3795,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '330',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '430',
@@ -3804,7 +3804,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '340',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '431',
@@ -3813,7 +3813,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '192',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '432',
@@ -3822,7 +3822,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '332',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '433',
@@ -3831,7 +3831,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '329',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '434',
@@ -3840,7 +3840,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '26',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '435',
@@ -3849,7 +3849,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '436',
@@ -3858,7 +3858,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '918',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '437',
@@ -3867,7 +3867,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '908',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '438',
@@ -3876,7 +3876,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '420',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '439',
@@ -3885,7 +3885,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '325',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '440',
@@ -3894,7 +3894,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '44',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '441',
@@ -3903,7 +3903,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '352',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '442',
@@ -3912,7 +3912,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '919',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '443',
@@ -3921,7 +3921,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '444',
@@ -3930,7 +3930,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '53',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '445',
@@ -3939,7 +3939,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '28',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '446',
@@ -3948,7 +3948,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '447',
@@ -3957,7 +3957,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '924',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '448',
@@ -3966,7 +3966,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '449',
@@ -3975,7 +3975,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '450',
@@ -3984,7 +3984,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '280',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '451',
@@ -3993,7 +3993,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '452',
@@ -4002,7 +4002,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '453',
@@ -4011,7 +4011,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '162',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '454',
@@ -4020,7 +4020,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '192',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '455',
@@ -4029,7 +4029,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '325',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '456',
@@ -4038,7 +4038,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '457',
@@ -4047,7 +4047,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '332',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '458',
@@ -4056,7 +4056,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '459',
@@ -4065,7 +4065,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '283',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '460',
@@ -4074,7 +4074,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '413',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '461',
@@ -4083,7 +4083,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '329',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '462',
@@ -4092,7 +4092,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '174',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '463',
@@ -4101,7 +4101,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '53',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '464',
@@ -4110,7 +4110,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '925',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '465',
@@ -4119,7 +4119,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '921',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '466',
@@ -4128,7 +4128,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '28',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '467',
@@ -4137,7 +4137,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '468',
@@ -4146,7 +4146,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '469',
@@ -4155,7 +4155,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '470',
@@ -4164,7 +4164,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '471',
@@ -4173,7 +4173,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '472',
@@ -4182,7 +4182,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '36',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '473',
@@ -4191,7 +4191,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '280',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '474',
@@ -4200,7 +4200,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '475',
@@ -4209,7 +4209,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '162',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '476',
@@ -4218,7 +4218,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '283',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '477',
@@ -4227,7 +4227,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '478',
@@ -4236,7 +4236,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '926',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '479',
@@ -4245,7 +4245,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '329',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '480',
@@ -4254,7 +4254,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '921',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '481',
@@ -4263,7 +4263,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '76',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '482',
@@ -4272,7 +4272,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '482',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '483',
@@ -4281,7 +4281,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '174',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '484',
@@ -4290,7 +4290,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '53',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '485',
@@ -4299,7 +4299,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '413',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '486',
@@ -4308,7 +4308,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '173',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '487',
@@ -4317,7 +4317,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '53',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '488',
@@ -4326,7 +4326,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '280',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '489',
@@ -4335,7 +4335,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '490',
@@ -4344,7 +4344,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '491',
@@ -4353,7 +4353,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '492',
@@ -4362,7 +4362,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '36',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '493',
@@ -4371,7 +4371,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '323',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '494',
@@ -4380,7 +4380,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '28',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '495',
@@ -4389,7 +4389,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '496',
@@ -4398,7 +4398,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '497',
@@ -4407,7 +4407,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '174',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '498',
@@ -4416,7 +4416,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '499',
@@ -4425,7 +4425,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '329',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '500',
@@ -4434,7 +4434,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '162',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '501',
@@ -4443,7 +4443,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '927',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '502',
@@ -4452,7 +4452,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '76',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '503',
@@ -4461,7 +4461,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '283',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '504',
@@ -4470,7 +4470,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '505',
@@ -4479,7 +4479,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '79',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '506',
@@ -4488,7 +4488,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '413',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '507',
@@ -4497,7 +4497,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '104',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '508',
@@ -4506,7 +4506,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '180',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '509',
@@ -4515,7 +4515,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '921',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '510',
@@ -4524,7 +4524,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '53',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '511',
@@ -4533,7 +4533,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '19',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '512',
@@ -4542,7 +4542,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '93',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '513',
@@ -4551,7 +4551,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '514',
@@ -4560,7 +4560,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '515',
@@ -4569,7 +4569,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '516',
@@ -4578,7 +4578,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '928',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '517',
@@ -4587,7 +4587,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '518',
@@ -4596,7 +4596,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '36',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '519',
@@ -4605,7 +4605,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '89',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '520',
@@ -4614,7 +4614,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '521',
@@ -4623,7 +4623,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '3',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '522',
@@ -4632,7 +4632,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '76',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '523',
@@ -4641,7 +4641,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '524',
@@ -4650,7 +4650,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '136',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '525',
@@ -4659,7 +4659,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '192',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '526',
@@ -4668,7 +4668,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '67',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '527',
@@ -4677,7 +4677,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '7',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '528',
@@ -4686,7 +4686,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '23',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '529',
@@ -4695,7 +4695,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '929',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '530',
@@ -4704,7 +4704,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '162',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '531',
@@ -4713,7 +4713,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '64',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '532',
@@ -4722,7 +4722,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '180',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '533',
@@ -4731,7 +4731,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '323',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '534',
@@ -4740,7 +4740,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '535',
@@ -4749,7 +4749,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '536',
@@ -4758,7 +4758,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '537',
@@ -4767,7 +4767,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '538',
@@ -4776,7 +4776,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '36',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '539',
@@ -4785,7 +4785,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '540',
@@ -4794,7 +4794,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '541',
@@ -4803,7 +4803,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '122',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '542',
@@ -4812,7 +4812,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '413',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '543',
@@ -4821,7 +4821,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '53',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '544',
@@ -4830,7 +4830,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '280',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '545',
@@ -4839,7 +4839,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '76',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '546',
@@ -4848,7 +4848,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '325',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '547',
@@ -4857,7 +4857,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '548',
@@ -4866,7 +4866,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '174',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '549',
@@ -4875,7 +4875,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '104',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '550',
@@ -4884,7 +4884,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '958',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '551',
@@ -4893,7 +4893,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '921',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '552',
@@ -4902,7 +4902,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '93',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '553',
@@ -4911,7 +4911,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '136',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '554',
@@ -4920,7 +4920,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '3',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '555',
@@ -4929,7 +4929,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '162',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '556',
@@ -4938,7 +4938,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '88',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '557',
@@ -4947,7 +4947,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '180',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '558',
@@ -4956,7 +4956,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '76',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '559',
@@ -4965,7 +4965,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '192',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '560',
@@ -4974,7 +4974,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '79',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '561',
@@ -4983,7 +4983,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '562',
@@ -4992,7 +4992,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '93',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '563',
@@ -5001,7 +5001,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '564',
@@ -5010,7 +5010,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '565',
@@ -5019,7 +5019,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '36',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '566',
@@ -5028,7 +5028,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '567',
@@ -5037,7 +5037,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '568',
@@ -5046,7 +5046,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '104',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '569',
@@ -5055,7 +5055,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '7',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '570',
@@ -5064,7 +5064,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '89',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '571',
@@ -5073,7 +5073,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '959',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '572',
@@ -5082,7 +5082,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '3',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '573',
@@ -5091,7 +5091,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '64',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '574',
@@ -5100,7 +5100,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '19',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '575',
@@ -5109,7 +5109,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '67',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '576',
@@ -5118,7 +5118,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '81',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '577',
@@ -5127,7 +5127,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '82',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '578',
@@ -5136,7 +5136,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '579',
@@ -5145,7 +5145,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '20',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '580',
@@ -5154,7 +5154,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '38',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '581',
@@ -5163,7 +5163,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '50',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '582',
@@ -5172,7 +5172,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '88',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '583',
@@ -5181,7 +5181,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '19',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '584',
@@ -5190,7 +5190,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '3',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '585',
@@ -5199,7 +5199,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '64',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '586',
@@ -5208,7 +5208,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '587',
@@ -5217,7 +5217,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '93',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '588',
@@ -5226,7 +5226,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '27',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '589',
@@ -5235,7 +5235,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '16',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '590',
@@ -5244,7 +5244,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '592',
@@ -5253,7 +5253,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '593',
@@ -5262,7 +5262,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '7',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '594',
@@ -5271,7 +5271,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '595',
@@ -5280,7 +5280,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '81',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '596',
@@ -5289,7 +5289,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '104',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '597',
@@ -5298,7 +5298,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '155',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '598',
@@ -5307,7 +5307,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '38',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '599',
@@ -5316,7 +5316,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '79',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '600',
@@ -5325,7 +5325,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '82',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '601',
@@ -5334,7 +5334,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '88',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '602',
@@ -5343,7 +5343,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '99',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '603',
@@ -5352,7 +5352,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '45',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '604',
@@ -5361,7 +5361,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '33',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '605',
@@ -5370,7 +5370,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '44',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '606',
@@ -5379,7 +5379,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '19',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '607',
@@ -5388,7 +5388,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '3',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '608',
@@ -5397,7 +5397,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '415',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '609',
@@ -5406,7 +5406,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '93',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '610',
@@ -5415,7 +5415,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '27',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '611',
@@ -5424,7 +5424,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '82',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '612',
@@ -5433,7 +5433,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '613',
@@ -5442,7 +5442,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '191',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '614',
@@ -5451,7 +5451,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '7',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '615',
@@ -5460,7 +5460,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '413',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '616',
@@ -5469,7 +5469,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '617',
@@ -5478,7 +5478,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '81',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '618',
@@ -5487,7 +5487,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '619',
@@ -5496,7 +5496,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '155',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '620',
@@ -5505,7 +5505,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '621',
@@ -5514,7 +5514,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '58',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '622',
@@ -5523,7 +5523,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '64',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '623',
@@ -5532,7 +5532,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '76',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '624',
@@ -5541,7 +5541,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '88',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '625',
@@ -5550,7 +5550,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '962',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '626',
@@ -5559,7 +5559,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '963',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '627',
@@ -5568,7 +5568,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '155',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '628',
@@ -5577,7 +5577,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '415',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '629',
@@ -5586,7 +5586,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '93',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '630',
@@ -5595,7 +5595,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '82',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '631',
@@ -5604,7 +5604,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '46',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '632',
@@ -5613,7 +5613,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '633',
@@ -5622,7 +5622,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '191',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '634',
@@ -5631,7 +5631,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '964',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '635',
@@ -5640,7 +5640,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '27',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '636',
@@ -5649,7 +5649,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '54',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '637',
@@ -5658,7 +5658,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '413',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '638',
@@ -5667,7 +5667,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '639',
@@ -5676,7 +5676,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '19',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '640',
@@ -5685,7 +5685,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '58',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '641',
@@ -5694,7 +5694,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '965',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '642',
@@ -5703,7 +5703,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '64',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '643',
@@ -5712,7 +5712,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '76',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '644',
@@ -5721,7 +5721,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '7',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '645',
@@ -5730,7 +5730,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '966',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '646',
@@ -5739,7 +5739,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '967',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '647',
@@ -5748,7 +5748,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '968',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '648',
@@ -5757,7 +5757,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '230',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '649',
@@ -5766,7 +5766,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '969',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '650',
@@ -5775,7 +5775,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '970',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '651',
@@ -5784,7 +5784,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '82',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '652',
@@ -5793,7 +5793,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '27',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '653',
@@ -5802,7 +5802,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '191',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '654',
@@ -5811,7 +5811,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '655',
@@ -5820,7 +5820,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '7',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '656',
@@ -5829,7 +5829,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '971',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '657',
@@ -5838,7 +5838,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '658',
@@ -5847,7 +5847,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '93',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '659',
@@ -5856,7 +5856,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '209',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '660',
@@ -5865,7 +5865,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '697',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '661',
@@ -5874,7 +5874,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '45',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '662',
@@ -5883,7 +5883,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '619',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '663',
@@ -5892,7 +5892,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '415',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '664',
@@ -5901,7 +5901,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '213',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '665',
@@ -5910,7 +5910,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '583',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '666',
@@ -5919,7 +5919,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '584',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '667',
@@ -5928,7 +5928,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '968',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '668',
@@ -5937,7 +5937,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '972',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '669',
@@ -5946,7 +5946,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '670',
@@ -5955,7 +5955,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '93',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '671',
@@ -5964,7 +5964,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '973',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '672',
@@ -5973,7 +5973,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '971',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '674',
@@ -5982,7 +5982,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '191',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '675',
@@ -5991,7 +5991,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '591',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '676',
@@ -6000,7 +6000,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '27',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '677',
@@ -6009,7 +6009,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '7',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '678',
@@ -6018,7 +6018,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '175',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '679',
@@ -6027,7 +6027,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '209',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '680',
@@ -6036,7 +6036,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '76',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '681',
@@ -6045,7 +6045,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '230',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '682',
@@ -6054,7 +6054,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '584',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '683',
@@ -6063,7 +6063,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '974',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '684',
@@ -6072,7 +6072,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '970',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '685',
@@ -6081,7 +6081,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '975',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '686',
@@ -6090,7 +6090,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '697',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '687',
@@ -6099,7 +6099,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '213',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '688',
@@ -6108,7 +6108,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '82',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '689',
@@ -6117,7 +6117,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '690',
@@ -6126,7 +6126,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '976',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '691',
@@ -6135,7 +6135,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '977',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '692',
@@ -6144,7 +6144,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '583',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '693',
@@ -6153,7 +6153,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '978',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '694',
@@ -6162,7 +6162,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '979',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '695',
@@ -6171,7 +6171,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '980',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '696',
@@ -6180,7 +6180,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '697',
@@ -6189,7 +6189,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '969',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '698',
@@ -6198,7 +6198,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '619',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '699',
@@ -6207,7 +6207,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '981',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '700',
@@ -6216,7 +6216,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '82',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '701',
@@ -6225,7 +6225,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '583',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '702',
@@ -6234,7 +6234,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '93',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '703',
@@ -6243,7 +6243,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '975',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '704',
@@ -6252,7 +6252,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '982',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '705',
@@ -6261,7 +6261,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '983',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '706',
@@ -6270,7 +6270,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '984',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '707',
@@ -6279,7 +6279,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '977',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '708',
@@ -6288,7 +6288,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '980',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '709',
@@ -6297,7 +6297,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '710',
@@ -6306,7 +6306,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '986',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '711',
@@ -6315,7 +6315,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '969',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '712',
@@ -6324,7 +6324,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '979',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '713',
@@ -6333,7 +6333,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '974',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '714',
@@ -6342,7 +6342,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '987',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '715',
@@ -6351,7 +6351,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '985',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '716',
@@ -6360,7 +6360,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '27',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '717',
@@ -6369,7 +6369,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '976',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '718',
@@ -6378,7 +6378,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '988',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '719',
@@ -6387,7 +6387,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '989',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '720',
@@ -6396,7 +6396,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '990',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '721',
@@ -6405,7 +6405,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '981',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '722',
@@ -6414,7 +6414,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '991',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '723',
@@ -6423,7 +6423,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '992',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '724',
@@ -6432,7 +6432,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '993',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '725',
@@ -6441,7 +6441,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '973',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '726',
@@ -6450,7 +6450,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '727',
@@ -6459,7 +6459,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '994',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '728',
@@ -6468,7 +6468,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '82',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '729',
@@ -6477,7 +6477,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '995',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '730',
@@ -6486,7 +6486,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '983',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '731',
@@ -6495,7 +6495,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '996',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '732',
@@ -6504,7 +6504,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '93',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '733',
@@ -6513,7 +6513,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '691',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '734',
@@ -6522,7 +6522,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '432',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '735',
@@ -6531,7 +6531,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '985',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '736',
@@ -6540,7 +6540,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '583',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '737',
@@ -6549,7 +6549,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '976',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '738',
@@ -6558,7 +6558,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '986',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '739',
@@ -6567,7 +6567,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '997',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '740',
@@ -6576,7 +6576,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '974',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '741',
@@ -6585,7 +6585,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '264',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '742',
@@ -6594,7 +6594,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '979',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '743',
@@ -6603,7 +6603,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '977',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '744',
@@ -6612,7 +6612,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '975',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '746',
@@ -6621,7 +6621,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '984',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '747',
@@ -6630,7 +6630,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '978',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '748',
@@ -6639,7 +6639,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '999',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '749',
@@ -6648,7 +6648,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1000',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '750',
@@ -6657,7 +6657,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '330',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '751',
@@ -6666,7 +6666,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '611',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '752',
@@ -6675,7 +6675,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1001',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '753',
@@ -6684,7 +6684,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '754',
@@ -6693,7 +6693,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '755',
@@ -6702,7 +6702,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '353',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '756',
@@ -6711,7 +6711,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '757',
@@ -6720,7 +6720,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '981',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '758',
@@ -6729,7 +6729,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1002',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '759',
@@ -6738,7 +6738,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1003',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '760',
@@ -6747,7 +6747,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '52',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '761',
@@ -6756,7 +6756,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '93',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '762',
@@ -6765,7 +6765,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '976',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '763',
@@ -6774,7 +6774,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1005',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '764',
@@ -6783,7 +6783,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '636',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '765',
@@ -6792,7 +6792,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '975',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '766',
@@ -6801,7 +6801,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1006',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '767',
@@ -6810,7 +6810,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '996',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '768',
@@ -6819,7 +6819,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '669',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '769',
@@ -6828,7 +6828,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1007',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '770',
@@ -6837,7 +6837,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '984',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '771',
@@ -6846,7 +6846,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '583',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '772',
@@ -6855,7 +6855,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '981',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '773',
@@ -6864,7 +6864,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '432',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '774',
@@ -6873,7 +6873,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '439',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '775',
@@ -6882,7 +6882,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '599',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '776',
@@ -6891,7 +6891,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '264',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '777',
@@ -6900,7 +6900,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '611',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '778',
@@ -6909,7 +6909,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '974',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '779',
@@ -6918,7 +6918,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '986',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '780',
@@ -6927,7 +6927,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '979',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '781',
@@ -6936,7 +6936,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1002',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '782',
@@ -6945,7 +6945,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '440',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '783',
@@ -6954,7 +6954,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1008',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '784',
@@ -6963,7 +6963,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '977',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '785',
@@ -6972,7 +6972,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1009',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '786',
@@ -6981,7 +6981,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1010',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '787',
@@ -6990,7 +6990,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1003',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '788',
@@ -6999,7 +6999,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '789',
@@ -7008,7 +7008,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '599',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '790',
@@ -7017,7 +7017,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1011',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '791',
@@ -7026,7 +7026,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '432',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '792',
@@ -7035,7 +7035,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '636',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '793',
@@ -7044,7 +7044,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1012',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '794',
@@ -7053,7 +7053,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '996',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '795',
@@ -7062,7 +7062,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '646',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '796',
@@ -7071,7 +7071,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '977',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '797',
@@ -7080,7 +7080,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1013',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '798',
@@ -7089,7 +7089,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1002',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '799',
@@ -7098,7 +7098,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1008',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '800',
@@ -7107,7 +7107,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '981',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '801',
@@ -7116,7 +7116,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '975',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '802',
@@ -7125,7 +7125,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '979',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '803',
@@ -7134,7 +7134,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '569',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '804',
@@ -7143,7 +7143,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '611',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '805',
@@ -7152,7 +7152,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '669',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '806',
@@ -7161,7 +7161,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '974',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '807',
@@ -7170,7 +7170,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '440',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '808',
@@ -7179,7 +7179,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1014',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '809',
@@ -7188,7 +7188,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1015',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '810',
@@ -7197,7 +7197,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1016',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '811',
@@ -7206,7 +7206,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1017',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '812',
@@ -7215,7 +7215,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '599',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '813',
@@ -7224,7 +7224,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '696',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '814',
@@ -7233,7 +7233,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1018',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '815',
@@ -7242,7 +7242,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '563',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '816',
@@ -7251,7 +7251,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1013',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '817',
@@ -7260,7 +7260,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1019',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '818',
@@ -7269,7 +7269,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1020',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '819',
@@ -7278,7 +7278,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '636',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '820',
@@ -7287,7 +7287,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '432',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '821',
@@ -7296,7 +7296,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '996',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '822',
@@ -7305,7 +7305,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '546',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '823',
@@ -7314,7 +7314,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '646',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '824',
@@ -7323,7 +7323,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1012',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '825',
@@ -7332,7 +7332,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '440',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '826',
@@ -7341,7 +7341,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1002',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '827',
@@ -7350,7 +7350,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1016',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '828',
@@ -7359,7 +7359,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '669',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '829',
@@ -7368,7 +7368,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '488',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '830',
@@ -7377,7 +7377,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '611',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '831',
@@ -7386,7 +7386,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '58',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '832',
@@ -7395,7 +7395,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '979',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '833',
@@ -7404,7 +7404,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '569',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '834',
@@ -7413,7 +7413,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '835',
@@ -7422,7 +7422,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1021',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '836',
@@ -7431,7 +7431,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '625',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '837',
@@ -7440,7 +7440,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '501',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '838',
@@ -7449,7 +7449,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '665',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '839',
@@ -7458,7 +7458,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1017',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '840',
@@ -7467,7 +7467,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '672',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '841',
@@ -7476,7 +7476,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1023',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '842',
@@ -7485,7 +7485,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '908',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '843',
@@ -7494,7 +7494,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '572',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '844',
@@ -7503,7 +7503,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1024',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '845',
@@ -7512,7 +7512,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1026',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '846',
@@ -7521,7 +7521,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '546',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '847',
@@ -7530,7 +7530,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '618',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '848',
@@ -7539,7 +7539,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '583',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '849',
@@ -7548,7 +7548,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1027',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '850',
@@ -7557,7 +7557,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '712',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '851',
@@ -7566,7 +7566,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '36',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '852',
@@ -7575,7 +7575,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1028',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '853',
@@ -7584,7 +7584,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '572',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '854',
@@ -7593,7 +7593,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '501',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '855',
@@ -7602,7 +7602,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '443',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '856',
@@ -7611,7 +7611,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '615',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '857',
@@ -7620,7 +7620,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '696',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '858',
@@ -7629,7 +7629,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '488',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '859',
@@ -7638,7 +7638,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '454',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '860',
@@ -7647,7 +7647,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '709',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '861',
@@ -7656,7 +7656,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '688',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '862',
@@ -7665,7 +7665,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '563',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '863',
@@ -7674,7 +7674,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1017',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '864',
@@ -7683,7 +7683,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1029',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '865',
@@ -7692,7 +7692,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1024',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '866',
@@ -7701,7 +7701,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1030',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '867',
@@ -7710,7 +7710,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1031',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '868',
@@ -7719,7 +7719,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '665',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '869',
@@ -7728,7 +7728,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '518',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '870',
@@ -7737,7 +7737,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1032',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '871',
@@ -7746,7 +7746,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '558',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '872',
@@ -7755,7 +7755,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '715',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '873',
@@ -7764,7 +7764,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1023',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '874',
@@ -7773,7 +7773,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '587',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '875',
@@ -7782,7 +7782,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '625',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '876',
@@ -7791,7 +7791,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '624',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '877',
@@ -7800,7 +7800,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '440',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '878',
@@ -7809,7 +7809,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1008',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '879',
@@ -7818,7 +7818,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '709',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '880',
@@ -7827,7 +7827,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '751',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '881',
@@ -7836,7 +7836,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '518',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '882',
@@ -7845,7 +7845,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '714',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '883',
@@ -7854,7 +7854,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '625',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '884',
@@ -7863,7 +7863,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '615',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '885',
@@ -7872,7 +7872,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '563',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '886',
@@ -7881,7 +7881,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '546',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '887',
@@ -7890,7 +7890,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '572',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '888',
@@ -7899,7 +7899,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '618',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '889',
@@ -7908,7 +7908,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '601',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '890',
@@ -7917,7 +7917,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '715',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '891',
@@ -7926,7 +7926,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '501',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '892',
@@ -7935,7 +7935,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '440',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '893',
@@ -7944,7 +7944,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '561',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '894',
@@ -7953,7 +7953,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '631',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '895',
@@ -7962,7 +7962,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '494',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '896',
@@ -7971,7 +7971,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '540',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '897',
@@ -7980,7 +7980,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '698',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '898',
@@ -7989,7 +7989,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '743',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '899',
@@ -7998,7 +7998,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '665',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '900',
@@ -8007,7 +8007,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '624',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '901',
@@ -8016,7 +8016,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '587',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '902',
@@ -8025,7 +8025,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '545',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '903',
@@ -8034,7 +8034,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '732',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '904',
@@ -8043,7 +8043,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '583',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '905',
@@ -8052,7 +8052,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '443',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '906',
@@ -8061,7 +8061,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '696',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '907',
@@ -8070,7 +8070,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '616',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '908',
@@ -8079,7 +8079,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '454',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '909',
@@ -8088,7 +8088,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '553',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '910',
@@ -8097,7 +8097,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '47',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '911',
@@ -8106,7 +8106,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '908',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '912',
@@ -8115,7 +8115,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '44',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '913',
@@ -8124,7 +8124,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '665',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '914',
@@ -8133,7 +8133,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '751',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '915',
@@ -8142,7 +8142,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '518',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '916',
@@ -8151,7 +8151,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '622',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '917',
@@ -8160,7 +8160,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '563',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '918',
@@ -8169,7 +8169,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '572',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '919',
@@ -8178,7 +8178,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '443',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '920',
@@ -8187,7 +8187,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '715',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '921',
@@ -8196,7 +8196,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '701',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '922',
@@ -8205,7 +8205,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '703',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '923',
@@ -8214,7 +8214,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '605',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '924',
@@ -8223,7 +8223,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '631',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '925',
@@ -8232,7 +8232,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '616',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '926',
@@ -8241,7 +8241,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '546',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '927',
@@ -8250,7 +8250,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '696',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '928',
@@ -8259,7 +8259,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '739',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '929',
@@ -8268,7 +8268,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '698',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '930',
@@ -8277,7 +8277,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '477',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '931',
@@ -8286,7 +8286,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '618',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '932',
@@ -8295,7 +8295,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '709',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '933',
@@ -8304,7 +8304,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '454',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '934',
@@ -8313,7 +8313,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1033',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '935',
@@ -8322,7 +8322,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '88',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '936',
@@ -8331,7 +8331,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '540',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '937',
@@ -8340,7 +8340,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '747',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '938',
@@ -8349,7 +8349,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '702',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '939',
@@ -8358,7 +8358,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '615',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '940',
@@ -8367,7 +8367,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '601',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '941',
@@ -8376,7 +8376,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '553',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '942',
@@ -8385,7 +8385,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '494',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '943',
@@ -8394,7 +8394,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '587',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '944',
@@ -8403,7 +8403,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1034',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '945',
@@ -8412,7 +8412,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '625',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '946',
@@ -8421,7 +8421,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '492',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '947',
@@ -8430,7 +8430,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '517',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '948',
@@ -8439,7 +8439,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1035',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '949',
@@ -8448,7 +8448,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '507',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '950',
@@ -8457,7 +8457,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '665',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '951',
@@ -8466,7 +8466,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '703',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '952',
@@ -8475,7 +8475,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '702',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '953',
@@ -8484,7 +8484,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '701',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '954',
@@ -8493,7 +8493,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '563',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '955',
@@ -8502,7 +8502,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '434',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '956',
@@ -8511,7 +8511,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '543',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '957',
@@ -8520,7 +8520,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '631',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '958',
@@ -8529,7 +8529,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '456',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '959',
@@ -8538,7 +8538,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '460',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '960',
@@ -8547,7 +8547,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '694',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '961',
@@ -8556,7 +8556,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '547',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '962',
@@ -8565,7 +8565,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '709',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '963',
@@ -8574,7 +8574,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '518',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '964',
@@ -8583,7 +8583,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '625',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '965',
@@ -8592,7 +8592,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '523',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '966',
@@ -8601,7 +8601,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '725',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '967',
@@ -8610,7 +8610,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '622',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '968',
@@ -8619,7 +8619,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '454',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '969',
@@ -8628,7 +8628,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '751',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '970',
@@ -8637,7 +8637,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '678',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '971',
@@ -8646,7 +8646,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '624',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '972',
@@ -8655,7 +8655,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '517',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '973',
@@ -8664,7 +8664,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '739',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '974',
@@ -8673,7 +8673,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '587',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '975',
@@ -8682,7 +8682,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '601',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '976',
@@ -8691,7 +8691,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '553',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '977',
@@ -8700,7 +8700,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '615',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '978',
@@ -8709,7 +8709,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '583',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '979',
@@ -8718,7 +8718,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '587',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '980',
@@ -8727,7 +8727,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '562',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '982',
@@ -8736,7 +8736,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '536',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '983',
@@ -8745,7 +8745,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '518',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '984',
@@ -8754,7 +8754,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '523',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '985',
@@ -8763,7 +8763,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '739',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '986',
@@ -8772,7 +8772,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '709',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '987',
@@ -8781,7 +8781,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '699',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '988',
@@ -8790,7 +8790,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '701',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '989',
@@ -8799,7 +8799,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '580',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '990',
@@ -8808,7 +8808,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '605',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '991',
@@ -8817,7 +8817,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '601',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '992',
@@ -8826,7 +8826,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '678',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '993',
@@ -8835,7 +8835,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '517',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '994',
@@ -8844,7 +8844,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '624',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '995',
@@ -8853,7 +8853,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '616',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '996',
@@ -8862,7 +8862,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '553',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '997',
@@ -8871,7 +8871,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '456',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '998',
@@ -8880,7 +8880,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1036',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '999',
@@ -8889,7 +8889,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '754',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '1002',
@@ -8898,7 +8898,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '625',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '1003',
@@ -8907,7 +8907,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1037',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '1004',
@@ -8916,7 +8916,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1038',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '1005',
@@ -8925,7 +8925,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1039',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '1008',
@@ -8934,7 +8934,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1042',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '1009',
@@ -8943,7 +8943,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '661',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '1010',
@@ -8952,7 +8952,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '702',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '1011',
@@ -8961,7 +8961,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '908',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '1012',
@@ -8970,7 +8970,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '94',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '1013',
@@ -8979,7 +8979,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '88',
 	'cdrole' => 'C',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idroster' => '1014',
@@ -8988,7 +8988,7 @@ class RostersSeeder extends AbstractSeed
 	'idperson' => '1043',
 	'cdrole' => 'P',
 	'created_at' => '2019-03-24 09:22:48',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 
     	];

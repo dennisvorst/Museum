@@ -28,7 +28,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftphone' => '035-6916165',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '2',
@@ -37,7 +37,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'www.gooieneemlander.nl',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '3',
@@ -45,7 +45,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Nederlands Honkbalmuseum',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '4',
@@ -53,7 +53,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Ton Kastermans',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '5',
@@ -62,7 +62,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'www.ad.nl',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '6',
@@ -71,7 +71,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'www.telegraaf.nl',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '7',
@@ -80,7 +80,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'www.volkskrant.nl',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '8',
@@ -89,7 +89,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'www.parool.nl',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '9',
@@ -97,7 +97,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'ONBEKEND',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '10',
@@ -106,7 +106,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'www.nrc-handelsblad.n',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '11',
@@ -115,7 +115,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'www.anp.nl',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '12',
@@ -124,7 +124,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'www.haarlemsdagblad.nl',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '13',
@@ -132,7 +132,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Gijs Moerman',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '14',
@@ -141,7 +141,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'www.rotterdamsdagblad.nl',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '15',
@@ -149,7 +149,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Goois Weekblad',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '16',
@@ -157,7 +157,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Gooi en Eembode',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '17',
@@ -165,7 +165,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Telesport',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '19',
@@ -173,7 +173,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'De Bussumsche Courant',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '20',
@@ -182,7 +182,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'www.eindhovensdagblad.nl',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '22',
@@ -190,7 +190,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Goois Nieuwsblad',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '23',
@@ -198,7 +198,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Het Vrije Volk',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '25',
@@ -206,7 +206,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Haagse Courant',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '26',
@@ -214,7 +214,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Trouw',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '27',
@@ -224,7 +224,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmcity' => 'Hilversum',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '28',
@@ -233,7 +233,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'http://www.amersfoortsecourant.nl/',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '29',
@@ -241,7 +241,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Nieuws van de Dag',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '30',
@@ -249,7 +249,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Utrechts Nieuwsblad',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '31',
@@ -257,7 +257,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Alfred Cop Fotografie',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '32',
@@ -265,7 +265,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'United Photo\'s Foppe de Boer',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '33',
@@ -273,7 +273,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'The Grand Rapids Press',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '34',
@@ -281,7 +281,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'HCAW Archief',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '35',
@@ -289,7 +289,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Play Off',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '36',
@@ -298,7 +298,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmcontact' => 'Stevens',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '37',
@@ -307,7 +307,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmcontact' => 'FriedlÃ¤nder',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '38',
@@ -316,7 +316,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmcontact' => 'Eberhard',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '39',
@@ -324,7 +324,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Associated Press',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '40',
@@ -332,7 +332,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'ANEFO',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '41',
@@ -341,7 +341,7 @@ class SourcesSeeder extends AbstractSeed
 	'ftwebsite' => 'www.gpd.nl',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '42',
@@ -349,7 +349,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'European Press Agency',
 	'cdpermission' => 'J',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '43',
@@ -357,7 +357,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Bussums Nieuws',
 	'cdpermission' => 'N',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '44',
@@ -365,7 +365,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Almere Vandaag',
 	'cdpermission' => 'N',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '45',
@@ -373,7 +373,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Bussumse Krant',
 	'cdpermission' => 'N',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '46',
@@ -381,7 +381,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Gooise Leven',
 	'cdpermission' => 'N',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '47',
@@ -389,7 +389,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Metropool Sport',
 	'cdpermission' => 'N',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '48',
@@ -397,7 +397,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Spits',
 	'cdpermission' => 'N',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idsource' => '49',
@@ -405,7 +405,7 @@ class SourcesSeeder extends AbstractSeed
 	'nmsource' => 'Naarder Koerier',
 	'cdpermission' => 'N',
 	'created_at' => '2019-03-24 09:23:08',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 
 

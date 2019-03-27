@@ -8,7 +8,7 @@ require_once "CheckBox.php";
 
 class Video extends SingleItemPage{
 	var $nmtable	= "videos";
-	var $nmkey		= "idvideo";
+	var $nmkey		= "id";
 	var $path		= "./images/videos/";
 	var $width		= "200";
 
@@ -22,7 +22,7 @@ class Video extends SingleItemPage{
 	}
 
 	function processRecord(){
-		$this->id			= $this->ftrecord['idvideo'];
+		$this->id			= $this->ftrecord['id'];
 
 		$this->nmvideo		= $this->ftrecord['nmvideo'];
 		$this->nmurl		= $this->ftrecord['nmurl'];
@@ -108,9 +108,9 @@ class Video extends SingleItemPage{
 	Labels
 	*******************/
 	function getLabels(){
-		$ftlabels["idvideo"]		= "";
-		$ftlabels["nmvideo"]		= "Titel";
-		$ftlabels["nmurl"]			= "Hyperlink";
+		$ftlabels["id"]			= "";
+		$ftlabels["nmvideo"]	= "Titel";
+		$ftlabels["nmurl"]		= "Hyperlink";
 
 		$ftlabels = parent::getGenericLabels($ftlabels);
 
