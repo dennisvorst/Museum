@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 class GameTest extends TestCase
 {
-    public function testClassExists()
+    public function testClassGameExists()
     {
         $this->assertTrue(class_exists("Game"));
     }

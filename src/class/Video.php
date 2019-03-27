@@ -3,8 +3,8 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-require_once "class/SingleItemPage.php";
-require_once "class/CheckBox.php";
+require_once "SingleItemPage.php";
+require_once "CheckBox.php";
 
 class Video extends SingleItemPage{
 	var $nmtable	= "videos";

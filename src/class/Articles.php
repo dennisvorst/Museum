@@ -2,9 +2,9 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-require_once "class/Article.php";
-require_once "class/ListPage.php";
-require_once "class/MenuBar.php";
+require_once "Article.php";
+require_once "ListPage.php";
+require_once "MenuBar.php";
 
 class Articles extends ListPage{
 	var $nmtitle		= "Artikelen";

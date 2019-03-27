@@ -1,6 +1,6 @@
 <?php
-require_once "class/ListPage.php";
-require_once "class/Video.php";
+require_once "ListPage.php";
+require_once "Video.php";
 
 class Videos extends ListPage{
 	var $nmtitle		= "Video's";

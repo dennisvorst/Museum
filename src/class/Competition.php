@@ -1,7 +1,7 @@
 <?php
-require_once "class/SingleItemPage.php";
-require_once "class/Games.php";
-require_once "class/Participants.php";
+require_once "SingleItemPage.php";
+require_once "Games.php";
+require_once "Participants.php";
 
 class Competition extends SingleItemPage{
 	var $nmtable	= "competitions";

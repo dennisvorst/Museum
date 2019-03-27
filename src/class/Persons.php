@@ -1,8 +1,8 @@
 <?php
-require_once "class/ListPage.php";
-require_once "class/MenuBar.php";
-require_once "class/HtmlTable.php";
-require_once "class/Person.php";
+require_once "ListPage.php";
+require_once "MenuBar.php";
+require_once "HtmlTable.php";
+require_once "Person.php";
 
 class Persons extends ListPage{
 	var $nmtitle			= "Personen";

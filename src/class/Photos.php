@@ -1,7 +1,7 @@
 <?php
-require_once "class/ListPage.php";
-require_once "class/MenuBar.php";
-require_once "class/Photo.php";
+require_once "ListPage.php";
+require_once "MenuBar.php";
+require_once "Photo.php";
 
 class Photos extends ListPage{
 	var $debug 			= false;

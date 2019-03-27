@@ -1,10 +1,10 @@
 <?php
-require_once "class/ListPage.php";
-require_once "class/Articles.php";
-require_once "class/Photos.php";
-require_once "class/Persons.php";
-require_once "class/Clubs.php";
-require_once "class/Videos.php";
+require_once "ListPage.php";
+require_once "Articles.php";
+require_once "Photos.php";
+require_once "Persons.php";
+require_once "Clubs.php";
+require_once "Videos.php";
 
 class Home extends ListPage{
 	/* constructor */
