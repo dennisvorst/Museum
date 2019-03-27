@@ -1,5 +1,5 @@
 <?php
-require_once "class/ListPage.php";
+require_once "ListPage.php";
 
 class Stats extends ListPage{
 	var $fthitting;

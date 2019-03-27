@@ -21,7 +21,7 @@ class PersonaliasesSeeder extends AbstractSeed
 	'idperson' => '268',
 	'nmperson' => 'Piet Luteijn',
 	'created_at' => '2019-03-24 09:20:06',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 
     	];

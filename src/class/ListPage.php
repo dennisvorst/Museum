@@ -2,9 +2,9 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-require_once "class/HtmlField.php";
-require_once "class/HtmlSelect.php";
-require_once "class/MainPage.php";
+require_once "HtmlField.php";
+require_once "HtmlSelect.php";
+require_once "MainPage.php";
 
 class ListPage extends MainPage{
 	var $debug 			= false;

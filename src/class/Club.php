@@ -1,6 +1,6 @@
 <?php
-require_once "class/SingleItemPage.php";
-require_once "class/HtmlSelect.php";
+require_once "SingleItemPage.php";
+require_once "HtmlSelect.php";
 
 class Club extends SingleItemPage{
 	var $nmtable	= "clubs";

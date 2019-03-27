@@ -43,8 +43,8 @@ class ClubvideosMigration extends AbstractMigration
 		$sql .= "`cdmanually` tinyint(1) NOT NULL DEFAULT '0',";
 
 		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
-		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
-		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+		$sql .= "`updated_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
+		$sql .= "`updated_at` timestamp NULL DEFAULT NULL,";
 
 		$sql .= "PRIMARY KEY (`idclubvideo`),";
 		$sql .= "KEY `ClubVideos_1` (`idvideo`),";

@@ -35,7 +35,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '55',
 	'nrera' => '1.03',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '2',
@@ -55,7 +55,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '88',
 	'nrera' => '1.11',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '3',
@@ -74,7 +74,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '101',
 	'nrera' => '1.13',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '4',
@@ -92,7 +92,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '78',
 	'nrera' => '1.76',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '5',
@@ -112,7 +112,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '92',
 	'nrera' => '1.77',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '6',
@@ -132,7 +132,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '92',
 	'nrera' => '2.11',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '7',
@@ -151,7 +151,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '45',
 	'nrera' => '2.36',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '8',
@@ -170,7 +170,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '16',
 	'nrera' => '2.43',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '9',
@@ -190,7 +190,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '77',
 	'nrera' => '2.5',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '10',
@@ -210,7 +210,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '58',
 	'nrera' => '2.9',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '11',
@@ -230,7 +230,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '36',
 	'nrera' => '3.33',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '12',
@@ -249,7 +249,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '27',
 	'nrera' => '3.44',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '13',
@@ -268,7 +268,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '19',
 	'nrera' => '3.8',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '14',
@@ -287,7 +287,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '29',
 	'nrera' => '3.88',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '15',
@@ -306,7 +306,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '60',
 	'nrera' => '3.93',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '16',
@@ -326,7 +326,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '47',
 	'nrera' => '4.13',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '17',
@@ -346,7 +346,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '34',
 	'nrera' => '4.31',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '18',
@@ -365,7 +365,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '46',
 	'nrera' => '4.4',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '19',
@@ -384,7 +384,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '38',
 	'nrera' => '4.43',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '20',
@@ -403,7 +403,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '23',
 	'nrera' => '4.58',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '21',
@@ -422,7 +422,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '33',
 	'nrera' => '4.79',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '22',
@@ -441,7 +441,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '19',
 	'nrera' => '5.09',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '23',
@@ -460,7 +460,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '40',
 	'nrera' => '5.19',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '24',
@@ -479,7 +479,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '27',
 	'nrera' => '6.17',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '25',
@@ -498,7 +498,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '15',
 	'nrera' => '6.95',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '26',
@@ -516,7 +516,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '41',
 	'nrera' => '7.88',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '27',
@@ -535,7 +535,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '21',
 	'nrera' => '8.05',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '28',
@@ -553,7 +553,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '17',
 	'nrera' => '8.21',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '29',
@@ -573,7 +573,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '18',
 	'nrera' => '8.34',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '30',
@@ -591,7 +591,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '23',
 	'nrera' => '11.74',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '31',
@@ -608,7 +608,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbb' => '4',
 	'nrso' => '38',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '32',
@@ -622,7 +622,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrh' => '6',
 	'nrso' => '15',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '33',
@@ -634,7 +634,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrh' => '2',
 	'nrso' => '1',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '34',
@@ -648,7 +648,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbb' => '2',
 	'nrso' => '1',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '35',
@@ -663,7 +663,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbb' => '1',
 	'nrso' => '2',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '36',
@@ -674,7 +674,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrgs' => '5',
 	'nrip' => '1.2',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '37',
@@ -686,7 +686,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrh' => '1',
 	'nrso' => '1',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '38',
@@ -697,7 +697,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrip' => '1',
 	'nrbb' => '2',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '39',
@@ -707,7 +707,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrapp' => '1',
 	'nrip' => '0.1',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '40',
@@ -726,7 +726,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '23',
 	'nrera' => '0.83',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '41',
@@ -745,7 +745,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '17',
 	'nrera' => '1.07',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '42',
@@ -763,7 +763,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '1',
 	'nrera' => '1.12',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '43',
@@ -780,7 +780,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '2',
 	'nrera' => '1.12',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '44',
@@ -798,7 +798,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '23',
 	'nrera' => '1.24',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '45',
@@ -814,7 +814,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '7',
 	'nrera' => '1.35',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '46',
@@ -833,7 +833,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '23',
 	'nrera' => '1.48',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '47',
@@ -851,7 +851,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '25',
 	'nrera' => '1.93',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '48',
@@ -867,7 +867,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '2',
 	'nrera' => '1.93',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '49',
@@ -885,7 +885,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '19',
 	'nrera' => '2.03',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '50',
@@ -903,7 +903,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '23',
 	'nrera' => '2.2',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '51',
@@ -920,7 +920,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '19',
 	'nrera' => '2.7',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '52',
@@ -939,7 +939,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '21',
 	'nrera' => '2.76',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '53',
@@ -958,7 +958,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '12',
 	'nrera' => '2.77',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '54',
@@ -976,7 +976,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '23',
 	'nrera' => '2.96',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '55',
@@ -995,7 +995,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '19',
 	'nrera' => '3',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '56',
@@ -1011,7 +1011,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '6',
 	'nrera' => '3',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '57',
@@ -1027,7 +1027,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '2',
 	'nrera' => '3',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '58',
@@ -1045,7 +1045,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '21',
 	'nrera' => '3.33',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '59',
@@ -1061,7 +1061,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '14',
 	'nrera' => '3.68',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '60',
@@ -1079,7 +1079,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '7',
 	'nrera' => '3.72',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '61',
@@ -1095,7 +1095,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '9',
 	'nrera' => '4.19',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '62',
@@ -1111,7 +1111,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '3',
 	'nrera' => '4.32',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '63',
@@ -1130,7 +1130,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '7',
 	'nrera' => '4.33',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '64',
@@ -1149,7 +1149,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '6',
 	'nrera' => '4.34',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '65',
@@ -1165,7 +1165,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '7',
 	'nrera' => '4.91',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '66',
@@ -1183,7 +1183,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '15',
 	'nrera' => '5.28',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '67',
@@ -1201,7 +1201,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '9',
 	'nrera' => '5.31',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '68',
@@ -1217,7 +1217,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '1',
 	'nrera' => '5.4',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '69',
@@ -1235,7 +1235,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '5',
 	'nrera' => '5.51',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '70',
@@ -1252,7 +1252,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '4',
 	'nrera' => '5.56',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '71',
@@ -1269,7 +1269,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '16',
 	'nrera' => '5.65',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '72',
@@ -1286,7 +1286,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '3',
 	'nrera' => '5.73',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '73',
@@ -1304,7 +1304,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '10',
 	'nrera' => '5.85',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '74',
@@ -1321,7 +1321,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '14',
 	'nrera' => '6.08',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '75',
@@ -1337,7 +1337,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '3',
 	'nrera' => '6.35',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '76',
@@ -1356,7 +1356,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '12',
 	'nrera' => '6.75',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '77',
@@ -1372,7 +1372,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '1',
 	'nrera' => '6.75',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '78',
@@ -1390,7 +1390,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '7',
 	'nrera' => '7.36',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '79',
@@ -1407,7 +1407,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '6',
 	'nrera' => '8.44',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '80',
@@ -1425,7 +1425,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '6',
 	'nrera' => '9',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '81',
@@ -1442,7 +1442,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '3',
 	'nrera' => '9.82',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '82',
@@ -1460,7 +1460,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '7',
 	'nrera' => '10.03',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '83',
@@ -1477,7 +1477,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '22',
 	'nrera' => '12.89',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '84',
@@ -1495,7 +1495,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '3',
 	'nrera' => '14.43',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '85',
@@ -1512,7 +1512,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '5',
 	'nrera' => '16.88',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '86',
@@ -1527,7 +1527,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbb' => '1',
 	'nrera' => '18',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '87',
@@ -1545,7 +1545,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '8',
 	'nrera' => '18.97',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '88',
@@ -1560,7 +1560,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbb' => '2',
 	'nrera' => '27',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '89',
@@ -1574,7 +1574,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrer' => '5',
 	'nrera' => '45',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '90',
@@ -1588,7 +1588,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbb' => '2',
 	'nrera' => '99',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '91',
@@ -1614,7 +1614,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '6',
 	'nrera' => '1.15',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '92',
@@ -1640,7 +1640,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '4',
 	'nrera' => '1.33',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '93',
@@ -1664,7 +1664,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '1.53',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '94',
@@ -1688,7 +1688,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '1.59',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '95',
@@ -1713,7 +1713,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '1.72',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '96',
@@ -1739,7 +1739,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '1.97',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '97',
@@ -1765,7 +1765,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '4',
 	'nrera' => '1.98',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '98',
@@ -1791,7 +1791,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '2.16',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '99',
@@ -1814,7 +1814,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '2.34',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '100',
@@ -1839,7 +1839,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '2.38',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '101',
@@ -1862,7 +1862,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '2.45',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '102',
@@ -1887,7 +1887,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '2.66',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '103',
@@ -1913,7 +1913,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '6',
 	'nrera' => '2.7',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '104',
@@ -1938,7 +1938,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '2.8',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '105',
@@ -1966,7 +1966,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '4',
 	'nrera' => '3.06',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '106',
@@ -1993,7 +1993,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '3.6',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '107',
@@ -2020,7 +2020,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '3.72',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '108',
@@ -2047,7 +2047,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '3.73',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '109',
@@ -2073,7 +2073,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '4',
 	'nrera' => '3.81',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '110',
@@ -2100,7 +2100,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '7',
 	'nrera' => '4.04',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '111',
@@ -2126,7 +2126,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '4.08',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '112',
@@ -2151,7 +2151,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '4',
 	'nrera' => '4.14',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '113',
@@ -2177,7 +2177,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '4.29',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '114',
@@ -2203,7 +2203,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '4.33',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '115',
@@ -2229,7 +2229,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '5',
 	'nrera' => '4.44',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '116',
@@ -2253,7 +2253,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '2',
 	'nrera' => '4.54',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '117',
@@ -2279,7 +2279,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '6',
 	'nrera' => '4.82',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '118',
@@ -2305,7 +2305,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '10',
 	'nrera' => '4.83',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '119',
@@ -2334,7 +2334,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '2',
 	'nrera' => '4.89',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '120',
@@ -2360,7 +2360,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '5.42',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '121',
@@ -2386,7 +2386,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '10',
 	'nrera' => '5.55',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '122',
@@ -2411,7 +2411,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '6',
 	'nrera' => '5.56',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '123',
@@ -2435,7 +2435,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '7',
 	'nrera' => '6.45',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '124',
@@ -2461,7 +2461,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '10.62',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '125',
@@ -2488,7 +2488,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '10.94',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '126',
@@ -2506,7 +2506,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '1',
 	'nrhbp' => '2',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '127',
@@ -2522,7 +2522,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrab' => '8',
 	'nroppavg' => '0.125',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '128',
@@ -2533,7 +2533,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrip' => '1',
 	'nrab' => '3',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '129',
@@ -2555,7 +2555,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.13',
 	'nrera' => '1.12',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '130',
@@ -2579,7 +2579,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '2',
 	'nrera' => '1.2',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '131',
@@ -2605,7 +2605,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '1.26',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '132',
@@ -2626,7 +2626,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '1.35',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '133',
@@ -2651,7 +2651,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '1.38',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '134',
@@ -2673,7 +2673,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '1.82',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '135',
@@ -2692,7 +2692,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.143',
 	'nrera' => '2.16',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '136',
@@ -2716,7 +2716,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '2',
 	'nrera' => '2.39',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '137',
@@ -2738,7 +2738,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '2.66',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '138',
@@ -2760,7 +2760,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '5',
 	'nrera' => '3',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '139',
@@ -2782,7 +2782,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '3',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '140',
@@ -2807,7 +2807,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '3.2',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '141',
@@ -2829,7 +2829,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '3.38',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '142',
@@ -2854,7 +2854,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '1',
 	'nrera' => '3.52',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '143',
@@ -2878,7 +2878,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '3.86',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '144',
@@ -2899,7 +2899,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '2',
 	'nrera' => '3.86',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '145',
@@ -2922,7 +2922,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '4.01',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '146',
@@ -2947,7 +2947,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '4.12',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '147',
@@ -2970,7 +2970,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '4.56',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '148',
@@ -2994,7 +2994,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '4.81',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '149',
@@ -3013,7 +3013,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.333',
 	'nrera' => '4.91',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '150',
@@ -3037,7 +3037,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.158',
 	'nrera' => '5.06',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '151',
@@ -3061,7 +3061,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '5.48',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '152',
@@ -3086,7 +3086,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '5.68',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '153',
@@ -3106,7 +3106,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '5.87',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '154',
@@ -3132,7 +3132,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '4',
 	'nrera' => '5.94',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '155',
@@ -3160,7 +3160,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '6.16',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '156',
@@ -3183,7 +3183,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '6.91',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '157',
@@ -3206,7 +3206,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '7',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '158',
@@ -3224,7 +3224,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.375',
 	'nrera' => '7.36',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '159',
@@ -3245,7 +3245,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '7.84',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '160',
@@ -3267,7 +3267,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '8.31',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '161',
@@ -3284,7 +3284,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.25',
 	'nrera' => '9',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '162',
@@ -3303,7 +3303,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.25',
 	'nrera' => '9',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '163',
@@ -3328,7 +3328,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '9.74',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '164',
@@ -3354,7 +3354,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '9.78',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '165',
@@ -3376,7 +3376,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '4',
 	'nrera' => '10.8',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '166',
@@ -3394,7 +3394,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.417',
 	'nrera' => '11.57',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '167',
@@ -3419,7 +3419,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '12.17',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '168',
@@ -3444,7 +3444,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '12.6',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '169',
@@ -3468,7 +3468,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '13.14',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '170',
@@ -3492,7 +3492,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '13.5',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '171',
@@ -3511,7 +3511,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '13.5',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '172',
@@ -3527,7 +3527,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrab' => '2',
 	'nrera' => '13.5',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '173',
@@ -3550,7 +3550,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.4',
 	'nrera' => '15',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '174',
@@ -3570,7 +3570,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '15.43',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '175',
@@ -3592,7 +3592,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '27',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '176',
@@ -3610,7 +3610,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.5',
 	'nrera' => '27',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '177',
@@ -3630,7 +3630,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '1',
 	'nrera' => '33.75',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '178',
@@ -3647,7 +3647,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.75',
 	'nrera' => '81',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '179',
@@ -3672,7 +3672,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '3',
 	'nrera' => '0.84',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '180',
@@ -3697,7 +3697,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '9',
 	'nrera' => '1.26',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '181',
@@ -3720,7 +3720,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '1.3',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '182',
@@ -3746,7 +3746,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '5',
 	'nrera' => '1.32',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '183',
@@ -3771,7 +3771,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '1.54',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '184',
@@ -3796,7 +3796,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '5',
 	'nrera' => '1.81',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '185',
@@ -3823,7 +3823,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '1.9',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '186',
@@ -3849,7 +3849,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '2.06',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '187',
@@ -3875,7 +3875,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '4',
 	'nrera' => '2.13',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '188',
@@ -3901,7 +3901,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '2.23',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '189',
@@ -3927,7 +3927,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '5',
 	'nrera' => '2.29',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '190',
@@ -3954,7 +3954,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '4',
 	'nrera' => '2.29',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '191',
@@ -3980,7 +3980,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '7',
 	'nrera' => '2.39',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '192',
@@ -4008,7 +4008,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '2.65',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '193',
@@ -4033,7 +4033,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '10',
 	'nrera' => '2.72',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '194',
@@ -4058,7 +4058,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '4',
 	'nrera' => '2.82',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '195',
@@ -4085,7 +4085,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '2.86',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '196',
@@ -4111,7 +4111,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '8',
 	'nrera' => '3.43',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '197',
@@ -4138,7 +4138,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '3.66',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '198',
@@ -4165,7 +4165,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '3.68',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '199',
@@ -4189,7 +4189,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '4',
 	'nrera' => '3.74',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '200',
@@ -4217,7 +4217,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '3.75',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '201',
@@ -4242,7 +4242,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '3.82',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '202',
@@ -4267,7 +4267,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '4',
 	'nrera' => '4',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '203',
@@ -4292,7 +4292,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '4.24',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '204',
@@ -4318,7 +4318,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '2',
 	'nrera' => '4.62',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '205',
@@ -4342,7 +4342,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '4.84',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '206',
@@ -4367,7 +4367,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '8',
 	'nrera' => '4.87',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '207',
@@ -4393,7 +4393,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '5.08',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '208',
@@ -4417,7 +4417,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '2',
 	'nrera' => '5.26',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '209',
@@ -4445,7 +4445,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '5.91',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '210',
@@ -4472,7 +4472,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '4',
 	'nrera' => '5.96',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '211',
@@ -4500,7 +4500,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '6.05',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '212',
@@ -4526,7 +4526,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '9.16',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '213',
@@ -4540,7 +4540,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrab' => '5',
 	'nroppavg' => '0.2',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '214',
@@ -4553,7 +4553,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '1',
 	'nrab' => '3',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '215',
@@ -4566,7 +4566,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrso' => '1',
 	'nrab' => '3',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '216',
@@ -4578,7 +4578,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrab' => '4',
 	'nrwp' => '1',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '217',
@@ -4593,7 +4593,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.5',
 	'nrwp' => '1',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '218',
@@ -4615,7 +4615,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '3',
 	'nrera' => '0.36',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '219',
@@ -4638,7 +4638,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '7',
 	'nrera' => '0.93',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '220',
@@ -4660,7 +4660,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '1.65',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '221',
@@ -4682,7 +4682,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '1.69',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '222',
@@ -4703,7 +4703,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '1.8',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '223',
@@ -4726,7 +4726,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '2.1',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '224',
@@ -4748,7 +4748,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '2.55',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '225',
@@ -4766,7 +4766,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.333',
 	'nrera' => '3',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '226',
@@ -4791,7 +4791,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '3.09',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '227',
@@ -4817,7 +4817,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '3.19',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '228',
@@ -4837,7 +4837,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '3',
 	'nrera' => '3.27',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '229',
@@ -4862,7 +4862,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '3.28',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '230',
@@ -4888,7 +4888,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '3.29',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '231',
@@ -4913,7 +4913,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '3.66',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '232',
@@ -4940,7 +4940,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '3',
 	'nrera' => '3.68',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '233',
@@ -4964,7 +4964,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '3.77',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '234',
@@ -4990,7 +4990,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '3.86',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '235',
@@ -5012,7 +5012,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '3.86',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '236',
@@ -5036,7 +5036,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '4.5',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '237',
@@ -5054,7 +5054,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.375',
 	'nrera' => '4.5',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '238',
@@ -5075,7 +5075,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '4.62',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '239',
@@ -5100,7 +5100,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '4.66',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '240',
@@ -5126,7 +5126,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '4.81',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '241',
@@ -5150,7 +5150,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '3',
 	'nrera' => '5.17',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '242',
@@ -5174,7 +5174,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '4',
 	'nrera' => '5.73',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '243',
@@ -5194,7 +5194,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.324',
 	'nrera' => '5.87',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '244',
@@ -5219,7 +5219,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '6.21',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '245',
@@ -5246,7 +5246,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '6.75',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '246',
@@ -5271,7 +5271,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '7',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '247',
@@ -5294,7 +5294,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '8.27',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '248',
@@ -5318,7 +5318,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '5',
 	'nrera' => '8.49',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '249',
@@ -5337,7 +5337,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '9',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '250',
@@ -5354,7 +5354,7 @@ class PitchingSeeder extends AbstractSeed
 	'nroppavg' => '0.5',
 	'nrera' => '9',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '251',
@@ -5377,7 +5377,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '2',
 	'nrera' => '10.8',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '252',
@@ -5398,7 +5398,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '10.8',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '253',
@@ -5422,7 +5422,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '1',
 	'nrera' => '11.57',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '254',
@@ -5447,7 +5447,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '12.42',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '255',
@@ -5469,7 +5469,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '13.5',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '256',
@@ -5493,7 +5493,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '13.89',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '257',
@@ -5514,7 +5514,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '2',
 	'nrera' => '14.21',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '258',
@@ -5532,7 +5532,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '18',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '259',
@@ -5553,7 +5553,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrwp' => '2',
 	'nrera' => '18.69',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '260',
@@ -5576,7 +5576,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '1',
 	'nrera' => '18.9',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '261',
@@ -5599,7 +5599,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrhbp' => '4',
 	'nrera' => '39.27',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpitching' => '262',
@@ -5619,7 +5619,7 @@ class PitchingSeeder extends AbstractSeed
 	'nrbk' => '2',
 	'nrera' => '99',
 	'created_at' => '2019-03-24 09:21:52',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 
     	];

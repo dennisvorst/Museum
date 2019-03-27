@@ -1,8 +1,8 @@
 <?php
-require_once "class/Date.php";
-require_once "class/Games.php";
-require_once "class/HtmlTable.php";
-require_once "class/Persons.php";
+require_once "Date.php";
+require_once "Games.php";
+require_once "HtmlTable.php";
+require_once "Persons.php";
 
 class Participant extends SingleItemPage{
 	var $nmtable	= "participants";

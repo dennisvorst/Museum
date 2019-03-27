@@ -42,8 +42,8 @@ class PersonaliasesMigration extends AbstractMigration
 		$sql .= "`nmperson` varchar(50) COLLATE utf8_unicode_ci NOT NULL,";
 
 		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
-		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
-		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+		$sql .= "`updated_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
+		$sql .= "`updated_at` timestamp NULL DEFAULT NULL,";
 
 		$sql .= "PRIMARY KEY (`idalias`),";
 		$sql .= "KEY `PersonAliases_2` (`idperson`)";

@@ -21,11 +21,13 @@ Website for the Dutch base- and softballmuseum.
 ## Shopping list (todo)
 
 * Figure out how to properly migrate and seed the database 
-* create tests for existing classes
 * change the email adres of the site into info@honkbalmuseum.nl
 * build check to match photos and thumbnails with records 
 * anonimify the usersseeder 
 * anonimify the personsseeder
+* Can all plural classes be moved to collections in their representative classes
+* alters stat and stats classes in functional specific statclasses 
+* change changed_by into updated_by, same for at
 
 ## Release info
 | Date | Description |
@@ -37,3 +39,4 @@ Website for the Dutch base- and softballmuseum.
 | 24 march 2019 | Deleted artisteer references |
 | 24 march 2019 | Changed database columns |
 | 25 march 2019 | First tests added using PHPunit |
+| 27 march 2019 | Tests added for all classes using PHPunit |

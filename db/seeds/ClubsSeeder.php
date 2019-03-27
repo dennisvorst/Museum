@@ -30,7 +30,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTERDAM',
 	'ftphone' => '020-6445575',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '2',
@@ -45,7 +45,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftphone' => '070-3669722',
 	'is_featured' => '1',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '3',
@@ -59,7 +59,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ALKMAAR',
 	'ftphone' => '072-5113934',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '4',
@@ -74,7 +74,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'VELDHOVEN',
 	'ftphone' => '040-2542370',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '5',
@@ -88,7 +88,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'OUDERKERK A/D AMSTEL',
 	'ftphone' => '020-6003448',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '6',
@@ -103,7 +103,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ALPHEN A/D RIJN',
 	'ftphone' => '0172-473116',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '7',
@@ -117,7 +117,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DUIVENDRECHT',
 	'ftphone' => '020-6965551',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '8',
@@ -130,7 +130,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'BOVENKARSPEL',
 	'ftphone' => '0228-515641',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '9',
@@ -144,7 +144,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'BERGEN',
 	'ftphone' => '072-5895778',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '10',
@@ -157,7 +157,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5358824',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '11',
@@ -172,7 +172,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ZOETERMEER',
 	'ftphone' => '079-3413020',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '12',
@@ -187,7 +187,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'BLADEL',
 	'ftphone' => '0497-381853',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '13',
@@ -200,7 +200,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'BLOEMENDAAL',
 	'ftphone' => '023-5375300',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '14',
@@ -214,7 +214,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'VEENDAM',
 	'ftphone' => '0598-626070',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '15',
@@ -228,7 +228,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DELFT',
 	'ftphone' => '015-2563322',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '16',
@@ -241,7 +241,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'MEPPEL',
 	'ftphone' => '0522-260913',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '17',
@@ -256,7 +256,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'VEENENDAAL',
 	'ftphone' => '0318-515929',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '18',
@@ -269,7 +269,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'SPIJKENISSE',
 	'ftphone' => '0181-618849',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '19',
@@ -284,7 +284,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'GOUDA',
 	'ftphone' => '0182-580606',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '20',
@@ -299,7 +299,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'BENNEBROEK',
 	'ftphone' => '02502-6156',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '21',
@@ -312,7 +312,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'CUYK',
 	'ftphone' => '0485-317630',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '22',
@@ -327,7 +327,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'OSS',
 	'ftphone' => '0412-625252',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '23',
@@ -340,7 +340,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'GRONINGEN',
 	'ftphone' => '050-5250095',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '24',
@@ -353,7 +353,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'NIJVERDAL',
 	'ftphone' => '0548-611439',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '25',
@@ -366,7 +366,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'WATERINGEN',
 	'ftphone' => '01742-5151',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '26',
@@ -380,7 +380,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ZWOLLE',
 	'ftphone' => '038-4545134',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '27',
@@ -395,7 +395,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'KROMMENIE',
 	'ftphone' => '075-6284780',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '28',
@@ -410,7 +410,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DOETINCHEM',
 	'ftphone' => '0314-330752',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '29',
@@ -423,7 +423,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ROTTERDAM',
 	'ftphone' => '010-4225602',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '30',
@@ -437,7 +437,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DRACHTEN',
 	'ftphone' => '0512-522433',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '31',
@@ -452,7 +452,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5333647',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '32',
@@ -467,7 +467,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5272678',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '33',
@@ -482,7 +482,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'BOXTEL',
 	'ftphone' => '0411-676411',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '34',
@@ -497,7 +497,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTELVEEN',
 	'ftphone' => '020-6493800',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '35',
@@ -511,7 +511,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'WAALRE',
 	'ftphone' => '040-2215890',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '36',
@@ -525,7 +525,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DEVENTER',
 	'ftphone' => '0570-628924',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '37',
@@ -539,7 +539,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5255675',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '38',
@@ -553,7 +553,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5373021',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '39',
@@ -566,7 +566,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'EMMEN',
 	'ftphone' => '0591-626089',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '40',
@@ -580,7 +580,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ARNHEM',
 	'ftphone' => '026-3515795',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '41',
@@ -595,7 +595,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'CAPELLE AAN DEN IJSSEL',
 	'ftphone' => '010-4518625',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '42',
@@ -608,7 +608,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DE BILT',
 	'ftphone' => '030-2204575',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '43',
@@ -622,7 +622,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'LELYSTAD',
 	'ftphone' => '0320-246263',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '44',
@@ -635,7 +635,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'MADE',
 	'ftphone' => '0162-685727',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '45',
@@ -649,7 +649,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ROTTERDAM',
 	'ftphone' => '010-4790483',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '46',
@@ -663,7 +663,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'LISSE',
 	'ftphone' => '0252-418226',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '47',
@@ -677,7 +677,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'PURMEREND',
 	'ftphone' => '0299-435818',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '48',
@@ -692,7 +692,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'GELDROP',
 	'ftphone' => '040-2863521',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '49',
@@ -706,7 +706,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5338606',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '50',
@@ -719,7 +719,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'EMMELOORD',
 	'ftphone' => '0527-619347',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '51',
@@ -734,7 +734,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'MIDDELBURG',
 	'ftphone' => '0118-634862',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '52',
@@ -749,7 +749,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'VLAARDINGEN',
 	'ftphone' => '010-4749196',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '53',
@@ -762,7 +762,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5375732',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '54',
@@ -776,7 +776,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5264110',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '55',
@@ -791,7 +791,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5257121',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '56',
@@ -805,7 +805,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftphone' => '078-6134573',
 	'is_featured' => '1',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '57',
@@ -817,7 +817,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'NIJMEGEN',
 	'ftphone' => '024-3557484',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '58',
@@ -830,7 +830,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DEN BOSCH',
 	'ftphone' => '073-6425609',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '59',
@@ -846,7 +846,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftphone' => '035-6931430',
 	'is_featured' => '1',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '60',
@@ -860,7 +860,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HEILOO',
 	'ftphone' => '072-5334321',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '61',
@@ -874,7 +874,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HEERHUGOWAARD',
 	'ftphone' => '072-5717350',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '62',
@@ -886,7 +886,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'WINTERSWIJK',
 	'ftphone' => '0543-517764',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '63',
@@ -899,7 +899,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HILVERSUM',
 	'ftphone' => '035-5826100',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '64',
@@ -914,7 +914,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAAKSBERGEN',
 	'ftphone' => '053-5724106',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '65',
@@ -929,7 +929,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'UTRECHT',
 	'ftphone' => '030-2617087',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '66',
@@ -942,7 +942,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HARDERBERG',
 	'ftphone' => '0523-265821',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '67',
@@ -958,7 +958,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftphone' => '023-5613557',
 	'is_featured' => '1',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '68',
@@ -973,7 +973,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DEN HAAG',
 	'ftphone' => '070-3636671',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '69',
@@ -987,7 +987,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'BREDA',
 	'ftphone' => '076-5223274',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '70',
@@ -1001,7 +1001,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5272678',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '71',
@@ -1014,7 +1014,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'WAALWIJK',
 	'ftphone' => '0416-340929',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '72',
@@ -1030,7 +1030,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftphone' => '023-5260021',
 	'is_featured' => '1',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '73',
@@ -1043,7 +1043,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ROSMALEN',
 	'ftphone' => '073-5217968',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '74',
@@ -1058,7 +1058,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DEN HAAG',
 	'ftphone' => '070-3636671',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '75',
@@ -1071,7 +1071,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DEN HAAG',
 	'ftphone' => '070-3938341',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '76',
@@ -1085,7 +1085,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTERDAM',
 	'ftphone' => '020-6925754',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '77',
@@ -1098,7 +1098,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ROTTERDAM',
 	'ftphone' => '010-4222113',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '78',
@@ -1113,7 +1113,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'BADHOEVEDORP',
 	'ftphone' => '020-6592500',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '79',
@@ -1126,7 +1126,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'MAASSTRICHT',
 	'ftphone' => '043-3436447',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '80',
@@ -1140,7 +1140,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTERDAM-NOORD',
 	'ftphone' => '020-6315375',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '81',
@@ -1155,7 +1155,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'EDE',
 	'ftphone' => '0318-622551',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '82',
@@ -1169,7 +1169,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'MAASSLUIS',
 	'ftphone' => '010-5917051',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '83',
@@ -1184,7 +1184,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HELMOND',
 	'ftphone' => '0492-514970',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '84',
@@ -1198,7 +1198,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ROTTERDAM',
 	'ftphone' => '010-4677518',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '85',
@@ -1214,7 +1214,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftphone' => '010-4375369',
 	'is_featured' => '1',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '86',
@@ -1227,7 +1227,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'NIEUW-VENNEP',
 	'ftphone' => '0252-620266',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '87',
@@ -1242,7 +1242,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'LINDENHOLT',
 	'ftphone' => '024-3784178',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '88',
@@ -1255,7 +1255,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'NUENEN',
 	'ftphone' => '040-2840566',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '89',
@@ -1268,7 +1268,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ZAANDAM',
 	'ftphone' => '075-6354618',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '90',
@@ -1283,7 +1283,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5373967',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '91',
@@ -1298,7 +1298,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTERDAM',
 	'ftphone' => '020-6630516',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '92',
@@ -1311,7 +1311,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HEERENVEEN',
 	'ftphone' => '0513-626333',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '93',
@@ -1325,7 +1325,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'WEERT',
 	'ftphone' => '0495-521997',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '94',
@@ -1340,7 +1340,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ZEIST',
 	'ftphone' => '030-6921248',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '95',
@@ -1354,7 +1354,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HEEMSTEDE',
 	'ftphone' => '023-5286751',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '96',
@@ -1367,7 +1367,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'IJMUIDEN',
 	'ftphone' => '0255-522264',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '97',
@@ -1382,7 +1382,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ASSEN',
 	'ftphone' => '0592-341094',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '98',
@@ -1397,7 +1397,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftphone' => '020-6162151',
 	'is_featured' => '1',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '99',
@@ -1411,7 +1411,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'EINDHOVEN',
 	'ftphone' => '040-2117750',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '100',
@@ -1426,7 +1426,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMERSFOORT',
 	'ftphone' => '033-4613883',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '101',
@@ -1440,7 +1440,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HEEMSTEDE',
 	'ftphone' => '023-5284388',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '102',
@@ -1455,7 +1455,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'RIJSWIJK',
 	'ftphone' => '070-3941368',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '103',
@@ -1469,7 +1469,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'EINDHOVEN',
 	'ftphone' => '040-2437671',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '104',
@@ -1484,7 +1484,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'SCHAGEN',
 	'ftphone' => '0224-213370',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '105',
@@ -1499,7 +1499,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'RIDDERKERK',
 	'ftphone' => '0180-430240',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '106',
@@ -1512,7 +1512,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'APELDOORN',
 	'ftphone' => '055-3553474',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '107',
@@ -1526,7 +1526,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'MOERGESTEL',
 	'ftphone' => '013-5131966',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '108',
@@ -1540,7 +1540,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'VELSEN-NOORD',
 	'ftphone' => '0251-224605',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '109',
@@ -1553,7 +1553,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'OLDENZAAL',
 	'ftphone' => '0541-513944',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '110',
@@ -1568,7 +1568,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'TILBURG',
 	'ftphone' => '013-5352924',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '111',
@@ -1583,7 +1583,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'SCHIEDAM',
 	'ftphone' => '010-4701546',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '112',
@@ -1597,7 +1597,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5375203',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '113',
@@ -1611,7 +1611,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'MIDDENMEER',
 	'ftphone' => '0227-501452',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '114',
@@ -1626,7 +1626,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTERDAM',
 	'ftphone' => '020-6654972',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '115',
@@ -1640,7 +1640,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'KAMPEN',
 	'ftphone' => '038-3317193',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '116',
@@ -1654,7 +1654,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'SITTARD',
 	'ftphone' => '046-4581694',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '117',
@@ -1669,7 +1669,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'SPAARNDAM',
 	'ftphone' => '023-5372904',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '118',
@@ -1683,7 +1683,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5264110',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '119',
@@ -1698,7 +1698,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ROTTERDAM',
 	'ftphone' => '010-4151145',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '120',
@@ -1711,7 +1711,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DIEREN',
 	'ftphone' => '0313-414971',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '121',
@@ -1726,7 +1726,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTERDAM',
 	'ftphone' => '020-6149950',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '122',
@@ -1740,7 +1740,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ETTEN-LEUR',
 	'ftphone' => '076-5022919',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '123',
@@ -1755,7 +1755,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'SCHIJNDEL',
 	'ftphone' => '073-5498418',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '124',
@@ -1770,7 +1770,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DEN HAAG',
 	'ftphone' => '070-3234151',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '125',
@@ -1784,7 +1784,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'EINDHOVEN',
 	'ftphone' => '040-2462827',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '126',
@@ -1798,7 +1798,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'SANTPOORT',
 	'ftphone' => '023-5378652',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '127',
@@ -1813,7 +1813,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ENSCHEDE',
 	'ftphone' => '053-4323599',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '128',
@@ -1826,7 +1826,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'UITHOORN',
 	'ftphone' => '0297-564400',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '129',
@@ -1840,7 +1840,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5317776',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '130',
@@ -1855,7 +1855,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'TILBURG',
 	'ftphone' => '013-5352924',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '131',
@@ -1869,7 +1869,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'OOSTERHOUT',
 	'ftphone' => '0162-433760',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '132',
@@ -1882,7 +1882,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5338606',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '133',
@@ -1896,7 +1896,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HOORN',
 	'ftphone' => '0229-233292',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '134',
@@ -1911,7 +1911,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'UTRECHT',
 	'ftphone' => '030-2945828',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '135',
@@ -1926,7 +1926,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftphone' => '030-2932702',
 	'is_featured' => '1',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '136',
@@ -1939,7 +1939,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'VENRAY',
 	'ftphone' => '0478-512140',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '137',
@@ -1952,7 +1952,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DEN HELDER',
 	'ftphone' => '0223-614435',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '138',
@@ -1966,7 +1966,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'MAARTENSDIJK',
 	'ftphone' => '0346-214145',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '139',
@@ -1979,7 +1979,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'CASTRICUM',
 	'ftphone' => '0251-652061',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '140',
@@ -1994,7 +1994,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'VLAARDINGEN',
 	'ftphone' => '010-4749196',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '141',
@@ -2008,7 +2008,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTERDAM',
 	'ftphone' => '020-6316433',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '142',
@@ -2022,7 +2022,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DEN HAAG',
 	'ftphone' => '070-3858018',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '143',
@@ -2037,7 +2037,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'WASSENAAR',
 	'ftphone' => '070-5179748',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '144',
@@ -2051,7 +2051,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'WINSCHOTEN',
 	'ftphone' => '0597-423117',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '145',
@@ -2065,7 +2065,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'APELDOORN',
 	'ftphone' => '055-5337777',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '146',
@@ -2079,7 +2079,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'WORMER',
 	'ftphone' => '075-6423004',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '147',
@@ -2094,7 +2094,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'WIJK BIJ DUURSTEDE',
 	'ftphone' => '0343-574253',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '148',
@@ -2107,7 +2107,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'TERNEUZEN',
 	'ftphone' => '0115-616458',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '149',
@@ -2121,7 +2121,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HUIZEN',
 	'ftphone' => '035-5255220',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '150',
@@ -2135,7 +2135,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ZWIJNDRECHT',
 	'ftphone' => '078-6101379',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '151',
@@ -2149,7 +2149,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTERDAM',
 	'ftphone' => '020-6114400',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '152',
@@ -2163,7 +2163,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'LEIDEN',
 	'ftphone' => '071-5176457',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '153',
@@ -2176,7 +2176,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HEERDE',
 	'ftphone' => '0578-694880',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '154',
@@ -2189,7 +2189,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'NUMANSDORP',
 	'ftphone' => '0186-653233',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '155',
@@ -2203,7 +2203,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DE BILT',
 	'ftphone' => '030-2204575',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '156',
@@ -2217,7 +2217,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'LEUSDEN',
 	'ftphone' => '033-4941501',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '157',
@@ -2232,7 +2232,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'LEEUWARDEN',
 	'ftphone' => '058-2666496',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '158',
@@ -2245,7 +2245,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'NIEUWEGEIN',
 	'ftphone' => '030-6080697',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '159',
@@ -2260,7 +2260,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTELVEEN',
 	'ftphone' => '020-6457248',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '160',
@@ -2274,7 +2274,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DEN HAAG',
 	'ftphone' => '070-3639093',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '161',
@@ -2286,7 +2286,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'VEGHEL',
 	'ftphone' => '0413-350602',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '162',
@@ -2300,7 +2300,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ALMERE',
 	'ftphone' => '036-5326003',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '163',
@@ -2313,7 +2313,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'UTRECHT',
 	'ftphone' => '030-2945828',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '164',
@@ -2327,7 +2327,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'LEIDEN',
 	'ftphone' => '071-5176709',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '165',
@@ -2340,7 +2340,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DELFT',
 	'ftphone' => '015-2618263',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '166',
@@ -2354,7 +2354,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'MAASDAM',
 	'ftphone' => '078-6763746',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '167',
@@ -2367,7 +2367,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'KOEDIJK',
 	'ftphone' => '072-5614900',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '168',
@@ -2381,7 +2381,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTERDAM',
 	'ftphone' => '020-6162151',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '169',
@@ -2394,7 +2394,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'TIEL-WEST',
 	'ftphone' => '0344-621001',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '170',
@@ -2409,7 +2409,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'UTRECHT',
 	'ftphone' => '030-2717091',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '171',
@@ -2423,7 +2423,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'LEIDEN',
 	'ftphone' => '071-5274610',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '172',
@@ -2436,7 +2436,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HEEMSTEDE',
 	'ftphone' => '023-5286751',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '173',
@@ -2449,7 +2449,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ROTTERDAM',
 	'ftphone' => '010-4558609',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '174',
@@ -2462,7 +2462,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'GEMERT',
 	'ftphone' => '0492-365725',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '175',
@@ -2477,7 +2477,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DEN HAAG',
 	'ftphone' => '070-3238390',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '176',
@@ -2490,7 +2490,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'VOORSCHOTEN',
 	'ftphone' => '071-5720722',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '177',
@@ -2504,7 +2504,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5333410',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '178',
@@ -2519,7 +2519,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ZANDVOORT',
 	'ftphone' => '023-5714066',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '179',
@@ -2534,7 +2534,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DELFT',
 	'ftphone' => '015-2782443',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '180',
@@ -2549,7 +2549,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DIEMEN',
 	'ftphone' => '020-6002747',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '181',
@@ -2562,7 +2562,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ZEEWOLDE',
 	'ftphone' => '036-5224725',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '182',
@@ -2577,7 +2577,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'BERGEN OP ZOOM',
 	'ftphone' => '0164-245618',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '183',
@@ -2591,7 +2591,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ENSCHEDE',
 	'ftphone' => '053-4898001',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '184',
@@ -2604,7 +2604,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'DEN HAAG',
 	'ftphone' => '070-3250113',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '185',
@@ -2616,7 +2616,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'BOXMEER',
 	'ftphone' => '0485-571404',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '186',
@@ -2630,7 +2630,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'AMSTERDAM',
 	'ftphone' => '020-6794226',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '187',
@@ -2645,7 +2645,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'ZWOLLE',
 	'ftphone' => '038-4211082',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '188',
@@ -2660,7 +2660,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5373967',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '189',
@@ -2674,7 +2674,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5270272',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '190',
@@ -2688,7 +2688,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'SANTPOORT',
 	'ftphone' => '023-5378652',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '191',
@@ -2703,7 +2703,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'HAARLEM',
 	'ftphone' => '023-5260021',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '192',
@@ -2717,7 +2717,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmcity' => 'SANTPOORT-NOORD',
 	'ftphone' => '023-5390244',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '193',
@@ -2730,7 +2730,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftaddress' => 'Nijerf',
 	'nmcity' => 'GROESBEEK',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '194',
@@ -2742,7 +2742,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftfield' => 'Sportpark Prinsenlaan',
 	'nmcity' => 'ROTTERDAM',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '195',
@@ -2753,7 +2753,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftlocation' => 'Leiden',
 	'nmcity' => 'LEIDEN',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '196',
@@ -2766,7 +2766,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftaddress' => 'Pruisische Veldweg',
 	'nmcity' => 'HENGELO',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '197',
@@ -2779,7 +2779,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftaddress' => 'Herenbaan',
 	'nmcity' => 'PUTTE',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '198',
@@ -2791,7 +2791,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftfield' => 'Sportpark \'Kranenmortel\'',
 	'nmcity' => 'DEURNE',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '199',
@@ -2804,7 +2804,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftaddress' => 'Jagerstraat',
 	'nmcity' => 'ROERMOND',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '200',
@@ -2817,7 +2817,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '6191NA',
 	'nmcity' => 'BEEK',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '201',
@@ -2831,7 +2831,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '3461GB',
 	'nmcity' => 'LINSCHOTEN',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '202',
@@ -2844,7 +2844,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '3255BE',
 	'nmcity' => 'OUDE TONGE',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '203',
@@ -2856,7 +2856,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftaddress' => 'Koningsweg',
 	'nmcity' => 'SOEST',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '204',
@@ -2870,7 +2870,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '6705DM',
 	'nmcity' => 'WAGENINGEN',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '205',
@@ -2883,7 +2883,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftaddress' => 'Sloterweg 1045',
 	'nmcity' => 'AMSTERDAM',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '206',
@@ -2895,7 +2895,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftfield' => 'Sportterrein \'Het Schenge\'',
 	'nmcity' => 'GOES',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '207',
@@ -2907,7 +2907,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '6372XA',
 	'nmcity' => 'KERKRADE',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '208',
@@ -2919,7 +2919,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftfield' => 'Sportpark \'Markgouw\'',
 	'nmcity' => 'MONNICKENDAM',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '209',
@@ -2932,7 +2932,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '7627PB',
 	'nmcity' => 'ALMELO',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '210',
@@ -2944,7 +2944,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftfield' => 'Sportpark \'Herungerberg\'',
 	'nmcity' => 'VENLO',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '211',
@@ -2956,7 +2956,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftfield' => 'Sportpark \'De Varenbreuk\'',
 	'nmcity' => 'HEERLEN',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '212',
@@ -2970,7 +2970,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '5520AC',
 	'nmcity' => 'EERSEL',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '213',
@@ -2984,7 +2984,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '6002AZ',
 	'nmcity' => 'WEERT',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '214',
@@ -2998,7 +2998,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '4707RA',
 	'nmcity' => 'ROOSENDAAL',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '215',
@@ -3011,7 +3011,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftaddress' => 'Meidoornpad',
 	'nmcity' => 'SCHOONHOVEN',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '216',
@@ -3025,7 +3025,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '2628CD',
 	'nmcity' => 'DELFT',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '217',
@@ -3037,7 +3037,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftfield' => 'Naast Sporthal Waddenhal',
 	'nmcity' => 'HARLINGEN',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '218',
@@ -3050,7 +3050,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftaddress' => 'Schotanusstraat',
 	'nmcity' => 'SNEEK',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '219',
@@ -3063,7 +3063,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftaddress' => 'Aalstweg',
 	'nmcity' => 'UDEN',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '220',
@@ -3075,7 +3075,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftfield' => 'Sportpark \'Rodenburg\'',
 	'nmcity' => 'LEEK',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '221',
@@ -3086,7 +3086,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftlocation' => 'Rotterdam',
 	'nmcity' => 'ROTTERDAM',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '222',
@@ -3096,7 +3096,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftlocation' => 'Diemen',
 	'nmcity' => 'DIEMEN',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '223',
@@ -3106,7 +3106,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftlocation' => 'Amsterdam',
 	'nmcity' => 'AMSTERDAM',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '224',
@@ -3116,7 +3116,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmfull' => 'Haarlemse Honkbal Club',
 	'ftlocation' => 'Haarlem',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '225',
@@ -3125,7 +3125,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmclub' => 'CTC',
 	'nmfull' => 'CTC',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '226',
@@ -3135,7 +3135,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmfull' => 'Honkbalclub 38',
 	'ftlocation' => 'Bussum',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '227',
@@ -3146,7 +3146,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftlocation' => 'Amsterdam',
 	'ftphone' => '020',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '228',
@@ -3155,7 +3155,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmclub' => 'HVA',
 	'nmfull' => 'HVA',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '229',
@@ -3164,7 +3164,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmclub' => 'VVGA',
 	'nmfull' => 'VVGA',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '230',
@@ -3174,7 +3174,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmfull' => 'HCK',
 	'ftlocation' => 'Haarlem',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '231',
@@ -3183,7 +3183,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmclub' => 'Ministerpark',
 	'ftlocation' => 'Naarden',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '232',
@@ -3192,7 +3192,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmclub' => 'CHEFANA',
 	'nmfull' => 'Chemische Fabriek Naarden',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '233',
@@ -3201,7 +3201,7 @@ class ClubsSeeder extends AbstractSeed
 	'nmclub' => 'Scimitars',
 	'nmfull' => 'Scimitars',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '234',
@@ -3213,7 +3213,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '2025MA',
 	'nmcity' => 'HAARLEM',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '235',
@@ -3226,7 +3226,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '3205LZ',
 	'nmcity' => 'SPIJKENISSE',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '236',
@@ -3239,7 +3239,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '3438HX',
 	'nmcity' => 'NIEUWEGEIN',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '237',
@@ -3252,7 +3252,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '5245PB',
 	'nmcity' => 'ROSMALEN',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idclub' => '238',
@@ -3265,7 +3265,7 @@ class ClubsSeeder extends AbstractSeed
 	'ftpostalcode' => '3737BM',
 	'nmcity' => 'GROENEKAN',
 	'created_at' => '2019-03-24 09:16:25',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 
 

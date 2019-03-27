@@ -29,7 +29,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '2',
@@ -44,7 +44,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '3',
@@ -59,7 +59,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '4',
@@ -74,7 +74,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-10-01',
 	'dtend' => '2016-10-01',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '5',
@@ -89,7 +89,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-09-24',
 	'dtend' => '2016-10-08',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '6',
@@ -104,7 +104,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-08-12',
 	'dtend' => '2016-08-28',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '7',
@@ -118,7 +118,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '8',
@@ -133,7 +133,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '9',
@@ -148,7 +148,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '10',
@@ -162,7 +162,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-04-09',
 	'dtend' => '2016-09-04',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '11',
@@ -176,7 +176,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-04-08',
 	'dtend' => '2016-10-09',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '12',
@@ -190,7 +190,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-04-16',
 	'dtend' => '2016-09-18',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '13',
@@ -204,7 +204,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '14',
@@ -219,7 +219,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '15',
@@ -234,7 +234,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '16',
@@ -249,7 +249,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-09-27',
 	'dtend' => '2016-09-29',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '17',
@@ -264,7 +264,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-09-17',
 	'dtend' => '2016-09-17',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '18',
@@ -279,7 +279,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-09-24',
 	'dtend' => '2016-09-24',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '19',
@@ -293,7 +293,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '20',
@@ -307,7 +307,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '21',
@@ -322,7 +322,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '22',
@@ -337,7 +337,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-10-08',
 	'dtend' => '2016-10-08',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '23',
@@ -352,7 +352,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-09-24',
 	'dtend' => '2016-09-25',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '24',
@@ -367,7 +367,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '25',
@@ -381,7 +381,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '26',
@@ -396,7 +396,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '27',
@@ -411,7 +411,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '28',
@@ -425,7 +425,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-10-08',
 	'dtend' => '2016-10-09',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '29',
@@ -440,7 +440,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '30',
@@ -455,7 +455,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-10-01',
 	'dtend' => '2016-10-02',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '31',
@@ -469,7 +469,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '32',
@@ -484,7 +484,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '33',
@@ -499,7 +499,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '34',
@@ -513,7 +513,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-04-08',
 	'dtend' => '2016-09-30',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '35',
@@ -527,7 +527,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-04-08',
 	'dtend' => '2016-09-23',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '36',
@@ -542,7 +542,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-10-01',
 	'dtend' => '2016-10-06',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '37',
@@ -556,7 +556,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '38',
@@ -571,7 +571,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '39',
@@ -586,7 +586,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '40',
@@ -601,7 +601,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-10-08',
 	'dtend' => '2016-10-08',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '41',
@@ -616,7 +616,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-10-01',
 	'dtend' => '2016-10-01',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '42',
@@ -631,7 +631,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-09-24',
 	'dtend' => '2016-09-24',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '43',
@@ -645,7 +645,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '44',
@@ -660,7 +660,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '45',
@@ -675,7 +675,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '46',
@@ -690,7 +690,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-06-18',
 	'dtend' => '2016-09-17',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '47',
@@ -705,7 +705,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-10-01',
 	'dtend' => '2016-10-01',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '48',
@@ -720,7 +720,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-10-02',
 	'dtend' => '2016-10-02',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '49',
@@ -734,7 +734,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '50',
@@ -749,7 +749,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '51',
@@ -764,7 +764,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '52',
@@ -779,7 +779,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-06-18',
 	'dtend' => '2016-09-20',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '53',
@@ -793,7 +793,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-04-16',
 	'dtend' => '2016-06-11',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '54',
@@ -807,7 +807,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '55',
@@ -821,7 +821,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '56',
@@ -836,7 +836,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '57',
@@ -851,7 +851,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '58',
@@ -866,7 +866,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '59',
@@ -880,7 +880,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '61',
@@ -894,7 +894,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '62',
@@ -909,7 +909,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '63',
@@ -924,7 +924,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '67',
@@ -938,7 +938,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '68',
@@ -953,7 +953,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '69',
@@ -968,7 +968,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '73',
@@ -982,7 +982,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '74',
@@ -997,7 +997,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '75',
@@ -1012,7 +1012,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '79',
@@ -1026,7 +1026,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '80',
@@ -1041,7 +1041,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '81',
@@ -1056,7 +1056,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '85',
@@ -1070,7 +1070,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '86',
@@ -1085,7 +1085,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '87',
@@ -1100,7 +1100,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '91',
@@ -1114,7 +1114,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '92',
@@ -1129,7 +1129,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '93',
@@ -1144,7 +1144,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '97',
@@ -1158,7 +1158,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '98',
@@ -1173,7 +1173,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '99',
@@ -1188,7 +1188,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '103',
@@ -1202,7 +1202,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '104',
@@ -1217,7 +1217,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '105',
@@ -1232,7 +1232,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '109',
@@ -1246,7 +1246,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '110',
@@ -1261,7 +1261,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '111',
@@ -1276,7 +1276,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '115',
@@ -1290,7 +1290,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '116',
@@ -1305,7 +1305,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '117',
@@ -1320,7 +1320,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '121',
@@ -1334,7 +1334,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '122',
@@ -1349,7 +1349,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '123',
@@ -1364,7 +1364,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '127',
@@ -1378,7 +1378,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '128',
@@ -1393,7 +1393,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '129',
@@ -1408,7 +1408,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '133',
@@ -1422,7 +1422,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '134',
@@ -1437,7 +1437,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '135',
@@ -1452,7 +1452,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '139',
@@ -1466,7 +1466,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '140',
@@ -1481,7 +1481,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '141',
@@ -1496,7 +1496,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '145',
@@ -1510,7 +1510,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '146',
@@ -1525,7 +1525,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '147',
@@ -1540,7 +1540,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '151',
@@ -1554,7 +1554,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '152',
@@ -1569,7 +1569,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '153',
@@ -1584,7 +1584,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '157',
@@ -1598,7 +1598,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '158',
@@ -1613,7 +1613,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '159',
@@ -1628,7 +1628,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '163',
@@ -1642,7 +1642,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '164',
@@ -1657,7 +1657,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '165',
@@ -1672,7 +1672,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '169',
@@ -1686,7 +1686,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '170',
@@ -1701,7 +1701,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '171',
@@ -1716,7 +1716,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '175',
@@ -1730,7 +1730,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '176',
@@ -1745,7 +1745,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '177',
@@ -1760,7 +1760,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '181',
@@ -1774,7 +1774,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '182',
@@ -1789,7 +1789,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '183',
@@ -1804,7 +1804,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '187',
@@ -1818,7 +1818,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '188',
@@ -1833,7 +1833,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '189',
@@ -1848,7 +1848,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '193',
@@ -1862,7 +1862,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '194',
@@ -1877,7 +1877,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '195',
@@ -1892,7 +1892,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '199',
@@ -1906,7 +1906,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '200',
@@ -1921,7 +1921,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '201',
@@ -1936,7 +1936,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '205',
@@ -1950,7 +1950,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '206',
@@ -1965,7 +1965,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '207',
@@ -1980,7 +1980,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '211',
@@ -1994,7 +1994,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '212',
@@ -2009,7 +2009,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '213',
@@ -2024,7 +2024,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '217',
@@ -2038,7 +2038,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '218',
@@ -2053,7 +2053,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '219',
@@ -2068,7 +2068,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '223',
@@ -2082,7 +2082,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '224',
@@ -2097,7 +2097,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '225',
@@ -2112,7 +2112,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '229',
@@ -2126,7 +2126,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '230',
@@ -2141,7 +2141,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '231',
@@ -2156,7 +2156,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '235',
@@ -2170,7 +2170,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '236',
@@ -2185,7 +2185,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '237',
@@ -2200,7 +2200,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '241',
@@ -2214,7 +2214,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '242',
@@ -2229,7 +2229,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '243',
@@ -2244,7 +2244,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '247',
@@ -2258,7 +2258,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '248',
@@ -2273,7 +2273,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '249',
@@ -2288,7 +2288,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '253',
@@ -2302,7 +2302,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '254',
@@ -2317,7 +2317,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '255',
@@ -2332,7 +2332,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '259',
@@ -2346,7 +2346,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '260',
@@ -2361,7 +2361,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '261',
@@ -2376,7 +2376,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '265',
@@ -2390,7 +2390,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '266',
@@ -2405,7 +2405,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '267',
@@ -2420,7 +2420,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '271',
@@ -2434,7 +2434,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '272',
@@ -2449,7 +2449,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '273',
@@ -2464,7 +2464,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '277',
@@ -2478,7 +2478,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '278',
@@ -2493,7 +2493,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '279',
@@ -2508,7 +2508,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '283',
@@ -2522,7 +2522,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '284',
@@ -2536,7 +2536,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '285',
@@ -2550,7 +2550,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '289',
@@ -2564,7 +2564,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '290',
@@ -2578,7 +2578,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '291',
@@ -2592,7 +2592,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '295',
@@ -2606,7 +2606,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '296',
@@ -2620,7 +2620,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '297',
@@ -2634,7 +2634,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '301',
@@ -2648,7 +2648,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '302',
@@ -2662,7 +2662,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '303',
@@ -2676,7 +2676,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '307',
@@ -2690,7 +2690,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '308',
@@ -2704,7 +2704,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '309',
@@ -2718,7 +2718,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '313',
@@ -2732,7 +2732,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '314',
@@ -2746,7 +2746,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '315',
@@ -2760,7 +2760,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '319',
@@ -2774,7 +2774,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '320',
@@ -2788,7 +2788,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '321',
@@ -2802,7 +2802,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '325',
@@ -2816,7 +2816,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '326',
@@ -2830,7 +2830,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '327',
@@ -2844,7 +2844,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '331',
@@ -2858,7 +2858,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '332',
@@ -2872,7 +2872,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '333',
@@ -2886,7 +2886,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '337',
@@ -2900,7 +2900,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '338',
@@ -2914,7 +2914,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '339',
@@ -2928,7 +2928,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '342',
@@ -2942,7 +2942,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '343',
@@ -2956,7 +2956,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '345',
@@ -2970,7 +2970,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '346',
@@ -2984,7 +2984,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '347',
@@ -2998,7 +2998,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2014-04-17',
 	'dtend' => '2014-08-12',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '348',
@@ -3013,7 +3013,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2014-08-14',
 	'dtend' => '2014-09-04',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '350',
@@ -3028,7 +3028,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2014-09-27',
 	'dtend' => '2014-10-12',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '351',
@@ -3043,7 +3043,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2014-08-14',
 	'dtend' => '2014-08-31',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '352',
@@ -3057,7 +3057,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '353',
@@ -3071,7 +3071,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '354',
@@ -3085,7 +3085,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '355',
@@ -3100,7 +3100,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '356',
@@ -3115,7 +3115,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '357',
@@ -3130,7 +3130,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '358',
@@ -3145,7 +3145,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-08-12',
 	'dtend' => '2016-08-28',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '359',
@@ -3159,7 +3159,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2016-04-14',
 	'dtend' => '2016-08-07',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '360',
@@ -3174,7 +3174,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2014-09-27',
 	'dtend' => '2014-10-11',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '361',
@@ -3188,7 +3188,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '1983-01-01',
 	'dtend' => '1983-12-31',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '362',
@@ -3202,7 +3202,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '363',
@@ -3216,7 +3216,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '364',
@@ -3230,7 +3230,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '365',
@@ -3244,7 +3244,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '366',
@@ -3258,7 +3258,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '367',
@@ -3272,7 +3272,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '368',
@@ -3286,7 +3286,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '369',
@@ -3300,7 +3300,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '370',
@@ -3314,7 +3314,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '0000-00-00',
 	'dtend' => '0000-00-00',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '371',
@@ -3328,7 +3328,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2017-01-01',
 	'dtend' => '2017-12-31',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '372',
@@ -3342,7 +3342,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2007-01-01',
 	'dtend' => '2007-12-31',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '373',
@@ -3356,7 +3356,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2008-01-01',
 	'dtend' => '2008-12-31',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '374',
@@ -3370,7 +3370,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2009-01-01',
 	'dtend' => '2009-12-31',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '375',
@@ -3384,7 +3384,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2010-01-01',
 	'dtend' => '2010-12-31',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '376',
@@ -3398,7 +3398,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2011-01-01',
 	'dtend' => '2011-12-31',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idcompetition' => '377',
@@ -3412,7 +3412,7 @@ class CompetitionsSeeder extends AbstractSeed
 	'dtstart' => '2012-01-01',
 	'dtend' => '2012-12-31',
 	'created_at' => '2019-03-24 09:17:14',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 
     	];

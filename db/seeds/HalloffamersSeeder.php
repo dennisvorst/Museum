@@ -24,7 +24,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'Als speler al een legendarisch figuur. Van 1965 tot 1974 speelde hij 60 maal voor Oranje. Prestaties: - WK 1970 in Columbus beste outfielder - EK 1969 in Wiesbaden Meest Waardevolle Speler en Homerun-koning - Competitie: Hamilton werd 9x met Sparta landskampioen. Bij de Balink Medailles kreeg hij 7 x goud + 2 x zilver als beste slagman en 6 x goud als Meest Waardevolle Speler.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '2',
@@ -33,7 +33,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1988-07-01',
 	'biography' => 'Geducht slagman. Speelde 15 jaar aan de top, \"Uitvinder\" van de honkbalweek, Stichter van de Haarlem Nicols. Hij veroverde als coach met de Nicols de eerste Europacup voor de Nederlandse sportwereld. Honkbaljournalist van 1953 tot 1982. Auteur van vier honkbalboeken.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '3',
@@ -42,7 +42,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'Hij was een van de beste all-round honkballers: 5 x de gouden balink medaille als Beste werper 1 x de zilveren medaille 1 x goud als Beste Slagman 1 x goud als meest waardevolle speler Als werper en voornaamste troef bij vijf landstitels van OVVO in successie.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '4',
@@ -52,7 +52,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'biography' => 'Een van de beste werpers uit de Nederlandse honkbal. Bij EHS en de Nicols veroverde hij 10 x goud en 2 x zilver als werper en 1 x goud en 1 x zilver als meest waardevolle speler. In oranje was hij in 1960 en 1961de beste werper tijdens het EK.
 ',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '5',
@@ -61,7 +61,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'De grote man in \'t Gooi. Als werper was hij dÃ© motor, die het Bussumse HCAW naar de hoogste afdeling voerde. Hij bereikte als 2e klas-speler in 1960 de werperstaf van het Nederlands team. Verschillende jaren was hij Ã©Ã©n van de voornaamste troeven van Oranje. Tijdens de EK\'62 in Amsterdam en de EK\'64 in Milaan was hij de beste werper.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '7',
@@ -70,7 +70,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1997-07-01',
 	'biography' => 'Hij heeft ruim vijftien jaar als speler (werper) op indrukwekkende wijze zijn stempel op het Nederlandse honkbal gedrukt. Hij speelde meer dan 100 interlandwedstrijden en kreeg een reeks van landelijke onderscheidingen: - beste slagman - beste werper - meest waardevolle speler Hij speelde vele wedstrijden met succes bij wereldkampioenschappen (5), Europese kampioenschappen (6), Haarlemse Honkbalweken (7), de Intercontinental Cup (1) en het World Port Tournament (1). Voor de competitie speelde hij jaren voor OVVO en later voor Amstel Tijgers.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '8',
@@ -79,7 +79,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'Charles was gedurende 25 jaar Ã©Ã©n van de steunpilaren van OVVO, in welke club hij 6 maal landskampioen werd. 12 jaar speelde hij als international.Na een coach opleiding aan het Springfield College, was hij 19 jaar coach. Hij bracht het tot Coach-manager van Oranje.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '9',
@@ -88,7 +88,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '2009-10-16',
 	'biography' => 'Hij is twaalf jaar werper geweest bij Haarlem Nicols en maakte landskampioenschappen mee. Van 1968 t/m 1977 was hij vaste kracht in het Nederlands team. Na zijn sportcarriere was hij succesvol als coach en behaalde met Haarlem Nicols zes maal het landskampioenschap. Van 1992 tot 2000 was hij manager van het Nederlandsteam en werd drie maal Europees Kampioen. Lid van verdienste van de KNBSB.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '10',
@@ -97,7 +97,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'Hij was de eerste Amerikaanse coach van Nederland. In 1960, 1962 en 1973 leidde hij Oranje naar de Europese titel. Fraser steunde ons honkbal op vele terreinen en propageerde het ook over de grenzen.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '11',
@@ -106,7 +106,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '2005-09-10',
 	'biography' => 'In 23 seizoenen speelde hij 859 wedstrijden in de hoofdklasse honkbal voor Haarlem Nicols en Kinheim. Sloeg in 3310 slagbeurten 1166 honkslagen, 209 tweehonkslagen, 32 driehonkslagen en 148 homeruns. All time slaggemiddelde: 0.352 Hij speelde van 1980 tot 2001 voor het Nederlands team 163 wedstrijden. Nam deel aan 2 Olympische Spelen, 6 WKâ€™s, 6 EKâ€™s, 7 Haarlemse Honkbal Weken en 4 World Port Tournaments.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '12',
@@ -115,7 +115,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'De \"Europese\" Amerikaan kreeg als bondscoach van Oranje grote interesse voor het Europese honkbal. Vanuit Nederland gaf hij clinics in andere Europese landen. In 1971 werd Oranje in ItaliÃ« onder zijn leiding Europees kampioen. Arce nam het initiatief tot de jeugd-trainingskampen in ons land.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '13',
@@ -124,7 +124,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'Gedurende 14 jaar was hij bestuurslid van de KNHB. Hij heeft veel bijgedragen tot de continuÃ¯teit van het bondsbestuur en een belangrijke man in de moeilijke oorlogsperiode. Hij was de eerste officiele scorer en statisticus.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '14',
@@ -133,7 +133,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'Vooral op organisatorisch gebied is hij Ã©Ã©n van de grote initiatiefnemers van ons honkbal geweest. Hij was oprichter van de propaganda-vereniging de Kievieten en van het Bleesing-fonds. Bakker trad als eerste internationale scheidsrechter van ons land op na aansluiting bij de F.E.B. in de jaren vijftig.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '15',
@@ -142,7 +142,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'Een Amerikaan, die in 1950 baseball in zijn eigen geboorteland Holland ontdekte. Hij nam meteen belangrijke beslissingen. Onze beste werpers Han Urbanus en Jan Smidt werden naar de voorjaarstrainingen van de New York Giants gestuurd. Hij stelde de \"Balink Medailles\" in voor de beste werper, Beste Slagman en Meest Waardevolle Speler die jarenlang door de pers werden gekozen.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '16',
@@ -151,7 +151,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'Gedurende 16 jaar was hij vice-voorzitter en 11 jaar voorzitter van de KNHB. Op vele terreinen trad Beets als woordvoerder en promotor van het Nederlandse honkbal op de voorgrond. Lange tijd was hij ook voorzitter van SC Haarlem en HFC Haarlem.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '17',
@@ -160,7 +160,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'Vooral voor de Tweede Wereldoorlog was hij een stuwende kracht in het Nederlandse honkbal. De man van Honkbalnieuws, het eerste bondsblad. Hij was lid van vrijwel iedere commissiein de NHB. In 1924 richte hij VVGA op in Amsterdam.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '18',
@@ -169,7 +169,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-13',
 	'biography' => 'Zij deed pionierswerk voor het Nederlandse softbal en organiseerde in 1948 de eerste softbalwedstrijd en richtte in 1948 tevens een dames-afdeling bij HCK op. Ze zorgde voor de eerste contacten met Amerikaanse teams in Europa.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '19',
@@ -178,7 +178,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '2017-02-17',
 	'biography' => 'Een icoon van onschatbare waarde, die zijn uitverkiezing vooral dankt aan zijn tomeloze inzet bij de werving, begeleiding en coaching van de honkbal- en softbaljeugd. Voor zijn grote verdiensten in het vaderlandse honkbal kreeg GÃ© van Berkel niet alleen het bondsonderscheidingsteken, maar werd hij door de KNBSB in 2010 ook onderscheiden met de prestigieuze Leen Volkerijk Trofee.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '20',
@@ -187,7 +187,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1983-11-12',
 	'biography' => 'De grondlegger van het Nederlandse honkbal, was 34 jaar lid van het bondsbestuur, twee jaar als secretaris en van 1915 t/m 1946 als voorzitter. Hij speelde, was scheidsrechter, hield lezingen en liet zelf materiaal uit Amerika komen. Door zijn allesomvattende werk drukte Bleesing een onuitwisbaar stempel op ons honkbal.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '21',
@@ -196,7 +196,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'Meer dan een halve eeuw was hij op velerlei gebied actief in honkbal: speler, scheidsrechter, lid van het bondsbestuur en van vele commissies, een van de eerste journalisten die over honkbal schreef. romotor van sport-sponsoring. Totaal 30 jaar was hij bestuurslid van het Bleesing-fonds en een der eerste leden van de Kievieten.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '22',
@@ -205,7 +205,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1983-11-12',
 	'biography' => 'EÃ©n van de apostelen, die door Bleesing van zijn club Quick naar Blauw Wit werd gestuurd, om daar honkbal in te voeren. Met groot succes. De bekende voetbalnaam betekende prima honkbal-propaganda. Bovendien werd Blauw Wit sedert 1923 negen maal kampioen van Nederland, een record dat pas in 1985 verbeterd werd.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '23',
@@ -214,7 +214,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'De ontdekker van het Nederlandse Honkbal. Tijdens een reis in Engeland maakte hij kennis met baseball. Hij vertaalde de spelregels, paste ze aan en introduceerde het spel in Amsterdam (1910). Op initiatief van de heren GrasÃ©, Baggelaar en Bleesing werd op 16 maart 1912 de Nederlandse Honkbal Bond opgericht in 1921 werd GrasÃ© benoemd tot Ere-voorzitter van de N.H.B.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '24',
@@ -223,7 +223,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-13',
 	'biography' => 'De Nederlandse honkbal-ambassadeur in Europa en Amerika, alwaar hij de naam \"jan from Holland\" kreeg. Hij was 23 jaar bondsbestuurslid. In 1973 werd Jan gekozen in de Babe Ruth Baseball Hall of Fame in de V.S.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '25',
@@ -232,7 +232,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'Als scheidsrechter is hij een van de pioniers in de honkbalsport geweest. In 1939 debuteerde hij zijn 31-jarige loopbaan. Vanaf 1947 was Hetem internationaal scheidsrechter. Door zijn grote honkbalkennis had hij zitting in de Haarlemse negental-commissie.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '26',
@@ -241,7 +241,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1991-11-19',
 	'biography' => 'Gedurende 36 jaar was hij lid van vele commissies. Voornaamste functies : bondsbestuurslid 21 jaar, waarvan 14 jaar als voorzitter, tevens voorzitter van de Europese bond CEBA en penningmeester van de Wereldbond IBA. Door zijn inzet drukte hij een stempel op het nationale en internationale amateur-honkbal. Initiatiefnemer Honkbal en Softbal Museum, het eerste bondsmuseum in Nederland.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '27',
@@ -250,7 +250,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'De promotor van honkbal in Rotterdam. Hij is vooral bekend geworden als coach van Sparta en hij voerde zijn club van de overgangsklasse als eerste Rotterdamse club naar de Hoofdklasse. Onder de leiding van Heijt veroverde Sparta in 1963, 1964, 1966 en 1967 de landstitel. Ook in de bond deed hij op technisch gebied belangrijk werk.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '28',
@@ -259,7 +259,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '2005-09-10',
 	'biography' => 'Speelde hoofdklasse honkbal en speelde in het Nederlands team. Daarna hield hij zich intensief bezig met softbal. Van 1969 tot 1983 succesvol coach van het Nederlands softbalteam. In die periode tevens docent aan de coachopleiding. In 1983 werd hij als eerste Europeaan opgenomen in de Hall of Fame van de International Softball Federation.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '29',
@@ -268,7 +268,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'Speler van Schoten.Bij de eerste deelname van Nederland aan de EK in 1956 en in de jaren 1957 en 1958 waarbij nederland Europees kampioen werd, was hij de eerste (spelende) coach van het oranjeteam. Hij droeg 53 maal het oranje-shirt.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '30',
@@ -277,7 +277,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'Ze heeft een grote rol gespeeld om softbal in Midden Nederland te propageren en was betrokken bij de softbal-afdeling van UVV. Line was bondsbestuurslid en begeleidster van menig Nederlands team.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '31',
@@ -286,7 +286,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1983-11-12',
 	'biography' => 'De Honkbalpionier in Haarlem. In 1923 was hij oprichter van de eerste club in deze stad: HC Haarlem. Bondspenningmeester van 1929 - 1934 Na pensionering was hij verschillende jaren administratuer van de bondsuitgaven en het officieel orgaan honkbalnieuws.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '32',
@@ -295,7 +295,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '2014-10-04',
 	'biography' => 'Hij verrichtte pionierswerk op honkbalgebied en legde zijn ziel en zaligheid in het trainen en coachen van de jeugd. Stond aan de basis van de oprichting van de honkbaltak van RAP, het latere Pirates. Promootte in Amsterdam het peanutbal en richtte er de honkbalschool op. â€˜Ome Loekâ€™ was ruim 60 jaar het kloppend hart en het gezicht van Pirates.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '33',
@@ -304,7 +304,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'Deze legendarische werper speelde voor SC Haarlem en schoten.De cijfers van zijn succesjaren spreken voor zichzelf. 1940 : 225 x 3-slag in 12 wedstrijden 1941 : 233 x 3-slag in 14 wedstrijden 1942 : 163 x 3-slag in 14 wedstrijden 1943 : 235 x 3-slag in 14 wedstrijden.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '34',
@@ -313,7 +313,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1989-04-10',
 	'biography' => 'Een van de beste softbalsters van Nederland, begaafd op bijna ieder onderdeel. Gedurende 20 jaar aan de top speelde zij 145 maal voor oranje.Tijdens het EK voor landenteams, de Europacup voor clubs en in de competitie veroverde zij diverse keren goud als de beste slagvrouw en meeste waardevolle speelster.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '35',
@@ -322,7 +322,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1997-07-01',
 	'biography' => 'Zij was Ã©Ã©n van de architecten van het Nederlands softbal. Zij was bijzonder succesvol in het Nederlands softbalteam en voor de competitie in het Haarlemse HHC, dat mede door haar meerdere keren kampioen van Nederland werd. Als bestuurslid van de KNBSB heeft zij zich zeer verdienstelijk gemaakt. Zij was mede-initiatiefneemster van de Haarlemse Softbalweek. Zij heeft zich tevens ingezet voor de totstandkoming van het eerste softbalveld in Nederland. Bovendien schreef zij een oefenboek over softbal en leidde zij veel speelsters op, die uiteindelijk in het Nederlands softbalteam kwamen.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '36',
@@ -331,7 +331,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'Een van de eerste honkbaljournalisten. Hij was bondsscheidsrechter die meer dan 300 wedstrijden leidde, twaals jaar bondsbestuurslid en tien jaar algemeen competitie-leider. Hij maakte deel uit van vele bondscommissies.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '37',
@@ -340,7 +340,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '2008-07-27',
 	'biography' => 'Heeft als voorzitter van de NASB het Nederlandse softbal internationaal geÃ¯ntroduceerd. Had na fusie van de NASB met de KNHB in de KNBSB bestuurlijk en organisatorisch vele verdiensten. Vanaf 1961 betrokken bij alle Haarlemse Honkbalweken. Erelid van de KNBSB. Vice voorzitter van het eerste bestuur van de ESF (1970). Lid sinds 1942 van Kinheim en voor die vereniging van onschatbare waarde.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '38',
@@ -349,7 +349,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '2008-07-27',
 	'biography' => 'Heeft na zijn honkbalcarriÃ¨re bij HHC als bestuurder zowel nationaal als internationaal veel voor het honkbal betekend. 23 jaar bestuurslid KNBSB, 11 jaar vice-voorzitter CEB, 13 jaar penningmeester IBAF en toernooidirecteur bij diverse wereldkampioenschappen (Mexico, Zuid Korea, Taiwan). Was bij de Olympische Spelen 2000 in Sydney verantwoordelijk voor het honkbalprogramma. Erelid van de KNBSB.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '39',
@@ -358,7 +358,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'Hij verrichtte op de achtergrond bijzonder veel nuttig werk voor de honkbalsport en was sedert de twintiger jaren lid van vele commissies. B.v. vanaf 1954 t/m 1973 secretaris en later secretaris/penningmeester van De Kievieten. Dezelfde functies vervulde hij 19 jaar bij het Bleesing-fonds.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '40',
@@ -367,7 +367,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'EÃ©n van de apostelen, die door Bleesing van zâ€™n club Quick naar Ajax werd gestuurd, om daar honkbal in te voeren. Met groot succes. Hij werd de architect van het Ajax-honkbal en bovendien van het Ajax-stadion. De grote voetbalnaam Ajax was vele jaren een enorme reclame voor ons honkbal.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '41',
@@ -376,7 +376,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'Hij was een softbal-ambassadeur, die belangrijke contacten legde in Amerika en in Europa, speciaal in ItaliÃ«, waaraan hij de eretitel â€œÃœncle of Italian sotbalâ€ overhield. Door het werk van De Ruiter kwam het beste team uit de V.S., de Raybestos Brakettes, in â€™65 naar Nederland. Hij was vice-president van de Internationale Softbal Federatie.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '42',
@@ -385,7 +385,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'Als scheidsrechter een kwart eeuw een kleurrijk figuur. Hij ontwikkelde zich â€“ vrijwel zonder voorlichting van over de Oceaan â€“ tot een umpire met Amerikaanse allure. Zijn gezag stond zelden of nooit ter discussie.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '43',
@@ -394,7 +394,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1989-04-10',
 	'biography' => 'Door Sibille kreeg honkbal in de veertiger jaren vaste voet in Noord-Brabant. Ook speelde hij een voorname rol bij de aanleg van het eerste permanente honkbalveld in Nederland, bij het aantrekken van Fraser als eerste Amerikaanse bondscoach en bij de organisatie van de belangrijke KNHB-jeugdkampen in Eindhoven.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '44',
@@ -403,7 +403,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'Els speelde in HHC en was outfielder. 1954: Haarlems Jeugdteam. 1956 t/m 1967: onafgebroken international. In 1967 werd ze tijdens de officiÃ«le Amerikaanse titelstrijd in Stratford (Con.) in het All Star team gekozen tussen louter Amerikaanse speelsters.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '45',
@@ -412,7 +412,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'In 1963 stak Bob Sullivan met zijn ploeg als eerste Amerikaanse team de oceaan over. Vanaf dat jaar zijn de Sullivans in Nederland een begrip geworden en is deze naam door de honkbalweek onverbrekelijk met ons honkbal verbonden. Ze kwamen nog heel wat keren, soms wel als \"reddende engel\" voor Haarlem.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '46',
@@ -421,7 +421,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'Een scheidsrechter met een record aantal dienstjaren. Heel wat seizoenen leidde hij twee tot vier wedstrijden in de week, zowel senioren als de jeugd. Zijn totaal aantal wedstrijden, inclusief 17 interlands, wordt op meer dan duizend geschat.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '47',
@@ -430,7 +430,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '2004-07-25',
 	'biography' => 'Is meer dan 30 jaar actief geweest in bestuurlijke functies op nationaal en internationaal niveau. Als bestuurslid van de KNBSB (1972-1989) was hij de stimulator van het internationale sotbal in Nederland. Hij was bestuurslid van de ESF en ISF, werd benoemd tot Ere-lid van de KNBSB en de Japan Softball Association en is opgenomen in de Hall of Fame van de ISF.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '48',
@@ -439,7 +439,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1985-07-13',
 	'biography' => 'Hij was een belangrijke organisator in het Ned. Honkbal en gaf door zijn werk Nederland internationaal aanzien. Bij het instellen van de \"Haarlemse Honkbalweek\" was hij direct betrokken. Tevens was hij oprichter van de Stichting Sportinitiatieven Haarlem. Jaren zat hij in het Int. Honkbalbestuur de CEBA en 10 jaar als bestuurslid van de KNBSB.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '49',
@@ -448,7 +448,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1984-05-03',
 	'biography' => 'De jurist van de bond. Ruim 50 jaar als rechtskundig adviseur. (honorair) was hij betrokken bij vrijwel alle juridische zaken, zoals statuten en reglementen. Hij speelde 10 jaar voor AGHC en Quick en was bekend als werper en slagman.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '50',
@@ -457,7 +457,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '1983-11-12',
 	'biography' => 'Een briljante sportman, die voor Blauw-wit speelde. Hij droeg het oranje shirt als honkballer en als voetballer. Voor de honkbalsport in ontwikkeling was dit een enorme propaganda. Als honkballer was hij een vooraanstaand werper.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'id' => '51',
@@ -466,7 +466,7 @@ class HalloffamersSeeder extends AbstractSeed
 	'dthof' => '2005-09-10',
 	'biography' => 'Een multifunctionele duizendpoot binnen de KNBSB. Vooral op softbalgebied heeft hij pionierswerk verricht. Softbal kreeg dankzij hem een prominente plaats in het Haarlems Dagblad. Hij was nationaal en internationaal scheidsrechter, official scorer, bondsbestuurder, competitieleider. Hij had zitting in o.a. commissie opleidingen en examens, organisatiecomitÃ© honkbal- en softbalweken, technische commissie ESF.',
 	'created_at' => '2019-03-24 09:18:50',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 
     	];

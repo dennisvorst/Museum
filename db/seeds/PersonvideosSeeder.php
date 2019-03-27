@@ -21,14 +21,14 @@ class PersonvideosSeeder extends AbstractSeed
 	'idperson' => '116',
 	'idvideo' => '1',
 	'created_at' => '2019-03-24 09:21:11',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idpersonvideo' => '2',
 	'idperson' => '307',
 	'idvideo' => '3',
 	'created_at' => '2019-03-24 09:21:11',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
     	];
 

@@ -1,7 +1,7 @@
 <?php
-require_once "class/ListPage.php";
-require_once "class/MenuBar.php";
-require_once "class/Club.php";
+require_once "ListPage.php";
+require_once "MenuBar.php";
+require_once "Club.php";
 
 class Teams extends ListPage{
 	var $nmtitle			= "Teams";

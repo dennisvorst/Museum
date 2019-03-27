@@ -2,10 +2,10 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-require_once "class/Date.php";
-require_once "class/ListPage.php";
-require_once "class/Person.php";
-require_once "class/Photo.php";
+require_once "Date.php";
+require_once "ListPage.php";
+require_once "Person.php";
+require_once "Photo.php";
 
 class HallOfFamers extends ListPage{
 	var $nmtitle	= "Eregalerij";

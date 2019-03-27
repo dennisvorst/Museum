@@ -67,8 +67,8 @@ class PitchingMigration extends AbstractMigration
 		$sql .= "`nrera` varchar(40) COLLATE utf8_unicode_ci DEFAULT NULL,";
 
 		$sql .= "`created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,";
-		$sql .= "`changed_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
-		$sql .= "`changed_at` timestamp NULL DEFAULT NULL,";
+		$sql .= "`updated_by` varchar(50) NOT NULL DEFAULT 'info@honkbalmuseum.nl',";
+		$sql .= "`updated_at` timestamp NULL DEFAULT NULL,";
 
 		$sql .= "PRIMARY KEY (`idpitching`),";
 		$sql .= "KEY `Pitching_1` (`idteam`),";

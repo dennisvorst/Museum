@@ -7,3 +7,4 @@ src/config/analyticstracking.php
 # ignore the config.php after the initial commit. 
 # We don't want to publish the login and username for the website by mistake 
 src/config/config.php
+.phpunit.result.cache

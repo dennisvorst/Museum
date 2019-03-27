@@ -25,7 +25,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '2',
@@ -35,7 +35,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '3',
@@ -45,7 +45,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '4',
@@ -55,7 +55,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '5',
@@ -65,7 +65,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '6',
@@ -75,7 +75,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '7',
@@ -85,7 +85,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '8',
@@ -95,7 +95,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '9',
@@ -105,7 +105,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '10',
@@ -115,7 +115,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '11',
@@ -125,7 +125,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '12',
@@ -135,7 +135,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '13',
@@ -145,7 +145,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '14',
@@ -155,7 +155,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '15',
@@ -165,7 +165,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '16',
@@ -175,7 +175,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '17',
@@ -185,7 +185,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '18',
@@ -195,7 +195,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '19',
@@ -205,7 +205,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '20',
@@ -215,7 +215,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '21',
@@ -225,7 +225,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '22',
@@ -235,7 +235,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '23',
@@ -245,7 +245,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '24',
@@ -255,7 +255,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '25',
@@ -265,7 +265,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '26',
@@ -275,7 +275,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '27',
@@ -285,7 +285,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '28',
@@ -295,7 +295,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '29',
@@ -305,7 +305,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '30',
@@ -315,7 +315,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '31',
@@ -325,7 +325,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '32',
@@ -335,7 +335,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '33',
@@ -345,7 +345,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '34',
@@ -355,7 +355,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '35',
@@ -365,7 +365,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '36',
@@ -375,7 +375,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '37',
@@ -385,7 +385,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '38',
@@ -395,7 +395,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '39',
@@ -405,7 +405,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '40',
@@ -415,7 +415,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '41',
@@ -425,7 +425,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '42',
@@ -435,7 +435,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '43',
@@ -445,7 +445,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '44',
@@ -455,7 +455,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '45',
@@ -465,7 +465,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '46',
@@ -475,7 +475,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '47',
@@ -485,7 +485,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '48',
@@ -495,7 +495,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '49',
@@ -505,7 +505,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '50',
@@ -515,7 +515,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '51',
@@ -525,7 +525,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '52',
@@ -535,7 +535,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '53',
@@ -545,7 +545,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '54',
@@ -555,7 +555,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '55',
@@ -565,7 +565,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '56',
@@ -575,7 +575,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '57',
@@ -585,7 +585,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '58',
@@ -595,7 +595,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '59',
@@ -605,7 +605,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '60',
@@ -615,7 +615,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '61',
@@ -625,7 +625,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '62',
@@ -635,7 +635,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '63',
@@ -645,7 +645,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '64',
@@ -655,7 +655,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '65',
@@ -665,7 +665,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '66',
@@ -675,7 +675,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '67',
@@ -685,7 +685,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '68',
@@ -695,7 +695,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '69',
@@ -705,7 +705,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '70',
@@ -715,7 +715,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '71',
@@ -725,7 +725,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '72',
@@ -735,7 +735,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '73',
@@ -745,7 +745,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '74',
@@ -755,7 +755,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '75',
@@ -765,7 +765,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '76',
@@ -775,7 +775,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '77',
@@ -785,7 +785,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '78',
@@ -795,7 +795,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '79',
@@ -805,7 +805,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '80',
@@ -815,7 +815,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '81',
@@ -825,7 +825,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '82',
@@ -835,7 +835,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '83',
@@ -845,7 +845,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '84',
@@ -855,7 +855,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '85',
@@ -865,7 +865,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '86',
@@ -875,7 +875,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '87',
@@ -885,7 +885,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '88',
@@ -895,7 +895,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '89',
@@ -905,7 +905,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '90',
@@ -915,7 +915,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '91',
@@ -925,7 +925,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '92',
@@ -935,7 +935,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '93',
@@ -945,7 +945,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '94',
@@ -955,7 +955,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '95',
@@ -965,7 +965,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '96',
@@ -975,7 +975,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '97',
@@ -985,7 +985,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '98',
@@ -995,7 +995,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '99',
@@ -1005,7 +1005,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '100',
@@ -1015,7 +1015,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '101',
@@ -1025,7 +1025,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '102',
@@ -1035,7 +1035,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '103',
@@ -1045,7 +1045,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '104',
@@ -1055,7 +1055,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '105',
@@ -1065,7 +1065,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '106',
@@ -1075,7 +1075,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '107',
@@ -1085,7 +1085,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '108',
@@ -1095,7 +1095,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '109',
@@ -1105,7 +1105,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '110',
@@ -1115,7 +1115,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '111',
@@ -1125,7 +1125,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '112',
@@ -1135,7 +1135,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '113',
@@ -1145,7 +1145,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '114',
@@ -1155,7 +1155,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '115',
@@ -1165,7 +1165,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '116',
@@ -1175,7 +1175,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '117',
@@ -1185,7 +1185,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '118',
@@ -1195,7 +1195,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '119',
@@ -1205,7 +1205,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '120',
@@ -1215,7 +1215,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '121',
@@ -1225,7 +1225,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '122',
@@ -1235,7 +1235,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '123',
@@ -1245,7 +1245,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '124',
@@ -1255,7 +1255,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '125',
@@ -1265,7 +1265,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '126',
@@ -1275,7 +1275,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '127',
@@ -1285,7 +1285,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'F',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '128',
@@ -1295,7 +1295,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '129',
@@ -1305,7 +1305,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '130',
@@ -1315,7 +1315,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdclass' => 'SEN',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idteam' => '131',
@@ -1323,7 +1323,7 @@ class TeamsSeeder extends AbstractSeed
 	'cdsport' => 'HB',
 	'cdgender' => 'M',
 	'created_at' => '2019-03-24 09:23:27',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 
     	];

@@ -6,7 +6,7 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 // *** Include Section
 //*********************************************************
-require_once "class/ListPage.php";
+require_once "ListPage.php";
 
 class MenuBar{
 	static $nrcolumns = 26;

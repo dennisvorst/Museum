@@ -27,7 +27,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrinnings' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2',
@@ -40,7 +40,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '3',
@@ -54,7 +54,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '4',
@@ -66,7 +66,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '5',
@@ -78,7 +78,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '6',
@@ -91,7 +91,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '7',
@@ -104,7 +104,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '8',
@@ -117,7 +117,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '9',
@@ -129,7 +129,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '10',
@@ -142,7 +142,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '11',
@@ -155,7 +155,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '12',
@@ -168,7 +168,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '13',
@@ -181,7 +181,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '18',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '14',
@@ -194,7 +194,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '17',
 	'nrinnings' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '15',
@@ -207,7 +207,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '16',
@@ -220,7 +220,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '17',
@@ -233,7 +233,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '18',
@@ -247,7 +247,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '19',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '19',
@@ -260,7 +260,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '10',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '20',
@@ -274,7 +274,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '3',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '21',
@@ -287,7 +287,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '22',
@@ -300,7 +300,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '23',
@@ -314,7 +314,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '4',
 	'nrinnings' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '24',
@@ -328,7 +328,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '10',
 	'nrinnings' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '25',
@@ -341,7 +341,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '26',
@@ -354,7 +354,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '27',
@@ -367,7 +367,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '28',
@@ -380,7 +380,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '29',
@@ -393,7 +393,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '30',
@@ -406,7 +406,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '31',
@@ -419,7 +419,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '32',
@@ -431,7 +431,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '33',
@@ -444,7 +444,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '34',
@@ -457,7 +457,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '35',
@@ -470,7 +470,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '36',
@@ -483,7 +483,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '37',
@@ -496,7 +496,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-09',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '38',
@@ -509,7 +509,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-09',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '39',
@@ -522,7 +522,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-09',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '40',
@@ -535,7 +535,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-09',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '41',
@@ -548,7 +548,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '42',
@@ -560,7 +560,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '43',
@@ -573,7 +573,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '44',
@@ -586,7 +586,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '45',
@@ -599,7 +599,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '46',
@@ -612,7 +612,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '47',
@@ -625,7 +625,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '48',
@@ -638,7 +638,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '49',
@@ -651,7 +651,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-20',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '50',
@@ -664,7 +664,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-20',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '51',
@@ -677,7 +677,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-20',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '52',
@@ -690,7 +690,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '53',
@@ -704,7 +704,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '20',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '54',
@@ -717,7 +717,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-27',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '55',
@@ -730,7 +730,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-27',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '56',
@@ -743,7 +743,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '57',
@@ -757,7 +757,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '12',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '58',
@@ -771,7 +771,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '18',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '59',
@@ -784,7 +784,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '60',
@@ -797,7 +797,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '61',
@@ -811,7 +811,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '4',
 	'nrinnings' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '62',
@@ -824,7 +824,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '63',
@@ -837,7 +837,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '64',
@@ -851,7 +851,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '6',
 	'nrinnings' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '65',
@@ -864,7 +864,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '66',
@@ -878,7 +878,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '4',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '67',
@@ -892,7 +892,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '3',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '68',
@@ -905,7 +905,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '69',
@@ -918,7 +918,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '70',
@@ -930,7 +930,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '71',
@@ -943,7 +943,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '72',
@@ -956,7 +956,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '73',
@@ -969,7 +969,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrinnings' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '74',
@@ -982,7 +982,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '75',
@@ -996,7 +996,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '4',
 	'nrinnings' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '76',
@@ -1008,7 +1008,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '77',
@@ -1021,7 +1021,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '78',
@@ -1034,7 +1034,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '79',
@@ -1047,7 +1047,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '80',
@@ -1060,7 +1060,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '81',
@@ -1072,7 +1072,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '82',
@@ -1085,7 +1085,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '83',
@@ -1098,7 +1098,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '84',
@@ -1112,7 +1112,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '14',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '85',
@@ -1126,7 +1126,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '5',
 	'nrinnings' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '86',
@@ -1139,7 +1139,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '87',
@@ -1152,7 +1152,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '88',
@@ -1165,7 +1165,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-06-03',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '89',
@@ -1178,7 +1178,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-06-03',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '90',
@@ -1191,7 +1191,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '91',
@@ -1203,7 +1203,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '92',
@@ -1216,7 +1216,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-05-30',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '93',
@@ -1229,7 +1229,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '94',
@@ -1241,7 +1241,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '95',
@@ -1254,7 +1254,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '96',
@@ -1266,7 +1266,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '97',
@@ -1279,7 +1279,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '98',
@@ -1292,7 +1292,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '99',
@@ -1305,7 +1305,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '100',
@@ -1318,7 +1318,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '101',
@@ -1331,7 +1331,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '102',
@@ -1343,7 +1343,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '103',
@@ -1357,7 +1357,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '9',
 	'nrinnings' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '104',
@@ -1370,7 +1370,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '105',
@@ -1382,7 +1382,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '106',
@@ -1395,7 +1395,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '107',
@@ -1409,7 +1409,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '5',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '108',
@@ -1422,7 +1422,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '109',
@@ -1435,7 +1435,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '14',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '110',
@@ -1448,7 +1448,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '111',
@@ -1462,7 +1462,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '12',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '112',
@@ -1475,7 +1475,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '113',
@@ -1488,7 +1488,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '114',
@@ -1501,7 +1501,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '115',
@@ -1514,7 +1514,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '116',
@@ -1528,7 +1528,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '117',
@@ -1540,7 +1540,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '118',
@@ -1553,7 +1553,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '119',
@@ -1566,7 +1566,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '120',
@@ -1579,7 +1579,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '121',
@@ -1593,7 +1593,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '7',
 	'nrinnings' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '122',
@@ -1606,7 +1606,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '123',
@@ -1618,7 +1618,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '124',
@@ -1631,7 +1631,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '125',
@@ -1644,7 +1644,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '126',
@@ -1658,7 +1658,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '17',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '127',
@@ -1671,7 +1671,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '128',
@@ -1684,7 +1684,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '129',
@@ -1697,7 +1697,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '130',
@@ -1710,7 +1710,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '131',
@@ -1722,7 +1722,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '132',
@@ -1735,7 +1735,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '133',
@@ -1748,7 +1748,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '134',
@@ -1761,7 +1761,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '135',
@@ -1773,7 +1773,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '136',
@@ -1786,7 +1786,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '137',
@@ -1798,7 +1798,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '13:00:00',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '138',
@@ -1812,7 +1812,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '139',
@@ -1826,7 +1826,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '5',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '140',
@@ -1839,7 +1839,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '141',
@@ -1852,7 +1852,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '142',
@@ -1866,7 +1866,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '4',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '143',
@@ -1879,7 +1879,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '144',
@@ -1893,7 +1893,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '2',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '145',
@@ -1906,7 +1906,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '146',
@@ -1919,7 +1919,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '147',
@@ -1931,7 +1931,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '148',
@@ -1944,7 +1944,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '17',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '149',
@@ -1958,7 +1958,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '13',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '150',
@@ -1971,7 +1971,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '151',
@@ -1985,7 +1985,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '12',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '152',
@@ -1999,7 +1999,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '9',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '153',
@@ -2013,7 +2013,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '2',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '154',
@@ -2026,7 +2026,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '11',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '155',
@@ -2039,7 +2039,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '10',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '156',
@@ -2053,7 +2053,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '157',
@@ -2067,7 +2067,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '16',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '158',
@@ -2080,7 +2080,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '159',
@@ -2093,7 +2093,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-07-29',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '160',
@@ -2106,7 +2106,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-07-29',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '161',
@@ -2119,7 +2119,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '162',
@@ -2133,7 +2133,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '2',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '163',
@@ -2146,7 +2146,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '164',
@@ -2158,7 +2158,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '165',
@@ -2171,7 +2171,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '166',
@@ -2183,7 +2183,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '167',
@@ -2196,7 +2196,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '168',
@@ -2208,7 +2208,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '169',
@@ -2221,7 +2221,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '170',
@@ -2234,7 +2234,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '171',
@@ -2247,7 +2247,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '172',
@@ -2260,7 +2260,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '173',
@@ -2273,7 +2273,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '174',
@@ -2287,7 +2287,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '4',
 	'nrinnings' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '175',
@@ -2300,7 +2300,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '176',
@@ -2313,7 +2313,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '177',
@@ -2326,7 +2326,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '178',
@@ -2339,7 +2339,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '179',
@@ -2352,7 +2352,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '11',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '180',
@@ -2365,7 +2365,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '181',
@@ -2377,7 +2377,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '182',
@@ -2390,7 +2390,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '183',
@@ -2403,7 +2403,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '184',
@@ -2416,7 +2416,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '185',
@@ -2430,7 +2430,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '6',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '186',
@@ -2443,7 +2443,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '187',
@@ -2457,7 +2457,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '6',
 	'nrinnings' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '188',
@@ -2470,7 +2470,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '189',
@@ -2483,7 +2483,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '190',
@@ -2496,7 +2496,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '191',
@@ -2510,7 +2510,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '13',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '192',
@@ -2523,7 +2523,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '193',
@@ -2536,7 +2536,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '194',
@@ -2549,7 +2549,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '195',
@@ -2562,7 +2562,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '196',
@@ -2575,7 +2575,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '197',
@@ -2588,7 +2588,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '198',
@@ -2601,7 +2601,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '199',
@@ -2614,7 +2614,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '200',
@@ -2627,7 +2627,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '201',
@@ -2639,7 +2639,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '202',
@@ -2652,7 +2652,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '203',
@@ -2666,7 +2666,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '5',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '204',
@@ -2679,7 +2679,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '205',
@@ -2692,7 +2692,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-19',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '206',
@@ -2705,7 +2705,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-20',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '207',
@@ -2718,7 +2718,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-20',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '208',
@@ -2731,7 +2731,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-26',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '209',
@@ -2744,7 +2744,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '210',
@@ -2758,7 +2758,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '211',
@@ -2772,7 +2772,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '2',
 	'nrinnings' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '212',
@@ -2785,7 +2785,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '213',
@@ -2798,7 +2798,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '214',
@@ -2811,7 +2811,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '215',
@@ -2824,7 +2824,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '216',
@@ -2836,7 +2836,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '217',
@@ -2850,7 +2850,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '2',
 	'nrinnings' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '218',
@@ -2863,7 +2863,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '219',
@@ -2876,7 +2876,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '220',
@@ -2889,7 +2889,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '221',
@@ -2902,7 +2902,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '222',
@@ -2915,7 +2915,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-27',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '223',
@@ -2928,7 +2928,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-27',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '224',
@@ -2941,7 +2941,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-08-27',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '225',
@@ -2953,7 +2953,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '226',
@@ -2966,7 +2966,7 @@ class GamesSeeder extends AbstractSeed
 	'cdstatus' => 'U',
 	'dtnew' => '2014-09-01',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '227',
@@ -2978,7 +2978,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '228',
@@ -2990,7 +2990,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '19:30:00',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '229',
@@ -3003,7 +3003,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '230',
@@ -3016,7 +3016,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '231',
@@ -3029,7 +3029,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '232',
@@ -3043,7 +3043,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '233',
@@ -3056,7 +3056,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '234',
@@ -3069,7 +3069,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '235',
@@ -3081,7 +3081,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '236',
@@ -3094,7 +3094,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '237',
@@ -3107,7 +3107,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '238',
@@ -3119,7 +3119,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '239',
@@ -3132,7 +3132,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '240',
@@ -3145,7 +3145,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '241',
@@ -3158,7 +3158,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '242',
@@ -3171,7 +3171,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '243',
@@ -3184,7 +3184,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '244',
@@ -3196,7 +3196,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '245',
@@ -3209,7 +3209,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '246',
@@ -3222,7 +3222,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '17',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '247',
@@ -3235,7 +3235,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '248',
@@ -3248,7 +3248,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '249',
@@ -3261,7 +3261,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '250',
@@ -3273,7 +3273,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '251',
@@ -3286,7 +3286,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '252',
@@ -3299,7 +3299,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '253',
@@ -3312,7 +3312,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '254',
@@ -3325,7 +3325,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '255',
@@ -3337,7 +3337,7 @@ class GamesSeeder extends AbstractSeed
 	'tmstart' => '14:00:00',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '262',
@@ -3349,7 +3349,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '263',
@@ -3361,7 +3361,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '264',
@@ -3373,7 +3373,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '265',
@@ -3385,7 +3385,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '266',
@@ -3397,7 +3397,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '267',
@@ -3409,7 +3409,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '268',
@@ -3421,7 +3421,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '269',
@@ -3432,7 +3432,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-28',
 	'nrrunshome' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '270',
@@ -3444,7 +3444,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '271',
@@ -3456,7 +3456,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '272',
@@ -3468,7 +3468,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '273',
@@ -3480,7 +3480,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '274',
@@ -3492,7 +3492,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '275',
@@ -3504,7 +3504,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '276',
@@ -3516,7 +3516,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '277',
@@ -3528,7 +3528,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '278',
@@ -3540,7 +3540,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '279',
@@ -3552,7 +3552,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '280',
@@ -3563,7 +3563,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-14',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '281',
@@ -3575,7 +3575,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '282',
@@ -3587,7 +3587,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '283',
@@ -3599,7 +3599,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '284',
@@ -3611,7 +3611,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '285',
@@ -3623,7 +3623,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '292',
@@ -3635,7 +3635,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '293',
@@ -3647,7 +3647,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '294',
@@ -3659,7 +3659,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '295',
@@ -3671,7 +3671,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '296',
@@ -3683,7 +3683,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '297',
@@ -3695,7 +3695,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '298',
@@ -3707,7 +3707,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '299',
@@ -3719,7 +3719,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '300',
@@ -3731,7 +3731,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '301',
@@ -3743,7 +3743,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '302',
@@ -3754,7 +3754,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-18',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '303',
@@ -3766,7 +3766,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '304',
@@ -3778,7 +3778,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '305',
@@ -3790,7 +3790,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '306',
@@ -3802,7 +3802,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '307',
@@ -3814,7 +3814,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '308',
@@ -3825,7 +3825,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-12',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '309',
@@ -3837,7 +3837,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '310',
@@ -3849,7 +3849,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '359',
@@ -3861,7 +3861,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '360',
@@ -3873,7 +3873,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '361',
@@ -3885,7 +3885,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '362',
@@ -3897,7 +3897,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '363',
@@ -3909,7 +3909,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '364',
@@ -3921,7 +3921,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '365',
@@ -3933,7 +3933,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '366',
@@ -3945,7 +3945,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '367',
@@ -3957,7 +3957,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '368',
@@ -3968,7 +3968,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-09-10',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '369',
@@ -3979,7 +3979,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-09-05',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '370',
@@ -3991,7 +3991,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '371',
@@ -4003,7 +4003,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '372',
@@ -4015,7 +4015,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '373',
@@ -4027,7 +4027,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '374',
@@ -4038,7 +4038,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-29',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '375',
@@ -4050,7 +4050,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '376',
@@ -4062,7 +4062,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '377',
@@ -4073,7 +4073,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-29',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '378',
@@ -4085,7 +4085,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '379',
@@ -4097,7 +4097,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '380',
@@ -4109,7 +4109,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '381',
@@ -4120,7 +4120,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-22',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '382',
@@ -4131,7 +4131,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-22',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '383',
@@ -4142,7 +4142,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-22',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '384',
@@ -4154,7 +4154,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '385',
@@ -4166,7 +4166,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '386',
@@ -4177,7 +4177,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-15',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '387',
@@ -4188,7 +4188,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-15',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '388',
@@ -4199,7 +4199,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-15',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '389',
@@ -4211,7 +4211,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '390',
@@ -4223,7 +4223,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '391',
@@ -4235,7 +4235,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '392',
@@ -4247,7 +4247,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '393',
@@ -4258,7 +4258,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '394',
@@ -4269,7 +4269,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-11',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '395',
@@ -4281,7 +4281,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '396',
@@ -4292,7 +4292,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-07',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '397',
@@ -4304,7 +4304,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '398',
@@ -4315,7 +4315,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-04',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '399',
@@ -4327,7 +4327,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '400',
@@ -4338,7 +4338,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-04',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '401',
@@ -4349,7 +4349,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-28',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '402',
@@ -4361,7 +4361,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '403',
@@ -4373,7 +4373,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '404',
@@ -4384,7 +4384,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-28',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '405',
@@ -4395,7 +4395,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-28',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '406',
@@ -4407,7 +4407,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '407',
@@ -4419,7 +4419,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '408',
@@ -4431,7 +4431,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '409',
@@ -4442,7 +4442,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-27',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '410',
@@ -4454,7 +4454,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '411',
@@ -4465,7 +4465,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-27',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '412',
@@ -4477,7 +4477,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '413',
@@ -4489,7 +4489,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '414',
@@ -4500,7 +4500,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-20',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '415',
@@ -4512,7 +4512,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '416',
@@ -4524,7 +4524,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '417',
@@ -4536,7 +4536,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '418',
@@ -4548,7 +4548,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '551',
@@ -4560,7 +4560,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '552',
@@ -4572,7 +4572,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '553',
@@ -4584,7 +4584,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '554',
@@ -4596,7 +4596,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '555',
@@ -4607,7 +4607,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-06',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '556',
@@ -4618,7 +4618,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-06',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '557',
@@ -4630,7 +4630,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '558',
@@ -4642,7 +4642,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '559',
@@ -4654,7 +4654,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '560',
@@ -4665,7 +4665,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-06',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '561',
@@ -4676,7 +4676,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-06',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '562',
@@ -4688,7 +4688,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '563',
@@ -4700,7 +4700,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '564',
@@ -4712,7 +4712,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '565',
@@ -4724,7 +4724,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '566',
@@ -4736,7 +4736,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '567',
@@ -4748,7 +4748,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '568',
@@ -4760,7 +4760,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '569',
@@ -4772,7 +4772,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '570',
@@ -4784,7 +4784,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '571',
@@ -4796,7 +4796,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '572',
@@ -4808,7 +4808,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '573',
@@ -4820,7 +4820,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '574',
@@ -4831,7 +4831,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-30',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '575',
@@ -4842,7 +4842,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-30',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '576',
@@ -4854,7 +4854,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '577',
@@ -4865,7 +4865,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-30',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '578',
@@ -4877,7 +4877,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '579',
@@ -4889,7 +4889,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '580',
@@ -4901,7 +4901,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '581',
@@ -4913,7 +4913,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '582',
@@ -4925,7 +4925,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '583',
@@ -4937,7 +4937,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '584',
@@ -4949,7 +4949,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '585',
@@ -4961,7 +4961,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '586',
@@ -4973,7 +4973,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '587',
@@ -4984,7 +4984,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-25',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '588',
@@ -4996,7 +4996,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '589',
@@ -5008,7 +5008,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '590',
@@ -5020,7 +5020,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '591',
@@ -5032,7 +5032,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '592',
@@ -5044,7 +5044,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '593',
@@ -5056,7 +5056,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '594',
@@ -5068,7 +5068,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '595',
@@ -5080,7 +5080,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '596',
@@ -5091,7 +5091,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-23',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '597',
@@ -5103,7 +5103,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '598',
@@ -5114,7 +5114,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-23',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '599',
@@ -5126,7 +5126,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '600',
@@ -5138,7 +5138,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '601',
@@ -5149,7 +5149,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-16',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '602',
@@ -5161,7 +5161,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '603',
@@ -5173,7 +5173,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '604',
@@ -5184,7 +5184,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-16',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '605',
@@ -5196,7 +5196,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '606',
@@ -5207,7 +5207,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-16',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '607',
@@ -5219,7 +5219,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '608',
@@ -5231,7 +5231,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '16',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '609',
@@ -5243,7 +5243,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '610',
@@ -5255,7 +5255,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '611',
@@ -5266,7 +5266,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-14',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '612',
@@ -5278,7 +5278,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '613',
@@ -5290,7 +5290,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '614',
@@ -5302,7 +5302,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '615',
@@ -5314,7 +5314,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '616',
@@ -5326,7 +5326,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '617',
@@ -5338,7 +5338,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '618',
@@ -5349,7 +5349,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-14',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '619',
@@ -5360,7 +5360,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-14',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '620',
@@ -5372,7 +5372,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '621',
@@ -5384,7 +5384,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '622',
@@ -5396,7 +5396,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '623',
@@ -5407,7 +5407,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-09',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '624',
@@ -5419,7 +5419,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '625',
@@ -5430,7 +5430,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-09',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '626',
@@ -5442,7 +5442,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '627',
@@ -5454,7 +5454,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '628',
@@ -5466,7 +5466,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '629',
@@ -5478,7 +5478,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '630',
@@ -5490,7 +5490,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '631',
@@ -5502,7 +5502,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '632',
@@ -5514,7 +5514,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '633',
@@ -5525,7 +5525,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-09',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '634',
@@ -5537,7 +5537,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '635',
@@ -5548,7 +5548,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-02',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '636',
@@ -5560,7 +5560,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '637',
@@ -5571,7 +5571,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-02',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '638',
@@ -5583,7 +5583,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '639',
@@ -5595,7 +5595,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '640',
@@ -5607,7 +5607,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '641',
@@ -5619,7 +5619,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '642',
@@ -5631,7 +5631,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '643',
@@ -5643,7 +5643,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '644',
@@ -5655,7 +5655,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '645',
@@ -5667,7 +5667,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '17',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '646',
@@ -5679,7 +5679,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '647',
@@ -5691,7 +5691,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '648',
@@ -5703,7 +5703,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '649',
@@ -5715,7 +5715,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '650',
@@ -5727,7 +5727,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '651',
@@ -5739,7 +5739,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '652',
@@ -5750,7 +5750,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-04',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '653',
@@ -5762,7 +5762,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '654',
@@ -5774,7 +5774,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '655',
@@ -5786,7 +5786,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '656',
@@ -5798,7 +5798,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '657',
@@ -5810,7 +5810,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '658',
@@ -5822,7 +5822,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '659',
@@ -5834,7 +5834,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '660',
@@ -5845,7 +5845,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-30',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '661',
@@ -5857,7 +5857,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '662',
@@ -5869,7 +5869,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '663',
@@ -5881,7 +5881,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '664',
@@ -5892,7 +5892,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-28',
 	'nrrunshome' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '665',
@@ -5904,7 +5904,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '666',
@@ -5916,7 +5916,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '667',
@@ -5928,7 +5928,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '668',
@@ -5940,7 +5940,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '17',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '669',
@@ -5952,7 +5952,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '670',
@@ -5963,7 +5963,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-09',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '671',
@@ -5974,7 +5974,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-09',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '672',
@@ -5986,7 +5986,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '673',
@@ -5997,7 +5997,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-07',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '674',
@@ -6009,7 +6009,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '675',
@@ -6021,7 +6021,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '676',
@@ -6033,7 +6033,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '677',
@@ -6045,7 +6045,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '678',
@@ -6056,7 +6056,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-05',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '679',
@@ -6068,7 +6068,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '680',
@@ -6080,7 +6080,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '681',
@@ -6092,7 +6092,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '682',
@@ -6104,7 +6104,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '683',
@@ -6116,7 +6116,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '684',
@@ -6128,7 +6128,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '685',
@@ -6140,7 +6140,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '686',
@@ -6152,7 +6152,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '687',
@@ -6164,7 +6164,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '688',
@@ -6175,7 +6175,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-30',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '689',
@@ -6187,7 +6187,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '690',
@@ -6198,7 +6198,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-26',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '691',
@@ -6209,7 +6209,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-26',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '692',
@@ -6220,7 +6220,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-26',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '693',
@@ -6232,7 +6232,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '694',
@@ -6244,7 +6244,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '695',
@@ -6255,7 +6255,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-25',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '696',
@@ -6267,7 +6267,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '697',
@@ -6278,7 +6278,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-25',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '698',
@@ -6290,7 +6290,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '699',
@@ -6302,7 +6302,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '700',
@@ -6313,7 +6313,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-23',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '701',
@@ -6325,7 +6325,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '702',
@@ -6336,7 +6336,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-19',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '703',
@@ -6348,7 +6348,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '704',
@@ -6360,7 +6360,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '705',
@@ -6372,7 +6372,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '706',
@@ -6383,7 +6383,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-18',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '707',
@@ -6395,7 +6395,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '708',
@@ -6407,7 +6407,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '709',
@@ -6419,7 +6419,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '710',
@@ -6431,7 +6431,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '711',
@@ -6443,7 +6443,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '712',
@@ -6454,7 +6454,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-16',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '713',
@@ -6466,7 +6466,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '714',
@@ -6477,7 +6477,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-12',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '715',
@@ -6489,7 +6489,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '716',
@@ -6501,7 +6501,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '717',
@@ -6513,7 +6513,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '17',
 	'nrrunsaway' => '18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '718',
@@ -6525,7 +6525,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '719',
@@ -6537,7 +6537,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '720',
@@ -6549,7 +6549,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '721',
@@ -6561,7 +6561,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '722',
@@ -6573,7 +6573,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '723',
@@ -6585,7 +6585,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '724',
@@ -6596,7 +6596,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-09',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '725',
@@ -6608,7 +6608,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '726',
@@ -6620,7 +6620,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '727',
@@ -6632,7 +6632,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '728',
@@ -6644,7 +6644,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '729',
@@ -6656,7 +6656,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '730',
@@ -6667,7 +6667,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-28',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '731',
@@ -6678,7 +6678,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-28',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '732',
@@ -6690,7 +6690,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '733',
@@ -6702,7 +6702,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '734',
@@ -6713,7 +6713,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-26',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '735',
@@ -6725,7 +6725,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '736',
@@ -6737,7 +6737,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '737',
@@ -6749,7 +6749,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '738',
@@ -6761,7 +6761,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '739',
@@ -6773,7 +6773,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '740',
@@ -6785,7 +6785,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '741',
@@ -6797,7 +6797,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '742',
@@ -6809,7 +6809,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '743',
@@ -6821,7 +6821,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '744',
@@ -6832,7 +6832,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-21',
 	'nrrunsaway' => '22',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '745',
@@ -6844,7 +6844,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '746',
@@ -6856,7 +6856,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '747',
@@ -6868,7 +6868,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '748',
@@ -6880,7 +6880,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '749',
@@ -6892,7 +6892,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '750',
@@ -6903,7 +6903,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-15',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '751',
@@ -6915,7 +6915,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '752',
@@ -6926,7 +6926,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-15',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '753',
@@ -6938,7 +6938,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '754',
@@ -6949,7 +6949,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-14',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '755',
@@ -6961,7 +6961,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '756',
@@ -6973,7 +6973,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '757',
@@ -6985,7 +6985,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '758',
@@ -6997,7 +6997,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '759',
@@ -7009,7 +7009,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '15',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '760',
@@ -7020,7 +7020,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-12',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '761',
@@ -7032,7 +7032,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '762',
@@ -7044,7 +7044,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '763',
@@ -7056,7 +7056,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '764',
@@ -7068,7 +7068,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '765',
@@ -7080,7 +7080,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '766',
@@ -7092,7 +7092,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '767',
@@ -7104,7 +7104,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '768',
@@ -7115,7 +7115,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-07',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '769',
@@ -7127,7 +7127,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '770',
@@ -7139,7 +7139,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '771',
@@ -7151,7 +7151,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '772',
@@ -7163,7 +7163,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '773',
@@ -7174,7 +7174,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-01',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '774',
@@ -7186,7 +7186,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '775',
@@ -7198,7 +7198,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '776',
@@ -7210,7 +7210,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '777',
@@ -7221,7 +7221,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-30',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '778',
@@ -7233,7 +7233,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '779',
@@ -7245,7 +7245,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '780',
@@ -7257,7 +7257,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '781',
@@ -7269,7 +7269,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '782',
@@ -7280,7 +7280,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-28',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '783',
@@ -7292,7 +7292,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '784',
@@ -7303,7 +7303,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-28',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '785',
@@ -7314,7 +7314,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-24',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '786',
@@ -7325,7 +7325,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-24',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '787',
@@ -7337,7 +7337,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '788',
@@ -7349,7 +7349,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '789',
@@ -7361,7 +7361,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '790',
@@ -7373,7 +7373,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '791',
@@ -7385,7 +7385,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '792',
@@ -7397,7 +7397,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '793',
@@ -7409,7 +7409,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '794',
@@ -7421,7 +7421,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '795',
@@ -7433,7 +7433,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '796',
@@ -7445,7 +7445,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '797',
@@ -7456,7 +7456,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-19',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '798',
@@ -7468,7 +7468,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '799',
@@ -7480,7 +7480,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '800',
@@ -7492,7 +7492,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '801',
@@ -7504,7 +7504,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '802',
@@ -7515,7 +7515,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-16',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '803',
@@ -7527,7 +7527,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '804',
@@ -7539,7 +7539,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '805',
@@ -7551,7 +7551,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '806',
@@ -7563,7 +7563,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '807',
@@ -7575,7 +7575,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '808',
@@ -7587,7 +7587,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '809',
@@ -7599,7 +7599,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '810',
@@ -7611,7 +7611,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '811',
@@ -7623,7 +7623,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '812',
@@ -7634,7 +7634,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-02',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '813',
@@ -7646,7 +7646,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '814',
@@ -7658,7 +7658,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '815',
@@ -7670,7 +7670,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '17',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '816',
@@ -7681,7 +7681,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-25',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '817',
@@ -7692,7 +7692,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-25',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '818',
@@ -7703,7 +7703,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-25',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '819',
@@ -7714,7 +7714,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-25',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '820',
@@ -7726,7 +7726,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '821',
@@ -7738,7 +7738,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '822',
@@ -7750,7 +7750,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '823',
@@ -7762,7 +7762,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '824',
@@ -7774,7 +7774,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '825',
@@ -7786,7 +7786,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '826',
@@ -7797,7 +7797,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-25',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '827',
@@ -7809,7 +7809,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '828',
@@ -7821,7 +7821,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '829',
@@ -7832,7 +7832,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-19',
 	'nrrunshome' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '830',
@@ -7843,7 +7843,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-19',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '831',
@@ -7855,7 +7855,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '832',
@@ -7867,7 +7867,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '833',
@@ -7879,7 +7879,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '834',
@@ -7891,7 +7891,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '835',
@@ -7903,7 +7903,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '836',
@@ -7915,7 +7915,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '837',
@@ -7927,7 +7927,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '838',
@@ -7939,7 +7939,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '839',
@@ -7951,7 +7951,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '840',
@@ -7963,7 +7963,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '841',
@@ -7975,7 +7975,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '842',
@@ -7987,7 +7987,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '843',
@@ -7998,7 +7998,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-18',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '844',
@@ -8010,7 +8010,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '845',
@@ -8022,7 +8022,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '846',
@@ -8033,7 +8033,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '847',
@@ -8045,7 +8045,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '848',
@@ -8057,7 +8057,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '849',
@@ -8069,7 +8069,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '16',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '850',
@@ -8081,7 +8081,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '851',
@@ -8093,7 +8093,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '852',
@@ -8105,7 +8105,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '853',
@@ -8117,7 +8117,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '854',
@@ -8129,7 +8129,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '855',
@@ -8141,7 +8141,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '856',
@@ -8152,7 +8152,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-09-12',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '857',
@@ -8164,7 +8164,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '858',
@@ -8175,7 +8175,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-09-05',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '859',
@@ -8187,7 +8187,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '860',
@@ -8199,7 +8199,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '861',
@@ -8211,7 +8211,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '862',
@@ -8223,7 +8223,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '863',
@@ -8235,7 +8235,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '864',
@@ -8247,7 +8247,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '865',
@@ -8259,7 +8259,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '866',
@@ -8270,7 +8270,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-29',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '867',
@@ -8282,7 +8282,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '868',
@@ -8294,7 +8294,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '869',
@@ -8306,7 +8306,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '870',
@@ -8318,7 +8318,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '871',
@@ -8330,7 +8330,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '872',
@@ -8341,7 +8341,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-22',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '873',
@@ -8353,7 +8353,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '874',
@@ -8365,7 +8365,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '875',
@@ -8377,7 +8377,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '876',
@@ -8389,7 +8389,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '877',
@@ -8401,7 +8401,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '878',
@@ -8413,7 +8413,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '879',
@@ -8425,7 +8425,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '880',
@@ -8436,7 +8436,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-15',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '881',
@@ -8448,7 +8448,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '882',
@@ -8460,7 +8460,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '883',
@@ -8471,7 +8471,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-11',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '884',
@@ -8483,7 +8483,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '885',
@@ -8494,7 +8494,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-11',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '886',
@@ -8506,7 +8506,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '887',
@@ -8518,7 +8518,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '888',
@@ -8530,7 +8530,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '889',
@@ -8542,7 +8542,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '890',
@@ -8553,7 +8553,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-04',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '891',
@@ -8565,7 +8565,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '892',
@@ -8577,7 +8577,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '893',
@@ -8588,7 +8588,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-04',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '894',
@@ -8600,7 +8600,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '895',
@@ -8612,7 +8612,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '896',
@@ -8624,7 +8624,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '897',
@@ -8636,7 +8636,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '898',
@@ -8648,7 +8648,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '899',
@@ -8660,7 +8660,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '900',
@@ -8672,7 +8672,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '901',
@@ -8684,7 +8684,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '902',
@@ -8696,7 +8696,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '903',
@@ -8708,7 +8708,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '904',
@@ -8720,7 +8720,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '905',
@@ -8731,7 +8731,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-20',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '906',
@@ -8743,7 +8743,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '907',
@@ -8755,7 +8755,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '908',
@@ -8767,7 +8767,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '909',
@@ -8779,7 +8779,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '910',
@@ -8791,7 +8791,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '911',
@@ -8803,7 +8803,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '912',
@@ -8814,7 +8814,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-09-12',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '913',
@@ -8825,7 +8825,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-09-12',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '914',
@@ -8837,7 +8837,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '915',
@@ -8849,7 +8849,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '916',
@@ -8860,7 +8860,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-09-12',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '917',
@@ -8872,7 +8872,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '918',
@@ -8884,7 +8884,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '919',
@@ -8896,7 +8896,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '920',
@@ -8908,7 +8908,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '921',
@@ -8919,7 +8919,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-30',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '922',
@@ -8931,7 +8931,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '923',
@@ -8942,7 +8942,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-29',
 	'nrrunsaway' => '17',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '924',
@@ -8953,7 +8953,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-29',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '925',
@@ -8965,7 +8965,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '926',
@@ -8977,7 +8977,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '927',
@@ -8989,7 +8989,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '928',
@@ -9001,7 +9001,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '929',
@@ -9012,7 +9012,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-23',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '930',
@@ -9023,7 +9023,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-23',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '931',
@@ -9035,7 +9035,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '932',
@@ -9046,7 +9046,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-16',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '933',
@@ -9057,7 +9057,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-15',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '934',
@@ -9069,7 +9069,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '935',
@@ -9080,7 +9080,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-15',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '936',
@@ -9092,7 +9092,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '937',
@@ -9104,7 +9104,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '938',
@@ -9116,7 +9116,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '939',
@@ -9128,7 +9128,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '940',
@@ -9140,7 +9140,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '941',
@@ -9152,7 +9152,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '942',
@@ -9164,7 +9164,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '943',
@@ -9175,7 +9175,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-11',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '944',
@@ -9187,7 +9187,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '945',
@@ -9198,7 +9198,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-05',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '946',
@@ -9209,7 +9209,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-04',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '947',
@@ -9220,7 +9220,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-04',
 	'nrrunshome' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '948',
@@ -9231,7 +9231,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-04',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '949',
@@ -9243,7 +9243,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '950',
@@ -9255,7 +9255,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '951',
@@ -9267,7 +9267,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '952',
@@ -9279,7 +9279,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '953',
@@ -9291,7 +9291,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '954',
@@ -9303,7 +9303,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '955',
@@ -9315,7 +9315,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '956',
@@ -9327,7 +9327,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '957',
@@ -9339,7 +9339,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '958',
@@ -9351,7 +9351,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '959',
@@ -9363,7 +9363,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '960',
@@ -9375,7 +9375,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '15',
 	'nrrunsaway' => '18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '961',
@@ -9387,7 +9387,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '962',
@@ -9399,7 +9399,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '963',
@@ -9411,7 +9411,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '964',
@@ -9423,7 +9423,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '965',
@@ -9434,7 +9434,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-28',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '966',
@@ -9446,7 +9446,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '967',
@@ -9458,7 +9458,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '968',
@@ -9469,7 +9469,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-27',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '969',
@@ -9480,7 +9480,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-27',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '970',
@@ -9492,7 +9492,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '971',
@@ -9504,7 +9504,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '20',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '972',
@@ -9516,7 +9516,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '973',
@@ -9528,7 +9528,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '974',
@@ -9540,7 +9540,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '975',
@@ -9551,7 +9551,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-20',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '976',
@@ -9563,7 +9563,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '977',
@@ -9575,7 +9575,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '978',
@@ -9587,7 +9587,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '19',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '979',
@@ -9599,7 +9599,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '980',
@@ -9611,7 +9611,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '981',
@@ -9623,7 +9623,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '982',
@@ -9634,7 +9634,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-14',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '983',
@@ -9646,7 +9646,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '984',
@@ -9658,7 +9658,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '985',
@@ -9670,7 +9670,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '986',
@@ -9682,7 +9682,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '987',
@@ -9694,7 +9694,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '988',
@@ -9705,7 +9705,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-10',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '989',
@@ -9717,7 +9717,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '990',
@@ -9729,7 +9729,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '991',
@@ -9741,7 +9741,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '992',
@@ -9753,7 +9753,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '993',
@@ -9764,7 +9764,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-09',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '994',
@@ -9776,7 +9776,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '995',
@@ -9788,7 +9788,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '996',
@@ -9800,7 +9800,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '997',
@@ -9812,7 +9812,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '998',
@@ -9824,7 +9824,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '999',
@@ -9836,7 +9836,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1000',
@@ -9847,7 +9847,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-02',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1001',
@@ -9859,7 +9859,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1002',
@@ -9870,7 +9870,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-02',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1003',
@@ -9881,7 +9881,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-28',
 	'nrrunshome' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1004',
@@ -9893,7 +9893,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1005',
@@ -9904,7 +9904,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-28',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1006',
@@ -9915,7 +9915,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-26',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1007',
@@ -9927,7 +9927,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1008',
@@ -9939,7 +9939,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1009',
@@ -9951,7 +9951,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1010',
@@ -9963,7 +9963,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1011',
@@ -9975,7 +9975,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1012',
@@ -9987,7 +9987,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1013',
@@ -9999,7 +9999,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1014',
@@ -10011,7 +10011,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1015',
@@ -10023,7 +10023,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1016',
@@ -10035,7 +10035,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1017',
@@ -10047,7 +10047,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1018',
@@ -10059,7 +10059,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1019',
@@ -10071,7 +10071,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1020',
@@ -10083,7 +10083,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1021',
@@ -10095,7 +10095,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1022',
@@ -10107,7 +10107,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1023',
@@ -10119,7 +10119,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1024',
@@ -10131,7 +10131,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1025',
@@ -10143,7 +10143,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1026',
@@ -10155,7 +10155,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1027',
@@ -10167,7 +10167,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1028',
@@ -10179,7 +10179,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1029',
@@ -10190,7 +10190,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-04',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1030',
@@ -10202,7 +10202,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1031',
@@ -10214,7 +10214,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1032',
@@ -10226,7 +10226,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1033',
@@ -10238,7 +10238,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1034',
@@ -10250,7 +10250,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1035',
@@ -10262,7 +10262,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1036',
@@ -10274,7 +10274,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '15',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1037',
@@ -10286,7 +10286,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1038',
@@ -10298,7 +10298,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1039',
@@ -10310,7 +10310,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1040',
@@ -10322,7 +10322,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1041',
@@ -10334,7 +10334,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1042',
@@ -10346,7 +10346,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1043',
@@ -10358,7 +10358,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1044',
@@ -10370,7 +10370,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1045',
@@ -10382,7 +10382,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1046',
@@ -10394,7 +10394,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1047',
@@ -10406,7 +10406,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1048',
@@ -10418,7 +10418,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1049',
@@ -10430,7 +10430,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1050',
@@ -10442,7 +10442,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1051',
@@ -10454,7 +10454,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1052',
@@ -10466,7 +10466,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1053',
@@ -10478,7 +10478,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1054',
@@ -10490,7 +10490,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1055',
@@ -10502,7 +10502,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1056',
@@ -10514,7 +10514,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1057',
@@ -10526,7 +10526,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1058',
@@ -10538,7 +10538,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1059',
@@ -10550,7 +10550,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1060',
@@ -10562,7 +10562,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1061',
@@ -10574,7 +10574,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '16',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1062',
@@ -10586,7 +10586,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1063',
@@ -10598,7 +10598,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1064',
@@ -10610,7 +10610,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1065',
@@ -10622,7 +10622,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1066',
@@ -10634,7 +10634,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1067',
@@ -10646,7 +10646,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1068',
@@ -10658,7 +10658,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1069',
@@ -10670,7 +10670,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1070',
@@ -10682,7 +10682,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1071',
@@ -10694,7 +10694,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '17',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1072',
@@ -10706,7 +10706,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1073',
@@ -10718,7 +10718,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1074',
@@ -10730,7 +10730,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1075',
@@ -10742,7 +10742,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1076',
@@ -10754,7 +10754,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1077',
@@ -10766,7 +10766,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1078',
@@ -10778,7 +10778,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1079',
@@ -10789,7 +10789,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-23',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1080',
@@ -10801,7 +10801,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1081',
@@ -10813,7 +10813,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1082',
@@ -10825,7 +10825,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1083',
@@ -10836,7 +10836,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-17',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1084',
@@ -10848,7 +10848,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '16',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1085',
@@ -10860,7 +10860,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1086',
@@ -10872,7 +10872,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1087',
@@ -10884,7 +10884,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1088',
@@ -10896,7 +10896,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1089',
@@ -10908,7 +10908,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1090',
@@ -10920,7 +10920,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1091',
@@ -10932,7 +10932,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1092',
@@ -10944,7 +10944,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1093',
@@ -10956,7 +10956,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1094',
@@ -10968,7 +10968,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1095',
@@ -10979,7 +10979,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-09',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1096',
@@ -10991,7 +10991,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1097',
@@ -11003,7 +11003,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1098',
@@ -11015,7 +11015,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1099',
@@ -11027,7 +11027,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1100',
@@ -11038,7 +11038,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-30',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1101',
@@ -11049,7 +11049,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-30',
 	'nrrunshome' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1102',
@@ -11061,7 +11061,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1103',
@@ -11073,7 +11073,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1104',
@@ -11085,7 +11085,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1105',
@@ -11097,7 +11097,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1106',
@@ -11109,7 +11109,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1107',
@@ -11120,7 +11120,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-18',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1108',
@@ -11132,7 +11132,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1109',
@@ -11144,7 +11144,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1110',
@@ -11156,7 +11156,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1111',
@@ -11168,7 +11168,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1112',
@@ -11180,7 +11180,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1113',
@@ -11192,7 +11192,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1114',
@@ -11204,7 +11204,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1115',
@@ -11216,7 +11216,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1116',
@@ -11228,7 +11228,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1117',
@@ -11240,7 +11240,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1118',
@@ -11252,7 +11252,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '17',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1119',
@@ -11264,7 +11264,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1120',
@@ -11276,7 +11276,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '22',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1121',
@@ -11288,7 +11288,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1122',
@@ -11300,7 +11300,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1123',
@@ -11312,7 +11312,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1124',
@@ -11324,7 +11324,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1125',
@@ -11336,7 +11336,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1126',
@@ -11348,7 +11348,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1127',
@@ -11360,7 +11360,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1128',
@@ -11372,7 +11372,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1129',
@@ -11383,7 +11383,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-12',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1130',
@@ -11395,7 +11395,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1131',
@@ -11407,7 +11407,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1132',
@@ -11419,7 +11419,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1133',
@@ -11431,7 +11431,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1134',
@@ -11443,7 +11443,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1135',
@@ -11455,7 +11455,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '20',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1136',
@@ -11467,7 +11467,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1137',
@@ -11478,7 +11478,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-01',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1138',
@@ -11490,7 +11490,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1139',
@@ -11502,7 +11502,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1140',
@@ -11513,7 +11513,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-26',
 	'nrrunshome' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1141',
@@ -11525,7 +11525,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '17',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1142',
@@ -11537,7 +11537,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1143',
@@ -11549,7 +11549,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1144',
@@ -11561,7 +11561,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1145',
@@ -11573,7 +11573,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1146',
@@ -11585,7 +11585,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1147',
@@ -11596,7 +11596,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-10',
 	'nrrunshome' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1148',
@@ -11608,7 +11608,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1149',
@@ -11619,7 +11619,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-10',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1150',
@@ -11631,7 +11631,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '18',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1151',
@@ -11642,7 +11642,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-05',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1152',
@@ -11654,7 +11654,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1153',
@@ -11666,7 +11666,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1154',
@@ -11678,7 +11678,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1155',
@@ -11690,7 +11690,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1156',
@@ -11702,7 +11702,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1157',
@@ -11713,7 +11713,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-29',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1158',
@@ -11725,7 +11725,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1159',
@@ -11737,7 +11737,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1160',
@@ -11749,7 +11749,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1161',
@@ -11761,7 +11761,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1162',
@@ -11773,7 +11773,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1163',
@@ -11785,7 +11785,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1164',
@@ -11797,7 +11797,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1165',
@@ -11809,7 +11809,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1166',
@@ -11821,7 +11821,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1167',
@@ -11833,7 +11833,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1168',
@@ -11845,7 +11845,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1169',
@@ -11857,7 +11857,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1170',
@@ -11869,7 +11869,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1171',
@@ -11881,7 +11881,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1172',
@@ -11893,7 +11893,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1173',
@@ -11905,7 +11905,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1174',
@@ -11917,7 +11917,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1175',
@@ -11929,7 +11929,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1176',
@@ -11941,7 +11941,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1177',
@@ -11953,7 +11953,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1178',
@@ -11965,7 +11965,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1179',
@@ -11977,7 +11977,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1180',
@@ -11989,7 +11989,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1181',
@@ -12001,7 +12001,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1182',
@@ -12013,7 +12013,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1183',
@@ -12025,7 +12025,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1184',
@@ -12037,7 +12037,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1185',
@@ -12049,7 +12049,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1186',
@@ -12061,7 +12061,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1187',
@@ -12073,7 +12073,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1188',
@@ -12085,7 +12085,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1189',
@@ -12097,7 +12097,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1190',
@@ -12109,7 +12109,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1191',
@@ -12121,7 +12121,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1192',
@@ -12133,7 +12133,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1193',
@@ -12145,7 +12145,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1194',
@@ -12157,7 +12157,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1195',
@@ -12169,7 +12169,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1196',
@@ -12181,7 +12181,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '17',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1197',
@@ -12193,7 +12193,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1198',
@@ -12205,7 +12205,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1199',
@@ -12217,7 +12217,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1200',
@@ -12229,7 +12229,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1201',
@@ -12241,7 +12241,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1202',
@@ -12253,7 +12253,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1203',
@@ -12265,7 +12265,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1204',
@@ -12277,7 +12277,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1205',
@@ -12289,7 +12289,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1206',
@@ -12301,7 +12301,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1207',
@@ -12313,7 +12313,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1208',
@@ -12324,7 +12324,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-10',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1209',
@@ -12335,7 +12335,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-10',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1210',
@@ -12347,7 +12347,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1211',
@@ -12359,7 +12359,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1212',
@@ -12370,7 +12370,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-28',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1213',
@@ -12381,7 +12381,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-28',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1214',
@@ -12393,7 +12393,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1215',
@@ -12405,7 +12405,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1216',
@@ -12417,7 +12417,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1217',
@@ -12429,7 +12429,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1218',
@@ -12441,7 +12441,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1219',
@@ -12453,7 +12453,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1220',
@@ -12464,7 +12464,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-20',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1221',
@@ -12476,7 +12476,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1222',
@@ -12488,7 +12488,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1223',
@@ -12499,7 +12499,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-20',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1224',
@@ -12510,7 +12510,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-13',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1225',
@@ -12521,7 +12521,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-13',
 	'nrrunshome' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1226',
@@ -12533,7 +12533,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1227',
@@ -12545,7 +12545,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1228',
@@ -12557,7 +12557,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1229',
@@ -12568,7 +12568,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-06',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1230',
@@ -12580,7 +12580,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1231',
@@ -12592,7 +12592,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1232',
@@ -12604,7 +12604,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1233',
@@ -12616,7 +12616,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1234',
@@ -12627,7 +12627,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-26',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1235',
@@ -12639,7 +12639,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1236',
@@ -12651,7 +12651,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1237',
@@ -12663,7 +12663,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1238',
@@ -12674,7 +12674,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-25',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1239',
@@ -12686,7 +12686,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1240',
@@ -12698,7 +12698,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1241',
@@ -12710,7 +12710,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1242',
@@ -12722,7 +12722,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1243',
@@ -12734,7 +12734,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1244',
@@ -12746,7 +12746,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1245',
@@ -12758,7 +12758,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1246',
@@ -12770,7 +12770,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1247',
@@ -12782,7 +12782,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1248',
@@ -12793,7 +12793,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1249',
@@ -12805,7 +12805,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1250',
@@ -12817,7 +12817,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1251',
@@ -12829,7 +12829,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1252',
@@ -12840,7 +12840,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-04',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1253',
@@ -12852,7 +12852,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1254',
@@ -12864,7 +12864,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1255',
@@ -12876,7 +12876,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1256',
@@ -12887,7 +12887,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-04',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1257',
@@ -12898,7 +12898,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-29',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1258',
@@ -12910,7 +12910,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1259',
@@ -12922,7 +12922,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1260',
@@ -12933,7 +12933,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-28',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1261',
@@ -12945,7 +12945,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1262',
@@ -12957,7 +12957,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1263',
@@ -12969,7 +12969,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1264',
@@ -12980,7 +12980,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-28',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1265',
@@ -12992,7 +12992,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1266',
@@ -13004,7 +13004,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '21',
 	'nrrunsaway' => '20',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1267',
@@ -13015,7 +13015,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-21',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1268',
@@ -13026,7 +13026,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-21',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1269',
@@ -13038,7 +13038,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1270',
@@ -13050,7 +13050,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1271',
@@ -13062,7 +13062,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1272',
@@ -13074,7 +13074,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1273',
@@ -13086,7 +13086,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1274',
@@ -13098,7 +13098,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1275',
@@ -13110,7 +13110,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1276',
@@ -13122,7 +13122,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1277',
@@ -13133,7 +13133,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-14',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1278',
@@ -13145,7 +13145,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1279',
@@ -13156,7 +13156,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-14',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1280',
@@ -13168,7 +13168,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1281',
@@ -13179,7 +13179,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-14',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1282',
@@ -13191,7 +13191,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1283',
@@ -13203,7 +13203,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1284',
@@ -13215,7 +13215,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1285',
@@ -13227,7 +13227,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1286',
@@ -13238,7 +13238,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-07',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1287',
@@ -13249,7 +13249,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-07',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1288',
@@ -13261,7 +13261,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1289',
@@ -13272,7 +13272,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-07',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1290',
@@ -13284,7 +13284,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1291',
@@ -13295,7 +13295,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-01',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1292',
@@ -13307,7 +13307,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1293',
@@ -13319,7 +13319,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1294',
@@ -13331,7 +13331,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1295',
@@ -13343,7 +13343,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1296',
@@ -13355,7 +13355,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1297',
@@ -13367,7 +13367,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1298',
@@ -13379,7 +13379,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1299',
@@ -13391,7 +13391,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1300',
@@ -13403,7 +13403,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1301',
@@ -13414,7 +13414,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-23',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1302',
@@ -13425,7 +13425,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-23',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1303',
@@ -13437,7 +13437,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1304',
@@ -13449,7 +13449,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1305',
@@ -13461,7 +13461,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1306',
@@ -13473,7 +13473,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1307',
@@ -13485,7 +13485,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1308',
@@ -13497,7 +13497,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1309',
@@ -13508,7 +13508,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-16',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1310',
@@ -13520,7 +13520,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1311',
@@ -13532,7 +13532,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1312',
@@ -13544,7 +13544,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1313',
@@ -13555,7 +13555,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-16',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1314',
@@ -13567,7 +13567,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1315',
@@ -13579,7 +13579,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1316',
@@ -13591,7 +13591,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1317',
@@ -13603,7 +13603,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1318',
@@ -13614,7 +13614,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-17',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1319',
@@ -13626,7 +13626,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1320',
@@ -13637,7 +13637,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-10-08',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1321',
@@ -13649,7 +13649,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1322',
@@ -13660,7 +13660,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-25',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1323',
@@ -13672,7 +13672,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1324',
@@ -13683,7 +13683,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-24',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1325',
@@ -13695,7 +13695,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1326',
@@ -13707,7 +13707,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1327',
@@ -13719,7 +13719,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1328',
@@ -13731,7 +13731,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1329',
@@ -13743,7 +13743,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1330',
@@ -13755,7 +13755,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1331',
@@ -13767,7 +13767,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1332',
@@ -13779,7 +13779,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1333',
@@ -13791,7 +13791,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1334',
@@ -13803,7 +13803,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1335',
@@ -13815,7 +13815,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1336',
@@ -13827,7 +13827,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1337',
@@ -13839,7 +13839,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1338',
@@ -13851,7 +13851,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1339',
@@ -13863,7 +13863,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1340',
@@ -13874,7 +13874,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-20',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1341',
@@ -13886,7 +13886,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1342',
@@ -13897,7 +13897,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-20',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1343',
@@ -13909,7 +13909,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1344',
@@ -13920,7 +13920,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-20',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1345',
@@ -13932,7 +13932,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1346',
@@ -13944,7 +13944,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1347',
@@ -13956,7 +13956,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1348',
@@ -13968,7 +13968,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1349',
@@ -13979,7 +13979,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-13',
 	'nrrunshome' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1350',
@@ -13991,7 +13991,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1351',
@@ -14003,7 +14003,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1352',
@@ -14014,7 +14014,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-06',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1353',
@@ -14026,7 +14026,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1354',
@@ -14038,7 +14038,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1355',
@@ -14050,7 +14050,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1356',
@@ -14061,7 +14061,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-06',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1357',
@@ -14072,7 +14072,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-06',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1358',
@@ -14084,7 +14084,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1359',
@@ -14096,7 +14096,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1360',
@@ -14108,7 +14108,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1361',
@@ -14120,7 +14120,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1362',
@@ -14132,7 +14132,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1363',
@@ -14144,7 +14144,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1364',
@@ -14156,7 +14156,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1365',
@@ -14168,7 +14168,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1366',
@@ -14180,7 +14180,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1367',
@@ -14191,7 +14191,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-23',
 	'nrrunsaway' => '23',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1368',
@@ -14202,7 +14202,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-23',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1369',
@@ -14213,7 +14213,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-23',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1370',
@@ -14225,7 +14225,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1371',
@@ -14236,7 +14236,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-23',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1372',
@@ -14247,7 +14247,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-23',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1373',
@@ -14259,7 +14259,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1374',
@@ -14270,7 +14270,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-19',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1375',
@@ -14282,7 +14282,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1376',
@@ -14293,7 +14293,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-17',
 	'nrrunshome' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1377',
@@ -14304,7 +14304,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-16',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1378',
@@ -14316,7 +14316,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1379',
@@ -14327,7 +14327,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-16',
 	'nrrunshome' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1380',
@@ -14339,7 +14339,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1381',
@@ -14350,7 +14350,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-16',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1382',
@@ -14362,7 +14362,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1383',
@@ -14374,7 +14374,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1384',
@@ -14386,7 +14386,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1385',
@@ -14398,7 +14398,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1386',
@@ -14410,7 +14410,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1387',
@@ -14422,7 +14422,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1388',
@@ -14434,7 +14434,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '15',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1389',
@@ -14446,7 +14446,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1390',
@@ -14458,7 +14458,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '29',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1391',
@@ -14470,7 +14470,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1392',
@@ -14481,7 +14481,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-21',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1393',
@@ -14493,7 +14493,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '19',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1394',
@@ -14505,7 +14505,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '23',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1395',
@@ -14516,7 +14516,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-16',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1396',
@@ -14528,7 +14528,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1397',
@@ -14540,7 +14540,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1398',
@@ -14552,7 +14552,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1399',
@@ -14564,7 +14564,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '19',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1400',
@@ -14576,7 +14576,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '19',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1401',
@@ -14588,7 +14588,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1402',
@@ -14599,7 +14599,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-26',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1403',
@@ -14611,7 +14611,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1404',
@@ -14623,7 +14623,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1405',
@@ -14635,7 +14635,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1406',
@@ -14647,7 +14647,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1407',
@@ -14659,7 +14659,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1408',
@@ -14671,7 +14671,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1409',
@@ -14683,7 +14683,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1410',
@@ -14694,7 +14694,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-17',
 	'nrrunshome' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1411',
@@ -14706,7 +14706,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1412',
@@ -14718,7 +14718,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '19',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1413',
@@ -14730,7 +14730,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '22',
 	'nrrunsaway' => '39',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1414',
@@ -14742,7 +14742,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1415',
@@ -14754,7 +14754,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1416',
@@ -14766,7 +14766,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1417',
@@ -14778,7 +14778,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1418',
@@ -14790,7 +14790,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '20',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1419',
@@ -14802,7 +14802,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '17',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1420',
@@ -14814,7 +14814,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1421',
@@ -14826,7 +14826,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1422',
@@ -14838,7 +14838,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1423',
@@ -14850,7 +14850,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1424',
@@ -14862,7 +14862,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1425',
@@ -14874,7 +14874,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1426',
@@ -14886,7 +14886,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1427',
@@ -14898,7 +14898,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1428',
@@ -14910,7 +14910,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1429',
@@ -14922,7 +14922,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1430',
@@ -14934,7 +14934,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1431',
@@ -14945,7 +14945,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-06',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1432',
@@ -14956,7 +14956,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-29',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1433',
@@ -14968,7 +14968,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '32',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1434',
@@ -14980,7 +14980,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1435',
@@ -14992,7 +14992,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '15',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1436',
@@ -15004,7 +15004,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1437',
@@ -15016,7 +15016,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1438',
@@ -15027,7 +15027,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-15',
 	'nrrunsaway' => '23',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1439',
@@ -15038,7 +15038,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-08',
 	'nrrunshome' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1440',
@@ -15050,7 +15050,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1441',
@@ -15062,7 +15062,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '16',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1442',
@@ -15074,7 +15074,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1443',
@@ -15085,7 +15085,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-09',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1444',
@@ -15096,7 +15096,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-09',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1445',
@@ -15107,7 +15107,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-09',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1446',
@@ -15119,7 +15119,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1447',
@@ -15131,7 +15131,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1448',
@@ -15143,7 +15143,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1449',
@@ -15155,7 +15155,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1450',
@@ -15166,7 +15166,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-02',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1451',
@@ -15178,7 +15178,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1452',
@@ -15190,7 +15190,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1453',
@@ -15202,7 +15202,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1454',
@@ -15214,7 +15214,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1455',
@@ -15226,7 +15226,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1456',
@@ -15238,7 +15238,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1457',
@@ -15250,7 +15250,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1458',
@@ -15262,7 +15262,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1459',
@@ -15274,7 +15274,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1460',
@@ -15285,7 +15285,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-25',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1461',
@@ -15297,7 +15297,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1462',
@@ -15309,7 +15309,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1463',
@@ -15321,7 +15321,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1464',
@@ -15332,7 +15332,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-18',
 	'nrrunshome' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1465',
@@ -15343,7 +15343,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-18',
 	'nrrunshome' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1466',
@@ -15355,7 +15355,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1467',
@@ -15367,7 +15367,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1468',
@@ -15378,7 +15378,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-18',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1469',
@@ -15390,7 +15390,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1470',
@@ -15402,7 +15402,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1471',
@@ -15414,7 +15414,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1472',
@@ -15426,7 +15426,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1473',
@@ -15438,7 +15438,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1474',
@@ -15450,7 +15450,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1475',
@@ -15462,7 +15462,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1476',
@@ -15474,7 +15474,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1477',
@@ -15485,7 +15485,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-09',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1478',
@@ -15496,7 +15496,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-02',
 	'nrrunshome' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1479',
@@ -15508,7 +15508,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1480',
@@ -15520,7 +15520,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1481',
@@ -15532,7 +15532,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1482',
@@ -15544,7 +15544,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1483',
@@ -15556,7 +15556,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '17',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1484',
@@ -15568,7 +15568,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '17',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1485',
@@ -15580,7 +15580,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1486',
@@ -15592,7 +15592,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1487',
@@ -15604,7 +15604,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1488',
@@ -15616,7 +15616,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1489',
@@ -15627,7 +15627,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-27',
 	'nrrunshome' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1490',
@@ -15639,7 +15639,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1491',
@@ -15650,7 +15650,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-20',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1492',
@@ -15662,7 +15662,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1493',
@@ -15674,7 +15674,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1494',
@@ -15686,7 +15686,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1495',
@@ -15698,7 +15698,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '20',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1496',
@@ -15710,7 +15710,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1497',
@@ -15722,7 +15722,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1498',
@@ -15734,7 +15734,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1499',
@@ -15746,7 +15746,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '17',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1500',
@@ -15758,7 +15758,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1501',
@@ -15770,7 +15770,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1502',
@@ -15782,7 +15782,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1503',
@@ -15794,7 +15794,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1504',
@@ -15806,7 +15806,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1505',
@@ -15817,7 +15817,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-10-08',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1506',
@@ -15829,7 +15829,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1507',
@@ -15841,7 +15841,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1508',
@@ -15853,7 +15853,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1509',
@@ -15864,7 +15864,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-17',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1510',
@@ -15876,7 +15876,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1511',
@@ -15887,7 +15887,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-17',
 	'nrrunshome' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1512',
@@ -15898,7 +15898,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-17',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1513',
@@ -15910,7 +15910,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1514',
@@ -15922,7 +15922,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1515',
@@ -15934,7 +15934,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1516',
@@ -15946,7 +15946,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1517',
@@ -15958,7 +15958,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1518',
@@ -15970,7 +15970,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1519',
@@ -15982,7 +15982,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1520',
@@ -15994,7 +15994,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1521',
@@ -16006,7 +16006,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1522',
@@ -16018,7 +16018,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1523',
@@ -16030,7 +16030,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1524',
@@ -16042,7 +16042,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1525',
@@ -16054,7 +16054,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1526',
@@ -16066,7 +16066,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1527',
@@ -16078,7 +16078,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1528',
@@ -16089,7 +16089,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-27',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1529',
@@ -16101,7 +16101,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1530',
@@ -16113,7 +16113,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1531',
@@ -16124,7 +16124,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-20',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1532',
@@ -16136,7 +16136,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1533',
@@ -16148,7 +16148,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1534',
@@ -16160,7 +16160,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1535',
@@ -16172,7 +16172,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1536',
@@ -16184,7 +16184,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1537',
@@ -16196,7 +16196,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1538',
@@ -16207,7 +16207,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-13',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1539',
@@ -16219,7 +16219,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1540',
@@ -16231,7 +16231,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1541',
@@ -16243,7 +16243,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1542',
@@ -16255,7 +16255,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1543',
@@ -16267,7 +16267,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1544',
@@ -16279,7 +16279,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1545',
@@ -16291,7 +16291,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '20',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1546',
@@ -16303,7 +16303,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1547',
@@ -16315,7 +16315,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1548',
@@ -16326,7 +16326,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-09',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1549',
@@ -16338,7 +16338,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1550',
@@ -16349,7 +16349,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-09',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1551',
@@ -16361,7 +16361,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1552',
@@ -16373,7 +16373,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1553',
@@ -16384,7 +16384,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-02',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1554',
@@ -16396,7 +16396,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1555',
@@ -16408,7 +16408,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1556',
@@ -16420,7 +16420,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1557',
@@ -16432,7 +16432,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1558',
@@ -16444,7 +16444,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1559',
@@ -16456,7 +16456,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1560',
@@ -16468,7 +16468,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1561',
@@ -16480,7 +16480,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1562',
@@ -16492,7 +16492,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1563',
@@ -16504,7 +16504,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1564',
@@ -16516,7 +16516,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1565',
@@ -16528,7 +16528,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1566',
@@ -16540,7 +16540,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1567',
@@ -16552,7 +16552,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1568',
@@ -16564,7 +16564,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1569',
@@ -16575,7 +16575,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-10-02',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1570',
@@ -16586,7 +16586,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-20',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1571',
@@ -16597,7 +16597,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-17',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1572',
@@ -16609,7 +16609,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1573',
@@ -16621,7 +16621,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1574',
@@ -16633,7 +16633,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1575',
@@ -16645,7 +16645,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1576',
@@ -16657,7 +16657,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1577',
@@ -16669,7 +16669,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1578',
@@ -16680,7 +16680,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-13',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1579',
@@ -16692,7 +16692,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1580',
@@ -16704,7 +16704,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1581',
@@ -16716,7 +16716,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1582',
@@ -16728,7 +16728,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1583',
@@ -16739,7 +16739,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-10',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1584',
@@ -16750,7 +16750,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-10',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1585',
@@ -16761,7 +16761,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-06',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1586',
@@ -16773,7 +16773,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1587',
@@ -16785,7 +16785,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1588',
@@ -16796,7 +16796,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-09-03',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1589',
@@ -16808,7 +16808,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1590',
@@ -16820,7 +16820,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1591',
@@ -16832,7 +16832,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1592',
@@ -16844,7 +16844,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1593',
@@ -16855,7 +16855,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-27',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1594',
@@ -16867,7 +16867,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1595',
@@ -16879,7 +16879,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1596',
@@ -16890,7 +16890,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-20',
 	'nrrunshome' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1597',
@@ -16902,7 +16902,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1598',
@@ -16914,7 +16914,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1599',
@@ -16926,7 +16926,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1600',
@@ -16937,7 +16937,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-14',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1601',
@@ -16949,7 +16949,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1602',
@@ -16961,7 +16961,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1603',
@@ -16973,7 +16973,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1604',
@@ -16984,7 +16984,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-13',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1605',
@@ -16995,7 +16995,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-13',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1606',
@@ -17006,7 +17006,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-08-13',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1607',
@@ -17018,7 +17018,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1608',
@@ -17029,7 +17029,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-16',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1609',
@@ -17041,7 +17041,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1610',
@@ -17053,7 +17053,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1611',
@@ -17065,7 +17065,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1612',
@@ -17076,7 +17076,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-07-09',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1613',
@@ -17088,7 +17088,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1614',
@@ -17100,7 +17100,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1615',
@@ -17112,7 +17112,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1616',
@@ -17124,7 +17124,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1617',
@@ -17136,7 +17136,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1618',
@@ -17147,7 +17147,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-28',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1619',
@@ -17159,7 +17159,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1620',
@@ -17171,7 +17171,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1621',
@@ -17183,7 +17183,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1622',
@@ -17195,7 +17195,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1623',
@@ -17207,7 +17207,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1624',
@@ -17219,7 +17219,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1625',
@@ -17231,7 +17231,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1626',
@@ -17243,7 +17243,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1627',
@@ -17255,7 +17255,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1628',
@@ -17267,7 +17267,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1629',
@@ -17279,7 +17279,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1630',
@@ -17291,7 +17291,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1631',
@@ -17303,7 +17303,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1632',
@@ -17315,7 +17315,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1633',
@@ -17326,7 +17326,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-08',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1634',
@@ -17337,7 +17337,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-06',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1635',
@@ -17349,7 +17349,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1636',
@@ -17360,7 +17360,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-06',
 	'nrrunsaway' => '17',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1637',
@@ -17372,7 +17372,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1638',
@@ -17384,7 +17384,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1639',
@@ -17395,7 +17395,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-02',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1640',
@@ -17407,7 +17407,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1641',
@@ -17418,7 +17418,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-01',
 	'nrrunshome' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1642',
@@ -17429,7 +17429,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-01',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1643',
@@ -17441,7 +17441,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1644',
@@ -17453,7 +17453,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1645',
@@ -17465,7 +17465,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1646',
@@ -17477,7 +17477,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1647',
@@ -17489,7 +17489,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1648',
@@ -17500,7 +17500,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-30',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1649',
@@ -17512,7 +17512,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1650',
@@ -17524,7 +17524,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1651',
@@ -17536,7 +17536,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1652',
@@ -17547,7 +17547,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-12',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1653',
@@ -17559,7 +17559,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1654',
@@ -17570,7 +17570,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-11',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1655',
@@ -17582,7 +17582,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1656',
@@ -17594,7 +17594,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1657',
@@ -17606,7 +17606,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1658',
@@ -17618,7 +17618,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1659',
@@ -17630,7 +17630,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1660',
@@ -17642,7 +17642,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1661',
@@ -17654,7 +17654,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1662',
@@ -17666,7 +17666,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1663',
@@ -17678,7 +17678,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1664',
@@ -17690,7 +17690,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1665',
@@ -17702,7 +17702,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1666',
@@ -17714,7 +17714,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1667',
@@ -17726,7 +17726,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '19',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1668',
@@ -17737,7 +17737,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-04',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1669',
@@ -17748,7 +17748,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-04',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1670',
@@ -17760,7 +17760,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '22',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1671',
@@ -17771,7 +17771,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-07-02',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1672',
@@ -17783,7 +17783,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1673',
@@ -17795,7 +17795,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1674',
@@ -17807,7 +17807,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1675',
@@ -17819,7 +17819,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1676',
@@ -17831,7 +17831,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1677',
@@ -17843,7 +17843,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1678',
@@ -17855,7 +17855,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1679',
@@ -17867,7 +17867,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1680',
@@ -17879,7 +17879,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1681',
@@ -17891,7 +17891,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1682',
@@ -17902,7 +17902,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-27',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1683',
@@ -17914,7 +17914,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1684',
@@ -17926,7 +17926,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1685',
@@ -17938,7 +17938,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1686',
@@ -17950,7 +17950,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1687',
@@ -17961,7 +17961,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-25',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1688',
@@ -17973,7 +17973,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1689',
@@ -17984,7 +17984,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-23',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1690',
@@ -17996,7 +17996,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1691',
@@ -18008,7 +18008,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1692',
@@ -18020,7 +18020,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1693',
@@ -18031,7 +18031,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-20',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1694',
@@ -18043,7 +18043,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1695',
@@ -18054,7 +18054,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-20',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1696',
@@ -18066,7 +18066,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1697',
@@ -18078,7 +18078,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1698',
@@ -18090,7 +18090,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1699',
@@ -18102,7 +18102,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1700',
@@ -18114,7 +18114,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1701',
@@ -18126,7 +18126,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1702',
@@ -18138,7 +18138,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1703',
@@ -18150,7 +18150,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1704',
@@ -18162,7 +18162,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1705',
@@ -18174,7 +18174,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1706',
@@ -18186,7 +18186,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1707',
@@ -18198,7 +18198,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1708',
@@ -18210,7 +18210,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1709',
@@ -18222,7 +18222,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1710',
@@ -18233,7 +18233,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-11',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1711',
@@ -18244,7 +18244,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-06-11',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1712',
@@ -18256,7 +18256,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1713',
@@ -18268,7 +18268,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1714',
@@ -18280,7 +18280,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '22',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1715',
@@ -18292,7 +18292,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1716',
@@ -18303,7 +18303,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-31',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1717',
@@ -18315,7 +18315,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1718',
@@ -18327,7 +18327,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1719',
@@ -18339,7 +18339,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1720',
@@ -18350,7 +18350,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-30',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1721',
@@ -18361,7 +18361,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-28',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1722',
@@ -18372,7 +18372,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-28',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1723',
@@ -18384,7 +18384,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1724',
@@ -18396,7 +18396,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1725',
@@ -18408,7 +18408,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1726',
@@ -18419,7 +18419,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-24',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1727',
@@ -18431,7 +18431,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1728',
@@ -18442,7 +18442,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-23',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1729',
@@ -18453,7 +18453,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-23',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1730',
@@ -18465,7 +18465,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1731',
@@ -18476,7 +18476,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-23',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1732',
@@ -18488,7 +18488,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1733',
@@ -18500,7 +18500,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1734',
@@ -18512,7 +18512,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1735',
@@ -18524,7 +18524,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1736',
@@ -18536,7 +18536,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1737',
@@ -18548,7 +18548,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1738',
@@ -18560,7 +18560,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1739',
@@ -18572,7 +18572,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1740',
@@ -18584,7 +18584,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1741',
@@ -18596,7 +18596,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1742',
@@ -18607,7 +18607,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-16',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1743',
@@ -18619,7 +18619,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1744',
@@ -18631,7 +18631,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1745',
@@ -18643,7 +18643,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1746',
@@ -18655,7 +18655,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1747',
@@ -18667,7 +18667,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1748',
@@ -18679,7 +18679,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1749',
@@ -18691,7 +18691,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1750',
@@ -18703,7 +18703,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1751',
@@ -18715,7 +18715,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1752',
@@ -18727,7 +18727,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1753',
@@ -18739,7 +18739,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1754',
@@ -18751,7 +18751,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1755',
@@ -18763,7 +18763,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1756',
@@ -18775,7 +18775,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1757',
@@ -18786,7 +18786,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-07',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1758',
@@ -18798,7 +18798,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1759',
@@ -18810,7 +18810,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1760',
@@ -18822,7 +18822,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1761',
@@ -18834,7 +18834,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1762',
@@ -18846,7 +18846,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '17',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1763',
@@ -18857,7 +18857,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-03',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1764',
@@ -18868,7 +18868,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-05-02',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1765',
@@ -18880,7 +18880,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1766',
@@ -18892,7 +18892,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1767',
@@ -18904,7 +18904,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1768',
@@ -18916,7 +18916,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1769',
@@ -18927,7 +18927,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-30',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1770',
@@ -18939,7 +18939,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1771',
@@ -18950,7 +18950,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-30',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1772',
@@ -18962,7 +18962,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1773',
@@ -18974,7 +18974,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1774',
@@ -18986,7 +18986,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1775',
@@ -18998,7 +18998,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1776',
@@ -19010,7 +19010,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1777',
@@ -19021,7 +19021,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-25',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1778',
@@ -19033,7 +19033,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1779',
@@ -19045,7 +19045,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1780',
@@ -19057,7 +19057,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1781',
@@ -19069,7 +19069,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1782',
@@ -19081,7 +19081,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '17',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1783',
@@ -19092,7 +19092,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-23',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1784',
@@ -19104,7 +19104,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1785',
@@ -19116,7 +19116,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1786',
@@ -19127,7 +19127,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-19',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1787',
@@ -19139,7 +19139,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1788',
@@ -19150,7 +19150,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-18',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1789',
@@ -19161,7 +19161,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-18',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1790',
@@ -19173,7 +19173,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1791',
@@ -19185,7 +19185,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1792',
@@ -19196,7 +19196,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-18',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1793',
@@ -19208,7 +19208,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1794',
@@ -19220,7 +19220,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1795',
@@ -19231,7 +19231,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-04-16',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1796',
@@ -19243,7 +19243,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1797',
@@ -19255,7 +19255,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1798',
@@ -19267,7 +19267,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1799',
@@ -19279,7 +19279,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1800',
@@ -19291,7 +19291,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1801',
@@ -19303,7 +19303,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1802',
@@ -19315,7 +19315,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1803',
@@ -19327,7 +19327,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1804',
@@ -19339,7 +19339,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1805',
@@ -19351,7 +19351,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1806',
@@ -19363,7 +19363,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1807',
@@ -19375,7 +19375,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1808',
@@ -19387,7 +19387,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1809',
@@ -19399,7 +19399,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1810',
@@ -19411,7 +19411,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1811',
@@ -19423,7 +19423,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1812',
@@ -19435,7 +19435,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1813',
@@ -19446,7 +19446,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-16',
 	'nrrunsaway' => '19',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1814',
@@ -19458,7 +19458,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1815',
@@ -19470,7 +19470,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1816',
@@ -19482,7 +19482,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1817',
@@ -19494,7 +19494,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1818',
@@ -19506,7 +19506,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1819',
@@ -19517,7 +19517,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-30',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1820',
@@ -19529,7 +19529,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1821',
@@ -19540,7 +19540,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-29',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1822',
@@ -19552,7 +19552,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1823',
@@ -19564,7 +19564,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1824',
@@ -19575,7 +19575,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-28',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1825',
@@ -19587,7 +19587,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1826',
@@ -19599,7 +19599,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1827',
@@ -19611,7 +19611,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1828',
@@ -19622,7 +19622,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-22',
 	'nrrunshome' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1829',
@@ -19634,7 +19634,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1830',
@@ -19646,7 +19646,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1831',
@@ -19658,7 +19658,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1832',
@@ -19669,7 +19669,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-16',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1833',
@@ -19680,7 +19680,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2015-08-15',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1834',
@@ -19692,7 +19692,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1835',
@@ -19704,7 +19704,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1836',
@@ -19716,7 +19716,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1894',
@@ -19727,7 +19727,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-11',
 	'nrrunshome' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1895',
@@ -19739,7 +19739,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1896',
@@ -19751,7 +19751,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1897',
@@ -19763,7 +19763,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1898',
@@ -19775,7 +19775,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1899',
@@ -19787,7 +19787,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1900',
@@ -19799,7 +19799,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1901',
@@ -19810,7 +19810,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-11',
 	'nrrunshome' => '15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1902',
@@ -19822,7 +19822,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1903',
@@ -19834,7 +19834,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1904',
@@ -19846,7 +19846,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1905',
@@ -19858,7 +19858,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1906',
@@ -19870,7 +19870,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1907',
@@ -19882,7 +19882,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1908',
@@ -19894,7 +19894,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1909',
@@ -19905,7 +19905,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-04',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1910',
@@ -19916,7 +19916,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-04',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1911',
@@ -19927,7 +19927,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-04',
 	'nrrunshome' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1912',
@@ -19939,7 +19939,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1913',
@@ -19951,7 +19951,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1914',
@@ -19962,7 +19962,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-04',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1915',
@@ -19974,7 +19974,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1916',
@@ -19986,7 +19986,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1917',
@@ -19997,7 +19997,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-06-04',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1918',
@@ -20008,7 +20008,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-28',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1919',
@@ -20020,7 +20020,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1920',
@@ -20032,7 +20032,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1921',
@@ -20044,7 +20044,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1922',
@@ -20056,7 +20056,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1923',
@@ -20067,7 +20067,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-28',
 	'nrrunshome' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1924',
@@ -20079,7 +20079,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1925',
@@ -20091,7 +20091,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1926',
@@ -20102,7 +20102,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-28',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1927',
@@ -20113,7 +20113,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-28',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1928',
@@ -20125,7 +20125,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1929',
@@ -20137,7 +20137,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1930',
@@ -20149,7 +20149,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1931',
@@ -20161,7 +20161,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1932',
@@ -20173,7 +20173,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1933',
@@ -20185,7 +20185,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1934',
@@ -20197,7 +20197,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1935',
@@ -20209,7 +20209,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1936',
@@ -20221,7 +20221,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1937',
@@ -20233,7 +20233,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '14',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1938',
@@ -20245,7 +20245,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1939',
@@ -20257,7 +20257,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1940',
@@ -20269,7 +20269,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1941',
@@ -20280,7 +20280,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-21',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1942',
@@ -20292,7 +20292,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1943',
@@ -20304,7 +20304,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1944',
@@ -20316,7 +20316,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1945',
@@ -20328,7 +20328,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1946',
@@ -20340,7 +20340,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1947',
@@ -20352,7 +20352,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1948',
@@ -20364,7 +20364,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1949',
@@ -20375,7 +20375,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-16',
 	'nrrunshome' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1950',
@@ -20387,7 +20387,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1951',
@@ -20399,7 +20399,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1952',
@@ -20410,7 +20410,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-16',
 	'nrrunshome' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1953',
@@ -20422,7 +20422,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1954',
@@ -20434,7 +20434,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1955',
@@ -20446,7 +20446,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1956',
@@ -20458,7 +20458,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '13',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1957',
@@ -20470,7 +20470,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1958',
@@ -20482,7 +20482,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1959',
@@ -20493,7 +20493,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-14',
 	'nrrunshome' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1960',
@@ -20505,7 +20505,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '21',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1961',
@@ -20517,7 +20517,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1962',
@@ -20529,7 +20529,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1963',
@@ -20540,7 +20540,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-14',
 	'nrrunshome' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1964',
@@ -20552,7 +20552,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1965',
@@ -20564,7 +20564,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '17',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1966',
@@ -20576,7 +20576,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1967',
@@ -20587,7 +20587,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-08',
 	'nrrunshome' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1968',
@@ -20599,7 +20599,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1969',
@@ -20610,7 +20610,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-07',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1970',
@@ -20621,7 +20621,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-07',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1971',
@@ -20633,7 +20633,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1972',
@@ -20645,7 +20645,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1973',
@@ -20657,7 +20657,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1974',
@@ -20669,7 +20669,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '15',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1975',
@@ -20681,7 +20681,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1976',
@@ -20693,7 +20693,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1977',
@@ -20704,7 +20704,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-07',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1978',
@@ -20716,7 +20716,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1979',
@@ -20728,7 +20728,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1980',
@@ -20740,7 +20740,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1981',
@@ -20752,7 +20752,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1982',
@@ -20763,7 +20763,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-05',
 	'nrrunshome' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1983',
@@ -20774,7 +20774,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-05',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1984',
@@ -20786,7 +20786,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1985',
@@ -20798,7 +20798,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1986',
@@ -20810,7 +20810,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1987',
@@ -20822,7 +20822,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1988',
@@ -20834,7 +20834,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1989',
@@ -20846,7 +20846,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1990',
@@ -20858,7 +20858,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1991',
@@ -20869,7 +20869,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-05-05',
 	'nrrunshome' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1992',
@@ -20881,7 +20881,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1993',
@@ -20892,7 +20892,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-30',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1994',
@@ -20904,7 +20904,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1995',
@@ -20916,7 +20916,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '12',
 	'nrrunsaway' => '5',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1996',
@@ -20928,7 +20928,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1997',
@@ -20940,7 +20940,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1998',
@@ -20952,7 +20952,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '1999',
@@ -20964,7 +20964,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2000',
@@ -20976,7 +20976,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2001',
@@ -20988,7 +20988,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2002',
@@ -20999,7 +20999,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-23',
 	'nrrunshome' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2003',
@@ -21011,7 +21011,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2004',
@@ -21023,7 +21023,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2005',
@@ -21035,7 +21035,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2006',
@@ -21047,7 +21047,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2007',
@@ -21059,7 +21059,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2008',
@@ -21071,7 +21071,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '8',
 	'nrrunsaway' => '4',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2009',
@@ -21083,7 +21083,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2010',
@@ -21095,7 +21095,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2011',
@@ -21107,7 +21107,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrrunsaway' => '1',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2012',
@@ -21119,7 +21119,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrrunsaway' => '3',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2013',
@@ -21131,7 +21131,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '9',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2014',
@@ -21143,7 +21143,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '16',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2015',
@@ -21155,7 +21155,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '1',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2016',
@@ -21167,7 +21167,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '12',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2017',
@@ -21179,7 +21179,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '4',
 	'nrrunsaway' => '11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2018',
@@ -21190,7 +21190,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-16',
 	'nrrunsaway' => '13',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2019',
@@ -21202,7 +21202,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '6',
 	'nrrunsaway' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2020',
@@ -21214,7 +21214,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2021',
@@ -21226,7 +21226,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '7',
 	'nrrunsaway' => '6',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2022',
@@ -21237,7 +21237,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-16',
 	'nrrunsaway' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2023',
@@ -21249,7 +21249,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '3',
 	'nrrunsaway' => '8',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2024',
@@ -21261,7 +21261,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '11',
 	'nrrunsaway' => '2',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2025',
@@ -21272,7 +21272,7 @@ class GamesSeeder extends AbstractSeed
 	'dtstart' => '2016-04-16',
 	'nrrunshome' => '10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2027',
@@ -21283,7 +21283,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '10',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2028',
@@ -21295,7 +21295,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2029',
@@ -21307,7 +21307,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2030',
@@ -21318,7 +21318,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '5',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2031',
@@ -21330,7 +21330,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2032',
@@ -21342,7 +21342,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2033',
@@ -21354,7 +21354,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '4',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2034',
@@ -21365,7 +21365,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '6',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2035',
@@ -21377,7 +21377,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '6',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2036',
@@ -21389,7 +21389,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '5',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2037',
@@ -21400,7 +21400,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '5',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2038',
@@ -21412,7 +21412,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '5',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2039',
@@ -21424,7 +21424,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '1',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2040',
@@ -21436,7 +21436,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '2',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2041',
@@ -21447,7 +21447,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '7',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2042',
@@ -21458,7 +21458,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '6',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2043',
@@ -21470,7 +21470,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '2',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2044',
@@ -21482,7 +21482,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '15',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2045',
@@ -21494,7 +21494,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '2',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2046',
@@ -21506,7 +21506,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '7',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2047',
@@ -21518,7 +21518,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '3',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2048',
@@ -21529,7 +21529,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunshome' => '2',
 	'nrinnings' => '7',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2049',
@@ -21541,7 +21541,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '5',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2050',
@@ -21553,7 +21553,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '9',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2051',
@@ -21565,7 +21565,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '12',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2052',
@@ -21577,7 +21577,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '14',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2053',
@@ -21589,7 +21589,7 @@ class GamesSeeder extends AbstractSeed
 	'nrrunsaway' => '7',
 	'nrinnings' => '9',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2054',
@@ -21598,7 +21598,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '26',
 	'dtstart' => '1980-04-26',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2055',
@@ -21607,7 +21607,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '27',
 	'dtstart' => '1980-05-03',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2056',
@@ -21616,7 +21616,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '25',
 	'dtstart' => '1980-05-04',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2057',
@@ -21625,7 +21625,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '25',
 	'dtstart' => '1980-05-10',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2058',
@@ -21634,7 +21634,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '28',
 	'dtstart' => '1980-05-11',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2059',
@@ -21643,7 +21643,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '25',
 	'dtstart' => '1980-05-24',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2060',
@@ -21652,7 +21652,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '29',
 	'dtstart' => '1980-05-26',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2061',
@@ -21661,7 +21661,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '30',
 	'dtstart' => '1980-05-31',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2062',
@@ -21670,7 +21670,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '25',
 	'dtstart' => '1980-06-01',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2063',
@@ -21679,7 +21679,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '25',
 	'dtstart' => '1980-06-04',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2064',
@@ -21688,7 +21688,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '25',
 	'dtstart' => '1980-06-07',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2065',
@@ -21697,7 +21697,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '32',
 	'dtstart' => '1980-06-08',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2066',
@@ -21706,7 +21706,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '25',
 	'dtstart' => '1980-06-14',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2067',
@@ -21715,7 +21715,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '33',
 	'dtstart' => '1980-06-15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2068',
@@ -21724,7 +21724,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '25',
 	'dtstart' => '1980-06-18',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2069',
@@ -21733,7 +21733,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '25',
 	'dtstart' => '1980-06-21',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2070',
@@ -21742,7 +21742,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '26',
 	'dtstart' => '1980-06-22',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2071',
@@ -21751,7 +21751,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '27',
 	'dtstart' => '1980-06-29',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2072',
@@ -21760,91 +21760,91 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '31',
 	'dtstart' => '1980-07-02',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2073',
 	'idhome' => '25',
 	'idaway' => '25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2074',
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2075',
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2076',
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2077',
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2078',
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2079',
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2080',
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2081',
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2082',
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2083',
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2084',
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2085',
@@ -21853,7 +21853,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '28',
 	'dtstart' => '1980-07-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2086',
@@ -21862,44 +21862,44 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '26',
 	'dtstart' => '1980-07-15',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2087',
 	'idhome' => '25',
 	'idaway' => '25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2088',
 	'idaway' => '25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2089',
 	'idaway' => '25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2090',
 	'idaway' => '25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2091',
 	'idaway' => '25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2092',
 	'idaway' => '25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2093',
@@ -21908,7 +21908,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '29',
 	'dtstart' => '1980-07-22',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2094',
@@ -21917,7 +21917,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '28',
 	'dtstart' => '1980-07-26',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2095',
@@ -21926,7 +21926,7 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '30',
 	'dtstart' => '1980-07-27',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2096',
@@ -21935,20 +21935,20 @@ class GamesSeeder extends AbstractSeed
 	'idaway' => '28',
 	'dtstart' => '1980-08-05',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2097',
 	'idhome' => '25',
 	'idaway' => '25',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 [
 	'idgame' => '2098',
 	'idaway' => '296',
 	'created_at' => '2019-03-24 09:17:57',
-	'changed_by' => 'info@honkbalmuseum.nl',
+	'updated_by' => 'info@honkbalmuseum.nl',
 ],
 
     	];

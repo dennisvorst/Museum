@@ -1,5 +1,5 @@
 <?php
-require_once "class/SingleItemPage.php";
+require_once "SingleItemPage.php";
 
 class Stat extends SingleItemPage{
 

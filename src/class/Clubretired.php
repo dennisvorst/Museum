@@ -1,6 +1,6 @@
 <?php
 /* retired numbers of a club */
-require_once "class/SingleItemPage.php";
+require_once "SingleItemPage.php";
 
 class Clubretired extends SingleItemPage{
 	var $nmtable	= "clubretired";

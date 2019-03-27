@@ -4,8 +4,8 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
 /* include section */
-require_once "class/Database.php";
-require_once "class/HtmlGrid.php";
+require_once "Database.php";
+require_once "HtmlGrid.php";
 
 class Menu extends Database{
 	var $version = "0.0.29";
