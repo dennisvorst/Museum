@@ -66,6 +66,13 @@ class Club extends SingleItemPage{
 		return $html;
 	}
 
+	var $_photoCollection;
+	function getPhotoCollection(int $id) : array
+	{
+
+		return $this->_photoCollection;
+	}
+
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/**
 		$nrCurrentPage = the current displayed tab page

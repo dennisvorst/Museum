@@ -27,7 +27,6 @@ Website for the Dutch base- and softballmuseum.
 * anonimify the personsseeder
 * Can all plural classes be moved to collections in their representative classes
 * alters stat and stats classes in functional specific statclasses 
-* change changed_by into updated_by, same for at
 
 ## Release info
 | Date | Description |
@@ -40,3 +39,5 @@ Website for the Dutch base- and softballmuseum.
 | 24 march 2019 | Changed database columns |
 | 25 march 2019 | First tests added using PHPunit |
 | 27 march 2019 | Tests added for all classes using PHPunit |
+| 27 march 2019 | Renamed changed_by into updated_by |
+| 31 march 2019 | Added the getPhotoCollection method and tests |

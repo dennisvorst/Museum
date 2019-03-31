@@ -9,5 +9,12 @@ class ArticleTest extends TestCase
     {
         $this->assertTrue(class_exists("Article"));
     }
+
+
+    public function testClassHasFunctionGetPhotoCollection()
+    {
+        $this->assertTrue(method_exists("Article", 'getPhotoCollection'));
+    }
+
 }
 ?>

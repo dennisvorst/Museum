@@ -9,5 +9,10 @@ class ClubTest extends TestCase
     {
         $this->assertTrue(class_exists("Club"));
     }
+
+    public function testClassHasFunctionGetPhotoCollection()
+    {
+        $this->assertTrue(method_exists("Club", 'getPhotoCollection'));
+    }
 }
 ?>

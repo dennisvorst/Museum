@@ -54,7 +54,7 @@ class Article extends SingleItemPage{
 		$this->cdtype		= $this->ftrecord['cdtype'];
 
 		$this->ftarticle	= $this->ftrecord['ftarticle'];
-		$this->is_featured		= $this->ftrecord['is_featured'];
+		$this->is_featured	= $this->ftrecord['is_featured'];
 
 		$this->created_at	= $this->ftrecord['created_at'];
 		$this->changed_at	= $this->ftrecord['changed_at'];
@@ -109,6 +109,13 @@ class Article extends SingleItemPage{
 		$data .= "</table>\n";
 		return $data;
 	}//createThumbnail
+
+	var $_photoCollection;
+	function getPhotoCollection(int $id) : array
+	{
+
+		return $this->_photoCollection;
+	}
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the article */

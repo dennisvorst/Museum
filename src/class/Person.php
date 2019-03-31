@@ -66,6 +66,14 @@ class Person extends SingleItemPage{
 		$this->is_featured 	= $this->ftrecord['is_featured'];
 	}
 
+	var $_photoCollection;
+	function getPhotoCollection(int $id) : array
+	{
+
+		return $this->_photoCollection;
+	}
+
+
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/*******************
 		 gather the data

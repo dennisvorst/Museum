@@ -9,5 +9,11 @@ class PersonTest extends TestCase
     {
         $this->assertTrue(class_exists("Person"));
     }
+
+    public function testClassHasFunctionGetPhotoCollection()
+    {
+        $this->assertTrue(method_exists("Person", 'getPhotoCollection'));
+    }
+
 }
 ?>
