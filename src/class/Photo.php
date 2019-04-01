@@ -212,7 +212,7 @@ class Photo extends SingleItemPage{
         $image = "<img border='0' src='" . $image . "'>";
         return $image;
     }
-
+	
     function getPhotoName($id, $path){
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");

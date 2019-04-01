@@ -8,3 +8,4 @@ src/config/analyticstracking.php
 # We don't want to publish the login and username for the website by mistake 
 src/config/config.php
 .phpunit.result.cache
+src/admin/class/Database.php
