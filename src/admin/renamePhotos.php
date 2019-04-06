@@ -2,8 +2,8 @@
 /** rename the files in de folder and strip the proceeding zero's, except the first one that must remain a 0.jpg */
 require_once("class/File.php");
 
-$path = "../../db/images/photostest";
-$path = "../../db/images/thumbnailstest";
+$path = "../../db/images/photos";
+$path = "../../db/images/thumbnails";
 
 $photos = scandir($path);
 foreach ($photos as $photo)

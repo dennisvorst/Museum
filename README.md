@@ -22,7 +22,6 @@ Website for the Dutch base- and softballmuseum.
 
 * Figure out how to properly migrate and seed the database 
 * change the email adres of the site into info@honkbalmuseum.nl
-* build check to match photos and thumbnails with records 
 * anonimify the usersseeder 
 * anonimify the personsseeder
 * Can all plural classes be moved to collections in their representative classes
@@ -41,3 +40,4 @@ Website for the Dutch base- and softballmuseum.
 | 27 march 2019 | Tests added for all classes using PHPunit |
 | 27 march 2019 | Renamed changed_by into updated_by |
 | 31 march 2019 | Added the getPhotoCollection method and tests |
+| 05 april 2019 | Renamed the Photos, removed the leading zeros |

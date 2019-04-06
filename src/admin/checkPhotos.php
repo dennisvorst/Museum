@@ -3,8 +3,8 @@ require_once('class/database.php');
 require_once('class/File.php');
 
 /* init */
-$photoPath = "../../db/images/photostest";
-$thumbnailPath = "../../db/images/thumbnailstest";
+$photoPath = "../../db/images/photos";
+$thumbnailPath = "../../db/images/thumbnails";
 
 $db = new Database();
 $sql = "SELECT idphoto as id FROM photos ORDER BY idphoto";
@@ -15,9 +15,6 @@ $thumbnails = scandir($thumbnailPath);
 
 $differencePhotosWithoutThumbnails = array_diff($photos, $thumbnails); 
 $differenceThumbnailsWithoutPhotos = array_diff($thumbnails, $photos); 
-
-//print_r($differencePhotosWithoutThumbnails);
-//print_r($differenceThumbnailsWithoutPhotos);
 
 $keys = [];
 ?>

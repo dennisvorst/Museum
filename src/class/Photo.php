@@ -70,19 +70,6 @@ class Photo extends SingleItemPage{
 		$this->is_featured			= $this->ftrecord['is_featured'];
 	}
 
-//	function createThumbnail(){
-//		/* create a thumbnail as part of a collection of records. */
-//		$image = $this->getThumbnail();
-//
-//        /* create the output */
-//        $data = "<table width=\"100%\">\n";
-//        $data .= "<tr>\n";
-//        $data .= "<td><a href='" . $this->getUrl() . "'>$image</a></td>\n";
-//        $data .= "</tr>\n";
-//        $data .= "</table>\n";
-//		return $data;
-//	}//createThumbnail
-
 	function createThumbnail($nrsize = 3){
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");
@@ -214,35 +201,14 @@ class Photo extends SingleItemPage{
     }
 	
     function getPhotoName($id, $path){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
-			print_r("id " . $id . "<br/>");
-			print_r("path " . $path . "<br/>");
-		}
-
 		/* if the ID is numeric edit it a little */
-		$nrlimit	= 1000000;
-		$image		= $id;
-
-		/* only add zeros for numbers smaller than a million */
-		if (is_numeric($image) and $image < $nrlimit){
-			$image = substr(strval($nrlimit + $id),1, 6);
-		}
-
 		/* if the file has the extension .jpg do not add another extension. */
-		$image = $path . $image;
-		if (substr(strval($image),-4, 4) !== ".jpg"){
-	   	    $image .= ".jpg";
-		}
+		$image = $path . $id . ".jpg";
 
 		/** check if the file exists **/
         if (!file_exists($image)) {
-			if ($this->debug){
-				print_r("image " . $image . "<br/>");
-			}
         	/** file doesnot exist so lets put a dummy in here **/
-//			$image = $this->getPhotoName("000000", $path);
-			$image = $path . "000000.jpg";
+			$image = $path . "0.jpg";
 		}
 
         return $image;

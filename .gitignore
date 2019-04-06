@@ -1,6 +1,12 @@
 # ignore all third party software
 src/3rd/
 
+# ignore all third party software
+db/artikelen/
+
+# ignore all third party software
+db/image baseline (niet verwijderen)/
+
 # ignore the google tracker 
 src/config/analyticstracking.php
 
