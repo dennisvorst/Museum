@@ -42,3 +42,4 @@ Website for the Dutch base- and softballmuseum.
 | 27 march 2019 | Renamed changed_by into updated_by |
 | 31 march 2019 | Added the getPhotoCollection method and tests |
 | 05 april 2019 | Renamed the Photos, removed the leading zeros |
+| 05 april 2019 | ArticleId and url added to the missing photographs |
