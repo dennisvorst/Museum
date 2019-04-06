@@ -25,7 +25,8 @@ Website for the Dutch base- and softballmuseum.
 * anonimify the usersseeder 
 * anonimify the personsseeder
 * Can all plural classes be moved to collections in their representative classes
-* alters stat and stats classes in functional specific statclasses 
+* alter stat and stats classes in functional specific statclasses 
+* find the missing fotos
 
 ## Release info
 | Date | Description |

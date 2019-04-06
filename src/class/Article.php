@@ -57,8 +57,8 @@ class Article extends SingleItemPage{
 		$this->is_featured	= $this->ftrecord['is_featured'];
 
 		$this->created_at	= $this->ftrecord['created_at'];
-		$this->changed_at	= $this->ftrecord['changed_at'];
-		$this->changed_by	= $this->ftrecord['changed_by'];
+		$this->changed_at	= $this->ftrecord['updated_at'];
+		$this->changed_by	= $this->ftrecord['updated_by'];
 	}
 
 	function createThumbnail(){
