@@ -1,4 +1,6 @@
 <?php
+require_once "Delpher.php";
+
 class Search{
 	private $ftsearch;
 
@@ -6,16 +8,24 @@ class Search{
 	function __construct(){
 	}
 
-	function getMain(){
+	function getMain(string $search = null) : string 
+	{
 		$html = "<form action='search.php' method='post' accept-charset='utf-8'>\n";
 		$html .= "  <div class='active-orange-4 mb-4'>\n";
-		$html .= "    <input class='form-control' type='text' placeholder='Zoeken' aria-label='Search'>\n";
+		$html .= "    <input class='form-control' type='text' placeholder='Zoeken' " . (empty($search) ?: "value='" . $ftsearch . "' " )  . "aria-label='Search'>\n";
 		$html .= "  </div>\n";
 		$html .= "  <p>\n";
 		$html .= "    <input type='submit' value='Zoeken'>\n";
 		$html .= "    <input type='reset' value='Maak leeg'>\n";
 		$html .= "  </p>\n";
 		$html .= "</form>\n";
+
+		/* add a Delpher button */
+		if (class_exists("Delpher") && !empty($search))
+		{
+			$html .= "<br />\n";
+			$html .= Delpher::createButton($search);
+		}
 
 		return $html;
 	}
