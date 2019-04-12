@@ -8,11 +8,13 @@ class Search{
 
 	function getMain(){
 		$html = "<form action='search.php' method='post' accept-charset='utf-8'>\n";
-		$html .= "<input name='ftquery' type='text' />\n";
-		$html .= "<p>\n";
-		$html .= "<input type='submit' value='Zoeken'>\n";
-		$html .= "<input type='reset' value='Maak leeg'>\n";
-		$html .= "</p>\n";
+		$html .= "  <div class='active-orange-4 mb-4'>\n";
+		$html .= "    <input class='form-control' type='text' placeholder='Zoeken' aria-label='Search'>\n";
+		$html .= "  </div>\n";
+		$html .= "  <p>\n";
+		$html .= "    <input type='submit' value='Zoeken'>\n";
+		$html .= "    <input type='reset' value='Maak leeg'>\n";
+		$html .= "  </p>\n";
 		$html .= "</form>\n";
 
 		return $html;

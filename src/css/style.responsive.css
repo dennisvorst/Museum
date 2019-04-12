@@ -394,3 +394,12 @@
    box-sizing: border-box;
 }
 
+/* search button from search class */
+.active-orange-4 input[type=text]:focus:not([readonly]) {
+    border: 1px solid #FFA500;
+    box-shadow: 0 0 0 1px #FFA500;
+}
+.active-orange-3 input[type=text] {
+    border: 1px solid #FFA500;
+    box-shadow: 0 0 0 1px #FFA500;
+}
