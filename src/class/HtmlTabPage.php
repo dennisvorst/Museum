@@ -2,14 +2,19 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-class Tab{
+require_once("HtmlTabElement.php");
+
+class HtmlTabPage{
 	var $id;
+	private $_numberOfTabs;
+	private $_tabs;
+
 	/* constructor */
 	function __construct($id){
 		$this->id	= $id;
 	}
 
-	static function getTab($nmclass, $list, $nmCurrentTab, $nrCurrentPage, $id){
+	function getTab($nmclass, $list, $nmCurrentTab, $nrCurrentPage, $id){
 		/* pay attention cause this might hurt a little.
 		We have created an array with all the tabs for Clubs. Each class has a function that
 		starts with getClub... followed by the name of the class. So we should be able to do
@@ -73,25 +78,44 @@ class Tab{
 
 			/* now list the pages */
 			foreach ($items as $item){
-				if (strtolower($nmCurrentTab) == strtolower($item)){
-					$tabs .= "<li class='active'><a data-toggle='tab' href='#" . strtolower($item) . "'>" . $titles[$item] . "</a></li>\n";
-					$tabcontent .= "<div id='" . strtolower($item) . "' class='tab active'>\n" . $pages[$item] . "</div>\n";
-				} else {
-					$tabs .= "<li><a data-toggle='tab' href='#" . strtolower($item) . "'>" . $titles[$item] . "</a></li>\n";
-					$tabcontent .= "<div id='" . strtolower($item) . "' class='tab'>\n" . $pages[$item] . "</div>\n";
-				}
+				if (strtolower($nmCurrentTab) == strtolower($item))
+				{
+					$this->addTab(strtolower($item), $titles[$item], $pages[$item], true);
+				}else {
+					$this->addTab(strtolower($item), $titles[$item], $pages[$item], false);
+				}					
 			}
 
-			/* create the tabs */
-			$tabs = "<ul class='tab-links'>\n" .$tabs . "</ul>\n\n";
-
-			/* create the tabcontent */
-			$tabcontent = "<div class='tab-content'>\n" .$tabcontent . "</div>\n\n";
-
 			/* create the outer div */
-			$html = "<div class='tabs'>\n" . $tabs . $tabcontent . "</div>\n";
+			$html = "<div class='tabs'>\n";
+			$html .= $this->_createTabStrip();
+			$html .= $this->_createTabContent();
+			$html .= "</div>\n";
 		}
 		return $html;
 	}
+
+	function addTab(string $reference, string $title, string $content){
+		$this->_tabs[$this->_numberOfTabs++] = new HtmlTabElement($reference, $title, $content);
+	}
+
+	private function _createTabStrip(){
+		$html = "<ul class='tab-links'>\n";
+		foreach($this->_tabs as $tab)
+		{
+			$html .= $tab->getTabButton();
+		}
+		$html .= "</ul>\n\n";
+	}
+
+	private function _createTabContent(){
+		$html = "<div class='tab-content'>\n";
+		foreach($this->_tabs as $tab)
+		{
+			$html .= $tab->getTabButton();
+		}
+		$html .= "</div>\n\n";
+	}
+
 }
 ?>

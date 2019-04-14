@@ -45,3 +45,4 @@ Website for the Dutch base- and softballmuseum.
 | 05 april 2019 | ArticleId and url added to the missing photographs |
 | 12 april 2019 | Changed the look and feel of the search field |
 | 12 april 2019 | Added the Delpher button in the search page |
+| 14 april 2019 | Refactotred the TabPage |

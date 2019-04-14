@@ -42,7 +42,6 @@ require_once "class/Source.php";
 require_once "class/Stats.php";
 require_once "class/Stat.php";
 
-require_once "class/Tab.php";
 require_once "class/Teams.php";
 
 require_once "class/Video.php";

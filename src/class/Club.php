@@ -1,6 +1,8 @@
 <?php
 require_once "SingleItemPage.php";
 require_once "HtmlSelect.php";
+require_once "HtmltABpAGE.php";
+
 
 class Club extends SingleItemPage{
 	var $nmtable	= "clubs";
@@ -101,9 +103,9 @@ class Club extends SingleItemPage{
 		2. What is its current page number
 		*/
 		$list = array("articles", "videos", "photos", "persons", "teams");
-//		$tabObj	= new Tab($this->id);
-//		$html .= $tabObj->getTab("Club", $list, $nmCurrentTab, $nrCurrentPage);
-		$html .= Tab::getTab("Club", $list, $nmCurrentTab, $nrCurrentPage, $this->id);
+		$tabObj	= new HtmlTabPage($this->id);
+		$html .= $tabObj->getTab("Club", $list, $nmCurrentTab, $nrCurrentPage, $this->id);
+//		$html .= Tab::getTab("Club", $list, $nmCurrentTab, $nrCurrentPage, $this->id);
 
 		return $html;
 	}// getContent

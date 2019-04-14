@@ -1,14 +1,17 @@
 # ignore all third party software
 src/3rd/
 
-# ignore all third party software
-db/artikelen/
+# ignore the baseline
+db/images/image baseline (niet verwijderen)/
 
-# ignore all third party software
-db/image baseline (niet verwijderen)/
+# ignore the original articles 
+db/images/artikelen/
 
 # ignore the google tracker 
 src/config/analyticstracking.php
+
+# ignore all visio studio stuff 
+src/.vs/
 
 # ignore the config.php after the initial commit. 
 # We don't want to publish the login and username for the website by mistake 
