@@ -6,11 +6,13 @@ require_once("HtmlTabElement.php");
 
 class HtmlTabPage{
 	var $id;
-	private $_numberOfTabs = 0;
+	private $_tabsCount = 0;
 	private $_tabs = [];
 
 	/* constructor */
 	function __construct($id){
+		/** Id must be a numeric integer value  */
+		if (!($id > 0))	{throw new InvalidArgumentException('HtmlTabElement: reference not allowed to be empty.');} 
 		$this->id	= $id;
 	}
 
@@ -103,8 +105,18 @@ class HtmlTabPage{
 		return $html;
 	}
 
-	function addTab(string $reference, string $title, string $content){
-		$this->_tabs[$this->_numberOfTabs++] = new HtmlTabElement($reference, $title, $content);
+	function addTab(string $reference, string $title, string $content, bool $isActive = null){
+		/**
+		 * Tabs cannot:
+		 * - have two or more active tabs
+		 * - cannot have the same reference 
+		 */
+		$i=0;
+		$isActive = (isset($isActive) && !empty($isActive)  ? $isActive : false);				
+		if ($isActive && count($this->_getActiveTabs()) > 0) {throw new Exception('HtmlTabPage::addTab: adding too many active tabs.');}
+		if (!empty($reference) && $this->_referenceExists($reference))  {throw new Exception('HtmlTabPage::addTab: Reference already exists');}
+
+		$this->_tabs[$this->_tabsCount++] = new HtmlTabElement($reference, $title, $content, $isActive);
 	}
 
 	private function _createTabStrip() : string {
@@ -127,19 +139,36 @@ class HtmlTabPage{
 		return $html;
 	}
 
+	private function _referenceExists($reference) : bool
+	{
+		foreach($this->_tabs as $tab)
+		{
+			if ($reference == $tab->getReference())
+			{
+				return true;
+			}
+		}
+		return false;
+	} 
+
+	private function _getActiveTabs() : array 
+	{
+		$activeTabs = [];
+		for ($i=0; $i < count($this->_tabs); $i++)
+		{
+			if ($this->_tabs[$i]->isActive())
+			{
+				array_push($activeTabs, $i);
+			} 
+		}
+		return $activeTabs;
+	}
+
 	function _setActiveTab() : void 
 	{
 		if (count($this->_tabs) > 0)
 		{
-			$activeTabs = [];
-			for ($i=0; $i < count($this->_tabs); $i++)
-			{
-				if ($this->_tabs[$i]->isActive())
-				{
-					array_push($activeTabs, $i);
-				} 
-			}
-			switch(count($activeTabs))
+			switch($this->_getActiveTabs())
 			{
 				case  1:
 					/* correct */
@@ -158,6 +187,11 @@ class HtmlTabPage{
 					break;
 			}
 		}
+	}
+
+	function countTabs() : int
+	{
+		return count($this->_tabs);
 	}
 }
 ?>

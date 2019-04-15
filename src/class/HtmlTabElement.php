@@ -8,8 +8,12 @@ class HtmlTabElement{
 	private $_content; 
 	private $_isActive = false;
 
-	function __construct(string $reference, string $title, string $content, boolval $isActive = NULL)
+	function __construct(string $reference, string $title, string $content, bool $isActive = null)
 	{
+		if (empty($reference))	{throw new InvalidArgumentException('HtmlTabElement: reference not allowed to be empty.');} 
+		if (empty($title))		{throw new InvalidArgumentException('HtmlTabElement: title not allowed to be empty.');} 
+		if (empty($content))	{throw new InvalidArgumentException('HtmlTabElement: content not allowed to be empty.');} 
+		
 		$this->_reference = $reference;
 		$this->_title = $title;
 		$this->_content = $content;
@@ -48,6 +52,10 @@ class HtmlTabElement{
 	function setInactive() : void
 	{
 		$this->_isActive = false;
+	}
+	function getReference() : string
+	{
+		return $this->_reference;
 	}
 }
 ?>
