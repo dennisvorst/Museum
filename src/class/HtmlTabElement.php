@@ -8,7 +8,7 @@ class HtmlTabElement{
 	private $_content; 
 	private $_isActive = false;
 
-	function __construct(string $reference, string $title, string $content, boolean $isActive = NULL)
+	function __construct(string $reference, string $title, string $content, boolval $isActive = NULL)
 	{
 		$this->_reference = $reference;
 		$this->_title = $title;
@@ -19,26 +19,35 @@ class HtmlTabElement{
 		}
 	}
 
-	function getTabButton(){
+	function getTabButton() : string {
 		$html = "";
 		if ($this->isActive()){
 			$html .= "<li class='active'><a data-toggle='tab' href='#" . $this->_reference . "'>" . $this->_title . "</a></li>\n";
 		} else {
 			$html .= "<li><a data-toggle='tab' href='#" . $this->_reference . "'>" . $this->_title . "</a></li>\n";
 		}
-
 		return $html;
 	}
-	function getTabBContent(){
+	function getTabContent() : string {
 		$html = "";
 		if ($this->isActive()){
 			$html .= "<div id='" . $this->_reference . "' class='tab active'>\n" . $this->_content . "</div>\n";
 		} else {
 			$html .= "<div id='" . $this->_reference . "' class='tab'>\n" . $this->_content . "</div>\n";
 		}
+		return $html;
 	}
-	function isActive(){
+	function isActive() : bool 
+	{
 		return $this->_isActive;
+	}
+	function setActive() : void
+	{
+		$this->_isActive = true;
+	}
+	function setInactive() : void
+	{
+		$this->_isActive = false;
 	}
 }
 ?>

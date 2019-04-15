@@ -6,8 +6,8 @@ require_once("HtmlTabElement.php");
 
 class HtmlTabPage{
 	var $id;
-	private $_numberOfTabs;
-	private $_tabs;
+	private $_numberOfTabs = 0;
+	private $_tabs = [];
 
 	/* constructor */
 	function __construct($id){
@@ -67,6 +67,7 @@ class HtmlTabPage{
 			}
 			$nminstance = null;
 		}
+		
 
 		/* then make sure that the active tab that we have selected exists in the remaining pages. If not select the first one.*/
 		if (!empty($pages)){
@@ -86,12 +87,19 @@ class HtmlTabPage{
 				}					
 			}
 
+		}
+
+		$this->_setActiveTab();
+
+		if (count($this->_tabs) > 0)
+		{
+
 			/* create the outer div */
-			$html = "<div class='tabs'>\n";
+			$html .= "<div class='tabs'>\n";
 			$html .= $this->_createTabStrip();
 			$html .= $this->_createTabContent();
 			$html .= "</div>\n";
-		}
+		} 
 		return $html;
 	}
 
@@ -99,23 +107,57 @@ class HtmlTabPage{
 		$this->_tabs[$this->_numberOfTabs++] = new HtmlTabElement($reference, $title, $content);
 	}
 
-	private function _createTabStrip(){
+	private function _createTabStrip() : string {
 		$html = "<ul class='tab-links'>\n";
 		foreach($this->_tabs as $tab)
 		{
 			$html .= $tab->getTabButton();
 		}
 		$html .= "</ul>\n\n";
+		return $html;
 	}
 
-	private function _createTabContent(){
+	private function _createTabContent() : string {
 		$html = "<div class='tab-content'>\n";
 		foreach($this->_tabs as $tab)
 		{
-			$html .= $tab->getTabButton();
+			$html .= $tab->getTabContent();
 		}
 		$html .= "</div>\n\n";
+		return $html;
 	}
 
+	function _setActiveTab() : void 
+	{
+		if (count($this->_tabs) > 0)
+		{
+			$activeTabs = [];
+			for ($i=0; $i < count($this->_tabs); $i++)
+			{
+				if ($this->_tabs[$i]->isActive())
+				{
+					array_push($activeTabs, $i);
+				} 
+			}
+			switch(count($activeTabs))
+			{
+				case  1:
+					/* correct */
+					break;
+				default: 
+					/* reset all */
+					foreach ($this->_tabs as $tab)
+					{
+						$tab->setInactive();
+					} 
+					break;
+				case  0:
+					/* make one active */
+					$this->_tabs[0]->setActive();
+
+					break;
+			}
+		}
+	}
 }
 ?>
