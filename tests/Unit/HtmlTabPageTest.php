@@ -82,7 +82,6 @@ class HtmlTabPageTest extends TestCase
         $this->assertEquals(3, $object->countTabs());
     }
 
-
     /**
      * @expectException Exception
      */

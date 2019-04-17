@@ -16,7 +16,8 @@ class HtmlTabPage{
 		$this->id	= $id;
 	}
 
-	function getTab($nmclass, $list, $nmCurrentTab, $nrCurrentPage, $id){
+	function getTab($nmclass, $list, $nmCurrentTab, $nrCurrentPage, $id) : void 
+	{
 		/* pay attention cause this might hurt a little.
 		We have created an array with all the tabs for Clubs. Each class has a function that
 		starts with getClub... followed by the name of the class. So we should be able to do
@@ -29,8 +30,6 @@ class HtmlTabPage{
 
 		/* init */
 		$html 		= "";
-		$tabs 		= "";
-		$tabcontent = "";
 
 		/* if the result set is empty return nothing */
 		if (empty($list)) {
@@ -39,11 +38,6 @@ class HtmlTabPage{
 
 		/* make sure the classname is uppercase only the first letter. */
 		$nmclass = ucfirst(strtolower($nmclass));
-
-		/* if the tab is empty make it the first value */
-		if (empty($nmCurrentTab)){
-			$nmCurrentTab = $list[0];
-		}
 
 		/* process the array */
 		/* first retrieve all the content of the pages but only save the ones that have content */
@@ -88,10 +82,9 @@ class HtmlTabPage{
 					$this->addTab(strtolower($item), $titles[$item], $pages[$item], false);
 				}					
 			}
-
 		}
 
-		$this->_setActiveTab();
+		$this->_setActiveTab($nmCurrentTab);
 
 		if (count($this->_tabs) > 0)
 		{
@@ -164,11 +157,11 @@ class HtmlTabPage{
 		return $activeTabs;
 	}
 
-	function _setActiveTab() : void 
+	private function _setActiveTab($activeTab) : void 
 	{
 		if (count($this->_tabs) > 0)
 		{
-			switch($this->_getActiveTabs())
+			switch(count($this->_getActiveTabs()))
 			{
 				case  1:
 					/* correct */
@@ -179,10 +172,22 @@ class HtmlTabPage{
 					{
 						$tab->setInactive();
 					} 
-					break;
+//					break;
 				case  0:
 					/* make one active */
-					$this->_tabs[0]->setActive();
+					if (empty($activeTab))
+					{
+						$this->_tabs[0]->setActive();
+					} else {
+						foreach ($this->_tabs as $tab)
+						{
+							if ($activeTab == $tab->getReference())
+							{
+								$tab->setActive();
+							} 
+						} 
+						break;	
+					}
 
 					break;
 			}

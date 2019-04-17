@@ -27,5 +27,20 @@ class HtmlTabElementTest extends TestCase
 		$object = new HtmlTabElement("", "title", "content");
 	}
 
+	/** setActive tests  */
+	public function testSetActiveMakesTrue()
+	{
+		$object = new HtmlTabElement("reference", "title", "content", false);
+		$object->setActive();
+		$this->assertTrue($object->isActive());
+	}
+
+	/** setInactive tests  */
+	public function testSetInactiveMakesTrue()
+	{
+		$object = new HtmlTabElement("reference", "title", "content", true);
+		$object->setInactive();
+		$this->assertFalse($object->isActive());
+	}
 }
 ?>
