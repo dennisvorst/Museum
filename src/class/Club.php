@@ -30,7 +30,8 @@ class Club extends SingleItemPage{
 		parent::__construct();
 	}
 
-	function processRecord(){
+	function processRecord() : void 
+	{
 		$this->id				= $this->ftrecord['idclub'];
 
 		$this->cdstatus			= $this->ftrecord['cdstatus'];
@@ -51,7 +52,7 @@ class Club extends SingleItemPage{
 		$this->is_featured			= $this->ftrecord['is_featured'];
 	}
 
-	function createThumbnail($nrsize = 3){
+	function createThumbnail($nrsize = 3) : string {
 		/* create the thumbnail image */
 		$html = "<div class='col-xs-" . $nrsize . "'>\n";
 		$html .= "  <div>\n";
@@ -68,16 +69,65 @@ class Club extends SingleItemPage{
 		return $html;
 	}
 
-	var $_photoCollection;
-	function getPhotoCollection(int $id) : array
+	var $_retiredNumberCollection = [];
+	private function _getRetiredNumberCollection(int $id) : array
 	{
+		if (empty($this->_retiredNumberCollection))
+		{
+			/* get the retired jerseys of a club */
+			$sql = "SELECT * FROM " . $this->nmtable . " WHERE idclub = $id ORDER BY nrjersey";
+			$this->_retiredNumberCollection = $this->queryDb($sql);
+		}
+		return $this->_retiredNumberCollection;
+	}
 
+
+	
+	var $_articleCollection = [];
+	private function _getArticleCollection(int $id) : array
+	{
+		if (empty($this->_articleCollection))
+		{
+
+		} 
+		return $this->_articleCollection;
+	}
+
+	var $_teamCollection = [];
+	private function _getTeamCollection(int $id) : array
+	{
+		if (empty($this->_teamCollection))
+		{
+
+		} 
+		return $this->_teamCollection;
+	}
+
+	var $_photoCollection = [];
+	private function _getPhotoCollection(int $id) : array
+	{
+		if (empty($this->_photoCollection))
+		{
+
+		} 
 		return $this->_photoCollection;
 	}
 
-	function getContent($nmCurrentTab, $nrCurrentPage){
+	var $_videoCollection = [];
+	private function _getVideoCollection(int $id) : array
+	{
+		if (empty($this->_videoCollection))
+		{
+			
+		} 
+		return $this->_videoCollection;
+	}
+
+	
+	function getContent($nmCurrentTab, $nrCurrentPage) : string 
+	{
 		/**
-		$nrCurrentPage = the current displayed tab page
+		 * $nrCurrentPage = the current displayed tab page
 		*/
 		/*******************
 		 gather the data
@@ -105,12 +155,12 @@ class Club extends SingleItemPage{
 		$list = array("articles", "videos", "photos", "persons", "teams");
 		$tabObj	= new HtmlTabPage($this->id);
 		$html .= $tabObj->getTab("Club", $list, $nmCurrentTab, $nrCurrentPage, $this->id);
-//		$html .= Tab::getTab("Club", $list, $nmCurrentTab, $nrCurrentPage, $this->id);
 
 		return $html;
 	}// getContent
 
-	function getNameWithUrl(){
+	function getNameWithUrl() : string 
+	{
 		return "<a href='". $this->getUrl() . "'>" . $this->nmfull . "</a>";
 	}
 
@@ -119,10 +169,12 @@ class Club extends SingleItemPage{
 //		/* deprecated */
 //		return $this->nmclub;
 //	}
-	function getFullName(){
+	function getFullName() : string 
+	{
 		return $this->nmclub;
 	}
-	function getLabels (){
+
+	function getLabels () : array {
 		$ftlabels["idclub"]			= "";
 		$ftlabels["cdstatus"]		= "Status";
 		$ftlabels["nmsearch"]		= "Zoeknaam";
@@ -147,7 +199,7 @@ class Club extends SingleItemPage{
 	/******************
 	Lists
 	*******************/
-	function getClubs(){
+	function getClubs() : array {
 		/* return a list of only the verified sources */
 		$ftquery = "SELECT idclub, nmclub FROM clubs ORDER BY nmclub";
 		$ftrows = $this->queryDb($ftquery);
@@ -162,13 +214,16 @@ class Club extends SingleItemPage{
 	/******************
 	Getters and setters
 	*******************/
-	function getPrimaryColor(){
+	function getPrimaryColor() : string 
+	{
 		return $this->nmprimarycolor;
 	}
-	function getSecondaryColor(){
+	function getSecondaryColor() : string 
+	{
 		return $this->nmsecondarycolor;
 	}
-	function getTertiaryColor(){
+	function getTertiaryColor() : string 
+	{
 		return $this->nmtertiarycolor;
 	}
 }

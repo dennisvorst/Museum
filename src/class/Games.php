@@ -24,16 +24,7 @@ class Games extends ListPage{
 	}//getMain
 
 	function getCompetitionGames($id){
-//		print_r("getCompetitionGames");
 		/* get the games that go with a competition */
-//		$ftquery = "SELECT * FROM games WHERE idcompetition = $id";
-
-//		$ftquery = "SELECT g.*, h.nmparticipant AS nmhome, a.nmparticipant AS nmaway ";
-//		$ftquery .= "FROM games g, participants a, participants h ";
-//		$ftquery .= "WHERE a.idparticipant = g.idaway ";
-//		$ftquery .= "AND h.idparticipant = g.idhome ";
-//		$ftquery .= "AND g.idcompetition = $id ";
-//		$ftquery .= "ORDER BY g.dtstart, g.tmstart ";
 
 		$ftquery = "SELECT g.*, ht.nmteam AS nmhome, at.nmteam AS nmaway ";
 		$ftquery .= "FROM games g, participants ap, participants hp, teams at, teams ht ";

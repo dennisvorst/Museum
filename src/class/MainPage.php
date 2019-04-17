@@ -17,12 +17,6 @@ class MainPage extends Database{
 		$html .= "</article>\n";
 		$html .= "</div>\n";
 
-//		$html .= "<div class='art-layout-cell art-sidebar2'>\n";
-//		$html .= "<div class='art-block clearfix'>\n";
-//		$html .= "<!-- Right side menu -->\n";
-//		$html .= $this->getMenu();
-//		$html .= "</div>\n";
-//		$html .= "</div>\n";
 		$html .= "<!-- end getMain -->\n";
 
 		return $html;
@@ -30,12 +24,10 @@ class MainPage extends Database{
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the left side of the main page */
-
 	}
 
 	function getMenu(){
 		/* fill the right side of the page with easy accessible menu items */
-
 	}
 }
 

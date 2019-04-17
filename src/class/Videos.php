@@ -41,7 +41,7 @@ class Videos extends ListPage{
 		$this->ftrows = $this->queryDB($ftquery);
 
 		return $this->getTabPage("club", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
-	}//getMain
+	}//getClubVideos
 
 	function getPersonVideos($id, $nmCurrentTab, $nrCurrentPage){
 		/* get the videos that go with a person
