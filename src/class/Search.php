@@ -10,28 +10,40 @@ class Search{
 
 	function getMain(string $search = null) : string 
 	{
-		$html = "<form action='search.php' method='post' accept-charset='utf-8'>\n";
+		$html = "<h2 class='art-postheader'>";
+		if (empty($search))
+		{
+			$html .= "Zoeken";
+		} else {
+			$html .= "Zoekresultaten voor '" . $search . "'";
+		}
+		$html .= "</h2>\n";
+
+		$html .= "<form action='search.php' method='post' accept-charset='utf-8'>\n";
 		$html .= "  <div class='active-orange-4 mb-4'>\n";
-		$html .= "    <input class='form-control' type='text' placeholder='Zoeken' " . (empty($search) ?: "value='" . $ftsearch . "' " )  . "aria-label='Search'>\n";
+		$html .= "    <input name='ftquery' class='form-control' type='text' placeholder='Zoeken' " . (empty($search) ?: "value='" . $search . "' " )  . "aria-label='Search' required>\n";
 		$html .= "  </div>\n";
-		$html .= "  <p>\n";
-		$html .= "    <input type='submit' value='Zoeken'>\n";
-		$html .= "    <input type='reset' value='Maak leeg'>\n";
-		$html .= "  </p>\n";
+
+		$html .= "  <div class='btn-group' role='group'>\n";
+		$html .= "    <input class='btn btn-outline-secondary' type='submit' value='Zoeken'>\n";
+		$html .= "    <input class='btn btn-outline-secondary' type='reset' value='Maak leeg'>\n";
+		$html .= "  </div>\n";
 		$html .= "</form>\n";
+		$html .= "<br />\n";
 
 		/* add a Delpher button */
 		if (class_exists("Delpher") && !empty($search))
 		{
-			$html .= "<br />\n";
+			$html .= "<div class='btn-group' role='group'>\n";
 			$html .= Delpher::createButton($search);
+			$html .= "  </div>\n";
 		}
 
 		return $html;
 	}
 
 	function setFtsearch($ftsearch){
-		echo $this->getMain();
+		echo $this->getMain($ftsearch);
 
 		$this->ftsearch	 = $this->getSearchArray($ftsearch);
 	}
