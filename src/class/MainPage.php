@@ -2,6 +2,7 @@
 require_once "Database.php";
 
 class MainPage extends Database{
+
 	/* constructor */
 	function __construct(){
 		parent::__construct();
@@ -30,5 +31,4 @@ class MainPage extends Database{
 		/* fill the right side of the page with easy accessible menu items */
 	}
 }
-
 ?>

@@ -18,3 +18,7 @@ src/.vs/
 src/config/config.php
 .phpunit.result.cache
 src/admin/class/Database.php
+src/admin/class/MysqlTable.php
+src/admin/class/MysqlColumn.php
+src/admin/class/Mysql.php
+src/admin/class/MysqlServer.php

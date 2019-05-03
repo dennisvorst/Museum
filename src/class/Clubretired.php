@@ -176,6 +176,12 @@ class Clubretired extends SingleItemPage{
         <?php
 	}//getMainAdmin
 
+//	function getClubJerseys($id){
+//		/* get the retired jerseys of a club */
+//		$query 	= "SELECT * FROM " . $this->nmtable . " WHERE idclub = $id ORDER BY nrjersey";
+//		$this->ftrows = $this->queryDb($query);
+//		return $this->getPage();
+//	}
 
 	function getPage(){
 		/* create the page content */

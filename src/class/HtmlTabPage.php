@@ -16,7 +16,7 @@ class HtmlTabPage{
 		$this->id	= $id;
 	}
 
-	function getTab($nmclass, $list, $nmCurrentTab, $nrCurrentPage, $id) : void 
+	function getTab($nmclass, $list, $nmCurrentTab, $nrCurrentPage, $id) : string 
 	{
 		/* pay attention cause this might hurt a little.
 		We have created an array with all the tabs for Clubs. Each class has a function that
@@ -30,11 +30,6 @@ class HtmlTabPage{
 
 		/* init */
 		$html 		= "";
-
-		/* if the result set is empty return nothing */
-		if (empty($list)) {
-			return $html;
-		}
 
 		/* make sure the classname is uppercase only the first letter. */
 		$nmclass = ucfirst(strtolower($nmclass));

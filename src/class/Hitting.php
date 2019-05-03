@@ -24,14 +24,13 @@ class Hitting{
 	
 	/* Slugging Percentage */
 	public static function calculateSluggingPercentage($nrAb, $nrH, $nr2h, $nr3h, $nrHr){
-		/* calculate the slugging percentage 
-		
-		nrH		= The total number of basehits 
-		nr2h	= The total number of doubles 
-		nr3h	= The total number of triples 
-		nrHr	= The total number of homeruns 
-		nrHAb	= the number of at bats
-		*/	
+		/** calculate the slugging percentage 
+		 * nrH		= The total number of basehits 
+		 * nr2h	= The total number of doubles 
+		 * nr3h	= The total number of triples 
+		 * nrHr	= The total number of homeruns 
+		 * nrHAb	= the number of at bats
+		 */	
 		if (!$nrAb){
 			/* there is no average when there were no at bats */
 			return "---";
@@ -47,13 +46,13 @@ class Hitting{
 	/* On Base Percentage */
 	function calculateOnBasePercentage($nrAb, $nrTh, $nrBb, $nrHbp, $nrSf){
 		/**
-		https://en.wikipedia.org/wiki/On-base_percentage
-		nrTh	= Hits
-		nrBb	= Bases on Balls (Walks)
-		NrHbp	= Hit By Pitch
-		nrAb	= At bats
-		nrSf	= Sacrifice Flies
-		*/
+		 * https://en.wikipedia.org/wiki/On-base_percentage
+		 * nrTh	= Hits
+		 * nrBb	= Bases on Balls (Walks)
+		 * NrHbp	= Hit By Pitch
+		 * nrAb	= At bats
+		 * nrSf	= Sacrifice Flies
+		 */
 		if (!$nrAb && !$nrBb && !$nrHbp && !$nrSf){
 			/* there is no average when there were no innings pitched */
 			return "---";
@@ -67,10 +66,10 @@ class Hitting{
 	/*** Pitching Stats ***/
 	/* Earned Run Average */
 	function calculateEarnedRunAverage($nrEr, $nrIp){
-		/* 
-		nrEr = The number of earned runs 
-		nrIp = the number of innings pitched. Thirds of an inning are presented as .1, .2 or .3
-		*/	
+		/**
+		 * nrEr = The number of earned runs 
+		 * nrIp = the number of innings pitched. Thirds of an inning are presented as .1, .2 or .3
+		 */	
 		if (!$nrIp){
 			/* there is no average when there were no innings pitched */
 			return "???";
@@ -94,15 +93,15 @@ class Hitting{
 	}
 	
 	function calculateOpponentAverage($nrBf, $nrH, $nrBb, $nrHbp, $nrSh, $nrSf, $nrCint){
-		/*
-		https://en.wikipedia.org/wiki/Batting_average_against
-		BF		= the number of batters faced by the pitcher
-		BB		= the number of base on balls
-		HBP		= the number of hit batsmen
-		SH		= the number of sacrifice hits
-		SF		= the number of sacrifice flies
-		CINT	= the number of catcher's interference
-		*/
+		/**
+		 * https://en.wikipedia.org/wiki/Batting_average_against
+		 * BF		= the number of batters faced by the pitcher
+		 * BB		= the number of base on balls
+		 * HBP		= the number of hit batsmen
+		 * SH		= the number of sacrifice hits
+		 * SF		= the number of sacrifice flies
+		 * CINT	= the number of catcher's interference
+		 */
 		if (!$nrBf){
 			return "---";
 		} else if ($nrBf < ($nrH + $nrBb + $nrHbp + $nrSh + $nrSf + $nrCint)){
@@ -117,12 +116,12 @@ class Hitting{
 	/*** Fielding Stats ***/
 	/* Fielding Percentage */
 	function calculateFieldingPercentage($nrA, $nrPo, $nrE){
-		/*
-		https://en.wikipedia.org/wiki/Fielding_percentage
-		nrPo	= numbder of putouts
-		nrA		= number of assists
-		nrE		= number of errors
-		*/
+		/**
+		 * https://en.wikipedia.org/wiki/Fielding_percentage
+		 * nrPo	= numbder of putouts
+		 * nrA		= number of assists
+		 * nrE		= number of errors
+		 */
 		if (!$nrPo){
 			return "---";
 		} else if ($nrA < ($nrPo + $nrE)){
@@ -138,11 +137,11 @@ class Hitting{
 	/*** Baserunning Stats ***/
 	/* Base Running Percentage */
 	function calculateStolenBasePercentage($nrSb, $nrCs){
-		/*
-		https://en.wikipedia.org/wiki/Stolen_base_percentage
-		nrSb	= number of stolen bases
-		nrCs	= number of times the runner was caught stealing 
-		*/
+		/**
+		 * https://en.wikipedia.org/wiki/Stolen_base_percentage
+		 * nrSb	= number of stolen bases
+		 * nrCs	= number of times the runner was caught stealing 
+		 */
 		if (!$nrSb && !$nrCs){
 			return "---";
 		} else {

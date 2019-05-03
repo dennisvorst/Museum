@@ -30,7 +30,8 @@ class SingleItemPage extends MainPage{
 		parent::__construct();
 	}
 
-	function withID($id) {
+	function withID(int $id) : void
+	{
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");
 		}

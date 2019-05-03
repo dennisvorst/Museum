@@ -46,3 +46,5 @@ Website for the Dutch base- and softballmuseum.
 | 12 april 2019 | Changed the look and feel of the search field |
 | 12 april 2019 | Added the Delpher button in the search page |
 | 14 april 2019 | Refactored the TabPage |
+| 3 may 2019 | Minor changes |
+

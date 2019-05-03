@@ -26,8 +26,17 @@ class Club extends SingleItemPage{
 
 	var $ftsubmenus = array("clubretired"=>"Retired Numbers", "teams"=>"Teams");
 
-	function __construct() {
+	function __construct(int $id = null) {
 		parent::__construct();
+
+		if (!empty($id))
+		{
+			$this->withID($id);
+			$this->_articleCollection = $this->_getArticleCollection();
+			$this->_photoCollection = $this->_getPhotoCollection();
+			$this->_teamCollection = $this->_getTeamCollection();
+			$this->_videoCollection = $this->_getVideoCollection();
+		} 
 	}
 
 	function processRecord() : void 
@@ -70,13 +79,13 @@ class Club extends SingleItemPage{
 	}
 
 	var $_retiredNumberCollection = [];
-	private function _getRetiredNumberCollection(int $id) : array
+	private function _getRetiredNumberCollection(int $id,  $db) : array
 	{
 		if (empty($this->_retiredNumberCollection))
 		{
 			/* get the retired jerseys of a club */
 			$sql = "SELECT * FROM " . $this->nmtable . " WHERE idclub = $id ORDER BY nrjersey";
-			$this->_retiredNumberCollection = $this->queryDb($sql);
+			$this->_retiredNumberCollection = $db->queryDb($sql);
 		}
 		return $this->_retiredNumberCollection;
 	}
