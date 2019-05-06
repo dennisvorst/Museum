@@ -1,3 +1,5 @@
+vendor/
+
 # ignore all third party software
 src/3rd/
 
@@ -16,7 +18,10 @@ src/.vs/
 # ignore the config.php after the initial commit. 
 # We don't want to publish the login and username for the website by mistake 
 src/config/config.php
+
 .phpunit.result.cache
+
+# ignore the code form another project
 src/admin/class/Database.php
 src/admin/class/MysqlTable.php
 src/admin/class/MysqlColumn.php
