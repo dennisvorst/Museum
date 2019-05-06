@@ -27,3 +27,4 @@ src/admin/class/MysqlTable.php
 src/admin/class/MysqlColumn.php
 src/admin/class/Mysql.php
 src/admin/class/MysqlServer.php
+.phpunit.result.cache
