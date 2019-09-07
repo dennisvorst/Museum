@@ -13,10 +13,10 @@ class Teams extends ListPage{
 	var $orderByFields 		= array("nmteam", "cdsport", "cdclass", "cdgender");
 	var $nmAlphabetField	= "nmteam";
 	
-	var $ftmensbaseball;
-	var $ftmenssoftball;
-	var $ftwomensbaseball;
-	var $ftwomenssoftball;
+	var $ftmensbaseball = [];
+	var $ftmenssoftball = [];
+	var $ftwomensbaseball = [];
+	var $ftwomenssoftball = [];
 
 	function __construct() {
 		parent::__construct();

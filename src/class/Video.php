@@ -34,14 +34,14 @@ class Video extends SingleItemPage{
 		$photo = new Photo();
 
 		$html = "<div class='col-xs-" . $nrsize . "'>\n";
-		$html .= "  <div>\n";
-		$html .= "    <h4><a href='index.php?id=" . $this->getId() . "&nmclass=video'>" . $this->nmvideo . "</a></h4>\n";
-		$html .= "  </div>\n";
-		$html .= "  <div>\n";
+		$html .= "  <figure>\n";
+		$html .= "    <figcaption>\n";
+		$html .= "      <h4><a href='index.php?id=" . $this->getId() . "&nmclass=video'>" . $this->nmvideo . "</a></h4>\n";
+		$html .= "    </figcaption>\n";
 		$html .= "    <a href='index.php?id=" . $this->getId() . "&nmclass=video'>\n";
 		$html .= "      <img width='200'  src='" . $this->getYoutubeThumbnail($this->nmurl) . "'>\n";
 		$html .= "    </a>\n";
-		$html .= "  </div>\n";
+		$html .= "  </figure>\n";
 		$html .= "</div>\n";
 
 		return $html;

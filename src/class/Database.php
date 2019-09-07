@@ -46,7 +46,11 @@ class DataBase{
 	// constructor
 	function __construct(){
 		/* get username and password */
-		include "config/config.php";
+		if ("config/config.php")
+		{
+			include "config/config.php";
+		} else {
+		}
 
 		/* connect to the database */
 		$this->connection = mysqli_connect(NMSERVER, NMUSER, NMPASSWORD)

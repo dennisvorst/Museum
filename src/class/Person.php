@@ -1,6 +1,7 @@
 <?php
 require_once "SingleItemPage.php";
 require_once "HtmlSelect.php";
+require_once "Tab.php";
 
 class Person extends SingleItemPage{
 	var $nmtitle	= "Personen";
@@ -130,29 +131,6 @@ class Person extends SingleItemPage{
 
 	}//getMenu
 
-//	function createThumbnail(){
-//		/* get the thumbnail of the person */
-//		$photoObj	= new Photo();
-//		$mugshot	= $photoObj->getMugshot($this->id);
-//		$width		= $photoObj->getThumbnailWidth();
-//		$height		= $photoObj->getThumbnailHeight();
-
-//		/* create the HTML */
-//		$html = "<table width=\"100%\">\n";
-//		$html .= "<tr>\n";
-//		if (!empty($mugshot)){
-//			$html .= "<td width='" . $width . "px' height='" . $width . "px'><a href='". $this->getUrl() . "'>" . $mugshot . "</a></td>\n";
-//		}
-
-//		$html .= "</tr>\n";
-//		$html .= "<tr>\n";
-//		$html .= "<td>". $this->getNameWithUrl() . "</td>\n";
-//		$html .= "</tr>\n";
-//		$html .= "</table>\n";
-//		return $html;
-//	}//createThumbnail
-
-
 	function createThumbnail(){
 		/* get the thumbnail of the person */
 		$photoObj	= new Photo();
@@ -162,14 +140,18 @@ class Person extends SingleItemPage{
 
 		/* create the HTML */
 		$html = "<div class='col-xs-3'>\n";
-		$html .= "<div align='center'>\n";
+		$html .= "  <div align='center'>\n";
+		$html .= "    <figure>\n";
+
 		if (!empty($mugshot)){
-			$html .= "<a href='". $this->getUrl() . "'>" . $mugshot . "</a>\n";
+			$html .= "    <a href='". $this->getUrl() . "'>" . $mugshot . "</a>\n";
 		}
-//		$html .= "</div>\n";
-//		$html .= "<div>\n";
+
+		$html .= "      <figcaption>\n";
 		$html .= $this->getNameWithUrl() . "\n";
-		$html .= "</div>\n";
+		$html .= "      </figcaption>\n";
+		$html .= "    </figure>\n";
+		$html .= "  </div>\n";
 		$html .= "</div>\n";
 		return $html;
 	}//createThumbnail
