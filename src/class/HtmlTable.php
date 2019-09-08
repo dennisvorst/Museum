@@ -5,15 +5,13 @@ class HtmlTable{
 	function __construct(){
 	}
 
-	function createHtmlTable($ftheaders, $ftrows, $ftfooters = null){
+	function createHtmlTable(array $ftheaders, array $ftrows, array $ftfooters = null){
 		/**
 		* create a table from two arrays. One containing the headers amd one containing the rowinformation.
 		$ftheader = array()
 		$ftvalues = array()
 		*/
 		$html = $this->getTableStart();
-
-//		print_R($ftrows);
 
 		/*  create the headers, if there are any */
 		if (isset($ftheaders)){
@@ -32,7 +30,7 @@ class HtmlTable{
 		return $html;
 	}
 
-	function createRows($ftrows){
+	function createRows(array $ftrows){
 		/* create the rows in an HTML table, ftvalues is an array in an array */
 		$html = "";
 
@@ -45,7 +43,7 @@ class HtmlTable{
 		return $html;
 	}
 
-	function createRow($ftfields){
+	function createRow(array $ftfields) : string {
 		/**
 		* create a single row of elements
 		* $ftfields = array();
@@ -55,8 +53,6 @@ class HtmlTable{
 
 		$html = "";
 		$ftprops = " ";
-
-//		print_r($ftfields);
 
 		if (is_array($ftfields)){
 			for ($i = 0; $i < count($ftfields); $i++){
@@ -94,13 +90,13 @@ class HtmlTable{
 	}
 
 	function getTableStart(){
-		return "<table><!-- HtmlTable -->\n";
+		return "<!-- Start HtmlTable -->\n<table>\n";
 	}
 	function getTableEnd(){
-		return "</table><!-- HtmlTable -->\n";
+		return "<!-- End HtmlTable -->\n</table>\n";
 	}
 
-	function getHeader($ftvalues){
+	function getHeader($ftvalues) : string {
 		/* this function creates the header row in a table */
 		$html = "";
 		if (is_array($ftvalues)){
@@ -114,7 +110,7 @@ class HtmlTable{
 		return $html;
 	}
 
-	function getCell($ftvalues = null){
+	function getCell($ftvalues = null) : string {
 		/**
 		* Create a cell within a HTML table
 		$ftvalues = array(0=>value, 1=>value, etc);
@@ -129,7 +125,7 @@ class HtmlTable{
 		return $html;
 	}
 
-	function getRow($ftvalues){
+	function getRow($ftvalues) : string {
 		$html = "";
 		if (is_array($ftvalues)){
 			for ($i = 0; $i < count($ftvalues); $i++){

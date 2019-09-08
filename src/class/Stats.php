@@ -51,7 +51,6 @@ class Stats extends ListPage{
 		 * nrfldperc = s calculated by the sum of putouts and assists divided by the number of total chances (putouts + assists + errors).
 		 * nrsbaperc = SB% – Stolen base percentage: the percentage of bases stolen successfully. (SB) divided by (SBA)(stolen bases attempted).
 		 ***********************/
-//		$ftquery = "SELECT t.nmteam, s.nryear, s.nrc, s.nrpo, s.nra, s.nre, s.nrfldperc, s.nrdp, s.nrsba, s.nrcsb, s.nrsbaperc, s.nrpb, s.nrci FROM fielding s, teams t " . $ftwhere;
 		$ftquery = "SELECT t.nmteam, s.nryear, s.nrc, s.nrpo, s.nra, s.nre, ";
 		$ftquery .= "ROUND((s.nrpo+s.nra)/(s.nrpo+s.nra+s.nre), 3), "; /* nrfldperc */
 		$ftquery .= "s.nrdp, s.nrsba, s.nrcsb, ";
@@ -74,7 +73,6 @@ class Stats extends ListPage{
 		$ftquery = "SELECT t.nmteam, s.nryear, ";
 		$ftquery .= "ROUND(s.nrh/s.nrab, 3), ";
 		$ftquery .= "s.nrgp, s.nrgs, s.nrab, s.nrr, s.nrh, s.nr2b, s.nr3b, s.nrhr, s.nrrbi, s.nrtb, ";
-//		$ftquery .= "s.nrslgperc, ";
 		/* s.nrh contains the total of hits. So doubles and triples are counted in there. That is why we multiply doubles by 2-1, triples by 3-1 etc. */
 		$ftquery .= "ROUND((s.nrh + s.nr2b + (s.nr3b*2) + (s.nrhr*3)) / s.nrab,3), ";
 		$ftquery .= "s.nrbb, s.nrhbp, s.nrso, s.nrgdp, ";
@@ -99,7 +97,6 @@ class Stats extends ListPage{
 		$ftquery = "SELECT t.nmteam, s.nryear, s.nrw, s.nrl, s.nrapp, s.nrgs, s.nrcg, s.nrsho, s.nrsv, s.nrip, s.nrh, s.nrr, s.nrer, s.nrbb, s.nrso, s.nr2b, s.nr3b, s.nrhr, s.nrab, ";
 		$ftquery .= "ROUND((s.nrh/s.nrab), 3), "; /* opp avg */
 		$ftquery .= "s.nrwp, s.nrhbp, s.nrbk, ";
-//		$ftquery .= "s.nrera "; /* era */
 		$ftquery .= "ROUND((s.nrer)/(FLOOR(s.nrip) + ROUND(MOD(s.nrip, FLOOR(s.nrip)),1)*(1/3)*10)*9, 2) "; /* era */
 		$ftquery .= "FROM pitching s, teams t " . $ftwhere;
 		$this->ftpitching 	= $this->queryDb($ftquery);
@@ -116,7 +113,6 @@ class Stats extends ListPage{
 		$ftquery = "SELECT SUM(s.nrw), SUM(s.nrl), SUM(s.nrapp), SUM(s.nrgs), SUM(s.nrcg), SUM(s.nrsho), SUM(s.nrsv), SUM(s.nrip), SUM(s.nrh), SUM(s.nrr), SUM(s.nrer), SUM(s.nrbb), SUM(s.nrso), SUM(s.nr2b), SUM(s.nr3b), SUM(s.nrhr), SUM(s.nrab), ";
 		$ftquery .= "ROUND((SUM(s.nrh)/SUM(s.nrab)), 3), "; /* opp avg */
 		$ftquery .= "SUM(s.nrwp), SUM(s.nrhbp), SUM(s.nrbk), ";
-//		$ftquery .= "SUM(s.nrera) "; /* era */
 		$ftquery .= "ROUND((SUM(s.nrer)/$nrtotinnings)*9, 2) "; /* era */
 		$ftquery .= "FROM pitching s, teams t " . $ftwhere;
 
@@ -128,7 +124,6 @@ class Stats extends ListPage{
 		return $this->getPage("");
 	}
 
-//	function getPage($ftpagination){
 	function getPage($ftpagination){
 		/* create the page content */
 		/* gather the data */
@@ -138,17 +133,14 @@ class Stats extends ListPage{
 		/* process the stats */
 		if (count($this->ftfielding) > 0){
 			$html	.= "<h2 class='art-postheader'>Fielding</h2>\n";
-//			$html	.= $table->createHtmlTable($this->ftfielding, $this->ftfieldlist);
 			$html	.= $table->createHtmlTable($this->ftfieldlist, $this->ftfielding, $this->fttotfielding);
 		}
 		if (count($this->fthitting) > 0) {
 			$html	.= "<h2 class='art-postheader'>Hitting</h2>\n";
-//			$html	.= $table->createHtmlTable($this->fthitting, $this->fthitlist);
 			$html	.= $table->createHtmlTable($this->fthitlist, $this->fthitting, $this->fttothitting);
 		}
 		if (count($this->ftpitching) > 0){
 			$html	.= "<h2 class='art-postheader'>Pitching</h2>\n";
-//			$html	.= $table->createHtmlTable($this->ftpitching, $this->ftpitchlist);
 			$html	.= $table->createHtmlTable($this->ftpitchlist, $this->ftpitching, $this->fttotpitching);
 		}
 
