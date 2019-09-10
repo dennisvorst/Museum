@@ -1,21 +1,25 @@
 <?php
+require_once "Html.php";
 
-class HtmlTableCell
+class HtmlTableCell extends Html
 {
-	var $_name;
-	var $_value;
-	var $_isHeader = false;
-	var $_tagName = "td";
+	protected $_isHeader = false;
 
-	function __construct(string $value, string $name = null, bool $isHeader = null)
+	function __construct(string $content, array $attributes = null, bool $isHeader = null)
 	{
-		$this->_name = $name;
-		$this->_value = $value;
+		$this->_content = $content;
 		$this->_isHeader = $isHeader;
+		$this->_tag = $this->_getTag();
+	}
+
+	protected function _getTag() : string 
+	{
+		$this->_tag = "td";
 		if ($this->_isHeader)
 		{
-			$this->_tagName = "th";
+			$this->_tag = "th";
 		}
+		return $this->_tag;
 	}
 
 	public function getCell() : string

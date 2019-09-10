@@ -1,151 +1,51 @@
 <?php
-class HtmlTable{
+
+require_once "Html.php";
+require_once "HtmlTableRow.php";
+require_once "Html.php";
+
+class HtmlTable extends Html
+{
+	protected $_tag = "table";
+
+	protected $_header = [];
+	protected $_footer = [];
+	protected $_rows = [];
 
 	/* constructor */
 	function __construct(){
 	}
 
-	function createHtmlTable(array $ftheaders, array $ftrows, array $ftfooters = null){
-		/**
-		* create a table from two arrays. One containing the headers amd one containing the rowinformation.
-		$ftheader = array()
-		$ftvalues = array()
-		*/
-		$html = $this->getTableStart();
+	function createHtmlTable(array $header, array $rows, array $footer = null){
+		/* process the data */
+		$this->_header = new HtmlTableRow($header, true);
 
-		/*  create the headers, if there are any */
-		if (isset($ftheaders)){
-			$html .= $this->createHtmlTag($this->getHeader($ftheaders), "tr");
+		foreach ($rows as $row)
+		{
+			$this->_rows[] = new HtmlTableRow($row, false);
 		}
 
-		/*  create the rows */
-		$html .= $this->createRows($ftrows);
+		if (!empty($footer)) $this->_footer = new HtmlTableRow($footer, false);
 
-		/* add the footers */
-		if (!empty($ftfooters)){
-			$html .= $this->createRows($ftfooters);
-		}
 
-		$html .= $this->getTableEnd();
-		return $html;
+		/* create the html */ 
+		return $this->getElement();
 	}
 
-	function createRows(array $ftrows){
-		/* create the rows in an HTML table, ftvalues is an array in an array */
-		$html = "";
+	/* override */
+	protected function _getContent() : string 
+	{
+		/* create the content */
+		if (empty($this->_content)) 
+		{
+			$this->_content = $this->_header->getElement();
 
-		foreach($ftrows as $ftrow){
-			/* make sure the offset is correct */
-			$ftrow = array_values($ftrow);
-			/* create an element from each individual row. */
-			$html .= "<tr>" . $this->createRow($ftrow) . "</tr>\n";
-		}
-		return $html;
-	}
-
-	function createRow(array $ftfields) : string {
-		/**
-		* create a single row of elements
-		* $ftfields = array();
-		* $ftfields = array(array());
-		*
-		*/
-
-		$html = "";
-		$ftprops = " ";
-
-		if (is_array($ftfields)){
-			for ($i = 0; $i < count($ftfields); $i++){
-				/* is it still an array? */
-				if (is_array($ftfields[$i])){
-					/* yes it is */
-					/* get the key value the array was named in */
-					$ftkeys = array_keys($ftfields[$i]);
-
-					/* get the values from that array and reset the list of keys */
-					$ftvalues = $ftfields[$i][$ftkeys[0]];
-					$ftkeys = array_keys($ftvalues);
-
-					for ($j = 0; $j < count($ftkeys); $j++){
-						if ($ftkeys[$j] !== "value"){
-							/* then it is a property */
-							$ftprops .= $ftkeys[$j] . "=" . $ftvalues[$ftkeys[$j]] . " ";
-						}
-					}
-					$html .= "<td" . $ftprops . ">" . $ftvalues['value'] . "</td>\n";
-				} else {
-					/* nope */
-					/* is it a number value */
-					if (is_numeric($ftfields[$i])){
-						$html .= "<td><div class='pull-right'>" . $ftfields[$i] . "</div></td>\n";
-					} else {
-						$html .= "<td>\n";
-						$html .= $ftfields[$i] . "\n";
-						$html .= "</td>\n";
-					}
-				}
+			foreach($this->_rows as $row)
+			{
+				$this->_content .= $row->getElement();
 			}
+			if (!empty($this->_footer)) $this->_content .= $this->_footer->getElement();
 		}
-		return $html;
-	}
-
-	function getTableStart(){
-		return "<!-- Start HtmlTable -->\n<table>\n";
-	}
-	function getTableEnd(){
-		return "<!-- End HtmlTable -->\n</table>\n";
-	}
-
-	function getHeader($ftvalues) : string {
-		/* this function creates the header row in a table */
-		$html = "";
-		if (is_array($ftvalues)){
-			$ftvalues = array_values($ftvalues);
-			for ($i = 0; $i < count($ftvalues); $i++){
-				$html .= $this->getHeader($ftvalues[$i]);
-			}
-		} else {
-			$html = "<th>" . $ftvalues . "</th>\n";
-		}
-		return $html;
-	}
-
-	function getCell($ftvalues = null) : string {
-		/**
-		* Create a cell within a HTML table
-		$ftvalues = array(0=>value, 1=>value, etc);
-		*/
-		$html = "<td></td>";
-		if (is_array($ftvalues) and count($ftvalues) > 0){
-			for ($i = 0; $i < count($ftvalues); $i++){
-				$html .= $this->getCell($ftvalues[$i]);
-			}
-		}
-
-		return $html;
-	}
-
-	function getRow($ftvalues) : string {
-		$html = "";
-		if (is_array($ftvalues)){
-			for ($i = 0; $i < count($ftvalues); $i++){
-				$html .= $this->getRow($ftvalues[$i]);
-			}
-		} else {
-			$html = "<tr>" . $ftvalues . "</tr>\n";
-		}
-		return $html;
-	}
-
-	function createHtmlTag($ftvalues, $nmtag){
-		$html = "";
-		if (is_array($ftvalues)){
-			for ($i = 0; $i < count($ftvalues); $i++){
-				$html .= $this->createHtmlTag($ftvalues[$i], $nmtag);
-			}
-		} else {
-			$html = "<$nmtag>" . $ftvalues . "</$nmtag>\n";
-		}
-		return $html;
+		return $this->_content;
 	}
 }
