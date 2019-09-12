@@ -3,19 +3,19 @@ require_once "Html.php";
 
 class HtmlTableCell extends Html
 {
-	protected $_isHeader = false;
+	protected $_type;
 
-	function __construct(string $content, array $attributes = null, bool $isHeader = null)
+	function __construct(string $content, array $attributes = null, string $type = null)
 	{
 		$this->_content = $content;
-		$this->_isHeader = $isHeader;
+		$this->_type = $type;
 		$this->_tag = $this->_getTag();
 	}
 
 	protected function _getTag() : string 
 	{
 		$this->_tag = "td";
-		if ($this->_isHeader)
+		if ($this->_type == "H")
 		{
 			$this->_tag = "th";
 		}

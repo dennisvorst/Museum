@@ -248,53 +248,6 @@ class ListPage extends MainPage{
 		echo $form->displayForm("S", "H", "D");
 	}//getMainAdmin
 
-	/* deprecated? */
-	function createEditRows(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
-		}
-
-		/* create an index page for the articles */
-		$this->getRecords($this->nmtable, 0, 30);
-		$keys	= array_keys($this->ftrows[0]);
-
-		$i = 0;
-		foreach ($this->ftrows as $ftrow){
-			/* Step therough the array */
-
-			for ($j=0; $j < count($keys); $j++){
-				/* get the key name, the value and start an object and a variable  */
-				$key	= $keys[$j];
-				$value	= $ftrow[$key];
-				$field	= "";
-				$object = new $this->nmsingle();
-
-				/* Look for the function that creates the editable field */
-				if ($key === "id" . $this->nmsingle ) {
-					$field = HtmlField::createField("id{$this->nmsingle}", "hidden", $value);
-				} else {
-					if (method_exists( $object, "getEdit" . ucfirst($key))){
-						$field = $object->{"getEdit" . ucfirst($key)}($value);
-					} else {
-						/* if it is empty donot add a value to the input field */
-
-						$field = HtmlField::createField($key, "text", $value);
-					}
-
-				}
-				$record[$j] = $field;
-			}
-			$records[$i]	= $record;
-			$i++;
-		}
-
-		/* create the table */
-		$htmltable = new HtmlTable();
-		$html = $htmltable->createHtmlTable($object->getLabels(), $records);
-
-		return $html;
-	}
-
 	/******************
 	getters and setters
 	*******************/

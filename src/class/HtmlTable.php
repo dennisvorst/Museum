@@ -16,6 +16,7 @@ class HtmlTable extends Html
 	function __construct(){
 	}
 
+	/* deprecated */
 	function createHtmlTable(array $header, array $rows, array $footer = null){
 		/* process the data */
 		$this->_header = new HtmlTableRow($header, true);
@@ -30,6 +31,23 @@ class HtmlTable extends Html
 
 		/* create the html */ 
 		return $this->getElement();
+	}
+
+	function addRow(HtmlTableRow $row, string $type = null) : void
+	{
+		switch ($type)
+		{
+			case "H":
+				$this->_header = $row;
+				break;
+
+			case "F":
+				$this->_footer = $row;
+				break;
+	
+			default:	
+				$this->_rows[] = $row;
+		}
 	}
 
 	/* override */

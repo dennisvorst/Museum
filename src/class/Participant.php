@@ -34,9 +34,6 @@ class Participant extends SingleItemPage{
 		$this->nrdraws 			= $this->ftrecord['nrdraws'];
 		$this->nrrunsscored 	= $this->ftrecord['nrrunsscored'];
 		$this->nrrunsagainst 	= $this->ftrecord['nrrunsagainst'];
-
-//		$ftquery = "SELECT nmteam FROM teams WHERE idteam = $this->idteam";
-//		$this->nmparticipant = $this->queryDB($ftquery);
 	}
 
 	function createThumbnail(){
@@ -126,17 +123,6 @@ class Participant extends SingleItemPage{
 				$ftgames[$i]['idaway']	= $ftparticipants[$idaway];
 			}
 		}//endfor
-
-//		print_r($ftteams);
-//		print_r("<br/><br/>");
-//		print_r($ftcoaches);
-//		print_r("<br/><br/>");
-//		print_r($ftplayers);
-//		print_r("<br/><br/>");
-//		print_r($ftgames);
-//		print_r("<br/><br/>");
-//		print_r($ftparticipants);
-//		print_r("<br/><br/>");
 
 		/* get the stats */
 		$html = "<h1>" . $nmteam . "</h1>";;
