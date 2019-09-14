@@ -9,8 +9,8 @@ class Videos extends ListPage{
 	var $nmsingle		= "video";
 	var $nmclass		= "Video";
 
-	var $searchFields 		= array("nmvideo", "ftdepicted");
-	var $orderByFields 		= array("nmvideo");
+	protected $_searchFields 		= array("nmvideo", "ftdepicted");
+	protected $_orderByFields 		= array("nmvideo");
 
 	/* for the tile list */
 	var $nrcolumns = 3;

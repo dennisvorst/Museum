@@ -11,8 +11,8 @@ class Photos extends ListPage{
 	var $nmsingle		= "photo";
 	var $nmclass		= "photo";
 
-	var $searchFields	= array("ftdepicted", "ftdescription", "dtpublish", "nryear");
-	var $orderByFields	= array("dtpublish");
+	protected $_searchFields	= array("ftdepicted", "ftdescription", "dtpublish", "nryear");
+	protected $_orderByFields	= array("dtpublish");
 
 	var $photoArray = array();
 

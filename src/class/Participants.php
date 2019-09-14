@@ -5,8 +5,8 @@ class Participants extends ListPage{
 	var $nmtitle			= "Deelnemers";
 	var $nmtable 			= "participants";
 	var $nmsingle			= "participant";
-	var $searchFields 		= array("");
-	var $orderByFields 		= array("nrgames", "nrwins", "nrdraws");
+	protected $_searchFields 		= array("");
+	protected $_orderByFields 		= array("nrgames", "nrwins", "nrdraws");
 
 	/* for the tile list */
 	var $nrcolumns = 1;
@@ -19,13 +19,7 @@ class Participants extends ListPage{
 		parent::__construct();
 
 		// create the fieldlist
-		$this->ftfieldlist['nmteam'] = "Team";
-		$this->ftfieldlist['nrgames'] = "G";
-		$this->ftfieldlist['nrwins'] = "W";
-		$this->ftfieldlist['nrlosses'] = "L";
-		$this->ftfieldlist['nrdraws'] = "D";
-		$this->ftfieldlist['nrrunsscored'] = "Runs voor";
-		$this->ftfieldlist['nrrunsagainst'] = "Runs tegen";
+		$this->ftfieldlist = ["nmteam" => "Team", "nrgames" => "G", "nrwins" => "W", "nrlosses" => "L", "nrdraws" => "D", "nrrunsscored" => "Runs voor", "nrrunsagainst" => "Runs tegen"];
 	}
 
 	function getMain($nmtab, $nrCurrentPage){
@@ -51,7 +45,7 @@ class Participants extends ListPage{
 			$this->ftrows[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftrows[$i]['idparticipant'] . ">" . $this->ftrows[$i]['nmteam'] . "</a>\n";
 			/* delete the idparticipant from the row. */
 			unset($this->ftrows[$i]['idparticipant']);
-			
+
 			/* set the champion */
 			//<i class="fa fa-trophy" aria-hidden="true"></i>
 			if($this->ftrows[$i]['ischampion']){

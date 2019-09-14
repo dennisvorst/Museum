@@ -9,10 +9,10 @@ class Teams extends ListPage{
 	var $nmsingle			= "team";
 	var $nmclass			= "Team";
 
-	var $searchFields 		= array("nmteam", "cdsport", "cdclass", "cdgender");
-	var $orderByFields 		= array("nmteam", "cdsport", "cdclass", "cdgender");
+	protected $_searchFields 		= array("nmteam", "cdsport", "cdclass", "cdgender");
+	protected $_orderByFields 		= array("nmteam", "cdsport", "cdclass", "cdgender");
 	var $nmAlphabetField	= "nmteam";
-	
+
 	var $ftmensbaseball = [];
 	var $ftmenssoftball = [];
 	var $ftwomensbaseball = [];
@@ -45,7 +45,7 @@ class Teams extends ListPage{
 
 		/* init */
 		$nrTotPages = 1;
-		
+
 		return $this->getTabPage("person", $id, "Teams", $nrCurrentPage, $nrTotPages);
 	}
 
@@ -160,7 +160,7 @@ class Teams extends ListPage{
 				$html .= "<td><div class='pull-right'>" . $row['nrrunsscored'] . "</div></td>\n";
 				$html .= "<td>-</td>\n";
 				$html .= "<td><div class='pull-right'>" . $row['nrrunsagainst'] . "</div></td>\n";
-				
+
 			} else {
 				/* else print no data */
 				$html .= "<td colspan='6'>Geen gegevens.</td>\n";

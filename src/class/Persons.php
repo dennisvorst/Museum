@@ -10,8 +10,8 @@ class Persons extends ListPage{
 	var $nmsingle			= "person";
 	var $nmclass			= "Person";
 
-	var $searchFields 		= array("nmfirst", "nmsur", "nmlast");
-	var $orderByFields 		= array("nmlast", "nmfirst");
+	protected $_searchFields 		= array("nmfirst", "nmsur", "nmlast");
+	protected $_orderByFields 		= array("nmlast", "nmfirst");
 	var $nmAlphabetField	= "nmlast";
 
 	var $alphabet;
@@ -68,7 +68,7 @@ class Persons extends ListPage{
 		$html .= "</select>\n";
 		return $html;
 	}//createSelect
-	
+
 	function createWhereEXACT($ftfieldlist, $ftvaluelist){
 		/* create the where clause for the EXACT search query, but now add the  */
 		$ftwhere	= "";
@@ -90,6 +90,6 @@ class Persons extends ListPage{
 
 		return $ftwhere;
 	}//createWhereExact
-	
+
 }
 ?>

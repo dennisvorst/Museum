@@ -6,8 +6,8 @@ class Games extends ListPage{
 	var $nmtitle			= "Wedstrijden";
 	var $nmtable 			= "games";
 	var $nmsingle			= "game";
-	var $searchFields 		= array();
-	var $orderByFields 		= array("dtstart");
+	protected $_searchFields 		= array();
+	protected $_orderByFields 		= array("dtstart");
 
 	/* for the tile list */
 	var $nrcolumns = 1;

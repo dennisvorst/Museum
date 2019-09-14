@@ -16,8 +16,8 @@ class ListPage extends MainPage{
 
 	var $nmclass;
 
-	var $searchFields	= array("ListPageContent");
-	var $orderByFields;
+	protected $_searchFields	= array("ListPageContent");
+	protected $_orderByFields;
 	var $ftsubmenus		= array();
 
 	public static $nryear;
@@ -76,8 +76,8 @@ class ListPage extends MainPage{
 		}
 
 		$ftorderby = "";
-		if (!empty($this->orderByFields)){
-			$ftorderby = " ORDER BY " . $this->orderByFields . " ";
+		if (!empty($this->_orderByFields)){
+			$ftorderby = " ORDER BY " . $this->_orderByFields . " ";
 		}
 		return $ftorderby;
 	}
@@ -106,12 +106,12 @@ class ListPage extends MainPage{
 
 		/* order by */
 		$orderBy = "";
-		if (!empty($this->orderByFields)){
-			for ($i = 0; $i < count($this->orderByFields); $i++){
+		if (!empty($this->_orderByFields)){
+			for ($i = 0; $i < count($this->_orderByFields); $i++){
 				if (empty($orderBy)){
-					$orderBy = "ORDER BY `". $this->orderByFields[$i] . "` ASC ";;
+					$orderBy = "ORDER BY `". $this->_orderByFields[$i] . "` ASC ";;
 				} else {
-					$orderBy .= ", `". $this->orderByFields[$i] . "` ASC ";
+					$orderBy .= ", `". $this->_orderByFields[$i] . "` ASC ";
 				}
 			}
 		} else {
@@ -223,7 +223,7 @@ class ListPage extends MainPage{
 			print_r(__METHOD__ . "<br/>");
 		}
 
-		return $this->searchFields;
+		return $this->_searchFields;
 	}
 
 	function setRows($ftrows){
