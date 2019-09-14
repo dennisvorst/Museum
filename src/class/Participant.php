@@ -155,14 +155,6 @@ class Participant extends SingleItemPage{
 		return $html;
 	}
 
-	function getFullName(){
-		return $this->nmparticipant;
-	}
-
-	function getNameWithUrl(){
-		return "<a href='" . $this->getUrl() . "' >". $this->getFullName() . "</a>";
-	}
-
 	function createHtmlTableRow(){
 		/* create the tablerow */
 		if (empty($this->id)){
@@ -179,5 +171,38 @@ class Participant extends SingleItemPage{
 		$html	.= "</tr>\n";
         return $html;
     }
+
+	/* getters and setters  */
+	function getFullName(){
+		return $this->nmparticipant;
+	}
+
+	function getNameWithUrl(){
+		return "<a href='" . $this->getUrl() . "' >". $this->getFullName() . "</a>";
+	}
+	function getTotalGames()
+	{
+		return $this->nrgames; 
+	}
+	function getTotalWins()
+	{
+		return $this->nrwins; 
+	}
+	function getTotalLosses()
+	{
+		return $this->nrloss; 
+	}
+	function getTotalDraws()
+	{
+		return $this->nrdraws; 
+	}
+	function getTotalRunsScored()
+	{
+		return $this->nrrunsscored; 
+	}
+	function getTotalRunsAgainst()
+	{
+		return $this->nrrunsagainst; 
+	}
 }
 ?>

@@ -66,37 +66,35 @@ class Participants extends ListPage{
 	}
 
 	function getPage($ftpagination){
-		/* create a string with photo information */
+		/* create a string with participant information */
 
 		if (count($this->ftrows) == 0){
 			return null;
 		}
+
+		/* gather the data */
 		$table = new HtmlTable();
+		$table->addRow(new HtmlTableRow(["Team", "G", "W", "L", "Runs voor", "Runs tegen", ""], "H"), "H");
 
-		$html = "<h2 class='art-postheader'>" . $this->nmtitle . "</h2>\n";
-		$html	.= $table->createHtmlTable(array_values($this->ftfieldlist), $this->ftrows);
+		foreach ($this->ftrows as $row){
+			$cells[] = $row['nmteam'];
+			$cells[] = $row['nrgames'];
+			$cells[] = $row['nrwins'];
+			$cells[] = $row['nrlosses'];
+			$cells[] = $row['nrdraws'];
+			$cells[] = $row['nrrunsscored'];
+			$cells[] = $row['nrrunsagainst'];
+			$cells[] = $row['ischampion'];
 
-		return $html;
-	}//getPage
-
-	function getTable($fttiles, $nmclasstag = null){
-		/* table headers */
-		$html	= "<table>\n";
-		$html	.= "  <tr>\n";
-		$html	.= "    <th>Team</th>\n";
-		$html	.= "    <th>G</th>\n";
-		$html	.= "    <th>W</th>\n";
-		$html	.= "    <th>L</th>\n";
-		$html	.= "    <th>Runs voor</th>\n";
-		$html	.= "    <th>Runs tegen</th>\n";
-		$html	.= "  </tr>\n";
-
-		for ($x=0; $x < count($fttiles); $x++){
-			$html	.= $fttiles[$x] . "\n";
+			$table->addRow(new HtmlTableRow($cells));
+			$cells  = null;
 		}
-		$html	.= "</table>\n";
 
+		/* create the html */
+		$html = "<h2 class='art-postheader'>" . $this->nmtitle . "</h2>\n";
+		$html .= $table->getElement();
 		return $html;
-	}
+
+	}//getPage
 }
 ?>

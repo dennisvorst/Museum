@@ -43,7 +43,7 @@ class Games extends ListPage{
 	}
 
 	function getPage($ftpagination){
-        /* get the participants */
+        /* get the games */
 
 		/* create a string with game information */
 		if (count($this->ftrows) == 0){
@@ -64,7 +64,7 @@ class Games extends ListPage{
 			$cells[] = $game->getStartTime();
 			$cells[] = $game->getHomeTeam();
 			$cells[] = $game->getAwayTeam();
-			$cells[] = $game->getHomeTeamRuns() . " - " . $game->getAwayTeamRuns();
+			$cells[] = $game->getFinalScore();
 			$cells[] = $game->getNumberOfInnings();
 
 			$table->addRow(new HtmlTableRow($cells));

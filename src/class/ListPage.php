@@ -165,39 +165,6 @@ class ListPage extends MainPage{
 		return $letters;
 	}
 
-//	function getTileList($fttiles, $nmclasstag = null){
-//		/* create a table filled with tiles */
-//		$data = "";
-//		if (!isset($nmclasstag)){
-//			$data		.= "<table><!-- ListPage -->\n<tr>\n";
-//		} else {
-//			$data		.= "<table class='$nmclasstag'><!-- ListPage -->\n<tr>\n";
-//		}
-//		$columns	= "";
-//		for ($x=0; $x < count($fttiles); $x++){
-//			$data .= "<td>$fttiles[$x]</td>\n";
-//			/* because it is zero based we add one to the $x */
-//			if (($x + 1) % $this->nrcolumns == 0){
-//				$data .= "</tr>\n";
-//				if ($x < count($fttiles)){
-//					$data .= "<tr>\n";
-//				}
-//			}
-//		}
-
-//		/* now add some blank ones to complete the table */
-//		for ($x = 0; $x < ($this->nrcolumns - (count($fttiles) % $this->nrcolumns)); $x++){
-//			$data .= "<td></td>\n";
-
-//			if (($x+1) == ($this->nrcolumns - (count($fttiles) % $this->nrcolumns))){
-//				$data .= "</tr>\n";
-//			}
-//		}
-//		$data .= "</table>\n";
-//		return $data;
-//	}
-
-
 	function getTileList($fttiles, $nmclasstag = null){
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");

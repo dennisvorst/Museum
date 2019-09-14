@@ -79,20 +79,24 @@ class Game extends SingleItemPage{
 	}
 	function getHomeTeamRuns() : string 
 	{
-		return $this->nrrunshome;
+		return  "" . $this->nrrunshome;
 	}
 	function getAwayTeamRuns() : string 
 	{
-		return $this->nrrunsaway;
+		return  "" . $this->nrrunsaway;
 	}
 	function getNumberOfInnings() : string 
 	{
-		if (empty($this->nrinnings)) 
+		return  "" . $this->nrinnings;
+	}
+	function getFinalScore() : string 
+	{
+		$score = $this->getHomeTeamRuns() . " - " . $this->getAwayTeamRuns();
+		if (trim($score) == "-")
 		{
-			return "";
-		} else {
-			return $this->nrinnings;
+			$score = "";
 		}
+		return $score;
 	}
 }
 ?>
