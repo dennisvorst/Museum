@@ -7,7 +7,7 @@ require_once "HtmlSelect.php";
 require_once "MainPage.php";
 
 class ListPage extends MainPage{
-	var $debug 			= false;
+	var $debug = false;
 
 	var $nmtitle;
 	var $ftrows;

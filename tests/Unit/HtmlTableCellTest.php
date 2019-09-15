@@ -11,26 +11,26 @@ class HtmlTableCellTest extends TestCase
     }
 
 	/* function tests */
-	public function testConstructAcceptsOnlyOneParameter()
+	public function testConstructAcceptsNoParameters()
 	{
-		$htmlCell = new HtmlTableCell("");
-		$actual = $htmlCell->getCell();
+		$htmlCell = new HtmlTableCell();
+		$actual = $htmlCell->getElement();
 		$expected = "<td></td>";
 		$this->assertEquals($expected, $actual);
 	}
 
 	public function testConstructAcceptsTwoParameters()
 	{
-		$htmlCell = new HtmlTableCell("", "");
-		$actual = $htmlCell->getCell();
+		$htmlCell = new HtmlTableCell("", []);
+		$actual = $htmlCell->getElement();
 		$expected = "<td></td>";
 		$this->assertEquals($expected, $actual);
 	}
 
 	public function testConstructAcceptsThreeParameters()
 	{
-		$htmlCell = new HtmlTableCell("", "", False);
-		$actual = $htmlCell->getCell();
+		$htmlCell = new HtmlTableCell("", [], "");
+		$actual = $htmlCell->getElement();
 		$expected = "<td></td>";
 		$this->assertEquals($expected, $actual);
 	}
@@ -39,32 +39,40 @@ class HtmlTableCellTest extends TestCase
 	public function testRegularCellCanBeEmpty()
 	{
 		$htmlCell = new HtmlTableCell("");
-		$actual = $htmlCell->getCell();
+		$actual = $htmlCell->getElement();
 		$expected = "<td></td>";
 		$this->assertEquals($expected, $actual);
 	}
 
-	public function testRegularCellCanCanContainValue()
+	public function testRegularCellCanContainValue()
 	{
 		$htmlCell = new HtmlTableCell("Value");
-		$actual = $htmlCell->getCell();
+		$actual = $htmlCell->getElement();
 		$expected = "<td>Value</td>";
+		$this->assertEquals($expected, $actual);
+	}
+
+	public function testRegularCellCanContainValueAndAttributes()
+	{
+		$htmlCell = new HtmlTableCell("Value", ["colspan" => "2", "rowspan" => "3", "headers" => "someHeader", "class"  => "someClass", "Flupr" => "flarp"]);
+		$actual = $htmlCell->getElement();
+		$expected = "<td colspan='2' rowspan='3' headers='someHeader' class='someClass'>Value</td>";
 		$this->assertEquals($expected, $actual);
 	}
 
 	/* header cell tests */
 	public function testHeaderCellCanBeEmpty()
 	{
-		$htmlCell = new HtmlTableCell("", null, true);
-		$actual = $htmlCell->getCell();
+		$htmlCell = new HtmlTableCell("", null, "H");
+		$actual = $htmlCell->getElement();
 		$expected = "<th></th>";
 		$this->assertEquals($expected, $actual);
 	}
 
 	public function testHeaderCellCanCanContainValue()
 	{
-		$htmlCell = new HtmlTableCell("Value", null, true);
-		$actual = $htmlCell->getCell();
+		$htmlCell = new HtmlTableCell("Value", null, "H");
+		$actual = $htmlCell->getElement();
 		$expected = "<th>Value</th>";
 		$this->assertEquals($expected, $actual);
 	}

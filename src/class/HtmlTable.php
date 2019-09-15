@@ -14,6 +14,7 @@ class HtmlTable extends Html
 
 	/* constructor */
 	function __construct(){
+		parent::__construct();
 	}
 
 	/* deprecated */

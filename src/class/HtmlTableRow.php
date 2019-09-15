@@ -9,6 +9,8 @@ class HtmlTableRow extends Html{
 
 	/* constructor */
 	function __construct(array $cells, string $type = null){
+		parent::__construct();
+
 		$this->_type = $type;
 		foreach ($cells as $cell)
 		{

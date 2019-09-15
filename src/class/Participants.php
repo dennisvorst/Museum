@@ -19,7 +19,7 @@ class Participants extends ListPage{
 		parent::__construct();
 
 		// create the fieldlist
-		$this->ftfieldlist = ["nmteam" => "Team", "nrgames" => "G", "nrwins" => "W", "nrlosses" => "L", "nrdraws" => "D", "nrrunsscored" => "Runs voor", "nrrunsagainst" => "Runs tegen"];
+		$this->ftfieldlist = ["nmteam" => "Team", "nrgames" => "G", "nrwins" => "W", "nrlosses" => "L", "nrdraws" => "D", "nrrunsscored" => "Runs voor", "nrrunsagainst" => "Runs tegen", "ischampion" => ""];
 	}
 
 	function getMain($nmtab, $nrCurrentPage){
@@ -67,19 +67,16 @@ class Participants extends ListPage{
 		}
 
 		/* gather the data */
+		$keys = array_keys($this->ftfieldlist);
 		$table = new HtmlTable();
-		$table->addRow(new HtmlTableRow(["Team", "G", "W", "L", "Runs voor", "Runs tegen", ""], "H"), "H");
+		$table->addRow(new HtmlTableRow(array_values($this->ftfieldlist), "H"), "H");
 
+		/* create the table rows */
 		foreach ($this->ftrows as $row){
-			$cells[] = $row['nmteam'];
-			$cells[] = $row['nrgames'];
-			$cells[] = $row['nrwins'];
-			$cells[] = $row['nrlosses'];
-			$cells[] = $row['nrdraws'];
-			$cells[] = $row['nrrunsscored'];
-			$cells[] = $row['nrrunsagainst'];
-			$cells[] = $row['ischampion'];
-
+			foreach ($keys as $key)
+			{
+				$cells[] = $row[$key];
+			}
 			$table->addRow(new HtmlTableRow($cells));
 			$cells  = null;
 		}
@@ -89,6 +86,6 @@ class Participants extends ListPage{
 		$html .= $table->getElement();
 		return $html;
 
-	}//getPage
+	}
 }
 ?>
