@@ -199,7 +199,7 @@ class Photo extends SingleItemPage{
         $image = "<img border='0' src='" . $image . "'>";
         return $image;
     }
-	
+
     function getPhotoName($id, $path){
 		/* if the ID is numeric edit it a little */
 		/* if the file has the extension .jpg do not add another extension. */
@@ -352,11 +352,6 @@ class Photo extends SingleItemPage{
 
 		/* get the photos that where identified as mugshot for this individual. If no migshots were found return the default photo */
 		/* set the default thumbnail */
-//        $thumbnail = "<table width=\"100%\">\n";
-//        $thumbnail .= "<tr>\n";
-//        $thumbnail .= "<td><a href='" . $this->getUrl() . "'><img width='150' height='150' border='0' src='./images/unknown.png'/></a></td>\n";
-//        $thumbnail .= "</tr>\n";
-//        $thumbnail .= "</table>\n";
         $thumbnail = "<img width='150' height='150' border='0' src='./images/unknown.png'/>\n";
 
 		/* set the photo is based on the newspaper article id */

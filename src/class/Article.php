@@ -90,6 +90,8 @@ class Article extends SingleItemPage{
 		}
 
 		/* create the return string */
+
+
 		$data = "<table width=\"100%\">\n";
 		$data .= "<tr>\n";
 
@@ -136,48 +138,6 @@ class Article extends SingleItemPage{
 
 		/* create the article and add the photos */
 		$ftarticle	= $this->getArticle();
-
-//		$html = "<table>\n";
-//		$html .= "<tr>\n";
-//		$html .= "<td>\n";
-//		$html .= "<!-- Source -->\n";
-//		$html .= "<table width=\"100%\">\n";
-//		$html .= "<tr>\n";
-//		$html .= "<td><p align=\"center\"><img border='0' src=" . $sourceLogo . "></td>\n";
-//		$html .= "</tr>\n";
-//		$html .= "</table>\n";
-
-//		$html .= "<table width=\"100%\">\n";
-//		$html .= "<tr>\n";
-//		$html .= "<td><p align='left'>" . $this->nmauthor . "</p></td>\n";
-//		$html .= "<td><p align='right'>" . $dtpublish . "</p></td>\n";
-//		$html .= "</tr>\n";
-//		$html .= "</table>\n";
-
-//		$html .= "<table width=\"100%\">\n";
-//		$html .= "<tr>\n";
-//		$html .= "<td width=\"100%\"><h1 align=\"center\">". $this->fttitle1 . "</h1></td>\n";
-//		$html .= "</tr>\n";
-//		$html .= $this->getSubtitle($this->fttitle2);
-//		$html .= $this->getSubtitle($this->fttitle3);
-
-//		/* social media buttons */
-//		$html .= "<tr>" . Social::addShareButtons($this->getUrl()) . "</tr>";
-
-//		$html .= "</table>\n";
-//		$html .= "<tr>\n";
-//		$html .= "<td width=\"100%\">\n";
-//		$html .= "<p>\n";
-//		$html .= "<font size='2' face='Arial, Helvetica, sans-serif'>\n";
-//		$html .= $ftarticle;
-//		$html .= "</font>\n";
-//		$html .= "</p>\n";
-//		$html .= "</td>\n";
-//		$html .= "</tr>\n";
-//		$html .= "</td>\n";
-//		$html .= "</tr>\n";
-//		$html .= "</table>\n";
-
 
 		$html = "<div class='article'>\n";
 		$html .= "<div class='source'><img border='0' src='" . $sourceLogo . "'></div>\n";
