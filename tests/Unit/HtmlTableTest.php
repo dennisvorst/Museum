@@ -25,6 +25,5 @@ class HtmlTableTest extends TestCase
         $expected = "<table id='myTable' style='someStyle'></table>";
         $this->assertEquals($expected, $actual);
     }
-
 }
 ?>

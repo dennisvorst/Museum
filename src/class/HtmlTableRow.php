@@ -8,10 +8,7 @@ class HtmlTableRow extends Html{
 
 	/* constructor */
 	function __construct(array $cells, array $attributes = null, string $type = null){
-		parent::__construct("tr");
-
-		$this->_allowedAttr = $this->_getAllowedAllAttr();
-		$this->_attributes = $this->_setAttributes($attributes);
+		parent::__construct("tr", $attributes);
 
 		$this->_type = $type;
 		foreach ($cells as $cell)

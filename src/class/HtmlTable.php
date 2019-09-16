@@ -12,11 +12,7 @@ class HtmlTable extends Html
 
 	/* constructor */
 	function __construct(array $attributes = null){
-		parent::__construct("table");
-
-		$this->_allowedAttr = $this->_getAllowedAllAttr();
-		$this->_attributes = $this->_setAttributes($attributes);
-
+		parent::__construct("table", $attributes);
 	}
 
 	/* deprecated */
