@@ -12,8 +12,8 @@ class Articles extends ListPage{
 	var $nmtable 		= "articles";
 	var $nmsingle		= "article";
 	var $nmclass 		= "Article";
-	var $searchFields 	= array("fttitle1", "fttitle2", "fttitle3", "ftarticle", "nmauthor", "ftarticle");
-	var $orderByFields 	= array("dtpublish");
+	protected $_searchFields 	= array("fttitle1", "fttitle2", "fttitle3", "ftarticle", "nmauthor", "ftarticle");
+	protected $_orderByFields 	= array("dtpublish");
 
 	var $nrRecordsOnPage = 10;
 	var $years;

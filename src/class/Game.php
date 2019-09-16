@@ -30,7 +30,7 @@ class Game extends SingleItemPage{
 		$this->dtstart			= $this->ftrecord['dtstart'];
 		$this->tmstart			= $this->ftrecord['tmstart'];
 		$this->nrinnings		= $this->ftrecord['nrinnings'];
-		/* not in table but value represtentaiton */
+		/* not in table but value represtentation */
 		$this->nmhome			= $this->ftrecord['nmhome'];
 		$this->nmaway			= $this->ftrecord['nmaway'];
 
@@ -42,7 +42,6 @@ class Game extends SingleItemPage{
     }
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
-//		print_r("getContent");
 		/* get the article */
 		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->id);
 		$this->processRecord();
@@ -50,6 +49,7 @@ class Game extends SingleItemPage{
 		return $html;
 	}
 
+	/* getters and setters */
 	function getFullName(){
 		return $this->idgame;
 	}
@@ -58,29 +58,45 @@ class Game extends SingleItemPage{
 		return "<a href='" . $this->getUrl() . "' >". $this->getFullName() . "</a>";
 	}
 
-	function createHtmlTableRow(){
-		/* create the tablerow */
-		if (empty($this->id)){
-			return null;
-		}
-
-		/* create the date */
+	function getStartDate() : string
+	{
 		$dateObj	= new Date();
-
-
-		$html	= "<tr>\n";
-		$html	.= "<td><div align='right'>" . $dateObj->translateDate($this->dtstart, "D") ."</div></td>\n";
-
+		return $dateObj->translateDate($this->dtstart, "D");
+	}
+	function getStartTime() : string
+	{
 		$t = strtotime($this->tmstart);
-		$html	.= "<td>" . date ( "H:i", $t ) ."</td>\n";
+		return date ( "H:i", $t );
+	}
 
-		$html	.= "<td><div align='center'>" . $this->nmhome ."</div></td>\n";
-		$html	.= "<td><div align='center'>" . $this->nmaway ."</div></td>\n";
-		$html	.= "<td><div align='right'>" . $this->nrrunshome . " - " . $this->nrrunsaway . "</div></td>\n";
-		$html	.= "<td><div align='center'>" . $this->nrinnings ."</div></td>\n";
-
-		$html	.= "</tr>\n";
-        return $html;
-    }
+	function getHomeTeam() : string 
+	{
+		return $this->nmhome;
+	}
+	function getAwayTeam() : string 
+	{
+		return $this->nmaway;
+	}
+	function getHomeTeamRuns() : string 
+	{
+		return  "" . $this->nrrunshome;
+	}
+	function getAwayTeamRuns() : string 
+	{
+		return  "" . $this->nrrunsaway;
+	}
+	function getNumberOfInnings() : string 
+	{
+		return  "" . $this->nrinnings;
+	}
+	function getFinalScore() : string 
+	{
+		$score = $this->getHomeTeamRuns() . " - " . $this->getAwayTeamRuns();
+		if (trim($score) == "-")
+		{
+			$score = "";
+		}
+		return $score;
+	}
 }
 ?>

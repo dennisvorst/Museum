@@ -5,14 +5,16 @@ require_once "HtmlTableCell.php";
 class HtmlTableRow extends Html{
 	protected $_tag = "tr";
 	protected $_cells = [];
-	protected $_isHeader = false;
+	protected $_type;
 
 	/* constructor */
-	function __construct(array $cells, bool $isHeader = false){
-		$this->_isHeader = $isHeader;
+	function __construct(array $cells, string $type = null){
+		parent::__construct();
+
+		$this->_type = $type;
 		foreach ($cells as $cell)
 		{
-			$this->_cells[] = new HtmlTableCell((empty($cell) ? "" : $cell), [], $this->_isHeader);
+			$this->_cells[] = new HtmlTableCell((empty($cell) ? "" : $cell), [], $this->_type);
 		}
 	}
 

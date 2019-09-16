@@ -1,11 +1,13 @@
 <?php
+require_once "HtmlTable.php";
+
 class Games extends ListPage{
 
 	var $nmtitle			= "Wedstrijden";
 	var $nmtable 			= "games";
 	var $nmsingle			= "game";
-	var $searchFields 		= array();
-	var $orderByFields 		= array("dtstart");
+	protected $_searchFields 		= array();
+	protected $_orderByFields 		= array("dtstart");
 
 	/* for the tile list */
 	var $nrcolumns = 1;
@@ -41,48 +43,38 @@ class Games extends ListPage{
 	}
 
 	function getPage($ftpagination){
-        /* get the participants */
+        /* get the games */
 
 		/* create a string with game information */
 		if (count($this->ftrows) == 0){
 			return null;
 		}
-		$html = "<h2 class='art-postheader'>Wedstrijden</h2>\n";
 
-		$fttiles = array();
-		$x = 0;
+		/* init */
+		$table = new HtmlTable();
+		$table->addRow(new HtmlTableRow(["Date", "Time", "Home", "Away", "Score", "Innings"], "H"), "H");
+
 		foreach ($this->ftrows as $row){
 			$game = new Game();
 			$game->setRecord($row);
 			$game->processRecord();
-			$fttiles[$x] = $game->createHtmlTableRow();
-			$x++;
+
+			//$game->getStartDate(), $game->getStartTime(), $game->getHomeTeam(), $game->getAwayTeam(), $game->getHomeTeamRuns(), $game->getAwayTeamRuns(), $game->getNumberOfInnings()
+			$cells[] = $game->getStartDate();
+			$cells[] = $game->getStartTime();
+			$cells[] = $game->getHomeTeam();
+			$cells[] = $game->getAwayTeam();
+			$cells[] = $game->getFinalScore();
+			$cells[] = $game->getNumberOfInnings();
+
+			$table->addRow(new HtmlTableRow($cells));
+			$cells = null;
 		}
-		$html .= $this->getHtmlTable($fttiles);
+
+		/* create the html */
+		$html = "<h2 class='art-postheader'>Wedstrijden</h2>\n";
+		$html .= $table->getElement();
 		return $html;
 	}//getPage
-
-
-	function getHtmlTable($fttiles, $nmclasstag = null){
-		/* table headers */
-		$html	= "<table>\n";
-		$html	.= "<tr>\n";
-		$html	.= "<th>Date</th>\n";
-		$html	.= "<th>Time</th>\n";
-		$html	.= "<th>Home</th>\n";
-		$html	.= "<th>Away</th>\n";
-//		$html	.= "<th>Runs Home</th>\n";
-//		$html	.= "<th>Runs Away</th>\n";
-		$html	.= "<th>Score</th>\n";
-		$html	.= "<th>Innings</th>\n";
-		$html	.= "</tr>\n";
-
-		for ($x=0; $x < count($fttiles); $x++){
-			$html	.= $fttiles[$x] . "\n";
-		}
-		$html	.= "</table>\n";
-
-		return $html;
-	}
 }
 ?>

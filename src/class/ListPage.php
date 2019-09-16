@@ -7,7 +7,7 @@ require_once "HtmlSelect.php";
 require_once "MainPage.php";
 
 class ListPage extends MainPage{
-	var $debug 			= false;
+	var $debug = false;
 
 	var $nmtitle;
 	var $ftrows;
@@ -16,8 +16,8 @@ class ListPage extends MainPage{
 
 	var $nmclass;
 
-	var $searchFields	= array("ListPageContent");
-	var $orderByFields;
+	protected $_searchFields	= array("ListPageContent");
+	protected $_orderByFields;
 	var $ftsubmenus		= array();
 
 	public static $nryear;
@@ -76,8 +76,8 @@ class ListPage extends MainPage{
 		}
 
 		$ftorderby = "";
-		if (!empty($this->orderByFields)){
-			$ftorderby = " ORDER BY " . $this->orderByFields . " ";
+		if (!empty($this->_orderByFields)){
+			$ftorderby = " ORDER BY " . $this->_orderByFields . " ";
 		}
 		return $ftorderby;
 	}
@@ -106,12 +106,12 @@ class ListPage extends MainPage{
 
 		/* order by */
 		$orderBy = "";
-		if (!empty($this->orderByFields)){
-			for ($i = 0; $i < count($this->orderByFields); $i++){
+		if (!empty($this->_orderByFields)){
+			for ($i = 0; $i < count($this->_orderByFields); $i++){
 				if (empty($orderBy)){
-					$orderBy = "ORDER BY `". $this->orderByFields[$i] . "` ASC ";;
+					$orderBy = "ORDER BY `". $this->_orderByFields[$i] . "` ASC ";;
 				} else {
-					$orderBy .= ", `". $this->orderByFields[$i] . "` ASC ";
+					$orderBy .= ", `". $this->_orderByFields[$i] . "` ASC ";
 				}
 			}
 		} else {
@@ -215,53 +215,6 @@ class ListPage extends MainPage{
 		echo $form->displayForm("S", "H", "D");
 	}//getMainAdmin
 
-	/* deprecated? */
-	function createEditRows(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
-		}
-
-		/* create an index page for the articles */
-		$this->getRecords($this->nmtable, 0, 30);
-		$keys	= array_keys($this->ftrows[0]);
-
-		$i = 0;
-		foreach ($this->ftrows as $ftrow){
-			/* Step therough the array */
-
-			for ($j=0; $j < count($keys); $j++){
-				/* get the key name, the value and start an object and a variable  */
-				$key	= $keys[$j];
-				$value	= $ftrow[$key];
-				$field	= "";
-				$object = new $this->nmsingle();
-
-				/* Look for the function that creates the editable field */
-				if ($key === "id" . $this->nmsingle ) {
-					$field = HtmlField::createField("id{$this->nmsingle}", "hidden", $value);
-				} else {
-					if (method_exists( $object, "getEdit" . ucfirst($key))){
-						$field = $object->{"getEdit" . ucfirst($key)}($value);
-					} else {
-						/* if it is empty donot add a value to the input field */
-
-						$field = HtmlField::createField($key, "text", $value);
-					}
-
-				}
-				$record[$j] = $field;
-			}
-			$records[$i]	= $record;
-			$i++;
-		}
-
-		/* create the table */
-		$htmltable = new HtmlTable();
-		$html = $htmltable->createHtmlTable($object->getLabels(), $records);
-
-		return $html;
-	}
-
 	/******************
 	getters and setters
 	*******************/
@@ -270,7 +223,7 @@ class ListPage extends MainPage{
 			print_r(__METHOD__ . "<br/>");
 		}
 
-		return $this->searchFields;
+		return $this->_searchFields;
 	}
 
 	function setRows($ftrows){

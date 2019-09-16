@@ -8,8 +8,8 @@ class Competitions extends ListPage{
 	var $nmtitle			= "Competities";
 	var $nmtable 			= "competitions";
 	var $nmsingle			= "competition";
-	var $searchFields 		= array("nmcompetition");
-	var $orderByFields 		= array("nryear", "nrorder", "cdsport", "cdclass", "cdgender", "nmcompetition");
+	protected $_searchFields 		= array("nmcompetition");
+	protected $_orderByFields 		= array("nryear", "nrorder", "cdsport", "cdclass", "cdgender", "nmcompetition");
 
 	/* for the tile list */
 	var $nrcolumns = 1;

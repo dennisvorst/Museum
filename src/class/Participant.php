@@ -34,9 +34,6 @@ class Participant extends SingleItemPage{
 		$this->nrdraws 			= $this->ftrecord['nrdraws'];
 		$this->nrrunsscored 	= $this->ftrecord['nrrunsscored'];
 		$this->nrrunsagainst 	= $this->ftrecord['nrrunsagainst'];
-
-//		$ftquery = "SELECT nmteam FROM teams WHERE idteam = $this->idteam";
-//		$this->nmparticipant = $this->queryDB($ftquery);
 	}
 
 	function createThumbnail(){
@@ -127,17 +124,6 @@ class Participant extends SingleItemPage{
 			}
 		}//endfor
 
-//		print_r($ftteams);
-//		print_r("<br/><br/>");
-//		print_r($ftcoaches);
-//		print_r("<br/><br/>");
-//		print_r($ftplayers);
-//		print_r("<br/><br/>");
-//		print_r($ftgames);
-//		print_r("<br/><br/>");
-//		print_r($ftparticipants);
-//		print_r("<br/><br/>");
-
 		/* get the stats */
 		$html = "<h1>" . $nmteam . "</h1>";;
 
@@ -169,14 +155,6 @@ class Participant extends SingleItemPage{
 		return $html;
 	}
 
-	function getFullName(){
-		return $this->nmparticipant;
-	}
-
-	function getNameWithUrl(){
-		return "<a href='" . $this->getUrl() . "' >". $this->getFullName() . "</a>";
-	}
-
 	function createHtmlTableRow(){
 		/* create the tablerow */
 		if (empty($this->id)){
@@ -193,5 +171,38 @@ class Participant extends SingleItemPage{
 		$html	.= "</tr>\n";
         return $html;
     }
+
+	/* getters and setters  */
+	function getFullName(){
+		return $this->nmparticipant;
+	}
+
+	function getNameWithUrl(){
+		return "<a href='" . $this->getUrl() . "' >". $this->getFullName() . "</a>";
+	}
+	function getTotalGames()
+	{
+		return $this->nrgames; 
+	}
+	function getTotalWins()
+	{
+		return $this->nrwins; 
+	}
+	function getTotalLosses()
+	{
+		return $this->nrloss; 
+	}
+	function getTotalDraws()
+	{
+		return $this->nrdraws; 
+	}
+	function getTotalRunsScored()
+	{
+		return $this->nrrunsscored; 
+	}
+	function getTotalRunsAgainst()
+	{
+		return $this->nrrunsagainst; 
+	}
 }
 ?>

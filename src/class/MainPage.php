@@ -14,7 +14,7 @@ class MainPage extends Database{
 		$html .= "<div class='art-layout-cell art-content'>\n";
 		$html .= "<!-- Include the different classes here -->\n";
 		$html .= "<article class='art-post art-article'>\n";
-		$html .= $this->getContent($nmCurrentTab, $nrCurrentPage);
+		$html .= $this->_getContent($nmCurrentTab, $nrCurrentPage);
 		$html .= "</article>\n";
 		$html .= "</div>\n";
 
@@ -23,7 +23,7 @@ class MainPage extends Database{
 		return $html;
 	}
 
-	function getContent($nmCurrentTab, $nrCurrentPage){
+	protected function _getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the left side of the main page */
 	}
 

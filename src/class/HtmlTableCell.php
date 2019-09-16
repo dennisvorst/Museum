@@ -3,28 +3,27 @@ require_once "Html.php";
 
 class HtmlTableCell extends Html
 {
-	protected $_isHeader = false;
+	protected $_type;
+	protected $_allowedAttr = ["colspan", "rowspan", "headers"];
 
-	function __construct(string $content, array $attributes = null, bool $isHeader = null)
+	function __construct(string $content = null, array $attributes = null, string $type = null)
 	{
+		/* move to parent class later. */
+		$this->_allowedAttr = $this->_getAllowedAllAttr();
+		$this->_attributes = $this->_setAttributes($attributes);
+
 		$this->_content = $content;
-		$this->_isHeader = $isHeader;
+		$this->_type = $type;
 		$this->_tag = $this->_getTag();
 	}
 
 	protected function _getTag() : string 
 	{
 		$this->_tag = "td";
-		if ($this->_isHeader)
+		if ($this->_type == "H")
 		{
 			$this->_tag = "th";
 		}
 		return $this->_tag;
-	}
-
-	public function getCell() : string
-	{
-		$html = "<" . $this->_tagName . ">" . $this->_value . "</" . $this->_tagName . ">";
-		return $html;
 	}
 }
