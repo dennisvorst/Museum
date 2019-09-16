@@ -6,15 +6,17 @@ require_once "Html.php";
 
 class HtmlTable extends Html
 {
-	protected $_tag = "table";
-
 	protected $_header = [];
 	protected $_footer = [];
 	protected $_rows = [];
 
 	/* constructor */
-	function __construct(){
-		parent::__construct();
+	function __construct(array $attributes = null){
+		parent::__construct("table");
+
+		$this->_allowedAttr = $this->_getAllowedAllAttr();
+		$this->_attributes = $this->_setAttributes($attributes);
+
 	}
 
 	/* deprecated */
@@ -28,7 +30,6 @@ class HtmlTable extends Html
 		}
 
 		if (!empty($footer)) $this->_footer = new HtmlTableRow($footer, false);
-
 
 		/* create the html */ 
 		return $this->getElement();
@@ -57,13 +58,14 @@ class HtmlTable extends Html
 		/* create the content */
 		if (empty($this->_content)) 
 		{
-			$this->_content = $this->_header->getElement();
+			$this->_content .= (empty($this->_header) ? "" : $this->_header->getElement());
 
 			foreach($this->_rows as $row)
 			{
 				$this->_content .= $row->getElement();
 			}
-			if (!empty($this->_footer)) $this->_content .= $this->_footer->getElement();
+
+			$this->_content .= (empty($this->_footer) ? "" : $this->_footer->getElement());
 		}
 		return $this->_content;
 	}

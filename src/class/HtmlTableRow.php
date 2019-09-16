@@ -3,13 +3,15 @@ require_once "Html.php";
 require_once "HtmlTableCell.php";
 
 class HtmlTableRow extends Html{
-	protected $_tag = "tr";
 	protected $_cells = [];
 	protected $_type;
 
 	/* constructor */
-	function __construct(array $cells, string $type = null){
-		parent::__construct();
+	function __construct(array $cells, array $attributes = null, string $type = null){
+		parent::__construct("tr");
+
+		$this->_allowedAttr = $this->_getAllowedAllAttr();
+		$this->_attributes = $this->_setAttributes($attributes);
 
 		$this->_type = $type;
 		foreach ($cells as $cell)

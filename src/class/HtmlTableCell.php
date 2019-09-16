@@ -8,6 +8,8 @@ class HtmlTableCell extends Html
 
 	function __construct(string $content = null, array $attributes = null, string $type = null)
 	{
+		parent::__construct("td");
+
 		/* move to parent class later. */
 		$this->_allowedAttr = $this->_getAllowedAllAttr();
 		$this->_attributes = $this->_setAttributes($attributes);
