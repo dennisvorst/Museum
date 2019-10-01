@@ -31,6 +31,7 @@ class HtmlTable extends Html
 		return $this->getElement();
 	}
 
+	/** tbd type is a property of the row not of the table. */
 	function addRow(HtmlTableRow $row, string $type = null) : void
 	{
 		switch ($type)
