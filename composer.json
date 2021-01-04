@@ -1,8 +1,11 @@
 {
+    "name": "vorstd/museum",
+    "description": "The Dutch Base- and Softball museum.",
+    "license": "proprietary",
+  
     "autoload": {
         "classmap": ["src/"],
-	"psr-0": { "\\": "src/class/" } 
-        
+    	"psr-0": { "\\": "src/class/" } 
     },
 
     "require-dev": {
