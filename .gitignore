@@ -30,3 +30,5 @@ src/admin/class/MysqlServer.php
 .phpunit.result.cache
 src/class/MysqlConfig.php
 src/class/deprecated/Database.php
+src/class/Log.php
+src/class/MysqlDatabase.php
