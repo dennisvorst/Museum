@@ -8,7 +8,7 @@ require_once "Photo.php";
 require_once "Source.php";
 require_once "CheckBox.php";
 require_once "SingleItemPage.php";
-
+require_once "MysqlDatabase.php";
 
 class Article extends SingleItemPage{
 	var $nmtitle	= "Artikelen";
@@ -36,8 +36,8 @@ class Article extends SingleItemPage{
 	var $nrMinParagraphLength = 100;
 
 	/* constructor */
-	function __construct(){
-		parent::__construct();
+	function __construct(MysqlDatabase $db){
+		parent::__construct($db);
 	}
 
 	function processRecord(){
@@ -77,11 +77,11 @@ class Article extends SingleItemPage{
 		$dtpublish	= $dateObj->translateDate($this->dtpublish, "W");
 
 		/* look for a photo */
-		$photoObj	= new Photo();
+		$photoObj	= new Photo($this->_db);
 		$photoObj->setIdByArticle($this->id);
 
 		$photo = array();
-		if (!is_null($photoObj->getId())) {
+		if (!is_null($photoObj->getRecordId())) {
 			$photo		= $photoObj->getThumbnail();
 		}
 		$colspan = 2;
@@ -309,9 +309,9 @@ class Article extends SingleItemPage{
 	function getPersons(){
 
 		/* get the persons that go with the article */
-		$query	= "SELECT p.idperson FROM personarticles a, persons p WHERE idarticle = $this->id AND a.idperson = p.idperson ORDER BY p.nmlast"	;
-		$rows	= $this->queryDb($query);
-
+		$query	= "SELECT p.idperson FROM personarticles a, persons p WHERE idarticle = ? AND a.idperson = p.idperson ORDER BY p.nmlast";
+		
+		$rows	= $this->select($query, "i", [$this->id]);
 		$x = 0;
 		foreach ($rows as $row){
 			$person = new Person();
@@ -323,9 +323,9 @@ class Article extends SingleItemPage{
 	}
 	function getClubs(){
 		/* get the clubs that go with the article */
-		$query	= "SELECT c.idclub FROM clubs c, clubarticles ac WHERE idarticle = $this->id AND c.idclub = ac.idclub ORDER BY nmsearch";
+		$query	= "SELECT c.idclub FROM clubs c, clubarticles ac WHERE idarticle = ? AND c.idclub = ac.idclub ORDER BY nmsearch";
 
-		$rows	= $this->queryDb($query);
+		$rows	= $this->select($query, "i", [$this->id]);
 
 		$x = 0;
 		foreach ($rows as $row){

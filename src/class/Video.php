@@ -5,6 +5,7 @@ ini_set('display_errors', 'On');  //On or Off
 
 require_once "SingleItemPage.php";
 require_once "CheckBox.php";
+require_once "MysqlDatabase.php";
 
 class Video extends SingleItemPage{
 	var $nmtable	= "videos";
@@ -17,12 +18,12 @@ class Video extends SingleItemPage{
 	var $nmurl;
 
 	/* constructor */
-	function __construct(){
-		parent::__construct();
+	function __construct(MysqlDatabase $db){
+		parent::__construct($db);
 	}
 
 	function processRecord(){
-		$this->id			= $this->ftrecord['id'];
+		$this->id			= $this->ftrecord['idvideo'];
 
 		$this->nmvideo		= $this->ftrecord['nmvideo'];
 		$this->nmurl		= $this->ftrecord['nmurl'];
@@ -31,14 +32,14 @@ class Video extends SingleItemPage{
 
 	function createThumbnail($nrsize = 3){
 		/* new photo class */
-		$photo = new Photo();
+		$photo = new Photo($this->_db);
 
 		$html = "<div class='col-xs-" . $nrsize . "'>\n";
 		$html .= "  <figure>\n";
 		$html .= "    <figcaption>\n";
-		$html .= "      <h4><a href='index.php?id=" . $this->getId() . "&nmclass=video'>" . $this->nmvideo . "</a></h4>\n";
+		$html .= "      <h4><a href='index.php?id=" . $this->getRecordId() . "&nmclass=video'>" . $this->nmvideo . "</a></h4>\n";
 		$html .= "    </figcaption>\n";
-		$html .= "    <a href='index.php?id=" . $this->getId() . "&nmclass=video'>\n";
+		$html .= "    <a href='index.php?id=" . $this->getRecordId() . "&nmclass=video'>\n";
 		$html .= "      <img width='200'  src='" . $this->getYoutubeThumbnail($this->nmurl) . "'>\n";
 		$html .= "    </a>\n";
 		$html .= "  </figure>\n";

@@ -1,8 +1,8 @@
 <?php
 require_once "SingleItemPage.php";
 require_once "HtmlSelect.php";
-require_once "HtmltABpAGE.php";
-
+require_once "HtmlTabPage.php";
+require_once "MysqlDatabase.php";
 
 class Club extends SingleItemPage{
 	var $nmtable	= "clubs";
@@ -26,8 +26,8 @@ class Club extends SingleItemPage{
 
 	var $ftsubmenus = array("clubretired"=>"Retired Numbers", "teams"=>"Teams");
 
-	function __construct(int $id = null) {
-		parent::__construct();
+	function __construct(MysqlDatabase $db, int $id = null){
+		parent::__construct($db);
 
 		if (!empty($id))
 		{
@@ -84,8 +84,8 @@ class Club extends SingleItemPage{
 		if (empty($this->_retiredNumberCollection))
 		{
 			/* get the retired jerseys of a club */
-			$sql = "SELECT * FROM " . $this->nmtable . " WHERE idclub = $id ORDER BY nrjersey";
-			$this->_retiredNumberCollection = $db->queryDb($sql);
+			$sql = "SELECT * FROM " . $this->nmtable . " WHERE idclub = ? ORDER BY nrjersey";
+			$this->_retiredNumberCollection = $db->select($sql, "i", [$id]);
 		}
 		return $this->_retiredNumberCollection;
 	}
@@ -211,7 +211,7 @@ class Club extends SingleItemPage{
 	function getClubs() : array {
 		/* return a list of only the verified sources */
 		$ftquery = "SELECT idclub, nmclub FROM clubs ORDER BY nmclub";
-		$ftrows = $this->queryDb($ftquery);
+		$ftrows = $this->select($ftquery);
 
 		$ftvalues = array();
 		foreach ($ftrows as $ftrow){

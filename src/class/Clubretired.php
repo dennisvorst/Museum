@@ -1,6 +1,7 @@
 <?php
 /* retired numbers of a club */
 require_once "SingleItemPage.php";
+require_once "MysqlDatabase.php";
 
 class Clubretired extends SingleItemPage{
 	var $nmtable	= "clubretired";
@@ -14,8 +15,8 @@ class Clubretired extends SingleItemPage{
 	var $idperson;
 	var $nrjersey;
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db){
+		parent::__construct($db);
 	}
 
 	function processRecord(){
@@ -151,7 +152,7 @@ class Clubretired extends SingleItemPage{
 					?>
 					</td>
 					<td><input type="text" name="nrjersey1" value=""></td>
-					<td><input type="hidden" name="idretired1" value="<?php echo $this->getId(); ?>"></td>
+					<td><input type="hidden" name="idretired1" value="<?php echo $this->getRecordId(); ?>"></td>
 					<td><input type="hidden" name="updated_at" value=""></td>
 					<td><input type="hidden" name="updated_by" value=""></td>
 					<td><input type="hidden" name="created_at" value=""></td>
@@ -178,8 +179,8 @@ class Clubretired extends SingleItemPage{
 
 	function getClubJerseys($id){
 		/* get the retired jerseys of a club */
-		$query 	= "SELECT * FROM " . $this->nmtable . " WHERE idclub = $id ORDER BY nrjersey";
-		$this->ftrows = $this->queryDb($query);
+		$query 	= "SELECT * FROM " . $this->nmtable . " WHERE idclub = ? ORDER BY nrjersey";
+		$this->ftrows = $this->select($query, "i", $id);
 		return $this->getPage();
 	}
 

@@ -1,0 +1,68 @@
+2021-01-24 07:58:05	Log Started
+2021-01-24 07:58:05	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-24 07:58:05	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-24 07:58:05	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-24 07:58:05	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-24 07:58:05	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-24 07:58:05	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-24 07:58:05	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-24 07:58:05	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 07:58:05	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 07:58:05	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 07:58:05	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-24 07:58:05	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-24 07:58:05	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-24 09:13:26	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-24 09:13:26	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-24 09:13:26	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-24 09:13:27	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-24 09:13:27	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-24 09:13:27	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-24 09:13:28	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-24 09:13:28	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-24 09:13:28	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-24 09:13:28	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-24 09:13:28	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-24 09:13:28	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-24 09:15:42	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-24 09:15:42	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-24 09:15:42	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-24 10:03:47	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-24 10:03:47	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-24 10:03:48	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-24 10:03:48	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-24 10:03:48	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-24 10:03:48	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-24 10:03:48	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-24 10:03:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 10:03:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 10:03:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 10:03:48	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-24 10:03:48	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-24 10:03:48	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-24 11:23:30	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-24 11:23:30	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-24 11:23:30	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-24 11:23:30	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-24 11:23:30	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-24 11:23:30	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-24 11:23:30	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-24 11:23:30	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 11:23:30	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 11:23:30	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 11:23:30	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-24 11:23:30	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-24 11:23:30	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-24 11:45:57	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-24 11:45:57	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-24 11:45:58	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-24 11:45:58	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-24 11:45:58	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-24 11:45:58	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-24 11:45:58	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-24 11:45:58	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 11:45:58	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 11:45:58	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-24 11:45:58	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-24 11:45:58	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-24 11:45:58	SELECT * FROM videos WHERE is_featured = 1 

@@ -67,6 +67,7 @@ class Search{
 
 			$nminstance = new $nmclass();
 			$nminstance->createWhere($nmtable, $nminstance->getSearchFields(), $ftsearch, "");
+			// todo : tuirn into correct select
 			$ftrows = $nminstance->queryDb_6(null, $nmtable, null, null, 0, 30);
 			$nminstance->setRows($ftrows);
 			echo $nminstance->getPage("");

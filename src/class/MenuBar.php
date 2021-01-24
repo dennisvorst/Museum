@@ -14,9 +14,13 @@ class MenuBar{
 	static $nrlast = 0;
 	static $nrcurrent;
 	static $nmclass;
-
+	
+	protected $_db;
 	/* constructor */
-	function __construct(){
+	function __construct(MysqlDatabase $db)
+	{
+		$this->_db = $db;
+		
 	}
 
 	function getToolBar($nmtable, $nmvalue, $cdtype, $ftrows){
@@ -143,14 +147,19 @@ class MenuBar{
 		$include_next       = 1;
 
         /* find out the number of values in the database */
-        $hits           = $this->database->GetData("COUNT(DISTINCT({$this->fieldname})) as jaar", $this->entname, "", $this->fieldname, "");
+//        $hits           = $this->database->GetData("COUNT(DISTINCT({$this->fieldname})) as jaar", $this->entname, "", $this->fieldname, "");
+		$sql = "SELECT COUNT(DISTINCT({$this->fieldname})) AS jaar FROM {$this->entname} ORDER BY {$this->fieldname}"; 
+        $hits           = $this->_db->select($sql);
         $hits           = $hits[0]['jaar'];
 
 		/* if there are more records than can be displayed we need to cut them in pieces */
         if ($max_hits >= $hits){
 			/* we donot need to add navigation buttons. */
             $this->lijst = array();
-			$data = $this->database->GetData("DISTINCT({$this->fieldname}) as jaar", $this->entname, "", $this->fieldname, "");
+//			$data = $this->database->GetData("DISTINCT({$this->fieldname}) as jaar", $this->entname, "", $this->fieldname, "");
+			$sql = "SELECT DISTINCT({$this->fieldname}) as jaar FROM {$this->entname} ORDER BY {$this->fieldname}";
+			$data = $this->_db->select($sql);
+			
 
             for ($x=0;$x<count($data);$x++){
 				/* if the value is the selected value than leave out the hyperlink */
@@ -166,7 +175,9 @@ class MenuBar{
 			/* So in order to cut things up we need to know where the begin (min) and the end (max) is */
 			$my_select_array = array("min", "max");
 			for ($y=0; $y<count($my_select_array); $y++){
-                $data = $this->database->GetData("{$my_select_array[$y]}(nrjaar) as jaar", $this->entname, "", "", "1");
+//$data = $this->database->GetData("{$my_select_array[$y]}(nrjaar) as jaar", $this->entname, "", "", "1");
+			$sql = "{$my_select_array[$y]}(nrjaar) as jaar FROM {$this->entname} LIMIT 1";
+			$data = $this->_db->select($sql);
                 ${"my_value_" . $my_select_array[$y]} = $data[0]['jaar'];
 			}
 
@@ -182,14 +193,18 @@ class MenuBar{
 					so we need to give a constrint for both lowest and highest value
 					*/
 					$where  = "nrjaar < {$_SESSION['my_valrep_min']}";
-					$data   = $this->database->GetData("DISTINCT({$this->fieldname}) as jaar", $this->entname, $where, $this->fieldname, "");
+//					$data   = $this->database->GetData("DISTINCT({$this->fieldname}) as jaar", $this->entname, $where, $this->fieldname, "");
+					$sql = "SELECT DISTINCT({$this->fieldname}) as jaar FROM {$this->entname} {$where} ORDER BY {$this->fieldname}";
+					$data   = $this->_db->select($sql);
 					$data   = array_reverse($data);
                     $where      .= " AND nrjaar >= {$data[$max_hits-1]['jaar']}";
 				}
 			}
 
 			/* finally retrieve the values you want */
-			$data                   = $this->database->GetData("DISTINCT({$this->fieldname}) as jaar", $this->entname, $where, $this->fieldname, $max_hits);
+//			$data = $this->database->GetData("DISTINCT({$this->fieldname}) as jaar", $this->entname, $where, $this->fieldname, $max_hits);
+			$sql = "SELECT DISTINCT({$this->fieldname}) as jaar FROM {$this->entname} {$where} ORDER BY {$this->fieldname} LIMIT {$max_hits}";
+			$data = $this->_db->select($sql);
             /* set the first and last value */
             $last_occ           = count($data)-1;
             $my_valrep_min      = $data[0]['jaar'];

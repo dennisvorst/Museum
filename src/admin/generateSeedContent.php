@@ -8,7 +8,9 @@ There are four flavours:
  */
 
 /* include s=ection */ 
-require_once "../class/Database.php";
+require_once('class/Log.php');
+require_once('class/MysqlConfig.php');
+require_once('class/MysqlDatabase.php');
 $db_name = null;
 $tbl_name = null;
 
@@ -21,7 +23,10 @@ if (isset($_GET['tbl'])) {
 }
 
 /* init */
-$db = new DataBase();
+$log = new Log("museum.log");
+$config = new MysqlConfig();
+$db = new MysqlDatabase($config, "museum", $log);
+
 $sql_db = "SELECT DISTINCT(SCHEMA_NAME) FROM INFORMATION_SCHEMA.SCHEMATA";
 $sql_tbl = "";
 $sql_rows = array();
@@ -34,6 +39,7 @@ $tables = array();
 $rows = array();
 
 /* get the schema name and the database name */
+/* TODO: make prepare statement proof*/
 if (isset($db_name)){
 	$sql_db .= " WHERE SCHEMA_NAME = '" . $db_name . "'";
 	
@@ -42,13 +48,13 @@ if (isset($db_name)){
 		$sql_tbl .= " AND TABLE_NAME = '" . $tbl_name . "'";
 
 		$sql_rows = "SELECT * FROM " . $db_name . "." . $tbl_name;
-		$rows = $db->queryDb($sql_rows);
+		$rows = $db->select($sql_rows);
 		
 	} else {
-		$tables = $db->queryDb($sql_tbl);
+		$tables = $db->select($sql_tbl);
 	}
 } else {
-	$databases = $db->queryDb($sql_db);
+	$databases = $db->select($sql_db);
 } 
 
 /* ctreate the DB urls */

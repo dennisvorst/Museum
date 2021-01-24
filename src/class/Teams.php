@@ -2,6 +2,7 @@
 require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "Club.php";
+require_once "MysqlDatabase.php";
 
 class Teams extends ListPage{
 	var $nmtitle			= "Teams";
@@ -18,19 +19,19 @@ class Teams extends ListPage{
 	var $ftwomensbaseball = [];
 	var $ftwomenssoftball = [];
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db)
+	{
+		parent::__construct($db);
 
 		/* get a list of years */
 		$this->alphabet	= $this->getAlphabet("teams", "nmteam");
-		$this->menuBar	= new MenuBar();
+		$this->menuBar	= new MenuBar($this->_db);
 	}
 
 	function getForeignKeyValues(){
 		if (empty($this->ftforeignkeys)){
-			$ftquery = "SELECT idteam, nmteam ";
-			$ftquery .= "FROM teams ORDER BY nmteam";
-			$ftrows	= $this->queryDb($ftquery);
+			$sql = "SELECT idteam, nmteam FROM teams ORDER BY nmteam";
+			$ftrows	= $this->select($sql);
 
 			foreach($ftrows as $ftrow){
 				$ftvalrep = $ftrow['nmteam'];
@@ -61,28 +62,28 @@ class Teams extends ListPage{
 		$select .= "FROM teams t, participants p, competitions c ";
 		$select .= "WHERE t.idteam = p.idteam ";
 		$select .= "AND c.idcompetition = p.idcompetition ";
-		$select .= "AND t.idclub = $id ";
+		$select .= "AND t.idclub = ? ";
 
-		$query 	= $select . "AND t.cdsport = 'HB' AND t.cdgender = 'M' ORDER BY c.nryear" ;
-		$this->ftmensbaseball	= $this->queryDb($query);
+		$query 	= $select . "AND t.cdsport = ? AND t.cdgender = ? ORDER BY c.nryear" ;
+		$this->ftmensbaseball	= $this->select($query, "iss", [$id, 'HB', 'M']);
 		for($i = 0; $i < count($this->ftmensbaseball); $i++){
 			$this->ftmensbaseball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftmensbaseball[$i]['idparticipant'] . ">" . $this->ftmensbaseball[$i]['nmteam'] . "</a>\n";
 		}
 
-		$query 	= $select . "AND t.cdsport = 'HB' AND t.cdgender = 'F' ORDER BY c.nryear" ;
-		$this->ftwomensbaseball	= $this->queryDb($query);
+		$query 	= $select . "AND t.cdsport = ? AND t.cdgender =  ORDER BY c.nryear" ;
+		$this->ftwomensbaseball	= $this->select($query, "iss", [$id], 'HB', 'F');
 		for($i = 0; $i < count($this->ftwomensbaseball); $i++){
 			$this->ftwomensbaseball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftwomensbaseball[$i]['idparticipant'] . ">" . $this->ftwomensbaseball[$i]['nmteam'] . "</a>\n";
 		}
 
-		$query 	= $select . "AND t.cdsport = 'SB' AND t.cdgender = 'M' ORDER BY c.nryear" ;
-		$this->ftmenssoftball	= $this->queryDb($query);
+		$query 	= $select . "AND t.cdsport = ? AND t.cdgender = ? ORDER BY c.nryear" ;
+		$this->ftmenssoftball	= $this->select($query, "iss", [$id],'SB', 'M');
 		for($i = 0; $i < count($this->ftmenssoftball); $i++){
 			$this->ftmenssoftball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftmenssoftball[$i]['idparticipant'] . ">" . $this->ftmenssoftball[$i]['nmteam'] . "</a>\n";
 		}
 
-		$query 	= $select . "AND t.cdsport = 'SB' AND t.cdgender = 'F' ORDER BY c.nryear" ;
-		$this->ftwomenssoftball	= $this->queryDb($query);
+		$query 	= $select . "AND t.cdsport = ? AND t.cdgender =  ORDER BY c.nryear" ;
+		$this->ftwomenssoftball	= $this->select($query, "i", [$id, 'SB', 'F']);
 		for($i = 0; $i < count($this->ftwomenssoftball); $i++){
 			$this->ftwomenssoftball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftwomenssoftball[$i]['idparticipant'] . ">" . $this->ftwomenssoftball[$i]['nmteam'] . "</a>\n";
 		}

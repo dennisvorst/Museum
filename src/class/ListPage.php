@@ -5,8 +5,10 @@ ini_set('display_errors', 'On');  //On or Off
 require_once "HtmlField.php";
 require_once "HtmlSelect.php";
 require_once "MainPage.php";
+require_once "MysqlDatabase.php";
 
 class ListPage extends MainPage{
+	protected $_db;
 	var $debug = false;
 
 	var $nmtitle;
@@ -36,10 +38,13 @@ class ListPage extends MainPage{
 	var $ftforeignkeys	= array();
 
 	/* constructor */
-	function __construct(){
+	function __construct(MysqlDatabase $db){
 		parent::__construct();
+
+		$this->_db = $db;
 	}
 
+	/** todo - make prepare statement proof*/
 	function withName($ftsearch) {
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");
@@ -55,9 +60,10 @@ class ListPage extends MainPage{
 		if (!empty($ftorderby)){
 			$query .= $ftorderby;
 		}
-		$this->ftrows	= $this->queryDb($query);
+		$this->ftrows	= $this->_db->select($query);
 	}
 
+	/** todo - make prepare statement proof*/
 	function withFeatured() {
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");
@@ -67,7 +73,7 @@ class ListPage extends MainPage{
 		if (!empty($ftorderby)){
 			$query .= $ftorderby;
 		}
-		$this->ftrows	= $this->queryDb($query);
+		$this->ftrows	= $this->_db->select($query);
 	}
 
 	function getOrderBy(){
@@ -82,6 +88,7 @@ class ListPage extends MainPage{
 		return $ftorderby;
 	}
 
+	/** todo - make prepare statement proof*/
 	function getRecords($nmtable, $nrrowsstart, $nrrowsend){
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");
@@ -124,26 +131,30 @@ class ListPage extends MainPage{
 			$ftquery .= "LIMIT $nrrowsstart, $nrrowsend";
 		}
 
-		$this->ftrows = $this->queryDB($ftquery);
+		$this->ftrows = $this->_db->select($ftquery);
 	}//getRecords
 
 	static function getStartYear($nmtable){
 		/* get the year to start with in the menu */
 		$ftquery = "SELECT MIN(nryear) AS nryear FROM $nmtable";
-		$db = new Database();
-		$nmvalue = $db->queryDb($ftquery);
+		$nmvalue = $this->_db->select($ftquery);
 		ListPage::$nryear = $nmvalue[0]['nryear'];
 	}
 
-	function getYears($nmtable){
+	function getYears($nmtable) : array
+	{
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");
 		}
 
 		/* get the years from a tables */
-		$rows = $this->getData("DISTINCT(nryear) as nryear", $nmtable, "", "nryear", "");
+//		$rows = $this->getData("DISTINCT(nryear) as nryear", $nmtable, "", "nryear", "");
+		$sql = "SELECT DISTINCT(nryear) as nryear FROM {$nmtable} ORDER BY nryear";
+//		print_r($sql . "<br>");
+		$rows = $this->_db->select($sql);
 
-		$years = array();
+
+		$years = [];
 		for ($x=0; $x < count($rows); $x++){
 			$years[$x] = $rows[$x]['nryear'];
 		}
@@ -158,7 +169,10 @@ class ListPage extends MainPage{
 		/* get the alphabet from a tables */
 		$letters = array();
 
-        $rows = $this->getData("DISTINCT(UPPER(LEFT({$nmfield},1))) AS letter", $nmtable, "", $nmfield, "");
+//        $rows = $this->getData("DISTINCT(UPPER(LEFT({$nmfield},1))) AS letter", $nmtable, "", $nmfield, "");
+		$sql = "SELECT DISTINCT(UPPER(LEFT({$nmfield},1))) AS letter FROM {$nmtable} ORDER BY {$nmfield}";
+		$rows = $this->_db->select($sql);
+
 		for ($x=0; $x < count($rows); $x++){
 			$letters[$x] = $rows[$x]['letter'];
 		}
@@ -283,6 +297,7 @@ class ListPage extends MainPage{
 
     }
 
+	/** todo - make prepare statement proof*/
 	function getMain($nmtab, $nrCurrentPage){
 		/* create an index page for the photos */
 		$nmclass = strtolower(get_class($this));
@@ -304,7 +319,7 @@ class ListPage extends MainPage{
 		}
 
 		/* get the total of items in the database */
-		$nrtotal = $this->queryDb($ftquery);
+		$nrtotal = $this->_db->select($ftquery);
 		$nrtotal = $nrtotal[0]['total'];
 
 		/* how many pages does that fill? */
@@ -367,7 +382,7 @@ class ListPage extends MainPage{
 		$fttiles = array();
 		$x = 0;
 		foreach ($this->ftrows as $row){
-			$object = new $this->nmclass();
+			$object = new $this->nmclass($this->_db);
 			$object->setRecord($row);
 			$object->processRecord();
 			$fttiles[$x] = $object->createThumbnail();
@@ -537,7 +552,7 @@ class ListPage extends MainPage{
 		return round(($nrtotal/$nrRecordsOnPage) + 0.5, 0);
 	}
 
-
+	/** todo - make prepare statement proof*/
 	function searchTable($ftvaluelist, $nmsearchtype){
 		/* search the searcable fields of the table for values
 		search is done case insensitive
@@ -565,7 +580,7 @@ class ListPage extends MainPage{
 
 		$sql	.= $ftwhere;
 
-		$this->ftrows	= $this->queryDb($sql);
+		$this->ftrows	= $this->_db->select($sql);
 	}
 
 	function createWhereEXACT($ftfieldlist, $ftvaluelist){

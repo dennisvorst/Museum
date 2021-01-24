@@ -6,7 +6,9 @@ ini_set('display_errors', 'On');  //On or Off
 // *** Include Section
 //*********************************************************
 require_once "class/Date.php";
-require_once "class/Database.php";
+require_once 'class/Log.php';
+require_once 'class/MysqlConfig.php';
+require_once 'class/MysqlDatabase.php';
 require_once "class/MainPage.php";
 require_once "class/ListPage.php";
 require_once "class/SingleItemPage.php";
@@ -50,28 +52,37 @@ require_once "class/Videos.php";
 //*********************************************************
 // *** Include Section (3rd party)
 //*********************************************************
-require_once "3rd/class/Mobile_Detect.php";
+//require_once "3rd/class/Mobile_Detect.php";
 
 //*********************************************************
 // *** Determine the device type
 //*********************************************************
 /* get the mobile properties */
-$detect = new Mobile_Detect;
+//$detect = new Mobile_Detect;
 
 /* on the small screen show a small image */
-if ( $detect->isMobile() ) {
+//if ( $detect->isMobile() ) {
 //	print_r("Mobile");
-} elseif ( $detect->isTablet() ) {
+//} elseif ( $detect->isTablet() ) {
 //	print_r("Tablet");
-} else {
+//} else {
 //	print_r("Monitor");
-}
+//}
 
 //*********************************************************
 // *** Data Section
 //*********************************************************
 /* some init stuff just in case it is not set in the $_GET or $_POST */
 $nmclass = "home";
+
+$config = new MysqlConfig();
+$log = new Log("museum.log");
+try {
+    $db = new MysqlDatabase($config, "museum", $log);
+} catch (Exception $e) {
+    echo 'Caught exception: ',  $e->getMessage(), "\n";
+    return;
+}
 
 /* get the $_GET variables */
 $keys = array_keys($_GET);
@@ -110,10 +121,10 @@ if (isset($nmclass)){
 //*********************************************************
 $object = "";
 if (empty($nmclass)){
-	$object = new Home();
+	$object = new Home($db);
 } else {
 	$object = ucfirst($nmclass);
-	$object = new $object();
+	$object = new $object($db);
 }
 ?>
 <!DOCTYPE html>
@@ -170,7 +181,7 @@ if (empty($nmclass)){
                     	<div class="art-vmenublock clearfix">
 	                        <div class="art-vmenublockcontent">
     	                        <?php
-        	                    $menu = new Menu;
+        	                    $menu = new Menu();
             	                echo $menu->getMainMenu($nmclass);
                 	            $menu	= null;
                     	        ?>
@@ -183,21 +194,28 @@ if (empty($nmclass)){
                     <!-- Main section -->
 
                     <?php
-                    /* if an id is set then pass it, but not when the classname is Home */
-                    if (get_class($object) != "Home" && !empty($id)){
-                        $object->setId($id);
-	                    echo $object->getMain($nmtab, $nrpage);
+                    try {
+                        /* if an id is set then pass it, but not when the classname is Home */
+                        if (get_class($object) != "Home" && !empty($id)){
+                            $object->setId($id);
+                            echo $object->getMain($nmtab, $nrpage);
 
-                    } elseif (get_class($object) == "Search"){
-						/* if there is a query then load the query otherwise show the search field */
-						if (isset($ftquery)){
-    	                    $object->setFtsearch($ftquery);
-						} else {
-    	                    echo $object->getMain();
-						}
-                    } else {
-	                    echo $object->getMain($nmtab, $nrpage);
-					}
+                        } elseif (get_class($object) == "Search"){
+                            /* if there is a query then load the query otherwise show the search field */
+                            if (isset($ftquery)){
+                                $object->setFtsearch($ftquery);
+                            } else {
+                                echo $object->getMain();
+                            }
+                        } else {
+                            echo $object->getMain($nmtab, $nrpage);
+                        }
+
+                    } catch (Exception $e) {
+                        echo "Whoops, er is iets misgegaan. Neem contact op met de website beheerder.\n";
+                        return;
+                    }
+                    
 
                     ?>
 

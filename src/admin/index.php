@@ -1,8 +1,12 @@
 <?php
-require_once "class/Database.php";
+require_once('class/Log.php');
+require_once('class/MysqlConfig.php');
+require_once('class/MysqlDatabase.php');
 require_once "class/Mysql.php";
 
-$db = new Database();
+$log = new Log("museum.log");
+$config = new MysqlConfig();
+$db = new MysqlDatabase($config, "museum", $log);
 
 $keys = array_keys($_GET);
 foreach($keys as $key)

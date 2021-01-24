@@ -2,6 +2,7 @@
 require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "Photo.php";
+require_once "MysqlDatabase.php";
 
 class Photos extends ListPage{
 	var $debug 			= false;
@@ -21,14 +22,15 @@ class Photos extends ListPage{
 
 
 	/* constructor */
-	function __construct(){
-		parent::__construct();
+	function __construct(MysqlDatabase $db)
+	{
+		parent::__construct($db);
 
 		/* get a list of years */
 		$this->years	= $this->getYears("photos");
 		$this->menuBar = null;
 		if (!empty($this->years)){
-			$this->menuBar	= new MenuBar();
+			$this->menuBar	= new MenuBar($this->_db);
 		}
 	}
 
@@ -39,8 +41,8 @@ class Photos extends ListPage{
 		/* get the articles that go with a person */
 
 		/* get the total number of elements */
-		$ftquery = "SELECT count(*) AS nrtotal FROM clubphotos cp, photos p WHERE p.idphoto = cp.idphoto AND cp.idclub = $id";
-		$nrTotPages = $this->queryDB($ftquery);
+		$ftquery = "SELECT count(*) AS nrtotal FROM clubphotos cp, photos p WHERE p.idphoto = cp.idphoto AND cp.idclub = ?";
+		$nrTotPages = $this->select($ftquery, "i", [$id]);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the photos
@@ -50,8 +52,8 @@ class Photos extends ListPage{
 		if ($nrCurrentPage > 1) {
 			$nrOffSet = ($nrCurrentPage - 1) * $this->nrRecordsOnPage;
 		}
-		$ftquery = "SELECT p.* FROM clubphotos cp, photos p WHERE p.idphoto = cp.idphoto AND cp.idclub = $id LIMIT $this->nrRecordsOnPage OFFSET $nrOffSet";
-		$this->ftrows = $this->queryDB($ftquery);
+		$ftquery = "SELECT p.* FROM clubphotos cp, photos p WHERE p.idphoto = cp.idphoto AND cp.idclub = ? LIMIT ? OFFSET ?";
+		$this->ftrows = $this->select($ftquery, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("club", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getClubPhotos
@@ -63,8 +65,8 @@ class Photos extends ListPage{
 		/* get the articles that go with a person */
 
 		/* get the total number of elements */
-		$ftquery = "SELECT count(*) AS nrtotal FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND pp.idperson = $id";
-		$nrTotPages = $this->queryDB($ftquery);
+		$ftquery = "SELECT count(*) AS nrtotal FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND pp.idperson = ?";
+		$nrTotPages = $this->select($ftquery, "i", [$id]);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the photos
@@ -74,8 +76,8 @@ class Photos extends ListPage{
 		if ($nrCurrentPage > 1) {
 			$nrOffSet = ($nrCurrentPage - 1) * $this->nrRecordsOnPage;
 		}
-		$ftquery = "SELECT p.* FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND pp.idperson = $id LIMIT $this->nrRecordsOnPage OFFSET $nrOffSet";
-		$this->ftrows = $this->queryDB($ftquery);
+		$ftquery = "SELECT p.* FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND pp.idperson = ? LIMIT ? OFFSET ?";
+		$this->ftrows = $this->select($ftquery, "i", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("person", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getPersonPhotos
@@ -85,8 +87,8 @@ class Photos extends ListPage{
 			print_r(__METHOD__ . "<br/>");
 		}
 
-		$query	= "SELECT * FROM photos p, articlephotos a WHERE a.idphoto = p.idphoto AND a.idarticle = $idarticle"	;
-		$rows	= $this->queryDb($query);
+		$query	= "SELECT * FROM photos p, articlephotos a WHERE a.idphoto = p.idphoto AND a.idarticle = ?";
+		$rows	= $this->select($query, "i", [$idarticle]);
 
 		$x = 0;
 		foreach ($rows as $row){

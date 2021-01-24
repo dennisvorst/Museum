@@ -3,6 +3,7 @@ require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "HtmlTable.php";
 require_once "Person.php";
+require_once "MysqlDatabase.php";
 
 class Persons extends ListPage{
 	var $nmtitle			= "Personen";
@@ -20,12 +21,13 @@ class Persons extends ListPage{
 	/* for the tile list */
 	var $nrcolumns = 4;
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db)
+	{
+		parent::__construct($db);
 
 		/* get a list of letters */
 		$this->alphabet	= $this->getAlphabet("persons", "nmlast");
-		$this->menuBar	= new MenuBar();
+		$this->menuBar	= new MenuBar($this->_db);
 	}
 
 
@@ -45,7 +47,7 @@ class Persons extends ListPage{
 		/* create a HTML select with persons */
 		/* get the data */
 		$query	= "SELECT * FROM persons ORDER BY nmfirst, nmsur, nmlast";
-		$ftrows	= $this->queryDb($query);
+		$ftrows	= $this->select($query);
 
 		/* process the data */
 		$object	= new Person();
@@ -58,11 +60,11 @@ class Persons extends ListPage{
 			$object->processRecord();
 
 			$selected = "";
-			if ($idperson == $object->getId()){
+			if ($idperson == $object->getRecordId()){
 				$selected = "selected";
 			}
 
-			$html .= "	<option value='" . $object->getId() . "' " . $selected . ">" . $object->getFullName() . "</option>\n";
+			$html .= "	<option value='" . $object->getRecordId() . "' " . $selected . ">" . $object->getFullName() . "</option>\n";
 		}//endforeach
 
 		$html .= "</select>\n";

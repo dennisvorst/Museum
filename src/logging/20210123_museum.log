@@ -1,0 +1,370 @@
+2021-01-23 05:09:59	Log Started
+2021-01-23 05:09:59	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 05:17:42	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 05:18:12	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 05:18:12	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 05:18:12	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 08:45:25	Unable to connect to the database.Please contact your administrator.
+2021-01-23 08:58:04	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 08:58:04	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 08:58:04	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 09:04:40	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:04:40	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:07:04	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:07:04	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:07:04	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:07:04	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:11:54	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:11:54	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:12:44	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:12:44	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:14:00	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:14:00	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:14:42	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:14:42	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:14:58	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:14:58	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:16:05	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:16:05	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:16:29	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:16:29	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:16:29	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:19:02	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:19:02	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:19:02	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:20:21	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:20:21	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:20:21	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:20:21	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:20:21	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:20:21	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 09:24:34	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:24:34	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:24:34	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:24:34	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:24:34	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:24:34	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:24:34	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:24:34	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 09:24:38	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:24:38	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:24:38	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:24:38	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:24:38	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:24:38	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:24:38	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:24:38	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 09:29:31	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:29:31	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:29:31	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:29:31	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:29:31	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:29:31	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:29:31	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:30:12	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:30:12	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:30:12	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:30:12	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:30:12	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:30:12	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:30:12	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:30:43	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:30:43	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:30:43	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:30:43	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:30:43	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:30:43	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:30:43	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:30:43	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:30:43	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:30:43	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:30:43	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:30:43	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:30:43	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 09:34:16	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:34:16	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:34:16	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:34:16	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:34:17	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:34:17	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:34:17	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:34:17	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:34:17	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:34:17	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:34:17	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:34:17	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:34:17	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 09:34:28	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:34:28	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:34:28	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:34:28	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:34:28	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:34:28	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:34:28	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:34:28	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:34:28	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:34:28	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:34:28	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:34:28	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:34:28	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 09:34:49	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:34:49	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:34:49	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:34:49	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:34:49	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:34:49	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:34:49	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:34:49	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:34:49	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:34:49	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:34:49	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:34:49	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:34:49	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 09:35:56	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:35:56	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:35:56	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:35:56	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:35:56	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:35:56	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:35:56	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:35:56	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:35:56	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:35:56	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:35:56	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:35:56	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:35:56	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:35:56	Error preparing the statement: Unknown column 'is_featured' in 'where clause'
+2021-01-23 09:37:16	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:37:16	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:37:16	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:37:16	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:37:16	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:37:16	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:37:16	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:37:16	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:37:16	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:37:16	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:37:16	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:37:16	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:37:16	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:38:26	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:38:26	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:38:26	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:38:26	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:38:26	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:38:26	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:38:26	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:38:26	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:38:26	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:38:26	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:38:26	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:38:26	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:38:26	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:38:56	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:38:56	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:38:56	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:38:56	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:38:56	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:38:56	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:38:56	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:38:56	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:38:56	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:38:56	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:38:56	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:38:56	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:38:56	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:43:34	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:43:34	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:43:34	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:43:34	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:43:34	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:43:34	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:43:34	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:43:34	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:43:34	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:43:34	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:43:34	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:43:34	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:43:34	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:43:49	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:43:49	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:43:49	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:43:49	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:43:49	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:43:49	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:43:49	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:43:49	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:43:49	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:43:49	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:43:49	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:43:49	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:43:49	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:45:09	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:45:09	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:45:09	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:45:09	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:45:09	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:45:09	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:45:09	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:45:09	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:45:09	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:45:09	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:45:09	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:45:09	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:45:09	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:45:22	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:45:22	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:45:22	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:45:22	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:45:22	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:45:22	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:45:22	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:45:22	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:45:22	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:45:22	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:45:22	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:45:22	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:45:22	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:45:27	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:45:27	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:45:27	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:45:27	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:45:27	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:45:27	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:45:27	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:45:27	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:45:27	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:45:27	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:45:27	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:45:27	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:45:27	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:46:15	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:46:15	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:46:15	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:46:15	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:46:15	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:46:15	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:46:15	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:46:15	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:15	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:15	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:15	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:46:15	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:46:15	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:46:19	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:46:19	SELECT count(*) AS total FROM persons WHERE nmlast LIKE 'A%'
+2021-01-23 09:46:19	SELECT * FROM persons WHERE nmlast LIKE 'A%'  ORDER BY `nmlast` ASC , `nmfirst` ASC LIMIT 0, 32
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:19	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:20	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:46:20	SELECT count(*) AS total FROM clubs WHERE nmclub LIKE 'A%'
+2021-01-23 09:46:20	SELECT * FROM clubs WHERE nmclub LIKE 'A%'  ORDER BY `nmfull` ASC LIMIT 0, 32
+2021-01-23 09:46:20	SELECT count(*) AS total FROM videos
+2021-01-23 09:46:20	SELECT * FROM videos  ORDER BY `nmvideo` ASC LIMIT 0, 32
+2021-01-23 09:46:21	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:46:28	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:46:29	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:46:29	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:46:29	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:46:29	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:46:29	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:46:29	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:46:29	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:46:29	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:29	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:29	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:46:29	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:46:29	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:46:29	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:47:43	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:47:43	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:47:43	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:47:43	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:47:43	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:47:43	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:47:43	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:47:43	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:43	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:43	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:43	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:47:43	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:47:43	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:47:48	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:47:48	SELECT count(*) AS total FROM persons WHERE nmlast LIKE 'A%'
+2021-01-23 09:47:48	SELECT * FROM persons WHERE nmlast LIKE 'A%'  ORDER BY `nmlast` ASC , `nmfirst` ASC LIMIT 0, 32
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:48	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:49	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear
+2021-01-23 09:47:49	SELECT * FROM articles WHERE is_featured = 1 
+2021-01-23 09:47:49	SELECT * FROM articlephotos WHERE idarticle = 844 limit 1
+2021-01-23 09:47:49	SELECT DISTINCT(nryear) as nryear FROM photos ORDER BY nryear
+2021-01-23 09:47:49	SELECT * FROM photos WHERE is_featured = 1 
+2021-01-23 09:47:49	SELECT DISTINCT(UPPER(LEFT(nmlast,1))) AS letter FROM persons ORDER BY nmlast
+2021-01-23 09:47:49	SELECT * FROM persons WHERE is_featured = 1 
+2021-01-23 09:47:49	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:49	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:49	SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?
+2021-01-23 09:47:49	SELECT DISTINCT(UPPER(LEFT(nmsearch,1))) AS letter FROM clubs ORDER BY nmsearch
+2021-01-23 09:47:49	SELECT * FROM clubs WHERE is_featured = 1 
+2021-01-23 09:47:49	SELECT * FROM videos WHERE is_featured = 1 
+2021-01-23 09:48:25	SELECT DISTINCT(nryear) as nryear FROM articles ORDER BY nryear

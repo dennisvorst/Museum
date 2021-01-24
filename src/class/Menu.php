@@ -4,15 +4,16 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
 /* include section */
-require_once "Database.php";
+//require_once 'MysqlDatabase.php';
 require_once "HtmlGrid.php";
 
-class Menu extends Database{
-	var $version = "0.0.29";
+/** todo: pass mysql database as an object in the constructor*/
+class Menu{
+	protected $_version = "0.0.29";
+//	protected $_db;
 
 	/* constructor */
 	function __construct(){
-		parent::__construct();
 	}
 
 	function getMainMenu($activeMenu){
@@ -35,7 +36,7 @@ class Menu extends Database{
 
 		$menuItems[8] = array("idpart"=>"contact", "valuepart"=>"Contact");		
 
-		$html	= "<div>Versie: " . $this->version . "</div>\n";
+		$html	= "<div>Versie: " . $this->_version . "</div>\n";
 		$html	.= "<ul class='art-vmenu'>\n";
 
 		for ($x = 0; $x < count($menuItems); $x++){
@@ -51,29 +52,29 @@ class Menu extends Database{
 		return $html;
 	}
 
-	function getMainAdminMenu($nmschema){
-		/* create a main menu for the administrator part of the application, based on the content of the information_schema defined tables */
+	// function getMainAdminMenu($nmschema){
+	// 	/* create a main menu for the administrator part of the application, based on the content of the information_schema defined tables */
 
-		/* retrieves a list of tables in the schema name provided. */
-		$ftquery = "SELECT table_name ";
-		$ftquery .= "FROM information_schema.tables ";
-		$ftquery .= "WHERE table_schema = '$nmschema' ";
-		$ftquery .= "ORDER BY table_name";
+	// 	/* retrieves a list of tables in the schema name provided. */
+	// 	$ftquery = "SELECT table_name ";
+	// 	$ftquery .= "FROM information_schema.tables ";
+	// 	$ftquery .= "WHERE table_schema = ? ";
+	// 	$ftquery .= "ORDER BY table_name";
 
-		$ftrows = $this->queryDb($ftquery);
+	// 	$ftrows = $this->_db->select($ftquery, "s", [$nmschema]);
 
-		/* create the HTML */
-		$html = "";
-		$i = 0;
-		$ftmenuitems = array();
-		foreach ($ftrows as $ftrow){
-			$ftmenuitems[$i] = "<a href='generic.php?nmschema=$nmschema&nmtable="  . $ftrow['table_name'] . "'>" . $ftrow['table_name'] . "</a>";
-			$i++;
-		}
-		$gridObj = new HtmlGrid();
-		$html = $gridObj->createGrid($ftmenuitems, 8);
-		return $html;
-	}
+	// 	/* create the HTML */
+	// 	$html = "";
+	// 	$i = 0;
+	// 	$ftmenuitems = array();
+	// 	foreach ($ftrows as $ftrow){
+	// 		$ftmenuitems[$i] = "<a href='generic.php?nmschema=$nmschema&nmtable="  . $ftrow['table_name'] . "'>" . $ftrow['table_name'] . "</a>";
+	// 		$i++;
+	// 	}
+	// 	$gridObj = new HtmlGrid();
+	// 	$html = $gridObj->createGrid($ftmenuitems, 8);
+	// 	return $html;
+	// }
 
 }
 ?>

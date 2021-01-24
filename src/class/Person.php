@@ -2,6 +2,7 @@
 require_once "SingleItemPage.php";
 require_once "HtmlSelect.php";
 require_once "Tab.php";
+require_once "MysqlDatabase.php";
 
 class Person extends SingleItemPage{
 	var $nmtitle	= "Personen";
@@ -33,8 +34,8 @@ class Person extends SingleItemPage{
 	var $nmclubstart;
 	var $ftbiography;
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db){
+		parent::__construct($db);
 	}
 
 	function processRecord(){
@@ -133,7 +134,7 @@ class Person extends SingleItemPage{
 
 	function createThumbnail(){
 		/* get the thumbnail of the person */
-		$photoObj	= new Photo();
+		$photoObj	= new Photo($this->_db);
 		$mugshot	= $photoObj->getMugshot($this->id);
 		$width		= $photoObj->getThumbnailWidth();
 		$height		= $photoObj->getThumbnailHeight();

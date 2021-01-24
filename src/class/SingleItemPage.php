@@ -8,9 +8,16 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 require_once "MainPage.php";
 require_once "HtmlField.php";
+require_once "MysqlDatabase.php";
 
+/** todo: pass mainpage as an object in the constructor
+ * todo: change the output of getRecordId back to integer
+*/
 class SingleItemPage extends MainPage{
-	var $debug	= false;
+	protected $debug	= false;
+	protected $_db;
+
+
 	var $nmtitle;
 	var $nmtable;
 	var $ftrecord;
@@ -26,8 +33,10 @@ class SingleItemPage extends MainPage{
 	var $is_featured;
 
 	/* constructor */
-	function __construct(){
+	function __construct(MysqlDatabase $db){
 		parent::__construct();
+
+		$this->_db = $db;
 	}
 
 	function withID(int $id) : void
@@ -36,8 +45,8 @@ class SingleItemPage extends MainPage{
 			print_r(__METHOD__ . "<br/>");
 		}
 
-		$query = "SELECT * FROM $this->nmtable WHERE $this->nmkey = " . $id;
-		$this->ftrecord	= $this->queryDb($query);
+		$query = "SELECT * FROM $this->nmtable WHERE $this->nmkey = ?";
+		$this->ftrecord	= $this->select($query, "i", [$id]);
 		$this->setRecord($this->ftrecord[0]);
 		$this->processRecord();
 	}
@@ -58,8 +67,8 @@ class SingleItemPage extends MainPage{
 		}
 
 		/* get a single record */
-		$query = "SELECT * FROM $nmtable WHERE $key  = $id";
-		$ftrecord = $this->queryDB($query);
+		$query = "SELECT * FROM $nmtable WHERE $key  = ?";
+		$ftrecord = $this->select($query, "i", [$id]);
 		return $ftrecord[0];
 	}
 
@@ -117,7 +126,8 @@ class SingleItemPage extends MainPage{
 	/******************
 	* getters and setters
 	*/
-	function getId(){
+	function getRecordId() : int
+	{
 		if ($this->debug){
 			print_r(__METHOD__ . "<br/>");
 		}

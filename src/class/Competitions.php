@@ -2,6 +2,7 @@
 require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "Competition.php";
+require_once "MysqlDatabase.php";
 
 class Competitions extends ListPage{
 
@@ -15,14 +16,15 @@ class Competitions extends ListPage{
 	var $nrcolumns = 1;
 //	var $nryear;
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db)
+	{
+		parent::__construct($db);
 
 		/* get a list of years */
 		$this->years	= $this->getYears("competitions");
 		$this->menuBar = null;
 		if (!empty($this->years)){
-			$this->menuBar	= new MenuBar();
+			$this->menuBar	= new MenuBar($this->_db);
 		}
 	}
 
@@ -30,7 +32,7 @@ class Competitions extends ListPage{
 		if (empty($this->ftforeignkeys)){
 			$ftquery = "SELECT idcompetition, nmcompetition, nmsub, nryear, IF(cdsport='HB', 'Honkbal', 'Softball') as cdsport ";
 			$ftquery .= "FROM competitions ORDER BY nryear, nmcompetition, nmsub, cdsport";
-			$ftrows	= $this->queryDb($ftquery);
+			$ftrows	= $this->select($ftquery);
 
 			foreach($ftrows as $ftrow){
 				$ftvalrep = $ftrow['nryear'] . " " . $ftrow['nmcompetition'] . " " . trim($ftrow['nmsub'] . " " . $ftrow['cdsport']);

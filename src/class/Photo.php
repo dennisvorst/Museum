@@ -8,6 +8,8 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 require_once "CheckBox.php";
 require_once "SingleItemPage.php";
+require_once "MysqlDatabase.php";
+require_once "MysqlDatabase.php";
 
 class Photo extends SingleItemPage{
 	var $debug 			= false;
@@ -45,8 +47,8 @@ class Photo extends SingleItemPage{
 	var $ftalignment = "";
 
 	/* constructor */
-	function __construct(){
-		parent::__construct();
+	function __construct(MysqlDatabase $db){
+		parent::__construct($db);
 	}
 
 	function processRecord(){
@@ -340,7 +342,7 @@ class Photo extends SingleItemPage{
 
 		/* set the photo is based on the newspaper article id */
 		$query	= "SELECT * FROM articlephotos WHERE idarticle = $idarticle limit 1";
-		$rows	= $this->queryDb($query);
+		$rows	= $this->_db->select($query);
 		if (!empty($rows)){
 			$this->id = $rows[0]['idphoto'];
 		}
@@ -355,8 +357,8 @@ class Photo extends SingleItemPage{
         $thumbnail = "<img width='150' height='150' border='0' src='./images/unknown.png'/>\n";
 
 		/* set the photo is based on the newspaper article id */
-		$query	= "SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot =1 AND pp.idperson = $idperson";
-		$rows	= $this->queryDb($query);
+		$query	= "SELECT * FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND p.idmugshot = ? AND pp.idperson = ?";
+		$rows	= $this->_db->select($query, "ii", [1, $idperson]);
 		if (!empty($rows)){
 			$nrrows = count($rows);
 			$nrrow = rand(0, $nrrows -1);
@@ -372,9 +374,9 @@ class Photo extends SingleItemPage{
 		}
 
 		/* get the persons that go with the article */
-		$query	= "SELECT p.idperson FROM personphotos pp, persons p WHERE idphoto = $this->id AND pp.idperson = p.idperson ORDER BY p.nmlast"	;
+		$query	= "SELECT p.idperson FROM personphotos pp, persons p WHERE pp.idperson = p.idperson AND idphoto = ? ORDER BY p.nmlast"	;
 
-		$rows	= $this->queryDb($query);
+		$rows	= $this->select($query, "i", [$this->id]);
 
 		$x = 0;
 		foreach ($rows as $row){
@@ -391,9 +393,8 @@ class Photo extends SingleItemPage{
 		}
 
 		/* get the clubs that go with the article */
-		$query	= "SELECT c.idclub FROM clubs c, clubphotos cp WHERE idphoto = $this->id AND c.idclub = cp.idclub ORDER BY nmsearch";
-
-		$rows	= $this->queryDb($query);
+		$query	= "SELECT c.idclub FROM clubs c, clubphotos cp WHERE c.idclub = cp.idclub AND idphoto = ? ORDER BY nmsearch";
+		$rows	= $this->select($query, "i", [$this->id]);
 
 		$x = 0;
 		foreach ($rows as $row){
@@ -410,13 +411,13 @@ class Photo extends SingleItemPage{
 		}
 
 		/* get the clubs that go with the article */
-		$query	= "SELECT idarticle FROM articlephotos where idphoto = $this->id";
+		$query	= "SELECT idarticle FROM articlephotos where idphoto = ?";
 
-		$rows	= $this->queryDb($query);
+		$rows	= $this->select($query, "i", [$this->id]);
 
 		$x = 0;
 		foreach ($rows as $row){
-			$article = new Article();
+			$article = new Article($this->_db);
 			$article->withId($row['idarticle']);
 			$this->articles[$x]	= $article;
 			$x++;

@@ -1,5 +1,6 @@
 <?php
 require_once "HtmlTable.php";
+require_once "MysqlDatabase.php";
 
 class Games extends ListPage{
 
@@ -12,8 +13,9 @@ class Games extends ListPage{
 	/* for the tile list */
 	var $nrcolumns = 1;
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db)
+	{
+		parent::__construct($db);
 	}
 
 	function getMain($nmtab, $nrCurrentPage){
@@ -34,10 +36,10 @@ class Games extends ListPage{
 		$ftquery .= "AND hp.idparticipant = g.idhome ";
 		$ftquery .= "AND ht.idteam = hp.idteam ";
 		$ftquery .= "AND at.idteam = ap.idteam ";
-		$ftquery .= "AND g.idcompetition = $id ";
+		$ftquery .= "AND g.idcompetition = ? ";
 		$ftquery .= "ORDER BY g.dtstart, g.tmstart ";
 
-		$this->ftrows = $this->queryDB($ftquery);
+		$this->ftrows = $this->select($ftquery, "i", [$id]);
 
 		return $this->getPage("");
 	}

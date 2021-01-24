@@ -1,4 +1,6 @@
 <?php
+require_once "MysqlDatabase.php";
+
 class Game extends SingleItemPage{
 	var $nmtable	= "game";
 	var $nmkey		= "idgame";
@@ -16,8 +18,8 @@ class Game extends SingleItemPage{
 	var $nmhome;
 	var $nmaway;
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db){
+		parent::__construct($db);
 	}
 
 	function processRecord(){

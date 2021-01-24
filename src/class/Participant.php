@@ -3,6 +3,7 @@ require_once "Date.php";
 require_once "Games.php";
 require_once "HtmlTable.php";
 require_once "Persons.php";
+require_once "MysqlDatabase.php";
 
 class Participant extends SingleItemPage{
 	var $nmtable	= "participants";
@@ -19,8 +20,8 @@ class Participant extends SingleItemPage{
 
 	var $nmparticipant;
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db){
+		parent::__construct($db);
 	}
 
 	function processRecord(){
@@ -49,17 +50,17 @@ class Participant extends SingleItemPage{
 		$tableObj	= new HtmlTable();
 
 		/* get the team name */
-		$sql	= "SELECT * FROM teams WHERE idteam = " . $this->ftrecord['idteam'];
-		$ftteam	= $this->queryDB($sql);
+		$sql	= "SELECT * FROM teams WHERE idteam = ? ";
+		$ftteam	= $this->select($sql, "i", [$this->ftrecord['idteam']]);
 		$nmteam	= $ftteam[0]['nmteam'];
 
-		$sql		= "SELECT * FROM competitions WHERE idcompetition = " . $this->ftrecord['idcompetition'];
-		$ftteams	= $this->queryDB($sql);
+		$sql		= "SELECT * FROM competitions WHERE idcompetition = ?";
+		$ftteams	= $this->slect($sql, "i", [$this->ftrecord['idcompetition']]);
 
 		/* get the coaches */
-		$sql	= "SELECT * FROM rosters r, persons p WHERE r.idperson = p.idperson AND cdrole = 'C' AND idparticipant = " . $this->ftrecord['idparticipant'];
+		$sql	= "SELECT * FROM rosters r, persons p WHERE r.idperson = p.idperson AND cdrole = ? AND idparticipant = ?";
 		$sql	.= " ORDER BY nmlast, nmfirst, nmsur";
-		$ftrows	= $this->queryDB($sql);
+		$ftrows	= $this->select($sql, "si", ['C', $this->ftrecord['idparticipant']]);
 
 		$ftcoaches	= array();
 		for ($i = 0; $i < count($ftrows);$i++){
@@ -73,9 +74,9 @@ class Participant extends SingleItemPage{
 		}
 
 		/* get the players */
-		$sql	= "SELECT * FROM rosters r, persons p WHERE r.idperson = p.idperson AND cdrole = 'P' AND idparticipant = " . $this->ftrecord['idparticipant'];
+		$sql	= "SELECT * FROM rosters r, persons p WHERE r.idperson = p.idperson AND cdrole = ? AND idparticipant = ?";
 		$sql	.= " ORDER BY nmlast, nmfirst, nmsur";
-		$ftrows	= $this->queryDB($sql);
+		$ftrows	= $this->select($sql, "si", ['P', $this->ftrecord['idparticipant']]);
 
 		$ftplayers	= array();
 		for ($i = 0; $i < count($ftrows);$i++){
@@ -90,15 +91,15 @@ class Participant extends SingleItemPage{
 
 		/* get the played games */
 		$sql	= "SELECT dtstart, tmstart, idhome, idaway, nrrunshome, nrrunsaway, nrinnings ";
-		$sql	.= "FROM games WHERE (idhome = " . $this->ftrecord['idparticipant'] . " OR idaway = " . $this->ftrecord['idparticipant'] . ") ";
+		$sql	.= "FROM games WHERE (idhome = ? OR idaway = ?) ";
 		$sql	.= "AND idcompetition = " . $this->ftrecord['idcompetition'] . " ";
 		$sql	.= "ORDER BY dtstart ASC, tmstart ASC";
-		$ftgames	= $this->queryDB($sql);
+		$ftgames	= $this->select($sql, "ii", [$this->ftrecord['idparticipant'], $this->ftrecord['idparticipant']]);
 
 		/* get the particpants */
 		$sql	= "SELECT p.idparticipant, r.nmteam FROM participants p, teams r ";
-		$sql	.= "WHERE r.idteam = p.idteam AND idcompetition = " . $this->ftrecord['idcompetition'];
-		$ftrows	= $this->queryDB($sql);
+		$sql	.= "WHERE r.idteam = p.idteam AND idcompetition = ?";
+		$ftrows	= $this->select($sql, "i", [$this->ftrecord['idcompetition']]);
 
 		$ftparticipants	= array();
 		foreach($ftrows as $row){

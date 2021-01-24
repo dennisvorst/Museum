@@ -2,6 +2,7 @@
 require_once "SingleItemPage.php";
 require_once "Games.php";
 require_once "Participants.php";
+require_once "MysqlDatabase.php";
 
 class Competition extends SingleItemPage{
 	var $nmtable	= "competitions";
@@ -17,8 +18,8 @@ class Competition extends SingleItemPage{
 	var $participantsObj;
 	var $gamesObj;
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db){
+		parent::__construct($db);
 	}
 
 	function processRecord(){

@@ -1,5 +1,6 @@
 <?php
 require_once "SingleItemPage.php";
+require_once "MysqlDatabase.php";
 
 class Source extends SingleItemPage{
 	var $nmtable	= "sources";
@@ -21,8 +22,8 @@ class Source extends SingleItemPage{
 	var $cdpermission;
 
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db){
+		parent::__construct($db);
 	}
 
 	function processRecord(){
@@ -42,8 +43,8 @@ class Source extends SingleItemPage{
 	}
 
 	function getArticleLogo($id){
-		$query = "SELECT nmsearch FROM sources s, articles a WHERE a.idsource = s.idsource AND a.idarticle = $id";
-		$row = $this->queryDb($query);
+		$query = "SELECT nmsearch FROM sources s, articles a WHERE a.idsource = s.idsource AND a.idarticle = ?";
+		$row = $this->select($query, "i", [$id]);
 		$row = $row[0]['nmsearch'];
 
 		return($this->path . strtolower($row) . ".jpg");
@@ -66,7 +67,7 @@ class Source extends SingleItemPage{
 		/* return a list of all the sources */
 		$ftquery = "SELECT idsource, nmsource FROM sources ORDER BY nmsource";
 
-		$ftrows = $this->queryDb($ftquery);
+		$ftrows = $this->select($ftquery);
 		$ftvalues = array();
 		foreach ($ftrows as $ftrow){
 			$ftvalues[$ftrow['idsource']] = $ftrow['nmsource'];
@@ -76,8 +77,8 @@ class Source extends SingleItemPage{
 
 	function getVerifiedSources(){
 		/* return a list of only the verified sources */
-		$ftquery = "SELECT idsource, nmsource FROM sources WHERE cdverified = 'Y' ORDER BY nmsource";
-		$ftrows = $this->queryDb($ftquery);
+		$ftquery = "SELECT idsource, nmsource FROM sources WHERE cdverified = ? ORDER BY nmsource";
+		$ftrows = $this->select($ftquery, "s", ['Y']);
 		return $ftrows;
 	}
 }

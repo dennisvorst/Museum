@@ -28,3 +28,5 @@ src/admin/class/MysqlColumn.php
 src/admin/class/Mysql.php
 src/admin/class/MysqlServer.php
 .phpunit.result.cache
+src/class/MysqlConfig.php
+src/class/deprecated/Database.php

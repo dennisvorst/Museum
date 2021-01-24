@@ -1,14 +1,17 @@
 <?php
-require_once('class/database.php');
+require_once('class/Log.php');
+require_once('class/MysqlConfig.php');
+require_once('class/MysqlDatabase.php');
 require_once('class/File.php');
 
 /* init */
 $photoPath = "../../db/images/photos";
 $thumbnailPath = "../../db/images/thumbnails";
 
-$db = new Database();
+
+$db = new MysqlDatabase();
 $sql = "SELECT idphoto as id FROM photos ORDER BY idphoto";
-$result = $db->queryDb($sql);
+$result = $db->select($sql);
 
 $photos = scandir($photoPath);
 $thumbnails = scandir($thumbnailPath);
@@ -35,10 +38,9 @@ $keys = [];
 
                 if (!file_exists($photoPath . "/" . $photo['id'] . ".jpg")){
 					/* get the corresponging article */
-					$sql = "SELECT idarticle FROM photos p, articlephotos a WHERE p.idphoto = " . $photo['id'] . " and a.idphoto = p.idphoto";
-					$articleId = $db->queryDb($sql);
+					$sql = "SELECT idarticle FROM photos p, articlephotos a WHERE p.idphoto = ? and a.idphoto = p.idphoto";
+					$articleId = $db->select($sql, "i", [$photo['id']]);
 					$articleId = $articleId[0]['idarticle'];
-
 
                     echo "<tr><td>" . $photo['id'] . "</td>";
                     echo "<td>Foto " . $photoPath . "/" . $photo['id'] . ".jpg" . " niet gevonden</td>";

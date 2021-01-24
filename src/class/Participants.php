@@ -1,4 +1,5 @@
 <?php
+require_once "MysqlDatabase.php";
 
 class Participants extends ListPage{
 
@@ -15,8 +16,9 @@ class Participants extends ListPage{
 
 	var $ftfieldlist = array();
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db)
+	{
+		parent::__construct($db);
 
 		// create the fieldlist
 		$this->ftfieldlist = ["nmteam" => "Team", "nrgames" => "G", "nrwins" => "W", "nrlosses" => "L", "nrdraws" => "D", "nrrunsscored" => "Runs voor", "nrrunsagainst" => "Runs tegen", "ischampion" => ""];
@@ -36,9 +38,9 @@ class Participants extends ListPage{
 		$ftquery = "SELECT p.idparticipant, t.nmteam, p.nrgames, p.nrwins, p.nrlosses, p.nrdraws, p.nrrunsscored, p.nrrunsagainst, p.ischampion ";
 		$ftquery .= "FROM participants p, teams t ";
 		$ftquery .= "WHERE t.idteam = p.idteam ";
-		$ftquery .= "AND p.idcompetition = $id";
+		$ftquery .= "AND p.idcompetition = ?";
 
-		$this->ftrows = $this->queryDB($ftquery);
+		$this->ftrows = $this->select($ftquery, "i", [$id]);
 
 		/* add additional stuff here */
 		for($i = 0; $i < count($this->ftrows); $i++){

@@ -1,10 +1,11 @@
 <?php
 require_once "SingleItemPage.php";
+require_once "MysqlDatabase.php";
 
 class Stat extends SingleItemPage{
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db){
+		parent::__construct($db);
 	}
 
 	function processRecord(){

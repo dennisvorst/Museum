@@ -2,6 +2,7 @@
 require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "Club.php";
+require_once "MysqlDatabase.php";
 
 class Clubs extends ListPage{
 	var $nmtitle			= "Clubs";
@@ -13,13 +14,14 @@ class Clubs extends ListPage{
 	protected $_orderByFields 		= array("nmfull");
 	var $nmAlphabetField	= "nmclub";
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db)
+	{
+		parent::__construct($db);
 
 		/* get a list of years */
 		$this->alphabet	= $this->getAlphabet("clubs", "nmsearch");
 //		$this->toolBar	= $this->createToolBar($this->alphabet, ListPage::$nmalphabet, "nmalphabet");
-		$this->menuBar	= new MenuBar();
+		$this->menuBar	= new MenuBar($this->_db);
 	}
 
 
@@ -27,7 +29,7 @@ class Clubs extends ListPage{
 		if (empty($this->ftforeignkeys)){
 			$ftquery = "SELECT idclub, nmclub ";
 			$ftquery .= "FROM clubs ORDER BY nmclub";
-			$ftrows	= $this->queryDb($ftquery);
+			$ftrows	= $this->select($ftquery);
 
 			foreach($ftrows as $ftrow){
 				$ftvalrep = $ftrow['nmclub'];

@@ -1,8 +1,10 @@
 <?php
 /* include section */
-require_once "Database.php";
+require_once('Log.php');
+require_once('MysqlConfig.php');
+require_once('MysqlDatabase.php');
 
-class Country extends Database{
+class Country extends MysqlDatabase{
 
 	/* constructor */
 	function __construct(){
@@ -12,7 +14,7 @@ class Country extends Database{
 	function getCountries(){
 		/* get a list of countries */
 		$query	= "SELECT cdalpha2, nmcountry FROM countries ORDER BY nmcountry";
-		$result	= $this->queryDb($query);
+		$result	= $this->select($query);
 
 		foreach ($result as $country){
 			$countries[$country['cdalpha2']] = $country['nmcountry'];

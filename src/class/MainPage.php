@@ -1,11 +1,8 @@
 <?php
-require_once "Database.php";
-
-class MainPage extends Database{
+class MainPage{
 
 	/* constructor */
 	function __construct(){
-		parent::__construct();
 	}
 
 	function getMain($nmCurrentTab, $nrCurrentPage){

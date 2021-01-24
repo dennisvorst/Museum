@@ -1,6 +1,7 @@
 <?php
 require_once "ListPage.php";
 require_once "Video.php";
+require_once "MysqlDatabase.php";
 
 class Videos extends ListPage{
 	var $nmtitle		= "Video's";
@@ -16,8 +17,9 @@ class Videos extends ListPage{
 	var $nrcolumns = 3;
 
 	/* constructor */
-	function __construct(){
-		parent::__construct();
+	function __construct(MysqlDatabase $db)
+	{
+		parent::__construct($db);
 	}
 
 	function getClubVideos($id, $nmCurrentTab, $nrCurrentPage){
@@ -32,13 +34,13 @@ class Videos extends ListPage{
 		}
 
 		/* get the total number of elements */
-		$ftquery = "SELECT count(*) AS nrtotal FROM clubvideos cv, videos v WHERE v.id = cv.idvideo AND cv.idclub = $id";
-		$nrTotPages = $this->queryDB($ftquery);
+		$ftquery = "SELECT count(*) AS nrtotal FROM clubvideos cv, videos v WHERE v.id = cv.idvideo AND cv.idclub = ?";
+		$nrTotPages = $this->select($ftquery, "i", [$id]);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the videos */
-		$ftquery = "SELECT v.* FROM clubvideos cv, videos v WHERE v.id = cv.idvideo AND cv.idclub = $id ORDER BY v.nmvideo";
-		$this->ftrows = $this->queryDB($ftquery);
+		$ftquery = "SELECT v.* FROM clubvideos cv, videos v WHERE v.id = cv.idvideo AND cv.idclub = ? ORDER BY v.nmvideo";
+		$this->ftrows = $this->select($ftquery, "i", [$id]);
 
 		return $this->getTabPage("club", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getClubVideos
@@ -49,13 +51,13 @@ class Videos extends ListPage{
 		*/
 
 		/* get the total number of elements */
-		$ftquery = "SELECT count(*) AS nrtotal FROM personvideos pv, videos v WHERE v.id = pv.idvideo AND pv.idperson = $id";
-		$nrTotPages = $this->queryDB($ftquery);
+		$ftquery = "SELECT count(*) AS nrtotal FROM personvideos pv, videos v WHERE v.id = pv.idvideo AND pv.idperson = ?";
+		$nrTotPages = $this->select($ftquery, "i", [$id]);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the videos */
-		$ftquery = "SELECT v.* FROM personvideos pv, videos v WHERE v.id = pv.idvideo AND pv.idperson = $id ORDER BY v.nmvideo";
-		$this->ftrows = $this->queryDB($ftquery);
+		$ftquery = "SELECT v.* FROM personvideos pv, videos v WHERE v.id = pv.idvideo AND pv.idperson = ? ORDER BY v.nmvideo";
+		$this->ftrows = $this->select($ftquery, "i", [$id]);
 
 		return $this->getTabPage("person", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getMain

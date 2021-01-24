@@ -6,6 +6,7 @@ require_once "Date.php";
 require_once "ListPage.php";
 require_once "Person.php";
 require_once "Photo.php";
+require_once "MysqlDatabase.php";
 
 class HallOfFamers extends ListPage{
 	var $nmtitle	= "Eregalerij";
@@ -19,8 +20,9 @@ class HallOfFamers extends ListPage{
 	/* for pagination purposes we need this variable */
 	static $nrcurrentarticlespage = 1;
 
-	function __construct() {
-		parent::__construct();
+	function __construct(MysqlDatabase $db)
+	{
+		parent::__construct($db);
 	}
 
 	function getMain($nmtab, $nrCurrentPage){
@@ -28,7 +30,7 @@ class HallOfFamers extends ListPage{
 		$person_obj = new Person();
 		
 		$sql		= "SELECT h.*, p.nmfirst, p.nmlast, p.nmsur, p.hasdied FROM persons p, halloffamers h WHERE h.idperson = p.idperson ORDER BY p.nmlast";
-		$persons	= $this->queryDb($sql);
+		$persons	= $this->select($sql);
 
 		/* create the html */
 		$html = "<h2 class='art-postheader'>" . $this->getTitle() . " </h2>\n";
@@ -46,8 +48,8 @@ class HallOfFamers extends ListPage{
 	
 	function getPersonHalloffamers($id){
 
-		$sql	= "SELECT * FROM halloffamers WHERE idperson = $id";
-		$person	= $this->queryDb($sql);
+		$sql	= "SELECT * FROM halloffamers WHERE idperson = ?";
+		$person	= $this->select($sql, "i", [$id]);
 		if (!empty($person[0])){
 			return $this->createHtml($person[0]);
 		} 

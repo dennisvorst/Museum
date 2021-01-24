@@ -5,11 +5,13 @@ require_once "Photos.php";
 require_once "Persons.php";
 require_once "Clubs.php";
 require_once "Videos.php";
+require_once "MysqlDatabase.php";
 
 class Home extends ListPage{
 	/* constructor */
-	function __construct(){
-		parent::__construct();
+	function __construct(MysqlDatabase $db)
+	{
+		parent::__construct($db);
 	}
 
 	function getMain($nmTab, $nrCurrentPage){
@@ -51,7 +53,7 @@ class Home extends ListPage{
 		$html = "";
 		$objects = array("Articles", "Photos", "Persons", "Clubs", "Videos");
 		for ($x=0; $x < count($objects); $x++){
-			$classObj = new $objects[$x];
+			$classObj = new $objects[$x]($this->_db);
 			$classObj->withFeatured();
 			$html .= $classObj->getPage("");
 		}
