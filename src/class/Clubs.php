@@ -20,7 +20,6 @@ class Clubs extends ListPage{
 
 		/* get a list of years */
 		$this->alphabet	= $this->getAlphabet("clubs", "nmsearch");
-//		$this->toolBar	= $this->createToolBar($this->alphabet, ListPage::$nmalphabet, "nmalphabet");
 		$this->menuBar	= new MenuBar($this->_db);
 	}
 
@@ -29,7 +28,7 @@ class Clubs extends ListPage{
 		if (empty($this->ftforeignkeys)){
 			$ftquery = "SELECT idclub, nmclub ";
 			$ftquery .= "FROM clubs ORDER BY nmclub";
-			$ftrows	= $this->select($ftquery);
+			$ftrows	= $this->_db->select($ftquery);
 
 			foreach($ftrows as $ftrow){
 				$ftvalrep = $ftrow['nmclub'];

@@ -39,7 +39,7 @@ class Person extends SingleItemPage{
 	}
 
 	function processRecord(){
-		$this->id			= $this->ftrecord['idperson'];
+		$this->_id			= $this->ftrecord['idperson'];
 
 		$this->nmfirst 		= $this->ftrecord['nmfirst'];
 		$this->nmfull 		= $this->ftrecord['nmfull'];
@@ -81,7 +81,7 @@ class Person extends SingleItemPage{
 		 gather the data
 		 *******************/
 		/* get the person */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->id);
+		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
 		$this->processRecord();
 
 		/*******************
@@ -96,8 +96,9 @@ class Person extends SingleItemPage{
 		 search and display the additional information
 		 *******************/
 		/* create the tabs */
-		$list = array("articles", "photos", "videos", "stats", "teams", "halloffamers");
-		$html .= Tab::getTab("Person", $list, $nmCurrentTab, $nrCurrentPage, $this->id);
+		$list = ["articles", "photos", "videos", "stats", "teams", "halloffamers"];
+		$tabObj	= new HtmlTabPage($this->_db, $this->_id);
+		$html .= $tabObj->getTab("Person", $list, $nmCurrentTab, $nrCurrentPage, $this->_id, $this->_db);
 		return $html;
 	}// getContent
 
@@ -135,7 +136,7 @@ class Person extends SingleItemPage{
 	function createThumbnail(){
 		/* get the thumbnail of the person */
 		$photoObj	= new Photo($this->_db);
-		$mugshot	= $photoObj->getMugshot($this->id);
+		$mugshot	= $photoObj->getMugshot($this->_id);
 		$width		= $photoObj->getThumbnailWidth();
 		$height		= $photoObj->getThumbnailHeight();
 

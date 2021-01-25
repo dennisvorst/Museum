@@ -41,7 +41,11 @@ class Article extends SingleItemPage{
 	}
 
 	function processRecord(){
-		$this->id			= $this->ftrecord['idarticle'];
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
+
+		$this->_id			= $this->ftrecord['idarticle'];
 
 		$this->idsource		= $this->ftrecord['idsource'];
 		$this->nryear		= $this->ftrecord['nryear'];
@@ -61,10 +65,19 @@ class Article extends SingleItemPage{
 		$this->changed_by	= $this->ftrecord['updated_by'];
 	}
 
-	function createThumbnail(){
+	function createThumbnail() : string
+	{
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
 		/* create a thumbnail as part of a collection of records. */
 
 		/* cut the article */
+		if (empty($this->ftarticle)) 
+		{
+			throw new exception("No article selected.");
+		}
+				
 		$ftarticle = $this->ftarticle;
 		if (strlen($ftarticle) > $this->thumbTextLength){
 			$ftarticle	= substr($ftarticle, 0, $this->thumbTextLength);
@@ -78,7 +91,7 @@ class Article extends SingleItemPage{
 
 		/* look for a photo */
 		$photoObj	= new Photo($this->_db);
-		$photoObj->setIdByArticle($this->id);
+		$photoObj->setIdByArticle($this->_id);
 
 		$photo = array();
 		if (!is_null($photoObj->getRecordId())) {
@@ -109,32 +122,40 @@ class Article extends SingleItemPage{
 		$data .= "<td colspan='2'>$ftarticle<a href='" . $this->getUrl() . "'>Lees meer</a></td>\n";
 		$data .= "</tr>\n";
 		$data .= "</table>\n";
+
 		return $data;
-	}//createThumbnail
+	}
 
 	var $_photoCollection;
 	function getPhotoCollection(int $id) : array
 	{
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
 
 		return $this->_photoCollection;
 	}
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
+
 		/* get the article */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->id);
+		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
 		$this->processRecord();
 
 		/* get the source logo */
-		$sourceObj	= new Source();
-		$sourceLogo	= $sourceObj->getArticleLogo($this->id);
+		$sourceObj	= new Source($this->_db);
+		$sourceLogo	= $sourceObj->getArticleLogo($this->_id);
 
 		/* translate the date */
 		$dateObj	= new Date();
     	$dtpublish	= $dateObj->translateDate($this->dtpublish, "W");
 
 		/* get the photos */
-		$this->photosObj = new Photos();
-		$this->photosObj->getArticlePhotos($this->id);
+		$this->photosObj = new Photos($this->_db);
+		$this->photosObj->getArticlePhotos($this->_id);
 
 		/* create the article and add the photos */
 		$ftarticle	= $this->getArticle();
@@ -158,13 +179,15 @@ class Article extends SingleItemPage{
 		$html .= "</div>\n";
 		$html .= "</div>\n";
 
-
-        return $html;
+		return $html;
 	}// getIndexPage
 
 	function getMenu(){
-		/* needs to be overriden */
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
 
+		/* needs to be overriden */
 		$html = "";
 
 		$this->getPersons();
@@ -213,6 +236,10 @@ class Article extends SingleItemPage{
 	}//getMenu
 
 	function getArticleTitle($fttitle, $ftheading){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
+
 		/* check if the string is filled if so return HTML else emptty string */
 		if (empty($fttitle)){
 			return "";
@@ -222,6 +249,10 @@ class Article extends SingleItemPage{
 	}//getArticleTitle
 
 	function getNumberParagraphs($ftarticle){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
+
 		/* calculate the number of large +300 characters paragraphs and the number of photos */
 		/* turn it into an array */
 
@@ -237,6 +268,9 @@ class Article extends SingleItemPage{
 	}//getNumberParagraphs
 
 	function getArticle(){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
 		/* create the articles
 		- no pictures - just return the article
 		- 1 photo use it at the start of the
@@ -297,6 +331,10 @@ class Article extends SingleItemPage{
 	}//getArticle
 
 	function getArrayOfParagraphs($ftarticle){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
+
 		/* create an array of paragraphs from a string */
 		/* first look for an eol character */
 		if (strpos($ftarticle, chr(10)) > 0){
@@ -307,14 +345,17 @@ class Article extends SingleItemPage{
 	}
 
 	function getPersons(){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
 
 		/* get the persons that go with the article */
 		$query	= "SELECT p.idperson FROM personarticles a, persons p WHERE idarticle = ? AND a.idperson = p.idperson ORDER BY p.nmlast";
 		
-		$rows	= $this->select($query, "i", [$this->id]);
+		$rows	= $this->_db->select($query, "i", [$this->_id]);
 		$x = 0;
 		foreach ($rows as $row){
-			$person = new Person();
+			$person = new Person($this->_db);
 			$person->withId($row['idperson']);
 			$this->persons[$x]	= $person;
 			$x++;
@@ -322,14 +363,18 @@ class Article extends SingleItemPage{
 
 	}
 	function getClubs(){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
+
 		/* get the clubs that go with the article */
 		$query	= "SELECT c.idclub FROM clubs c, clubarticles ac WHERE idarticle = ? AND c.idclub = ac.idclub ORDER BY nmsearch";
 
-		$rows	= $this->select($query, "i", [$this->id]);
+		$rows	= $this->_db->select($query, "i", [$this->_id]);
 
 		$x = 0;
 		foreach ($rows as $row){
-			$club = new Club();
+			$club = new Club($this->_db);
 			$club->withId($row['idclub']);
 			$this->clubs[$x]	= $club;
 			$x++;
@@ -337,6 +382,10 @@ class Article extends SingleItemPage{
 	}
 
 	function getNameWithUrl(){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
+
 		return "<a href='". $this->getUrl() . "'>" . $this->fttitle1 . "</a>";
 	}
 
@@ -344,6 +393,10 @@ class Article extends SingleItemPage{
 	Labels
 	*******************/
 	function getLabels (){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
+
 		$ftlabels["idarticle"]	= "";
 		$ftlabels["idsource"]	= "Bron";
 		$ftlabels["nryear"]		= "Jaar";

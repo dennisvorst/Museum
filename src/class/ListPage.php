@@ -9,7 +9,6 @@ require_once "MysqlDatabase.php";
 
 class ListPage extends MainPage{
 	protected $_db;
-	var $debug = false;
 
 	var $nmtitle;
 	var $ftrows;
@@ -46,8 +45,8 @@ class ListPage extends MainPage{
 
 	/** todo - make prepare statement proof*/
 	function withName($ftsearch) {
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		$ftwhere	= $this->getWhere();
@@ -65,20 +64,20 @@ class ListPage extends MainPage{
 
 	/** todo - make prepare statement proof*/
 	function withFeatured() {
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
-		$query = "SELECT * FROM $this->nmtable WHERE is_featured = 1 ";
+		$query = "SELECT * FROM $this->nmtable WHERE is_featured = ? ";
 		if (!empty($ftorderby)){
 			$query .= $ftorderby;
 		}
-		$this->ftrows	= $this->_db->select($query);
+		$this->ftrows	= $this->_db->select($query, "i", [1]);
 	}
 
 	function getOrderBy(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		$ftorderby = "";
@@ -88,26 +87,33 @@ class ListPage extends MainPage{
 		return $ftorderby;
 	}
 
-	/** todo - make prepare statement proof*/
 	function getRecords($nmtable, $nrrowsstart, $nrrowsend){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* get a list of records based on the year or the alphabet */
 		$ftwhere = "";
-		$ftquery = "SELECT * FROM $nmtable ";
+		$ftquery = "SELECT * FROM {$nmtable} ";
+		$types = "";
+		$values = [];
+
 
 		/* where */
 		if (!empty($this->nmYearField) && !empty(ListPage::$nryear)){
-			$ftwhere .= "WHERE $this->nmYearField = " . ListPage::$nryear;
+			$ftwhere = "WHERE $this->nmYearField = ? ";
+			$types .= "s";
+			$values[] =  ListPage::$nryear;
 		}
 		if (!empty($this->nmAlphabetField) && !empty(ListPage::$nmalphabet)){
 			if (empty($ftwhere)){
-				$ftwhere .= "WHERE $this->nmAlphabetField LIKE '" . ListPage::$nmalphabet . "%' ";
+				$ftwhere = "WHERE ";
 			} else {
-				$ftwhere .= "AND $this->nmAlphabetField LIKE '" . ListPage::$nmalphabet . "%' ";
+				$ftwhere .= "AND ";
 			}
+			$ftwhere .= "{$this->nmAlphabetField} LIKE ? ";
+			$types .= "s";
+			$values[] = ListPage::$nmalphabet . "%";
 		}
 		$ftquery .= $ftwhere . " ";
 
@@ -116,10 +122,11 @@ class ListPage extends MainPage{
 		if (!empty($this->_orderByFields)){
 			for ($i = 0; $i < count($this->_orderByFields); $i++){
 				if (empty($orderBy)){
-					$orderBy = "ORDER BY `". $this->_orderByFields[$i] . "` ASC ";;
+					$orderBy = "ORDER BY ";;
 				} else {
-					$orderBy .= ", `". $this->_orderByFields[$i] . "` ASC ";
+					$orderBy .= ", ";
 				}
+				$orderBy .= "{$this->_orderByFields[$i]} ASC ";
 			}
 		} else {
 			$orderBy = "";
@@ -128,31 +135,33 @@ class ListPage extends MainPage{
 
 		/* limit */
 		if ((!empty($nrrowsstart) or $nrrowsstart === 0)and !empty($nrrowsend)){
-			$ftquery .= "LIMIT $nrrowsstart, $nrrowsend";
+			$ftquery .= "LIMIT ?, ?";
+			$types .= "ii";
+			$values[] = $nrrowsstart;
+			$values[] = $nrrowsend;
 		}
 
-		$this->ftrows = $this->_db->select($ftquery);
+		$this->ftrows = $this->_db->select($ftquery, $types, $values);
 	}//getRecords
 
-	static function getStartYear($nmtable){
+	static function getStartYear(MysqlDatabase $db, string $nmtable) : void
+	{
 		/* get the year to start with in the menu */
 		$ftquery = "SELECT MIN(nryear) AS nryear FROM $nmtable";
-		$nmvalue = $this->_db->select($ftquery);
+		$nmvalue = $db->select($ftquery);
 		ListPage::$nryear = $nmvalue[0]['nryear'];
 	}
 
 	function getYears($nmtable) : array
 	{
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* get the years from a tables */
 //		$rows = $this->getData("DISTINCT(nryear) as nryear", $nmtable, "", "nryear", "");
 		$sql = "SELECT DISTINCT(nryear) as nryear FROM {$nmtable} ORDER BY nryear";
-//		print_r($sql . "<br>");
 		$rows = $this->_db->select($sql);
-
 
 		$years = [];
 		for ($x=0; $x < count($rows); $x++){
@@ -162,8 +171,8 @@ class ListPage extends MainPage{
 	}
 
 	function getAlphabet($nmtable, $nmfield){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* get the alphabet from a tables */
@@ -180,8 +189,8 @@ class ListPage extends MainPage{
 	}
 
 	function getTileList($fttiles, $nmclasstag = null){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* create a table filled with tiles */
@@ -219,8 +228,8 @@ class ListPage extends MainPage{
 
 	/* administrator stuff */
 	function getMainAdmin(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* the admin part of the page */
@@ -233,8 +242,8 @@ class ListPage extends MainPage{
 	getters and setters
 	*******************/
 	function getSearchFields(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		return $this->_searchFields;
@@ -242,23 +251,23 @@ class ListPage extends MainPage{
 
 	function setRows($ftrows){
 		/* deprecated */
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		$this->ftrows = $ftrows;
 	}
 
 	function getAlphabetField(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		return $this->nmAlphabetField;
 	}
 	function getTitle(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		return $this->nmtitle;
@@ -305,13 +314,21 @@ class ListPage extends MainPage{
 		/* get the menubar contents */
 		$ftmenubar = null;
 		$ftquery = null;
+		$types = "";
+		$values = [];
+
 		if (is_object($this->menuBar)){
 			if ($nmclass === "persons" || $nmclass === "clubs"){
 				$ftmenubar = $this->menuBar->getToolBar($this->nmtable, ListPage::$nmalphabet, "nmalphabet", $this->alphabet);
-				$ftquery = "SELECT count(*) AS total FROM $this->nmtable WHERE $this->nmAlphabetField LIKE '" . ListPage::$nmalphabet . "%'";
+				$ftquery = "SELECT count(*) AS total FROM $this->nmtable WHERE $this->nmAlphabetField LIKE ?";
+				$types = "s";
+				$values = [ListPage::$nmalphabet . "%"];
 			} else {
 				$ftmenubar = $this->menuBar->getToolBar($this->nmtable, ListPage::$nryear, "nryear", $this->years);
-				$ftquery = "SELECT count(*) AS total FROM $this->nmtable WHERE $this->nmYearField = '" . ListPage::$nryear . "'";
+				$ftquery = "SELECT count(*) AS total FROM $this->nmtable WHERE $this->nmYearField = ?";
+				$types = "s";
+				$values = [ListPage::$nryear];
+
 			}
 		} else {
 			/* for the elements without a menubar */
@@ -319,7 +336,7 @@ class ListPage extends MainPage{
 		}
 
 		/* get the total of items in the database */
-		$nrtotal = $this->_db->select($ftquery);
+		$nrtotal = $this->_db->select($ftquery, $types, $values);
 		$nrtotal = $nrtotal[0]['total'];
 
 		/* how many pages does that fill? */
@@ -378,7 +395,8 @@ class ListPage extends MainPage{
 		return $html;
 	}
 
-	function getTiles(){
+	function getTiles() : array 
+	{
 		$fttiles = array();
 		$x = 0;
 		foreach ($this->ftrows as $row){

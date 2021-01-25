@@ -14,7 +14,7 @@ class Country extends MysqlDatabase{
 	function getCountries(){
 		/* get a list of countries */
 		$query	= "SELECT cdalpha2, nmcountry FROM countries ORDER BY nmcountry";
-		$result	= $this->select($query);
+		$result	= $this->_db->select($query);
 
 		foreach ($result as $country){
 			$countries[$country['cdalpha2']] = $country['nmcountry'];

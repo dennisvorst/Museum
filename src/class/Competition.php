@@ -23,7 +23,7 @@ class Competition extends SingleItemPage{
 	}
 
 	function processRecord(){
-		$this->id				= $this->ftrecord['idcompetition'];
+		$this->_id				= $this->ftrecord['idcompetition'];
 
 		$this->nmcompetition	= $this->ftrecord['nmcompetition'];
 		$this->nmsub			= $this->ftrecord['nmsub'];
@@ -31,7 +31,7 @@ class Competition extends SingleItemPage{
 		$this->cdsport			= $this->ftrecord['cdsport'];
 		$this->cdclass			= $this->ftrecord['cdclass'];
 		$this->cdgender			= $this->ftrecord['cdgender'];
-		$this->is_featured			= $this->ftrecord['is_featured'];
+		$this->is_featured		= $this->ftrecord['is_featured'];
 	}
 
 	function createThumbnail(){
@@ -41,16 +41,16 @@ class Competition extends SingleItemPage{
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the article */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->id);
+		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
 		$this->processRecord();
 
 		/* get the participants */
-		$this->participantsObj = new Participants();
-		$participants = $this->participantsObj->getCompetitionParticipants($this->id);
+		$this->participantsObj = new Participants($this->_db);
+		$participants = $this->participantsObj->getCompetitionParticipants($this->_id);
 
 		/* get the games */
-		$this->gamesObj = new Games();
-		$games = $this->gamesObj->getCompetitionGames($this->id);
+		$this->gamesObj = new Games($this->_db);
+		$games = $this->gamesObj->getCompetitionGames($this->_id);
 
 		/* show the information */
 		$html = "<table>\n";

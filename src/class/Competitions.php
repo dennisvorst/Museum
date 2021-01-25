@@ -32,7 +32,7 @@ class Competitions extends ListPage{
 		if (empty($this->ftforeignkeys)){
 			$ftquery = "SELECT idcompetition, nmcompetition, nmsub, nryear, IF(cdsport='HB', 'Honkbal', 'Softball') as cdsport ";
 			$ftquery .= "FROM competitions ORDER BY nryear, nmcompetition, nmsub, cdsport";
-			$ftrows	= $this->select($ftquery);
+			$ftrows	= $this->_db->select($ftquery);
 
 			foreach($ftrows as $ftrow){
 				$ftvalrep = $ftrow['nryear'] . " " . $ftrow['nmcompetition'] . " " . trim($ftrow['nmsub'] . " " . $ftrow['cdsport']);
@@ -52,7 +52,7 @@ class Competitions extends ListPage{
 
 		$x = 0;
 		foreach ($this->ftrows as $row){
-			$object = new Competition();
+			$object = new Competition($this->_db);
 			$object->setRecord($row);
 			$object->processRecord();
 

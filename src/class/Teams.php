@@ -31,7 +31,7 @@ class Teams extends ListPage{
 	function getForeignKeyValues(){
 		if (empty($this->ftforeignkeys)){
 			$sql = "SELECT idteam, nmteam FROM teams ORDER BY nmteam";
-			$ftrows	= $this->select($sql);
+			$ftrows	= $this->_db->select($sql);
 
 			foreach($ftrows as $ftrow){
 				$ftvalrep = $ftrow['nmteam'];
@@ -65,25 +65,25 @@ class Teams extends ListPage{
 		$select .= "AND t.idclub = ? ";
 
 		$query 	= $select . "AND t.cdsport = ? AND t.cdgender = ? ORDER BY c.nryear" ;
-		$this->ftmensbaseball	= $this->select($query, "iss", [$id, 'HB', 'M']);
+		$this->ftmensbaseball	= $this->_db->select($query, "iss", [$id, 'HB', 'M']);
 		for($i = 0; $i < count($this->ftmensbaseball); $i++){
 			$this->ftmensbaseball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftmensbaseball[$i]['idparticipant'] . ">" . $this->ftmensbaseball[$i]['nmteam'] . "</a>\n";
 		}
 
-		$query 	= $select . "AND t.cdsport = ? AND t.cdgender =  ORDER BY c.nryear" ;
-		$this->ftwomensbaseball	= $this->select($query, "iss", [$id], 'HB', 'F');
+		$query 	= $select . "AND t.cdsport = ? AND t.cdgender = ? ORDER BY c.nryear" ;
+		$this->ftwomensbaseball	= $this->_db->select($query, "iss", [$id, 'HB', 'F']);
 		for($i = 0; $i < count($this->ftwomensbaseball); $i++){
 			$this->ftwomensbaseball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftwomensbaseball[$i]['idparticipant'] . ">" . $this->ftwomensbaseball[$i]['nmteam'] . "</a>\n";
 		}
 
 		$query 	= $select . "AND t.cdsport = ? AND t.cdgender = ? ORDER BY c.nryear" ;
-		$this->ftmenssoftball	= $this->select($query, "iss", [$id],'SB', 'M');
+		$this->ftmenssoftball	= $this->_db->select($query, "iss", [$id, 'SB', 'M']);
 		for($i = 0; $i < count($this->ftmenssoftball); $i++){
 			$this->ftmenssoftball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftmenssoftball[$i]['idparticipant'] . ">" . $this->ftmenssoftball[$i]['nmteam'] . "</a>\n";
 		}
 
-		$query 	= $select . "AND t.cdsport = ? AND t.cdgender =  ORDER BY c.nryear" ;
-		$this->ftwomenssoftball	= $this->select($query, "i", [$id, 'SB', 'F']);
+		$query 	= $select . "AND t.cdsport = ? AND t.cdgender = ? ORDER BY c.nryear" ;
+		$this->ftwomenssoftball	= $this->_db->select($query, "iss", [$id, 'SB', 'F']);
 		for($i = 0; $i < count($this->ftwomenssoftball); $i++){
 			$this->ftwomenssoftball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftwomenssoftball[$i]['idparticipant'] . ">" . $this->ftwomenssoftball[$i]['nmteam'] . "</a>\n";
 		}

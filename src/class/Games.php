@@ -39,7 +39,7 @@ class Games extends ListPage{
 		$ftquery .= "AND g.idcompetition = ? ";
 		$ftquery .= "ORDER BY g.dtstart, g.tmstart ";
 
-		$this->ftrows = $this->select($ftquery, "i", [$id]);
+		$this->ftrows = $this->_db->select($ftquery, "i", [$id]);
 
 		return $this->getPage("");
 	}
@@ -54,10 +54,10 @@ class Games extends ListPage{
 
 		/* init */
 		$table = new HtmlTable();
-		$table->addRow(new HtmlTableRow(["Date", "Time", "Home", "Away", "Score", "Innings"], "H"), "H");
+		$table->addRow(new HtmlTableRow(["Date", "Time", "Home", "Away", "Score", "Innings"], [], "H"), "H");
 
 		foreach ($this->ftrows as $row){
-			$game = new Game();
+			$game = new Game($this->_db);
 			$game->setRecord($row);
 			$game->processRecord();
 

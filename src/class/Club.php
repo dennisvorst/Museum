@@ -41,7 +41,7 @@ class Club extends SingleItemPage{
 
 	function processRecord() : void 
 	{
-		$this->id				= $this->ftrecord['idclub'];
+		$this->_id				= $this->ftrecord['idclub'];
 
 		$this->cdstatus			= $this->ftrecord['cdstatus'];
 		$this->nmsearch			= $this->ftrecord['nmsearch'];
@@ -143,7 +143,7 @@ class Club extends SingleItemPage{
 		 *******************/
 
 		/* get the club */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->id);
+		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
 		$this->processRecord();
 
 		/*******************
@@ -161,9 +161,9 @@ class Club extends SingleItemPage{
 		1. Which is the active tab?
 		2. What is its current page number
 		*/
-		$list = array("articles", "videos", "photos", "persons", "teams");
-		$tabObj	= new HtmlTabPage($this->id);
-		$html .= $tabObj->getTab("Club", $list, $nmCurrentTab, $nrCurrentPage, $this->id);
+		$list = ["articles", "videos", "photos", "persons", "teams"];
+		$tabObj	= new HtmlTabPage($this->_db, $this->_id);
+		$html .= $tabObj->getTab("Club", $list, $nmCurrentTab, $nrCurrentPage, $this->_id, $this->_db);
 
 		return $html;
 	}// getContent
@@ -211,7 +211,7 @@ class Club extends SingleItemPage{
 	function getClubs() : array {
 		/* return a list of only the verified sources */
 		$ftquery = "SELECT idclub, nmclub FROM clubs ORDER BY nmclub";
-		$ftrows = $this->select($ftquery);
+		$ftrows = $this->_db->select($ftquery);
 
 		$ftvalues = array();
 		foreach ($ftrows as $ftrow){

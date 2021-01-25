@@ -1,11 +1,15 @@
 <?php
 require_once "Delpher.php";
+require_once "MysqlDatabase.php";
 
 class Search{
 	private $ftsearch;
+	private $_db;
 
 	/* constructor */
-	function __construct(){
+	function __construct(MysqlDatabase $db)
+	{
+		$this->_db = $db;
 	}
 
 	function getMain(string $search = null) : string 
@@ -65,7 +69,7 @@ class Search{
 			$nmtable 	= $key;
 			$nmclass	= $tables[$key];
 
-			$nminstance = new $nmclass();
+			$nminstance = new $nmclass($this->_db);
 			$nminstance->createWhere($nmtable, $nminstance->getSearchFields(), $ftsearch, "");
 			// todo : tuirn into correct select
 			$ftrows = $nminstance->queryDb_6(null, $nmtable, null, null, 0, 30);

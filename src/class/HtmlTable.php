@@ -18,14 +18,14 @@ class HtmlTable extends Html
 	/* deprecated */
 	function createHtmlTable(array $header, array $rows, array $footer = null){
 		/* process the data */
-		$this->_header = new HtmlTableRow($header, true);
+		$this->_header = new HtmlTableRow($header, [], "H");
 
 		foreach ($rows as $row)
 		{
-			$this->_rows[] = new HtmlTableRow($row, false);
+			$this->_rows[] = new HtmlTableRow($row);
 		}
 
-		if (!empty($footer)) $this->_footer = new HtmlTableRow($footer, false);
+		if (!empty($footer)) $this->_footer = new HtmlTableRow($footer, [], "F");
 
 		/* create the html */ 
 		return $this->getElement();

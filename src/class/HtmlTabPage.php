@@ -5,16 +5,22 @@ ini_set('display_errors', 'On');  //On or Off
 require_once("HtmlTabElement.php");
 
 class HtmlTabPage{
-	var $id;
+	protected $_db;
+	protected $_id;
 	private $_tabsCount = 0;
 	private $_tabs = [];
 
 	/* constructor */
-	function __construct($id){
+	function __construct(MysqlDatabase $db, int $id){
 		/** Id must be a numeric integer value  */
-		if (!($id > 0))	{throw new InvalidArgumentException('HtmlTabElement: reference not allowed to be empty.');} 
-		$this->id	= $id;
+		if (!($id > 0))	
+		{
+			throw new InvalidArgumentException('HtmlTabElement: reference not allowed to be empty.');
+		} 
+		$this->_id	= $id;
+		$this->_db	= $db;
 	}
+
 
 	function getTab($nmclass, $list, $nmCurrentTab, $nrCurrentPage, $id) : string 
 	{
@@ -41,7 +47,7 @@ class HtmlTabPage{
 		foreach ($list as $item){
 
 			$item = ucfirst($item);
-			$nminstance = new $item();
+			$nminstance = new $item($this->_db);
 
 			/* create a different content for the selected and the unselected tabs */
 			if (strtolower($nmCurrentTab) != strtolower($item)){

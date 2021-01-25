@@ -65,7 +65,7 @@ class Home extends ListPage{
 		$html = "";
 		$objects = array("Articles", "Photos", "Persons", "Clubs", "Videos");
 		for ($x=0; $x < count($objects); $x++){
-			$classObj = new $objects[$x];
+			$classObj = new $objects[$x]($this->_db);
 			$classObj->withFeatured();
 
 			$html	.= "<div data-role='collapsibleset' data-content-theme='a' data-iconpos='left' id='set'>\n";

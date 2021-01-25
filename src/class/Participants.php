@@ -40,7 +40,7 @@ class Participants extends ListPage{
 		$ftquery .= "WHERE t.idteam = p.idteam ";
 		$ftquery .= "AND p.idcompetition = ?";
 
-		$this->ftrows = $this->select($ftquery, "i", [$id]);
+		$this->ftrows = $this->_db->select($ftquery, "i", [$id]);
 
 		/* add additional stuff here */
 		for($i = 0; $i < count($this->ftrows); $i++){
@@ -71,7 +71,7 @@ class Participants extends ListPage{
 		/* gather the data */
 		$keys = array_keys($this->ftfieldlist);
 		$table = new HtmlTable();
-		$table->addRow(new HtmlTableRow(array_values($this->ftfieldlist), "H"), "H");
+		$table->addRow(new HtmlTableRow(array_values($this->ftfieldlist), [], "H"), "H");
 
 		/* create the table rows */
 		foreach ($this->ftrows as $row){

@@ -40,7 +40,7 @@ class MenuBar{
 			MenuBar::$nrcolumns = 12;
 			/* if no value is selected get the last value */
 			if (empty($nmvalue)){
-				ListPage::getStartYear($nmtable);
+				ListPage::getStartYear($this->_db, $nmtable);
 				$nmvalue = ListPage::$nryear;
 			}
 		}

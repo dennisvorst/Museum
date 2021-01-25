@@ -9,7 +9,7 @@ require_once "MysqlDatabase.php";
 
 class Video extends SingleItemPage{
 	var $nmtable	= "videos";
-	var $nmkey		= "id";
+	var $nmkey		= "idvideo";
 	var $path		= "./images/videos/";
 	var $width		= "200";
 
@@ -23,7 +23,7 @@ class Video extends SingleItemPage{
 	}
 
 	function processRecord(){
-		$this->id			= $this->ftrecord['idvideo'];
+		$this->_id			= $this->ftrecord['idvideo'];
 
 		$this->nmvideo		= $this->ftrecord['nmvideo'];
 		$this->nmurl		= $this->ftrecord['nmurl'];
@@ -54,7 +54,7 @@ class Video extends SingleItemPage{
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the video */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->id);
+		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
 		$this->processRecord();
 
 		$html = "<div class='container'>\n";

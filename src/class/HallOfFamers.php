@@ -27,10 +27,10 @@ class HallOfFamers extends ListPage{
 
 	function getMain($nmtab, $nrCurrentPage){
 		/* get the info */
-		$person_obj = new Person();
+		$person_obj = new Person($this->_db);
 		
 		$sql		= "SELECT h.*, p.nmfirst, p.nmlast, p.nmsur, p.hasdied FROM persons p, halloffamers h WHERE h.idperson = p.idperson ORDER BY p.nmlast";
-		$persons	= $this->select($sql);
+		$persons	= $this->_db->select($sql);
 
 		/* create the html */
 		$html = "<h2 class='art-postheader'>" . $this->getTitle() . " </h2>\n";
@@ -49,7 +49,7 @@ class HallOfFamers extends ListPage{
 	function getPersonHalloffamers($id){
 
 		$sql	= "SELECT * FROM halloffamers WHERE idperson = ?";
-		$person	= $this->select($sql, "i", [$id]);
+		$person	= $this->_db->select($sql, "i", [$id]);
 		if (!empty($person[0])){
 			return $this->createHtml($person[0]);
 		} 
@@ -57,7 +57,7 @@ class HallOfFamers extends ListPage{
 	}
 	
 	function createHtml($person){		
-		$photo_obj	= new Photo();
+		$photo_obj	= new Photo($this->_db);
 		$date_obj	= new Date();
 		
 		$person['idphoto']	= "<img src='" . $photo_obj->getPhotoName($person['idphoto'], $photo_obj->getPhotoPath()) . "' >";

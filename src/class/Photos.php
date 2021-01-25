@@ -5,8 +5,6 @@ require_once "Photo.php";
 require_once "MysqlDatabase.php";
 
 class Photos extends ListPage{
-	var $debug 			= false;
-
 	var $nmtitle		= "Foto's";
 	var $nmtable 		= "photos";
 	var $nmsingle		= "photo";
@@ -35,14 +33,14 @@ class Photos extends ListPage{
 	}
 
 	function getClubPhotos($id, $nmCurrentTab, $nrCurrentPage){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 		/* get the articles that go with a person */
 
 		/* get the total number of elements */
 		$ftquery = "SELECT count(*) AS nrtotal FROM clubphotos cp, photos p WHERE p.idphoto = cp.idphoto AND cp.idclub = ?";
-		$nrTotPages = $this->select($ftquery, "i", [$id]);
+		$nrTotPages = $this->_db->select($ftquery, "i", [$id]);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the photos
@@ -53,20 +51,20 @@ class Photos extends ListPage{
 			$nrOffSet = ($nrCurrentPage - 1) * $this->nrRecordsOnPage;
 		}
 		$ftquery = "SELECT p.* FROM clubphotos cp, photos p WHERE p.idphoto = cp.idphoto AND cp.idclub = ? LIMIT ? OFFSET ?";
-		$this->ftrows = $this->select($ftquery, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
+		$this->ftrows = $this->_db->select($ftquery, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("club", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getClubPhotos
 
 	function getPersonPhotos($id, $nmCurrentTab, $nrCurrentPage){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 		/* get the articles that go with a person */
 
 		/* get the total number of elements */
 		$ftquery = "SELECT count(*) AS nrtotal FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND pp.idperson = ?";
-		$nrTotPages = $this->select($ftquery, "i", [$id]);
+		$nrTotPages = $this->_db->select($ftquery, "i", [$id]);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the photos
@@ -77,22 +75,22 @@ class Photos extends ListPage{
 			$nrOffSet = ($nrCurrentPage - 1) * $this->nrRecordsOnPage;
 		}
 		$ftquery = "SELECT p.* FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND pp.idperson = ? LIMIT ? OFFSET ?";
-		$this->ftrows = $this->select($ftquery, "i", [$id, $this->nrRecordsOnPage, $nrOffSet]);
+		$this->ftrows = $this->_db->select($ftquery, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("person", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getPersonPhotos
 
 	function getArticlePhotos($idarticle){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		$query	= "SELECT * FROM photos p, articlephotos a WHERE a.idphoto = p.idphoto AND a.idarticle = ?";
-		$rows	= $this->select($query, "i", [$idarticle]);
+		$rows	= $this->_db->select($query, "i", [$idarticle]);
 
 		$x = 0;
 		foreach ($rows as $row){
-			$photo = new Photo();
+			$photo = new Photo($this->_db);
 			$photo->setRecord($row);
 			$photo->processRecord();
 			$photo->createMediumImage();
@@ -103,8 +101,8 @@ class Photos extends ListPage{
 	}//getArticlePhotos
 
 	function getNumberPhotos(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* count the number of photos and return them */
@@ -112,8 +110,8 @@ class Photos extends ListPage{
 	}//getNumberPhotos
 
 	function getPhotos(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* return the photo object array */
@@ -121,8 +119,8 @@ class Photos extends ListPage{
 	}//getPhotos
 
 	function getPhoto($x){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* return the photo object array */

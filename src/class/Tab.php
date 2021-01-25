@@ -3,13 +3,15 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
 class Tab{
-	var $id;
+	protected $_id;
+	protected $_db;
 	/* constructor */
-	function __construct($id){
-		$this->id	= $id;
+	function __construct(MysqlDatabase $db, int $id){
+		$this->_id	= $id;
+		$this->_db	= $db;
 	}
 
-	static function getTab($nmclass, $list, $nmCurrentTab, $nrCurrentPage, $id){
+	static function getTab(string $nmclass, array $list, int $nmCurrentTab, int $nrCurrentPage, int $id, MysqlDatabase $db){
 		/* pay attention cause this might hurt a little.
 		We have created an array with all the tabs for Clubs. Each class has a function that
 		starts with getClub... followed by the name of the class. So we should be able to do
@@ -45,7 +47,7 @@ class Tab{
 		foreach ($list as $item){
 
 			$item = ucfirst($item);
-			$nminstance = new $item();
+			$nminstance = new $item($db);
 
 			/* create a different content for the selected and the unselected tabs */
 			if (strtolower($nmCurrentTab) != strtolower($item)){

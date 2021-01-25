@@ -20,7 +20,7 @@ class Clubretired extends SingleItemPage{
 	}
 
 	function processRecord(){
-		$this->id				= $this->ftrecord['idretired'];
+		$this->_id				= $this->ftrecord['idretired'];
 
 		$this->idclub			= $this->ftrecord['idclub'];
 		$this->idperson			= $this->ftrecord['idperson'];
@@ -36,7 +36,7 @@ class Clubretired extends SingleItemPage{
 		 gather the data
 		 *******************/
 		/* get the retired jerseys */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->id);
+		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
 		$this->processRecord();
 
 		/*******************
@@ -55,8 +55,8 @@ class Clubretired extends SingleItemPage{
 
 	function getMainAdmin(){
 		/* get the club data */
-		if (!empty($this->id)){
-			$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->id);
+		if (!empty($this->_id)){
+			$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
 			if (!empty($this->ftrecord))
 			{
 				$this->ftrecord = $this->ftrecord[0];
@@ -177,10 +177,11 @@ class Clubretired extends SingleItemPage{
         <?php
 	}//getMainAdmin
 
+	/* todo : merge with _getRetiredNumberCollection in club */
 	function getClubJerseys($id){
 		/* get the retired jerseys of a club */
 		$query 	= "SELECT * FROM " . $this->nmtable . " WHERE idclub = ? ORDER BY nrjersey";
-		$this->ftrows = $this->select($query, "i", $id);
+		$this->ftrows = $this->_db->select($query, "i", [$id]);
 		return $this->getPage();
 	}
 
@@ -195,7 +196,7 @@ class Clubretired extends SingleItemPage{
 		$html	.= "<table>\n";
 		$html	.= "<tr><th>Naam</th><th>Shirt</th>\n";
 		foreach ($this->ftrows as $ftrow){
-			$person 	= new Person();
+			$person 	= new Person($this->_db);
 			$person->withID($ftrow['idperson']);
 			$nmfull		= $person->getFullName();
 			$html 		.= "<tr><td>$nmfull</td><td align='right'>" . $ftrow['nrjersey'] . "</td>\n";

@@ -27,7 +27,7 @@ class Source extends SingleItemPage{
 	}
 
 	function processRecord(){
-		$this->id				= $this->ftrecord['idsource'];
+		$this->_id				= $this->ftrecord['idsource'];
 
 		$this->nmsearch			= $this->ftrecord['nmsearch'];
 		$this->nmsource			= $this->ftrecord['nmsource'];
@@ -44,7 +44,7 @@ class Source extends SingleItemPage{
 
 	function getArticleLogo($id){
 		$query = "SELECT nmsearch FROM sources s, articles a WHERE a.idsource = s.idsource AND a.idarticle = ?";
-		$row = $this->select($query, "i", [$id]);
+		$row = $this->_db->select($query, "i", [$id]);
 		$row = $row[0]['nmsearch'];
 
 		return($this->path . strtolower($row) . ".jpg");
@@ -67,7 +67,7 @@ class Source extends SingleItemPage{
 		/* return a list of all the sources */
 		$ftquery = "SELECT idsource, nmsource FROM sources ORDER BY nmsource";
 
-		$ftrows = $this->select($ftquery);
+		$ftrows = $this->_db->select($ftquery);
 		$ftvalues = array();
 		foreach ($ftrows as $ftrow){
 			$ftvalues[$ftrow['idsource']] = $ftrow['nmsource'];
@@ -78,7 +78,7 @@ class Source extends SingleItemPage{
 	function getVerifiedSources(){
 		/* return a list of only the verified sources */
 		$ftquery = "SELECT idsource, nmsource FROM sources WHERE cdverified = ? ORDER BY nmsource";
-		$ftrows = $this->select($ftquery, "s", ['Y']);
+		$ftrows = $this->_db->select($ftquery, "s", ['Y']);
 		return $ftrows;
 	}
 }

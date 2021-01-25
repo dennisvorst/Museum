@@ -25,7 +25,7 @@ class Participant extends SingleItemPage{
 	}
 
 	function processRecord(){
-		$this->id				= $this->ftrecord['idparticipant'];
+		$this->_id				= $this->ftrecord['idparticipant'];
 		$this->idcompetition	= $this->ftrecord['idcompetition'];
 		$this->idteam			= $this->ftrecord['idteam'];
 
@@ -44,23 +44,23 @@ class Participant extends SingleItemPage{
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the participant info */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->id);
+		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
 
 		/* init */
 		$tableObj	= new HtmlTable();
 
 		/* get the team name */
 		$sql	= "SELECT * FROM teams WHERE idteam = ? ";
-		$ftteam	= $this->select($sql, "i", [$this->ftrecord['idteam']]);
+		$ftteam	= $this->_db->select($sql, "i", [$this->ftrecord['idteam']]);
 		$nmteam	= $ftteam[0]['nmteam'];
 
 		$sql		= "SELECT * FROM competitions WHERE idcompetition = ?";
-		$ftteams	= $this->slect($sql, "i", [$this->ftrecord['idcompetition']]);
+		$ftteams	= $this->_db->select($sql, "i", [$this->ftrecord['idcompetition']]);
 
 		/* get the coaches */
 		$sql	= "SELECT * FROM rosters r, persons p WHERE r.idperson = p.idperson AND cdrole = ? AND idparticipant = ?";
 		$sql	.= " ORDER BY nmlast, nmfirst, nmsur";
-		$ftrows	= $this->select($sql, "si", ['C', $this->ftrecord['idparticipant']]);
+		$ftrows	= $this->_db->select($sql, "si", ['C', $this->ftrecord['idparticipant']]);
 
 		$ftcoaches	= array();
 		for ($i = 0; $i < count($ftrows);$i++){
@@ -76,7 +76,7 @@ class Participant extends SingleItemPage{
 		/* get the players */
 		$sql	= "SELECT * FROM rosters r, persons p WHERE r.idperson = p.idperson AND cdrole = ? AND idparticipant = ?";
 		$sql	.= " ORDER BY nmlast, nmfirst, nmsur";
-		$ftrows	= $this->select($sql, "si", ['P', $this->ftrecord['idparticipant']]);
+		$ftrows	= $this->_db->select($sql, "si", ['P', $this->ftrecord['idparticipant']]);
 
 		$ftplayers	= array();
 		for ($i = 0; $i < count($ftrows);$i++){
@@ -94,12 +94,12 @@ class Participant extends SingleItemPage{
 		$sql	.= "FROM games WHERE (idhome = ? OR idaway = ?) ";
 		$sql	.= "AND idcompetition = " . $this->ftrecord['idcompetition'] . " ";
 		$sql	.= "ORDER BY dtstart ASC, tmstart ASC";
-		$ftgames	= $this->select($sql, "ii", [$this->ftrecord['idparticipant'], $this->ftrecord['idparticipant']]);
+		$ftgames	= $this->_db->select($sql, "ii", [$this->ftrecord['idparticipant'], $this->ftrecord['idparticipant']]);
 
 		/* get the particpants */
 		$sql	= "SELECT p.idparticipant, r.nmteam FROM participants p, teams r ";
 		$sql	.= "WHERE r.idteam = p.idteam AND idcompetition = ?";
-		$ftrows	= $this->select($sql, "i", [$this->ftrecord['idcompetition']]);
+		$ftrows	= $this->_db->select($sql, "i", [$this->ftrecord['idcompetition']]);
 
 		$ftparticipants	= array();
 		foreach($ftrows as $row){
@@ -111,14 +111,14 @@ class Participant extends SingleItemPage{
 			$ftgames[$i]['dtstart']	= $dateObj->translateDate($ftgames[$i]['dtstart'], "D");
 
 			$idhome	= $ftgames[$i]['idhome'];
-			if ($idhome === $this->id){
+			if ($idhome === $this->_id){
 				$ftgames[$i]['idhome']	= "<b>" . $ftparticipants[$idhome] . "</b>";
 			} else {
 				$ftgames[$i]['idhome']	= $ftparticipants[$idhome];
 			}
 
 			$idaway	= $ftgames[$i]['idaway'];
-			if ($idaway === $this->id){
+			if ($idaway === $this->_id){
 				$ftgames[$i]['idaway']	= "<b>" . $ftparticipants[$idaway] . "</b";
 			} else {
 				$ftgames[$i]['idaway']	= $ftparticipants[$idaway];
@@ -142,7 +142,7 @@ class Participant extends SingleItemPage{
 
 		if (!empty($ftgames)){
 			$html .= "<h2>Wedstrijden</h2>";
-			$ftlabels = array("Datum", "Tijd", "Thuis", "Uit", "Voor", "Tegen", "Innings");
+			$ftlabels = ["Datum", "Tijd", "Thuis", "Uit", "Voor", "Tegen", "Innings"];
 			$html .= $tableObj->createHtmlTable($ftlabels, $ftgames);
 		}
 
@@ -155,23 +155,6 @@ class Participant extends SingleItemPage{
 
 		return $html;
 	}
-
-	function createHtmlTableRow(){
-		/* create the tablerow */
-		if (empty($this->id)){
-			return null;
-		}
-		$html	= "<tr>\n";
-		$html	.= "  <td>" . $this->nmparticipant ."</td>\n";
-		$html	.= "  <td class='pull-right'>" . $this->nrgames ."</td>\n";
-		$html	.= "  <td class='pull-right'>" . $this->nrwins ."</td>\n";
-		$html	.= "  <td class='pull-right'>" . $this->nrloss ."</td>\n";
-		$html	.= "  <td class='pull-right'>" . $this->nrdraws ."</td>\n";
-		$html	.= "  <td class='pull-right'>" . $this->nrrunsscored ."</td>\n";
-		$html	.= "  <td class='pull-right'>" . $this->nrrunsagainst ."</td>\n";
-		$html	.= "</tr>\n";
-        return $html;
-    }
 
 	/* getters and setters  */
 	function getFullName(){

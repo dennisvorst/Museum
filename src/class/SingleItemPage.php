@@ -14,15 +14,14 @@ require_once "MysqlDatabase.php";
  * todo: change the output of getRecordId back to integer
 */
 class SingleItemPage extends MainPage{
-	protected $debug	= false;
 	protected $_db;
+	protected $_id;
 
 
 	var $nmtitle;
 	var $nmtable;
 	var $ftrecord;
 //	var $row;
-	var $id;
 	var $nmkey;
 	var $ftrepresentation; /* the fields that make up the representation in a list. */
 
@@ -41,12 +40,12 @@ class SingleItemPage extends MainPage{
 
 	function withID(int $id) : void
 	{
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		$query = "SELECT * FROM $this->nmtable WHERE $this->nmkey = ?";
-		$this->ftrecord	= $this->select($query, "i", [$id]);
+		$this->ftrecord	= $this->_db->select($query, "i", [$id]);
 		$this->setRecord($this->ftrecord[0]);
 		$this->processRecord();
 	}
@@ -54,49 +53,53 @@ class SingleItemPage extends MainPage{
 	function processRecord(){}
 
 	function setRecord($ftrecord){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		$this->ftrecord = $ftrecord;
 	}
 
 	function getRecord($nmtable, $key, $id){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
+			$this->_log->write("nmtable = " . $nmtable);
+			$this->_log->write("key     = " . $key);
+			$this->_log->write("id      = " . $id);
+
 		}
 
 		/* get a single record */
 		$query = "SELECT * FROM $nmtable WHERE $key  = ?";
-		$ftrecord = $this->select($query, "i", [$id]);
+		$ftrecord = $this->_db->select($query, "i", [$id]);
 		return $ftrecord[0];
 	}
 
 	function setId($id){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
-		$this->id = $id;
+		$this->_id = $id;
 	}
 
 	function getUrl(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		$nmclass = strtolower(get_class($this));
 		/* create a url using the name of the class and the id */
-		if (empty($this->id)){
+		if (empty($this->_id)){
 			return "index.php?nmclass=" . $nmclass;
 		} else {
-			return "index.php?id=" . $this->id . "&nmclass=" . $nmclass;
+			return "index.php?id=" . $this->_id . "&nmclass=" . $nmclass;
 		}
 	}
 
 	function getSubmenu(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		/* deprecated use the getSubmenu in the form table */
@@ -105,8 +108,8 @@ class SingleItemPage extends MainPage{
 		foreach ($ftsubentities as $subentity){
 			$nmmenu = $this->ftsubmenus[$subentity['table_name']];
 			if (!empty($nmmenu)){
-//				$fthtml .= "<td><a href='index.php?nmclass=" . $subentity['table_name'] . "&nmparent=$this->nmtable&$this->nmkey=$this->id'>$nmmenu</a></td>";
-				$fthtml .= "<td><a href='index.php?nmclass=" . $subentity['table_name'] . "&nmparent=" . strtolower (get_class($this)) . "&nrfk=$this->id'>$nmmenu</a></td>";
+//				$fthtml .= "<td><a href='index.php?nmclass=" . $subentity['table_name'] . "&nmparent=$this->nmtable&$this->nmkey=$this->_id'>$nmmenu</a></td>";
+				$fthtml .= "<td><a href='index.php?nmclass=" . $subentity['table_name'] . "&nmparent=" . strtolower (get_class($this)) . "&nrfk=$this->_id'>$nmmenu</a></td>";
 			}
 		}
 		$fthtml .= "</tr></table>";
@@ -114,78 +117,77 @@ class SingleItemPage extends MainPage{
 	}
 
 	function getMainAdmin(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		/* show a single record */
-		$form = new Form($this->nmtitle, $this->nmtable, strtolower(get_class($this)), $this->id, $this->ftsubmenus);
+		$form = new Form($this->nmtitle, $this->nmtable, strtolower(get_class($this)), $this->_id, $this->ftsubmenus);
 		echo $form->displayForm("S", "V", "E");
 	}
 
 	/******************
 	* getters and setters
 	*/
-	function getRecordId() : int
+	function getRecordId()
 	{
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
-
-		return $this->id;
+		return $this->_id;
 	}
 
 	function getTableName(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		return $this->nmtable;
 	}
 
 	function getKeyName(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		return $this->nmkey;
 	}
 
 	function setParent($nmparent){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		$this->nmparent = $nmparent;
 	}
 
 	function getParent(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		return $this->nmparent;
 	}
 
 	function setForeignKey($nrfk){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		$this->nrfk = $nrfk;
 	}
 
 	function getTitle(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		return $this->nmtitle;
 	}
 
 	function getGenericLabels($ftlabels){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		$ftlabels["updated_at"]		= "";
@@ -197,8 +199,8 @@ class SingleItemPage extends MainPage{
 	}
 
 	function getRepresentation(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		return $this->ftrepresentation;
@@ -208,32 +210,32 @@ class SingleItemPage extends MainPage{
 	Editable fields
 	*******************/
 	function getEditFeatured($ftvalue = null){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		return HtmlField::createField("is_featured", "checkbox", $ftvalue);
 	}
 
 	function getEditUpdatedBy($ftvalue = null){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		return HtmlField::createField("updated_by", "hidden", $ftvalue);
 	}
 
 	function getEditUpatedAt($ftvalue = null){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		return HtmlField::createField("updated_at", "hidden", $ftvalue);
 	}
 
 	function getEditCreatedAt($ftvalue = null){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__);
 		}
 
 		return HtmlField::createField("created_at", "hidden", $ftvalue);

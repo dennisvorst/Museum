@@ -25,8 +25,8 @@ class Menu{
 		/* create the menu list */
 		$menuItems[0] = array("idpart"=>"home", "valuepart"=>"Home");
 		$menuItems[1] = array("idpart"=>"articles", "valuepart"=>"Artikelen");
-		$menuItems[2] = array("idpart"=>"photos", "valuepart"=>"Fotos");
-		$menuItems[3] = array("idpart"=>"videos", "valuepart"=>"Videos");
+		$menuItems[2] = array("idpart"=>"photos", "valuepart"=>"Foto's");
+		$menuItems[3] = array("idpart"=>"videos", "valuepart"=>"Video's");
 		
 		$menuItems[4] = array("idpart"=>"clubs", "valuepart"=>"Clubs");
 		$menuItems[5] = array("idpart"=>"persons", "valuepart"=>"Personen");

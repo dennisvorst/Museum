@@ -37,7 +37,7 @@ class Persons extends ListPage{
 		$html = "";
 
 		/* get the retired jerseys */
-		$nminstance = new Clubretired();
+		$nminstance = new Clubretired($this->_db);
 		$html .= $nminstance->getClubJerseys($id);
 
 		return $html;
@@ -47,10 +47,10 @@ class Persons extends ListPage{
 		/* create a HTML select with persons */
 		/* get the data */
 		$query	= "SELECT * FROM persons ORDER BY nmfirst, nmsur, nmlast";
-		$ftrows	= $this->select($query);
+		$ftrows	= $this->_db->select($query);
 
 		/* process the data */
-		$object	= new Person();
+		$object	= new Person($this->_db);
 		$html = "<select id='$name' name='$name'>\n";
 		$html .= "<option value='' >Selecteer een persoon</option>";
 

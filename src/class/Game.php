@@ -23,7 +23,7 @@ class Game extends SingleItemPage{
 	}
 
 	function processRecord(){
-		$this->id				= $this->ftrecord['idgame'];
+		$this->_id				= $this->ftrecord['idgame'];
 		$this->idcompetition	= $this->ftrecord['idcompetition'];
 		$this->idhome			= $this->ftrecord['idhome'];
 		$this->idaway			= $this->ftrecord['idaway'];
@@ -45,7 +45,7 @@ class Game extends SingleItemPage{
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the article */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->id);
+		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
 		$this->processRecord();
 
 		return $html;

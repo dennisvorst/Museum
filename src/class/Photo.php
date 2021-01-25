@@ -12,8 +12,6 @@ require_once "MysqlDatabase.php";
 require_once "MysqlDatabase.php";
 
 class Photo extends SingleItemPage{
-	var $debug 			= false;
-
 	var $nmtable		= "photos";
 	var $nmkey			= "idphoto";
 	var $photopath		= "./images/photos/";
@@ -52,11 +50,11 @@ class Photo extends SingleItemPage{
 	}
 
 	function processRecord(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
-		$this->id				= $this->ftrecord['idphoto'];
+		$this->_id				= $this->ftrecord['idphoto'];
 
 		$this->idsource			= $this->ftrecord['idsource'];
 		$this->nmphotographer	= $this->ftrecord['nmphotographer'];
@@ -73,8 +71,8 @@ class Photo extends SingleItemPage{
 	}
 
 	function createThumbnail($nrsize = 3){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* create a thumbnail as part of a collection of records. */
@@ -88,22 +86,22 @@ class Photo extends SingleItemPage{
 	}//createThumbnail
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* get the photo */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->id);
+		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
 		$this->processRecord();
 
 		/* create the photo */
 		$photo = $this->createImage();
 
 		/* get the source information */
-		$sourceObj	= new Source();
+		$sourceObj	= new Source($this->_db);
 		$sourceObj->setId($this->idsource);
 
-//		$sourceLogo		= $sourceObj->getArticleLogo($this->id);
+//		$sourceLogo		= $sourceObj->getArticleLogo($this->_id);
 
 		$html = "<table>\n";
 		$html .= "  <tr>" . Social::addShareButtons($this->getUrl()) . "</tr>\n";
@@ -116,8 +114,8 @@ class Photo extends SingleItemPage{
 	}// getIndexPage
 
 	function getMenu(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* needs to be overriden */
@@ -185,18 +183,18 @@ class Photo extends SingleItemPage{
 	}//getMenu
 
 	function getThumbnail(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* create the thumbnail image */
-		if (empty($this->id)){
+		if (empty($this->_id)){
 //			print_r("Photo::getThumbnail - Id is empty");
 			return null;
 		}
 
 		// before we start get the image to six characters
-        $image = $this->getPhotoName($this->id, $this->thumbnailpath);
+        $image = $this->getPhotoName($this->_id, $this->thumbnailpath);
 
         $image = "<img border='0' src='" . $image . "'>";
         return $image;
@@ -218,23 +216,29 @@ class Photo extends SingleItemPage{
 
 
 	function getPhotoProperties($nmfile){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
-			print_r("nmfile " . $nmfile . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+			$this->_log->write("=> nmfile :" . $nmfile);
 		}
 
 		/*** input the file name. Output an array of vertical en horizontal widths ***/
+		if (empty($nmfile) || !file_exists($nmfile))
+		{
+			$this->nrwidth  = 0;
+			$this->nrheight = 0;
+		} else {
+			/* getimagesize is PHP specific function */
+			$size = getimagesize($nmfile);
 
-		/* getimagesize is PHP specific function */
-		$size = getimagesize($nmfile);
-
-		$this->nrwidth  = $size[0];
-		$this->nrheight = $size[1];
+			$this->nrwidth  = $size[0];
+			$this->nrheight = $size[1];
+		}
+		return;
 	}
 
 	function createSmallImage(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		$this->maxWidth		= 200;
@@ -244,8 +248,8 @@ class Photo extends SingleItemPage{
 	}
 
 	function createMediumImage(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		$this->maxWidth		= 400;
@@ -255,8 +259,8 @@ class Photo extends SingleItemPage{
 	}
 
 	function createLargeImage(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		$this->maxWidth		= 600;
@@ -266,15 +270,14 @@ class Photo extends SingleItemPage{
 	}
 
 	function createImage(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
-			print_r("photopath " . $this->photopath . "<br/>");
-
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+			$this->_log->write("-> photopath " . $this->photopath);
 		}
 
 		/** create a photo in a suitable frame to go with the article **/
 		if (empty($this->nmfile)){
-			$this->nmfile = $this->getPhotoName($this->id, $this->photopath);
+			$this->nmfile = $this->getPhotoName($this->_id, $this->photopath);
 		}
 
 		/** calculate the size **/
@@ -294,14 +297,14 @@ class Photo extends SingleItemPage{
 				$nrheight = $this->maxHeight;
 			}
 		}
-		if ($this->debug){
-			print_r("nmfile " . $this->nmfile . "<br/>");
-			print_r("nrwidth " . $nrwidth . "<br/>");
-			print_r("nrheight " . $nrheight . "<br/>");
+		if ($this->_debug){
+			$this->_log->write("-> nmfile " . $this->nmfile);
+			$this->_log->write("-> nrwidth " . $nrwidth);
+			$this->_log->write("-> nrheight " . $nrheight);
 		}
 
 		/** create the URL and return it **/
-		$sourceObj = new Source();
+		$sourceObj = new Source($this->_db);
 		$sourceObj->withId($this->idsource);
 
 		$ftsourceUrl = $sourceObj->getSourceUrl();
@@ -323,8 +326,8 @@ class Photo extends SingleItemPage{
 	}
 
 	function setAlignment($x){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* set the alignment. Odds go on the left evens on the right */
@@ -336,20 +339,20 @@ class Photo extends SingleItemPage{
 	}//setAlignment
 
 	function setIdByArticle($idarticle){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* set the photo is based on the newspaper article id */
-		$query	= "SELECT * FROM articlephotos WHERE idarticle = $idarticle limit 1";
-		$rows	= $this->_db->select($query);
+		$query	= "SELECT * FROM articlephotos WHERE idarticle = ? limit ?";
+		$rows	= $this->_db->select($query, "ii", [$idarticle, 1]);
 		if (!empty($rows)){
-			$this->id = $rows[0]['idphoto'];
+			$this->_id = $rows[0]['idphoto'];
 		}
 	}
 	function getMugshot($idperson){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* get the photos that where identified as mugshot for this individual. If no migshots were found return the default photo */
@@ -362,25 +365,25 @@ class Photo extends SingleItemPage{
 		if (!empty($rows)){
 			$nrrows = count($rows);
 			$nrrow = rand(0, $nrrows -1);
-			$this->id = $rows[$nrrow]['idphoto'];
+			$this->_id = $rows[$nrrow]['idphoto'];
 			$thumbnail = $this->getThumbnail();
 		}
 		return $thumbnail;
 	}
 
 	function getPersons(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* get the persons that go with the article */
 		$query	= "SELECT p.idperson FROM personphotos pp, persons p WHERE pp.idperson = p.idperson AND idphoto = ? ORDER BY p.nmlast"	;
 
-		$rows	= $this->select($query, "i", [$this->id]);
+		$rows	= $this->_db->select($query, "i", [$this->_id]);
 
 		$x = 0;
 		foreach ($rows as $row){
-			$person = new Person();
+			$person = new Person($this->_db);
 			$person->withId($row['idperson']);
 			$this->persons[$x]	= $person;
 			$x++;
@@ -388,17 +391,17 @@ class Photo extends SingleItemPage{
 	}
 
 	function getClubs(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* get the clubs that go with the article */
 		$query	= "SELECT c.idclub FROM clubs c, clubphotos cp WHERE c.idclub = cp.idclub AND idphoto = ? ORDER BY nmsearch";
-		$rows	= $this->select($query, "i", [$this->id]);
+		$rows	= $this->_db->select($query, "i", [$this->_id]);
 
 		$x = 0;
 		foreach ($rows as $row){
-			$club = new Club();
+			$club = new Club($this->_db);
 			$club->withId($row['idclub']);
 			$this->clubs[$x]	= $club;
 			$x++;
@@ -406,14 +409,14 @@ class Photo extends SingleItemPage{
 	}
 
 	function getArticles(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		/* get the clubs that go with the article */
 		$query	= "SELECT idarticle FROM articlephotos where idphoto = ?";
 
-		$rows	= $this->select($query, "i", [$this->id]);
+		$rows	= $this->_db->select($query, "i", [$this->_id]);
 
 		$x = 0;
 		foreach ($rows as $row){
@@ -428,15 +431,15 @@ class Photo extends SingleItemPage{
 	getters and setters
 	****************************/
 	function getThumbnailWidth(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		return $this->maxThumbnailWidth;
 	}
 	function getThumbnailHeight(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		return $this->maxThumbnailHeight;
@@ -446,8 +449,8 @@ class Photo extends SingleItemPage{
 	Labels
 	*******************/
 	function getLabels (){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 
 		$ftlabels["idphoto"]		= "";
@@ -469,30 +472,23 @@ class Photo extends SingleItemPage{
 	}
 
 	function setThumbnailpath($path){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 		$this->thumbnailpath = $path;
 	}
 
 	function setPhotoPath($path){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 		$this->photopath	= $path;
 	}
 	function getPhotoPath(){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
 		}
 		return $this->photopath;
-	}
-
-	function setDebug($debug){
-		if ($this->debug){
-			print_r(__METHOD__ . "<br/>");
-		}
-		$this->debug = $debug;
 	}
 	/******************
 	Editable fields
