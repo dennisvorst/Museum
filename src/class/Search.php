@@ -25,7 +25,7 @@ class Search{
 
 		$html .= "<form action='search.php' method='post' accept-charset='utf-8'>\n";
 		$html .= "  <div class='active-orange-4 mb-4'>\n";
-		$html .= "    <input name='ftquery' class='form-control' type='text' placeholder='Zoeken' " . (empty($search) ?: "value='" . $search . "' " )  . "aria-label='Search' required>\n";
+		$html .= "    <input name='sql' class='form-control' type='text' placeholder='Zoeken' " . (empty($search) ?: "value='" . $search . "' " )  . "aria-label='Search' required>\n";
 		$html .= "  </div>\n";
 
 		$html .= "  <div class='btn-group' role='group'>\n";

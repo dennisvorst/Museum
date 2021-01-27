@@ -44,8 +44,8 @@ class Articles extends ListPage{
 		These are always displayed in a tab page
 		*/
 		/* get the total number of elements */
-		$ftquery = "SELECT count(*) AS nrtotal FROM clubarticles ac, articles a WHERE a.idarticle = ac.idarticle AND ac.idclub = ?";
-		$nrTotPages = $this->_db->select($ftquery, "i", [$id]);
+		$sql = "SELECT count(*) AS nrtotal FROM clubarticles ac, articles a WHERE a.idarticle = ac.idarticle AND ac.idclub = ?";
+		$nrTotPages = $this->_db->select($sql, "i", [$id]);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the articles
@@ -55,8 +55,8 @@ class Articles extends ListPage{
 		if ($nrCurrentPage > 1) {
 			$nrOffSet = ($nrCurrentPage - 1) * $this->nrRecordsOnPage;
 		}
-		$ftquery = "SELECT a.* FROM clubarticles ac, articles a WHERE a.idarticle = ac.idarticle AND ac.idclub = ? ORDER BY a.dtpublish LIMIT ? OFFSET ?";
-		$this->ftrows = $this->_db->select($ftquery, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
+		$sql = "SELECT a.* FROM clubarticles ac, articles a WHERE a.idarticle = ac.idarticle AND ac.idclub = ? ORDER BY a.dtpublish LIMIT ? OFFSET ?";
+		$this->ftrows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("club", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getClubArticles
@@ -66,8 +66,8 @@ class Articles extends ListPage{
 		/* get the articles that go with a person */
 
 		/* get the total number of elements */
-		$ftquery = "SELECT count(*) AS nrtotal FROM personarticles ap, articles a WHERE a.idarticle = ap.idarticle AND ap.idperson = ? ORDER BY a.dtpublish";
-		$nrTotPages = $this->_db->select($ftquery, "i", [$id]);
+		$sql = "SELECT count(*) AS nrtotal FROM personarticles ap, articles a WHERE a.idarticle = ap.idarticle AND ap.idperson = ? ORDER BY a.dtpublish";
+		$nrTotPages = $this->_db->select($sql, "i", [$id]);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the articles */
@@ -75,19 +75,19 @@ class Articles extends ListPage{
 		if ($nrCurrentPage > 1) {
 			$nrOffSet = ($nrCurrentPage - 1) * $this->nrRecordsOnPage;
 		}
-		$ftquery = "SELECT a.* FROM personarticles ap, articles a ";
-		$ftquery .= "WHERE a.idarticle = ap.idarticle AND ap.idperson = ?";
-		$ftquery .= " ORDER BY a.dtpublish LIMIT ? OFFSET ?";
+		$sql = "SELECT a.* FROM personarticles ap, articles a ";
+		$sql .= "WHERE a.idarticle = ap.idarticle AND ap.idperson = ?";
+		$sql .= " ORDER BY a.dtpublish LIMIT ? OFFSET ?";
 
-		$this->ftrows = $this->_db->select($ftquery, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
+		$this->ftrows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("person", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getPersonArticles
 
 	function getForeignKeyValues(){
 		if (empty($this->ftforeignkeys)){
-			$ftquery = "SELECT idarticle, fttitle1 FROM articles ORDER BY fttitle1";
-			$ftrows	= $this->_db->select($ftquery);
+			$sql = "SELECT idarticle, fttitle1 FROM articles ORDER BY fttitle1";
+			$ftrows	= $this->_db->select($sql);
 
 			foreach($ftrows as $ftrow){
 				$this->ftforeignkeys[$ftrow['idarticle']]	= $ftrow['fttitle1'];

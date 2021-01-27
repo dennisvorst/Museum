@@ -30,9 +30,9 @@ class Competitions extends ListPage{
 
 	function getForeignKeyValues(){
 		if (empty($this->ftforeignkeys)){
-			$ftquery = "SELECT idcompetition, nmcompetition, nmsub, nryear, IF(cdsport='HB', 'Honkbal', 'Softball') as cdsport ";
-			$ftquery .= "FROM competitions ORDER BY nryear, nmcompetition, nmsub, cdsport";
-			$ftrows	= $this->_db->select($ftquery);
+			$sql = "SELECT idcompetition, nmcompetition, nmsub, nryear, IF(cdsport='HB', 'Honkbal', 'Softball') as cdsport ";
+			$sql .= "FROM competitions ORDER BY nryear, nmcompetition, nmsub, cdsport";
+			$ftrows	= $this->_db->select($sql);
 
 			foreach($ftrows as $ftrow){
 				$ftvalrep = $ftrow['nryear'] . " " . $ftrow['nmcompetition'] . " " . trim($ftrow['nmsub'] . " " . $ftrow['cdsport']);

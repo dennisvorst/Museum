@@ -26,9 +26,9 @@ class Clubs extends ListPage{
 
 	function getForeignKeyValues(){
 		if (empty($this->ftforeignkeys)){
-			$ftquery = "SELECT idclub, nmclub ";
-			$ftquery .= "FROM clubs ORDER BY nmclub";
-			$ftrows	= $this->_db->select($ftquery);
+			$sql = "SELECT idclub, nmclub ";
+			$sql .= "FROM clubs ORDER BY nmclub";
+			$ftrows	= $this->_db->select($sql);
 
 			foreach($ftrows as $ftrow){
 				$ftvalrep = $ftrow['nmclub'];

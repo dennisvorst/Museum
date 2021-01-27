@@ -1,6 +1,66 @@
 <?php
 class Hitting{
+    private $_headers = ["Team", "Jaar", "AVG", "GP", "GS", "AB", "R", "H", "2B", "3B", "HR", "RBI", "TB", "SLG%", "BB", "HBP", "SO", "GDP", "OBP%", "SF", "SH", "SB", "ATT"];
+    private $_db;
+    private $_rows =[];
+	private $_totals =[];
+	
+	function __construct(MysqlDatabase $db)
+    {
+        $this->_db = $db;
+    }
 
+    function getClubStats(int $id)
+    {
+
+    }
+
+	function getPersonStats(int $id)
+	{
+		/** init */
+		$types = "i";
+		$values = [$id];
+
+		/************************
+		 * calculate Hitting
+		 ***********************/
+		$sql = "SELECT t.nmteam, s.nryear, ";
+		$sql .= "ROUND(s.nrh/s.nrab, 3), ";
+		$sql .= "s.nrgp, s.nrgs, s.nrab, s.nrr, s.nrh, s.nr2b, s.nr3b, s.nrhr, s.nrrbi, s.nrtb, ";
+		/* s.nrh contains the total of hits. So doubles and triples are counted in there. That is why we multiply doubles by 2-1, triples by 3-1 etc. */
+		$sql .= "ROUND((s.nrh + s.nr2b + (s.nr3b*2) + (s.nrhr*3)) / s.nrab,3), ";
+		$sql .= "s.nrbb, s.nrhbp, s.nrso, s.nrgdp, ";
+		$sql .= "s.nrobperc, ";
+		$sql .= "s.nrsf, s.nrsh, s.nrsb, s.nratt FROM hitting s, teams t ";
+		$sql .= "WHERE t.idteam = s.idteam AND idperson = ?";
+		$this->_rows = $this->_db->select($sql, $types, $values);
+
+		/************************
+		 * calculate Hitting totals
+		 ***********************/
+		$sql = "SELECT ROUND(SUM(s.nrh)/SUM(s.nrab), 3), ";
+		$sql .= "SUM(s.nrgp), SUM(s.nrgs), SUM(s.nrab), SUM(s.nrr), SUM(s.nrh), SUM(s.nr2b), SUM(s.nr3b), SUM(s.nrhr), SUM(s.nrrbi), SUM(s.nrtb), ";
+		$sql .= "ROUND((SUM(s.nrh) + SUM(s.nr2b) + (SUM(s.nr3b)*2) + (SUM(s.nrhr)*3)) / SUM(s.nrab),3), "; /* slgperc*/
+		$sql .= "SUM(s.nrbb), SUM(s.nrhbp), SUM(s.nrso), SUM(s.nrgdp), ";
+		$sql .= "0, "; /* nrobpperc */
+		$sql .= "SUM(s.nrsf), SUM(s.nrsh), SUM(s.nrsb), SUM(s.nratt) FROM hitting s, teams t ";
+		$sql .= "WHERE t.idteam = s.idteam AND idperson = ?";
+
+		$this->_totals = $this->_db->select($sql, $types, $values);
+	}
+
+    function getRows() : array
+    {
+        return $this->_rows;
+    }
+    function getTotals() : array
+    {
+        return $this->_totals;
+    }
+    function getHeaders()
+    {
+        return $this->_headers;
+    }
 
 	/*** Hitting Stats ***/
 	/* Batting Average */

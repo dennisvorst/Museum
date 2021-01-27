@@ -94,7 +94,7 @@ class ListPage extends MainPage{
 
 		/* get a list of records based on the year or the alphabet */
 		$ftwhere = "";
-		$ftquery = "SELECT * FROM {$nmtable} ";
+		$sql = "SELECT * FROM {$nmtable} ";
 		$types = "";
 		$values = [];
 
@@ -115,7 +115,7 @@ class ListPage extends MainPage{
 			$types .= "s";
 			$values[] = ListPage::$nmalphabet . "%";
 		}
-		$ftquery .= $ftwhere . " ";
+		$sql .= $ftwhere . " ";
 
 		/* order by */
 		$orderBy = "";
@@ -131,24 +131,24 @@ class ListPage extends MainPage{
 		} else {
 			$orderBy = "";
 		}
-		$ftquery .= $orderBy;
+		$sql .= $orderBy;
 
 		/* limit */
 		if ((!empty($nrrowsstart) or $nrrowsstart === 0)and !empty($nrrowsend)){
-			$ftquery .= "LIMIT ?, ?";
+			$sql .= "LIMIT ?, ?";
 			$types .= "ii";
 			$values[] = $nrrowsstart;
 			$values[] = $nrrowsend;
 		}
 
-		$this->ftrows = $this->_db->select($ftquery, $types, $values);
+		$this->ftrows = $this->_db->select($sql, $types, $values);
 	}//getRecords
 
 	static function getStartYear(MysqlDatabase $db, string $nmtable) : void
 	{
 		/* get the year to start with in the menu */
-		$ftquery = "SELECT MIN(nryear) AS nryear FROM $nmtable";
-		$nmvalue = $db->select($ftquery);
+		$sql = "SELECT MIN(nryear) AS nryear FROM $nmtable";
+		$nmvalue = $db->select($sql);
 		ListPage::$nryear = $nmvalue[0]['nryear'];
 	}
 
@@ -313,30 +313,30 @@ class ListPage extends MainPage{
 
 		/* get the menubar contents */
 		$ftmenubar = null;
-		$ftquery = null;
+		$sql = null;
 		$types = "";
 		$values = [];
 
 		if (is_object($this->menuBar)){
 			if ($nmclass === "persons" || $nmclass === "clubs"){
 				$ftmenubar = $this->menuBar->getToolBar($this->nmtable, ListPage::$nmalphabet, "nmalphabet", $this->alphabet);
-				$ftquery = "SELECT count(*) AS total FROM $this->nmtable WHERE $this->nmAlphabetField LIKE ?";
+				$sql = "SELECT count(*) AS total FROM $this->nmtable WHERE $this->nmAlphabetField LIKE ?";
 				$types = "s";
 				$values = [ListPage::$nmalphabet . "%"];
 			} else {
 				$ftmenubar = $this->menuBar->getToolBar($this->nmtable, ListPage::$nryear, "nryear", $this->years);
-				$ftquery = "SELECT count(*) AS total FROM $this->nmtable WHERE $this->nmYearField = ?";
+				$sql = "SELECT count(*) AS total FROM $this->nmtable WHERE $this->nmYearField = ?";
 				$types = "s";
 				$values = [ListPage::$nryear];
 
 			}
 		} else {
 			/* for the elements without a menubar */
-			$ftquery = "SELECT count(*) AS total FROM $this->nmtable";
+			$sql = "SELECT count(*) AS total FROM $this->nmtable";
 		}
 
 		/* get the total of items in the database */
-		$nrtotal = $this->_db->select($ftquery, $types, $values);
+		$nrtotal = $this->_db->select($sql, $types, $values);
 		$nrtotal = $nrtotal[0]['total'];
 
 		/* how many pages does that fill? */

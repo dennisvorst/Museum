@@ -51,30 +51,5 @@ class Menu{
 		
 		return $html;
 	}
-
-	// function getMainAdminMenu($nmschema){
-	// 	/* create a main menu for the administrator part of the application, based on the content of the information_schema defined tables */
-
-	// 	/* retrieves a list of tables in the schema name provided. */
-	// 	$ftquery = "SELECT table_name ";
-	// 	$ftquery .= "FROM information_schema.tables ";
-	// 	$ftquery .= "WHERE table_schema = ? ";
-	// 	$ftquery .= "ORDER BY table_name";
-
-	// 	$ftrows = $this->_db->select($ftquery, "s", [$nmschema]);
-
-	// 	/* create the HTML */
-	// 	$html = "";
-	// 	$i = 0;
-	// 	$ftmenuitems = array();
-	// 	foreach ($ftrows as $ftrow){
-	// 		$ftmenuitems[$i] = "<a href='generic.php?nmschema=$nmschema&nmtable="  . $ftrow['table_name'] . "'>" . $ftrow['table_name'] . "</a>";
-	// 		$i++;
-	// 	}
-	// 	$gridObj = new HtmlGrid();
-	// 	$html = $gridObj->createGrid($ftmenuitems, 8);
-	// 	return $html;
-	// }
-
 }
 ?>

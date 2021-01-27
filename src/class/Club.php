@@ -210,8 +210,8 @@ class Club extends SingleItemPage{
 	*******************/
 	function getClubs() : array {
 		/* return a list of only the verified sources */
-		$ftquery = "SELECT idclub, nmclub FROM clubs ORDER BY nmclub";
-		$ftrows = $this->_db->select($ftquery);
+		$sql = "SELECT idclub, nmclub FROM clubs ORDER BY nmclub";
+		$ftrows = $this->_db->select($sql);
 
 		$ftvalues = array();
 		foreach ($ftrows as $ftrow){

@@ -39,8 +39,8 @@ class Photos extends ListPage{
 		/* get the articles that go with a person */
 
 		/* get the total number of elements */
-		$ftquery = "SELECT count(*) AS nrtotal FROM clubphotos cp, photos p WHERE p.idphoto = cp.idphoto AND cp.idclub = ?";
-		$nrTotPages = $this->_db->select($ftquery, "i", [$id]);
+		$sql = "SELECT count(*) AS nrtotal FROM clubphotos cp, photos p WHERE p.idphoto = cp.idphoto AND cp.idclub = ?";
+		$nrTotPages = $this->_db->select($sql, "i", [$id]);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the photos
@@ -50,8 +50,8 @@ class Photos extends ListPage{
 		if ($nrCurrentPage > 1) {
 			$nrOffSet = ($nrCurrentPage - 1) * $this->nrRecordsOnPage;
 		}
-		$ftquery = "SELECT p.* FROM clubphotos cp, photos p WHERE p.idphoto = cp.idphoto AND cp.idclub = ? LIMIT ? OFFSET ?";
-		$this->ftrows = $this->_db->select($ftquery, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
+		$sql = "SELECT p.* FROM clubphotos cp, photos p WHERE p.idphoto = cp.idphoto AND cp.idclub = ? LIMIT ? OFFSET ?";
+		$this->ftrows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("club", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getClubPhotos
@@ -63,8 +63,8 @@ class Photos extends ListPage{
 		/* get the articles that go with a person */
 
 		/* get the total number of elements */
-		$ftquery = "SELECT count(*) AS nrtotal FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND pp.idperson = ?";
-		$nrTotPages = $this->_db->select($ftquery, "i", [$id]);
+		$sql = "SELECT count(*) AS nrtotal FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND pp.idperson = ?";
+		$nrTotPages = $this->_db->select($sql, "i", [$id]);
 		$nrTotPages = round($nrTotPages[0]['nrtotal']/$this->nrRecordsOnPage, 0);
 
 		/* get the photos
@@ -74,8 +74,8 @@ class Photos extends ListPage{
 		if ($nrCurrentPage > 1) {
 			$nrOffSet = ($nrCurrentPage - 1) * $this->nrRecordsOnPage;
 		}
-		$ftquery = "SELECT p.* FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND pp.idperson = ? LIMIT ? OFFSET ?";
-		$this->ftrows = $this->_db->select($ftquery, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
+		$sql = "SELECT p.* FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND pp.idperson = ? LIMIT ? OFFSET ?";
+		$this->ftrows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("person", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getPersonPhotos

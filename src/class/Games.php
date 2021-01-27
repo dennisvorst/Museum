@@ -30,16 +30,16 @@ class Games extends ListPage{
 	function getCompetitionGames($id){
 		/* get the games that go with a competition */
 
-		$ftquery = "SELECT g.*, ht.nmteam AS nmhome, at.nmteam AS nmaway ";
-		$ftquery .= "FROM games g, participants ap, participants hp, teams at, teams ht ";
-		$ftquery .= "WHERE ap.idparticipant = g.idaway ";
-		$ftquery .= "AND hp.idparticipant = g.idhome ";
-		$ftquery .= "AND ht.idteam = hp.idteam ";
-		$ftquery .= "AND at.idteam = ap.idteam ";
-		$ftquery .= "AND g.idcompetition = ? ";
-		$ftquery .= "ORDER BY g.dtstart, g.tmstart ";
+		$sql = "SELECT g.*, ht.nmteam AS nmhome, at.nmteam AS nmaway ";
+		$sql .= "FROM games g, participants ap, participants hp, teams at, teams ht ";
+		$sql .= "WHERE ap.idparticipant = g.idaway ";
+		$sql .= "AND hp.idparticipant = g.idhome ";
+		$sql .= "AND ht.idteam = hp.idteam ";
+		$sql .= "AND at.idteam = ap.idteam ";
+		$sql .= "AND g.idcompetition = ? ";
+		$sql .= "ORDER BY g.dtstart, g.tmstart ";
 
-		$this->ftrows = $this->_db->select($ftquery, "i", [$id]);
+		$this->ftrows = $this->_db->select($sql, "i", [$id]);
 
 		return $this->getPage("");
 	}

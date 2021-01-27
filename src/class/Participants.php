@@ -35,12 +35,12 @@ class Participants extends ListPage{
 
 	function getCompetitionParticipants($id){
 		/* get the participants that go with a competition */
-		$ftquery = "SELECT p.idparticipant, t.nmteam, p.nrgames, p.nrwins, p.nrlosses, p.nrdraws, p.nrrunsscored, p.nrrunsagainst, p.ischampion ";
-		$ftquery .= "FROM participants p, teams t ";
-		$ftquery .= "WHERE t.idteam = p.idteam ";
-		$ftquery .= "AND p.idcompetition = ?";
+		$sql = "SELECT p.idparticipant, t.nmteam, p.nrgames, p.nrwins, p.nrlosses, p.nrdraws, p.nrrunsscored, p.nrrunsagainst, p.ischampion ";
+		$sql .= "FROM participants p, teams t ";
+		$sql .= "WHERE t.idteam = p.idteam ";
+		$sql .= "AND p.idcompetition = ?";
 
-		$this->ftrows = $this->_db->select($ftquery, "i", [$id]);
+		$this->ftrows = $this->_db->select($sql, "i", [$id]);
 
 		/* add additional stuff here */
 		for($i = 0; $i < count($this->ftrows); $i++){

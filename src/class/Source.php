@@ -65,9 +65,9 @@ class Source extends SingleItemPage{
 
 	function getAllSources(){
 		/* return a list of all the sources */
-		$ftquery = "SELECT idsource, nmsource FROM sources ORDER BY nmsource";
+		$sql = "SELECT idsource, nmsource FROM sources ORDER BY nmsource";
 
-		$ftrows = $this->_db->select($ftquery);
+		$ftrows = $this->_db->select($sql);
 		$ftvalues = array();
 		foreach ($ftrows as $ftrow){
 			$ftvalues[$ftrow['idsource']] = $ftrow['nmsource'];
@@ -77,8 +77,8 @@ class Source extends SingleItemPage{
 
 	function getVerifiedSources(){
 		/* return a list of only the verified sources */
-		$ftquery = "SELECT idsource, nmsource FROM sources WHERE cdverified = ? ORDER BY nmsource";
-		$ftrows = $this->_db->select($ftquery, "s", ['Y']);
+		$sql = "SELECT idsource, nmsource FROM sources WHERE cdverified = ? ORDER BY nmsource";
+		$ftrows = $this->_db->select($sql, "s", ['Y']);
 		return $ftrows;
 	}
 }

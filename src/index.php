@@ -202,8 +202,8 @@ if (empty($nmclass)){
 
                         } elseif (get_class($object) == "Search"){
                             /* if there is a query then load the query otherwise show the search field */
-                            if (isset($ftquery)){
-                                $object->setFtsearch($ftquery);
+                            if (isset($sql)){
+                                $object->setFtsearch($sql);
                             } else {
                                 echo $object->getMain();
                             }
