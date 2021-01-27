@@ -1,4 +1,10 @@
 <?php
+/**
+ * todo : a tab page has nothing to do with database access. Move the creation of the tabs to the Club class and the person class
+ * todo : move tab stuff to other project 
+ * 
+  */
+
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 

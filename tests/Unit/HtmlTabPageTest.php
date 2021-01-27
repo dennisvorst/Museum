@@ -24,8 +24,12 @@ class HtmlTabPageTest extends TestCase
      */
     public function testIdCannotBeNull()
     {
-        $this->expectException('InvalidArgumentException');
-        $object = new HtmlTabPage(null);
+        $this->expectException('TypeError');
+
+        /** mock the database */
+        $db = $this->createMock(MysqlDatabase::class);
+
+        $object = new HtmlTabPage($db, null);
     }
 
     /**
@@ -33,8 +37,12 @@ class HtmlTabPageTest extends TestCase
      */
     public function testIdCannotBeEmpty()
     {
-        $this->expectException('InvalidArgumentException');
-        $object = new HtmlTabPage("");
+        $this->expectException('TypeError');
+
+        /** mock the database */
+        $db = $this->createMock(MysqlDatabase::class);
+
+        $object = new HtmlTabPage($db, "");
     }
 
     /**
@@ -43,7 +51,11 @@ class HtmlTabPageTest extends TestCase
     public function testIdCannotBeNegative()
     {
         $this->expectException('InvalidArgumentException');
-        $object = new HtmlTabPage(-1);
+
+        /** mock the database */
+        $db = $this->createMock(MysqlDatabase::class);
+        
+        $object = new HtmlTabPage($db, -1);
     }
 
     /**
@@ -51,15 +63,21 @@ class HtmlTabPageTest extends TestCase
      */
     public function testIdCannotBeString()
     {
-        $this->expectException('InvalidArgumentException');
-        $object = new HtmlTabPage("foobar");
+        $this->expectException('TypeError');
+
+        /** mock the database */
+        $db = $this->createMock(MysqlDatabase::class);
+
+        $object = new HtmlTabPage($db, "foobar");
     }
 
     public function testIdCanBeInteger()
     {
-        $object = new HtmlTabPage(1);
-        $this->assertInstanceOf('HtmlTabPage', $object);
+        /** mock the database */
+        $db = $this->createMock(MysqlDatabase::class);
 
+        $object = new HtmlTabPage($db, 1);
+        $this->assertInstanceOf('HtmlTabPage', $object);
     }
 
     /**
@@ -68,14 +86,21 @@ class HtmlTabPageTest extends TestCase
     public function testTabsWithSameReferenceCannotBeAdded()
     {
         $this->expectException('Exception');
-        $object = new HtmlTabPage(1);
+
+        /** mock the database */
+        $db = $this->createMock(MysqlDatabase::class);
+
+        $object = new HtmlTabPage($db, 1);
         $object->addTab("one", "One", "First content");
         $object->addTab("one", "One", "First content");    
     }
 
     public function testTabsWithDifferentReferenceCanBeAdded()
     {
-        $object = new HtmlTabPage(1);
+        /** mock the database */
+        $db = $this->createMock(MysqlDatabase::class);
+
+        $object = new HtmlTabPage($db, 1);
         $object->addTab("one", "One", "First content");
         $object->addTab("two", "One", "First content");    
         $object->addTab("three", "three", "Third content");
@@ -88,7 +113,11 @@ class HtmlTabPageTest extends TestCase
     public function testOneTabMustBeActive()
     {
         $this->expectException('Exception');
-        $object = new HtmlTabPage(1);
+
+        /** mock the database */
+        $db = $this->createMock(MysqlDatabase::class);
+
+        $object = new HtmlTabPage($db, 1);
         $object->addTab("one", "One", "First content", true);
         $object->addTab("two", "Two", "Second content", true);
     }

@@ -7,7 +7,7 @@ class DatabaseTest extends TestCase
 {
     public function testClassDatabaseExists()
     {
-        $this->assertTrue(class_exists("Database"));
+        $this->assertTrue(class_exists("MysqlDatabase"));
     }
 }
 ?>
