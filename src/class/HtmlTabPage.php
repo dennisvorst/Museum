@@ -1,6 +1,7 @@
 <?php
 /**
  * todo : a tab page has nothing to do with database access. Move the creation of the tabs to the Club class and the person class
+ * todo remove the logging object from the html tab object 
  * todo : move tab stuff to other project 
  * 
   */
@@ -12,12 +13,13 @@ require_once("HtmlTabElement.php");
 
 class HtmlTabPage{
 	protected $_db;
+	protected $_log;
 	protected $_id;
 	private $_tabsCount = 0;
 	private $_tabs = [];
 
 	/* constructor */
-	function __construct(MysqlDatabase $db, int $id){
+	function __construct(MysqlDatabase $db, Log $log, int $id){
 		/** Id must be a numeric integer value  */
 		if (!($id > 0))	
 		{
@@ -25,6 +27,7 @@ class HtmlTabPage{
 		} 
 		$this->_id	= $id;
 		$this->_db	= $db;
+		$this->_log	= $log;
 	}
 
 
@@ -53,7 +56,7 @@ class HtmlTabPage{
 		foreach ($list as $item){
 
 			$item = ucfirst($item);
-			$nminstance = new $item($this->_db);
+			$nminstance = new $item($this->_db, $this->_log);
 
 			/* create a different content for the selected and the unselected tabs */
 			if (strtolower($nmCurrentTab) != strtolower($item)){

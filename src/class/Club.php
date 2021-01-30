@@ -1,4 +1,10 @@
 <?php
+/**
+ * todo : add retired jerseys 
+ * todo : add stats
+ * 
+ */
+
 require_once "SingleItemPage.php";
 require_once "HtmlSelect.php";
 require_once "HtmlTabPage.php";
@@ -26,8 +32,8 @@ class Club extends SingleItemPage{
 
 	var $ftsubmenus = array("clubretired"=>"Retired Numbers", "teams"=>"Teams");
 
-	function __construct(MysqlDatabase $db, int $id = null){
-		parent::__construct($db);
+	function __construct(MysqlDatabase $db, Log $log, int $id = null){
+		parent::__construct($db, $log);
 
 		if (!empty($id))
 		{
@@ -162,7 +168,7 @@ class Club extends SingleItemPage{
 		2. What is its current page number
 		*/
 		$list = ["articles", "videos", "photos", "persons", "teams"];
-		$tabObj	= new HtmlTabPage($this->_db, $this->_id);
+		$tabObj	= new HtmlTabPage($this->_db, $this->_log, $this->_id);
 		$html .= $tabObj->getTab("Club", $list, $nmCurrentTab, $nrCurrentPage, $this->_id, $this->_db);
 
 		return $html;
@@ -211,11 +217,11 @@ class Club extends SingleItemPage{
 	function getClubs() : array {
 		/* return a list of only the verified sources */
 		$sql = "SELECT idclub, nmclub FROM clubs ORDER BY nmclub";
-		$ftrows = $this->_db->select($sql);
+		$rows = $this->_db->select($sql);
 
 		$ftvalues = array();
-		foreach ($ftrows as $ftrow){
-			$ftvalues[$ftrow['idclub']] = $ftrow['nmclub'];
+		foreach ($rows as $row){
+			$ftvalues[$row['idclub']] = $row['nmclub'];
 		}
 		return $ftvalues;
 	}

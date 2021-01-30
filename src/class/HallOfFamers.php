@@ -20,14 +20,14 @@ class HallOfFamers extends ListPage{
 	/* for pagination purposes we need this variable */
 	static $nrcurrentarticlespage = 1;
 
-	function __construct(MysqlDatabase $db)
+	function __construct(MysqlDatabase $db, Log $log)
 	{
-		parent::__construct($db);
+		parent::__construct($db, $log);
 	}
 
 	function getMain($nmtab, $nrCurrentPage){
 		/* get the info */
-		$person_obj = new Person($this->_db);
+		$person_obj = new Person($this->_db, $this->_log);
 		
 		$sql		= "SELECT h.*, p.nmfirst, p.nmlast, p.nmsur, p.hasdied FROM persons p, halloffamers h WHERE h.idperson = p.idperson ORDER BY p.nmlast";
 		$persons	= $this->_db->select($sql);
@@ -57,7 +57,7 @@ class HallOfFamers extends ListPage{
 	}
 	
 	function createHtml($person){		
-		$photo_obj	= new Photo($this->_db);
+		$photo_obj	= new Photo($this->_db, $this->_log);
 		$date_obj	= new Date();
 		
 		$person['idphoto']	= "<img src='" . $photo_obj->getPhotoName($person['idphoto'], $photo_obj->getPhotoPath()) . "' >";

@@ -1,60 +1,47 @@
 <?php
-class Pitching
+require_once "iStatistics.php";
+require_once "Statistics.php";
+
+require_once "MysqlDatabase.php";
+
+class Pitching extends Statistics implements iStatistics
 {
-    private $_headers = ["Team", "Jaar", "AVG", "GP", "GS", "AB", "R", "H", "2B", "3B", "HR", "RBI", "TB", "SLG%", "BB", "HBP", "SO", "GDP", "OBP%", "SF", "SH", "SB", "ATT"];
-    private $_db;
-    private $_rows =[];
-    private $_totals =[];
+    protected $_headers = ["Team", "Jaar", "W", "L", "App.", "GS", "CG", "SHO", "SV", "IP", "H", "R", "ER", "BB", "SO", "2B", "3B", "HR", "AB", "Opp. Avg.", "WP", "HBP", "BK", "ERA"];
+    protected $_keys = ["nrw", "nrl", "nrapp", "nrgs", "nrcg", "nrsho", "nrsv", "nrip", "nrh", "nrr", "nrer", "nrbb", "nrso", "nr2b", "nr3b", "nrhr", "nrab", "nroppavg", "nrwp", "nrhbp", "nrbk", "nrera"];
 
-    function __construct(MysqlDatabase $db)
+    protected $_title = "Pitching";
+
+    function __construct(MysqlDatabase $db, Log $log)
     {
-        $this->_db = $db;
+        parent::__construct($db, $log);
     }
 
-    function getTeamStats()
+    function getTeamStats(int $id) : string
     {
 
     }
 
-    function getPersonstats(int $id)
+    function getPersonStats(int $id) : string
     {
         /** init */
 		$types = "i";
-		$values = [$id];
+        $values = [$id];
+        $sql = "SELECT t.nmteam, s.nryear, s.nrw, s.nrl, s.nrapp, s.nrgs, s.nrcg, s.nrsho, s.nrsv, s.nrip, s.nrh, s.nrr, s.nrer, s.nrbb, s.nrso, s.nr2b, s.nr3b, s.nrhr, s.nrab, s.nroppavg, s.nrwp, s.nrhbp, s.nrbk, s.nrera
+                FROM pitching s, teams t 
+                WHERE t.idteam = s.idteam AND idperson = ?";
+        $rows = $this->_db->select($sql, $types, $values);
 
-		/************************
-		 * calculate Pitching
-		 ***********************/
-		$sql = "SELECT t.nmteam, s.nryear, s.nrw, s.nrl, s.nrapp, s.nrgs, s.nrcg, s.nrsho, s.nrsv, s.nrip, s.nrh, s.nrr, s.nrer, s.nrbb, s.nrso, s.nr2b, s.nr3b, s.nrhr, s.nrab, ";
-		$sql .= "ROUND((s.nrh/s.nrab), 3), "; /* opp avg */
-		$sql .= "s.nrwp, s.nrhbp, s.nrbk, ";
-		$sql .= "ROUND((s.nrer)/(FLOOR(s.nrip) + ROUND(MOD(s.nrip, FLOOR(s.nrip)),1)*(1/3)*10)*9, 2) "; /* era */
-        $sql .= "FROM pitching s, teams t ";
-        $sql .= "WHERE t.idteam = s.idteam AND idperson = ?";
-		$this->_rows = $this->_db->select($sql, $types, $values);
+        foreach ($rows as $row)
+        {
+            $row['nrera'] = $this->_format($row['nrera'], 2);
+            $row['nroppavg'] = (empty($row['nroppavg']) ? "---" : $this->_format($row['nroppavg'], 3));
+            $this->_rows[] = $row;
+        }
+        
+        $this->_totals = $this->_getTotals();
+        $this->_totals = $this->calculateEarnedRunAverage($this->_totals);
 
-		/************************
-		 * calculate Pitching totals
-		 ***********************/
-		/* determine the number of innings pitched */
-		$sql = "SELECT SUM(FLOOR(s.nrip)) + SUM(ROUND(MOD(s.nrip, FLOOR(s.nrip)),1))*(20/3) as nrtotinnings ";
-        $sql .= "FROM pitching s, teams t ";
-        $sql .= "WHERE t.idteam = s.idteam AND idperson = ?";
-
-		$nrtotinnings = $this->_db->select($sql, $types, $values);
-		$nrtotinnings = $nrtotinnings[0]['nrtotinnings'];
-		if (empty($nrtotinnings)){
-			$nrtotinnings = 0;
-		}
-
-		$sql = "SELECT SUM(s.nrw), SUM(s.nrl), SUM(s.nrapp), SUM(s.nrgs), SUM(s.nrcg), SUM(s.nrsho), SUM(s.nrsv), SUM(s.nrip), SUM(s.nrh), SUM(s.nrr), SUM(s.nrer), SUM(s.nrbb), SUM(s.nrso), SUM(s.nr2b), SUM(s.nr3b), SUM(s.nrhr), SUM(s.nrab), ";
-		$sql .= "ROUND((SUM(s.nrh)/SUM(s.nrab)), 3), "; /* opp avg */
-		$sql .= "SUM(s.nrwp), SUM(s.nrhbp), SUM(s.nrbk), ";
-		$sql .= "ROUND((SUM(s.nrer)/$nrtotinnings)*9, 2) "; /* era */
-        $sql .= "FROM pitching s, teams t ";
-        $sql .= "WHERE t.idteam = s.idteam AND idperson = ?";
-
-		$this->_totals = $this->_db->select($sql, $types, $values);
+        return $this->show();
     }
 
     function getRows() : array
@@ -69,5 +56,73 @@ class Pitching
     {
         return $this->_headers;
     }
+
+	/* Earned Run Average */
+    function calculateEarnedRunAverage(array $row) : array
+    {
+		/**
+		 * nrEr = The number of earned runs 
+		 * nrIp = the number of innings pitched. Thirds of an inning are presented as .1, .2 or .3
+		 */	
+        $nrera = "???";
+        $nrer = $row['nrer'];
+        $nrip = $row['nrip'];
+        if ($nrip)
+        {
+			/* if it has a fraction */
+			$nrinteger 	= intval($nrip);
+			$nrdecimals	= $nrip - $nrinteger;
+
+            /** can only be 1 or 2  */
+			if ($nrdecimals >= 0.3){
+                throw new exception("The number of innings pitched is off. {$nrip}");
+			} 
+			
+			$nrdecimals	= number_format($nrdecimals, 1) * (10/3);
+			$nrip		= $nrinteger + $nrdecimals;
+	
+			$nrera	= ($nrer/$nrip) * 9;
+			$nrera	= number_format($nrera, 2);
+
+        }
+        $row['nrera'] = $nrera;
+        return $row;
+    }
+
+    function calculateOpponentAverage(array $row){
+		/**
+		 * https://en.wikipedia.org/wiki/Batting_average_against
+		 * BF		= the number of batters faced by the pitcher
+		 * BB		= the number of base on balls
+		 * HBP		= the number of hit batsmen
+		 * SH		= the number of sacrifice hits
+		 * SF		= the number of sacrifice flies
+		 * CINT	= the number of catcher's interference
+		 */
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+        }
+                
+        $keys = ["nrbf", "nrh", "nrbb", "nrhbp", "nrsh", "nrsf", "nrcint"];
+        foreach ($keys as $key)
+        {
+            if (!array_key_exists($key, $row))
+            {
+                $nroppavg = "---";
+                $this->_log->write(__METHOD__ . " : key {$key} not provided in array, unable to process OBA percnetage.");
+            } else {
+                ${$key} = $row[$key];
+            }
+        }
+
+        if ($nrbf < ($nrh + $nrbb + $nrhbp + $nrsh + $nrsf + $nrcint)){
+			$$nroppavg = "???";
+		} else {
+			$nravg	= $nrh / ($nrbf - ($nrbb + $nrhbp + $nrsh + $nrsf + $nrcint));
+			$nravg	= ltrim(number_format($nravg, 3),0);
+			return $nravg;
+        }
+        $row['nroppavg'] = $nroppavg;
+	}
 }
 ?>

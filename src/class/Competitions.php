@@ -16,9 +16,9 @@ class Competitions extends ListPage{
 	var $nrcolumns = 1;
 //	var $nryear;
 
-	function __construct(MysqlDatabase $db)
+	function __construct(MysqlDatabase $db, Log $log)
 	{
-		parent::__construct($db);
+		parent::__construct($db, $log);
 
 		/* get a list of years */
 		$this->years	= $this->getYears("competitions");
@@ -32,11 +32,11 @@ class Competitions extends ListPage{
 		if (empty($this->ftforeignkeys)){
 			$sql = "SELECT idcompetition, nmcompetition, nmsub, nryear, IF(cdsport='HB', 'Honkbal', 'Softball') as cdsport ";
 			$sql .= "FROM competitions ORDER BY nryear, nmcompetition, nmsub, cdsport";
-			$ftrows	= $this->_db->select($sql);
+			$rows	= $this->_db->select($sql);
 
-			foreach($ftrows as $ftrow){
-				$ftvalrep = $ftrow['nryear'] . " " . $ftrow['nmcompetition'] . " " . trim($ftrow['nmsub'] . " " . $ftrow['cdsport']);
-				$this->ftforeignkeys[$ftrow['idcompetition']]	= $ftvalrep;
+			foreach($rows as $row){
+				$ftvalrep = $row['nryear'] . " " . $row['nmcompetition'] . " " . trim($row['nmsub'] . " " . $row['cdsport']);
+				$this->ftforeignkeys[$row['idcompetition']]	= $ftvalrep;
 			}
 		}
 		return $this->ftforeignkeys;
@@ -51,8 +51,8 @@ class Competitions extends ListPage{
 		$ftwomenssoftball	= "";
 
 		$x = 0;
-		foreach ($this->ftrows as $row){
-			$object = new Competition($this->_db);
+		foreach ($this->_rows as $row){
+			$object = new Competition($this->_db, $this->_log);
 			$object->setRecord($row);
 			$object->processRecord();
 
@@ -89,33 +89,33 @@ class Competitions extends ListPage{
 
 		/* print the stuff */
 		$html = "<h2 class='art-postheader'>" . $this->nmtitle . " " . $this->getYear() . "</h2>\n";
-		if (count($this->ftrows) == 0){
+		if (count($this->_rows) == 0){
 			$html .= "<p>Geen resultaten gevonden voor " . strtolower($this->nmtitle) . ".</p>";
 			return $html;
 		}
 
 		$html .= "<table id='competition'>";
 		$ftheader	= "";
-		$ftrows		= "";
+		$rows		= "";
 
 		if (!empty($ftmensbaseball)){
 			$ftheader	.= "<th>Honkbal Heren</th>";
-			$ftrows		.= "<td>$ftmensbaseball</td>";
+			$rows		.= "<td>$ftmensbaseball</td>";
 		}
 		if (!empty($ftwomensbaseball)){
 			$ftheader	.= "<th>Honkbal Dames</th>";
-			$ftrows		.= "<td>$ftwomensbaseball</td>";
+			$rows		.= "<td>$ftwomensbaseball</td>";
 		}
 		if (!empty($ftmenssoftball)){
 			$ftheader	.= "<th>Softball Heren</th>";
-			$ftrows		.= "<td>$ftmenssoftball</td>";
+			$rows		.= "<td>$ftmenssoftball</td>";
 		}
 		if (!empty($ftwomenssoftball)){
 			$ftheader	.= "<th>Softball Dames</th>";
-			$ftrows		.= "<td>$ftwomenssoftball</td>";
+			$rows		.= "<td>$ftwomenssoftball</td>";
 		}
 		$html	.= "<tr>" . $ftheader . "</tr>";
-		$html	.= "<tr>" . $ftrows . "</tr>";
+		$html	.= "<tr>" . $rows . "</tr>";
 
 		$html .= "</table>";
 

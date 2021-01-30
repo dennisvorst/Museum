@@ -6,9 +6,10 @@ require_once "Article.php";
 require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "MysqlDatabase.php";
+require_once "Log.php";
 
 class Articles extends ListPage{
-	
+
 	var $nmtitle		= "Artikelen";
 
 	var $nmtable 		= "articles";
@@ -26,8 +27,9 @@ class Articles extends ListPage{
 	/* for pagination purposes we need this variable */
 	static $nrcurrentarticlespage = 1;
 
-	function __construct(MysqlDatabase $db) {
-		parent::__construct($db);
+	function __construct(MysqlDatabase $db, Log $log)
+	{
+		parent::__construct($db, $log);
 
 		/* get a list of years */
 		$this->years	= $this->getYears("articles");
@@ -56,7 +58,7 @@ class Articles extends ListPage{
 			$nrOffSet = ($nrCurrentPage - 1) * $this->nrRecordsOnPage;
 		}
 		$sql = "SELECT a.* FROM clubarticles ac, articles a WHERE a.idarticle = ac.idarticle AND ac.idclub = ? ORDER BY a.dtpublish LIMIT ? OFFSET ?";
-		$this->ftrows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
+		$this->_rows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("club", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getClubArticles
@@ -79,7 +81,7 @@ class Articles extends ListPage{
 		$sql .= "WHERE a.idarticle = ap.idarticle AND ap.idperson = ?";
 		$sql .= " ORDER BY a.dtpublish LIMIT ? OFFSET ?";
 
-		$this->ftrows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
+		$this->_rows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("person", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getPersonArticles
@@ -87,10 +89,10 @@ class Articles extends ListPage{
 	function getForeignKeyValues(){
 		if (empty($this->ftforeignkeys)){
 			$sql = "SELECT idarticle, fttitle1 FROM articles ORDER BY fttitle1";
-			$ftrows	= $this->_db->select($sql);
+			$rows	= $this->_db->select($sql);
 
-			foreach($ftrows as $ftrow){
-				$this->ftforeignkeys[$ftrow['idarticle']]	= $ftrow['fttitle1'];
+			foreach($rows as $row){
+				$this->ftforeignkeys[$row['idarticle']]	= $row['fttitle1'];
 			}
 		}
 		return $this->ftforeignkeys;

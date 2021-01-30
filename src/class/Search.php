@@ -69,11 +69,11 @@ class Search{
 			$nmtable 	= $key;
 			$nmclass	= $tables[$key];
 
-			$nminstance = new $nmclass($this->_db);
+			$nminstance = new $nmclass($this->_db, $this->_log);
 			$nminstance->createWhere($nmtable, $nminstance->getSearchFields(), $ftsearch, "");
 			// todo : tuirn into correct select
-			$ftrows = $nminstance->queryDb_6(null, $nmtable, null, null, 0, 30);
-			$nminstance->setRows($ftrows);
+			$rows = $nminstance->queryDb_6(null, $nmtable, null, null, 0, 30);
+			$nminstance->setRows($rows);
 			echo $nminstance->getPage("");
 			$nminstance = null;
 		}

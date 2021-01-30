@@ -13,9 +13,9 @@ class Games extends ListPage{
 	/* for the tile list */
 	var $nrcolumns = 1;
 
-	function __construct(MysqlDatabase $db)
+	function __construct(MysqlDatabase $db, Log $log)
 	{
-		parent::__construct($db);
+		parent::__construct($db, $log);
 	}
 
 	function getMain($nmtab, $nrCurrentPage){
@@ -39,7 +39,7 @@ class Games extends ListPage{
 		$sql .= "AND g.idcompetition = ? ";
 		$sql .= "ORDER BY g.dtstart, g.tmstart ";
 
-		$this->ftrows = $this->_db->select($sql, "i", [$id]);
+		$this->_rows = $this->_db->select($sql, "i", [$id]);
 
 		return $this->getPage("");
 	}
@@ -48,7 +48,7 @@ class Games extends ListPage{
         /* get the games */
 
 		/* create a string with game information */
-		if (count($this->ftrows) == 0){
+		if (count($this->_rows) == 0){
 			return null;
 		}
 
@@ -56,8 +56,8 @@ class Games extends ListPage{
 		$table = new HtmlTable();
 		$table->addRow(new HtmlTableRow(["Date", "Time", "Home", "Away", "Score", "Innings"], [], "H"), "H");
 
-		foreach ($this->ftrows as $row){
-			$game = new Game($this->_db);
+		foreach ($this->_rows as $row){
+			$game = new Game($this->_db, $this->_log);
 			$game->setRecord($row);
 			$game->processRecord();
 

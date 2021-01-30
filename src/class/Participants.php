@@ -16,9 +16,9 @@ class Participants extends ListPage{
 
 	var $ftfieldlist = array();
 
-	function __construct(MysqlDatabase $db)
+	function __construct(MysqlDatabase $db, Log $log)
 	{
-		parent::__construct($db);
+		parent::__construct($db, $log);
 
 		// create the fieldlist
 		$this->ftfieldlist = ["nmteam" => "Team", "nrgames" => "G", "nrwins" => "W", "nrlosses" => "L", "nrdraws" => "D", "nrrunsscored" => "Runs voor", "nrrunsagainst" => "Runs tegen", "ischampion" => ""];
@@ -40,20 +40,20 @@ class Participants extends ListPage{
 		$sql .= "WHERE t.idteam = p.idteam ";
 		$sql .= "AND p.idcompetition = ?";
 
-		$this->ftrows = $this->_db->select($sql, "i", [$id]);
+		$this->_rows = $this->_db->select($sql, "i", [$id]);
 
 		/* add additional stuff here */
-		for($i = 0; $i < count($this->ftrows); $i++){
-			$this->ftrows[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftrows[$i]['idparticipant'] . ">" . $this->ftrows[$i]['nmteam'] . "</a>\n";
+		for($i = 0; $i < count($this->_rows); $i++){
+			$this->_rows[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->_rows[$i]['idparticipant'] . ">" . $this->_rows[$i]['nmteam'] . "</a>\n";
 			/* delete the idparticipant from the row. */
-			unset($this->ftrows[$i]['idparticipant']);
+			unset($this->_rows[$i]['idparticipant']);
 
 			/* set the champion */
 			//<i class="fa fa-trophy" aria-hidden="true"></i>
-			if($this->ftrows[$i]['ischampion']){
-				$this->ftrows[$i]['ischampion']	= "<i class='fa fa-trophy' aria-hidden='true' title='Kampioen'></i>";
+			if($this->_rows[$i]['ischampion']){
+				$this->_rows[$i]['ischampion']	= "<i class='fa fa-trophy' aria-hidden='true' title='Kampioen'></i>";
 			} else {
-				$this->ftrows[$i]['ischampion']	= "";
+				$this->_rows[$i]['ischampion']	= "";
 			}
 
 		}
@@ -64,7 +64,7 @@ class Participants extends ListPage{
 	function getPage($ftpagination){
 		/* create a string with participant information */
 
-		if (count($this->ftrows) == 0){
+		if (count($this->_rows) == 0){
 			return null;
 		}
 
@@ -74,7 +74,7 @@ class Participants extends ListPage{
 		$table->addRow(new HtmlTableRow(array_values($this->ftfieldlist), [], "H"), "H");
 
 		/* create the table rows */
-		foreach ($this->ftrows as $row){
+		foreach ($this->_rows as $row){
 			foreach ($keys as $key)
 			{
 				$cells[] = $row[$key];

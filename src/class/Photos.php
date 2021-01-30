@@ -3,6 +3,7 @@ require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "Photo.php";
 require_once "MysqlDatabase.php";
+require_once "Log.php";
 
 class Photos extends ListPage{
 	var $nmtitle		= "Foto's";
@@ -20,9 +21,9 @@ class Photos extends ListPage{
 
 
 	/* constructor */
-	function __construct(MysqlDatabase $db)
+	function __construct(MysqlDatabase $db, Log $log)
 	{
-		parent::__construct($db);
+		parent::__construct($db, $log);
 
 		/* get a list of years */
 		$this->years	= $this->getYears("photos");
@@ -51,7 +52,7 @@ class Photos extends ListPage{
 			$nrOffSet = ($nrCurrentPage - 1) * $this->nrRecordsOnPage;
 		}
 		$sql = "SELECT p.* FROM clubphotos cp, photos p WHERE p.idphoto = cp.idphoto AND cp.idclub = ? LIMIT ? OFFSET ?";
-		$this->ftrows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
+		$this->_rows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("club", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getClubPhotos
@@ -75,7 +76,7 @@ class Photos extends ListPage{
 			$nrOffSet = ($nrCurrentPage - 1) * $this->nrRecordsOnPage;
 		}
 		$sql = "SELECT p.* FROM personphotos pp, photos p WHERE p.idphoto = pp.idphoto AND pp.idperson = ? LIMIT ? OFFSET ?";
-		$this->ftrows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
+		$this->_rows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 
 		return $this->getTabPage("person", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getPersonPhotos
@@ -90,7 +91,7 @@ class Photos extends ListPage{
 
 		$x = 0;
 		foreach ($rows as $row){
-			$photo = new Photo($this->_db);
+			$photo = new Photo($this->_db, $this->_log);
 			$photo->setRecord($row);
 			$photo->processRecord();
 			$photo->createMediumImage();

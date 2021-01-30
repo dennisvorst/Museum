@@ -9,12 +9,14 @@ ini_set('display_errors', 'On');  //On or Off
 require_once "MainPage.php";
 require_once "HtmlField.php";
 require_once "MysqlDatabase.php";
+require_once "Log.php";
 
 /** todo: pass mainpage as an object in the constructor
  * todo: change the output of getRecordId back to integer
 */
 class SingleItemPage extends MainPage{
 	protected $_db;
+	protected $_log;
 	protected $_id;
 
 
@@ -32,10 +34,12 @@ class SingleItemPage extends MainPage{
 	var $is_featured;
 
 	/* constructor */
-	function __construct(MysqlDatabase $db){
+	function __construct(MysqlDatabase $db, Log $log){
 		parent::__construct();
 
 		$this->_db = $db;
+		$this->_log = $log;
+
 	}
 
 	function withID(int $id) : void

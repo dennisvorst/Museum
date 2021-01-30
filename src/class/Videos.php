@@ -17,9 +17,9 @@ class Videos extends ListPage{
 	var $nrcolumns = 3;
 
 	/* constructor */
-	function __construct(MysqlDatabase $db)
+	function __construct(MysqlDatabase $db, Log $log)
 	{
-		parent::__construct($db);
+		parent::__construct($db, $log);
 	}
 
 	function getClubVideos($id, $nmCurrentTab, $nrCurrentPage){
@@ -40,7 +40,7 @@ class Videos extends ListPage{
 
 		/* get the videos */
 		$sql = "SELECT v.* FROM clubvideos cv, videos v WHERE v.idvideo = cv.idvideo AND cv.idclub = ? ORDER BY v.nmvideo";
-		$this->ftrows = $this->_db->select($sql, "i", [$id]);
+		$this->_rows = $this->_db->select($sql, "i", [$id]);
 
 		return $this->getTabPage("club", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getClubVideos
@@ -57,7 +57,7 @@ class Videos extends ListPage{
 
 		/* get the videos */
 		$sql = "SELECT v.* FROM personvideos pv, videos v WHERE v.idvideo = pv.idvideo AND pv.idperson = ? ORDER BY v.nmvideo";
-		$this->ftrows = $this->_db->select($sql, "i", [$id]);
+		$this->_rows = $this->_db->select($sql, "i", [$id]);
 
 		return $this->getTabPage("person", $id, $nmCurrentTab, $nrCurrentPage, $nrTotPages);
 	}//getMain

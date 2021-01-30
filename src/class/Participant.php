@@ -20,8 +20,8 @@ class Participant extends SingleItemPage{
 
 	var $nmparticipant;
 
-	function __construct(MysqlDatabase $db){
-		parent::__construct($db);
+	function __construct(MysqlDatabase $db, Log $log){
+		parent::__construct($db, $log);
 	}
 
 	function processRecord(){
@@ -60,14 +60,14 @@ class Participant extends SingleItemPage{
 		/* get the coaches */
 		$sql	= "SELECT * FROM rosters r, persons p WHERE r.idperson = p.idperson AND cdrole = ? AND idparticipant = ?";
 		$sql	.= " ORDER BY nmlast, nmfirst, nmsur";
-		$ftrows	= $this->_db->select($sql, "si", ['C', $this->ftrecord['idparticipant']]);
+		$rows	= $this->_db->select($sql, "si", ['C', $this->ftrecord['idparticipant']]);
 
 		$ftcoaches	= array();
-		for ($i = 0; $i < count($ftrows);$i++){
-			$nm	= $ftrows[$i]['nmlast'] . ", " . $ftrows[$i]['nmfirst'] . (empty($ftrows[$i]['nmsur']) ? "" : " " . $ftrows[$i]['nmsur'] . " " ) . ($ftrows[$i]["hasdied"]? " (&#8224;)" : "");
-			$ftcoaches[$i]['nm']	= "<a href='index.php?nmclass=person&id=" . $ftrows[$i]['idperson'] . "'>" . $nm . "</a>";
-			if (isset($ftrows[$i]['cdcountry'])){
-				$ftcoaches[$i]['cdcountry']	= "<img src='images/countries/" . $ftrows[$i]['cdcountry'] . ".png' > ";
+		for ($i = 0; $i < count($rows);$i++){
+			$nm	= $rows[$i]['nmlast'] . ", " . $rows[$i]['nmfirst'] . (empty($rows[$i]['nmsur']) ? "" : " " . $rows[$i]['nmsur'] . " " ) . ($rows[$i]["hasdied"]? " (&#8224;)" : "");
+			$ftcoaches[$i]['nm']	= "<a href='index.php?nmclass=person&id=" . $rows[$i]['idperson'] . "'>" . $nm . "</a>";
+			if (isset($rows[$i]['cdcountry'])){
+				$ftcoaches[$i]['cdcountry']	= "<img src='images/countries/" . $rows[$i]['cdcountry'] . ".png' > ";
 			} else {
 				$ftcoaches[$i]['cdcountry']	= "<img src='images/countries/__.png' > ";
 			}
@@ -76,14 +76,14 @@ class Participant extends SingleItemPage{
 		/* get the players */
 		$sql	= "SELECT * FROM rosters r, persons p WHERE r.idperson = p.idperson AND cdrole = ? AND idparticipant = ?";
 		$sql	.= " ORDER BY nmlast, nmfirst, nmsur";
-		$ftrows	= $this->_db->select($sql, "si", ['P', $this->ftrecord['idparticipant']]);
+		$rows	= $this->_db->select($sql, "si", ['P', $this->ftrecord['idparticipant']]);
 
 		$ftplayers	= array();
-		for ($i = 0; $i < count($ftrows);$i++){
-			$nm	= $ftrows[$i]['nmlast'] . ", " . $ftrows[$i]['nmfirst'] . (empty($ftrows[$i]['nmsur']) ? "" : " " . $ftrows[$i]['nmsur'] . " " ) . ($ftrows[$i]["hasdied"]? " (&#8224;)" : "");
-			$ftplayers[$i]['nm']	= "<a href='index.php?nmclass=person&id=" . $ftrows[$i]['idperson'] . "'>" . $nm . "</a>";
-			if (isset($ftrows[$i]['cdcountry'])){
-				$ftplayers[$i]['cdcountry']	= "<img src='images/countries/" . $ftrows[$i]['cdcountry'] . ".png' width='50%'> ";
+		for ($i = 0; $i < count($rows);$i++){
+			$nm	= $rows[$i]['nmlast'] . ", " . $rows[$i]['nmfirst'] . (empty($rows[$i]['nmsur']) ? "" : " " . $rows[$i]['nmsur'] . " " ) . ($rows[$i]["hasdied"]? " (&#8224;)" : "");
+			$ftplayers[$i]['nm']	= "<a href='index.php?nmclass=person&id=" . $rows[$i]['idperson'] . "'>" . $nm . "</a>";
+			if (isset($rows[$i]['cdcountry'])){
+				$ftplayers[$i]['cdcountry']	= "<img src='images/countries/" . $rows[$i]['cdcountry'] . ".png' width='50%'> ";
 			} else {
 				$ftplayers[$i]['cdcountry']	= "<img src='images/countries/__.png' > ";
 			}
@@ -99,10 +99,10 @@ class Participant extends SingleItemPage{
 		/* get the particpants */
 		$sql	= "SELECT p.idparticipant, r.nmteam FROM participants p, teams r ";
 		$sql	.= "WHERE r.idteam = p.idteam AND idcompetition = ?";
-		$ftrows	= $this->_db->select($sql, "i", [$this->ftrecord['idcompetition']]);
+		$rows	= $this->_db->select($sql, "i", [$this->ftrecord['idcompetition']]);
 
 		$ftparticipants	= array();
-		foreach($ftrows as $row){
+		foreach($rows as $row){
 			$ftparticipants[$row['idparticipant']]	= $row['nmteam'];
 		}
 

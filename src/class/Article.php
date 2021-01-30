@@ -8,7 +8,8 @@ require_once "Photo.php";
 require_once "Source.php";
 require_once "CheckBox.php";
 require_once "SingleItemPage.php";
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
+//require_once "Log.php";
 
 class Article extends SingleItemPage{
 	var $nmtitle	= "Artikelen";
@@ -36,8 +37,8 @@ class Article extends SingleItemPage{
 	var $nrMinParagraphLength = 100;
 
 	/* constructor */
-	function __construct(MysqlDatabase $db){
-		parent::__construct($db);
+	function __construct(MysqlDatabase $db, Log $log){
+		parent::__construct($db, $log);
 	}
 
 	function processRecord(){
@@ -90,7 +91,7 @@ class Article extends SingleItemPage{
 		$dtpublish	= $dateObj->translateDate($this->dtpublish, "W");
 
 		/* look for a photo */
-		$photoObj	= new Photo($this->_db);
+		$photoObj	= new Photo($this->_db, $this->_log);
 		$photoObj->setIdByArticle($this->_id);
 
 		$photo = array();
@@ -146,7 +147,7 @@ class Article extends SingleItemPage{
 		$this->processRecord();
 
 		/* get the source logo */
-		$sourceObj	= new Source($this->_db);
+		$sourceObj	= new Source($this->_db, $this->_log);
 		$sourceLogo	= $sourceObj->getArticleLogo($this->_id);
 
 		/* translate the date */
@@ -154,7 +155,7 @@ class Article extends SingleItemPage{
     	$dtpublish	= $dateObj->translateDate($this->dtpublish, "W");
 
 		/* get the photos */
-		$this->photosObj = new Photos($this->_db);
+		$this->photosObj = new Photos($this->_db, $this->_log);
 		$this->photosObj->getArticlePhotos($this->_id);
 
 		/* create the article and add the photos */
@@ -355,7 +356,7 @@ class Article extends SingleItemPage{
 		$rows	= $this->_db->select($query, "i", [$this->_id]);
 		$x = 0;
 		foreach ($rows as $row){
-			$person = new Person($this->_db);
+			$person = new Person($this->_db, $this->_log);
 			$person->withId($row['idperson']);
 			$this->persons[$x]	= $person;
 			$x++;
@@ -374,7 +375,7 @@ class Article extends SingleItemPage{
 
 		$x = 0;
 		foreach ($rows as $row){
-			$club = new Club($this->_db);
+			$club = new Club($this->_db, $this->_log);
 			$club->withId($row['idclub']);
 			$this->clubs[$x]	= $club;
 			$x++;

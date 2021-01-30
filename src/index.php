@@ -1,4 +1,10 @@
 <?php
+/** todo : make the webstie wider so that the pitching table fits 
+ * todo : remove the classes i dont need in the index.php
+ * todo: rename all the query to sql 
+ * all the row to row
+ * all the class row to _row
+*/
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
@@ -41,8 +47,8 @@ require_once "class/Participants.php";
 require_once "class/Search.php";
 require_once "class/Social.php";
 require_once "class/Source.php";
-require_once "class/Stats.php";
-require_once "class/Stat.php";
+require_once "class/Statistics.php";
+require_once "class/Statistic.php";
 
 require_once "class/Teams.php";
 
@@ -124,7 +130,7 @@ if (empty($nmclass)){
 	$object = new Home($db);
 } else {
 	$object = ucfirst($nmclass);
-	$object = new $object($db);
+	$object = new $object($db, $log);
 }
 ?>
 <!DOCTYPE html>

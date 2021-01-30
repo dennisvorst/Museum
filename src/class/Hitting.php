@@ -1,21 +1,26 @@
 <?php
-class Hitting{
-    private $_headers = ["Team", "Jaar", "AVG", "GP", "GS", "AB", "R", "H", "2B", "3B", "HR", "RBI", "TB", "SLG%", "BB", "HBP", "SO", "GDP", "OBP%", "SF", "SH", "SB", "ATT"];
-    private $_db;
-    private $_rows =[];
-	private $_totals =[];
+require_once "iStatistics.php";
+require_once "MysqlDatabase.php";
+require_once "Statistics.php";
+require_once "Log.php";
+
+class Hitting extends Statistics implements iStatistics
+{
+	protected $_headers = ["Team", "Jaar", "AVG", "GP", "GS", "AB", "R", "H", "2B", "3B", "HR", "RBI", "TB", "SLG%", "BB", "HBP", "SO", "GDP", "OBP%", "SF", "SH", "SB", "ATT"];
+	protected $_keys = ["nravg", "nrgp", "nrgs", "nrab", "nrr", "nrh", "nr2b", "nr3b", "nrhr", "nrrbi", "nrtb", "nrslgperc", "nrbb", "nrhbp", "nrso", "nrgdp", "nrobperc", "nrsf", "nrsh", "nrsb", "nratt"];
+	protected $_title = "Hitting";
 	
-	function __construct(MysqlDatabase $db)
+    function __construct(MysqlDatabase $db, Log $log)
     {
-        $this->_db = $db;
+        parent::__construct($db, $log);
     }
 
-    function getClubStats(int $id)
+    function getTeamStats(int $id) : string
     {
 
     }
 
-	function getPersonStats(int $id)
+	function getPersonStats(int $id) : string
 	{
 		/** init */
 		$types = "i";
@@ -24,29 +29,21 @@ class Hitting{
 		/************************
 		 * calculate Hitting
 		 ***********************/
-		$sql = "SELECT t.nmteam, s.nryear, ";
-		$sql .= "ROUND(s.nrh/s.nrab, 3), ";
-		$sql .= "s.nrgp, s.nrgs, s.nrab, s.nrr, s.nrh, s.nr2b, s.nr3b, s.nrhr, s.nrrbi, s.nrtb, ";
 		/* s.nrh contains the total of hits. So doubles and triples are counted in there. That is why we multiply doubles by 2-1, triples by 3-1 etc. */
-		$sql .= "ROUND((s.nrh + s.nr2b + (s.nr3b*2) + (s.nrhr*3)) / s.nrab,3), ";
-		$sql .= "s.nrbb, s.nrhbp, s.nrso, s.nrgdp, ";
-		$sql .= "s.nrobperc, ";
-		$sql .= "s.nrsf, s.nrsh, s.nrsb, s.nratt FROM hitting s, teams t ";
-		$sql .= "WHERE t.idteam = s.idteam AND idperson = ?";
+		$sql = "SELECT t.nmteam, s.nryear, s.nrgp, s.nrgs, s.nrab, s.nrr, s.nrh, s.nr2b, s.nr3b, s.nrhr, s.nrrbi, s.nrtb, s.nrslgperc, s.nrbb, s.nrhbp, s.nrso, s.nrgdp, s.nrobperc, s.nrsf, s.nrsh, s.nrsb, s.nratt 
+				FROM hitting s, teams t 
+				WHERE t.idteam = s.idteam AND idperson = ?";
 		$this->_rows = $this->_db->select($sql, $types, $values);
+		$rows = $this->_db->select($sql, $types, $values);
 
-		/************************
-		 * calculate Hitting totals
-		 ***********************/
-		$sql = "SELECT ROUND(SUM(s.nrh)/SUM(s.nrab), 3), ";
-		$sql .= "SUM(s.nrgp), SUM(s.nrgs), SUM(s.nrab), SUM(s.nrr), SUM(s.nrh), SUM(s.nr2b), SUM(s.nr3b), SUM(s.nrhr), SUM(s.nrrbi), SUM(s.nrtb), ";
-		$sql .= "ROUND((SUM(s.nrh) + SUM(s.nr2b) + (SUM(s.nr3b)*2) + (SUM(s.nrhr)*3)) / SUM(s.nrab),3), "; /* slgperc*/
-		$sql .= "SUM(s.nrbb), SUM(s.nrhbp), SUM(s.nrso), SUM(s.nrgdp), ";
-		$sql .= "0, "; /* nrobpperc */
-		$sql .= "SUM(s.nrsf), SUM(s.nrsh), SUM(s.nrsb), SUM(s.nratt) FROM hitting s, teams t ";
-		$sql .= "WHERE t.idteam = s.idteam AND idperson = ?";
+		foreach ($rows as $row)
+		{
+			$this->_rows[] = $row;
+		}
 
-		$this->_totals = $this->_db->select($sql, $types, $values);
+		$this->_totals = $this->_getTotals();
+
+		return $this->show();
 	}
 
     function getRows() : array
@@ -123,55 +120,6 @@ class Hitting{
 		}
 	}
 	
-	/*** Pitching Stats ***/
-	/* Earned Run Average */
-	function calculateEarnedRunAverage($nrEr, $nrIp){
-		/**
-		 * nrEr = The number of earned runs 
-		 * nrIp = the number of innings pitched. Thirds of an inning are presented as .1, .2 or .3
-		 */	
-		if (!$nrIp){
-			/* there is no average when there were no innings pitched */
-			return "???";
-		} else {
-			/* if it has a fraction */
-			$nrInteger 	= intval($nrIp);
-			$nrDecimals	= $nrIp - $nrInteger;
-			
-			if ($nrDecimals > 0.3){
-				return "???";
-			} 
-			
-			$nrDecimals	= number_format($nrDecimals, 1) * (10/3);
-			$nrIp		= $nrInteger + $nrDecimals;
-	
-			$nrEra	= ($nrEr/$nrIp) * 9;
-			$nrEra	= number_format($nrEra, 2);
-
-			return $nrEra;
-		}
-	}
-	
-	function calculateOpponentAverage($nrBf, $nrH, $nrBb, $nrHbp, $nrSh, $nrSf, $nrCint){
-		/**
-		 * https://en.wikipedia.org/wiki/Batting_average_against
-		 * BF		= the number of batters faced by the pitcher
-		 * BB		= the number of base on balls
-		 * HBP		= the number of hit batsmen
-		 * SH		= the number of sacrifice hits
-		 * SF		= the number of sacrifice flies
-		 * CINT	= the number of catcher's interference
-		 */
-		if (!$nrBf){
-			return "---";
-		} else if ($nrBf < ($nrH + $nrBb + $nrHbp + $nrSh + $nrSf + $nrCint)){
-			return "???";
-		} else {
-			$nrAvg	= $nrH / ($nrBf - ($nrBb + $nrHbp + $nrSh + $nrSf + $nrCint));
-			$nrAvg	= ltrim(number_format($nrAvg, 3),0);
-			return $nrAvg;
-		}
-	}
 	
 	/*** Fielding Stats ***/
 	/* Fielding Percentage */
@@ -182,6 +130,10 @@ class Hitting{
 		 * nrA		= number of assists
 		 * nrE		= number of errors
 		 */
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
+		
 		if (!$nrPo){
 			return "---";
 		} else if ($nrA < ($nrPo + $nrE)){
@@ -210,4 +162,20 @@ class Hitting{
 			return $nrAvg;
 		}
 	}
+
+
+			// $sql = "SELECT t.nmteam, s.nryear, ";
+		// $sql .= "ROUND(s.nrh/s.nrab, 3), ";
+		// $sql .= "s.nrgp, s.nrgs, s.nrab, s.nrr, s.nrh, s.nr2b, s.nr3b, s.nrhr, s.nrrbi, s.nrtb, ";
+		// /* s.nrh contains the total of hits. So doubles and triples are counted in there. That is why we multiply doubles by 2-1, triples by 3-1 etc. */
+		// $sql .= "ROUND((s.nrh + s.nr2b + (s.nr3b*2) + (s.nrhr*3)) / s.nrab,3), "; /* nrtb ?? */
+		// $sql .= "s.nrbb, s.nrhbp, s.nrso, s.nrgdp, ";
+		// $sql .= "s.nrobperc, ";
+		// $sql .= "s.nrsf, s.nrsh, s.nrsb, s.nratt FROM hitting s, teams t ";
+		// $sql .= "WHERE t.idteam = s.idteam AND idperson = ?";
+
+//$sql .= "ROUND((s.nrh + s.nr2b + (s.nr3b*2) + (s.nrhr*3)) / s.nrab,3), ";
+//"ROUND(s.nrh/s.nrab, 3), ";
+
+
 }	

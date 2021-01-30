@@ -66,14 +66,14 @@ class HtmlSelect{
 
 	function getAllSources($nmfield, $idvalue){
 		/*create a dropdown list of all sources */
-		$source = new Source($this->_db);
+		$source = new Source($this->_db, $this->_log);
 		$ftlist = $source->getAllSources();
 		return HtmlSelect::getHTMLSelect($nmfield, $idvalue, $ftlist);
 	}//getAllSources
 
 	function getVerifiedSources($nmfield, $idvalue){
 		/*create a list of all verified sources */
-		$source = new Source($this->_db);
+		$source = new Source($this->_db, $this->_log);
 		$ftlist = $source->getVerifiedSources();
 		return HtmlSelect::getHTMLSelect($nmfield, $idvalue, $ftlist);
 	}//getVerifiedSources

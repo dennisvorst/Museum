@@ -18,8 +18,9 @@ class Video extends SingleItemPage{
 	var $nmurl;
 
 	/* constructor */
-	function __construct(MysqlDatabase $db){
-		parent::__construct($db);
+	function __construct(MysqlDatabase $db, Log $log)
+	{
+		parent::__construct($db, $log);
 	}
 
 	function processRecord(){
@@ -32,7 +33,7 @@ class Video extends SingleItemPage{
 
 	function createThumbnail($nrsize = 3){
 		/* new photo class */
-		$photo = new Photo($this->_db);
+		$photo = new Photo($this->_db, $this->_log);
 
 		$html = "<div class='col-xs-" . $nrsize . "'>\n";
 		$html .= "  <figure>\n";

@@ -3,6 +3,7 @@ require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "Club.php";
 require_once "MysqlDatabase.php";
+require_once "Log.php";
 
 class Teams extends ListPage{
 	var $nmtitle			= "Teams";
@@ -19,9 +20,9 @@ class Teams extends ListPage{
 	var $ftwomensbaseball = [];
 	var $ftwomenssoftball = [];
 
-	function __construct(MysqlDatabase $db)
+	function __construct(MysqlDatabase $db, Log $log)
 	{
-		parent::__construct($db);
+		parent::__construct($db, $log);
 
 		/* get a list of years */
 		$this->alphabet	= $this->getAlphabet("teams", "nmteam");
@@ -31,11 +32,11 @@ class Teams extends ListPage{
 	function getForeignKeyValues(){
 		if (empty($this->ftforeignkeys)){
 			$sql = "SELECT idteam, nmteam FROM teams ORDER BY nmteam";
-			$ftrows	= $this->_db->select($sql);
+			$rows	= $this->_db->select($sql);
 
-			foreach($ftrows as $ftrow){
-				$ftvalrep = $ftrow['nmteam'];
-				$this->ftforeignkeys[$ftrow['idteam']]	= $ftvalrep;
+			foreach($rows as $row){
+				$ftvalrep = $row['nmteam'];
+				$this->ftforeignkeys[$row['idteam']]	= $ftvalrep;
 			}
 		}
 		return $this->ftforeignkeys;

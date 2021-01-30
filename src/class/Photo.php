@@ -9,7 +9,7 @@ ini_set('display_errors', 'On');  //On or Off
 require_once "CheckBox.php";
 require_once "SingleItemPage.php";
 require_once "MysqlDatabase.php";
-require_once "MysqlDatabase.php";
+require_once "Log.php";
 
 class Photo extends SingleItemPage{
 	var $nmtable		= "photos";
@@ -45,8 +45,8 @@ class Photo extends SingleItemPage{
 	var $ftalignment = "";
 
 	/* constructor */
-	function __construct(MysqlDatabase $db){
-		parent::__construct($db);
+	function __construct(MysqlDatabase $db, Log $log){
+		parent::__construct($db, $log);
 	}
 
 	function processRecord(){
@@ -98,7 +98,7 @@ class Photo extends SingleItemPage{
 		$photo = $this->createImage();
 
 		/* get the source information */
-		$sourceObj	= new Source($this->_db);
+		$sourceObj	= new Source($this->_db, $this->_log);
 		$sourceObj->setId($this->idsource);
 
 //		$sourceLogo		= $sourceObj->getArticleLogo($this->_id);
@@ -304,7 +304,7 @@ class Photo extends SingleItemPage{
 		}
 
 		/** create the URL and return it **/
-		$sourceObj = new Source($this->_db);
+		$sourceObj = new Source($this->_db, $this->_log);
 		$sourceObj->withId($this->idsource);
 
 		$ftsourceUrl = $sourceObj->getSourceUrl();
@@ -383,7 +383,7 @@ class Photo extends SingleItemPage{
 
 		$x = 0;
 		foreach ($rows as $row){
-			$person = new Person($this->_db);
+			$person = new Person($this->_db, $this->_log);
 			$person->withId($row['idperson']);
 			$this->persons[$x]	= $person;
 			$x++;
@@ -401,7 +401,7 @@ class Photo extends SingleItemPage{
 
 		$x = 0;
 		foreach ($rows as $row){
-			$club = new Club($this->_db);
+			$club = new Club($this->_db, $this->_log);
 			$club->withId($row['idclub']);
 			$this->clubs[$x]	= $club;
 			$x++;
@@ -420,7 +420,7 @@ class Photo extends SingleItemPage{
 
 		$x = 0;
 		foreach ($rows as $row){
-			$article = new Article($this->_db);
+			$article = new Article($this->_db, $this->_log);
 			$article->withId($row['idarticle']);
 			$this->articles[$x]	= $article;
 			$x++;

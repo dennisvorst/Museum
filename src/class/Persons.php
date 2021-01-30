@@ -4,6 +4,7 @@ require_once "MenuBar.php";
 require_once "HtmlTable.php";
 require_once "Person.php";
 require_once "MysqlDatabase.php";
+require_once "Log.php";
 
 class Persons extends ListPage{
 	var $nmtitle			= "Personen";
@@ -21,9 +22,9 @@ class Persons extends ListPage{
 	/* for the tile list */
 	var $nrcolumns = 4;
 
-	function __construct(MysqlDatabase $db)
+	function __construct(MysqlDatabase $db, Log $log)
 	{
-		parent::__construct($db);
+		parent::__construct($db, $log);
 
 		/* get a list of letters */
 		$this->alphabet	= $this->getAlphabet("persons", "nmlast");
@@ -37,7 +38,7 @@ class Persons extends ListPage{
 		$html = "";
 
 		/* get the retired jerseys */
-		$nminstance = new Clubretired($this->_db);
+		$nminstance = new Clubretired($this->_db, $this->_log);
 		$html .= $nminstance->getClubJerseys($id);
 
 		return $html;
@@ -47,16 +48,16 @@ class Persons extends ListPage{
 		/* create a HTML select with persons */
 		/* get the data */
 		$query	= "SELECT * FROM persons ORDER BY nmfirst, nmsur, nmlast";
-		$ftrows	= $this->_db->select($query);
+		$rows	= $this->_db->select($query);
 
 		/* process the data */
-		$object	= new Person($this->_db);
+		$object	= new Person($this->_db, $this->_log);
 		$html = "<select id='$name' name='$name'>\n";
 		$html .= "<option value='' >Selecteer een persoon</option>";
 
 
-		foreach ($ftrows as $ftrow){
-			$object->setRecord($ftrow);
+		foreach ($rows as $row){
+			$object->setRecord($row);
 			$object->processRecord();
 
 			$selected = "";

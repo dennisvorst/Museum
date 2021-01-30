@@ -6,12 +6,13 @@ require_once "HtmlField.php";
 require_once "HtmlSelect.php";
 require_once "MainPage.php";
 require_once "MysqlDatabase.php";
+require_once "Log.php";
 
 class ListPage extends MainPage{
 	protected $_db;
+	protected $_rows;
 
 	var $nmtitle;
-	var $ftrows;
 	var $nmtable;
 	var $nmsingle;
 
@@ -37,7 +38,7 @@ class ListPage extends MainPage{
 	var $ftforeignkeys	= array();
 
 	/* constructor */
-	function __construct(MysqlDatabase $db){
+	function __construct(MysqlDatabase $db, Log $log){
 		parent::__construct();
 
 		$this->_db = $db;
@@ -59,7 +60,7 @@ class ListPage extends MainPage{
 		if (!empty($ftorderby)){
 			$query .= $ftorderby;
 		}
-		$this->ftrows	= $this->_db->select($query);
+		$this->_rows	= $this->_db->select($query);
 	}
 
 	/** todo - make prepare statement proof*/
@@ -72,7 +73,7 @@ class ListPage extends MainPage{
 		if (!empty($ftorderby)){
 			$query .= $ftorderby;
 		}
-		$this->ftrows	= $this->_db->select($query, "i", [1]);
+		$this->_rows	= $this->_db->select($query, "i", [1]);
 	}
 
 	function getOrderBy(){
@@ -141,7 +142,7 @@ class ListPage extends MainPage{
 			$values[] = $nrrowsend;
 		}
 
-		$this->ftrows = $this->_db->select($sql, $types, $values);
+		$this->_rows = $this->_db->select($sql, $types, $values);
 	}//getRecords
 
 	static function getStartYear(MysqlDatabase $db, string $nmtable) : void
@@ -249,13 +250,13 @@ class ListPage extends MainPage{
 		return $this->_searchFields;
 	}
 
-	function setRows($ftrows){
+	function setRows($rows){
 		/* deprecated */
 		if ($this->_debug){
 			$this->_log->write(__METHOD__ );
 		}
 
-		$this->ftrows = $ftrows;
+		$this->_rows = $rows;
 	}
 
 	function getAlphabetField(){
@@ -283,7 +284,7 @@ class ListPage extends MainPage{
 		Even if the resultset is empty a HTML string will be returned indicating the empty resultset.
 		*/
 		$html = "<h2 class='art-postheader'>" . $this->getTitle() . " </h2>\n";
-		if (count($this->ftrows) == 0){
+		if (count($this->_rows) == 0){
 			$html .= "<p>Geen resultaten gevonden voor " . strtolower($this->nmtitle) . ".</p>";
 			return $html;
 		}
@@ -353,7 +354,7 @@ class ListPage extends MainPage{
 		$nrstart = $nrend - $this->nrRecordsOnPage;
 
 		if ($nmclass === "persons" || $nmclass === "clubs"){
-			/* fill $this->ftrows */
+			/* fill $this->_rows */
 			$this->getRecords($this->nmtable, $nrstart, $nrend);
 		} else {
 			$this->getRecords($this->nmtable, $nrstart, $nrend);
@@ -382,25 +383,25 @@ class ListPage extends MainPage{
 		This function gets all the children (videos, photos, articles) associated with a parent (club, person) or other selection and are displayed as part of the tab page.
 		If there is no result this function will result in an ampty string.
 		*/
-		if (count($this->ftrows) == 0){
+		if (count($this->_rows) == 0){
 			return null;
 		}
 		$html = "<h2 class='art-postheader'>" . $this->getTitle() . "</h2>\n";
 
 		/* add pagination */
-		$html .= $this->addPagination(count($this->ftrows), $nmparent, $idparent, $nmtab, $nrTotPages, $nrCurrentPage);
+		$html .= $this->addPagination(count($this->_rows), $nmparent, $idparent, $nmtab, $nrTotPages, $nrCurrentPage);
 
 		/* add the content */
 		$html .= $this->getTileList($this->getTiles());
 		return $html;
 	}
 
-	function getTiles() : array 
+	function getTiles() : array
 	{
 		$fttiles = array();
 		$x = 0;
-		foreach ($this->ftrows as $row){
-			$object = new $this->nmclass($this->_db);
+		foreach ($this->_rows as $row){
+			$object = new $this->nmclass($this->_db, $this->_log);
 			$object->setRecord($row);
 			$object->processRecord();
 			$fttiles[$x] = $object->createThumbnail();
@@ -598,7 +599,7 @@ class ListPage extends MainPage{
 
 		$sql	.= $ftwhere;
 
-		$this->ftrows	= $this->_db->select($sql);
+		$this->_rows	= $this->_db->select($sql);
 	}
 
 	function createWhereEXACT($ftfieldlist, $ftvaluelist){

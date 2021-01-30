@@ -18,8 +18,8 @@ class Competition extends SingleItemPage{
 	var $participantsObj;
 	var $gamesObj;
 
-	function __construct(MysqlDatabase $db){
-		parent::__construct($db);
+	function __construct(MysqlDatabase $db, Log $log){
+		parent::__construct($db, $log);
 	}
 
 	function processRecord(){
@@ -45,11 +45,11 @@ class Competition extends SingleItemPage{
 		$this->processRecord();
 
 		/* get the participants */
-		$this->participantsObj = new Participants($this->_db);
+		$this->participantsObj = new Participants($this->_db, $this->_log);
 		$participants = $this->participantsObj->getCompetitionParticipants($this->_id);
 
 		/* get the games */
-		$this->gamesObj = new Games($this->_db);
+		$this->gamesObj = new Games($this->_db, $this->_log);
 		$games = $this->gamesObj->getCompetitionGames($this->_id);
 
 		/* show the information */

@@ -22,8 +22,8 @@ class Source extends SingleItemPage{
 	var $cdpermission;
 
 
-	function __construct(MysqlDatabase $db){
-		parent::__construct($db);
+	function __construct(MysqlDatabase $db, Log $log){
+		parent::__construct($db, $log);
 	}
 
 	function processRecord(){
@@ -67,10 +67,10 @@ class Source extends SingleItemPage{
 		/* return a list of all the sources */
 		$sql = "SELECT idsource, nmsource FROM sources ORDER BY nmsource";
 
-		$ftrows = $this->_db->select($sql);
+		$rows = $this->_db->select($sql);
 		$ftvalues = array();
-		foreach ($ftrows as $ftrow){
-			$ftvalues[$ftrow['idsource']] = $ftrow['nmsource'];
+		foreach ($rows as $row){
+			$ftvalues[$row['idsource']] = $row['nmsource'];
 		}
 		return $ftvalues;
 	}
@@ -78,8 +78,8 @@ class Source extends SingleItemPage{
 	function getVerifiedSources(){
 		/* return a list of only the verified sources */
 		$sql = "SELECT idsource, nmsource FROM sources WHERE cdverified = ? ORDER BY nmsource";
-		$ftrows = $this->_db->select($sql, "s", ['Y']);
-		return $ftrows;
+		$rows = $this->_db->select($sql, "s", ['Y']);
+		return $rows;
 	}
 }
 ?>

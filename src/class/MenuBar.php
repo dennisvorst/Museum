@@ -23,12 +23,12 @@ class MenuBar{
 		
 	}
 
-	function getToolBar($nmtable, $nmvalue, $cdtype, $ftrows){
+	function getToolBar($nmtable, $nmvalue, $cdtype, $rows){
 		/* crreate and display the toolbar.
 		$nmtable	= the database tanle name
 		$nmvalue	= the current selected value either a year or a single letter
 		$cdtype		= indicates year or alphabet
-		$ftrows		= an array of all the selectable values
+		$rows		= an array of all the selectable values
 		*/
 
 		/**********************
@@ -47,12 +47,12 @@ class MenuBar{
 
 		/* calculate the batch number to display */
 		if (empty(MenuBar::$nrcurrent)){
-			MenuBar::$nrcurrent = floor(array_search($nmvalue, $ftrows)/MenuBar::$nrcolumns) + 1;
+			MenuBar::$nrcurrent = floor(array_search($nmvalue, $rows)/MenuBar::$nrcolumns) + 1;
 		}
 		MenuBar::$nmclass = $nmtable;
 
 		/* calculate the total number of batches */
-		MenuBar::$nrlast = ceil((count($ftrows) / MenuBar::$nrcolumns));
+		MenuBar::$nrlast = ceil((count($rows) / MenuBar::$nrcolumns));
 
 
 		/* calculate the starting and end point of the current toolbar */
@@ -84,15 +84,15 @@ class MenuBar{
 		/* print the list of values */
 		for ($x=$nrstart; $x < $nrend ;$x++){
 			/* if we move past the total rows of values terminate it. */
-			if ($x == count($ftrows)){
+			if ($x == count($rows)){
 				break;
 			}
-			if ($ftrows[$x] == $nmvalue) {
+			if ($rows[$x] == $nmvalue) {
 				/* no url */
-				$toolbar .= "<li class='SubMenuBar'>$ftrows[$x]</li>\n";
+				$toolbar .= "<li class='SubMenuBar'>$rows[$x]</li>\n";
 			} else {
 				/* with url */
-				$toolbar .= "<li class='SubMenuBar'><a class='SubMenuBar' href='index.php?nmclass=$nmtable&$cdtype=" . strtoupper($ftrows[$x]) . "'>" . strtoupper($ftrows[$x]) . "</a></li>\n";
+				$toolbar .= "<li class='SubMenuBar'><a class='SubMenuBar' href='index.php?nmclass=$nmtable&$cdtype=" . strtoupper($rows[$x]) . "'>" . strtoupper($rows[$x]) . "</a></li>\n";
 			} // endif
 		}
 

@@ -9,14 +9,14 @@ class Clubretired extends SingleItemPage{
 	var $nmparent;
 	var $nrfk;
 
-	var $ftrows;
+	protected $_rows;
 	var $idretired;
 	var $idclub;
 	var $idperson;
 	var $nrjersey;
 
-	function __construct(MysqlDatabase $db){
-		parent::__construct($db);
+	function __construct(MysqlDatabase $db, Log $log){
+		parent::__construct($db, $log);
 	}
 
 	function processRecord(){
@@ -68,13 +68,13 @@ class Clubretired extends SingleItemPage{
 			$object = new $object();
 			$this->ftrecord	= $this->getRecord($this->nmtable, $object->getKeyName(), $this->nrfk);
 		}
-		$ftrows = $this->ftrecord;
+		$rows = $this->ftrecord;
 
 
 		/* get the subrecords */
 		$nmobject = ucfirst($this->nmparent);
 		$object = new $nmobject();
-		$ftrow	= $object->withID($this->nrfk);
+		$row	= $object->withID($this->nrfk);
 
 		?>
 		<h1><?php echo $object->getFullName(); ?> Retired Jerseys</h1>
@@ -90,14 +90,14 @@ class Clubretired extends SingleItemPage{
     		    <td>Jersey</td>
         	</tr>
         	<?php
-			if (count($ftrows)>0){
-				for ($i = 0; $i < count($ftrows); $i++){
+			if (count($rows)>0){
+				for ($i = 0; $i < count($rows); $i++){
 				?>
 				<tr>
 					<td>
 					<?php
 					if ($object->getKeyName() != "idclub"){
-						echo Clubs::createSelect($ftrows[$i]['idclub'], "idclub" . ($i+1), "idclub" . ($i+1));
+						echo Clubs::createSelect($rows[$i]['idclub'], "idclub" . ($i+1), "idclub" . ($i+1));
 					} else {
 					?>
 						<input type="hidden" name="idclub<?php echo ($i+1); ?>" value="<?php echo $this->nrfk; ?>">
@@ -108,7 +108,7 @@ class Clubretired extends SingleItemPage{
 					<td>
 					<?php
 					if ($object->getKeyName() != "idperson"){
-						echo Persons::createSelect($ftrows[$i]['idperson'], "idperson" . ($i+1), "idperson" . ($i+1));
+						echo Persons::createSelect($rows[$i]['idperson'], "idperson" . ($i+1), "idperson" . ($i+1));
 					} else {
 						?>
 						<input type="hidden" name="idperson<?php echo ($i+1); ?>" value="<?php echo $this->nrfk; ?>">
@@ -116,11 +116,11 @@ class Clubretired extends SingleItemPage{
 					}
 					?>
 					</td>
-					<td><input type="text" name="nrjersey<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['nrjersey']; ?>"></td>
-					<td><input type="hidden" name="idretired<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['idretired']; ?>"></td>
-					<td><input type="hidden" name="updated_at<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['updated_at']; ?>"></td>
-					<td><input type="hidden" name="updated_by<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['updated_by']; ?>"></td>
-					<td><input type="hidden" name="created_at<?php echo ($i+1); ?>" value="<?php echo $ftrows[$i]['created_at']; ?>"></td>
+					<td><input type="text" name="nrjersey<?php echo ($i+1); ?>" value="<?php echo $rows[$i]['nrjersey']; ?>"></td>
+					<td><input type="hidden" name="idretired<?php echo ($i+1); ?>" value="<?php echo $rows[$i]['idretired']; ?>"></td>
+					<td><input type="hidden" name="updated_at<?php echo ($i+1); ?>" value="<?php echo $rows[$i]['updated_at']; ?>"></td>
+					<td><input type="hidden" name="updated_by<?php echo ($i+1); ?>" value="<?php echo $rows[$i]['updated_by']; ?>"></td>
+					<td><input type="hidden" name="created_at<?php echo ($i+1); ?>" value="<?php echo $rows[$i]['created_at']; ?>"></td>
 
 					</td>
 				</tr>
@@ -181,25 +181,25 @@ class Clubretired extends SingleItemPage{
 	function getClubJerseys($id){
 		/* get the retired jerseys of a club */
 		$query 	= "SELECT * FROM " . $this->nmtable . " WHERE idclub = ? ORDER BY nrjersey";
-		$this->ftrows = $this->_db->select($query, "i", [$id]);
+		$this->_rows = $this->_db->select($query, "i", [$id]);
 		return $this->getPage();
 	}
 
 	function getPage(){
 		/* create the page content */
 
-		if (count($this->ftrows) == 0){
+		if (count($this->_rows) == 0){
 			return null;
 		}
 		$html	= "<h2 class='art-postheader'><i>'Retired'</i> rugnummers</h2>\n";
 
 		$html	.= "<table>\n";
 		$html	.= "<tr><th>Naam</th><th>Shirt</th>\n";
-		foreach ($this->ftrows as $ftrow){
-			$person 	= new Person($this->_db);
-			$person->withID($ftrow['idperson']);
+		foreach ($this->_rows as $row){
+			$person 	= new Person($this->_db, $this->_log);
+			$person->withID($row['idperson']);
 			$nmfull		= $person->getFullName();
-			$html 		.= "<tr><td>$nmfull</td><td align='right'>" . $ftrow['nrjersey'] . "</td>\n";
+			$html 		.= "<tr><td>$nmfull</td><td align='right'>" . $row['nrjersey'] . "</td>\n";
 		}
 		$html 	.= "</table>\n";
 		return $html;

@@ -19,20 +19,13 @@ src/config/analyticstracking.php
 # ignore all visio studio stuff 
 src/.vs/
 
-# ignore the config.php after the initial commit. 
-# We don't want to publish the login and username for the website by mistake 
-src/config/config.php
+# ignore certain file types 
+*.rar
+*.bat
 
 .phpunit.result.cache
 
 # ignore the code form another project
-src/admin/class/Database.php
-src/admin/class/MysqlTable.php
-src/admin/class/MysqlColumn.php
-src/admin/class/Mysql.php
-src/admin/class/MysqlServer.php
-.phpunit.result.cache
-src/class/MysqlConfig.php
-src/class/deprecated/Database.php
 src/class/Log.php
 src/class/MysqlDatabase.php
+src/class/MysqlConfig.php

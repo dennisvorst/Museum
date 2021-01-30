@@ -34,8 +34,8 @@ class Person extends SingleItemPage{
 	var $nmclubstart;
 	var $ftbiography;
 
-	function __construct(MysqlDatabase $db){
-		parent::__construct($db);
+	function __construct(MysqlDatabase $db, Log $log){
+		parent::__construct($db, $log);
 	}
 
 	function processRecord(){
@@ -96,8 +96,10 @@ class Person extends SingleItemPage{
 		 search and display the additional information
 		 *******************/
 		/* create the tabs */
-		$list = ["articles", "photos", "videos", "stats", "teams", "halloffamers"];
-		$tabObj	= new HtmlTabPage($this->_db, $this->_id);
+
+		/** todo : create a person controller that gets all the objects mentioned below and passes them on in the constructor */
+		$list = ["articles", "photos", "videos", "Stats", "teams", "halloffamers"];
+		$tabObj	= new HtmlTabPage($this->_db, $this->_log, $this->_id);
 		$html .= $tabObj->getTab("Person", $list, $nmCurrentTab, $nrCurrentPage, $this->_id, $this->_db);
 		return $html;
 	}// getContent
@@ -135,7 +137,7 @@ class Person extends SingleItemPage{
 
 	function createThumbnail(){
 		/* get the thumbnail of the person */
-		$photoObj	= new Photo($this->_db);
+		$photoObj	= new Photo($this->_db, $this->_log);
 		$mugshot	= $photoObj->getMugshot($this->_id);
 		$width		= $photoObj->getThumbnailWidth();
 		$height		= $photoObj->getThumbnailHeight();

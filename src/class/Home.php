@@ -6,12 +6,13 @@ require_once "Persons.php";
 require_once "Clubs.php";
 require_once "Videos.php";
 require_once "MysqlDatabase.php";
+require_once "Log.php";
 
 class Home extends ListPage{
 	/* constructor */
-	function __construct(MysqlDatabase $db)
+	function __construct(MysqlDatabase $db, Log $log)
 	{
-		parent::__construct($db);
+		parent::__construct($db, $log);
 	}
 
 	function getMain($nmTab, $nrCurrentPage){
@@ -53,7 +54,7 @@ class Home extends ListPage{
 		$html = "";
 		$objects = array("Articles", "Photos", "Persons", "Clubs", "Videos");
 		for ($x=0; $x < count($objects); $x++){
-			$classObj = new $objects[$x]($this->_db);
+			$classObj = new $objects[$x]($this->_db, $this->_log);
 			$classObj->withFeatured();
 			$html .= $classObj->getPage("");
 		}
@@ -65,7 +66,7 @@ class Home extends ListPage{
 		$html = "";
 		$objects = array("Articles", "Photos", "Persons", "Clubs", "Videos");
 		for ($x=0; $x < count($objects); $x++){
-			$classObj = new $objects[$x]($this->_db);
+			$classObj = new $objects[$x]($this->_db, $this->_log);
 			$classObj->withFeatured();
 
 			$html	.= "<div data-role='collapsibleset' data-content-theme='a' data-iconpos='left' id='set'>\n";

@@ -18,8 +18,8 @@ class Game extends SingleItemPage{
 	var $nmhome;
 	var $nmaway;
 
-	function __construct(MysqlDatabase $db){
-		parent::__construct($db);
+	function __construct(MysqlDatabase $db, Log $log){
+		parent::__construct($db, $log);
 	}
 
 	function processRecord(){

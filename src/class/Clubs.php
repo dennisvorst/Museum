@@ -14,9 +14,9 @@ class Clubs extends ListPage{
 	protected $_orderByFields 		= array("nmfull");
 	var $nmAlphabetField	= "nmclub";
 
-	function __construct(MysqlDatabase $db)
+	function __construct(MysqlDatabase $db, Log $log)
 	{
-		parent::__construct($db);
+		parent::__construct($db, $log);
 
 		/* get a list of years */
 		$this->alphabet	= $this->getAlphabet("clubs", "nmsearch");
@@ -28,11 +28,11 @@ class Clubs extends ListPage{
 		if (empty($this->ftforeignkeys)){
 			$sql = "SELECT idclub, nmclub ";
 			$sql .= "FROM clubs ORDER BY nmclub";
-			$ftrows	= $this->_db->select($sql);
+			$rows	= $this->_db->select($sql);
 
-			foreach($ftrows as $ftrow){
-				$ftvalrep = $ftrow['nmclub'];
-				$this->ftforeignkeys[$ftrow['idclub']]	= $ftvalrep;
+			foreach($rows as $row){
+				$ftvalrep = $row['nmclub'];
+				$this->ftforeignkeys[$row['idclub']]	= $ftvalrep;
 			}
 		}
 		return $this->ftforeignkeys;

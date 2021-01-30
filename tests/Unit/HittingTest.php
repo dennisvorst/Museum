@@ -3,8 +3,6 @@ declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
 
-require "src/class/Hitting.php";
-
 final class HitttingTest extends TestCase
 {
 

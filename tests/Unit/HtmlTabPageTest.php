@@ -28,8 +28,9 @@ class HtmlTabPageTest extends TestCase
 
         /** mock the database */
         $db = $this->createMock(MysqlDatabase::class);
+		$log = $this->createMock(Log::class);
 
-        $object = new HtmlTabPage($db, null);
+        $object = new HtmlTabPage($db, $log, null);
     }
 
     /**
@@ -41,8 +42,9 @@ class HtmlTabPageTest extends TestCase
 
         /** mock the database */
         $db = $this->createMock(MysqlDatabase::class);
+		$log = $this->createMock(Log::class);
 
-        $object = new HtmlTabPage($db, "");
+        $object = new HtmlTabPage($db, $log, "");
     }
 
     /**
@@ -54,8 +56,9 @@ class HtmlTabPageTest extends TestCase
 
         /** mock the database */
         $db = $this->createMock(MysqlDatabase::class);
+		$log = $this->createMock(Log::class);
         
-        $object = new HtmlTabPage($db, -1);
+        $object = new HtmlTabPage($db, $log, -1);
     }
 
     /**
@@ -67,16 +70,18 @@ class HtmlTabPageTest extends TestCase
 
         /** mock the database */
         $db = $this->createMock(MysqlDatabase::class);
+		$log = $this->createMock(Log::class);
 
-        $object = new HtmlTabPage($db, "foobar");
+        $object = new HtmlTabPage($db, $log, "foobar");
     }
 
     public function testIdCanBeInteger()
     {
         /** mock the database */
         $db = $this->createMock(MysqlDatabase::class);
+		$log = $this->createMock(Log::class);
 
-        $object = new HtmlTabPage($db, 1);
+        $object = new HtmlTabPage($db, $log, 1);
         $this->assertInstanceOf('HtmlTabPage', $object);
     }
 
@@ -89,8 +94,9 @@ class HtmlTabPageTest extends TestCase
 
         /** mock the database */
         $db = $this->createMock(MysqlDatabase::class);
+		$log = $this->createMock(Log::class);
 
-        $object = new HtmlTabPage($db, 1);
+        $object = new HtmlTabPage($db, $log, 1);
         $object->addTab("one", "One", "First content");
         $object->addTab("one", "One", "First content");    
     }
@@ -99,8 +105,9 @@ class HtmlTabPageTest extends TestCase
     {
         /** mock the database */
         $db = $this->createMock(MysqlDatabase::class);
+		$log = $this->createMock(Log::class);
 
-        $object = new HtmlTabPage($db, 1);
+        $object = new HtmlTabPage($db, $log, 1);
         $object->addTab("one", "One", "First content");
         $object->addTab("two", "One", "First content");    
         $object->addTab("three", "three", "Third content");
@@ -116,8 +123,9 @@ class HtmlTabPageTest extends TestCase
 
         /** mock the database */
         $db = $this->createMock(MysqlDatabase::class);
+		$log = $this->createMock(Log::class);
 
-        $object = new HtmlTabPage($db, 1);
+        $object = new HtmlTabPage($db, $log, 1);
         $object->addTab("one", "One", "First content", true);
         $object->addTab("two", "Two", "Second content", true);
     }
