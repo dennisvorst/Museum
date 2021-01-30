@@ -5,7 +5,28 @@ use PHPUnit\Framework\TestCase;
 
 final class HitttingTest extends TestCase
 {
+	protected $_log;
+	protected $_db;
+	protected function setup() : void
+	{
+		/** mock the database and the log file  */
+		$this->_db = $this->createMock(MysqlDatabase::class);
+		$this->_log = $this->createMock(Log::class);
+	}
 
+    public function testClassHittingExists()
+    {
+        $this->assertTrue(class_exists("Hitting"));
+    }
+
+	public function testClassHittingCanBeInstatiated()
+    {
+		$object = new Hitting($this->_db, $this->_log);
+		$this->assertInstanceOf(Hitting::class, $object);	
+    }
+
+
+	
 
 	/** Batting Average */
 //	public function testBattingAverageCanBeEmpty()

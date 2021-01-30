@@ -109,7 +109,7 @@ class Pitching extends Statistics implements iStatistics
             if (!array_key_exists($key, $row))
             {
                 $nroppavg = "---";
-                $this->_log->write(__METHOD__ . " : key {$key} not provided in array, unable to process OBA percnetage.");
+                $this->_log->write(__METHOD__ . " : key {$key} not provided in array, unable to process OBA percentage.");
             } else {
                 ${$key} = $row[$key];
             }

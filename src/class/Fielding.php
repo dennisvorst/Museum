@@ -18,6 +18,7 @@ class Fielding extends Statistics implements iStatistics
 
     function getClubStats() : string
     {
+       
 
     }
     function getPersonStats(int $id) : string
@@ -51,10 +52,30 @@ class Fielding extends Statistics implements iStatistics
     /** calculations */
     private function _calcfieldingPercentage(array $row) : array
     {
+
         if (!empty($row))
         {
-            $result = round(($row['nrpo'] + $row['nra']) / ($row['nrpo'] + $row['nra'] + $row['nre']), 3);
-            $row['nrfldperc'] = $this->_format($result, 3);
+            if (!isset($row['nrfldperc'])) 
+            {
+                $row['nrfldperc'] = "---";   
+            }
+    
+            $keys = ["nrpo", "nra", "nre"];
+            foreach ($keys as $key)
+            {
+                if (!array_key_exists($key, $row))
+                {
+                    $this->_log->write(__METHOD__ . " : key {$key} not provided in array, unable to process fielding percentage.");
+                } else {
+                    ${$key} = $row[$key];
+                }
+            }
+
+            if (isset($nrpo) && isset($nra) && isset($nre)) 
+            {
+                $result = round(($nrpo + $nra) / ($nrpo + $nra + $nre), 3);
+                $row['nrfldperc'] = $this->_format($result, 3);
+            } 
         }
         return $row;
     }
