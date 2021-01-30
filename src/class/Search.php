@@ -1,6 +1,6 @@
 <?php
 require_once "Delpher.php";
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Search{
 	private $ftsearch;

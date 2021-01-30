@@ -5,8 +5,8 @@ ini_set('display_errors', 'On');  //On or Off
 require_once "HtmlField.php";
 require_once "HtmlSelect.php";
 require_once "MainPage.php";
-require_once "MysqlDatabase.php";
-require_once "Log.php";
+//require_once "MysqlDatabase.php";
+//require_once "Log.php";
 
 class ListPage extends MainPage{
 	protected $_db;

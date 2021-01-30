@@ -1,7 +1,7 @@
 <?php
-require_once('class/Log.php');
-require_once('class/MysqlConfig.php');
-require_once('class/MysqlDatabase.php');
+//require_once('class/Log.php');
+//require_once('class/MysqlConfig.php');
+//require_once('class/MysqlDatabase.php');
 require_once "class/Mysql.php";
 
 $log = new Log("museum.log");
@@ -19,11 +19,11 @@ foreach($keys as $key)
     </head>
     <body>
         <?php
-        
+
         if (isset($server)) {
             if (isset($table)) {
-                /** Show the table content 
-                 *  sorting can only be done on tables 
+                /** Show the table content
+                 *  sorting can only be done on tables
                  */
                 $table = ['TABLE_SCHEMA' => $server, 'TABLE_NAME' => $table];
                 if (isset($orderby))
@@ -37,7 +37,7 @@ foreach($keys as $key)
                 /** show the database content  */
                 $server = ['SCHEMA_NAME' => $server];
                 $mysql = new MysqlServer($db, $server);
-                echo $mysql->showTablesPage();    
+                echo $mysql->showTablesPage();
             }
         } else {
             /** show the server content */

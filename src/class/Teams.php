@@ -2,8 +2,8 @@
 require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "Club.php";
-require_once "MysqlDatabase.php";
-require_once "Log.php";
+//require_once "MysqlDatabase.php";
+//require_once "Log.php";
 
 class Teams extends ListPage{
 	var $nmtitle			= "Teams";

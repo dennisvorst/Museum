@@ -29,3 +29,4 @@ src/.vs/
 src/class/Log.php
 src/class/MysqlDatabase.php
 src/class/MysqlConfig.php
+src/class/www.honkbalmuseum.nl.inc

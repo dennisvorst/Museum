@@ -1,5 +1,5 @@
 <?php
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Participants extends ListPage{
 

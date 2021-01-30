@@ -8,8 +8,8 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 require_once "MainPage.php";
 require_once "HtmlField.php";
-require_once "MysqlDatabase.php";
-require_once "Log.php";
+//require_once "MysqlDatabase.php";
+//require_once "Log.php";
 
 /** todo: pass mainpage as an object in the constructor
  * todo: change the output of getRecordId back to integer

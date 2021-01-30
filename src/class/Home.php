@@ -5,8 +5,8 @@ require_once "Photos.php";
 require_once "Persons.php";
 require_once "Clubs.php";
 require_once "Videos.php";
-require_once "MysqlDatabase.php";
-require_once "Log.php";
+//require_once "MysqlDatabase.php";
+//require_once "Log.php";
 
 class Home extends ListPage{
 	/* constructor */

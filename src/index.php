@@ -1,4 +1,5 @@
 <?php
+
 /** todo : make the webstie wider so that the pitching table fits 
  * todo : remove the classes i dont need in the index.php
  * todo: rename all the query to sql 
@@ -8,13 +9,18 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
+// https://blog.bobbyallen.me/2013/03/23/using-composer-in-your-own-php-projects-with-your-own-git-packageslibraries/
+// todo : remove when going live 
+require '../vendor/autoload.php';
+
+
 //*********************************************************
 // *** Include Section
 //*********************************************************
 require_once "class/Date.php";
-require_once 'class/Log.php';
-require_once 'class/MysqlConfig.php';
-require_once 'class/MysqlDatabase.php';
+//require_once 'class/Log.php';
+//require_once 'class/MysqlConfig.php';
+//require_once 'class/MysqlDatabase.php';
 require_once "class/MainPage.php";
 require_once "class/ListPage.php";
 require_once "class/SingleItemPage.php";
@@ -83,8 +89,21 @@ $nmclass = "home";
 
 $config = new MysqlConfig();
 $log = new Log("museum.log");
+
+switch ($_SERVER['SERVER_NAME']){
+    case "localhost":
+        /* localhost */
+        $mysqli = new Mysqli("localhost", "root", "", "museum");
+        break;
+    case "www.honkbalmuseum.nl":
+        include "www.honkbalmuseum.nl.inc";
+        break;
+}
+
+
+
 try {
-    $db = new MysqlDatabase($config, "museum", $log);
+    $db = new MysqlDatabase($mysqli, $log);
 } catch (Exception $e) {
     echo 'Caught exception: ',  $e->getMessage(), "\n";
     return;

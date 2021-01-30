@@ -1,6 +1,6 @@
 <?php
 require_once "HtmlTable.php";
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Games extends ListPage{
 

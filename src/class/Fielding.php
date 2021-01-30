@@ -2,8 +2,8 @@
 require_once "iStatistics.php";
 require_once "Statistics.php";
 
-require_once "MysqlDatabase.php";
-require_once "Log.php";
+//require_once "MysqlDatabase.php";
+//require_once "Log.php";
 
 class Fielding extends Statistics implements iStatistics
 {

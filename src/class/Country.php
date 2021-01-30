@@ -1,8 +1,8 @@
 <?php
 /* include section */
-require_once('Log.php');
-require_once('MysqlConfig.php');
-require_once('MysqlDatabase.php');
+//require_once('Log.php');
+//require_once('MysqlConfig.php');
+//require_once('MysqlDatabase.php');
 
 class Country extends MysqlDatabase{
 

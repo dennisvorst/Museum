@@ -2,7 +2,7 @@
 require_once "iStatistics.php";
 require_once "Statistics.php";
 
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Pitching extends Statistics implements iStatistics
 {

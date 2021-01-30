@@ -7,15 +7,22 @@
         "classmap": ["src/"],
     	"psr-0": { "\\": "src/class/" } 
     },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/dennisvorst/mysqldatabase/"
+        }
+    ],
 
     "require-dev": {
         "phpunit/phpunit": "^8"
     },
     "require": {
         "robmorgan/phinx": "^0.10.6",
-        "composer/xdebug-handler": "^1.3"
+        "composer/xdebug-handler": "^1.3",
+        "vorstd/database": "dev-master"
     },
     "scripts": {
         "test": "phpunit --colors=always --bootstrap ./vendor/autoload.php ./tests/Unit"
-      }
+    }
 }

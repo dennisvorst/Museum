@@ -8,8 +8,8 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 require_once "CheckBox.php";
 require_once "SingleItemPage.php";
-require_once "MysqlDatabase.php";
-require_once "Log.php";
+//require_once "MysqlDatabase.php";
+//require_once "Log.php";
 
 class Photo extends SingleItemPage{
 	var $nmtable		= "photos";

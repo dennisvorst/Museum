@@ -1,14 +1,14 @@
 <?php
 /**
- * todo : add retired jerseys 
+ * todo : add retired jerseys
  * todo : add stats
- * 
+ *
  */
 
 require_once "SingleItemPage.php";
 require_once "HtmlSelect.php";
 require_once "HtmlTabPage.php";
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Club extends SingleItemPage{
 	var $nmtable	= "clubs";
@@ -42,10 +42,10 @@ class Club extends SingleItemPage{
 			$this->_photoCollection = $this->_getPhotoCollection();
 			$this->_teamCollection = $this->_getTeamCollection();
 			$this->_videoCollection = $this->_getVideoCollection();
-		} 
+		}
 	}
 
-	function processRecord() : void 
+	function processRecord() : void
 	{
 		$this->_id				= $this->ftrecord['idclub'];
 
@@ -97,14 +97,14 @@ class Club extends SingleItemPage{
 	}
 
 
-	
+
 	var $_articleCollection = [];
 	private function _getArticleCollection(int $id) : array
 	{
 		if (empty($this->_articleCollection))
 		{
 
-		} 
+		}
 		return $this->_articleCollection;
 	}
 
@@ -114,7 +114,7 @@ class Club extends SingleItemPage{
 		if (empty($this->_teamCollection))
 		{
 
-		} 
+		}
 		return $this->_teamCollection;
 	}
 
@@ -124,7 +124,7 @@ class Club extends SingleItemPage{
 		if (empty($this->_photoCollection))
 		{
 
-		} 
+		}
 		return $this->_photoCollection;
 	}
 
@@ -133,13 +133,13 @@ class Club extends SingleItemPage{
 	{
 		if (empty($this->_videoCollection))
 		{
-			
-		} 
+
+		}
 		return $this->_videoCollection;
 	}
 
-	
-	function getContent($nmCurrentTab, $nrCurrentPage) : string 
+
+	function getContent($nmCurrentTab, $nrCurrentPage) : string
 	{
 		/**
 		 * $nrCurrentPage = the current displayed tab page
@@ -174,7 +174,7 @@ class Club extends SingleItemPage{
 		return $html;
 	}// getContent
 
-	function getNameWithUrl() : string 
+	function getNameWithUrl() : string
 	{
 		return "<a href='". $this->getUrl() . "'>" . $this->nmfull . "</a>";
 	}
@@ -184,7 +184,7 @@ class Club extends SingleItemPage{
 //		/* deprecated */
 //		return $this->nmclub;
 //	}
-	function getFullName() : string 
+	function getFullName() : string
 	{
 		return $this->nmclub;
 	}
@@ -229,15 +229,15 @@ class Club extends SingleItemPage{
 	/******************
 	Getters and setters
 	*******************/
-	function getPrimaryColor() : string 
+	function getPrimaryColor() : string
 	{
 		return $this->nmprimarycolor;
 	}
-	function getSecondaryColor() : string 
+	function getSecondaryColor() : string
 	{
 		return $this->nmsecondarycolor;
 	}
-	function getTertiaryColor() : string 
+	function getTertiaryColor() : string
 	{
 		return $this->nmtertiarycolor;
 	}

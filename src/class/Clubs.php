@@ -2,7 +2,7 @@
 require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "Club.php";
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Clubs extends ListPage{
 	var $nmtitle			= "Clubs";

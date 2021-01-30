@@ -1,6 +1,6 @@
 <?php
 require_once "SingleItemPage.php";
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Source extends SingleItemPage{
 	var $nmtable	= "sources";

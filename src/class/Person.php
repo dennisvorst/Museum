@@ -2,7 +2,7 @@
 require_once "SingleItemPage.php";
 require_once "HtmlSelect.php";
 require_once "Tab.php";
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Person extends SingleItemPage{
 	var $nmtitle	= "Personen";

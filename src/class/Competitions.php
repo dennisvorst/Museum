@@ -2,7 +2,7 @@
 require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "Competition.php";
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Competitions extends ListPage{
 

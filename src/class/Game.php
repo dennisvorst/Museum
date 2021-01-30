@@ -1,5 +1,5 @@
 <?php
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Game extends SingleItemPage{
 	var $nmtable	= "game";

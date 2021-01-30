@@ -5,8 +5,8 @@ ini_set('display_errors', 'On');  //On or Off
 require_once "Article.php";
 require_once "ListPage.php";
 require_once "MenuBar.php";
-require_once "MysqlDatabase.php";
-require_once "Log.php";
+//require_once "MysqlDatabase.php";
+//require_once "Log.php";
 
 class Articles extends ListPage{
 

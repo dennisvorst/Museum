@@ -3,7 +3,7 @@ require_once "Date.php";
 require_once "Games.php";
 require_once "HtmlTable.php";
 require_once "Persons.php";
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Participant extends SingleItemPage{
 	var $nmtable	= "participants";

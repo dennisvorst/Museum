@@ -1,7 +1,7 @@
 <?php
-require_once('class/Log.php');
-require_once('class/MysqlConfig.php');
-require_once('class/MysqlDatabase.php');
+//require_once('class/Log.php');
+//require_once('class/MysqlConfig.php');
+//require_once('class/MysqlDatabase.php');
 require_once('class/File.php');
 
 /* init */
@@ -16,8 +16,8 @@ $result = $db->select($sql);
 $photos = scandir($photoPath);
 $thumbnails = scandir($thumbnailPath);
 
-$differencePhotosWithoutThumbnails = array_diff($photos, $thumbnails); 
-$differenceThumbnailsWithoutPhotos = array_diff($thumbnails, $photos); 
+$differencePhotosWithoutThumbnails = array_diff($photos, $thumbnails);
+$differenceThumbnailsWithoutPhotos = array_diff($thumbnails, $photos);
 
 $keys = [];
 ?>
@@ -32,7 +32,7 @@ $keys = [];
             <th>Filename</th>
             <th>Article</th>
         </tr>
-            <?php 
+            <?php
             foreach ($result as $photo){
                 $keys[$photo['id']] = $photo['id'];
 
@@ -45,8 +45,8 @@ $keys = [];
                     echo "<tr><td>" . $photo['id'] . "</td>";
                     echo "<td>Foto " . $photoPath . "/" . $photo['id'] . ".jpg" . " niet gevonden</td>";
                     echo "<td><a href='http://www.honkbalmuseum.nl/index.php?id=" . $articleId . "&nmclass=article' target='_new'>" . $articleId . "</a></td>";
-					echo "</tr>";    
-                } 
+					echo "</tr>";
+                }
             }
             ?>
         </tr>
@@ -67,7 +67,7 @@ $keys = [];
 					echo "<td>" . $photo . "</td>\n";
                     echo "<td>" . intval($photo) . " NIET gevonden in database</td>\n";
 					echo "</tr>\n";
-                } 
+                }
             }
         ?>
         </tr>

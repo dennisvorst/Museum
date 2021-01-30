@@ -1,7 +1,7 @@
 <?php
 require_once "ListPage.php";
 require_once "Video.php";
-require_once "MysqlDatabase.php";
+//require_once "MysqlDatabase.php";
 
 class Videos extends ListPage{
 	var $nmtitle		= "Video's";

@@ -2,8 +2,8 @@
 require_once "ListPage.php";
 require_once "MenuBar.php";
 require_once "Photo.php";
-require_once "MysqlDatabase.php";
-require_once "Log.php";
+//require_once "MysqlDatabase.php";
+//require_once "Log.php";
 
 class Photos extends ListPage{
 	var $nmtitle		= "Foto's";
