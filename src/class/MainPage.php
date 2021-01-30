@@ -1,5 +1,5 @@
 <?php
-require_once "Log.php";
+require_once "class/Log.php";
 
 class MainPage{
 	protected $_log;

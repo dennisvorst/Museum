@@ -5,6 +5,16 @@ use PHPUnit\Framework\TestCase;
 
 class HtmlTabPageTest extends TestCase
 {
+    private $_db;
+    private $_log;
+
+    protected function setUp() : void
+    {
+        /** mock the database and the log file  */
+        $this->_db = $this->createMock(MysqlDatabase::class);
+		$this->_log = $this->createMock(Log::class);
+    }
+
     public function testClassHtmlTabPageExists()
     {
         $this->assertTrue(class_exists("HtmlTabPage"));
@@ -26,11 +36,7 @@ class HtmlTabPageTest extends TestCase
     {
         $this->expectException('TypeError');
 
-        /** mock the database */
-        $db = $this->createMock(MysqlDatabase::class);
-		$log = $this->createMock(Log::class);
-
-        $object = new HtmlTabPage($db, $log, null);
+        $object = new HtmlTabPage($this->_db, $this->_log, null);
     }
 
     /**
@@ -40,11 +46,7 @@ class HtmlTabPageTest extends TestCase
     {
         $this->expectException('TypeError');
 
-        /** mock the database */
-        $db = $this->createMock(MysqlDatabase::class);
-		$log = $this->createMock(Log::class);
-
-        $object = new HtmlTabPage($db, $log, "");
+        $object = new HtmlTabPage($this->_db, $this->_log, "");
     }
 
     /**
@@ -54,11 +56,7 @@ class HtmlTabPageTest extends TestCase
     {
         $this->expectException('InvalidArgumentException');
 
-        /** mock the database */
-        $db = $this->createMock(MysqlDatabase::class);
-		$log = $this->createMock(Log::class);
-        
-        $object = new HtmlTabPage($db, $log, -1);
+        $object = new HtmlTabPage($this->_db, $this->_log, -1);
     }
 
     /**
@@ -68,20 +66,12 @@ class HtmlTabPageTest extends TestCase
     {
         $this->expectException('TypeError');
 
-        /** mock the database */
-        $db = $this->createMock(MysqlDatabase::class);
-		$log = $this->createMock(Log::class);
-
-        $object = new HtmlTabPage($db, $log, "foobar");
+        $object = new HtmlTabPage($this->_db, $this->_log, "foobar");
     }
 
     public function testIdCanBeInteger()
     {
-        /** mock the database */
-        $db = $this->createMock(MysqlDatabase::class);
-		$log = $this->createMock(Log::class);
-
-        $object = new HtmlTabPage($db, $log, 1);
+        $object = new HtmlTabPage($this->_db, $this->_log, 1);
         $this->assertInstanceOf('HtmlTabPage', $object);
     }
 
@@ -92,22 +82,14 @@ class HtmlTabPageTest extends TestCase
     {
         $this->expectException('Exception');
 
-        /** mock the database */
-        $db = $this->createMock(MysqlDatabase::class);
-		$log = $this->createMock(Log::class);
-
-        $object = new HtmlTabPage($db, $log, 1);
+        $object = new HtmlTabPage($this->_db, $this->_log, 1);
         $object->addTab("one", "One", "First content");
         $object->addTab("one", "One", "First content");    
     }
 
     public function testTabsWithDifferentReferenceCanBeAdded()
     {
-        /** mock the database */
-        $db = $this->createMock(MysqlDatabase::class);
-		$log = $this->createMock(Log::class);
-
-        $object = new HtmlTabPage($db, $log, 1);
+        $object = new HtmlTabPage($this->_db, $this->_log, 1);
         $object->addTab("one", "One", "First content");
         $object->addTab("two", "One", "First content");    
         $object->addTab("three", "three", "Third content");
@@ -121,11 +103,7 @@ class HtmlTabPageTest extends TestCase
     {
         $this->expectException('Exception');
 
-        /** mock the database */
-        $db = $this->createMock(MysqlDatabase::class);
-		$log = $this->createMock(Log::class);
-
-        $object = new HtmlTabPage($db, $log, 1);
+        $object = new HtmlTabPage($this->_db, $this->_log, 1);
         $object->addTab("one", "One", "First content", true);
         $object->addTab("two", "Two", "Second content", true);
     }
