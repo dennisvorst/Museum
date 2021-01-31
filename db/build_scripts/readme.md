@@ -9,4 +9,4 @@ The file named '10 - production database.sql' is the copy from production. In or
 | 20210131| 10 | alter table persons | Prepare the persons table for the halloffamers content |
 | 20210131| 20 | update persons | Moving the halloffamers content to the persons table |
 | 20210131| 30 | drop halloffamers | Deleting the halloffamers table |
-
+| 20210131| 40 | update is_featured | Change the is_featured columns from a tinyint 3 to a tinyint(1) |
