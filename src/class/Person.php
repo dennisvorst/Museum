@@ -2,6 +2,7 @@
 require_once "SingleItemPage.php";
 require_once "HtmlSelect.php";
 require_once "Tab.php";
+require_once "Date.php";
 //require_once "MysqlDatabase.php";
 
 class Person extends SingleItemPage{
@@ -26,13 +27,12 @@ class Person extends SingleItemPage{
 	protected $_ftphone;
 	protected $_ftcell;
 	protected $_ftemail;
-	protected $_dthof;
 	protected $_cdthrows;
 	protected $_cdbats;
 	protected $_cdsubscr;
 	protected $_dtsend;
 	protected $_nmclubstart;
-	protected $_is_hof;
+	protected $_dthof;
 	protected $_idphotohof;
 	protected $_ftbiography;
 
@@ -43,33 +43,32 @@ class Person extends SingleItemPage{
 	function processRecord(){
 		$this->_id			= $this->ftrecord['idperson'];
 
-		$this->nmfirst 		= $this->ftrecord['nmfirst'];
-		$this->nmfull 		= $this->ftrecord['nmfull'];
-		$this->nmsur		= $this->ftrecord['nmsur'];
-		$this->nmlast 		= $this->ftrecord['nmlast'];
-		$this->nmnick 		= $this->ftrecord['nmnick'];
-		$this->cdgender		= $this->ftrecord['cdgender'];
-		$this->dtbirth 		= $this->ftrecord['dtbirth'];
-		$this->nmbirthplace = $this->ftrecord['nmbirthplace'];
-		$this->cdcountry 	= $this->ftrecord['cdcountry'];
-		$this->dtdeath 		= $this->ftrecord['dtdeath'];
-		$this->nmdeathplace = $this->ftrecord['nmdeathplace'];
-		$this->nmaddress 	= $this->ftrecord['nmaddress'];
-		$this->nmpostal 	= $this->ftrecord['nmpostal'];
-		$this->nmcity 		= $this->ftrecord['nmcity'];
-		$this->ftphone 		= $this->ftrecord['ftphone'];
-		$this->ftcell 		= $this->ftrecord['ftcell'];
-		$this->ftemail 		= $this->ftrecord['ftemail'];
-		$this->dthof 		= $this->ftrecord['dthof'];
-		$this->cdthrows 	= $this->ftrecord['cdthrows'];
-		$this->cdbats 		= $this->ftrecord['cdbats'];
-		$this->cdsubscr 	= $this->ftrecord['cdsubscr'];
-		$this->dtsend 		= $this->ftrecord['dtsend'];
-		$this->nmclubstart 	= $this->ftrecord['nmclubstart'];
-		$this->_is_hof	 	= $this->ftrecord['is_hof'];
+		$this->_nmfirst 		= $this->ftrecord['nmfirst'];
+		$this->_nmfull 		= $this->ftrecord['nmfull'];
+		$this->_nmsur		= $this->ftrecord['nmsur'];
+		$this->_nmlast 		= $this->ftrecord['nmlast'];
+		$this->_nmnick 		= $this->ftrecord['nmnick'];
+		$this->_cdgender		= $this->ftrecord['cdgender'];
+		$this->_dtbirth 		= $this->ftrecord['dtbirth'];
+		$this->_nmbirthplace = $this->ftrecord['nmbirthplace'];
+		$this->_cdcountry 	= $this->ftrecord['cdcountry'];
+		$this->_dtdeath 		= $this->ftrecord['dtdeath'];
+		$this->_nmdeathplace = $this->ftrecord['nmdeathplace'];
+		$this->_nmaddress 	= $this->ftrecord['nmaddress'];
+		$this->_nmpostal 	= $this->ftrecord['nmpostal'];
+		$this->_nmcity 		= $this->ftrecord['nmcity'];
+		$this->_ftphone 		= $this->ftrecord['ftphone'];
+		$this->_ftcell 		= $this->ftrecord['ftcell'];
+		$this->_ftemail 		= $this->ftrecord['ftemail'];
+		$this->_cdthrows 	= $this->ftrecord['cdthrows'];
+		$this->_cdbats 		= $this->ftrecord['cdbats'];
+		$this->_cdsubscr 	= $this->ftrecord['cdsubscr'];
+		$this->_dtsend 		= $this->ftrecord['dtsend'];
+		$this->_nmclubstart 	= $this->ftrecord['nmclubstart'];
+		$this->_dthof 		= $this->ftrecord['dthof'];
 		$this->_idphotohof 	= $this->ftrecord['idphotohof'];
-		$this->ftbiography 	= $this->ftrecord['ftbiography'];
-		$this->is_featured 	= $this->ftrecord['is_featured'];
+		$this->_ftbiography 	= $this->ftrecord['ftbiography'];
+		$this->_is_featured 	= $this->ftrecord['is_featured'];
 	}
 
 	protected $_photoCollection;
@@ -94,7 +93,11 @@ class Person extends SingleItemPage{
 		$html = "<table>\n";
 		$html .= "<tr>" . Social::addShareButtons($this->getUrl()) . "</tr>\n";
 		$html .= "</table>\n";
-		$html .= "<h1>" . $this->getFullName() . "</h1>\n";
+		$html .= "<h1>{$this->getFullName()}</h1>\n";
+		$html .= "<p>{$this->_isHof($this->_dthof)}</p>";
+
+		/** todo add a photo  */
+		/** todo add a gold star if he is in the hall of fame */
 
 		/*******************
 		 search and display the additional information
@@ -102,7 +105,8 @@ class Person extends SingleItemPage{
 		/* create the tabs */
 
 		/** todo : create a person controller that gets all the objects mentioned below and passes them on in the constructor */
-		$list = ["articles", "photos", "videos", "Statistics", "teams", "halloffamers"];
+		/** todo: add the jerseys to the list */
+		$list = ["articles", "photos", "videos", "Statistics", "teams"];
 		$tabObj	= new HtmlTabPage($this->_db, $this->_log, $this->_id);
 		$html .= $tabObj->getTab("Person", $list, $nmCurrentTab, $nrCurrentPage, $this->_id, $this->_db);
 		return $html;
@@ -166,7 +170,7 @@ class Person extends SingleItemPage{
 
 	function getFullName(){
 		/* get the fullname of the player */
-		return $this->_nmfirst . " "	. $this->getLastName();
+		return $this->_nmfirst . " " . $this->getLastName();
 	}
 
 	function getLastName(){
@@ -196,6 +200,17 @@ class Person extends SingleItemPage{
 
 	function getNameWithUrl(){
 		return "<a href='". $this->getUrl() . "'>" . $this->getFullName() . "</a>";
+	}
+
+	private function _isHof(string $dthof) : string
+	{
+		if ($dthof) 
+		{
+			$date = new Date();
+			$dthof = $date->translateDate($dthof, "D");
+			return "<i class='fas fa-star'></i> in de eregalerij sinds {$dthof}";
+		}
+		return "";
 	}
 
 	function getLabels (){

@@ -9,7 +9,7 @@ require_once "Person.php";
 class Persons extends ListPage{
 	protected $_nmtitle			= "Personen";
 	protected $_nmtable			= "persons";
-	var $nmsingle			= "person";
+	protected $_nmsingle			= "person";
 	var $nmclass			= "Person";
 
 	protected $_searchFields 		= array("nmfirst", "nmsur", "nmlast");
