@@ -5,34 +5,36 @@ require_once "Tab.php";
 //require_once "MysqlDatabase.php";
 
 class Person extends SingleItemPage{
-	var $nmtitle	= "Personen";
-	var $nmtable	= "persons";
-	var $nmkey		= "idperson";
+	protected $_nmtitle	= "Personen";
+	protected $_nmtable	= "persons";
+	protected $_nmkey		= "idperson";
 
-	var $nmfirst;
-	var $nmfull;
-	var $nmsur;
-	var $nmlast;
-	var $nmnick;
-	var $cdgender;
-	var $dtbirth;
-	var $nmbirthplace;
-	var $cdcountry;
-	var $dtdeath;
-	var $nmdeathplace;
-	var $nmaddress;
-	var $nmpostal;
-	var $nmcity;
-	var $ftphone;
-	var $ftcell;
-	var $ftemail;
-	var $dthof;
-	var $cdthrows;
-	var $cdbats;
-	var $cdsubscr;
-	var $dtsend;
-	var $nmclubstart;
-	var $ftbiography;
+	protected $_nmfirst;
+	protected $_nmfull;
+	protected $_nmsur;
+	protected $_nmlast;
+	protected $_nmnick;
+	protected $_cdgender;
+	protected $_dtbirth;
+	protected $_nmbirthplace;
+	protected $_cdcountry;
+	protected $_dtdeath;
+	protected $_nmdeathplace;
+	protected $_nmaddress;
+	protected $_nmpostal;
+	protected $_nmcity;
+	protected $_ftphone;
+	protected $_ftcell;
+	protected $_ftemail;
+	protected $_dthof;
+	protected $_cdthrows;
+	protected $_cdbats;
+	protected $_cdsubscr;
+	protected $_dtsend;
+	protected $_nmclubstart;
+	protected $_is_hof;
+	protected $_idphotohof;
+	protected $_ftbiography;
 
 	function __construct(MysqlDatabase $db, Log $log){
 		parent::__construct($db, $log);
@@ -64,11 +66,13 @@ class Person extends SingleItemPage{
 		$this->cdsubscr 	= $this->ftrecord['cdsubscr'];
 		$this->dtsend 		= $this->ftrecord['dtsend'];
 		$this->nmclubstart 	= $this->ftrecord['nmclubstart'];
+		$this->_is_hof	 	= $this->ftrecord['is_hof'];
+		$this->_idphotohof 	= $this->ftrecord['idphotohof'];
 		$this->ftbiography 	= $this->ftrecord['ftbiography'];
 		$this->is_featured 	= $this->ftrecord['is_featured'];
 	}
 
-	var $_photoCollection;
+	protected $_photoCollection;
 	function getPhotoCollection(int $id) : array
 	{
 
@@ -81,7 +85,7 @@ class Person extends SingleItemPage{
 		 gather the data
 		 *******************/
 		/* get the person */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
+		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
 		$this->processRecord();
 
 		/*******************
@@ -98,7 +102,7 @@ class Person extends SingleItemPage{
 		/* create the tabs */
 
 		/** todo : create a person controller that gets all the objects mentioned below and passes them on in the constructor */
-		$list = ["articles", "photos", "videos", "Stats", "teams", "halloffamers"];
+		$list = ["articles", "photos", "videos", "Statistics", "teams", "halloffamers"];
 		$tabObj	= new HtmlTabPage($this->_db, $this->_log, $this->_id);
 		$html .= $tabObj->getTab("Person", $list, $nmCurrentTab, $nrCurrentPage, $this->_id, $this->_db);
 		return $html;
@@ -162,14 +166,14 @@ class Person extends SingleItemPage{
 
 	function getFullName(){
 		/* get the fullname of the player */
-		return $this->nmfirst . " "	. $this->getLastName();
+		return $this->_nmfirst . " "	. $this->getLastName();
 	}
 
 	function getLastName(){
-		if (empty($this->nmsur)){
-			return $this->nmlast;
+		if (empty($this->_nmsur)){
+			return $this->_nmlast;
 		} else {
-			return $this->nmsur. " " . $this->nmlast;
+			return $this->_nmsur. " " . $this->_nmlast;
 		}
 	}
 
@@ -179,11 +183,11 @@ class Person extends SingleItemPage{
 	}
 
 	function getNickName(){
-		if (!empty($this->nmnick)){
-			if (empty($this->nmsur)){
-				return $this->nmnick . " "	. $this->nmlast;
+		if (!empty($this->_nmnick)){
+			if (empty($this->_nmsur)){
+				return $this->_nmnick . " "	. $this->_nmlast;
 			} else {
-				return $this->nmnick . " "	. $this->nmsur. " " . $this->nmlast;
+				return $this->_nmnick . " "	. $this->_nmsur. " " . $this->_nmlast;
 			}
 		} else {
 			return "";

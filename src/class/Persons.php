@@ -7,8 +7,8 @@ require_once "Person.php";
 //require_once "Log.php";
 
 class Persons extends ListPage{
-	var $nmtitle			= "Personen";
-	var $nmtable			= "persons";
+	protected $_nmtitle			= "Personen";
+	protected $_nmtable			= "persons";
 	var $nmsingle			= "person";
 	var $nmclass			= "Person";
 
