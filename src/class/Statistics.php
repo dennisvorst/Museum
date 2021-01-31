@@ -36,43 +36,47 @@ class Statistics extends ListPage
         {
             foreach ($this->_keys as $key)
             {
-                if (is_numeric($row[$key]))
+                if (array_key_exists($key, $row)) 
                 {
-                    if (array_key_exists($key, $tot))
+                    if (is_numeric($row[$key]))
                     {
-                        $tot[$key] += $row[$key];
-                    } else {
-                        $tot[$key] = $row[$key];
+                        if (array_key_exists($key, $tot))
+                        {
+                            $tot[$key] += $row[$key];
+                        } else {
+                            $tot[$key] = $row[$key];
+                        }
                     }
+    
                 }
             }
         }
         return $tot;
     }
 
-	function getTeamStats(int $id) : string
+	function getTeamgetStatistics(int $id) : string
 	{
 	}
 
     /** todo: make this a function that just creates on table that can be reused by fielding, hitting and pitching
      * todo : move the creation of all three to the person class.
      */
-	function getPersonStats(int $id) : string
+	function getPersonStatistics(int $id) : string
 	{
 		/* get the stats of a person */
 		$html = "";
 
 		/** Fielding */
 		$fielding = new Fielding($this->_db, $this->_log);
-		$html .= $fielding->getPersonStats($id);
+		$html .= $fielding->getPersonStatistics($id);
 
 		/** Hitting */
 		$hitting = new Hitting($this->_db, $this->_log);
-		$html .= $hitting->getPersonStats($id);
+		$html .= $hitting->getPersonStatistics($id);
 
 		/** Pitching */
 		$pitching = new Pitching($this->_db, $this->_log);
-		$html .= $pitching->getPersonStats($id);
+		$html .= $pitching->getPersonStatistics($id);
 
 		return $html;
 	}

@@ -16,12 +16,12 @@ class Pitching extends Statistics implements iStatistics
         parent::__construct($db, $log);
     }
 
-    function getTeamStats(int $id) : string
+    function getTeamStatistics(int $id) : string
     {
-
+        return "";
     }
 
-    function getPersonStats(int $id) : string
+    function getPersonStatistics(int $id) : string
     {
         /** init */
 		$types = "i";

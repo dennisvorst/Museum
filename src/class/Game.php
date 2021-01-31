@@ -2,8 +2,8 @@
 //require_once "MysqlDatabase.php";
 
 class Game extends SingleItemPage{
-	var $nmtable	= "game";
-	var $nmkey		= "idgame";
+	protected $_nmtable	= "game";
+	protected $_nmkey		= "idgame";
 
 	var $idcompetition;
 	var $idgame;
@@ -45,7 +45,7 @@ class Game extends SingleItemPage{
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the article */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
+		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
 		$this->processRecord();
 
 		return $html;

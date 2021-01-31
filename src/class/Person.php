@@ -94,7 +94,8 @@ class Person extends SingleItemPage{
 		$html .= "<tr>" . Social::addShareButtons($this->getUrl()) . "</tr>\n";
 		$html .= "</table>\n";
 		$html .= "<h1>{$this->getFullName()}</h1>\n";
-		$html .= "<p>{$this->_isHof($this->_dthof)}</p>";
+		
+		$html .= "<p>{$this->_isHof($this->getHofDate())}</p>";
 
 		/** todo add a photo  */
 		/** todo add a gold star if he is in the hall of fame */
@@ -202,9 +203,19 @@ class Person extends SingleItemPage{
 		return "<a href='". $this->getUrl() . "'>" . $this->getFullName() . "</a>";
 	}
 
+	private function isInHallOfFame() : bool
+	{
+		if ($this->_dthof) 
+		{
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 	private function _isHof(string $dthof) : string
 	{
-		if ($dthof) 
+		if ($this->isInHallOffame()) 
 		{
 			$date = new Date();
 			$dthof = $date->translateDate($dthof, "D");
@@ -212,6 +223,31 @@ class Person extends SingleItemPage{
 		}
 		return "";
 	}
+
+	/** getters and setter */
+	function setHofDate(string $date) : void
+	{
+		$this->_dthof = "";
+
+		if (!empty($date))
+		{
+			$format = 'Y-m-d';
+	
+			$d = DateTime::createFromFormat($format, $date);
+			if ($d && $d->format($format) === $date)
+			{
+				$this->_dthof = $date;
+			}
+		}
+	}
+
+	function getHofDate() : string 
+	{
+//		print_r("|" . $this->_dthof . "|");
+
+		return $this->_dthof;
+	}
+
 
 	function getLabels (){
 		$ftlabels["idperson"]		= "";

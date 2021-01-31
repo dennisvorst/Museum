@@ -4,8 +4,8 @@ require_once "SingleItemPage.php";
 //require_once "MysqlDatabase.php";
 
 class Clubretired extends SingleItemPage{
-	var $nmtable	= "clubretired";
-	var $nmkey		= "idretired";
+	protected $_nmtable	= "clubretired";
+	protected $_nmkey		= "idretired";
 	var $nmparent;
 	var $nrfk;
 
@@ -36,7 +36,7 @@ class Clubretired extends SingleItemPage{
 		 gather the data
 		 *******************/
 		/* get the retired jerseys */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
+		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
 		$this->processRecord();
 
 		/*******************
@@ -56,7 +56,7 @@ class Clubretired extends SingleItemPage{
 	function getMainAdmin(){
 		/* get the club data */
 		if (!empty($this->_id)){
-			$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
+			$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
 			if (!empty($this->ftrecord))
 			{
 				$this->ftrecord = $this->ftrecord[0];
@@ -66,7 +66,7 @@ class Clubretired extends SingleItemPage{
 		} else {
 			$object = ucfirst($this->nmparent);
 			$object = new $object();
-			$this->ftrecord	= $this->getRecord($this->nmtable, $object->getKeyName(), $this->nrfk);
+			$this->ftrecord	= $this->getRecord($this->_nmtable, $object->getKeyName(), $this->nrfk);
 		}
 		$rows = $this->ftrecord;
 
@@ -180,7 +180,7 @@ class Clubretired extends SingleItemPage{
 	/* todo : merge with _getRetiredNumberCollection in club */
 	function getClubJerseys($id){
 		/* get the retired jerseys of a club */
-		$query 	= "SELECT * FROM " . $this->nmtable . " WHERE idclub = ? ORDER BY nrjersey";
+		$query 	= "SELECT * FROM " . $this->_nmtable . " WHERE idclub = ? ORDER BY nrjersey";
 		$this->_rows = $this->_db->select($query, "i", [$id]);
 		return $this->getPage();
 	}

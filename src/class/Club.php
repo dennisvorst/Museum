@@ -11,8 +11,8 @@ require_once "HtmlTabPage.php";
 //require_once "MysqlDatabase.php";
 
 class Club extends SingleItemPage{
-	var $nmtable	= "clubs";
-	var $nmkey		= "idclub";
+	protected $_nmtable	= "clubs";
+	protected $_nmkey		= "idclub";
 
 	var $idclub;
 	var $cdstatus;
@@ -90,7 +90,7 @@ class Club extends SingleItemPage{
 		if (empty($this->_retiredNumberCollection))
 		{
 			/* get the retired jerseys of a club */
-			$sql = "SELECT * FROM " . $this->nmtable . " WHERE idclub = ? ORDER BY nrjersey";
+			$sql = "SELECT * FROM " . $this->_nmtable . " WHERE idclub = ? ORDER BY nrjersey";
 			$this->_retiredNumberCollection = $db->select($sql, "i", [$id]);
 		}
 		return $this->_retiredNumberCollection;
@@ -149,7 +149,7 @@ class Club extends SingleItemPage{
 		 *******************/
 
 		/* get the club */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
+		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
 		$this->processRecord();
 
 		/*******************

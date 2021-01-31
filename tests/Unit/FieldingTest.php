@@ -53,7 +53,7 @@ final class FieldingTest extends TestCase
 		$row['nrpo'] = 0;
 		$row['nra'] = 1;
 		//$row['nre']
-		$expected = "---";
+		$expected = "1.000";
 
 		$foo = self::getMethod('_calcfieldingPercentage');
 		$obj = new Fielding($this->_db, $this->_log);
@@ -63,6 +63,33 @@ final class FieldingTest extends TestCase
 
 		$this->assertEquals($expected, $actual);
 	}	
+
+	public function testFieldingPercentageWithEmptyElement() {
+
+		$row = [];
+		$expected = [];
+
+		$foo = self::getMethod('_calcfieldingPercentage');
+		$obj = new Fielding($this->_db, $this->_log);
+		/** https://www.php.net/manual/en/reflectionmethod.invokeargs.php */
+		$actual = $foo->invokeArgs($obj, [$row]);
+
+		$this->assertEquals($expected, $actual);
+	}	
+
+	public function testFieldingPercentageWithOnlyFldperc() {
+
+		$row['nrfldperc'] = "1.000";
+		$expected = ['nrfldperc' => "1.000"];
+
+		$foo = self::getMethod('_calcfieldingPercentage');
+		$obj = new Fielding($this->_db, $this->_log);
+		/** https://www.php.net/manual/en/reflectionmethod.invokeargs.php */
+		$actual = $foo->invokeArgs($obj, [$row]);
+
+		$this->assertEquals($expected, $actual);
+	}	
+
 
 	public function testFieldingPercentageWithActualResult() {
 

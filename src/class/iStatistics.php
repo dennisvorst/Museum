@@ -4,8 +4,8 @@ interface iStatistics
 {
     function show();
 
-    function getPersonStats(int $id) : string;
-    function getTeamStats(int $id) : string;
+    function getPersonStatistics(int $id) : string;
+    function getTeamStatistics(int $id) : string;
     function getTitle() : string;  
 }
 ?>

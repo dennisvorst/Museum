@@ -6,9 +6,9 @@ require_once "Competition.php";
 
 class Competitions extends ListPage{
 
-	var $nmtitle			= "Competities";
-	var $nmtable 			= "competitions";
-	var $nmsingle			= "competition";
+	protected $_nmtitle			= "Competities";
+	protected $_nmtable 			= "competitions";
+	protected $_nmsingle			= "competition";
 	protected $_searchFields 		= array("nmcompetition");
 	protected $_orderByFields 		= array("nryear", "nrorder", "cdsport", "cdclass", "cdgender", "nmcompetition");
 
@@ -88,9 +88,9 @@ class Competitions extends ListPage{
 		}
 
 		/* print the stuff */
-		$html = "<h2 class='art-postheader'>" . $this->nmtitle . " " . $this->getYear() . "</h2>\n";
+		$html = "<h2 class='art-postheader'>" . $this->_nmtitle . " " . $this->getYear() . "</h2>\n";
 		if (count($this->_rows) == 0){
-			$html .= "<p>Geen resultaten gevonden voor " . strtolower($this->nmtitle) . ".</p>";
+			$html .= "<p>Geen resultaten gevonden voor " . strtolower($this->_nmtitle) . ".</p>";
 			return $html;
 		}
 

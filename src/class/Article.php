@@ -12,9 +12,9 @@ require_once "SingleItemPage.php";
 //require_once "Log.php";
 
 class Article extends SingleItemPage{
-	var $nmtitle	= "Artikelen";
-	var $nmtable	= "articles";
-	var $nmkey		= "idarticle";
+	protected $_nmtitle	= "Artikelen";
+	protected $_nmtable	= "articles";
+	protected $_nmkey		= "idarticle";
 
 	var $persons	= array();
 	var $clubs		= array();
@@ -143,7 +143,7 @@ class Article extends SingleItemPage{
 		}
 
 		/* get the article */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
+		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
 		$this->processRecord();
 
 		/* get the source logo */

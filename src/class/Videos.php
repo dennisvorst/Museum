@@ -4,10 +4,10 @@ require_once "Video.php";
 //require_once "MysqlDatabase.php";
 
 class Videos extends ListPage{
-	var $nmtitle		= "Video's";
+	protected $_nmtitle		= "Video's";
 
-	var $nmtable 		= "videos";
-	var $nmsingle		= "video";
+	protected $_nmtable 		= "videos";
+	protected $_nmsingle		= "video";
 	var $nmclass		= "Video";
 
 	protected $_searchFields 		= array("nmvideo", "ftdepicted");

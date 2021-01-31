@@ -5,9 +5,9 @@ require_once "Club.php";
 //require_once "MysqlDatabase.php";
 
 class Clubs extends ListPage{
-	var $nmtitle			= "Clubs";
-	var $nmtable 			= "clubs";
-	var $nmsingle			= "club";
+	protected $_nmtitle			= "Clubs";
+	protected $_nmtable 			= "clubs";
+	protected $_nmsingle			= "club";
 	var $nmclass			= "Club";
 
 	protected $_searchFields 		= array("nmfull", "nmclub", "ftlocation", "ftfield", "ftaddress");
@@ -37,6 +37,5 @@ class Clubs extends ListPage{
 		}
 		return $this->ftforeignkeys;
 	}
-
 }
 ?>

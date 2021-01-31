@@ -3,8 +3,8 @@ require_once "SingleItemPage.php";
 //require_once "MysqlDatabase.php";
 
 class Source extends SingleItemPage{
-	var $nmtable	= "sources";
-	var $nmkey		= "idsource";
+	protected $_nmtable	= "sources";
+	protected $_nmkey		= "idsource";
 
 	var $path	= "./images/sources/";
 

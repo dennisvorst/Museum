@@ -8,8 +8,8 @@ require_once "CheckBox.php";
 //require_once "MysqlDatabase.php";
 
 class Video extends SingleItemPage{
-	var $nmtable	= "videos";
-	var $nmkey		= "idvideo";
+	protected $_nmtable	= "videos";
+	protected $_nmkey		= "idvideo";
 	var $path		= "./images/videos/";
 	var $width		= "200";
 
@@ -55,7 +55,7 @@ class Video extends SingleItemPage{
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the video */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
+		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
 		$this->processRecord();
 
 		$html = "<div class='container'>\n";

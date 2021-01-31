@@ -5,8 +5,8 @@ require_once "Participants.php";
 //require_once "MysqlDatabase.php";
 
 class Competition extends SingleItemPage{
-	var $nmtable	= "competitions";
-	var $nmkey		= "idcompetition";
+	protected $_nmtable	= "competitions";
+	protected $_nmkey		= "idcompetition";
 
 	var $nmcompetition;
 	var $nmsub;
@@ -41,7 +41,7 @@ class Competition extends SingleItemPage{
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the article */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
+		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
 		$this->processRecord();
 
 		/* get the participants */

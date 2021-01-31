@@ -4,9 +4,9 @@ require_once "HtmlTable.php";
 
 class Games extends ListPage{
 
-	var $nmtitle			= "Wedstrijden";
-	var $nmtable 			= "games";
-	var $nmsingle			= "game";
+	protected $_nmtitle			= "Wedstrijden";
+	protected $_nmtable 			= "games";
+	protected $_nmsingle			= "game";
 	protected $_searchFields 		= array();
 	protected $_orderByFields 		= array("dtstart");
 

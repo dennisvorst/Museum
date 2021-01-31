@@ -1,4 +1,10 @@
 <?php
+/** todo: http://localhost/museum/src/index.php?id=467&nmclass=person has empty values for the 0's in the database
+ * http://localhost/phpmyadmin/tbl_select.php?db=museum&table=hitting 
+ * 	SELECT * FROM `hitting` WHERE `idperson` = 467 
+ */
+
+
 require_once "iStatistics.php";
 require_once "Statistics.php";
 
@@ -10,18 +16,18 @@ class Hitting extends Statistics implements iStatistics
 	protected $_headers = ["Team", "Jaar", "AVG", "GP", "GS", "AB", "R", "H", "2B", "3B", "HR", "RBI", "TB", "SLG%", "BB", "HBP", "SO", "GDP", "OBP%", "SF", "SH", "SB", "ATT"];
 	protected $_keys = ["nravg", "nrgp", "nrgs", "nrab", "nrr", "nrh", "nr2b", "nr3b", "nrhr", "nrrbi", "nrtb", "nrslgperc", "nrbb", "nrhbp", "nrso", "nrgdp", "nrobperc", "nrsf", "nrsh", "nrsb", "nratt"];
 	protected $_title = "Hitting";
-	
+
     function __construct(MysqlDatabase $db, Log $log)
     {
         parent::__construct($db, $log);
     }
 
-    function getTeamStats(int $id) : string
+    function getTeamStatistics(int $id) : string
     {
-
+		return "";
     }
 
-	function getPersonStats(int $id) : string
+	function getPersonStatistics(int $id) : string
 	{
 		/** init */
 		$types = "i";
@@ -31,10 +37,9 @@ class Hitting extends Statistics implements iStatistics
 		 * calculate Hitting
 		 ***********************/
 		/* s.nrh contains the total of hits. So doubles and triples are counted in there. That is why we multiply doubles by 2-1, triples by 3-1 etc. */
-		$sql = "SELECT t.nmteam, s.nryear, s.nrgp, s.nrgs, s.nrab, s.nrr, s.nrh, s.nr2b, s.nr3b, s.nrhr, s.nrrbi, s.nrtb, s.nrslgperc, s.nrbb, s.nrhbp, s.nrso, s.nrgdp, s.nrobperc, s.nrsf, s.nrsh, s.nrsb, s.nratt 
+		$sql = "SELECT t.nmteam, s.nryear, s.nravg, s.nrgp, s.nrgs, s.nrab, s.nrr, s.nrh, s.nr2b, s.nr3b, s.nrhr, s.nrrbi, s.nrtb, s.nrslgperc, s.nrbb, s.nrhbp, s.nrso, s.nrgdp, s.nrobperc, s.nrsf, s.nrsh, s.nrsb, s.nratt 
 				FROM hitting s, teams t 
 				WHERE t.idteam = s.idteam AND idperson = ?";
-		$this->_rows = $this->_db->select($sql, $types, $values);
 		$rows = $this->_db->select($sql, $types, $values);
 
 		foreach ($rows as $row)

@@ -16,12 +16,17 @@ class Fielding extends Statistics implements iStatistics
         parent::__construct($db, $log);
     }
 
-    function getClubStats() : string
+    function getClubStatistics(int $id) : string
     {
-       
-
+       return "";
     }
-    function getPersonStats(int $id) : string
+
+    function getTeamStatistics(int $id) : string
+    {
+       return "";
+    }
+
+    function getPersonStatistics(int $id) : string
     {
         /** init */
 		$types = "i";
@@ -52,30 +57,41 @@ class Fielding extends Statistics implements iStatistics
     /** calculations */
     private function _calcfieldingPercentage(array $row) : array
     {
-
         if (!empty($row))
         {
+            /** init  */
+            $nrpo = 0;
+            $nra = 0;
+            $nre = 0;
+
+            /** if there is no nrfldperc we add one. */
             if (!isset($row['nrfldperc'])) 
             {
-                $row['nrfldperc'] = "---";   
+                $row['nrfldperc'] = "???";
             }
-    
+
+            /** get the required values */
             $keys = ["nrpo", "nra", "nre"];
             foreach ($keys as $key)
             {
-                if (!array_key_exists($key, $row))
+                if (array_key_exists($key, $row))
                 {
-                    $this->_log->write(__METHOD__ . " : key {$key} not provided in array, unable to process fielding percentage.");
-                } else {
                     ${$key} = $row[$key];
                 }
             }
 
-            if (isset($nrpo) && isset($nra) && isset($nre)) 
+            /** topside of the fraction */
+            $numerator = $nrpo + $nra;
+            /** bottom of the fraction */  
+            $denominator = $nrpo + $nra + $nre;
+
+            
+            /** prevent the divison by zero */
+            if (!empty($denominator))
             {
-                $result = round(($nrpo + $nra) / ($nrpo + $nra + $nre), 3);
+                $result = round($numerator / $denominator, 3);
                 $row['nrfldperc'] = $this->_format($result, 3);
-            } 
+            }            
         }
         return $row;
     }

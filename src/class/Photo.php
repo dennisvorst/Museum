@@ -12,8 +12,8 @@ require_once "SingleItemPage.php";
 //require_once "Log.php";
 
 class Photo extends SingleItemPage{
-	var $nmtable		= "photos";
-	var $nmkey			= "idphoto";
+	protected $_nmtable		= "photos";
+	protected $_nmkey			= "idphoto";
 	var $photopath		= "./images/photos/";
 	var $thumbnailpath	= "./images/thumbnails/";
 	var $maxWidth 		= 600;
@@ -91,7 +91,7 @@ class Photo extends SingleItemPage{
 		}
 
 		/* get the photo */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
+		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
 		$this->processRecord();
 
 		/* create the photo */

@@ -30,14 +30,12 @@ class Date{
         $this->Day          = intval(substr($this->Date, 8, 2));
 
         if ($this->Date == "0000-00-00" or empty($this->Date)){
-			//echo "lege datum |" . $this->Date .  "|<br>";
 			$this->DateOut = "";
 			return;
         }
 
         /* check if the date is valid otherwise donot return is */
         if (!checkdate($this->Month, $this->Day, $this->Year)){
-           //echo "ongeldige datum" . "<br>";
            return;
         }
 

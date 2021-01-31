@@ -3,9 +3,9 @@
 
 class Participants extends ListPage{
 
-	var $nmtitle			= "Deelnemers";
-	var $nmtable 			= "participants";
-	var $nmsingle			= "participant";
+	protected $_nmtitle			= "Deelnemers";
+	protected $_nmtable 			= "participants";
+	protected $_nmsingle			= "participant";
 	protected $_searchFields 		= array("");
 	protected $_orderByFields 		= array("nrgames", "nrwins", "nrdraws");
 
@@ -84,7 +84,7 @@ class Participants extends ListPage{
 		}
 
 		/* create the html */
-		$html = "<h2 class='art-postheader'>" . $this->nmtitle . "</h2>\n";
+		$html = "<h2 class='art-postheader'>" . $this->_nmtitle . "</h2>\n";
 		$html .= $table->getElement();
 		return $html;
 

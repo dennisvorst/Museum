@@ -6,9 +6,9 @@ require_once "Photo.php";
 //require_once "Log.php";
 
 class Photos extends ListPage{
-	var $nmtitle		= "Foto's";
-	var $nmtable 		= "photos";
-	var $nmsingle		= "photo";
+	protected $_nmtitle		= "Foto's";
+	protected $_nmtable 		= "photos";
+	protected $_nmsingle		= "photo";
 	var $nmclass		= "photo";
 
 	protected $_searchFields	= array("ftdepicted", "ftdescription", "dtpublish", "nryear");

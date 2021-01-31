@@ -6,8 +6,8 @@ require_once "Persons.php";
 //require_once "MysqlDatabase.php";
 
 class Participant extends SingleItemPage{
-	var $nmtable	= "participants";
-	var $nmkey		= "idparticipant";
+	protected $_nmtable	= "participants";
+	protected $_nmkey		= "idparticipant";
 
 	var $idcompetition;
 	var $idteam;
@@ -44,7 +44,7 @@ class Participant extends SingleItemPage{
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the participant info */
-		$this->ftrecord	= $this->getRecord($this->nmtable, $this->nmkey, $this->_id);
+		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
 
 		/* init */
 		$tableObj	= new HtmlTable();

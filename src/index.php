@@ -164,8 +164,8 @@ if (empty($nmclass)){
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- initiate font awesome -->
-    <link rel="stylesheet" href="3rd/css/font-awesome.min.css">
+	<!-- initiate font awesome -->
+	<script src="https://kit.fontawesome.com/af1eec186a.js" crossorigin="anonymous"></script>
 
     <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link rel="stylesheet" href="css/style.css" media="screen">

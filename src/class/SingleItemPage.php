@@ -20,11 +20,11 @@ class SingleItemPage extends MainPage{
 	protected $_id;
 
 
-	var $nmtitle;
-	var $nmtable;
+	protected $_nmtitle;
+	protected $_nmtable;
 	var $ftrecord;
 //	var $row;
-	var $nmkey;
+	protected $_nmkey;
 	var $ftrepresentation; /* the fields that make up the representation in a list. */
 
 	/* applies to all records */
@@ -48,7 +48,7 @@ class SingleItemPage extends MainPage{
 			$this->_log->write(__METHOD__);
 		}
 
-		$query = "SELECT * FROM $this->nmtable WHERE $this->nmkey = ?";
+		$query = "SELECT * FROM $this->_nmtable WHERE $this->_nmkey = ?";
 		$this->ftrecord	= $this->_db->select($query, "i", [$id]);
 		$this->setRecord($this->ftrecord[0]);
 		$this->processRecord();
@@ -107,12 +107,12 @@ class SingleItemPage extends MainPage{
 		}
 
 		/* deprecated use the getSubmenu in the form table */
-		$ftsubentities = MySql::getSubentities($this->nmkey);
+		$ftsubentities = MySql::getSubentities($this->_nmkey);
 		$fthtml = "<table><!-- SingleItemPage -->\n<tr>\n";
 		foreach ($ftsubentities as $subentity){
 			$nmmenu = $this->ftsubmenus[$subentity['table_name']];
 			if (!empty($nmmenu)){
-//				$fthtml .= "<td><a href='index.php?nmclass=" . $subentity['table_name'] . "&nmparent=$this->nmtable&$this->nmkey=$this->_id'>$nmmenu</a></td>";
+//				$fthtml .= "<td><a href='index.php?nmclass=" . $subentity['table_name'] . "&nmparent=$this->_nmtable&$this->_nmkey=$this->_id'>$nmmenu</a></td>";
 				$fthtml .= "<td><a href='index.php?nmclass=" . $subentity['table_name'] . "&nmparent=" . strtolower (get_class($this)) . "&nrfk=$this->_id'>$nmmenu</a></td>";
 			}
 		}
@@ -126,7 +126,7 @@ class SingleItemPage extends MainPage{
 		}
 
 		/* show a single record */
-		$form = new Form($this->nmtitle, $this->nmtable, strtolower(get_class($this)), $this->_id, $this->ftsubmenus);
+		$form = new Form($this->_nmtitle, $this->_nmtable, strtolower(get_class($this)), $this->_id, $this->ftsubmenus);
 		echo $form->displayForm("S", "V", "E");
 	}
 
@@ -146,7 +146,7 @@ class SingleItemPage extends MainPage{
 			$this->_log->write(__METHOD__);
 		}
 
-		return $this->nmtable;
+		return $this->_nmtable;
 	}
 
 	function getKeyName(){
@@ -154,7 +154,7 @@ class SingleItemPage extends MainPage{
 			$this->_log->write(__METHOD__);
 		}
 
-		return $this->nmkey;
+		return $this->_nmkey;
 	}
 
 	function setParent($nmparent){

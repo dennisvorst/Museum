@@ -10,11 +10,11 @@ require_once "MainPage.php";
 
 class ListPage extends MainPage{
 	protected $_db;
-	protected $_rows;
+	protected $_rows = [];
 
-	var $nmtitle;
-	var $nmtable;
-	var $nmsingle;
+	protected $_nmtitle;
+	protected $_nmtable;
+	protected $_nmsingle;
 
 	var $nmclass;
 
@@ -53,7 +53,7 @@ class ListPage extends MainPage{
 		$ftwhere	= $this->getWhere();
 		$ftorderby	= $this->getOrderBy();
 
-		$query = "SELECT * FROM $this->nmtable ";
+		$query = "SELECT * FROM $this->_nmtable ";
 		if (!empty($ftwhere)){
 			$query .= $ftwhere;
 		}
@@ -69,7 +69,7 @@ class ListPage extends MainPage{
 			$this->_log->write(__METHOD__ );
 		}
 
-		$query = "SELECT * FROM $this->nmtable WHERE is_featured = ? ";
+		$query = "SELECT * FROM $this->_nmtable WHERE is_featured = ? ";
 		if (!empty($ftorderby)){
 			$query .= $ftorderby;
 		}
@@ -235,7 +235,7 @@ class ListPage extends MainPage{
 
 		/* the admin part of the page */
 		/* show a list of records */
-		$form = new Form($this->nmtitle, $this->nmtable, $this->nmsingle, null, $this->ftsubmenus);
+		$form = new Form($this->_nmtitle, $this->_nmtable, $this->_nmsingle, null, $this->ftsubmenus);
 		echo $form->displayForm("S", "H", "D");
 	}//getMainAdmin
 
@@ -271,7 +271,7 @@ class ListPage extends MainPage{
 			$this->_log->write(__METHOD__ );
 		}
 
-		return $this->nmtitle;
+		return $this->_nmtitle;
 	}
 
 
@@ -285,7 +285,7 @@ class ListPage extends MainPage{
 		*/
 		$html = "<h2 class='art-postheader'>" . $this->getTitle() . " </h2>\n";
 		if (count($this->_rows) == 0){
-			$html .= "<p>Geen resultaten gevonden voor " . strtolower($this->nmtitle) . ".</p>";
+			$html .= "<p>Geen resultaten gevonden voor " . strtolower($this->_nmtitle) . ".</p>";
 			return $html;
 		}
 
@@ -320,20 +320,20 @@ class ListPage extends MainPage{
 
 		if (is_object($this->menuBar)){
 			if ($nmclass === "persons" || $nmclass === "clubs"){
-				$ftmenubar = $this->menuBar->getToolBar($this->nmtable, ListPage::$nmalphabet, "nmalphabet", $this->alphabet);
-				$sql = "SELECT count(*) AS total FROM $this->nmtable WHERE $this->nmAlphabetField LIKE ?";
+				$ftmenubar = $this->menuBar->getToolBar($this->_nmtable, ListPage::$nmalphabet, "nmalphabet", $this->alphabet);
+				$sql = "SELECT count(*) AS total FROM $this->_nmtable WHERE $this->nmAlphabetField LIKE ?";
 				$types = "s";
 				$values = [ListPage::$nmalphabet . "%"];
 			} else {
-				$ftmenubar = $this->menuBar->getToolBar($this->nmtable, ListPage::$nryear, "nryear", $this->years);
-				$sql = "SELECT count(*) AS total FROM $this->nmtable WHERE $this->nmYearField = ?";
+				$ftmenubar = $this->menuBar->getToolBar($this->_nmtable, ListPage::$nryear, "nryear", $this->years);
+				$sql = "SELECT count(*) AS total FROM $this->_nmtable WHERE $this->nmYearField = ?";
 				$types = "s";
 				$values = [ListPage::$nryear];
 
 			}
 		} else {
 			/* for the elements without a menubar */
-			$sql = "SELECT count(*) AS total FROM $this->nmtable";
+			$sql = "SELECT count(*) AS total FROM $this->_nmtable";
 		}
 
 		/* get the total of items in the database */
@@ -355,9 +355,9 @@ class ListPage extends MainPage{
 
 		if ($nmclass === "persons" || $nmclass === "clubs"){
 			/* fill $this->_rows */
-			$this->getRecords($this->nmtable, $nrstart, $nrend);
+			$this->getRecords($this->_nmtable, $nrstart, $nrend);
 		} else {
-			$this->getRecords($this->nmtable, $nrstart, $nrend);
+			$this->getRecords($this->_nmtable, $nrstart, $nrend);
 		}
 
 
@@ -587,7 +587,7 @@ class ListPage extends MainPage{
 		$ftvaluelist	= array_map('strtoupper', $ftvaluelist);
 
 		/* create the query */
-		$sql	= "SELECT * FROM " . $this->nmtable . " WHERE ";
+		$sql	= "SELECT * FROM " . $this->_nmtable . " WHERE ";
 
 		/* create the where clause */
 		$ftwhere = "";

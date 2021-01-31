@@ -6,9 +6,9 @@ require_once "Club.php";
 //require_once "Log.php";
 
 class Teams extends ListPage{
-	var $nmtitle			= "Teams";
-	var $nmtable 			= "teams";
-	var $nmsingle			= "team";
+	protected $_nmtitle			= "Teams";
+	protected $_nmtable 			= "teams";
+	protected $_nmsingle			= "team";
 	var $nmclass			= "Team";
 
 	protected $_searchFields 		= array("nmteam", "cdsport", "cdclass", "cdgender");
