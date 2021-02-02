@@ -9,45 +9,49 @@ require_once "HtmlGrid.php";
 
 /** todo: pass mysql database as an object in the constructor*/
 class Menu{
-	protected $_version = "0.0.29";
+	protected $_version = "1.0.0";
 //	protected $_db;
 
 	/* constructor */
 	function __construct(){
 	}
 
-	function getMainMenu($activeMenu){
+	function getMainMenu(string $class = null) : string
+	{
 		/* return the main menu items */
-		if(empty($activeMenu)){
-			$activeMenu = "home";
+
+		if(empty($class)){
+			$class = "home";
 		}
 		
 		/* create the menu list */
-		$menuItems[0] = array("idpart"=>"home", "valuepart"=>"Home");
-		$menuItems[1] = array("idpart"=>"articles", "valuepart"=>"Artikelen");
-		$menuItems[2] = array("idpart"=>"photos", "valuepart"=>"Foto's");
-		$menuItems[3] = array("idpart"=>"videos", "valuepart"=>"Video's");
-		
-		$menuItems[4] = array("idpart"=>"clubs", "valuepart"=>"Clubs");
-		$menuItems[5] = array("idpart"=>"persons", "valuepart"=>"Personen");
-		$menuItems[6] = array("idpart"=>"halloffamers", "valuepart"=>"Eregalerij");
-		
-		$menuItems[7] = array("idpart"=>"competitions", "valuepart"=>"Competities");
+		$items["home"] = "Home";
+		$items["articles"] = "Artikelen";
+		$items["photos"] = "Foto's";
+		$items["videos"] = "Video's";
+		$items["clubs"] = "Clubs";
+		$items["persons"] = "Personen";
+		$items["halloffamers"] = "Eregalerij";
+		$items["competitions"] = "Competities";
+		$items["contact"] = "Contact";
 
-		$menuItems[8] = array("idpart"=>"contact", "valuepart"=>"Contact");		
+		$html = "";
+		foreach ($items as $key => $value){
+			$href = "index.php?nmclass=" . $key;
 
-		$html	= "<div>Versie: " . $this->_version . "</div>\n";
-		$html	.= "<ul class='art-vmenu'>\n";
-
-		for ($x = 0; $x < count($menuItems); $x++){
-			$class = "";
-			if  ($menuItems[$x]['idpart'] == $activeMenu){
-				$class = "class='active'";
+			$active = ""; 
+			if ($key === $class)
+			{
+				$active = " active";
 			}
+			$html .= "<li class='nav-item'><a class='nav-link{$active}' aria-current='page' href='{$href}'>{$value}</a></li>\n";
 
-			$html	.= "<li><a href='index.php?nmclass=" . $menuItems[$x]['idpart'] . "' " . $class .  " >" . $menuItems[$x]['valuepart'] . "</a></li>\n";
+
 		}
-		$html	.= "</ul>\n";
+
+		/** bootstrap */
+		$html	= "<div>Versie: " . $this->_version . "</div>\n<ul class='nav flex-column'>\n{$html}</ul>\n";
+
 		
 		return $html;
 	}
