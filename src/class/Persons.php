@@ -10,7 +10,7 @@ class Persons extends ListPage{
 	protected $_nmtitle			= "Personen";
 	protected $_nmtable			= "persons";
 	protected $_nmsingle			= "person";
-	var $nmclass			= "Person";
+	protected $_nmclass			= "Person";
 
 	protected $_searchFields 		= array("nmfirst", "nmsur", "nmlast");
 	protected $_orderByFields 		= array("nmlast", "nmfirst");

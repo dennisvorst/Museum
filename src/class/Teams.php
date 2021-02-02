@@ -9,7 +9,7 @@ class Teams extends ListPage{
 	protected $_nmtitle			= "Teams";
 	protected $_nmtable 			= "teams";
 	protected $_nmsingle			= "team";
-	var $nmclass			= "Team";
+	protected $_nmclass			= "Team";
 
 	protected $_searchFields 		= array("nmteam", "cdsport", "cdclass", "cdgender");
 	protected $_orderByFields 		= array("nmteam", "cdsport", "cdclass", "cdgender");

@@ -9,7 +9,7 @@ class Photos extends ListPage{
 	protected $_nmtitle		= "Foto's";
 	protected $_nmtable 		= "photos";
 	protected $_nmsingle		= "photo";
-	var $nmclass		= "photo";
+	protected $_nmclass		= "photo";
 
 	protected $_searchFields	= array("ftdepicted", "ftdescription", "dtpublish", "nryear");
 	protected $_orderByFields	= array("dtpublish");

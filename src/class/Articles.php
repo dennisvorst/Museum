@@ -14,7 +14,7 @@ class Articles extends ListPage{
 
 	protected $_nmtable 		= "articles";
 	protected $_nmsingle		= "article";
-	var $nmclass 		= "Article";
+	protected $_nmclass 		= "Article";
 	protected $_searchFields 	= array("fttitle1", "fttitle2", "fttitle3", "ftarticle", "nmauthor", "ftarticle");
 	protected $_orderByFields 	= array("dtpublish");
 
