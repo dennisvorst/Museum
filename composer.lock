@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5001a17755471044e91c73febd93ea68",
+    "content-hash": "bbf1636d4e2c2b57b7bc76bcc815302b",
     "packages": [
         {
             "name": "cakephp/cache",
@@ -1376,6 +1376,51 @@
                 }
             ],
             "time": "2021-01-27T09:09:26+00:00"
+        },
+        {
+            "name": "vorstd/administrator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dennisvorst/MysqlAdministrator.git",
+                "reference": "d545334f89be2bc2e5fb6fd3faffae1d35b914b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dennisvorst/MysqlAdministrator/zipball/d545334f89be2bc2e5fb6fd3faffae1d35b914b3",
+                "reference": "d545334f89be2bc2e5fb6fd3faffae1d35b914b3",
+                "shasum": ""
+            },
+            "require": {
+                "vorstd/database": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "psr-0": {
+                    "\\": "src/class/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "phpunit --colors=always --bootstrap ./vendor/autoload.php ./tests/Unit"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Mysql administrator project",
+            "support": {
+                "source": "https://github.com/dennisvorst/MysqlAdministrator/tree/master",
+                "issues": "https://github.com/dennisvorst/MysqlAdministrator/issues"
+            },
+            "time": "2021-02-05T07:46:48+00:00"
         },
         {
             "name": "vorstd/database",
@@ -3114,7 +3159,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "vorstd/database": 20
+        "vorstd/database": 20,
+        "vorstd/administrator": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
