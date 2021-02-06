@@ -1383,12 +1383,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dennisvorst/MysqlAdministrator.git",
-                "reference": "d545334f89be2bc2e5fb6fd3faffae1d35b914b3"
+                "reference": "8c46a526650acaf91e3fb58e70161733c5d70fd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dennisvorst/MysqlAdministrator/zipball/d545334f89be2bc2e5fb6fd3faffae1d35b914b3",
-                "reference": "d545334f89be2bc2e5fb6fd3faffae1d35b914b3",
+                "url": "https://api.github.com/repos/dennisvorst/MysqlAdministrator/zipball/8c46a526650acaf91e3fb58e70161733c5d70fd2",
+                "reference": "8c46a526650acaf91e3fb58e70161733c5d70fd2",
                 "shasum": ""
             },
             "require": {
@@ -1420,7 +1420,7 @@
                 "source": "https://github.com/dennisvorst/MysqlAdministrator/tree/master",
                 "issues": "https://github.com/dennisvorst/MysqlAdministrator/issues"
             },
-            "time": "2021-02-05T07:46:48+00:00"
+            "time": "2021-02-05T08:05:15+00:00"
         },
         {
             "name": "vorstd/database",
