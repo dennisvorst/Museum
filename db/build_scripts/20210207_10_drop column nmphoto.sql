@@ -1,0 +1,1 @@
+ALTER TABLE videos DROP IF EXISTS nmphoto;

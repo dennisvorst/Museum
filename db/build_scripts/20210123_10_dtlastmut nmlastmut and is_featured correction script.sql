@@ -78,6 +78,10 @@ UPDATE sources SET nmlastmut = "ADMIN";
 UPDATE teams SET nmlastmut = "ADMIN";
 UPDATE videos SET nmlastmut = "ADMIN";
 
+UPDATE pitching SET nmlastmut = "ADMIN";
+UPDATE hitting SET nmlastmut = "ADMIN";
+UPDATE fielding SET nmlastmut = "ADMIN";
+
 
 /* 
 fix the dtprevmut datatypes 

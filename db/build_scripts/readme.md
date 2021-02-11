@@ -10,4 +10,8 @@ The file named '10 - production database.sql' is the copy from production. In or
 | 20210131 | 20 | update persons | Moving the halloffamers content to the persons table |
 | 20210131 | 30 | drop halloffamers | Deleting the halloffamers table |
 | 20210131 | 40 | update is_featured | Change the is_featured columns from a tinyint 3 to a tinyint(1) |
-| 20210206 | 10 | cretaed_at additional | Adding the created_at, created_by, updated_at elements to the remaining tables.
+| 20210206 | 10 | creted_at additional | Adding the created_at, created_by, updated_at elements to the remaining tables.|
+| 20210206 | 20 | insert clubretired | The first occupants of the clubretired jerseys table.|
+| 20210210 | 10 | personphotos and personarticles | The created_at and the updated_at values where switched. This scripts corrects that.|
+| 20210210 | 20 | articles 3550 and 3594 | Before we can add an article constraint we need to fix the failing records.|
+| 20210210 | 30 | add additional referential integrity improvement. |
