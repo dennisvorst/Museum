@@ -31,3 +31,7 @@ src/class/MysqlDatabase.php
 src/class/MysqlConfig.php
 src/class/www.honkbalmuseum.nl.inc
 *.log
+db/build_scripts/dvo.out
+
+# ignore the originals folder 
+originals/
