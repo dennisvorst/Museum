@@ -19,3 +19,4 @@ The file named '10 - production database.sql' is the copy from production. In or
 | 20210212 | 30 | post select (there should be 1 index left)|
 | 20210212 | 40 | create foreign keys |
 | 20210212 | 50 | post select (there should be 32)|
+| 20210213 | 10 | museum update - the first generated record updates, jeej |
