@@ -14,4 +14,8 @@ The file named '10 - production database.sql' is the copy from production. In or
 | 20210206 | 20 | insert clubretired | The first occupants of the clubretired jerseys table.|
 | 20210210 | 10 | personphotos and personarticles | The created_at and the updated_at values where switched. This scripts corrects that.|
 | 20210210 | 20 | articles 3550 and 3594 | Before we can add an article constraint we need to fix the failing records.|
-| 20210210 | 30 | add additional referential integrity improvement. |
+| 20210212 | 10 | pre select (there should be 40)|
+| 20210212 | 20 | drop foreign keys |
+| 20210212 | 30 | post select (there should be 1 index left)|
+| 20210212 | 40 | create foreign keys |
+| 20210212 | 50 | post select (there should be 32)|
