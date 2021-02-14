@@ -27,7 +27,7 @@ class Article extends SingleItemPage{
 	var $fttitle1;
 	var $fttitle2;
 	var $fttitle3;
-	var $cdtype;
+	var $cdsport;
 	var $ftarticle;
 	var $nrparagraphs;
 
@@ -46,6 +46,10 @@ class Article extends SingleItemPage{
 			$this->_log->write(__METHOD__ );
 		}
 
+		if (empty($this->ftrecord)) 
+		{
+			return;
+		}
 		$this->_id			= $this->ftrecord['idarticle'];
 
 		$this->idsource		= $this->ftrecord['idsource'];
@@ -56,7 +60,7 @@ class Article extends SingleItemPage{
 		$this->fttitle1		= $this->ftrecord['fttitle1'];
 		$this->fttitle2		= $this->ftrecord['fttitle2'];
 		$this->fttitle3		= $this->ftrecord['fttitle3'];
-		$this->cdtype		= $this->ftrecord['cdtype'];
+		$this->cdsport		= $this->ftrecord['cdsport'];
 
 		$this->ftarticle	= $this->ftrecord['ftarticle'];
 		$this->is_featured	= $this->ftrecord['is_featured'];
@@ -74,11 +78,12 @@ class Article extends SingleItemPage{
 		/* create a thumbnail as part of a collection of records. */
 
 		/* cut the article */
-		if (empty($this->ftarticle)) 
+		if (empty($this->ftarticle))
 		{
-			throw new exception("No article selected.");
+			/** todo : find workable solution for empty body's of articles */
+			//throw new exception("No article selected ({$this->_id}).");
 		}
-				
+
 		$ftarticle = $this->ftarticle;
 		if (strlen($ftarticle) > $this->thumbTextLength){
 			$ftarticle	= substr($ftarticle, 0, $this->thumbTextLength);
@@ -104,27 +109,25 @@ class Article extends SingleItemPage{
 		}
 
 		/* create the return string */
+		$html = "<table width=\"100%\">\n";
+		$html .= "<tr>\n";
 
-
-		$data = "<table width=\"100%\">\n";
-		$data .= "<tr>\n";
-
-		$data .= "<td colspan='$colspan'><b>$this->fttitle1</b></td>\n";
-		$data .= "</tr>\n";
-		$data .= "<tr>\n";
+		$html .= "<td colspan='$colspan'><q>$this->fttitle1</q></td>\n";
+		$html .= "</tr>\n";
+		$html .= "<tr>\n";
 		/*if there is a photo insert it*/
 		if (!empty($photo)){
-			$data .= "<td rowspan='3'>$photo</td>\n";
+			$html .= "<td rowspan='3'>$photo</td>\n";
 		}
-		$data .= "<td width='50%'>$dtpublish</td>\n";
-		$data .= "<td width='50%' align='right'>$this->nmauthor</td>\n";
-		$data .= "</tr>\n";
-		$data .= "<tr>\n";
-		$data .= "<td colspan='2'>$ftarticle<a href='" . $this->getUrl() . "'>Lees meer</a></td>\n";
-		$data .= "</tr>\n";
-		$data .= "</table>\n";
+		$html .= "<td width='50%'>$dtpublish</td>\n";
+		$html .= "<td width='50%' align='right'>$this->nmauthor</td>\n";
+		$html .= "</tr>\n";
+		$html .= "<tr>\n";
+		$html .= "<td colspan='2'>$ftarticle<a href='" . $this->getUrl() . "'>Lees meer</a></td>\n";
+		$html .= "</tr>\n";
+		$html .= "</table>\n";
 
-		return $data;
+		return $html;
 	}
 
 	var $_photoCollection;
@@ -143,43 +146,49 @@ class Article extends SingleItemPage{
 		}
 
 		/* get the article */
+		$html = "";
 		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
-		$this->processRecord();
+		if (!empty($this->ftrecord))
+		{
+			$this->processRecord();
 
-		/* get the source logo */
-		$sourceObj	= new Source($this->_db, $this->_log);
-		$sourceLogo	= $sourceObj->getArticleLogo($this->_id);
+			/* get the source logo */
+			$sourceObj	= new Source($this->_db, $this->_log);
+			$sourceLogo	= $sourceObj->getArticleLogo($this->_id);
+	
+			/* translate the date */
+			$dateObj	= new Date();
+			$dtpublish	= $dateObj->translateDate($this->dtpublish, "W");
+	
+			/* get the photos */
+			$this->photosObj = new Photos($this->_db, $this->_log);
+			$this->photosObj->getArticlePhotos($this->_id);
+	
+			/* create the article and add the photos */
+			$ftarticle	= $this->getArticle();
 
-		/* translate the date */
-		$dateObj	= new Date();
-    	$dtpublish	= $dateObj->translateDate($this->dtpublish, "W");
+			$media = Social::addShareButtons($this->getUrl());
+			$html = "<div class='container'>
+						<div class='row'>
+							<img border='0' src='" . $sourceLogo . "'>
+						</div>
+						<div class='row'>
+							<div class='col-sm'>{$this->nmauthor}</div>
+							<div class='col-sm'><span class='pull-right'>{$dtpublish}</span></div>
+						</div>
+						<!-- Title 1-->
+						<div class='row'>{$this->getArticleTitle($this->fttitle1, "h1")}</div>
+						<!-- Title 2-->
+						<div class='row'>{$this->getArticleTitle($this->fttitle2, "h2")}</div>
+						<!-- Title 3-->
+						<div class='row'>{$this->getArticleTitle($this->fttitle3, "h2")}</div>
+						<!-- social media -->
+						<div class='row'>{$media}</div>
 
-		/* get the photos */
-		$this->photosObj = new Photos($this->_db, $this->_log);
-		$this->photosObj->getArticlePhotos($this->_id);
-
-		/* create the article and add the photos */
-		$ftarticle	= $this->getArticle();
-
-		$html = "<div class='article'>\n";
-		$html .= "<div class='source'><img border='0' src='" . $sourceLogo . "'></div>\n";
-		$html .= "<div class='container'>\n";
-		$html .= "<div class='author'>" . $this->nmauthor . "</div>\n";
-		$html .= "<div class='publishdate'>" . $dtpublish . "</p></div>\n";
-		$html .= "</div>\n";
-
-		$html .= $this->getArticleTitle($this->fttitle1, "h1");
-		$html .= $this->getArticleTitle($this->fttitle2, "h2");
-		$html .= $this->getArticleTitle($this->fttitle3, "h2");
-
-		/* social media buttons */
-		$html .= "<div class='container'>" . Social::addShareButtons($this->getUrl()) . "</div>";
-
-		$html .= "<div class='articletext'>\n";
-		$html .= $ftarticle;
-		$html .= "</div>\n";
-		$html .= "</div>\n";
-
+						<!-- article -->
+						<div class='row'>{$ftarticle}</div>
+					</div>";
+		}
 		return $html;
 	}// getIndexPage
 
@@ -196,14 +205,14 @@ class Article extends SingleItemPage{
 
 
 		if (count($this->persons) > 0){
-			$html .= "<div class='art-block clearfix'>\n";
-			$html .= "<div class='art-blockheader'>\n";
-			$html .= "<h3 class='t'>Personen</h3>\n";
+			$html .= "<div>\n";
+			$html .= "<div>\n";
+			$html .= "<h3>Personen</h3>\n";
 			$html .= "</div>\n";
-			$html .= "<div class='art-blockcontent'>\n";
+			$html .= "<div>\n";
 
 			for ($x=0; $x<count($this->persons); $x++){
-				$html .= $this->persons[$x]->getNameWithUrl() . "</br>";
+				$html .= $this->persons[$x]->getNameWithUrl() . "<br>";
 			}
 			$html .= "</div>\n";
 			$html .= "</div>\n";
@@ -211,25 +220,25 @@ class Article extends SingleItemPage{
 		} // endif (count($this->persons > 0)){
 
 		if (count($this->clubs) > 0){
-			$html .= "<div class='art-block clearfix'>\n";
-			$html .= "<div class='art-blockheader'>\n";
-			$html .= "<h3 class='t'>Clubs</h3>\n";
+			$html .= "<div>\n";
+			$html .= "<div>\n";
+			$html .= "<h3>Clubs</h3>\n";
 			$html .= "</div>\n";
-			$html .= "<div class='art-blockcontent'>\n";
+			$html .= "<div>\n";
 
 			for ($x=0; $x<count($this->clubs); $x++){
-				$html .= $this->clubs[$x]->getNameWithUrl() . "</br>";
+				$html .= $this->clubs[$x]->getNameWithUrl() . "<br>";
 			}
 			$html .= "</div>\n";
 			$html .= "</div>\n";
 		}
 
 		if (count($this->competitions) > 0){
-			$html .= "<div class='art-block clearfix'>\n";
-			$html .= "<div class='art-blockheader'>\n";
-			$html .= "<h3 class='t'>Competities</h3>\n";
+			$html .= "<div>\n";
+			$html .= "<div>\n";
+			$html .= "<h3>Competities</h3>\n";
 			$html .= "</div>\n";
-			$html .= "<div class='art-blockcontent'>\n";
+			$html .= "<div>\n";
 			$html .= "</div>\n";
 			$html .= "</div>\n";
 		}
@@ -285,7 +294,7 @@ class Article extends SingleItemPage{
 		$photos			= $this->photosObj->getPhotos();
 		$nrphotos		= count($photos);
 		$ftparagraphs 	= $this->getArrayOfParagraphs($this->ftarticle);
-		$nrparagraphs	= count($ftparagraphs);
+		$nrparagraphs	= (empty($ftparagraphs) ? 0 : count($ftparagraphs)) ;
 		/* if the array is not an arry. make it an array */
 		if (!is_array($ftparagraphs)){
 			$ftparagraphs = array($ftparagraphs);
@@ -318,11 +327,18 @@ class Article extends SingleItemPage{
 			}
 
 			/* process the article stuff */
-			if ($x === 0 or strlen($ftparagraphs[$x])<= 25){
+			if (strlen($ftparagraphs[$x]) === 0)
+			{
+				$ftarticle .= "<br><br>";
+			}
+			elseif ($x === 0 or strlen($ftparagraphs[$x])<= 25)
+			{
 				/* add the first picture and make the first paragraph bold */
-				$ftarticle .= "<b>" . $ftparagraphs[$x] . "</b></br>";
-			} else {
-				$ftarticle .= $ftparagraphs[$x] . "</br>";
+				$ftarticle .= "<p><b>" . $ftparagraphs[$x] . "</b></p><br>";
+			} 
+			else
+			{
+				$ftarticle .= "<p>" . $ftparagraphs[$x] . "</p><br>";
 			}
 
 		}//endfor
@@ -331,7 +347,8 @@ class Article extends SingleItemPage{
 
 	}//getArticle
 
-	function getArrayOfParagraphs($ftarticle){
+	function getArrayOfParagraphs($ftarticle) : array 
+	{
 		if ($this->_debug){
 			$this->_log->write(__METHOD__ );
 		}
@@ -341,6 +358,9 @@ class Article extends SingleItemPage{
 		if (strpos($ftarticle, chr(10)) > 0){
 			/* turn it into an array */
 			$ftarticle = explode(chr(10), $ftarticle);
+		} else {
+			/** there are no eol characters in the string, still we need to return an array */
+			$ftarticle = [$ftarticle];
 		}
 		return $ftarticle;
 	}
@@ -352,7 +372,7 @@ class Article extends SingleItemPage{
 
 		/* get the persons that go with the article */
 		$query	= "SELECT p.idperson FROM personarticles a, persons p WHERE idarticle = ? AND a.idperson = p.idperson ORDER BY p.nmlast";
-		
+
 		$rows	= $this->_db->select($query, "i", [$this->_id]);
 		$x = 0;
 		foreach ($rows as $row){
@@ -406,7 +426,7 @@ class Article extends SingleItemPage{
 		$ftlabels["fttitle1"]	= "Title";
 		$ftlabels["fttitle2"]	= "Subtitle";
 		$ftlabels["fttitle3"]	= "Bijschrift";
-		$ftlabels["cdtype"]		= "Type";
+		$ftlabels["cdsport"]		= "Type";
 		$ftlabels["ftarticle"]	= "Artikel";
 
 		$ftlabels = parent::getGenericLabels($ftlabels);
