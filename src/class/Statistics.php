@@ -87,7 +87,7 @@ class Statistics extends ListPage
 		/* process the stats */
 		if (count($this->_rows) > 0){
 			$table = new HtmlTable();
-			$html	.= "<h2 class='art-postheader'>{$this->_title}</h2>\n";
+			$html	.= "<h2>{$this->_title}</h2>\n";
 			array_unshift($this->_totals, "Totaal", "");
 			$html	.= $table->createHtmlTable($this->_headers, $this->_rows, $this->_totals);
 		}

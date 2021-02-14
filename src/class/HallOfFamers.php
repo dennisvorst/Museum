@@ -42,7 +42,7 @@ class HallOfFamers extends Persons{
 		}
 
 		/* create the html */
-		$html = "<h2 class='art-postheader'>" . $this->getTitle() . " </h2>\n";
+		$html = "<h2>" . $this->getTitle() . " </h2>\n";
 
 		foreach ($persons as $person){
 			$html	.= $this->createHtml($person);

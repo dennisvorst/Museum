@@ -1,8 +1,8 @@
 <?php
 
-/** todo : make the webstie wider so that the pitching table fits 
+/** todo : make the webstie wider so that the pitching table fits
  * todo : remove the classes i dont need in the index.php
- * todo: rename all the query to sql 
+ * todo: rename all the query to sql
  * all the row to row
  * all the class row to _row
 */
@@ -10,7 +10,7 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
 // https://blog.bobbyallen.me/2013/03/23/using-composer-in-your-own-php-projects-with-your-own-git-packageslibraries/
-// todo : remove when going live 
+// todo : remove when going live
 require '../vendor/autoload.php';
 
 
@@ -86,8 +86,9 @@ require_once "class/Videos.php";
 //*********************************************************
 /* some init stuff just in case it is not set in the $_GET or $_POST */
 $nmclass = "home";
+$title = "Nederlands Honkbal en Softbal Museum";
 
-$config = new MysqlConfig();
+//$config = new MysqlConfig();
 $log = new Log("museum.log");
 
 switch ($_SERVER['SERVER_NAME']){
@@ -152,14 +153,14 @@ if (empty($nmclass)){
 	$object = new $object($db, $log);
 }
 ?>
-<!DOCTYPE html>
-<html dir="ltr" lang="en-US"><head>
+<!doctype html>
+<html lang="en">
+<head>
 	<!-- set the UTF-8 properties -->
 	<!-- as defined in : https://www.toptal.com/php/a-utf-8-primer-for-php-and-mysql -->
-    <meta charset="UTF-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Honkbalmuseum</title>
 
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -167,20 +168,11 @@ if (empty($nmclass)){
 	<!-- initiate font awesome -->
 	<script src="https://kit.fontawesome.com/af1eec186a.js" crossorigin="anonymous"></script>
 
-    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <link rel="stylesheet" href="css/style.css" media="screen">
-    <!--[if lte IE 7]><link rel="stylesheet" href="css/style.ie7.css" media="screen" /><![endif]-->
-    <link rel="stylesheet" href="css/style.responsive.css" media="all">
-
-
-	<style>
-	.art-content .art-postcontent-0 .layout-item-0 { padding-right: 10px;padding-left: 10px;  }
-    .ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
-    .ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
-    </style>
-
     <!-- https://support.google.com/analytics/answer/1008080?hl=nl -->
     <?php include_once("config/analyticstracking.php") ?>
+
+    <title><?php echo $title; ?></title>
+
 </head>
 <body>
 	<?php
@@ -188,71 +180,76 @@ if (empty($nmclass)){
 	echo $socialObj->addFacebookPrefix();
 //	echo Social::addFacebookPrefix();
 	?>
-	<div id="art-main">
-		<header class="art-header">
-		    <div class="art-shapes"></div>
-		</header>
-        <nav class="art-nav">
-            <ul class="art-hmenu">
-                <li><a href="index.php" class="active">Home</a></li>
-                <li><a href="index.php?nmclass=search">Zoeken</a></li>
-            </ul>
-        </nav>
-		<div class="art-sheet clearfix">
-        <div class="art-layout-wrapper">
-            <div class="art-content-layout">
-                <div class="art-content-layout-row">
-                    <div class="art-layout-cell art-sidebar1">
-                    	<div class="art-vmenublock clearfix">
-	                        <div class="art-vmenublockcontent">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- center -->
+                <header>
+                <div class="container">
+                    <div class="row">        
+                        <div class="col-md-6 col-xs-6  text-right">
+                            <h1>Nederlands<br>Honkbal en Softbal<br>Museum</h1>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                            <img src="images/logo.png" class="img-responsive" width="175"/>
+                        </div>
+                    </div>
+		        </header>
+                <!-- button bar -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0" action='search.php' method='post' accept-charset='utf-8'>
+                            <input class="form-control mr-sm-2" type="search" placeholder="Zoeken" aria-label="Zoeken" name='query'>
+                            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Zoek</button>
+                        </form>
+                    </div>
+                </nav>
+
+                <!-- main section -->
+                <article>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <!-- menu -->
     	                        <?php
         	                    $menu = new Menu();
             	                echo $menu->getMainMenu($nmclass);
-                	            $menu	= null;
                     	        ?>
-                        	</div>
+                            </div>
+                            <div class="col-lg-6">
+                                <!-- main part of the website -->
+                                <?php
+                                try {
+                                    /* if an id is set then pass it, but not when the classname is Home */
+                                    if (get_class($object) != "Home" && !empty($id)){
+                                        $object->setId($id);
+                                        echo $object->getMain($nmtab, $nrpage);
 
-	                    </div>
-                        <div class="art-block clearfix">
-        	            </div>
-            	    </div>
-                    <!-- Main section -->
+                                    } elseif (get_class($object) == "Search"){
+                                        /* if there is a query then load the query otherwise show the search field */
+                                        if (isset($sql) && !empty($sql)){
+                                            $object->setQuery($sql);
+                                        } else {
+                                            echo $object->getMain();
+                                        }
+                                    } else {
+                                        echo $object->getMain($nmtab, $nrpage);
+                                    }
 
-                    <?php
-                    try {
-                        /* if an id is set then pass it, but not when the classname is Home */
-                        if (get_class($object) != "Home" && !empty($id)){
-                            $object->setId($id);
-                            echo $object->getMain($nmtab, $nrpage);
-
-                        } elseif (get_class($object) == "Search"){
-                            /* if there is a query then load the query otherwise show the search field */
-                            if (isset($sql)){
-                                $object->setFtsearch($sql);
-                            } else {
-                                echo $object->getMain();
-                            }
-                        } else {
-                            echo $object->getMain($nmtab, $nrpage);
-                        }
-
-                    } catch (Exception $e) {
-                        echo "Whoops, er is iets misgegaan. Neem contact op met de website beheerder.\n";
-                        return;
-                    }
-                    
-
-                    ?>
-
+                                } catch (Exception $e) {
+                                	$log->write("Error: " . $e->getMessage());
+                                    echo "Whoops, er is iets misgegaan. Neem contact op met de website beheerder.\n";
+                                    return;
+                                }
+                                ?>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <!-- Footer Section -->
-                <footer class="art-footer">
+                </article>
+                <footer>
                     <div class="text-center">
-                        <a class="btn btn-lg btn-social-icon btn-facebook" href="https://www.facebook.com/honkbalmuseum" target="_blank" title="Ga naar onze facebook pagina" rel="nofollow">
-                        <span class="fa fa-facebook"></span>
-                        </a>
                         <a class="btn btn-lg btn-social-icon btn-twitter" href="http://www.twitter.com/honkbalmuseum" target="_blank" title="Ga naar onze twitter feed" rel="nofollow">
                         <span class="fa fa-twitter"></span>
                         </a>
@@ -267,18 +264,12 @@ if (empty($nmclass)){
             </div>
         </div>
     </div>
-    <!-- unobtrusive javascript -->
-    <!-- jQuery library -->
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-	<!-- if it is not loaded -->
-	<script>window.jQuery || document.write('<script src="3rd/js/jquery-3.2.1.min.js"><\/script>');</script>
 
-    <!-- Bootstrap JavaScript Library -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<!-- if it is not loaded -->
-	<script>window.jQuery || document.write('<script src="3rd/js/bootstrap.min.js"><\/script>');</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>

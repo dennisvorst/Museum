@@ -23,6 +23,10 @@ class Game extends SingleItemPage{
 	}
 
 	function processRecord(){
+		if (empty($this->ftrecord)) 
+		{
+			return;
+		}
 		$this->_id				= $this->ftrecord['idgame'];
 		$this->idcompetition	= $this->ftrecord['idcompetition'];
 		$this->idhome			= $this->ftrecord['idhome'];
@@ -43,11 +47,15 @@ class Game extends SingleItemPage{
         return $this->getNameWithUrl();
     }
 
-	function getContent($nmCurrentTab, $nrCurrentPage){
+	function getContent($nmCurrentTab, $nrCurrentPage) : string
+	{
 		/* get the article */
+		$html = "";
 		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
-		$this->processRecord();
-
+		if (!empty($this->ftrecord))
+		{
+			$this->processRecord();
+		}
 		return $html;
 	}
 

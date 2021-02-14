@@ -10,12 +10,14 @@ src/3rd/
 # ignore the baseline
 db/images/image baseline (niet verwijderen)/
 
+# ignore the original articles 
+db/images/artikelen/
+
 # ignore the buid_scripts temp
 db/build_scripts/temp
 
-
-# ignore the original articles 
-db/images/artikelen/
+# ignore the test folder
+src/test
 
 # ignore the google tracker 
 src/config/analyticstracking.php

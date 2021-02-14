@@ -52,22 +52,27 @@ class Competitions extends ListPage{
 
 		$x = 0;
 		foreach ($this->_rows as $row){
-			$object = new Competition($this->_db, $this->_log);
+			$object = new Competition($this->_db, $this->_log); 
 			$object->setRecord($row);
 			$object->processRecord();
 
+			print_r($row);
+			print_r("<br><br>");
+
 			if ($object->getSport() == "HB"){
+				print_r($row);
+
 				if ($object->getGender() == "M"){
 					if (empty($ftmensbaseball)){
 						$ftmensbaseball = $object->createThumbnail();
 					} else {
-						$ftmensbaseball .= "</br>" . $object->createThumbnail();
+						$ftmensbaseball .= "<br>" . $object->createThumbnail();
 					}
 				} elseif ($object->getGender() == "F"){
 					if (empty($ftwomensbaseball)){
 						$ftwomensbaseball = $object->createThumbnail();
 					} else {
-						$ftwomensbaseball .= "</br>" . $object->createThumbnail();
+						$ftwomensbaseball .= "<br>" . $object->createThumbnail();
 					}
 				}
 			} elseif($object->getSport() == "SB") {
@@ -75,20 +80,20 @@ class Competitions extends ListPage{
 					if (empty($ftmenssoftball)){
 						$ftmenssoftball = $object->createThumbnail();
 					} else {
-						$ftmenssoftball .= "</br>" . $object->createThumbnail();
+						$ftmenssoftball .= "<br>" . $object->createThumbnail();
 					}
 				} elseif ($object->getGender() == "F"){
 					if (empty($ftwomenssoftball)){
 						$ftwomenssoftball = $object->createThumbnail();
 					} else {
-						$ftwomenssoftball .= "</br>" . $object->createThumbnail();
+						$ftwomenssoftball .= "<br>" . $object->createThumbnail();
 					}
 				}
 			}
 		}
 
 		/* print the stuff */
-		$html = "<h2 class='art-postheader'>" . $this->_nmtitle . " " . $this->getYear() . "</h2>\n";
+		$html = "<h2>" . $this->_nmtitle . " " . $this->getYear() . "</h2>\n";
 		if (count($this->_rows) == 0){
 			$html .= "<p>Geen resultaten gevonden voor " . strtolower($this->_nmtitle) . ".</p>";
 			return $html;

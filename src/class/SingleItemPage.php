@@ -70,13 +70,17 @@ class SingleItemPage extends MainPage{
 			$this->_log->write("nmtable = " . $nmtable);
 			$this->_log->write("key     = " . $key);
 			$this->_log->write("id      = " . $id);
-
 		}
 
 		/* get a single record */
 		$query = "SELECT * FROM $nmtable WHERE $key  = ?";
 		$ftrecord = $this->_db->select($query, "i", [$id]);
-		return $ftrecord[0];
+		if (empty($ftrecord)) 
+		{
+			return [];
+		} else {
+			return $ftrecord[0];
+		}
 	}
 
 	function setId($id){
@@ -112,7 +116,6 @@ class SingleItemPage extends MainPage{
 		foreach ($ftsubentities as $subentity){
 			$nmmenu = $this->ftsubmenus[$subentity['table_name']];
 			if (!empty($nmmenu)){
-//				$fthtml .= "<td><a href='index.php?nmclass=" . $subentity['table_name'] . "&nmparent=$this->_nmtable&$this->_nmkey=$this->_id'>$nmmenu</a></td>";
 				$fthtml .= "<td><a href='index.php?nmclass=" . $subentity['table_name'] . "&nmparent=" . strtolower (get_class($this)) . "&nrfk=$this->_id'>$nmmenu</a></td>";
 			}
 		}

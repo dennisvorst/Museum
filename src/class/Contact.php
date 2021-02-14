@@ -26,15 +26,15 @@ class Contact{
 		$html .= "      <li>Samuel de Leeuw - lid</li>\n";
 		$html .= "      <li>Kwaliteitszetel KNBSB - lid</li>\n";
 		$html .= "    </ul>\n";
-		$html .= "    </br>\n";
+		$html .= "    <br>\n";
 
 		$html .= "    <h3>Contact</h3>\n";
 		$html .= "    <p>Het correspondentieadres van het museum is:<br><br>Stichting Nederlands Honkbal en Softbal Museum<br>Houtwijkerveld 130<br>2131 MN Hoofddorp<br><br>E-mailadres: <a href=\"javascript:void(location.href='mailto:'+String.fromCharCode(104,111,110,107,101,110,115,111,102,116,98,97,108,109,117,115,101,117,109,104,97,97,114,108,101,109,64,103,109,97,105,108,46,99,111,109))\">honkensoftbalmuseumhaarlem@gmail.com</a></p>\n";
-		$html .= "    </br>\n";
+		$html .= "    <br>\n";
 		$html .= "    <h3>Wilt u het museum financieel steunen?</h3>\n";
 		$html .= "    <p>Voor slechts €12,50 bent u een jaar lang vriend of vriendin van het honkbal en softbalmuseum.</p>\n";
 		$html .= "    <p>Donaties kunt u overmaken op onze ING-bankrekening met nummer:<br>NL86 INGB 0005 5071 02 tnv honkbal en softbalmuseum.</p>\n";
-		$html .= "    </br>\n";
+		$html .= "    <br>\n";
 		$html .= "  </div>\n";
 		$html .= "</div>\n";
 

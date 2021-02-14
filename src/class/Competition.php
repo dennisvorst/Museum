@@ -23,6 +23,10 @@ class Competition extends SingleItemPage{
 	}
 
 	function processRecord(){
+		if (empty($this->ftrecord)) 
+		{
+			return;
+		}
 		$this->_id				= $this->ftrecord['idcompetition'];
 
 		$this->nmcompetition	= $this->ftrecord['nmcompetition'];
@@ -39,29 +43,33 @@ class Competition extends SingleItemPage{
         return $this->getNameWithUrl();
     }
 
-	function getContent($nmCurrentTab, $nrCurrentPage){
+	function getContent($nmCurrentTab, $nrCurrentPage) : string
+	{
 		/* get the article */
+		$html = "";
 		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
-		$this->processRecord();
+		if (!empty($this->ftrecord))
+		{
+			$this->processRecord();
 
-		/* get the participants */
-		$this->participantsObj = new Participants($this->_db, $this->_log);
-		$participants = $this->participantsObj->getCompetitionParticipants($this->_id);
+			/* get the participants */
+			$this->participantsObj = new Participants($this->_db, $this->_log);
+			$participants = $this->participantsObj->getCompetitionParticipants($this->_id);
 
-		/* get the games */
-		$this->gamesObj = new Games($this->_db, $this->_log);
-		$games = $this->gamesObj->getCompetitionGames($this->_id);
+			/* get the games */
+			$this->gamesObj = new Games($this->_db, $this->_log);
+			$games = $this->gamesObj->getCompetitionGames($this->_id);
 
-		/* show the information */
-		$html = "<table>\n";
-		$html .= "<tr>" . Social::addShareButtons($this->getUrl()) . "</tr>\n";
-		$html .= "</table>\n";
-		$html .= "<h1>$this->nmcompetition $this->nryear</h1>\n";
+			/* show the information */
+			$html = "<table>\n";
+			$html .= "<tr>" . Social::addShareButtons($this->getUrl()) . "</tr>\n";
+			$html .= "</table>\n";
+			$html .= "<h1>$this->nmcompetition $this->nryear</h1>\n";
 
-		$html .= $participants;
+			$html .= $participants;
 
-		$html .= $games;
-
+			$html .= $games;
+		}
 		return $html;
 	}
 

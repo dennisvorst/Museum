@@ -24,6 +24,10 @@ class Video extends SingleItemPage{
 	}
 
 	function processRecord(){
+		if (empty($this->ftrecord)) 
+		{
+			return;
+		}
 		$this->_id			= $this->ftrecord['idvideo'];
 
 		$this->nmvideo		= $this->ftrecord['nmvideo'];
@@ -55,44 +59,41 @@ class Video extends SingleItemPage{
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/* get the video */
+		$html = "";
 		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
-		$this->processRecord();
+		if (!empty($this->ftrecord))
+		{
+			$this->processRecord();
 
-		$html = "<div class='container'>\n";
-		$html .= "  <div class='row'>\n";
-		$html .= "    <h1>" . $this->nmvideo . "</h1>\n";
-		$html .= "  </div>\n";
-		$html .= "  <div class='row'>\n";
-		$html .= "    <iframe width='420' height='315' src='http://www.youtube.com/embed/" . $this->nmurl . "' frameborder='0' allowfullscreen></iframe>\n";
-		$html .= "  </div>\n";
-		$html .= "</div>\n";
-
+			$html = "<div class='container'>\n";
+			$html .= "  <div class='row'>\n";
+			$html .= "    <h1>" . $this->nmvideo . "</h1>\n";
+			$html .= "  </div>\n";
+			$html .= "  <div class='row'>\n";
+			$html .= "    <iframe width='420' height='315' src='http://www.youtube.com/embed/" . $this->nmurl . "' frameborder='0' allowfullscreen></iframe>\n";
+			$html .= "  </div>\n";
+			$html .= "</div>\n";
+		}
 		return $html;
 	}// getContent
 
 	function getMenu(){
 		/* needs to be overriden */
 		?>
-            <div class="art-block clearfix">
-                <div class="art-blockheader">
+            <div>
+                <div>
                     <h3 class="t">Personen</h3>
                 </div>
-                <div class="art-blockcontent">
-                </div>
             </div>
-			<div class="art-block clearfix">
-		        <div class="art-blockheader">
+			<div>
+		        <div>
         		    <h3 class="t">Clubs</h3>
 		        </div>
-        		<div class="art-blockcontent">
-                </div>
             </div>
-			<div class="art-block clearfix">
-		        <div class="art-blockheader">
+			<div>
+		        <div>
         		    <h3 class="t">Competities</h3>
 		        </div>
-        		<div class="art-blockcontent">
-                </div>
             </div>
         <?php
 	}//getMenu

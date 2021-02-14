@@ -20,6 +20,10 @@ class Clubretired extends SingleItemPage{
 	}
 
 	function processRecord(){
+		if (empty($this->ftrecord)) 
+		{
+			return;
+		}
 		$this->_id				= $this->ftrecord['idretired'];
 
 		$this->idclub			= $this->ftrecord['idclub'];
@@ -31,22 +35,29 @@ class Clubretired extends SingleItemPage{
 		/* create the thumbnail image */
     }
 
-	function getContent($nmCurrentTab, $nrCurrentPage){
+	function getContent($nmCurrentTab, $nrCurrentPage) : string
+	{
 		/*******************
 		 gather the data
 		 *******************/
 		/* get the retired jerseys */
 		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
-		$this->processRecord();
+		$html = "";
+		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
+		if (!empty($this->ftrecord))
+		{
+			$this->processRecord();
 
-		/*******************
-		 create the content
-		 *******************/
-		echo "<h1>" . $this->nmfull . "</h1>\n";
+			/*******************
+			 create the content
+			 *******************/
+			$html .= "<h1>" . $this->nmfull . "</h1>\n";
 
-		/*******************
-		 search and display the additional information
-		 *******************/
+			/*******************
+			 search and display the additional information
+			 *******************/
+		}
+		return $html;
 	}// getContent
 
 	function getNameWithUrl(){

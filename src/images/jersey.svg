@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 200 250"
+   xml:space="preserve"
+   inkscape:version="0.91 r13725"
+   width="200"
+   height="250"
+   id="svg4282"
+   sodipodi:docname="jersey.svg"><metadata
+     id="metadata4302"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs4300" /><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="987"
+     id="namedview4298"
+     showgrid="false"
+     inkscape:zoom="18.951245"
+     inkscape:cx="101.15453"
+     inkscape:cy="222.39733"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4282" /><style
+     type="text/css"
+     id="style4284">
+  .st0{fill:green;stroke:green;stroke-width:0.375;stroke-miterlimit:10;}
+  .st1{fill:none;stroke:yellow;stroke-miterlimit:10;}
+  .st3{fill:none;}
+</style><path
+     class="st0"
+     style="stroke-width:0.375"
+     inkscape:connector-curvature="0"
+     d="m 99.999979,222.97685 c 12.037491,0.225 23.549991,-0.075 26.699991,-1.5375 6.4875,-3 19.8,-15.225 25.8,-17.7 6,-2.5125 8.175,-3.3 8.175,-3.3 0,0 -4.5,-7.0125 -4.5,-52.5 0,-45.4875 6.4875,-62.512486 6.4875,-62.512486 l 24.4875,3.48749 10.5,-40.012501 -78.45,-21.9375 c 0,0 -10.1625,4.9875 -19.1625,4.9875 l 0,0 c -8.999991,0 -19.162491,-4.9875 -19.162491,-4.9875 l -78.5249997,22.0125 10.4999997,40.012501 24.4875,-3.48749 c 0,0 6.4875,16.987486 6.4875,62.512486 0,45.525 -4.5,52.5 -4.5,52.5 0,0 2.175,0.7875 8.175,3.3 6,2.5125 19.3125,14.7 25.8,17.7 3.1875,1.425 14.7,1.6875 26.7,1.4625 l 0,0 z"
+     id="path4286" /><line
+     class="st1"
+     x1="7.7874751"
+     y1="47.626846"
+     x2="18.249968"
+     y2="88.164352"
+     id="line4288" /><line
+     class="st1"
+     x1="192.39995"
+     y1="47.626846"
+     x2="181.71245"
+     y2="88.276848"
+     id="line4290" /><path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 73.536794,29.05429 C 101.9634,56.7185 126.90476,29.272118 126.90476,29.272118"
+     inkscape:connector-curvature="0"
+     id="path4292" /><text
+     x="99.707016"
+     y="144.33333"
+     font-size="50"
+     style="font-size:50px;font-family:Verdana;text-anchor:middle;fill:yellow"
+     id="text4294">27</text>
+<text
+     x="99.906403"
+     y="67.624992"
+     font-size="16.666666666667"
+     style="font-size:25px;font-family:Verdana;text-anchor:middle;fill:yellow"
+     id="text4296">Klerx</text>
+</svg>

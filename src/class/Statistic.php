@@ -8,8 +8,7 @@ class Statistic extends SingleItemPage{
 		parent::__construct($db, $log);
 	}
 
-	function processRecord(){
-	}
+	function processRecord(){}
 
 	function getContent($nmCurrentTab, $nrCurrentPage){
 		/*******************

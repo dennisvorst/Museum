@@ -47,6 +47,10 @@ class Club extends SingleItemPage{
 
 	function processRecord() : void
 	{
+		if (empty($this->ftrecord)) 
+		{
+			return;
+		}
 		$this->_id				= $this->ftrecord['idclub'];
 
 		$this->cdstatus			= $this->ftrecord['cdstatus'];
@@ -149,28 +153,31 @@ class Club extends SingleItemPage{
 		 *******************/
 
 		/* get the club */
+		$html = "";
 		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
-		$this->processRecord();
+		if (!empty($this->ftrecord))
+		{		
+			$this->processRecord();
 
-		/*******************
-		 create the content
-		 *******************/
-		$html = "<h1>" . $this->nmfull . "</h1>\n";
+			/*******************
+			 create the content
+			 *******************/
+			$html = "<h1>" . $this->nmfull . "</h1>\n";
 
-		/*******************
-		 search and display the additional information
-		 *******************/
+			/*******************
+			 search and display the additional information
+			 *******************/
 
-		/* create the tabs */
+			/* create the tabs */
 
-		/* here is where i need to know to additional things.
-		1. Which is the active tab?
-		2. What is its current page number
-		*/
-		$list = ["articles", "videos", "photos", "persons", "teams"];
-		$tabObj	= new HtmlTabPage($this->_db, $this->_log, $this->_id);
-		$html .= $tabObj->getTab("Club", $list, $nmCurrentTab, $nrCurrentPage, $this->_id, $this->_db);
-
+			/* here is where i need to know to additional things.
+			1. Which is the active tab?
+			2. What is its current page number
+			*/
+			$list = ["articles", "videos", "photos", "persons", "teams"];
+			$tabObj	= new HtmlTabPage($this->_db, $this->_log, $this->_id);
+			$html .= $tabObj->getTab("Club", $list, $nmCurrentTab, $nrCurrentPage, $this->_id, $this->_db);
+		}
 		return $html;
 	}// getContent
 

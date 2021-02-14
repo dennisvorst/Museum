@@ -63,8 +63,8 @@ class MenuBar{
 		 create the toolbar.
 		 *******************/
 		/* start the toolbar */
-		$toolbar = "<nav class='SubMenuBar'>\n";
-		$toolbar .= "<ul class='SubMenuBar'>\n";
+		$toolbar = "<nav class='navbar navbar-inverse navbar-fixed-top'>\n";
+		$toolbar .= "<ul class='nav navbar-nav'>\n";
 
 		/* We only display the back buttons when we are no longer in the first bracket */
 		if (MenuBar::$nrcurrent > 1){
@@ -89,10 +89,10 @@ class MenuBar{
 			}
 			if ($rows[$x] == $nmvalue) {
 				/* no url */
-				$toolbar .= "<li class='SubMenuBar'>$rows[$x]</li>\n";
+				$toolbar .= "<li>$rows[$x]</li>\n";
 			} else {
 				/* with url */
-				$toolbar .= "<li class='SubMenuBar'><a class='SubMenuBar' href='index.php?nmclass=$nmtable&$cdtype=" . strtoupper($rows[$x]) . "'>" . strtoupper($rows[$x]) . "</a></li>\n";
+				$toolbar .= "<li><a href='index.php?nmclass=$nmtable&$cdtype=" . strtoupper($rows[$x]) . "'>" . strtoupper($rows[$x]) . "</a></li>\n";
 			} // endif
 		}
 
@@ -119,7 +119,7 @@ class MenuBar{
 	}//getToolBar
 
 	function getHyperlink($fturl, $ftlabel){
-		return "<li class='SubMenuBar'><a class='SubMenuBar' href='index.php?$fturl' >$ftlabel</a></li>\n";
+		return "<li><a href='index.php?$fturl' >$ftlabel</a></li>\n";
 	}
 
 	function getPrevious(){

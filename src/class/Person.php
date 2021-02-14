@@ -41,6 +41,10 @@ class Person extends SingleItemPage{
 	}
 
 	function processRecord(){
+		if (empty($this->ftrecord)) 
+		{
+			return;
+		}
 		$this->_id			= $this->ftrecord['idperson'];
 
 		$this->_nmfirst 		= $this->ftrecord['nmfirst'];
@@ -79,37 +83,42 @@ class Person extends SingleItemPage{
 	}
 
 
-	function getContent($nmCurrentTab, $nrCurrentPage){
+	function getContent($nmCurrentTab, $nrCurrentPage) : string
+	{
 		/*******************
 		 gather the data
 		 *******************/
 		/* get the person */
+		$html = "";
 		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
-		$this->processRecord();
+		if (!empty($this->ftrecord))
+		{
+			$this->processRecord();
 
-		/*******************
-		 create the content
-		 *******************/
-		$html = "<table>\n";
-		$html .= "<tr>" . Social::addShareButtons($this->getUrl()) . "</tr>\n";
-		$html .= "</table>\n";
-		$html .= "<h1>{$this->getFullName()}</h1>\n";
-		
-		$html .= "<p>{$this->_isHof($this->getHofDate())}</p>";
+			/*******************
+			 create the content
+			 *******************/
+			$html = "<table>\n";
+			$html .= "<tr>" . Social::addShareButtons($this->getUrl()) . "</tr>\n";
+			$html .= "</table>\n";
+			$html .= "<h1>{$this->getFullName()}</h1>\n";
+			
+			$html .= "<p>{$this->_isHof($this->getHofDate())}</p>";
 
-		/** todo add a photo  */
-		/** todo add a gold star if he is in the hall of fame */
+			/** todo add a photo  */
+			/** todo add a gold star if he is in the hall of fame */
 
-		/*******************
-		 search and display the additional information
-		 *******************/
-		/* create the tabs */
+			/*******************
+			 search and display the additional information
+			 *******************/
+			/* create the tabs */
 
-		/** todo : create a person controller that gets all the objects mentioned below and passes them on in the constructor */
-		/** todo: add the jerseys to the list */
-		$list = ["articles", "photos", "videos", "Statistics", "teams"];
-		$tabObj	= new HtmlTabPage($this->_db, $this->_log, $this->_id);
-		$html .= $tabObj->getTab("Person", $list, $nmCurrentTab, $nrCurrentPage, $this->_id, $this->_db);
+			/** todo : create a person controller that gets all the objects mentioned below and passes them on in the constructor */
+			/** todo: add the jerseys to the list */
+			$list = ["articles", "photos", "videos", "Statistics", "teams"];
+			$tabObj	= new HtmlTabPage($this->_db, $this->_log, $this->_id);
+			$html .= $tabObj->getTab("Person", $list, $nmCurrentTab, $nrCurrentPage, $this->_id, $this->_db);
+		}
 		return $html;
 	}// getContent
 
@@ -118,25 +127,25 @@ class Person extends SingleItemPage{
 		$html = "";
 		return $html;
 
-		$html .= "<div class='art-block clearfix'>\n";
-		$html .= "<div class='art-blockheader'>\n";
-		$html .= "<h3 class='t'>Personen</h3>\n";
+		$html .= "<div>\n";
+		$html .= "<div>\n";
+		$html .= "<h3>Personen</h3>\n";
 		$html .= "</div>\n";
-		$html .= "<div class='art-blockcontent'>\n";
-		$html .= "</div>\n";
-		$html .= "</div>\n";
-		$html .= "<div class='art-block clearfix'>\n";
-		$html .= "<div class='art-blockheader'>\n";
-		$html .= "<h3 class='t'>Clubs</h3>\n";
-		$html .= "</div>\n";
-		$html .= "<div class='art-blockcontent'>\n";
+		$html .= "<div>\n";
 		$html .= "</div>\n";
 		$html .= "</div>\n";
-		$html .= "<div class='art-block clearfix'>\n";
-		$html .= "<div class='art-blockheader'>\n";
-		$html .= "<h3 class='t'>Competities</h3>\n";
+		$html .= "<div>\n";
+		$html .= "<div>\n";
+		$html .= "<h3>Clubs</h3>\n";
 		$html .= "</div>\n";
-		$html .= "<div class='art-blockcontent'>\n";
+		$html .= "<div>\n";
+		$html .= "</div>\n";
+		$html .= "</div>\n";
+		$html .= "<div>\n";
+		$html .= "<div>\n";
+		$html .= "<h3>Competities</h3>\n";
+		$html .= "</div>\n";
+		$html .= "<div>\n";
 		$html .= "</div>\n";
 		$html .= "</div>\n";
 
@@ -244,8 +253,12 @@ class Person extends SingleItemPage{
 	function getHofDate() : string 
 	{
 //		print_r("|" . $this->_dthof . "|");
-
-		return $this->_dthof;
+		if (empty($this->_dthof)) 
+		{
+			return "";
+		} else {
+			return $this->_dthof;
+		}
 	}
 
 

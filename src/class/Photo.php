@@ -54,6 +54,10 @@ class Photo extends SingleItemPage{
 			$this->_log->write(__METHOD__ );
 		}
 
+		if (empty($this->ftrecord)) 
+		{
+			return;
+		}
 		$this->_id				= $this->ftrecord['idphoto'];
 
 		$this->idsource			= $this->ftrecord['idsource'];
@@ -85,31 +89,34 @@ class Photo extends SingleItemPage{
 		return $html;
 	}//createThumbnail
 
-	function getContent($nmCurrentTab, $nrCurrentPage){
+	function getContent($nmCurrentTab, $nrCurrentPage) : string
+	{
 		if ($this->_debug){
 			$this->_log->write(__METHOD__ );
 		}
 
 		/* get the photo */
+		$html = "";
 		$this->ftrecord	= $this->getRecord($this->_nmtable, $this->_nmkey, $this->_id);
-		$this->processRecord();
+		if (!empty($this->ftrecord))
+		{
 
-		/* create the photo */
-		$photo = $this->createImage();
+			$this->processRecord();
 
-		/* get the source information */
-		$sourceObj	= new Source($this->_db, $this->_log);
-		$sourceObj->setId($this->idsource);
+			/* create the photo */
+			$photo = $this->createImage();
 
-//		$sourceLogo		= $sourceObj->getArticleLogo($this->_id);
+			/* get the source information */
+			$sourceObj	= new Source($this->_db, $this->_log);
+			$sourceObj->setId($this->idsource);
 
-		$html = "<table>\n";
-		$html .= "  <tr>" . Social::addShareButtons($this->getUrl()) . "</tr>\n";
-		$html .= "  <tr>\n";
-		$html .= "    <td>" . $photo . "</td>\n";
-		$html .= "  </tr>\n";
-		$html .= "</table>\n";
-
+			$html = "<table>\n";
+			$html .= "  <tr>" . Social::addShareButtons($this->getUrl()) . "</tr>\n";
+			$html .= "  <tr>\n";
+			$html .= "    <td>" . $photo . "</td>\n";
+			$html .= "  </tr>\n";
+			$html .= "</table>\n";
+		}
 		return $html;
 	}// getIndexPage
 
@@ -125,14 +132,14 @@ class Photo extends SingleItemPage{
 
 		$html = "";
 		if (count($this->persons) > 0){
-			$html .= "<div class='art-block clearfix'>\n";
-			$html .= "  <div class='art-blockheader'>\n";
-			$html .= "    <h3 class='t'>Personen</h3>\n";
+			$html .= "<div>\n";
+			$html .= "  <div>\n";
+			$html .= "    <h3>Personen</h3>\n";
 			$html .= "  </div>\n";
-			$html .= "  <div class='art-blockcontent'>\n";
+			$html .= "  <div>\n";
 
 			for ($x=0; $x<count($this->persons); $x++){
-				$html .=  $this->persons[$x]->getNameWithUrl() . "</br>\n";
+				$html .=  $this->persons[$x]->getNameWithUrl() . "<br>\n";
 			}
 
 			$html .= "  </div>\n";
@@ -141,14 +148,14 @@ class Photo extends SingleItemPage{
 		} // endif (count($this->persons > 0)){
 
 		if (count($this->clubs) > 0){
-			$html .= "<div class='art-block clearfix'>\n";
-			$html .= "  <div class='art-blockheader'>\n";
-			$html .= "    <h3 class='t'>Clubs</h3>\n";
+			$html .= "<div>\n";
+			$html .= "  <div>\n";
+			$html .= "    <h3>Clubs</h3>\n";
 			$html .= "  </div>\n";
-			$html .= "  <div class='art-blockcontent'>\n";
+			$html .= "  <div>\n";
 
 			for ($x=0; $x<count($this->clubs); $x++){
-				$html .= $this->clubs[$x]->getNameWithUrl() . "</br>\n";;
+				$html .= $this->clubs[$x]->getNameWithUrl() . "<br>\n";;
 			}
 
 			$html .= "  </div>\n";
@@ -156,25 +163,25 @@ class Photo extends SingleItemPage{
 		}
 
 		if (count($this->competitions) > 0){
-			$html .= "<div class='art-block clearfix'>\n";
-			$html .= "  <div class='art-blockheader'>\n";
-			$html .= "    <h3 class='t'>Competities</h3>\n";
+			$html .= "<div>\n";
+			$html .= "  <div>\n";
+			$html .= "    <h3>Competities</h3>\n";
 			$html .= "  </div>\n";
-			$html .= "  <div class='art-blockcontent'>\n";
+			$html .= "  <div>\n";
 			$html .= "  </div>\n";
 			$html .= "</div>\n";
 		}
 
 		/* articles */
 		if (count($this->articles) > 0){
-			$html .= "<div class='art-block clearfix'>\n";
-			$html .= "  <div class='art-blockheader'>\n";
-			$html .= "    <h3 class='t'>Artikelen</h3>\n";
+			$html .= "<div>\n";
+			$html .= "  <div>\n";
+			$html .= "    <h3>Artikelen</h3>\n";
 			$html .= "  </div>\n";
-			$html .= "  <div class='art-blockcontent'>\n";
+			$html .= "  <div>\n";
 
 			for ($x=0; $x<count($this->articles); $x++){
-				echo $this->articles[$x]->getNameWithUrl() . "</br>";
+				echo $this->articles[$x]->getNameWithUrl() . "<br>";
 			}
 
 			$html .= "  </div>\n";
@@ -312,12 +319,7 @@ class Photo extends SingleItemPage{
 	}
 
 	function createUrl($nrwidth, $nrheight, $nmimage, $ftsubscript, $ftsource, $ftalignment){
-
-//        $html = "<div class='container photo photo-$ftalignment'>\n";
-//		$html .= "<div class='image'><img src='" . $nmimage . "' width='" . $nrwidth . "' height='" . $nrheight . "'></div>\n";
-
         $html = "<div class='container photo photo-$ftalignment'>\n";
-//		$html .= "<div class='image'><img src='" . $nmimage . "'></div>\n";
 		$html .= "<div class='image'><img src='" . $nmimage . "' width='" . $nrwidth . "' height='" . $nrheight . "'></div>\n";
 		$html .= "<div class='subscript'>" . $ftsubscript . " <b>(Foto: $ftsource)</b></div>\n";
 		$html .= "</div>\n";

@@ -49,7 +49,6 @@ class Participants extends ListPage{
 			unset($this->_rows[$i]['idparticipant']);
 
 			/* set the champion */
-			//<i class="fa fa-trophy" aria-hidden="true"></i>
 			if($this->_rows[$i]['ischampion']){
 				$this->_rows[$i]['ischampion']	= "<i class='fa fa-trophy' aria-hidden='true' title='Kampioen'></i>";
 			} else {
@@ -84,7 +83,7 @@ class Participants extends ListPage{
 		}
 
 		/* create the html */
-		$html = "<h2 class='art-postheader'>" . $this->_nmtitle . "</h2>\n";
+		$html = "<h2>" . $this->_nmtitle . "</h2>\n";
 		$html .= $table->getElement();
 		return $html;
 

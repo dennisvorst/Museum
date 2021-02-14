@@ -102,7 +102,7 @@ class Teams extends ListPage{
 		if ((count($this->ftmensbaseball) + count($this->ftwomensbaseball) + count($this->ftmenssoftball) + count($this->ftwomenssoftball)) == 0){
 			return null;
 		}
-		$html	= "<h2 class='art-postheader'>Teams</h2>\n";
+		$html	= "<h2>Teams</h2>\n";
 
 		$html .= "<table id='clubteams'>";
 
@@ -131,7 +131,7 @@ class Teams extends ListPage{
 		$nrrunsagainst	= 0;
 
 		/* create the HTML */
-		$html = "<h2 class='art-postheader'>$title</h2>\n";
+		$html = "<h2>$title</h2>\n";
 		$html .= "<table>\n";
 		$html .= "<tr>\n";
 		$html .= "<th>Jaar</th>\n";
@@ -158,7 +158,6 @@ class Teams extends ListPage{
 				$html .= "<td><div class='pull-right'>" . $row['nrwins'] . "</div></td>\n";
 				$html .= "<td><div class='pull-right'>" . $row['nrlosses'] . "</div></td>\n";
 				$html .= "<td><div class='pull-right'>" . $row['nrdraws'] . "</div></td>\n";
-//				$html .= "<td><div class='pull-right'>" . $row['nrrunsscored'] . " - " . $row['nrrunsagainst'] . "</div></td>\n";
 				$html .= "<td><div class='pull-right'>" . $row['nrrunsscored'] . "</div></td>\n";
 				$html .= "<td>-</td>\n";
 				$html .= "<td><div class='pull-right'>" . $row['nrrunsagainst'] . "</div></td>\n";
@@ -185,7 +184,6 @@ class Teams extends ListPage{
 		$html .= "  <td><div class='pull-right'>" . $nrwins . "</div></td>\n";
 		$html .= "  <td><div class='pull-right'>" . $nrlosses . "</div></td>\n";
 		$html .= "  <td><div class='pull-right'>" . $nrdraws . "</div></td>\n";
-//		$html .= "  <td><div class='pull-right'>" . $nrrunsscored . " - " . $nrrunsagainst . "</div></td>\n";
 		$html .= "<td><div class='pull-right'>" . $nrrunsscored . "</div></td>\n";
 		$html .= "<td>-</td>\n";
 		$html .= "<td><div class='pull-right'>" . $nrrunsagainst . "</div></td>\n";

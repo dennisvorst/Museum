@@ -1,4 +1,5 @@
 <?php
+
 /* search default is exact match */
 $nmsearchtype = "E";
 /* get the $_GET variables */
@@ -8,5 +9,5 @@ foreach ($keys as $key){
 }
 
 header('Content-Type: text/html; charset=utf-8');
-header('Location: index.php?nmclass=search&sql=' . $sql . "&nmsearchtype=" . $nmsearchtype);
+header('Location: index.php?nmclass=search&sql=' . $query . "&nmsearchtype=" . $nmsearchtype);
 ?>

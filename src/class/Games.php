@@ -74,7 +74,7 @@ class Games extends ListPage{
 		}
 
 		/* create the html */
-		$html = "<h2 class='art-postheader'>Wedstrijden</h2>\n";
+		$html = "<h2>Wedstrijden</h2>\n";
 		$html .= $table->getElement();
 		return $html;
 	}//getPage

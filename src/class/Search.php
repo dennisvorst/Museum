@@ -1,64 +1,64 @@
 <?php
+/** 
+ * done : search mag niet leeg zijn  
+ * todo: set de resultaten in tabs
+ * todo : spoor alle artikelen op met lege bodies en fix ze
+ * todo : update de diakrieten in de database 
+ * 
+*/
 require_once "Delpher.php";
 //require_once "MysqlDatabase.php";
 
 class Search{
-	private $ftsearch;
+	private $search;
 	private $_db;
+	private $_log;
+
 
 	/* constructor */
-	function __construct(MysqlDatabase $db)
+	function __construct(MysqlDatabase $db, Log $log)
 	{
 		$this->_db = $db;
+		$this->_log = $log;
 	}
+
 
 	function getMain(string $search = null) : string 
 	{
-		$html = "<h2 class='art-postheader'>";
+		$html = "";
 		if (empty($search))
 		{
-			$html .= "Zoeken";
+			$html .= "<h2>Zoeken</h2>\n";
+			$html .= "<p>U heeft een lege zoekwaarde opgegeven, dat is helaas niet toegestaan.";
+
 		} else {
-			$html .= "Zoekresultaten voor '" . $search . "'";
+			$html .= "<h2>Zoekresultaten voor '" . $search . "'</h2>\n";
+
+			/* add a Delpher button */
+			// if (class_exists("Delpher"))
+			// {
+			// 	$html .= "<div class='btn-group' role='group'>\n";
+			// 	$html .= Delpher::createButton($search);
+			// 	$html .= "  </div>\n";
+			// }
 		}
-		$html .= "</h2>\n";
-
-		$html .= "<form action='search.php' method='post' accept-charset='utf-8'>\n";
-		$html .= "  <div class='active-orange-4 mb-4'>\n";
-		$html .= "    <input name='sql' class='form-control' type='text' placeholder='Zoeken' " . (empty($search) ?: "value='" . $search . "' " )  . "aria-label='Search' required>\n";
-		$html .= "  </div>\n";
-
-		$html .= "  <div class='btn-group' role='group'>\n";
-		$html .= "    <input class='btn btn-outline-secondary' type='submit' value='Zoeken'>\n";
-		$html .= "    <input class='btn btn-outline-secondary' type='reset' value='Maak leeg'>\n";
-		$html .= "  </div>\n";
-		$html .= "</form>\n";
-		$html .= "<br />\n";
-
-		/* add a Delpher button */
-		if (class_exists("Delpher") && !empty($search))
-		{
-			$html .= "<div class='btn-group' role='group'>\n";
-			$html .= Delpher::createButton($search);
-			$html .= "  </div>\n";
-		}
-
 		return $html;
 	}
 
-	function setFtsearch($ftsearch){
-		echo $this->getMain($ftsearch);
+	function setQuery(string $search) : void
+	{
+		echo $this->getMain($search);
 
-		$this->ftsearch	 = $this->getSearchArray($ftsearch);
+		$this->search	 = $this->getSearchArray($search);
 	}
 
-	function getSearchArray($ftsearch){
+	function getSearchArray($search){
 		/* create an array out of the search string */
 		/* if there is no " in the string use the entire string */
-		if (strpos($ftsearch, "\"" ) >= 0){
-			$ftsearch = str_getcsv($ftsearch,' ','"');
+		if (strpos($search, "\"" ) >= 0){
+			$search = str_getcsv($search,' ','"');
 		} else {
-			$ftsearch = array($ftsearch);
+			$search = array($search);
 		}
 
 		/* find the articles */
@@ -70,15 +70,90 @@ class Search{
 			$nmclass	= $tables[$key];
 
 			$nminstance = new $nmclass($this->_db, $this->_log);
-			$nminstance->createWhere($nmtable, $nminstance->getSearchFields(), $ftsearch, "");
-			// todo : tuirn into correct select
-			$rows = $nminstance->queryDb_6(null, $nmtable, null, null, 0, 30);
+			$where  = $this->createWhere($nmtable, $nminstance->getSearchFields(), $search, "");
+
+			$sql = "SELECT * FROM {$nmtable} WHERE {$where}";
+			$rows = $this->_db->select($sql);
 			$nminstance->setRows($rows);
 			echo $nminstance->getPage("");
 			$nminstance = null;
 		}
 
-		return $ftsearch;
+		return $search;
 	}
+
+	
+	/**************************************************
+	functions specific to creating the sql query string
+	***************************************************/
+	function createWhere($nmtable, $ftfieldlist, $ftvaluelist, $nmoperator){
+		/* init */
+		$query = "SELECT column_name, data_type, is_nullable, character_maximum_length FROM information_schema.columns WHERE table_name = '$nmtable'";
+		$properties	= $this->_db->select($query);
+		if (empty($nmoperator)){
+			$nmoperator = "AND";
+		}
+
+		if (!is_array($ftfieldlist)){$ftfieldlist = array($ftfieldlist);}
+		if (!is_array($ftvaluelist)){$ftvaluelist = array($ftvaluelist);}
+
+		/* create the where clause */
+		$where = "";
+
+		/* process each field */
+		foreach ($ftvaluelist as $ftvalue){
+			$tempWhere = "";
+			foreach ($ftfieldlist as $field){
+				/* get the properties */
+				foreach($properties as $property){
+
+					if ($property['column_name'] == $field){
+						$nmdatatype = $property['data_type'];
+					}
+				}
+
+				/* process the value */
+				if (is_numeric($ftvalue)){
+					$tmpvalue = $ftvalue;
+				} else {
+					$tmpvalue = "'%". strtoupper($ftvalue) . "%'";
+				}
+
+				/* create part of the where string */
+				switch ($nmdatatype){
+					case "int":
+					case "tinyint":
+					case "year":
+						$ftpart = "$field = $tmpvalue";
+						break;
+
+					case "date":
+						$ftpart = "$field = $tmpvalue";
+						break;
+
+					case "text":
+					case "longtext":
+					case "varchar":
+						$ftpart = "UCASE($field) LIKE $tmpvalue";
+						break;
+					default:
+						print_r($nmdatatype . "<br>");
+				}
+
+				/* create the string */
+				if (empty($tempWhere)){
+					$tempWhere = $ftpart;
+				} else {
+					$tempWhere .= " OR $ftpart";
+				}
+			}
+			if (empty($where)){
+				$where = " (" . $tempWhere . ")";
+			} else {
+				$where .= " $nmoperator (" . $tempWhere . ")";
+			}
+		}
+		return $where;
+	}	
 }
 ?>

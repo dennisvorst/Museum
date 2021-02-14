@@ -27,6 +27,13 @@ class Source extends SingleItemPage{
 	}
 
 	function processRecord(){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
+		if (empty($this->ftrecord)) 
+		{
+			return;
+		}
 		$this->_id				= $this->ftrecord['idsource'];
 
 		$this->nmsearch			= $this->ftrecord['nmsearch'];
@@ -42,15 +49,27 @@ class Source extends SingleItemPage{
 		$this->cdpermission		= $this->ftrecord['cdpermission'];
 	}
 
-	function getArticleLogo($id){
+	function getArticleLogo(int $id) : string
+	{
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
 		$query = "SELECT nmsearch FROM sources s, articles a WHERE a.idsource = s.idsource AND a.idarticle = ?";
 		$row = $this->_db->select($query, "i", [$id]);
-		$row = $row[0]['nmsearch'];
+		if (empty($row))
+		{
+			return "";
+		} else {
+			$row = $row[0]['nmsearch'];
+			return($this->path . strtolower($row) . ".jpg");
 
-		return($this->path . strtolower($row) . ".jpg");
+		}
 	}
 
 	function getSourceUrl(){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
 		/* create a source url */
 		$url = $this->nmsource;
 		if (!empty($this->ftwebsite)){
@@ -60,10 +79,16 @@ class Source extends SingleItemPage{
 	}
 
 	function getNmsource(){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
 		return $this->nmsource;
 	}
 
 	function getAllSources(){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
 		/* return a list of all the sources */
 		$sql = "SELECT idsource, nmsource FROM sources ORDER BY nmsource";
 
@@ -76,6 +101,9 @@ class Source extends SingleItemPage{
 	}
 
 	function getVerifiedSources(){
+		if ($this->_debug){
+			$this->_log->write(__METHOD__ );
+		}
 		/* return a list of only the verified sources */
 		$sql = "SELECT idsource, nmsource FROM sources WHERE cdverified = ? ORDER BY nmsource";
 		$rows = $this->_db->select($sql, "s", ['Y']);

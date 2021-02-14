@@ -17,9 +17,9 @@ class MainPage{
 		}
 		/* create a page that fits in the main content part of the site */
 		$html = "<!-- getMain -->\n";
-		$html .= "<div class='art-layout-cell art-content'>\n";
+		$html .= "<div>\n";
 		$html .= "<!-- Include the different classes here -->\n";
-		$html .= "<article class='art-post art-article'>\n";
+		$html .= "<article>\n";
 		$html .= $this->getContent($nmCurrentTab, $nrCurrentPage);
 		$html .= "</article>\n";
 		$html .= "</div>\n";

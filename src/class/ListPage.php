@@ -16,7 +16,7 @@ class ListPage extends MainPage{
 	protected $_nmtable;
 	protected $_nmsingle;
 
-	var $nmclass;
+	protected $_nmclass;
 
 	protected $_searchFields	= array("ListPageContent");
 	protected $_orderByFields;
@@ -283,7 +283,7 @@ class ListPage extends MainPage{
 		This function creates an entire page of all the videos available, or selected and displays them on a page.
 		Even if the resultset is empty a HTML string will be returned indicating the empty resultset.
 		*/
-		$html = "<h2 class='art-postheader'>" . $this->getTitle() . " </h2>\n";
+		$html = "<h2>" . $this->getTitle() . " </h2>\n";
 		if (count($this->_rows) == 0){
 			$html .= "<p>Geen resultaten gevonden voor " . strtolower($this->_nmtitle) . ".</p>";
 			return $html;
@@ -362,8 +362,8 @@ class ListPage extends MainPage{
 
 
 		/* create the page content */
-		$html = "<div class='art-layout-cell art-content'>\n";
-		$html .= "<article class='art-post art-article'>\n";
+		$html = "<div>\n";
+		$html .= "<article>\n";
 
 		$html .= $ftmenubar;
 
@@ -386,7 +386,7 @@ class ListPage extends MainPage{
 		if (count($this->_rows) == 0){
 			return null;
 		}
-		$html = "<h2 class='art-postheader'>" . $this->getTitle() . "</h2>\n";
+		$html = "<h2>" . $this->getTitle() . "</h2>\n";
 
 		/* add pagination */
 		$html .= $this->addPagination(count($this->_rows), $nmparent, $idparent, $nmtab, $nrTotPages, $nrCurrentPage);
@@ -401,7 +401,7 @@ class ListPage extends MainPage{
 		$fttiles = array();
 		$x = 0;
 		foreach ($this->_rows as $row){
-			$object = new $this->nmclass($this->_db, $this->_log);
+			$object = new $this->_nmclass($this->_db, $this->_log);
 			$object->setRecord($row);
 			$object->processRecord();
 			$fttiles[$x] = $object->createThumbnail();
@@ -492,14 +492,14 @@ class ListPage extends MainPage{
 		$lastIsDisplayed	= false;
 
 		/* create the html for the previous button */
-		$htmlPrevious = "<li>\n";
+		$htmlPrevious = "<li class='nav-item'>\n";
 		$htmlPrevious .= "  <a class='page-link' href='" . $fturl . "&nrpage=1' aria-label='Previous'>\n";
 		$htmlPrevious .= "    <span aria-hidden='true'>&laquo;</span>\n";
 		$htmlPrevious .= "    <span class='sr-only'>Previous</span>\n";
 		$htmlPrevious .= "  </a>\n";
 		$htmlPrevious .= "</li>\n";
 
-		$htmlLast = "<li>\n";
+		$htmlLast = "<li class='nav-item'>\n";
 		$htmlLast .= "  <a class='page-link' href='" . $fturl . "&nrpage=" . $nrTotPages . "' aria-label='Previous'>\n";
 		$htmlLast .= "    <span aria-hidden='true'>&raquo;</span>\n";
 		$htmlLast .= "    <span class='sr-only'>Next</span>\n";
@@ -533,9 +533,9 @@ class ListPage extends MainPage{
 		for ($i=$nrStartPos; $i <= $nrEndPos; $i++){
 			/* different datatypes so only == and not ===*/
 			if ($i == $nrCurrentPage){
-		  		$htmlCenter .= "<li class='active'><a href='" . $fturl . "&nrpage=" . $i . "'>" . $i . "</a></li>\n";
+		  		$htmlCenter .= "<li class='nav-item active'><a href='" . $fturl . "&nrpage=" . $i . "'>" . $i . "</a></li>\n";
 			} else {
-		  		$htmlCenter	.= "<li><a href='" . $fturl . "&nrpage=" . $i . "'>" . $i . "</a></li>\n";
+		  		$htmlCenter	.= "<li class='nav-item'><a href='" . $fturl . "&nrpage=" . $i . "'>" . $i . "</a></li>\n";
 			}
 
 			if ($i === 1){
@@ -573,7 +573,7 @@ class ListPage extends MainPage{
 
 	/** todo - make prepare statement proof*/
 	function searchTable($ftvaluelist, $nmsearchtype){
-		/* search the searcable fields of the table for values
+		/* search the searchable fields of the table for values
 		search is done case insensitive
 		*/
 
