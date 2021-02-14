@@ -14,21 +14,23 @@ class Club extends SingleItemPage{
 	protected $_nmtable	= "clubs";
 	protected $_nmkey		= "idclub";
 
-	var $idclub;
-	var $cdstatus;
-	var $nmsearch;
-	var $nmclub;
-	var $nmfull;
-	var $ftlocation;
-	var $ftfield;
-	var $ftaddress;
-	var $ftpostalcode;
-	var $nmcity;
-	var $ftphone;
+	protected $_idclub;
+	protected $_cdstatus;
+	protected $_nmsearch;
+	protected $_nmclub;
+	protected $_nmfull;
+	protected $_ftlocation;
+	protected $_ftfield;
+	protected $_ftaddress;
+	protected $_ftpostalcode;
+	protected $_nmcity;
+	protected $_ftphone;
 
-	var $nmprimarycolor;
-	var $nmsecondarycolor;
-	var $nmtertiarycolor;
+	protected $_nmprimarycolor;
+	protected $_nmsecondarycolor;
+	protected $_nmtertiarycolor;
+
+	protected $_cdcountry;
 
 	var $ftsubmenus = array("clubretired"=>"Retired Numbers", "teams"=>"Teams");
 
@@ -53,35 +55,36 @@ class Club extends SingleItemPage{
 		}
 		$this->_id				= $this->ftrecord['idclub'];
 
-		$this->cdstatus			= $this->ftrecord['cdstatus'];
-		$this->nmsearch			= $this->ftrecord['nmsearch'];
-		$this->nmclub			= $this->ftrecord['nmclub'];
-		$this->nmfull			= $this->ftrecord['nmfull'];
-		$this->ftlocation		= $this->ftrecord['ftlocation'];
-		$this->ftfield			= $this->ftrecord['ftfield'];
-		$this->ftaddress		= $this->ftrecord['ftaddress'];
-		$this->ftpostalcode		= $this->ftrecord['ftpostalcode'];
-		$this->nmcity			= $this->ftrecord['nmcity'];
-		$this->ftphone			= $this->ftrecord['ftphone'];
+		$this->_cdstatus		= $this->ftrecord['cdstatus'];
+		$this->_nmsearch		= $this->ftrecord['nmsearch'];
+		$this->_nmclub			= $this->ftrecord['nmclub'];
+		$this->_nmfull			= $this->ftrecord['nmfull'];
+		$this->_ftlocation		= $this->ftrecord['ftlocation'];
+		$this->_ftfield			= $this->ftrecord['ftfield'];
+		$this->_ftaddress		= $this->ftrecord['ftaddress'];
+		$this->_ftpostalcode	= $this->ftrecord['ftpostalcode'];
+		$this->_nmcity			= $this->ftrecord['nmcity'];
+		$this->_ftphone			= $this->ftrecord['ftphone'];
 
-		$this->nmprimarycolor	= $this->ftrecord['nmprimarycolor'];
-		$this->nmsecondarycolor	= $this->ftrecord['nmsecondarycolor'];
-		$this->nmtertiarycolor	= $this->ftrecord['nmtertiarycolor'];
+		$this->_nmprimarycolor	= $this->ftrecord['nmprimarycolor'];
+		$this->_nmsecondarycolor= $this->ftrecord['nmsecondarycolor'];
+		$this->_nmtertiarycolor	= $this->ftrecord['nmtertiarycolor'];
 
-		$this->is_featured			= $this->ftrecord['is_featured'];
+		$this->_is_featured		= $this->ftrecord['is_featured'];
+		$this->_cdcountry		= $this->ftrecord['cdcountry'];
 	}
 
 	function createThumbnail($nrsize = 3) : string {
 		/* create the thumbnail image */
 		$html = "<div class='col-xs-" . $nrsize . "'>\n";
 		$html .= "  <div>\n";
-		$html .= "    <a href='" . $this->getUrl() . "' >$this->nmfull</a>\n";
+		$html .= "    <a href='" . $this->getUrl() . "' >$this->_nmfull</a>\n";
 		$html .= "  </div>\n";
 		$html .= "  <div>\n";
-		$html .= "    " . $this->ftlocation . "\n";
+		$html .= "    " . $this->_ftlocation . "\n";
 		$html .= "  </div>\n";
 		$html .= "  <div>\n";
-		$html .= "    " . $this->ftfield . "\n";
+		$html .= "    " . $this->_ftfield . "\n";
 		$html .= "  </div>\n";
 		$html .= "</div>\n";
 
@@ -162,7 +165,7 @@ class Club extends SingleItemPage{
 			/*******************
 			 create the content
 			 *******************/
-			$html = "<h1>" . $this->nmfull . "</h1>\n";
+			$html = "<h1>" . $this->_nmfull . "</h1>\n";
 
 			/*******************
 			 search and display the additional information
@@ -183,17 +186,13 @@ class Club extends SingleItemPage{
 
 	function getNameWithUrl() : string
 	{
-		return "<a href='". $this->getUrl() . "'>" . $this->nmfull . "</a>";
+		return "<a href='". $this->getUrl() . "'>" . $this->_nmfull . "</a>";
 	}
 
 	/* getters and setters */
-//	function getClubName(){
-//		/* deprecated */
-//		return $this->nmclub;
-//	}
 	function getFullName() : string
 	{
-		return $this->nmclub;
+		return $this->_nmclub;
 	}
 
 	function getLabels () : array {
@@ -238,15 +237,15 @@ class Club extends SingleItemPage{
 	*******************/
 	function getPrimaryColor() : string
 	{
-		return $this->nmprimarycolor;
+		return $this->_nmprimarycolor;
 	}
 	function getSecondaryColor() : string
 	{
-		return $this->nmsecondarycolor;
+		return $this->_nmsecondarycolor;
 	}
 	function getTertiaryColor() : string
 	{
-		return $this->nmtertiarycolor;
+		return $this->_nmtertiarycolor;
 	}
 }
 ?>
