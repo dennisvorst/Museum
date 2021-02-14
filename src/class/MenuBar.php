@@ -9,10 +9,10 @@ ini_set('display_errors', 'On');  //On or Off
 require_once "ListPage.php";
 
 class MenuBar{
-	static $nrcolumns = 26;
+	static $nrcolumns = 26; /** in case of alfabet */
 	static $nrfirst = 1;
 	static $nrlast = 0;
-	static $nrcurrent;
+	static $stripnumber;
 	static $nmclass;
 	
 	protected $_db;
@@ -24,7 +24,7 @@ class MenuBar{
 	}
 
 	function getToolBar($nmtable, $nmvalue, $cdtype, $rows){
-		/* crreate and display the toolbar.
+		/* create and display the toolbar.
 		$nmtable	= the database tanle name
 		$nmvalue	= the current selected value either a year or a single letter
 		$cdtype		= indicates year or alphabet
@@ -45,95 +45,112 @@ class MenuBar{
 			}
 		}
 
-		/* calculate the batch number to display */
-		if (empty(MenuBar::$nrcurrent)){
-			MenuBar::$nrcurrent = floor(array_search($nmvalue, $rows)/MenuBar::$nrcolumns) + 1;
+		/** 
+		 * calculate the number of strips it takes to display all elements
+		 * f.i. 17 items in sets of 12 is spread over 2 strips
+		 * */ 
+		if (empty(MenuBar::$stripnumber)){
+			MenuBar::$stripnumber = floor(array_search($nmvalue, $rows)/MenuBar::$nrcolumns) + 1;
 		}
 		MenuBar::$nmclass = $nmtable;
 
 		/* calculate the total number of batches */
 		MenuBar::$nrlast = ceil((count($rows) / MenuBar::$nrcolumns));
 
-
 		/* calculate the starting and end point of the current toolbar */
-		$nrstart 	= (MenuBar::$nrcurrent - 1) * MenuBar::$nrcolumns;
-		$nrend		= MenuBar::$nrcurrent * MenuBar::$nrcolumns;
-
-		/*******************
-		 create the toolbar.
-		 *******************/
-		/* start the toolbar */
-		$toolbar = "<nav class='navbar navbar-inverse navbar-fixed-top'>\n";
-		$toolbar .= "<ul class='nav navbar-nav'>\n";
-
-		/* We only display the back buttons when we are no longer in the first bracket */
-		if (MenuBar::$nrcurrent > 1){
-			/* create an array of key-value pairs */
-			$ftitems = array("nmclass"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> MenuBar::$nrfirst);
-			/* create the url for the FIRST (|<) button */
-			$fturl = $this->getUrl($ftitems);
-			$toolbar .= $this->getHyperlink($fturl, "|&lt;");
-
-			/* create an array of key-value pairs */
-			$ftitems = array("nmclass"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> $this->getPrevious());
-			/* create the url for the NEXT (<<) button */
-			$fturl = $this->getUrl($ftitems);
-			$toolbar .= $this->getHyperlink($fturl, "&lt;&lt;");
-		}
+		$firstValue = $rows[(MenuBar::$stripnumber - 1) * MenuBar::$nrcolumns];
+		/** never go past the last value in the row */
+		$lastValue	= ((MenuBar::$stripnumber * MenuBar::$nrcolumns) -1 > count($rows) ? count($rows)-1 : (MenuBar::$stripnumber * MenuBar::$nrcolumns) -1);
+		$lastValue	= $rows[$lastValue];
 
 		/* print the list of values */
-		for ($x=$nrstart; $x < $nrend ;$x++){
-			/* if we move past the total rows of values terminate it. */
-			if ($x == count($rows)){
-				break;
+		$items = [];
+		foreach ($rows as $row)
+		{
+			if ($row >= $firstValue && $row <= $lastValue)
+			{
+				$items[] = $row;
 			}
-			if ($rows[$x] == $nmvalue) {
-				/* no url */
-				$toolbar .= "<li>$rows[$x]</li>\n";
-			} else {
-				/* with url */
-				$toolbar .= "<li><a href='index.php?nmclass=$nmtable&$cdtype=" . strtoupper($rows[$x]) . "'>" . strtoupper($rows[$x]) . "</a></li>\n";
-			} // endif
+		}
+
+		/*******************
+		 collect
+		 *******************/
+		/* We only display the back buttons when we are no longer in the first bracket */
+		$buttons = [];
+		if (MenuBar::$stripnumber > 1){
+			/* create an array of key-value pairs */
+			$ftitems = ["nmclass" => $nmtable, $cdtype => $nmvalue, "nrcurrent"=> MenuBar::$nrfirst];
+			/* create the url for the FIRST (|<) button */
+			$fturl = $this->getUrl($ftitems);
+			$buttons[] = $this->getHyperlink($fturl, "|&lt;");
+
+			/* create an array of key-value pairs */
+			$ftitems = ["nmclass" => $nmtable, $cdtype => $nmvalue, "nrcurrent"=> $this->getPrevious()];
+			/* create the url for the NEXT (<<) button */
+			$fturl = $this->getUrl($ftitems);
+			$buttons[] = $this->getHyperlink($fturl, "&lt;&lt;");
+		}
+
+		/** the menu buttons */
+		foreach ($items as $item)
+		{
+			$fturl = $this->getUrl(["nmclass" => $nmtable, $cdtype => $item]);
+			$buttons[] = $this->getHyperlink($fturl, $item, ($item == $nmvalue));
 		}
 
 		/* only display the next bracket if the current bracket is not the last one. */
-		if (MenuBar::$nrcurrent < MenuBar::$nrlast){
+		if (MenuBar::$stripnumber < MenuBar::$nrlast){
 			/* create an array of key-value pairs */
 			$ftitems = array("nmclass"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> $this->getNext(MenuBar::$nrlast));
 			/* create the url for the NEXT (>>) button */
 			$fturl = $this->getUrl($ftitems);
-			$toolbar .= $this->getHyperlink($fturl, "&gt;&gt;");
+			$buttons[] = $this->getHyperlink($fturl, "&gt;&gt;");
 
 			/* create an array of key-value pairs */
 			$ftitems = array("nmclass"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> MenuBar::$nrlast);
 			/* create the url for the Last (>|) button */
 			$fturl = $this->getUrl($ftitems);
-			$toolbar .= $this->getHyperlink($fturl, "&gt;|");
+			$buttons[] = $this->getHyperlink($fturl, "&gt;|");
 		}
 
-		/* close the toolbar */
-		$toolbar .= "</ul>\n";
-		$toolbar .= "</nav>\n";
+		$buttons = implode("\n", $buttons);
+		/*******************
+		 construct the toolbar.
+		 *******************/
+		$html = "
+		<nav class='navbar navbar-expand-lg navbar-light bg-light'>
+	        <ul class='navbar-nav mr-auto mt-2 mt-lg-0'>
+				{$buttons}
+			</ul>
+		</nav>
+		";
 
-		return $toolbar;
+		return $html;
 	}//getToolBar
 
-	function getHyperlink($fturl, $ftlabel){
-		return "<li><a href='index.php?$fturl' >$ftlabel</a></li>\n";
+	function getHyperlink(string $fturl, string $ftlabel, bool $active = false) : string
+	{
+		$active = ($active ? " active" : "");
+
+		return "
+		<li class='nav-item{$active}'>
+			<a class='nav-link' href='index.php?{$fturl}'>{$ftlabel}</a>
+		</li>";
 	}
 
 	function getPrevious(){
 		/* determine the value of the previous identifier */
-		if (MenuBar::$nrcurrent > 1){
-			return MenuBar::$nrcurrent - 1;
+		if (MenuBar::$stripnumber > 1){
+			return MenuBar::$stripnumber - 1;
 		} else {
 			return 1;
 		}
 	}
 	function getNext($nrmaxcurrent){
 		/* determine the value of the next identifier */
-		if (MenuBar::$nrcurrent < $nrmaxcurrent){
-			return MenuBar::$nrcurrent + 1;
+		if (MenuBar::$stripnumber < $nrmaxcurrent){
+			return MenuBar::$stripnumber + 1;
 		} else {
 			return $nrmaxcurrent;
 		}

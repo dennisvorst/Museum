@@ -136,7 +136,7 @@ if (!isset($nmtab)){
 
 /* menubar stuff */
 if (isset($nrcurrent)){
-	MenuBar::$nrcurrent = $nrcurrent;
+	MenuBar::$stripnumber = $nrcurrent;
 }
 if (isset($nmclass)){
 	MenuBar::$nmclass = $nmclass;
@@ -185,13 +185,14 @@ if (empty($nmclass)){
             <div class="col">
                 <!-- center -->
                 <header>
-                <div class="container">
-                    <div class="row">        
-                        <div class="col-md-6 col-xs-6  text-right">
-                            <h1>Nederlands<br>Honkbal en Softbal<br>Museum</h1>
-                        </div>
-                        <div class="col-md-4 col-xs-12">
-                            <img src="images/logo.png" class="img-responsive" width="175"/>
+                    <div class="container">
+                        <div class="row">        
+                            <div class="col-md-6 col-xs-6  text-right">
+                                <h1>Nederlands<br>Honkbal en Softbal<br>Museum</h1>
+                            </div>
+                            <div class="col-md-4 col-xs-12">
+                                <img src="images/logo.png" class="img-responsive" width="175"/>
+                            </div>
                         </div>
                     </div>
 		        </header>

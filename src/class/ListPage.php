@@ -411,7 +411,7 @@ class ListPage extends MainPage{
 	}
 
 
-	function addPagination($nrrows, $nmclass, $id, $nmtab, $nrTotPages, $nrCurrentPage = null){
+	function addPagination($nrrows, $nmclass, $id, $nmtab, $nrTotPages, int $nrCurrentPage = 1){
 		/* add the pagination functionality to the tabpage */
 
 		/* init */
@@ -422,10 +422,10 @@ class ListPage extends MainPage{
 			return $html;
 		}
 
-		if (empty($nrCurrentPage)){
-			$nrCurrentPage = 1;
-		}
-		$nrFirstPage = 1;
+		// if (empty($nrCurrentPage)){
+		// 	$nrCurrentPage = 1;
+		// }
+		//$nrFirstPage = 1;
 		$nrLastPage = $nrTotPages;
 		$nrPrevPage = $nrCurrentPage - 1;
 		$nrNextPage = $nrCurrentPage + 1;
@@ -455,61 +455,31 @@ class ListPage extends MainPage{
 
 		$fturl		= "index.php?" . $fturl;
 
-//		/* create the html */
-//		$html = "<div class='pagination'>";
-//
-//		/* add a form */
-//		$html .= "<form action='redirect.php' accept-charset='utf-8'>\n";
-//
-//		if ($nrCurrentPage > 1){
-//			$html .= "<a href='" . $fturl . "&nrpage=" . $nrFirstPage . "'>&lt;&lt;</a>  ";
-//			$html .= "<a href='" . $fturl . "&nrpage=" . $nrPrevPage . "'>&lt;</a>  ";
-//		}
-//		$html .= "Dit is pagina ";
-//
-//		$selectBox = HtmlSelect::getNumericList("nrpage", $nrCurrentPage, $nrFirstPage, $nrLastPage);
-//		/* ff trucen */
-//		$html .= str_replace("<select", "<select onchange='this.form.submit()'", $selectBox);
-//
-//		/* add the values to the sibmit form */
-//		foreach ($ftvariables as $ftvariable){
-//			if (isset(${$ftvariable})){
-//				$html .= "<input type='hidden' name='$ftvariable' value='${$ftvariable}'>\n";
-//			}
-//		}
-//		$html .= "<noscript><input type='submit' value='Submit'></noscript>\n";
-//
-//		$html .= " van " . $nrTotPages . " ";
-//		if ($nrCurrentPage < $nrTotPages){
-//			$html .= "<a href='" . $fturl . "&nrpage=" . $nrNextPage . "'>&gt;</a>  ";
-//			$html .= "<a href='" . $fturl . "&nrpage=" . $nrLastPage . "'>&gt;&gt;</a>  ";
-//		}
-//		$html .= "</form>\n";
-//		$html .= "</div>\n";
-
 		/* init */
 		$firstIsDisplayed	= false;
 		$lastIsDisplayed	= false;
 
 		/* create the html for the previous button */
-		$htmlPrevious = "<li class='nav-item'>\n";
-		$htmlPrevious .= "  <a class='page-link' href='" . $fturl . "&nrpage=1' aria-label='Previous'>\n";
-		$htmlPrevious .= "    <span aria-hidden='true'>&laquo;</span>\n";
-		$htmlPrevious .= "    <span class='sr-only'>Previous</span>\n";
-		$htmlPrevious .= "  </a>\n";
-		$htmlPrevious .= "</li>\n";
+		$htmlPrevious = "
+		<li class='nav-item'>
+			<a class='page-link' href='" . $fturl . "&nrpage=1' aria-label='Previous'>
+				<span aria-hidden='true'>&laquo;</span>
+				<span class='sr-only'>Previous</span>
+			</a>
+		</li>";
 
-		$htmlLast = "<li class='nav-item'>\n";
-		$htmlLast .= "  <a class='page-link' href='" . $fturl . "&nrpage=" . $nrTotPages . "' aria-label='Previous'>\n";
-		$htmlLast .= "    <span aria-hidden='true'>&raquo;</span>\n";
-		$htmlLast .= "    <span class='sr-only'>Next</span>\n";
-		$htmlLast .= "  </a>\n";
-		$htmlLast .= "</li>\n";
+		$htmlLast = "
+			<li class='nav-item'>
+				<a class='page-link' href='" . $fturl . "&nrpage=" . $nrTotPages . "' aria-label='Previous'>
+					<span aria-hidden='true'>&raquo;</span>
+					<span class='sr-only'>Next</span>
+				</a>
+			</li>";
 
 		$htmlCenter = "";
 
 		/* startposition is 1 and end position is the last page. But when the number of pages is more than seven we
-		use seven as a max number of pages and add the prrevious and next buttons.
+		use seven as a max number of pages and add the previous and next buttons.
 		*/
 		if ($nrTotPages > 7){
 			/* there should always be seven positions displayed */
@@ -532,11 +502,11 @@ class ListPage extends MainPage{
 
 		for ($i=$nrStartPos; $i <= $nrEndPos; $i++){
 			/* different datatypes so only == and not ===*/
-			if ($i == $nrCurrentPage){
-		  		$htmlCenter .= "<li class='nav-item active'><a href='" . $fturl . "&nrpage=" . $i . "'>" . $i . "</a></li>\n";
-			} else {
-		  		$htmlCenter	.= "<li class='nav-item'><a href='" . $fturl . "&nrpage=" . $i . "'>" . $i . "</a></li>\n";
-			}
+			$active = (($i == $nrCurrentPage) ? " active" : "");
+			$htmlCenter .= "
+			<li class='nav-item{$active}'>
+				<a class='nav-link' href='" . $fturl . "&nrpage=" . $i . "'>" . $i . "</a>
+			</li>\n";
 
 			if ($i === 1){
 				$firstIsDisplayed = true;
@@ -547,7 +517,9 @@ class ListPage extends MainPage{
 			}
 		}
 
-		$html = "<ul class='pagination'>\n";
+		$html = "
+		<nav class='navbar navbar-expand-lg navbar-light bg-light'>
+			<ul class='navbar-nav mr-auto mt-2 mt-lg-0'>";
 
 		/* the previous button but only display it when the first page is not displayed. */
 		if (!$firstIsDisplayed){
@@ -562,7 +534,8 @@ class ListPage extends MainPage{
 			$html	.= $htmlLast;
 		}
 
-		$html .= "</ul>\n";
+		$html .= "</ul>
+		</nav>";
 
 		return $html;
 	}
