@@ -23,36 +23,40 @@ class HtmlTabElement{
 		}
 	}
 
-	function getTabButton() : string {
-		$html = "";
-		if ($this->isActive()){
-			$html .= "<li class='active'><a data-toggle='tab' href='#" . $this->_reference . "'>" . $this->_title . "</a></li>\n";
-		} else {
-			$html .= "<li><a data-toggle='tab' href='#" . $this->_reference . "'>" . $this->_title . "</a></li>\n";
-		}
-		return $html;
+	function getTabButton() : string 
+	{
+
+		$active = ($this->isActive() ? " active" : "");
+		$area_selected = ($this->isActive() ? "true" : "false");
+
+		return "<li class='nav-item'>
+			<a class='nav-link{$active}' id='{$this->_reference}-tab' data-toggle='tab' href='#{$this->_reference}' role='tab' aria-controls='{$this->_reference}' aria-selected='{$area_selected}'>{$this->_title}</a>
+		</li>";
 	}
 	function getTabContent() : string {
-		$html = "";
-		if ($this->isActive()){
-			$html .= "<div id='" . $this->_reference . "' class='tab active'>\n" . $this->_content . "</div>\n";
-		} else {
-			$html .= "<div id='" . $this->_reference . "' class='tab'>\n" . $this->_content . "</div>\n";
-		}
-		return $html;
+		$active = ($this->isActive() ? " show active" : "");
+
+		return "
+		<div class='tab-pane fade{$active}' id='{$this->_reference}' role='tabpanel' aria-labelledby='{$this->_reference}-tab'>
+			{$this->_content}
+		</div>";
 	}
+
 	function isActive() : bool 
 	{
 		return $this->_isActive;
 	}
+
 	function setActive() : void
 	{
 		$this->_isActive = true;
 	}
+
 	function setInactive() : void
 	{
 		$this->_isActive = false;
 	}
+
 	function getReference() : string
 	{
 		return $this->_reference;

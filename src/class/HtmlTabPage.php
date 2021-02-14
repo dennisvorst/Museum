@@ -23,7 +23,7 @@ class HtmlTabPage{
 		/** Id must be a numeric integer value  */
 		if (!($id > 0))	
 		{
-			throw new InvalidArgumentException('HtmlTabElement: reference not allowed to be empty.');
+			throw new InvalidArgumentException('HtmlTabPage: reference not allowed to be empty.');
 		} 
 		$this->_id	= $id;
 		$this->_db	= $db;
@@ -98,7 +98,6 @@ class HtmlTabPage{
 
 		if (count($this->_tabs) > 0)
 		{
-
 			/* create the outer div */
 			$html .= "<div class='tabs'>\n";
 			$html .= $this->_createTabStrip();
@@ -108,7 +107,7 @@ class HtmlTabPage{
 		return $html;
 	}
 
-	function addTab(string $reference, string $title, string $content, bool $isActive = null){
+	function addTab(string $reference, string $title, string $content, bool $isActive = false){
 		/**
 		 * Tabs cannot:
 		 * - have two or more active tabs
@@ -123,23 +122,34 @@ class HtmlTabPage{
 	}
 
 	private function _createTabStrip() : string {
-		$html = "<ul class='tab-links'>\n";
+		/** collect */
+		$tabs = [];
 		foreach($this->_tabs as $tab)
 		{
-			$html .= $tab->getTabButton();
+			$tabs[] = $tab->getTabButton();
 		}
-		$html .= "</ul>\n\n";
-		return $html;
+		$tabs = implode("\n", $tabs);
+
+		/** create */
+		return "
+		<ul class='nav nav-tabs' role='tablist'>
+			{$tabs}
+		</ul>";
 	}
 
 	private function _createTabContent() : string {
-		$html = "<div class='tab-content'>\n";
+		/** collect */
+		$content = [];
 		foreach($this->_tabs as $tab)
 		{
-			$html .= $tab->getTabContent();
+			$content[] = $tab->getTabContent();
 		}
-		$html .= "</div>\n\n";
-		return $html;
+		$content = implode("\n", $content);
+
+		return "
+		<div class='tab-content'>
+			{$content}
+		</div>";
 	}
 
 	private function _referenceExists($reference) : bool
@@ -198,7 +208,6 @@ class HtmlTabPage{
 						} 
 						break;	
 					}
-
 					break;
 			}
 		}
