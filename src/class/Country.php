@@ -13,11 +13,11 @@ class Country extends MysqlDatabase{
 
 	function getCountries(){
 		/* get a list of countries */
-		$query	= "SELECT cdalpha2, nmcountry FROM countries ORDER BY nmcountry";
+		$query	= "SELECT cdcountry, nmcountry FROM countries ORDER BY nmcountry";
 		$result	= $this->_db->select($query);
 
 		foreach ($result as $country){
-			$countries[$country['cdalpha2']] = $country['nmcountry'];
+			$countries[$country['cdcountry']] = $country['nmcountry'];
 		}
 		return $countries;
 
