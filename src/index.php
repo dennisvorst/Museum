@@ -62,26 +62,6 @@ require_once "class/Video.php";
 require_once "class/Videos.php";
 
 //*********************************************************
-// *** Include Section (3rd party)
-//*********************************************************
-//require_once "3rd/class/Mobile_Detect.php";
-
-//*********************************************************
-// *** Determine the device type
-//*********************************************************
-/* get the mobile properties */
-//$detect = new Mobile_Detect;
-
-/* on the small screen show a small image */
-//if ( $detect->isMobile() ) {
-//	print_r("Mobile");
-//} elseif ( $detect->isTablet() ) {
-//	print_r("Tablet");
-//} else {
-//	print_r("Monitor");
-//}
-
-//*********************************************************
 // *** Data Section
 //*********************************************************
 /* some init stuff just in case it is not set in the $_GET or $_POST */
