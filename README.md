@@ -18,6 +18,3 @@ this webstite is hosted on www.honkbalmuseum.nl
 | XXAMP | https://www.apachefriends.org/index.html |
 | Composer | https://getcomposer.org/ |
 | phpunit | https://phpunit.de/ |
-| PHINX | | https://phinx.org/ |
-
-
