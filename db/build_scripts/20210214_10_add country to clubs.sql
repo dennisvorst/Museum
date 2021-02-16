@@ -1,1 +1,1 @@
-ALTER TABLE `clubs` ADD `cdcountry` CHAR(5) NOT NULL DEFAULT 'NLD' COMMENT 'Country code (ISO 3166-1 alpha 3) ' AFTER `ftphone`; 
+ALTER TABLE `clubs` ADD `cdcountry` CHAR(5) NOT NULL DEFAULT 'NLD' COMMENT 'Country code (ISO 3166-1 alpha 3) ' AFTER `nmcity`; 
