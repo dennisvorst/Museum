@@ -3,7 +3,7 @@ ALTER TABLE sources ADD cdcountry CHAR(5) NOT NULL DEFAULT 'NLD' AFTER nmcity;
 
 ALTER TABLE sources
   ADD CONSTRAINT country_sources_1 FOREIGN KEY (cdcountry) REFERENCES countries (cdcountry);
-commit
+commit;
 
 
 UPDATE `sources` SET `cdcountry` = 'USA' WHERE `sources`.`idsource` = 33; 
