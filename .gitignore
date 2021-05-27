@@ -41,3 +41,4 @@ originals/
 db/build_scripts/temp/20210213 museum_test.sql
 db/build_scripts/temp/dell_laptop_museum.sql
 backlog.txt
+*.inc

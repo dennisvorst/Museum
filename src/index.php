@@ -10,17 +10,22 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
 // https://blog.bobbyallen.me/2013/03/23/using-composer-in-your-own-php-projects-with-your-own-git-packageslibraries/
-// todo : remove when going live
-require '../vendor/autoload.php';
+if ($_SERVER['SERVER_NAME'] == "localhost")
+{
+    require '../vendor/autoload.php';
+} else {
+    // production servers
+    require_once 'autoload/MysqlDatabase/Log.php';
+    require_once 'autoload/MysqlDatabase/MysqlConfig.php';
+    require_once 'autoload/MysqlDatabase/MysqlDatabase.php';
+
+}
 
 
 //*********************************************************
 // *** Include Section
 //*********************************************************
 require_once "class/Date.php";
-//require_once 'class/Log.php';
-//require_once 'class/MysqlConfig.php';
-//require_once 'class/MysqlDatabase.php';
 require_once "class/MainPage.php";
 require_once "class/ListPage.php";
 require_once "class/SingleItemPage.php";
@@ -71,17 +76,19 @@ $title = "Nederlands Honkbal en Softbal Museum";
 //$config = new MysqlConfig();
 $log = new Log("museum.log");
 
-switch ($_SERVER['SERVER_NAME']){
+switch ($_SERVER['SERVER_NAME'])
+{
     case "localhost":
         /* localhost */
         $mysqli = new Mysqli("localhost", "root", "", "museum");
         break;
     case "www.honkbalmuseum.nl":
-        include "www.honkbalmuseum.nl.inc";
+        include "inc/test.honkbalmuseum.nl.inc";
+        break;
+    case "test.honkbalmuseum.nl":
+        include "inc/www.honkbalmuseum.nl.inc";
         break;
 }
-
-
 
 try {
     $db = new MysqlDatabase($mysqli, $log);
@@ -149,8 +156,12 @@ if (empty($nmclass)){
 	<script src="https://kit.fontawesome.com/af1eec186a.js" crossorigin="anonymous"></script>
 
     <!-- https://support.google.com/analytics/answer/1008080?hl=nl -->
-    <?php include_once("config/analyticstracking.php") ?>
-
+    <?php 
+    if ($_SERVER['SERVER_NAME'] == "www.honkbalmuseum.nl")
+    {
+        include_once("config/analyticstracking.php");
+    }
+    ?>
     <title><?php echo $title; ?></title>
 
 </head>

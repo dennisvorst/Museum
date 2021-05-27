@@ -5,6 +5,7 @@ ini_set('display_errors', 'On');  //On or Off
 require_once "Date.php";
 require_once "ListPage.php";
 require_once "Person.php";
+require_once "Persons.php";
 require_once "Photo.php";
 //require_once "MysqlDatabase.php";
 
