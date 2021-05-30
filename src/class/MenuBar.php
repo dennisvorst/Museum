@@ -43,6 +43,9 @@ class MenuBar{
 				ListPage::getStartYear($this->_db, $nmtable);
 				$nmvalue = ListPage::$nryear;
 			}
+		} else {
+			/** not all letters in the alphabet may be present */
+			MenuBar::$nrcolumns = count($rows);
 		}
 
 		/** 
