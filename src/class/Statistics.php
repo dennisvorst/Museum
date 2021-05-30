@@ -3,8 +3,6 @@
  * todo: remove all the stats and go year by year
  */
 require_once "ListPage.php";
-//require_once "MysqlDatabase.php";
-//require_once "Log.php";
 require_once "Fielding.php";
 require_once "Pitching.php";
 require_once "Hitting.php";
@@ -54,7 +52,7 @@ class Statistics extends ListPage
         return $tot;
     }
 
-	function getTeamgetStatistics(int $id) : string
+	function getTeamStatistics(int $id) : string
 	{
 	}
 
