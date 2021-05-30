@@ -14,6 +14,16 @@ class checkWindow
 
         if (count($rows) > 0) 
         {
+            $keys = array_keys($rows[0]);
+            $table = new HtmlTable();
+            $table->addRow(new HtmlTableRow($keys, [], "H"), "H");
+
+            foreach ($rows as $row)
+            {
+                $table->addRow(new HtmlTableRow($row));
+            }
+    
+            $html .= $table->getElement();   
         
         } else {
             $html .= "<b>everything is fine here. Go play ball.</b>";

@@ -56,11 +56,11 @@ class Competitions extends ListPage{
 			$object->setRecord($row);
 			$object->processRecord();
 
-			print_r($row);
-			print_r("<br><br>");
+//			print_r($row);
+//			print_r("<br><br>");
 
 			if ($object->getSport() == "HB"){
-				print_r($row);
+//				print_r($row);
 
 				if ($object->getGender() == "M"){
 					if (empty($ftmensbaseball)){

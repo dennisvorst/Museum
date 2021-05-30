@@ -39,13 +39,13 @@ try {
 
 $window = new checkWindow();
 
-/** Competitions without games */
-$sql = "select * from competitions where idcompetition not in (select idcompetition from games)";
-echo $window->show("Competitions without games", $db->select($sql));
-
 /** Competitions without atleast two participants */
-$sql= "Select * from competitions where idcompetition not in (select idcompetition from participants having count(*) >= 2)";
+//$sql= "Select * from competitions where idcompetition not in (select idcompetition from participants having count(*) >= 2)";
+$sql = "select * from competitions where not exists (select null from participants where participants.idcompetition = competitions.idcompetition) order by nryear desc";
 echo $window->show("Competitions without atleast two participants", $db->select($sql));
 
-
+/** Competitions without games */
+//$sql = "select * from competitions where idcompetition not in (select idcompetition from games)";
+$sql = "select * from competitions where not exists (select null from games where games.idcompetition = competitions.idcompetition) order by nryear desc";
+echo $window->show("Competitions without games", $db->select($sql));
 ?>
