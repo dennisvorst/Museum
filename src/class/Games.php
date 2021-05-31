@@ -53,7 +53,7 @@ class Games extends ListPage{
 		}
 
 		/* init */
-		$table = new HtmlTable();
+		$table = new HtmlTable(["class" => "table table-striped"]);
 		$table->addRow(new HtmlTableRow(["Date", "Time", "Home", "Away", "Score", "Innings"], [], "H"), "H");
 
 		foreach ($this->_rows as $row){

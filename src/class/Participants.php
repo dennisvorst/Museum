@@ -69,7 +69,8 @@ class Participants extends ListPage{
 
 		/* gather the data */
 		$keys = array_keys($this->ftfieldlist);
-		$table = new HtmlTable();
+		$table = new HtmlTable(["class" => "table table-striped"]);
+
 		$table->addRow(new HtmlTableRow(array_values($this->ftfieldlist), [], "H"), "H");
 
 		/* create the table rows */

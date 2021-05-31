@@ -3,7 +3,6 @@ require_once "Date.php";
 require_once "Games.php";
 require_once "HtmlTable.php";
 require_once "Persons.php";
-//require_once "MysqlDatabase.php";
 
 class Participant extends SingleItemPage{
 	protected $_nmtable	= "participants";
@@ -50,7 +49,7 @@ class Participant extends SingleItemPage{
 		{
 
 			/* init */
-			$tableObj	= new HtmlTable();
+			$tableObj	= new HtmlTable(["class" =>"table table-striped"]);
 
 			/* get the team name */
 			$sql	= "SELECT * FROM teams WHERE idteam = ? ";
