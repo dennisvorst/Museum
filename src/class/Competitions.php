@@ -9,8 +9,8 @@ class Competitions extends ListPage{
 	protected $_nmtitle			= "Competities";
 	protected $_nmtable 			= "competitions";
 	protected $_nmsingle			= "competition";
-	protected $_searchFields 		= array("nmcompetition");
-	protected $_orderByFields 		= array("nryear", "nrorder", "cdsport", "cdclass", "cdgender", "nmcompetition");
+	protected $_searchFields 		= ["nmcompetition"];
+	protected $_orderByFields 		= ["nryear", "nrorder", "cdsport", "cdclass", "cdgender", "nmcompetition"];
 
 	/* for the tile list */
 	var $nrcolumns = 1;
@@ -44,7 +44,7 @@ class Competitions extends ListPage{
 
 	function getPage($ftpagination){
 		/* gather the data */
-		$fttiles = array();
+		$fttiles = [];
 		$ftmensbaseball		= "";
 		$ftwomensbaseball	= "";
 		$ftmenssoftball		= "";

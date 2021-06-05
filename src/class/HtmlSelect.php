@@ -9,17 +9,17 @@ class HtmlSelect{
 	}
 
 	function getClass($nmfield, $idvalue){
-		$ftlist = array("HB" => "Honkbal", "SB" => "Softball");
+		$ftlist = ["HB" => "Honkbal", "SB" => "Softball"];
 		return HtmlSelect::getHTMLSelect($nmfield, $idvalue, $ftlist);
 	}
 
 	function getSport($nmfield, $idvalue){
-		$ftlist = array("SEN" => "Senioren", "JUN" => "Junioren", "ASP" => "Aspiranten", "PUP" => "Pupillen", "PEA" => "Peanuts", "BEE" => "BeeBall");
+		$ftlist = ["SEN" => "Senioren", "JUN" => "Junioren", "ASP" => "Aspiranten", "PUP" => "Pupillen", "PEA" => "Peanuts", "BEE" => "BeeBall"];
 		return HtmlSelect::getHTMLSelect($nmfield, $idvalue, $ftlist);
 	}
 
 	function getLanguage($nmfield, $idvalue){
-		$ftlist = array("NL" => "Nederlands", "EN" => "Engels", "IT" => "Italiaans");
+		$ftlist = ["NL" => "Nederlands", "EN" => "Engels", "IT" => "Italiaans"];
 		return HtmlSelect::getHTMLSelect($nmfield, $idvalue, $ftlist);
 	}
 
@@ -30,7 +30,7 @@ class HtmlSelect{
 		if (empty($idvalue)){
 			$idvalue = "U";
 		}
-		$ftlist = array("U" => "Onbekend", "R" => "Rechts", "L" => "Links", "S" => "Switch");
+		$ftlist = ["U" => "Onbekend", "R" => "Rechts", "L" => "Links", "S" => "Switch"];
 		return HtmlSelect::getHTMLSelect($nmfield, $idvalue, $ftlist);
 	}
 
@@ -40,7 +40,7 @@ class HtmlSelect{
 		if (empty($idvalue)){
 			$idvalue = "M";
 		}
-		$ftlist = array("M" => "Heren", "F" => "Dames");
+		$ftlist = ["M" => "Heren", "F" => "Dames"];
 		return HtmlSelect::getHTMLSelect($nmfield, $idvalue, $ftlist);
 	}
 
@@ -50,7 +50,7 @@ class HtmlSelect{
 		if (empty($idvalue)){
 			$idvalue = "M";
 		}
-		$ftlist = array("M" => "Man", "F" => "Vrouw");
+		$ftlist = ["M" => "Man", "F" => "Vrouw"];
 		return HtmlSelect::getHTMLSelect($nmfield, $idvalue, $ftlist);
 	}
 
@@ -60,7 +60,7 @@ class HtmlSelect{
 		if (empty($idvalue)){
 			$idvalue = "N";
 		}
-		$ftlist = array("N" => "Niet Actief", "A" => "Actief");
+		$ftlist = ["N" => "Niet Actief", "A" => "Actief"];
 		return HtmlSelect::getHTMLSelect($nmfield, $idvalue, $ftlist);
 	}
 
@@ -89,7 +89,7 @@ class HtmlSelect{
 		/*create a dropdown list of all numeric values */
 
 		/* create an array of numeric values */
-		$ftlist = array();
+		$ftlist = [];
 		while ($nrstart <= $nrend ){
 			$ftlist[$nrstart] = $nrstart;
 			$nrstart++;

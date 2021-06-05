@@ -53,7 +53,7 @@ class Home extends ListPage{
 	{
 		/* create the main page content for the homepage */
 		$html = "";
-		$objects = array("Articles", "Photos", "Persons", "Clubs", "Videos");
+		$objects = ["Articles", "Photos", "Persons", "Clubs", "Videos"];
 		for ($x=0; $x < count($objects); $x++){
 			$classObj = new $objects[$x]($this->_db, $this->_log);
 			$classObj->withFeatured();
@@ -65,7 +65,7 @@ class Home extends ListPage{
 	function getMobileContent($nmCurrentTab, $nrCurrentPage){
 		/* create the main page content for the homepage */
 		$html = "";
-		$objects = array("Articles", "Photos", "Persons", "Clubs", "Videos");
+		$objects = ["Articles", "Photos", "Persons", "Clubs", "Videos"];
 		for ($x=0; $x < count($objects); $x++){
 			$classObj = new $objects[$x]($this->_db, $this->_log);
 			$classObj->withFeatured();

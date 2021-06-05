@@ -12,8 +12,8 @@ class Persons extends ListPage{
 	protected $_nmsingle			= "person";
 	protected $_nmclass			= "Person";
 
-	protected $_searchFields 		= array("nmfirst", "nmsur", "nmlast");
-	protected $_orderByFields 		= array("nmlast", "nmfirst");
+	protected $_searchFields 		= ["nmfirst", "nmsur", "nmlast"];
+	protected $_orderByFields 		= ["nmlast", "nmfirst"];
 	var $nmAlphabetField	= "nmlast";
 
 	var $alphabet;

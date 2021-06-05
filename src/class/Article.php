@@ -16,9 +16,9 @@ class Article extends SingleItemPage{
 	protected $_nmtable	= "articles";
 	protected $_nmkey		= "idarticle";
 
-	var $persons	= array();
-	var $clubs		= array();
-	var $competitions	= array();
+	var $persons	= [];
+	var $clubs		= [];
+	var $competitions	= [];
 
 	var $idsource;
 	var $nryear;
@@ -28,7 +28,7 @@ class Article extends SingleItemPage{
 	var $fttitle2;
 	var $fttitle3;
 	var $cdsport;
-	var $ftarticle;
+	protected $_articleText;
 	var $nrparagraphs;
 
 	var $thumbTextLength = 380; //200;
@@ -78,35 +78,78 @@ class Article extends SingleItemPage{
 		/* create a thumbnail as part of a collection of records. */
 
 		/* cut the article */
-		if (empty($this->ftarticle))
+		if (empty($this->_articleText))
 		{
 			/** todo : find workable solution for empty body's of articles */
 			//throw new exception("No article selected ({$this->_id}).");
 		}
 
-		$ftarticle = $this->ftarticle;
-		if (strlen($ftarticle) > $this->thumbTextLength){
-			$ftarticle	= substr($ftarticle, 0, $this->thumbTextLength);
-			$position	= strrpos($ftarticle, " ");
-			$ftarticle	= substr($ftarticle, 0, $position + 1);
+		/** gather the information */
+		$authorName = $this->nmauthor;
+		$articleText = $this->ftarticle;
+		$mainTitle = $this->fttitle1;
+
+		if (strlen($articleText) > $this->thumbTextLength){
+			$articleText	= substr($articleText, 0, $this->thumbTextLength);
+			$position	= strrpos($articleText, " ");
+			$articleText	= substr($articleText, 0, $position + 1);
 		}
 
 		/* create the date */
 		$dateObj	= new Date();
-		$dtpublish	= $dateObj->translateDate($this->dtpublish, "W");
+		$publishDate	= $dateObj->translateDate($this->dtpublish, "W");
 
 		/* look for a photo */
 		$photoObj	= new Photo($this->_db, $this->_log);
 		$photoObj->setIdByArticle($this->_id);
 
-		$photo = array();
+		$photo = [];
 		if (!is_null($photoObj->getRecordId())) {
 			$photo		= $photoObj->getThumbnail();
 		}
 		$colspan = 2;
 		if (!empty($photo)){
 			$colspan = 3;
+			$photoThumbnail = "
+				<div class='col-sm-3'>
+					{$photo}
+				</div>";
 		}
+
+		$colSize = (empty($photoThumbnail) ? "col-lg-12" : "col-lg-9");
+
+  		/* create the return string */
+		return "
+		<div class='card'>
+			<div class='container'>
+				<!-- title row -->
+				<div class='row'>
+					<b>{$mainTitle}</b>
+				</div>
+				<!-- row with two columns one for picture one for text -->
+				<div class='row'>
+					<!-- column for photo -->
+					{$photoThumbnail}
+					<div class='{$colSize}'>
+						<!-- date and author -->
+						<div class='row'>
+							<div class='col'>
+							{$publishDate}
+							</div>
+							<div class='col'>
+							{$authorName}
+							</div>
+						</div>
+						<!-- row for the article -->
+						<div class='row'>
+						{$articleText} {$this->getReadMoreButton()}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		";
+
 
 		/* create the return string */
 		$html = "<table width=\"100%\">\n";
@@ -297,7 +340,7 @@ class Article extends SingleItemPage{
 		$nrparagraphs	= (empty($ftparagraphs) ? 0 : count($ftparagraphs)) ;
 		/* if the array is not an arry. make it an array */
 		if (!is_array($ftparagraphs)){
-			$ftparagraphs = array($ftparagraphs);
+			$ftparagraphs = [$ftparagraphs];
 		}
 
 		$nrParagraphsInBetween = 0;
@@ -437,5 +480,11 @@ class Article extends SingleItemPage{
 	/******************
 	Editable fields
 	*******************/
+
+	function getReadMoreButton() : string
+	{
+		return "<a href='" . $this->getUrl(["option"=>"articles", "id" => $this->_id]) . "'>Lees meer</a>";
+	}
+
 }
 ?>

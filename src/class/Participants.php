@@ -6,15 +6,15 @@ class Participants extends ListPage{
 	protected $_nmtitle			= "Deelnemers";
 	protected $_nmtable 			= "participants";
 	protected $_nmsingle			= "participant";
-	protected $_searchFields 		= array("");
-	protected $_orderByFields 		= array("nrgames", "nrwins", "nrdraws");
+	protected $_searchFields 		= [];
+	protected $_orderByFields 		= ["nrgames", "nrwins", "nrdraws"];
 
 	/* for the tile list */
 	var $nrcolumns = 1;
 
-	var $participantsArray = array();
+	var $participantsArray = [];
 
-	var $ftfieldlist = array();
+	var $ftfieldlist = [];
 
 	function __construct(MysqlDatabase $db, Log $log)
 	{

@@ -50,7 +50,31 @@ class Video extends SingleItemPage{
 		$html .= "  </figure>\n";
 		$html .= "</div>\n";
 
-		return $html;
+		/** collect */
+		$id = $this->_id;
+		$videoName = $this->nmvideo;
+		$youTubeIdentifier = $this->nmurl;
+		$youTubeUrl = $this->getYoutubeThumbnail($youTubeIdentifier);
+		
+
+
+		/** create */
+		return "
+		<div class='card'>
+			<div class='container'>
+				<div class='row justify-content-center'>
+					<figure>
+						<figcaption>
+							<h4><a href='index.php?id={$id}&option=videos'>{$videoName}</a></h4>
+						</figcaption>
+						<a href='index.php?id={$id}&option=videos'>
+							<img width='200' src='{$youTubeUrl}'>
+						</a>
+					</figure>
+				</div>
+			</div>
+		</div>";
+
 	}
 
 	function getYoutubeThumbnail($nmurl){

@@ -10,8 +10,8 @@ class Clubs extends ListPage{
 	protected $_nmsingle			= "club";
 	protected $_nmclass			= "Club";
 
-	protected $_searchFields 		= array("nmfull", "nmclub", "ftlocation", "ftfield", "ftaddress");
-	protected $_orderByFields 		= array("nmfull");
+	protected $_searchFields 		= ["nmfull", "nmclub", "ftlocation", "ftfield", "ftaddress"];
+	protected $_orderByFields 		= ["nmfull"];
 	var $nmAlphabetField	= "nmclub";
 
 	function __construct(MysqlDatabase $db, Log $log)

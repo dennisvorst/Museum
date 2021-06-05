@@ -58,11 +58,11 @@ class Search{
 		if (strpos($search, "\"" ) >= 0){
 			$search = str_getcsv($search,' ','"');
 		} else {
-			$search = array($search);
+			$search = [$search];
 		}
 
 		/* find the articles */
-		$tables = array('articles'=>'Articles', 'photos'=>'Photos', 'persons'=>'Persons', 'videos'=>'Videos', 'clubs'=>'Clubs');
+		$tables = ['articles'=>'Articles', 'photos'=>'Photos', 'persons'=>'Persons', 'videos'=>'Videos', 'clubs'=>'Clubs'];
 		$keys	= array_keys($tables);
 
 		foreach ($keys as $key){
@@ -94,8 +94,8 @@ class Search{
 			$nmoperator = "AND";
 		}
 
-		if (!is_array($ftfieldlist)){$ftfieldlist = array($ftfieldlist);}
-		if (!is_array($ftvaluelist)){$ftvaluelist = array($ftvaluelist);}
+		if (!is_array($ftfieldlist)){$ftfieldlist = [$ftfieldlist];}
+		if (!is_array($ftvaluelist)){$ftvaluelist = [$ftvaluelist];}
 
 		/* create the where clause */
 		$where = "";

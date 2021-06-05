@@ -64,7 +64,7 @@ class Participant extends SingleItemPage{
 			$sql	.= " ORDER BY nmlast, nmfirst, nmsur";
 			$rows	= $this->_db->select($sql, "si", ['C', $this->ftrecord['idparticipant']]);
 
-			$ftcoaches	= array();
+			$ftcoaches	= [];
 			for ($i = 0; $i < count($rows);$i++){
 				$nm	= $rows[$i]['nmlast'] . ", " . $rows[$i]['nmfirst'] . (empty($rows[$i]['nmsur']) ? "" : " " . $rows[$i]['nmsur'] . " " ) . ($rows[$i]["hasdied"]? " (&#8224;)" : "");
 				$ftcoaches[$i]['nm']	= "<a href='index.php?nmclass=person&id=" . $rows[$i]['idperson'] . "'>" . $nm . "</a>";
@@ -80,7 +80,7 @@ class Participant extends SingleItemPage{
 			$sql	.= " ORDER BY nmlast, nmfirst, nmsur";
 			$rows	= $this->_db->select($sql, "si", ['P', $this->ftrecord['idparticipant']]);
 
-			$ftplayers	= array();
+			$ftplayers	= [];
 			for ($i = 0; $i < count($rows);$i++){
 				$nm	= $rows[$i]['nmlast'] . ", " . $rows[$i]['nmfirst'] . (empty($rows[$i]['nmsur']) ? "" : " " . $rows[$i]['nmsur'] . " " ) . ($rows[$i]["hasdied"]? " (&#8224;)" : "");
 				$ftplayers[$i]['nm']	= "<a href='index.php?nmclass=person&id=" . $rows[$i]['idperson'] . "'>" . $nm . "</a>";
@@ -103,7 +103,7 @@ class Participant extends SingleItemPage{
 			$sql	.= "WHERE r.idteam = p.idteam AND idcompetition = ?";
 			$rows	= $this->_db->select($sql, "i", [$this->ftrecord['idcompetition']]);
 
-			$ftparticipants	= array();
+			$ftparticipants	= [];
 			foreach($rows as $row){
 				$ftparticipants[$row['idparticipant']]	= $row['nmteam'];
 			}
@@ -134,11 +134,11 @@ class Participant extends SingleItemPage{
 				$html .= "<h2>Roster</h2>";
 				if (!empty($ftcoaches)){
 					$html .= "<h3>Coaching</h3>";
-					$html .= $tableObj->createHtmlTable(array("Naam"), $ftcoaches);
+					$html .= $tableObj->createHtmlTable(["Naam"], $ftcoaches);
 				}
 				if (!empty($ftplayers)){
 					$html .= "<h3>Spelers</h3>";
-					$html .= $tableObj->createHtmlTable(array("Naam"), $ftplayers);
+					$html .= $tableObj->createHtmlTable(["Naam"], $ftplayers);
 				}
 			}
 

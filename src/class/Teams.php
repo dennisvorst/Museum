@@ -11,8 +11,8 @@ class Teams extends ListPage{
 	protected $_nmsingle			= "team";
 	protected $_nmclass			= "Team";
 
-	protected $_searchFields 		= array("nmteam", "cdsport", "cdclass", "cdgender");
-	protected $_orderByFields 		= array("nmteam", "cdsport", "cdclass", "cdgender");
+	protected $_searchFields 		= ["nmteam", "cdsport", "cdclass", "cdgender"];
+	protected $_orderByFields 		= ["nmteam", "cdsport", "cdclass", "cdgender"];
 	var $nmAlphabetField	= "nmteam";
 
 	var $ftmensbaseball = [];

@@ -75,12 +75,12 @@ class Date{
 	}// function TranslateDate
 
 	function GetMonthList(){
-		$months = array(1=>"januari", 2=>"februari", 3=>"maart", 4=>"april", 5=>"mei", 6=>"juni", 7=>"juli", 8=>"augustus", 9=>"september", 10=>"oktober", 11=>"november", 12=>"december");
+		$months = [1=>"januari", 2=>"februari", 3=>"maart", 4=>"april", 5=>"mei", 6=>"juni", 7=>"juli", 8=>"augustus", 9=>"september", 10=>"oktober", 11=>"november", 12=>"december"];
 		return $months;
 	}
 
 	function GetDayList(){
-		$days = array();
+		$days = [];
 		for ($x=1; $x<32;$x++){
 			$days[$x]   = $x;
 		}
@@ -99,7 +99,7 @@ class Date{
 
     function GetWeekday(){
         if (!empty($this->Weekday)){
-			$weekdays = array("Monday"=>"maandag", "Tuesday"=>"dinsdag", "Wednesday"=>"woensdag", "Thursday"=>"donderdag", "Friday"=>"vrijdag", "Saturday"=>"zaterdag", "Sunday"=>"zondag");
+			$weekdays = ["Monday"=>"maandag", "Tuesday"=>"dinsdag", "Wednesday"=>"woensdag", "Thursday"=>"donderdag", "Friday"=>"vrijdag", "Saturday"=>"zaterdag", "Sunday"=>"zondag"];
             $this->Weekday      = $weekdays[$this->Weekday];
         } else {
 			$this->Weekday  = "";

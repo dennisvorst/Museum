@@ -10,8 +10,8 @@ class Videos extends ListPage{
 	protected $_nmsingle		= "video";
 	protected $_nmclass		= "Video";
 
-	protected $_searchFields 		= array("nmvideo", "ftdepicted");
-	protected $_orderByFields 		= array("nmvideo");
+	protected $_searchFields 		= ["nmvideo", "ftdepicted"];
+	protected $_orderByFields 		= ["nmvideo"];
 
 	/* for the tile list */
 	var $nrcolumns = 3;

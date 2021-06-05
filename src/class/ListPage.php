@@ -18,9 +18,9 @@ class ListPage extends MainPage{
 
 	protected $_nmclass;
 
-	protected $_searchFields	= array("ListPageContent");
+	protected $_searchFields	= ["ListPageContent"];
 	protected $_orderByFields;
-	var $ftsubmenus		= array();
+	var $ftsubmenus		= [];
 
 	public static $nryear;
 	public static $nmalphabet = "A";
@@ -35,7 +35,7 @@ class ListPage extends MainPage{
 	var $nrcolumns = 2;
 
 	/* for the foreign key properties */
-	var $ftforeignkeys	= array();
+	var $ftforeignkeys	= [];
 
 	/* constructor */
 	function __construct(MysqlDatabase $db, Log $log){
@@ -177,7 +177,7 @@ class ListPage extends MainPage{
 		}
 
 		/* get the alphabet from a tables */
-		$letters = array();
+		$letters = [];
 
 //        $rows = $this->getData("DISTINCT(UPPER(LEFT({$nmfield},1))) AS letter", $nmtable, "", $nmfield, "");
 		$sql = "SELECT DISTINCT(UPPER(LEFT({$nmfield},1))) AS letter FROM {$nmtable} ORDER BY {$nmfield}";
@@ -398,7 +398,7 @@ class ListPage extends MainPage{
 
 	function getTiles() : array
 	{
-		$fttiles = array();
+		$fttiles = [];
 		$x = 0;
 		foreach ($this->_rows as $row){
 			$object = new $this->_nmclass($this->_db, $this->_log);
@@ -442,7 +442,7 @@ class ListPage extends MainPage{
 			}
 		}
 
-		$ftvariables = array('nmclass', 'nmparent', 'id', 'nmtab', 'nryear', 'nmalphabet');
+		$ftvariables = ['nmclass', 'nmparent', 'id', 'nmtab', 'nryear', 'nmalphabet'];
 		foreach ($ftvariables as $ftvariable){
 			if (isset(${$ftvariable}) && !empty(${$ftvariable})){
 				if (empty($fturl)){
@@ -553,8 +553,8 @@ class ListPage extends MainPage{
 		/* init */
 		$ftfieldlist	= $this->getSearchFields();
 
-		if (!is_array($ftfieldlist)){$ftfieldlist = array($ftfieldlist);}
-		if (!is_array($ftvaluelist)){$ftvaluelist = array($ftvftvaluelistaluelist);}
+		if (!is_array($ftfieldlist)){$ftfieldlist = [$ftfieldlist];}
+		if (!is_array($ftvaluelist)){$ftvaluelist = [$ftvftvaluelistaluelist];}
 
 		/* make the values uppercase */
 		$ftvaluelist	= array_map('strtoupper', $ftvaluelist);

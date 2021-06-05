@@ -21,10 +21,10 @@ class Photo extends SingleItemPage{
 	var $maxThumbnailWidth	= 200;
 	var $maxThumbnailHeight	= 200;
 
-	var $persons		= array();
-	var $clubs			= array();
-	var $competitions	= array();
-	var $articles		= array();
+	var $persons		= [];
+	var $clubs			= [];
+	var $competitions	= [];
+	var $articles		= [];
 
 	var $idphoto;
 	var $idsource;
@@ -74,6 +74,7 @@ class Photo extends SingleItemPage{
 		$this->is_featured			= $this->ftrecord['is_featured'];
 	}
 
+	
 	function createThumbnail($nrsize = 3){
 		if ($this->_debug){
 			$this->_log->write(__METHOD__ );
@@ -81,12 +82,24 @@ class Photo extends SingleItemPage{
 
 		/* create a thumbnail as part of a collection of records. */
 		$image = $this->getThumbnail();
+		$id = $this->_id;
 
-		$html = "<div class='col-xs-" . $nrsize . "'>\n";
-		$html .= "<a href='" . $this->getUrl() . "'>$image</a>\n";
-		$html .= "</div>\n";
+		// $html = "<div class='col-xs-" . $nrsize . "'>\n";
+		// $html .= "<a href='" . $this->getUrl() . "'>$image</a>\n";
+		// $html .= "</div>\n";
 
-		return $html;
+		// return $html;
+
+		return "
+		<div class='card'>
+			<div class='container'>
+				<div class='row justify-content-center'>
+					<a href='{$this->getUrl(["option"=>"photos", "id" => $id])}'>$image</a>
+				</div>
+			</div>
+		</div>
+		";
+
 	}//createThumbnail
 
 	function getContent($nmCurrentTab, $nrCurrentPage) : string

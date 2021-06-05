@@ -159,21 +159,26 @@ class Person extends SingleItemPage{
 		$height		= $photoObj->getThumbnailHeight();
 
 		/* create the HTML */
-		$html = "<div class='col-xs-3'>\n";
-		$html .= "  <div align='center'>\n";
-		$html .= "    <figure>\n";
+		return "
+		<div class='card'>
+			<div class='container'>
+				<div class='row'>
 
-		if (!empty($mugshot)){
-			$html .= "    <a href='". $this->getUrl() . "'>" . $mugshot . "</a>\n";
-		}
+					<div class='col'>
+						<div align='center'>
+							<figure>
+								{$mugshot}
+								<figcaption>
+									{$this->getNameWithUrl()}
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		";
 
-		$html .= "      <figcaption>\n";
-		$html .= $this->getNameWithUrl() . "\n";
-		$html .= "      </figcaption>\n";
-		$html .= "    </figure>\n";
-		$html .= "  </div>\n";
-		$html .= "</div>\n";
-		return $html;
 	}//createThumbnail
 
 	function getFullName(){

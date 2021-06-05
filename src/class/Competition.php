@@ -38,10 +38,14 @@ class Competition extends SingleItemPage{
 		$this->is_featured		= $this->ftrecord['is_featured'];
 	}
 
-	function createThumbnail(){
+	function createThumbnail()
+	{
+		$url = $this->getNameWithUrl();
 		/* create the thumbnail image */
-        return $this->getNameWithUrl();
-    }
+		return "
+		<div class='card'>{$url}</div>
+		"; 
+	}
 
 	function getContent($nmCurrentTab, $nrCurrentPage) : string
 	{

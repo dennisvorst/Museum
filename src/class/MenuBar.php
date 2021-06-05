@@ -105,13 +105,13 @@ class MenuBar{
 		/* only display the next bracket if the current bracket is not the last one. */
 		if (MenuBar::$stripnumber < MenuBar::$nrlast){
 			/* create an array of key-value pairs */
-			$ftitems = array("nmclass"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> $this->getNext(MenuBar::$nrlast));
+			$ftitems = ["nmclass"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> $this->getNext(MenuBar::$nrlast)];
 			/* create the url for the NEXT (>>) button */
 			$fturl = $this->getUrl($ftitems);
 			$buttons[] = $this->getHyperlink($fturl, "&gt;&gt;");
 
 			/* create an array of key-value pairs */
-			$ftitems = array("nmclass"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> MenuBar::$nrlast);
+			$ftitems = ["nmclass"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> MenuBar::$nrlast];
 			/* create the url for the Last (>|) button */
 			$fturl = $this->getUrl($ftitems);
 			$buttons[] = $this->getHyperlink($fturl, "&gt;|");
@@ -175,7 +175,7 @@ class MenuBar{
 		/* if there are more records than can be displayed we need to cut them in pieces */
         if ($max_hits >= $hits){
 			/* we donot need to add navigation buttons. */
-            $this->lijst = array();
+            $this->lijst = [];
 //			$data = $this->database->GetData("DISTINCT({$this->fieldname}) as jaar", $this->entname, "", $this->fieldname, "");
 			$sql = "SELECT DISTINCT({$this->fieldname}) as jaar FROM {$this->entname} ORDER BY {$this->fieldname}";
 			$data = $this->_db->select($sql);
@@ -193,7 +193,7 @@ class MenuBar{
 			/* we need to reduce the list to a number of values equal to $max_hits and add navigation buttons */
 
 			/* So in order to cut things up we need to know where the begin (min) and the end (max) is */
-			$my_select_array = array("min", "max");
+			$my_select_array = ["min", "max"];
 			for ($y=0; $y<count($my_select_array); $y++){
 //$data = $this->database->GetData("{$my_select_array[$y]}(nrjaar) as jaar", $this->entname, "", "", "1");
 			$sql = "{$my_select_array[$y]}(nrjaar) as jaar FROM {$this->entname} LIMIT 1";

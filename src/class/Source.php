@@ -93,7 +93,7 @@ class Source extends SingleItemPage{
 		$sql = "SELECT idsource, nmsource FROM sources ORDER BY nmsource";
 
 		$rows = $this->_db->select($sql);
-		$ftvalues = array();
+		$ftvalues = [];
 		foreach ($rows as $row){
 			$ftvalues[$row['idsource']] = $row['nmsource'];
 		}

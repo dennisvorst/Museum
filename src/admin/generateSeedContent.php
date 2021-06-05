@@ -29,14 +29,14 @@ $db = new MysqlDatabase($config, "museum", $log);
 
 $sql_db = "SELECT DISTINCT(SCHEMA_NAME) FROM INFORMATION_SCHEMA.SCHEMATA";
 $sql_tbl = "";
-$sql_rows = array();
+$sql_rows = [];
 
 $db_url = "";
 $tbl_url = "";
 
-$databases = array();
-$tables = array();
-$rows = array();
+$databases = [];
+$tables = [];
+$rows = [];
 
 /* get the schema name and the database name */
 /* TODO: make prepare statement proof*/

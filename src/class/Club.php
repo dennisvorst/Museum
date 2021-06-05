@@ -32,7 +32,7 @@ class Club extends SingleItemPage{
 
 	protected $_cdcountry;
 
-	var $ftsubmenus = array("clubretired"=>"Retired Numbers", "teams"=>"Teams");
+	var $ftsubmenus = ["clubretired"=>"Retired Numbers", "teams"=>"Teams"];
 
 	function __construct(MysqlDatabase $db, Log $log, int $id = null){
 		parent::__construct($db, $log);
@@ -76,19 +76,25 @@ class Club extends SingleItemPage{
 
 	function createThumbnail($nrsize = 3) : string {
 		/* create the thumbnail image */
-		$html = "<div class='col-xs-" . $nrsize . "'>\n";
-		$html .= "  <div>\n";
-		$html .= "    <a href='" . $this->getUrl() . "' >$this->_nmfull</a>\n";
-		$html .= "  </div>\n";
-		$html .= "  <div>\n";
-		$html .= "    " . $this->_ftlocation . "\n";
-		$html .= "  </div>\n";
-		$html .= "  <div>\n";
-		$html .= "    " . $this->_ftfield . "\n";
-		$html .= "  </div>\n";
-		$html .= "</div>\n";
+		$clublogo = "TBD";
+		$clubname = $this->_nmfull;
+		$href = $this->getUrl();
 
-		return $html;
+		/** create */
+		return "
+		<div class='card'>
+			<div class='container'>
+			{$clublogo}
+			<div class='row'>
+				<div class='card-body'>
+					<h5 class='card-title'>{$clubname}</h5>
+					<p class='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href='{$href}'>Lees meer</a>
+				</div>
+				</div>
+			</div>
+		</div>";
+	
 	}
 
 	var $_retiredNumberCollection = [];
@@ -225,7 +231,7 @@ class Club extends SingleItemPage{
 		$sql = "SELECT idclub, nmclub FROM clubs ORDER BY nmclub";
 		$rows = $this->_db->select($sql);
 
-		$ftvalues = array();
+		$ftvalues = [];
 		foreach ($rows as $row){
 			$ftvalues[$row['idclub']] = $row['nmclub'];
 		}

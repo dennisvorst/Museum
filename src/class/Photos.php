@@ -11,10 +11,10 @@ class Photos extends ListPage{
 	protected $_nmsingle		= "photo";
 	protected $_nmclass		= "photo";
 
-	protected $_searchFields	= array("ftdepicted", "ftdescription", "dtpublish", "nryear");
-	protected $_orderByFields	= array("dtpublish");
+	protected $_searchFields	= ["ftdepicted", "ftdescription", "dtpublish", "nryear"];
+	protected $_orderByFields	= ["dtpublish"];
 
-	var $photoArray = array();
+	var $photoArray = [];
 
 	/* for the tile list */
 	var $nrcolumns = 4;

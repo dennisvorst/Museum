@@ -51,8 +51,8 @@ class HtmlTabPage{
 
 		/* process the array */
 		/* first retrieve all the content of the pages but only save the ones that have content */
-		$pages = array();
-		$titles = array();
+		$pages = [];
+		$titles = [];
 		foreach ($list as $item){
 
 			$item = ucfirst($item);
