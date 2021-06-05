@@ -18,7 +18,6 @@ if ($_SERVER['SERVER_NAME'] == "localhost")
     require_once 'autoload/MysqlDatabase/Log.php';
     require_once 'autoload/MysqlDatabase/MysqlConfig.php';
     require_once 'autoload/MysqlDatabase/MysqlDatabase.php';
-
 }
 
 
@@ -83,10 +82,10 @@ switch ($_SERVER['SERVER_NAME'])
         $mysqli = new Mysqli("localhost", "root", "", "museum");
         break;
     case "www.honkbalmuseum.nl":
-        include "inc/test.honkbalmuseum.nl.inc";
+        include "inc/www.honkbalmuseum.nl.inc";
         break;
     case "test.honkbalmuseum.nl":
-        include "inc/www.honkbalmuseum.nl.inc";
+        include "inc/test.honkbalmuseum.nl.inc";
         break;
 }
 
@@ -142,15 +141,13 @@ if (empty($nmclass)){
 ?>
 <!doctype html>
 <html lang="en">
-<head>
-	<!-- set the UTF-8 properties -->
-	<!-- as defined in : https://www.toptal.com/php/a-utf-8-primer-for-php-and-mysql -->
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-    <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 	<!-- initiate font awesome -->
 	<script src="https://kit.fontawesome.com/af1eec186a.js" crossorigin="anonymous"></script>
@@ -163,13 +160,11 @@ if (empty($nmclass)){
     }
     ?>
     <title><?php echo $title; ?></title>
-
-</head>
-<body>
-	<?php
+  </head>
+  <body>
+  <?php
 	$socialObj = new Social();
 	echo $socialObj->addFacebookPrefix();
-//	echo Social::addFacebookPrefix();
 	?>
     <div class="container">
         <div class="row">
@@ -233,6 +228,7 @@ if (empty($nmclass)){
                                 } catch (Exception $e) {
                                 	$log->write("Error: " . $e->getMessage());
                                     echo "Whoops, er is iets misgegaan. Neem contact op met de website beheerder.\n";
+                                    echo "Error: " . $e->getMessage();
                                     return;
                                 }
                                 ?>
@@ -257,11 +253,15 @@ if (empty($nmclass)){
         </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-</body>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
