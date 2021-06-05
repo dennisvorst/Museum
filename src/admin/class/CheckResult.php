@@ -2,7 +2,7 @@
 /** class that shows a title and the result of the check that was performed */
 require_once "../class/HtmlTable.php";
 
-class checkWindow
+class CheckResult
 {
     function __construct()
     {
