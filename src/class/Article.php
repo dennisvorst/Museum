@@ -108,6 +108,7 @@ class Article extends SingleItemPage{
 			$photo		= $photoObj->getThumbnail();
 		}
 		$colspan = 2;
+		$photoThumbnail = "";
 		if (!empty($photo)){
 			$colspan = 3;
 			$photoThumbnail = "
