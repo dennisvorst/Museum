@@ -5,7 +5,7 @@ ini_set('display_errors', 'On');  //On or Off
 
 require_once "SingleItemPage.php";
 require_once "CheckBox.php";
-//require_once "MysqlDatabase.php";
+require_once "VideoView.php";
 
 class Video extends SingleItemPage{
 	protected $_nmtable	= "videos";
@@ -14,8 +14,8 @@ class Video extends SingleItemPage{
 	var $width		= "200";
 
 
-	var $nmvideo;
-	var $nmurl;
+	protected $_nmvideo;
+	protected $_nmurl;
 
 	/* constructor */
 	function __construct(MysqlDatabase $db, Log $log)
@@ -30,50 +30,18 @@ class Video extends SingleItemPage{
 		}
 		$this->_id			= $this->ftrecord['idvideo'];
 
-		$this->nmvideo		= $this->ftrecord['nmvideo'];
-		$this->nmurl		= $this->ftrecord['nmurl'];
+		$this->_nmvideo		= $this->ftrecord['nmvideo'];
+		$this->_nmurl		= $this->ftrecord['nmurl'];
 		$this->is_featured		= $this->ftrecord['is_featured'];
 	}
 
 	function createThumbnail($nrsize = 3){
-		/* new photo class */
-		$photo = new Photo($this->_db, $this->_log);
-
-		$html = "<div class='col-xs-" . $nrsize . "'>\n";
-		$html .= "  <figure>\n";
-		$html .= "    <figcaption>\n";
-		$html .= "      <h4><a href='index.php?id=" . $this->getRecordId() . "&option=video'>" . $this->nmvideo . "</a></h4>\n";
-		$html .= "    </figcaption>\n";
-		$html .= "    <a href='index.php?id=" . $this->getRecordId() . "&option=video'>\n";
-		$html .= "      <img width='200'  src='" . $this->getYoutubeThumbnail($this->nmurl) . "'>\n";
-		$html .= "    </a>\n";
-		$html .= "  </figure>\n";
-		$html .= "</div>\n";
 
 		/** collect */
-		$id = $this->_id;
-		$videoName = $this->nmvideo;
-		$youTubeIdentifier = $this->nmurl;
-		$youTubeUrl = $this->getYoutubeThumbnail($youTubeIdentifier);
-		
+		$json = json_encode(["videoId" => $this->_id, "videoName" => $this->_nmvideo, "videoUrl" => $this->getYoutubeThumbnail($this->_nmurl)]);
+		$view = new VideoView($json);
+		return $view->showThumbnail();
 
-
-		/** create */
-		return "
-		<div class='card'>
-			<div class='container'>
-				<div class='row justify-content-center'>
-					<figure>
-						<figcaption>
-							<h4><a href='index.php?id={$id}&option=videos'>{$videoName}</a></h4>
-						</figcaption>
-						<a href='index.php?id={$id}&option=videos'>
-							<img width='200' src='{$youTubeUrl}'>
-						</a>
-					</figure>
-				</div>
-			</div>
-		</div>";
 
 	}
 
@@ -89,14 +57,9 @@ class Video extends SingleItemPage{
 		{
 			$this->processRecord();
 
-			$html = "<div class='container'>\n";
-			$html .= "  <div class='row'>\n";
-			$html .= "    <h1>" . $this->nmvideo . "</h1>\n";
-			$html .= "  </div>\n";
-			$html .= "  <div class='row'>\n";
-			$html .= "    <iframe width='420' height='315' src='http://www.youtube.com/embed/" . $this->nmurl . "' frameborder='0' allowfullscreen></iframe>\n";
-			$html .= "  </div>\n";
-			$html .= "</div>\n";
+			$json = json_encode(["videoId" => $this->_id, "videoName" => $this->_nmvideo, "videoUrl" => "http://www.youtube.com/embed/" . $this->_nmurl]);
+			$view = new VideoView($json);
+			$html = $view->show();
 		}
 		return $html;
 	}// getContent
