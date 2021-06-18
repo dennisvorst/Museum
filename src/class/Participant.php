@@ -67,7 +67,7 @@ class Participant extends SingleItemPage{
 			$ftcoaches	= [];
 			for ($i = 0; $i < count($rows);$i++){
 				$nm	= $rows[$i]['nmlast'] . ", " . $rows[$i]['nmfirst'] . (empty($rows[$i]['nmsur']) ? "" : " " . $rows[$i]['nmsur'] . " " ) . ($rows[$i]["hasdied"]? " (&#8224;)" : "");
-				$ftcoaches[$i]['nm']	= "<a href='index.php?nmclass=person&id=" . $rows[$i]['idperson'] . "'>" . $nm . "</a>";
+				$ftcoaches[$i]['nm']	= "<a href='index.php?option=person&id=" . $rows[$i]['idperson'] . "'>" . $nm . "</a>";
 				if (isset($rows[$i]['cdcountry'])){
 					$ftcoaches[$i]['cdcountry']	= "<img src='images/countries/" . $rows[$i]['cdcountry'] . ".png' > ";
 				} else {
@@ -83,7 +83,7 @@ class Participant extends SingleItemPage{
 			$ftplayers	= [];
 			for ($i = 0; $i < count($rows);$i++){
 				$nm	= $rows[$i]['nmlast'] . ", " . $rows[$i]['nmfirst'] . (empty($rows[$i]['nmsur']) ? "" : " " . $rows[$i]['nmsur'] . " " ) . ($rows[$i]["hasdied"]? " (&#8224;)" : "");
-				$ftplayers[$i]['nm']	= "<a href='index.php?nmclass=person&id=" . $rows[$i]['idperson'] . "'>" . $nm . "</a>";
+				$ftplayers[$i]['nm']	= "<a href='index.php?option=person&id=" . $rows[$i]['idperson'] . "'>" . $nm . "</a>";
 				if (isset($rows[$i]['cdcountry'])){
 					$ftplayers[$i]['cdcountry']	= "<img src='images/countries/" . $rows[$i]['cdcountry'] . ".png' width='50%'> ";
 				} else {

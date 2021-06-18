@@ -59,7 +59,7 @@ class HallOfFamers extends Persons{
 		
 		$src = $photo_obj->getPhotoName($person['idphotohof'], $photo_obj->getPhotoPath());
 		$person['idphoto']	= "<img src='" . $src . "' >";
-		$href = "index.php?nmclass=person&id=" . $person['idperson'] . "'";
+		$href = "index.php?option=person&id=" . $person['idperson'] . "'";
 
 		$html = "<div class='card' style='width: 18rem;'>
 		<img class='card-img-top' src='{$src}' alt='{$person['name']}'>

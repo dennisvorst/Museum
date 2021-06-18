@@ -31,7 +31,7 @@ class HtmlTabPage{
 	}
 
 
-	function getTab($nmclass, $list, $nmCurrentTab, $nrCurrentPage, $id) : string 
+	function getTab($option, $list, $nmCurrentTab, $nrCurrentPage, $id) : string 
 	{
 		/* pay attention cause this might hurt a little.
 		We have created an array with all the tabs for Clubs. Each class has a function that
@@ -47,7 +47,7 @@ class HtmlTabPage{
 		$html 		= "";
 
 		/* make sure the classname is uppercase only the first letter. */
-		$nmclass = ucfirst(strtolower($nmclass));
+		$option = ucfirst(strtolower($option));
 
 		/* process the array */
 		/* first retrieve all the content of the pages but only save the ones that have content */
@@ -61,10 +61,10 @@ class HtmlTabPage{
 			/* create a different content for the selected and the unselected tabs */
 			if (strtolower($nmCurrentTab) != strtolower($item)){
 				/* unselected */
-				$page = $nminstance->{"get" . $nmclass . $item}($id, $item, 1);
+				$page = $nminstance->{"get" . $option . $item}($id, $item, 1);
 			} else {
 				/* selected */
-				$page = $nminstance->{"get" . $nmclass . $item}($id, $nmCurrentTab, $nrCurrentPage);
+				$page = $nminstance->{"get" . $option . $item}($id, $nmCurrentTab, $nrCurrentPage);
 			}
 
 			if (!empty($page)){

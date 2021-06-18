@@ -13,7 +13,7 @@ class MenuBar{
 	static $nrfirst = 1;
 	static $nrlast = 0;
 	static $stripnumber;
-	static $nmclass;
+	static $option;
 	
 	protected $_db;
 	/* constructor */
@@ -55,7 +55,7 @@ class MenuBar{
 		if (empty(MenuBar::$stripnumber)){
 			MenuBar::$stripnumber = floor(array_search($nmvalue, $rows)/MenuBar::$nrcolumns) + 1;
 		}
-		MenuBar::$nmclass = $nmtable;
+		MenuBar::$option = $nmtable;
 
 		/* calculate the total number of batches */
 		MenuBar::$nrlast = ceil((count($rows) / MenuBar::$nrcolumns));
@@ -83,13 +83,13 @@ class MenuBar{
 		$buttons = [];
 		if (MenuBar::$stripnumber > 1){
 			/* create an array of key-value pairs */
-			$ftitems = ["nmclass" => $nmtable, $cdtype => $nmvalue, "nrcurrent"=> MenuBar::$nrfirst];
+			$ftitems = ["option" => $nmtable, $cdtype => $nmvalue, "nrcurrent"=> MenuBar::$nrfirst];
 			/* create the url for the FIRST (|<) button */
 			$fturl = $this->getUrl($ftitems);
 			$buttons[] = $this->getHyperlink($fturl, "|&lt;");
 
 			/* create an array of key-value pairs */
-			$ftitems = ["nmclass" => $nmtable, $cdtype => $nmvalue, "nrcurrent"=> $this->getPrevious()];
+			$ftitems = ["option" => $nmtable, $cdtype => $nmvalue, "nrcurrent"=> $this->getPrevious()];
 			/* create the url for the NEXT (<<) button */
 			$fturl = $this->getUrl($ftitems);
 			$buttons[] = $this->getHyperlink($fturl, "&lt;&lt;");
@@ -98,20 +98,20 @@ class MenuBar{
 		/** the menu buttons */
 		foreach ($items as $item)
 		{
-			$fturl = $this->getUrl(["nmclass" => $nmtable, $cdtype => $item]);
+			$fturl = $this->getUrl(["option" => $nmtable, $cdtype => $item]);
 			$buttons[] = $this->getHyperlink($fturl, $item, ($item == $nmvalue));
 		}
 
 		/* only display the next bracket if the current bracket is not the last one. */
 		if (MenuBar::$stripnumber < MenuBar::$nrlast){
 			/* create an array of key-value pairs */
-			$ftitems = ["nmclass"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> $this->getNext(MenuBar::$nrlast)];
+			$ftitems = ["option"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> $this->getNext(MenuBar::$nrlast)];
 			/* create the url for the NEXT (>>) button */
 			$fturl = $this->getUrl($ftitems);
 			$buttons[] = $this->getHyperlink($fturl, "&gt;&gt;");
 
 			/* create an array of key-value pairs */
-			$ftitems = ["nmclass"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> MenuBar::$nrlast];
+			$ftitems = ["option"=>$nmtable, $cdtype=>$nmvalue, "nrcurrent"=> MenuBar::$nrlast];
 			/* create the url for the Last (>|) button */
 			$fturl = $this->getUrl($ftitems);
 			$buttons[] = $this->getHyperlink($fturl, "&gt;|");

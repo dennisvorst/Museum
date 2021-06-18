@@ -8,7 +8,7 @@ class Videos extends ListPage{
 
 	protected $_nmtable 		= "videos";
 	protected $_nmsingle		= "video";
-	protected $_nmclass		= "Video";
+	protected $_option		= "Video";
 
 	protected $_searchFields 		= ["nmvideo", "ftdepicted"];
 	protected $_orderByFields 		= ["nmvideo"];

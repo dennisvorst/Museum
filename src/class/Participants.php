@@ -44,7 +44,7 @@ class Participants extends ListPage{
 
 		/* add additional stuff here */
 		for($i = 0; $i < count($this->_rows); $i++){
-			$this->_rows[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->_rows[$i]['idparticipant'] . ">" . $this->_rows[$i]['nmteam'] . "</a>\n";
+			$this->_rows[$i]['nmteam']	= "<a href=index.php?option=participant&id=" . $this->_rows[$i]['idparticipant'] . ">" . $this->_rows[$i]['nmteam'] . "</a>\n";
 			/* delete the idparticipant from the row. */
 			unset($this->_rows[$i]['idparticipant']);
 

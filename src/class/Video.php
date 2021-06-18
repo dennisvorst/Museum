@@ -42,9 +42,9 @@ class Video extends SingleItemPage{
 		$html = "<div class='col-xs-" . $nrsize . "'>\n";
 		$html .= "  <figure>\n";
 		$html .= "    <figcaption>\n";
-		$html .= "      <h4><a href='index.php?id=" . $this->getRecordId() . "&nmclass=video'>" . $this->nmvideo . "</a></h4>\n";
+		$html .= "      <h4><a href='index.php?id=" . $this->getRecordId() . "&option=video'>" . $this->nmvideo . "</a></h4>\n";
 		$html .= "    </figcaption>\n";
-		$html .= "    <a href='index.php?id=" . $this->getRecordId() . "&nmclass=video'>\n";
+		$html .= "    <a href='index.php?id=" . $this->getRecordId() . "&option=video'>\n";
 		$html .= "      <img width='200'  src='" . $this->getYoutubeThumbnail($this->nmurl) . "'>\n";
 		$html .= "    </a>\n";
 		$html .= "  </figure>\n";

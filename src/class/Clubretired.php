@@ -176,7 +176,7 @@ class Clubretired extends SingleItemPage{
         </table>
 
         <p>
-        <input type="hidden" name="nmclass" value="<?php echo strtolower(get_class($this))  ?>">
+        <input type="hidden" name="option" value="<?php echo strtolower(get_class($this))  ?>">
         <input type="hidden" name="nmparent" value="<?php echo $this->nmparent  ?>">
         <input type="hidden" name="nrfk" value="<?php echo $this->nrfk  ?>">
 

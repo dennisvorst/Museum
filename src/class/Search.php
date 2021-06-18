@@ -67,9 +67,9 @@ class Search{
 
 		foreach ($keys as $key){
 			$nmtable 	= $key;
-			$nmclass	= $tables[$key];
+			$option	= $tables[$key];
 
-			$nminstance = new $nmclass($this->_db, $this->_log);
+			$nminstance = new $option($this->_db, $this->_log);
 			$where  = $this->createWhere($nmtable, $nminstance->getSearchFields(), $search, "");
 
 			$sql = "SELECT * FROM {$nmtable} WHERE {$where}";

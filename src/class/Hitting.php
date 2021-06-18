@@ -1,5 +1,5 @@
 <?php
-/** todo: http://localhost/museum/src/index.php?id=467&nmclass=person has empty values for the 0's in the database
+/** todo: http://localhost/museum/src/index.php?id=467&option=person has empty values for the 0's in the database
  * http://localhost/phpmyadmin/tbl_select.php?db=museum&table=hitting 
  * 	SELECT * FROM `hitting` WHERE `idperson` = 467 
  */

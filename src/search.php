@@ -9,5 +9,5 @@ foreach ($keys as $key){
 }
 
 header('Content-Type: text/html; charset=utf-8');
-header('Location: index.php?nmclass=search&sql=' . $query . "&nmsearchtype=" . $nmsearchtype);
+header('Location: index.php?option=search&sql=' . $query . "&nmsearchtype=" . $nmsearchtype);
 ?>

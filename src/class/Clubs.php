@@ -8,7 +8,7 @@ class Clubs extends ListPage{
 	protected $_nmtitle			= "Clubs";
 	protected $_nmtable 			= "clubs";
 	protected $_nmsingle			= "club";
-	protected $_nmclass			= "Club";
+	protected $_option				= "Club";
 
 	protected $_searchFields 		= ["nmfull", "nmclub", "ftlocation", "ftfield", "ftaddress"];
 	protected $_orderByFields 		= ["nmfull"];

@@ -16,7 +16,7 @@ class ListPage extends MainPage{
 	protected $_nmtable;
 	protected $_nmsingle;
 
-	protected $_nmclass;
+	protected $_option;
 
 	protected $_searchFields	= ["ListPageContent"];
 	protected $_orderByFields;
@@ -160,7 +160,6 @@ class ListPage extends MainPage{
 		}
 
 		/* get the years from a tables */
-//		$rows = $this->getData("DISTINCT(nryear) as nryear", $nmtable, "", "nryear", "");
 		$sql = "SELECT DISTINCT(nryear) as nryear FROM {$nmtable} ORDER BY nryear";
 		$rows = $this->_db->select($sql);
 
@@ -179,7 +178,6 @@ class ListPage extends MainPage{
 		/* get the alphabet from a tables */
 		$letters = [];
 
-//        $rows = $this->getData("DISTINCT(UPPER(LEFT({$nmfield},1))) AS letter", $nmtable, "", $nmfield, "");
 		$sql = "SELECT DISTINCT(UPPER(LEFT({$nmfield},1))) AS letter FROM {$nmtable} ORDER BY {$nmfield}";
 		$rows = $this->_db->select($sql);
 
@@ -189,7 +187,7 @@ class ListPage extends MainPage{
 		return $letters;
 	}
 
-	function getTileList($fttiles, $nmclasstag = null){
+	function getTileList($fttiles){
 		if ($this->_debug){
 			$this->_log->write(__METHOD__ );
 		}
@@ -203,13 +201,7 @@ class ListPage extends MainPage{
 		$nrSize		= floor($nrMaxSize / $nrColumns);
 		$i = 0;
 
-		/* add an additional classtag if necessary and start the div */
-		if (!isset($nmclasstag)){
-			$html	= "<div class='container'>\n";
-		} else {
-			$html	= "<div class='container " . $nmclasstag . "'>\n";
-		}
-
+		$html	= "<div class='container'>\n";
 		$html	.= "<div class='row'>\n";
 
 		foreach ($fttiles as $fttile){
@@ -310,7 +302,7 @@ class ListPage extends MainPage{
 	/** todo - make prepare statement proof*/
 	function getMain($nmtab, $nrCurrentPage){
 		/* create an index page for the photos */
-		$nmclass = strtolower(get_class($this));
+		$option = strtolower(get_class($this));
 
 		/* get the menubar contents */
 		$ftmenubar = null;
@@ -319,7 +311,7 @@ class ListPage extends MainPage{
 		$values = [];
 
 		if (is_object($this->menuBar)){
-			if ($nmclass === "persons" || $nmclass === "clubs"){
+			if ($option === "persons" || $option === "clubs"){
 				$ftmenubar = $this->menuBar->getToolBar($this->_nmtable, ListPage::$nmalphabet, "nmalphabet", $this->alphabet);
 				$sql = "SELECT count(*) AS total FROM $this->_nmtable WHERE $this->nmAlphabetField LIKE ?";
 				$types = "s";
@@ -346,14 +338,14 @@ class ListPage extends MainPage{
 		/* check if it needs pagination */
 		$ftpagination = "";
 		if ($nrtotal > $this->nrRecordsOnPage){
-			$ftpagination = $this->addPagination($this->nrRecordsOnPage, $nmclass, null, null, $nrTotPages, $nrCurrentPage);
+			$ftpagination = $this->addPagination($this->nrRecordsOnPage, $option, null, null, $nrTotPages, $nrCurrentPage);
 		}
 
 		/* create an index page for the page */
 		$nrend = $nrCurrentPage * $this->nrRecordsOnPage;
 		$nrstart = $nrend - $this->nrRecordsOnPage;
 
-		if ($nmclass === "persons" || $nmclass === "clubs"){
+		if ($option === "persons" || $option === "clubs"){
 			/* fill $this->_rows */
 			$this->getRecords($this->_nmtable, $nrstart, $nrend);
 		} else {
@@ -401,7 +393,7 @@ class ListPage extends MainPage{
 		$fttiles = [];
 		$x = 0;
 		foreach ($this->_rows as $row){
-			$object = new $this->_nmclass($this->_db, $this->_log);
+			$object = new $this->_option($this->_db, $this->_log);
 			$object->setRecord($row);
 			$object->processRecord();
 			$fttiles[$x] = $object->createThumbnail();
@@ -411,7 +403,7 @@ class ListPage extends MainPage{
 	}
 
 
-	function addPagination($nrrows, $nmclass, $id, $nmtab, $nrTotPages, int $nrCurrentPage = 1){
+	function addPagination($nrrows, $option, $id, $nmtab, $nrTotPages, int $nrCurrentPage = 1){
 		/* add the pagination functionality to the tabpage */
 
 		/* init */
@@ -442,7 +434,7 @@ class ListPage extends MainPage{
 			}
 		}
 
-		$ftvariables = ['nmclass', 'nmparent', 'id', 'nmtab', 'nryear', 'nmalphabet'];
+		$ftvariables = ['option', 'nmparent', 'id', 'nmtab', 'nryear', 'nmalphabet'];
 		foreach ($ftvariables as $ftvariable){
 			if (isset(${$ftvariable}) && !empty(${$ftvariable})){
 				if (empty($fturl)){

@@ -94,12 +94,12 @@ class SingleItemPage extends MainPage{
 			$this->_log->write(__METHOD__);
 		}
 
-		$nmclass = strtolower(get_class($this));
+		$option = strtolower(get_class($this));
 		/* create a url using the name of the class and the id */
 		if (empty($this->_id)){
-			return "index.php?nmclass=" . $nmclass;
+			return "index.php?option=" . $option;
 		} else {
-			return "index.php?id=" . $this->_id . "&nmclass=" . $nmclass;
+			return "index.php?id=" . $this->_id . "&option=" . $option;
 		}
 	}
 
@@ -114,7 +114,7 @@ class SingleItemPage extends MainPage{
 		foreach ($ftsubentities as $subentity){
 			$nmmenu = $this->ftsubmenus[$subentity['table_name']];
 			if (!empty($nmmenu)){
-				$fthtml .= "<td><a href='index.php?nmclass=" . $subentity['table_name'] . "&nmparent=" . strtolower (get_class($this)) . "&nrfk=$this->_id'>$nmmenu</a></td>";
+				$fthtml .= "<td><a href='index.php?option=" . $subentity['table_name'] . "&nmparent=" . strtolower (get_class($this)) . "&nrfk=$this->_id'>$nmmenu</a></td>";
 			}
 		}
 		$fthtml .= "</tr></table>";

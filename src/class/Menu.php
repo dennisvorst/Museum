@@ -37,7 +37,7 @@ class Menu{
 
 		$html = "";
 		foreach ($items as $key => $value){
-			$href = "index.php?nmclass=" . $key;
+			$href = "index.php?option=" . $key;
 
 			$active = ""; 
 			if ($key === $class)

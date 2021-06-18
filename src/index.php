@@ -69,7 +69,7 @@ require_once "class/Videos.php";
 // *** Data Section
 //*********************************************************
 /* some init stuff just in case it is not set in the $_GET or $_POST */
-$nmclass = "home";
+$option = "home";
 $title = "Nederlands Honkbal en Softbal Museum";
 
 //$config = new MysqlConfig();
@@ -124,18 +124,18 @@ if (!isset($nmtab)){
 if (isset($nrcurrent)){
 	MenuBar::$stripnumber = $nrcurrent;
 }
-if (isset($nmclass)){
-	MenuBar::$nmclass = $nmclass;
+if (isset($option)){
+	MenuBar::$option = $option;
 }
 
 //*********************************************************
 // *** Object Section
 //*********************************************************
 $object = "";
-if (empty($nmclass)){
+if (empty($option)){
 	$object = new Home($db);
 } else {
-	$object = ucfirst($nmclass);
+	$object = ucfirst($option);
 	$object = new $object($db, $log);
 }
 ?>
@@ -202,7 +202,7 @@ if (empty($nmclass)){
                                 <!-- menu -->
     	                        <?php
         	                    $menu = new Menu();
-            	                echo $menu->getMainMenu($nmclass);
+            	                echo $menu->getMainMenu($option);
                     	        ?>
                             </div>
                             <div class="col-lg-6">

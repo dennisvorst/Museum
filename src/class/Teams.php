@@ -9,7 +9,7 @@ class Teams extends ListPage{
 	protected $_nmtitle			= "Teams";
 	protected $_nmtable 			= "teams";
 	protected $_nmsingle			= "team";
-	protected $_nmclass			= "Team";
+	protected $_option			= "Team";
 
 	protected $_searchFields 		= ["nmteam", "cdsport", "cdclass", "cdgender"];
 	protected $_orderByFields 		= ["nmteam", "cdsport", "cdclass", "cdgender"];
@@ -68,25 +68,25 @@ class Teams extends ListPage{
 		$query 	= $select . "AND t.cdsport = ? AND t.cdgender = ? ORDER BY c.nryear" ;
 		$this->ftmensbaseball	= $this->_db->select($query, "iss", [$id, 'HB', 'M']);
 		for($i = 0; $i < count($this->ftmensbaseball); $i++){
-			$this->ftmensbaseball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftmensbaseball[$i]['idparticipant'] . ">" . $this->ftmensbaseball[$i]['nmteam'] . "</a>\n";
+			$this->ftmensbaseball[$i]['nmteam']	= "<a href=index.php?option=participant&id=" . $this->ftmensbaseball[$i]['idparticipant'] . ">" . $this->ftmensbaseball[$i]['nmteam'] . "</a>\n";
 		}
 
 		$query 	= $select . "AND t.cdsport = ? AND t.cdgender = ? ORDER BY c.nryear" ;
 		$this->ftwomensbaseball	= $this->_db->select($query, "iss", [$id, 'HB', 'F']);
 		for($i = 0; $i < count($this->ftwomensbaseball); $i++){
-			$this->ftwomensbaseball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftwomensbaseball[$i]['idparticipant'] . ">" . $this->ftwomensbaseball[$i]['nmteam'] . "</a>\n";
+			$this->ftwomensbaseball[$i]['nmteam']	= "<a href=index.php?option=participant&id=" . $this->ftwomensbaseball[$i]['idparticipant'] . ">" . $this->ftwomensbaseball[$i]['nmteam'] . "</a>\n";
 		}
 
 		$query 	= $select . "AND t.cdsport = ? AND t.cdgender = ? ORDER BY c.nryear" ;
 		$this->ftmenssoftball	= $this->_db->select($query, "iss", [$id, 'SB', 'M']);
 		for($i = 0; $i < count($this->ftmenssoftball); $i++){
-			$this->ftmenssoftball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftmenssoftball[$i]['idparticipant'] . ">" . $this->ftmenssoftball[$i]['nmteam'] . "</a>\n";
+			$this->ftmenssoftball[$i]['nmteam']	= "<a href=index.php?option=participant&id=" . $this->ftmenssoftball[$i]['idparticipant'] . ">" . $this->ftmenssoftball[$i]['nmteam'] . "</a>\n";
 		}
 
 		$query 	= $select . "AND t.cdsport = ? AND t.cdgender = ? ORDER BY c.nryear" ;
 		$this->ftwomenssoftball	= $this->_db->select($query, "iss", [$id, 'SB', 'F']);
 		for($i = 0; $i < count($this->ftwomenssoftball); $i++){
-			$this->ftwomenssoftball[$i]['nmteam']	= "<a href=index.php?nmclass=participant&id=" . $this->ftwomenssoftball[$i]['idparticipant'] . ">" . $this->ftwomenssoftball[$i]['nmteam'] . "</a>\n";
+			$this->ftwomenssoftball[$i]['nmteam']	= "<a href=index.php?option=participant&id=" . $this->ftwomenssoftball[$i]['idparticipant'] . ">" . $this->ftwomenssoftball[$i]['nmteam'] . "</a>\n";
 		}
 
 		return $this->getTabPage("club", $id, "Teams", $nrCurrentPage, $nrTotPages);
