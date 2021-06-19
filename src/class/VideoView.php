@@ -3,7 +3,9 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-class VideoView{
+require_once "iView.php";
+
+class VideoView implements iView{
 	/* constructor */
 	protected $_id;
 	protected $_videoUrl;
@@ -25,7 +27,7 @@ class VideoView{
 		
 	}
 
-	function showThumbnail()
+	function showThumbnail() : string
 	{
 		/** create */
 		return "
@@ -46,7 +48,7 @@ class VideoView{
 
 	}
 
-	function show()
+	function show() : string
 	{
 		/* get the video */
 		return "

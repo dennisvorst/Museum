@@ -8,8 +8,7 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 require_once "CheckBox.php";
 require_once "SingleItemPage.php";
-//require_once "MysqlDatabase.php";
-//require_once "Log.php";
+require_once "PhotoView.php";
 
 class Photo extends SingleItemPage{
 	protected $_nmtable		= "photos";
@@ -43,6 +42,8 @@ class Photo extends SingleItemPage{
 	var $nrheight;
 	var $nmfile;
 	var $ftalignment = "";
+
+	protected $_sourceUrl;
 
 	/* constructor */
 	function __construct(MysqlDatabase $db, Log $log){
@@ -80,26 +81,13 @@ class Photo extends SingleItemPage{
 			$this->_log->write(__METHOD__ );
 		}
 
-		/* create a thumbnail as part of a collection of records. */
-		$image = $this->getThumbnail();
-		$id = $this->_id;
+		$json['photoId']	= $this->_id;
+		$json['photoUrl']	= $this->getUrl(["option"=>"photos", "id" => $this->_id]);
+		$json['photoImage'] = $this->getThumbnail();
 
-		// $html = "<div class='col-xs-" . $nrsize . "'>\n";
-		// $html .= "<a href='" . $this->getUrl() . "'>$image</a>\n";
-		// $html .= "</div>\n";
-
-		// return $html;
-
-		return "
-		<div class='card'>
-			<div class='container'>
-				<div class='row justify-content-center'>
-					<a href='{$this->getUrl(["option"=>"photos", "id" => $id])}'>$image</a>
-				</div>
-			</div>
-		</div>
-		";
-
+		$json = json_encode($json);
+		$view = new PhotoView($json);
+		return $view->showThumbnail();
 	}//createThumbnail
 
 	function getContent($nmCurrentTab, $nrCurrentPage) : string
@@ -116,13 +104,30 @@ class Photo extends SingleItemPage{
 
 			$this->processRecord();
 
-			/* create the photo */
+			/* get the properties */
 			$photo = $this->createImage();
 
 			/* get the source information */
 			$sourceObj	= new Source($this->_db, $this->_log);
 			$sourceObj->setId($this->idsource);
+			
+			/** accessing the new view class */
+			$json['photoId']	= $this->_id;
+			$json['photoUrl']	= $this->nmfile;
+			$json['photoImage'] = $this->nmfile;
 
+			$json['width'] = $this->nrwidth;
+			$json['height'] = $this->nrheight;
+			$json['width'] = $this->nrwidth;
+			$json['subscript'] = $this->ftdescription;
+			$json['sourceUrl'] = $this->_sourceUrl;
+			$json['alignment'] = $this->ftalignment;
+			
+			$json = json_encode($json);
+			$view = new PhotoView($json);
+			$photo = $view->show();
+
+			
 			$html = "<table>\n";
 			$html .= "  <tr>" . Social::addShareButtons($this->getUrl()) . "</tr>\n";
 			$html .= "  <tr>\n";
@@ -133,74 +138,6 @@ class Photo extends SingleItemPage{
 		return $html;
 	}// getIndexPage
 
-	function getMenu(){
-		if ($this->_debug){
-			$this->_log->write(__METHOD__ );
-		}
-
-		/* needs to be overriden */
-		$this->getPersons();
-		$this->getClubs();
-		$this->getArticles();
-
-		$html = "";
-		if (count($this->persons) > 0){
-			$html .= "<div>\n";
-			$html .= "  <div>\n";
-			$html .= "    <h3>Personen</h3>\n";
-			$html .= "  </div>\n";
-			$html .= "  <div>\n";
-
-			for ($x=0; $x<count($this->persons); $x++){
-				$html .=  $this->persons[$x]->getNameWithUrl() . "<br>\n";
-			}
-
-			$html .= "  </div>\n";
-			$html .= "</div>\n";
-
-		} // endif (count($this->persons > 0)){
-
-		if (count($this->clubs) > 0){
-			$html .= "<div>\n";
-			$html .= "  <div>\n";
-			$html .= "    <h3>Clubs</h3>\n";
-			$html .= "  </div>\n";
-			$html .= "  <div>\n";
-
-			for ($x=0; $x<count($this->clubs); $x++){
-				$html .= $this->clubs[$x]->getNameWithUrl() . "<br>\n";;
-			}
-
-			$html .= "  </div>\n";
-			$html .= "</div>\n";
-		}
-
-		if (count($this->competitions) > 0){
-			$html .= "<div>\n";
-			$html .= "  <div>\n";
-			$html .= "    <h3>Competities</h3>\n";
-			$html .= "  </div>\n";
-			$html .= "  <div>\n";
-			$html .= "  </div>\n";
-			$html .= "</div>\n";
-		}
-
-		/* articles */
-		if (count($this->articles) > 0){
-			$html .= "<div>\n";
-			$html .= "  <div>\n";
-			$html .= "    <h3>Artikelen</h3>\n";
-			$html .= "  </div>\n";
-			$html .= "  <div>\n";
-
-			for ($x=0; $x<count($this->articles); $x++){
-				echo $this->articles[$x]->getNameWithUrl() . "<br>";
-			}
-
-			$html .= "  </div>\n";
-			$html .= "</div>\n";
-		}
-	}//getMenu
 
 	function getThumbnail(){
 		if ($this->_debug){
@@ -256,17 +193,6 @@ class Photo extends SingleItemPage{
 		return;
 	}
 
-	function createSmallImage(){
-		if ($this->_debug){
-			$this->_log->write(__METHOD__ );
-		}
-
-		$this->maxWidth		= 200;
-		$this->maxHeight	= 200;
-
-		return $this->createImage();
-	}
-
 	function createMediumImage(){
 		if ($this->_debug){
 			$this->_log->write(__METHOD__ );
@@ -275,19 +201,27 @@ class Photo extends SingleItemPage{
 		$this->maxWidth		= 400;
 		$this->maxHeight	= 400;
 
-		return $this->createImage();
+		/** get the properties */
+		$this->createImage();
+
+		/** accessing the new view class */
+		$json['photoId']	= $this->_id;
+		$json['photoUrl']	= $this->nmfile;
+		$json['photoImage'] = $this->nmfile;
+
+		$json['width'] = $this->nrwidth;
+		$json['height'] = $this->nrheight;
+		$json['width'] = $this->nrwidth;
+		$json['subscript'] = $this->ftdescription;
+		$json['sourceUrl'] = $this->_sourceUrl;
+		$json['alignment'] = $this->ftalignment;
+		
+		$json = json_encode($json);
+		$view = new PhotoView($json);
+		$photo = $view->show();
+		
 	}
 
-	function createLargeImage(){
-		if ($this->_debug){
-			$this->_log->write(__METHOD__ );
-		}
-
-		$this->maxWidth		= 600;
-		$this->maxHeight	= 600;
-
-		return $this->createImage();
-	}
 
 	function createImage(){
 		if ($this->_debug){
@@ -317,28 +251,16 @@ class Photo extends SingleItemPage{
 				$nrheight = $this->maxHeight;
 			}
 		}
-		if ($this->_debug){
-			$this->_log->write("-> nmfile " . $this->nmfile);
-			$this->_log->write("-> nrwidth " . $nrwidth);
-			$this->_log->write("-> nrheight " . $nrheight);
-		}
 
 		/** create the URL and return it **/
 		$sourceObj = new Source($this->_db, $this->_log);
 		$sourceObj->withId($this->idsource);
 
-		$ftsourceUrl = $sourceObj->getSourceUrl();
-		return $this->createUrl($nrwidth, $nrheight, $this->nmfile, $this->ftdescription, $ftsourceUrl, $this->ftalignment);
+		$this->_sourceUrl = $sourceObj->getSourceUrl();
+		$this->nrwidth = $nrwidth;
+		$this->nrheight = $nrheight;
 	}
 
-	function createUrl($nrwidth, $nrheight, $nmimage, $ftsubscript, $ftsource, $ftalignment){
-        $html = "<div class='container photo photo-$ftalignment'>\n";
-		$html .= "<div class='image'><img src='" . $nmimage . "' width='" . $nrwidth . "' height='" . $nrheight . "'></div>\n";
-		$html .= "<div class='subscript'>" . $ftsubscript . " <b>(Foto: $ftsource)</b></div>\n";
-		$html .= "</div>\n";
-
-		return $html;
-	}
 
 	function setAlignment($x){
 		if ($this->_debug){
