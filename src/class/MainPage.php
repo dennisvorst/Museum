@@ -36,11 +36,5 @@ class MainPage{
 		}
 	}
 
-	function getMenu(){
-		/* fill the right side of the page with easy accessible menu items */
-		if ($this->_debug){
-			$this->_log->write(__METHOD__);
-		}
-	}
 }
 ?>

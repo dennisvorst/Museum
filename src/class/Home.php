@@ -47,8 +47,6 @@ class Home extends ListPage{
 		echo "<p>" . phpinfo() . "</p>";
 	}
 
-	function getMenu(){}
-
 	function getContent($nmCurrentTab, $nrCurrentPage) : string
 	{
 		/* create the main page content for the homepage */

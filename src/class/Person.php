@@ -120,36 +120,6 @@ class Person extends SingleItemPage{
 		return $html;
 	}// getContent
 
-	function getMenu(){
-		/* needs to be overriden */
-		$html = "";
-		return $html;
-
-		$html .= "<div>\n";
-		$html .= "<div>\n";
-		$html .= "<h3>Personen</h3>\n";
-		$html .= "</div>\n";
-		$html .= "<div>\n";
-		$html .= "</div>\n";
-		$html .= "</div>\n";
-		$html .= "<div>\n";
-		$html .= "<div>\n";
-		$html .= "<h3>Clubs</h3>\n";
-		$html .= "</div>\n";
-		$html .= "<div>\n";
-		$html .= "</div>\n";
-		$html .= "</div>\n";
-		$html .= "<div>\n";
-		$html .= "<div>\n";
-		$html .= "<h3>Competities</h3>\n";
-		$html .= "</div>\n";
-		$html .= "<div>\n";
-		$html .= "</div>\n";
-		$html .= "</div>\n";
-
-		return $html;
-
-	}//getMenu
 
 	function createThumbnail(){
 		/* get the thumbnail of the person */

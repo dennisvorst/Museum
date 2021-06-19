@@ -64,26 +64,6 @@ class Video extends SingleItemPage{
 		return $html;
 	}// getContent
 
-	function getMenu(){
-		/* needs to be overriden */
-		?>
-            <div>
-                <div>
-                    <h3 class="t">Personen</h3>
-                </div>
-            </div>
-			<div>
-		        <div>
-        		    <h3 class="t">Clubs</h3>
-		        </div>
-            </div>
-			<div>
-		        <div>
-        		    <h3 class="t">Competities</h3>
-		        </div>
-            </div>
-        <?php
-	}//getMenu
 
 	function getSubtitle($fttitle){
 		/* check if the string is filled if so return HTML else emptty string */

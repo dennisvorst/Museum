@@ -236,58 +236,6 @@ class Article extends SingleItemPage{
 		return $html;
 	}// getIndexPage
 
-	function getMenu(){
-		if ($this->_debug){
-			$this->_log->write(__METHOD__ );
-		}
-
-		/* needs to be overriden */
-		$html = "";
-
-		$this->getPersons();
-		$this->getClubs();
-
-
-		if (count($this->persons) > 0){
-			$html .= "<div>\n";
-			$html .= "<div>\n";
-			$html .= "<h3>Personen</h3>\n";
-			$html .= "</div>\n";
-			$html .= "<div>\n";
-
-			for ($x=0; $x<count($this->persons); $x++){
-				$html .= $this->persons[$x]->getNameWithUrl() . "<br>";
-			}
-			$html .= "</div>\n";
-			$html .= "</div>\n";
-
-		} // endif (count($this->persons > 0)){
-
-		if (count($this->clubs) > 0){
-			$html .= "<div>\n";
-			$html .= "<div>\n";
-			$html .= "<h3>Clubs</h3>\n";
-			$html .= "</div>\n";
-			$html .= "<div>\n";
-
-			for ($x=0; $x<count($this->clubs); $x++){
-				$html .= $this->clubs[$x]->getNameWithUrl() . "<br>";
-			}
-			$html .= "</div>\n";
-			$html .= "</div>\n";
-		}
-
-		if (count($this->competitions) > 0){
-			$html .= "<div>\n";
-			$html .= "<div>\n";
-			$html .= "<h3>Competities</h3>\n";
-			$html .= "</div>\n";
-			$html .= "<div>\n";
-			$html .= "</div>\n";
-			$html .= "</div>\n";
-		}
-		return $html;
-	}//getMenu
 
 	function getArticleTitle($fttitle, $ftheading){
 		if ($this->_debug){
