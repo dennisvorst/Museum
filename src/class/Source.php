@@ -1,6 +1,5 @@
 <?php
 require_once "SingleItemPage.php";
-//require_once "MysqlDatabase.php";
 
 class Source extends SingleItemPage{
 	protected $_nmtable	= "sources";
