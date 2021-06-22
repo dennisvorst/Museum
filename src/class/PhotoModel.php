@@ -41,30 +41,27 @@ class PhotoModel implements iModel{
 		$this->_is_featured		= $row['is_featured'];
 
 	}
-    function getThumbnailData() : string
+
+	function getThumbnailData() : string
 	{
-		$json['photoId']	= $this->_id;
-		$json['photoUrl']	= $this->getUrl(["option"=>"photos", "id" => $this->_id]);
-		$json['photoImage'] = $this->getThumbnail();
-
-		return json_encode($json);
-		$colspan = 2;
-		$photoThumbnail = "";
-		if (!empty($photo)){
-			$colspan = 3;
-			$photoThumbnail = "
-				<div class='col-sm-3'>
-					{$photo}
-				</div>";
-		}
-
-
-
+		return json_encode($this->getDataArray());
 	}
 
 	function getPageData() : string
 	{
+		return json_encode($this->getDataArray());
+	}
 
+
+	function getDataArray()
+	{
+		$json['id']	= $this->_id;
+		$json['url']	= $this->_getUrl(["option"=>"photos", "id" => $this->_id]);
+		$json['image'] = $this->_id . ".jpg";
+		$json['subscript'] = $this->_ftdescription;
+
+		$json['source']['id'] = $this->_idsource;
+		return $json;
 	}
 
 	protected function _getUrl(array $items)

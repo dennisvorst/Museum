@@ -4,11 +4,10 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
 require_once "iView.php";
+require_once "Media.php";
 
-class PhotoView implements iView
+class PhotoView extends Media implements iView
 {
-	/* constructor */
-
 	protected $_id; 
 	protected $_url;
 	protected $_image;
@@ -21,17 +20,19 @@ class PhotoView implements iView
 
 	function __construct(string $json)
 	{
+		parent::__construct();
+
 		if (empty($json)) 
 		{
-			throw new exception("Video is mandatory");
+			throw new exception("Photo is mandatory");
 		}
 
 		/** create the object */
 		$object = json_decode($json);
 	
-		$this->_id = $object->photoId;
-		$this->_url = $object->photoUrl;
-		$this->_image = $object->photoImage;
+		$this->_id = $object->id;
+		$this->_url = $object->url;
+		$this->_image = $object->image;
 
 		/** optional values */
 		$this->_alignment = (property_exists($object, "alignment") ? $object->alignment : null);

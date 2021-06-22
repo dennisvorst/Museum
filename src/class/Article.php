@@ -8,8 +8,10 @@ require_once "Photo.php";
 require_once "Source.php";
 require_once "CheckBox.php";
 require_once "SingleItemPage.php";
-//require_once "MysqlDatabase.php";
-//require_once "Log.php";
+
+require_once "ArticleView.php";
+require_once "PhotoModel.php";
+
 
 class Article extends SingleItemPage{
 	protected $_nmtitle	= "Artikelen";
@@ -28,7 +30,9 @@ class Article extends SingleItemPage{
 	var $fttitle2;
 	var $fttitle3;
 	var $cdsport;
+
 	protected $_articleText;
+
 	var $nrparagraphs;
 
 	var $thumbTextLength = 380; //200;
@@ -91,7 +95,7 @@ class Article extends SingleItemPage{
 
 		if (strlen($articleText) > $this->thumbTextLength){
 			$articleText	= substr($articleText, 0, $this->thumbTextLength);
-			$position	= strrpos($articleText, " ");
+			$position		= strrpos($articleText, " ");
 			$articleText	= substr($articleText, 0, $position + 1);
 		}
 
@@ -99,88 +103,42 @@ class Article extends SingleItemPage{
 		$dateObj	= new Date();
 		$publishDate	= $dateObj->translateDate($this->dtpublish, "W");
 
+		$colSize = (empty($photo) ? "col-lg-12" : "col-lg-9");
+
+		$json['article']['id'] = $this->_id;
+		$json['article']['mainTitle'] = $mainTitle;
+		$json['article']['publishDate'] = $publishDate;
+		$json['article']['authorName'] = $authorName;
+		$json['article']['text'] = $articleText;
+
 		/* look for a photo */
-		$photoObj	= new Photo($this->_db, $this->_log);
-		$photoObj->setIdByArticle($this->_id);
+		$json['photos'] = $this->getPhotoCollection($this->_id);
 
-		$photo = [];
-		if (!is_null($photoObj->getRecordId())) {
-			$photo		= $photoObj->getThumbnail();
-		}
-		$colspan = 2;
-		$photoThumbnail = "";
-		if (!empty($photo)){
-			$colspan = 3;
-			$photoThumbnail = "
-				<div class='col-sm-3'>
-					{$photo}
-				</div>";
-		}
+		$json = json_encode($json);
 
-		$colSize = (empty($photoThumbnail) ? "col-lg-12" : "col-lg-9");
-
-  		/* create the return string */
-		return "
-		<div class='card'>
-			<div class='container'>
-				<!-- title row -->
-				<div class='row'>
-					<b>{$mainTitle}</b>
-				</div>
-				<!-- row with two columns one for picture one for text -->
-				<div class='row'>
-					<!-- column for photo -->
-					{$photoThumbnail}
-					<div class='{$colSize}'>
-						<!-- date and author -->
-						<div class='row'>
-							<div class='col'>
-							{$publishDate}
-							</div>
-							<div class='col'>
-							{$authorName}
-							</div>
-						</div>
-						<!-- row for the article -->
-						<div class='row'>
-						{$articleText} {$this->getReadMoreButton()}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		";
-
-
-		/* create the return string */
-		$html = "<table width=\"100%\">\n";
-		$html .= "<tr>\n";
-
-		$html .= "<td colspan='$colspan'><q>$this->fttitle1</q></td>\n";
-		$html .= "</tr>\n";
-		$html .= "<tr>\n";
-		/*if there is a photo insert it*/
-		if (!empty($photo)){
-			$html .= "<td rowspan='3'>$photo</td>\n";
-		}
-		$html .= "<td width='50%'>$dtpublish</td>\n";
-		$html .= "<td width='50%' align='right'>$this->nmauthor</td>\n";
-		$html .= "</tr>\n";
-		$html .= "<tr>\n";
-		$html .= "<td colspan='2'>$ftarticle<a href='" . $this->getUrl() . "'>Lees meer</a></td>\n";
-		$html .= "</tr>\n";
-		$html .= "</table>\n";
-
-		return $html;
+		$view = new ArticleView($json);
+		return $view->showThumbnail();
 	}
 
-	var $_photoCollection;
+	protected $_photoCollection;
 	function getPhotoCollection(int $id) : array
 	{
 		if ($this->_debug){
 			$this->_log->write(__METHOD__ );
 		}
 
+		/* set the photo is based on the newspaper article id */
+		$this->_photoCollection = [];
+
+		$sql	= "SELECT p.* FROM articlephotos ap, photos p WHERE ap.idarticle = ? AND ap.idphoto = p.idphoto";
+		$rows	= $this->_db->select($sql, "i", [$id]);
+		if (!empty($rows)){
+			foreach($rows as $row)
+			{
+				$photo = new PhotoModel($row);
+				$this->_photoCollection[] = $photo->getDataArray();
+			}
+		}
 		return $this->_photoCollection;
 	}
 
@@ -201,37 +159,30 @@ class Article extends SingleItemPage{
 			$sourceLogo	= $sourceObj->getArticleLogo($this->_id);
 	
 			/* translate the date */
-			$dateObj	= new Date();
-			$dtpublish	= $dateObj->translateDate($this->dtpublish, "W");
+			$dateObj		= new Date();
+			$publishDate	= $dateObj->translateDate($this->dtpublish, "W");
 	
 			/* get the photos */
-			$this->photosObj = new Photos($this->_db, $this->_log);
-			$this->photosObj->getArticlePhotos($this->_id);
+//			$this->photosObj = new Photos($this->_db, $this->_log);
+//			$this->photosObj->getArticlePhotos($this->_id);
 	
 			/* create the article and add the photos */
-			$ftarticle	= $this->getArticle();
-
 			$media = Social::addShareButtons($this->getUrl());
-			$html = "<div class='container'>
-						<div class='row'>
-							<img border='0' src='" . $sourceLogo . "'>
-						</div>
-						<div class='row'>
-							<div class='col-sm'>{$this->nmauthor}</div>
-							<div class='col-sm'><span class='pull-right'>{$dtpublish}</span></div>
-						</div>
-						<!-- Title 1-->
-						<div class='row'>{$this->getArticleTitle($this->fttitle1, "h1")}</div>
-						<!-- Title 2-->
-						<div class='row'>{$this->getArticleTitle($this->fttitle2, "h2")}</div>
-						<!-- Title 3-->
-						<div class='row'>{$this->getArticleTitle($this->fttitle3, "h2")}</div>
-						<!-- social media -->
-						<div class='row'>{$media}</div>
 
-						<!-- article -->
-						<div class='row'>{$ftarticle}</div>
-					</div>";
+			/** MVC implementation */
+			$json['article']['id'] = $this->_id;
+			$json['article']['mainTitle'] = $this->fttitle1;
+			$json['article']['publishDate'] = $publishDate;
+			$json['article']['authorName'] = $this->nmauthor;
+			$json['article']['text'] = $this->ftarticle; // $this->getArticle();
+			$json['article']['source']['logo'] = $sourceLogo;
+
+			$json['photos'] = $this->getPhotoCollection($this->_id);
+
+			$json = json_encode($json);
+	
+			$view = new ArticleView($json);
+			$html = $view->show();
 		}
 		return $html;
 	}// getIndexPage
@@ -249,113 +200,6 @@ class Article extends SingleItemPage{
 			return "<div class='title'><" . $ftheading . ">" . $fttitle . "</" . $ftheading . "></div>\n";
 		}
 	}//getArticleTitle
-
-	function getNumberParagraphs($ftarticle){
-		if ($this->_debug){
-			$this->_log->write(__METHOD__ );
-		}
-
-		/* calculate the number of large +300 characters paragraphs and the number of photos */
-		/* turn it into an array */
-
-		$nrparagraphs	= 0;
-		$ftarticle		= $this->getArrayOfParagraphs($ftarticle);
-
-		for ($x=0; $x<count($ftarticle); $x++){
-			if (strlen($ftarticle[$x]) > $this->nrMinParagraphLength){
-				$nrparagraphs++;
-			}
-		}// endfor
-		return $nrparagraphs;
-	}//getNumberParagraphs
-
-	function getArticle(){
-		if ($this->_debug){
-			$this->_log->write(__METHOD__ );
-		}
-		/* create the articles
-		- no pictures - just return the article
-		- 1 photo use it at the start of the
-		- more than 1 photo distibute them evenly over the paragraphs
-		- if there are more photos than paragraphs there is an issue
-
-		*/
-		/**************
-		gather the data
-		***************/
-		$photos			= $this->photosObj->getPhotos();
-		$nrphotos		= count($photos);
-		$ftparagraphs 	= $this->getArrayOfParagraphs($this->ftarticle);
-		$nrparagraphs	= (empty($ftparagraphs) ? 0 : count($ftparagraphs)) ;
-		/* if the array is not an arry. make it an array */
-		if (!is_array($ftparagraphs)){
-			$ftparagraphs = [$ftparagraphs];
-		}
-
-		$nrParagraphsInBetween = 0;
-		if ($nrphotos > 0){
-			$nrParagraphsInBetween = round($nrparagraphs/$nrphotos);
-		}
-
-		/***********************
-		display the information
-		************************/
-		/* create the article */
-		$ftarticle		= "";
-		$nrcurrentphoto = 0;
-
-		for ($x = 0; $x < count($ftparagraphs); $x++){
-			/* process the photo stuff */
-
-			/* if there are photos and we are not done processing */
-			if ($nrphotos > 0 and ($x===0 or $nrcurrentphoto == ($x/$nrParagraphsInBetween))){
-				/* add the photo to the article */
-				/* but only if there are still photos */
-				if ($nrcurrentphoto < count($photos)){
-					$photos[$nrcurrentphoto]->setAlignment($nrcurrentphoto);
-					$ftarticle .= $photos[$nrcurrentphoto]->createMediumImage();
-					$nrcurrentphoto++;
-				}
-			}
-
-			/* process the article stuff */
-			if (strlen($ftparagraphs[$x]) === 0)
-			{
-				$ftarticle .= "<br><br>";
-			}
-			elseif ($x === 0 or strlen($ftparagraphs[$x])<= 25)
-			{
-				/* add the first picture and make the first paragraph bold */
-				$ftarticle .= "<p><b>" . $ftparagraphs[$x] . "</b></p><br>";
-			} 
-			else
-			{
-				$ftarticle .= "<p>" . $ftparagraphs[$x] . "</p><br>";
-			}
-
-		}//endfor
-		return $ftarticle;
-
-
-	}//getArticle
-
-	function getArrayOfParagraphs($ftarticle) : array 
-	{
-		if ($this->_debug){
-			$this->_log->write(__METHOD__ );
-		}
-
-		/* create an array of paragraphs from a string */
-		/* first look for an eol character */
-		if (strpos($ftarticle, chr(10)) > 0){
-			/* turn it into an array */
-			$ftarticle = explode(chr(10), $ftarticle);
-		} else {
-			/** there are no eol characters in the string, still we need to return an array */
-			$ftarticle = [$ftarticle];
-		}
-		return $ftarticle;
-	}
 
 	function getPersons(){
 		if ($this->_debug){
@@ -401,39 +245,5 @@ class Article extends SingleItemPage{
 
 		return "<a href='". $this->getUrl() . "'>" . $this->fttitle1 . "</a>";
 	}
-
-	/******************
-	Labels
-	*******************/
-	function getLabels (){
-		if ($this->_debug){
-			$this->_log->write(__METHOD__ );
-		}
-
-		$ftlabels["idarticle"]	= "";
-		$ftlabels["idsource"]	= "Bron";
-		$ftlabels["nryear"]		= "Jaar";
-		$ftlabels["dtpublish"]	= "Datum van publicatie";
-		$ftlabels["nmauthor"]	= "Auteur";
-		$ftlabels["fttitle1"]	= "Title";
-		$ftlabels["fttitle2"]	= "Subtitle";
-		$ftlabels["fttitle3"]	= "Bijschrift";
-		$ftlabels["cdsport"]		= "Type";
-		$ftlabels["ftarticle"]	= "Artikel";
-
-		$ftlabels = parent::getGenericLabels($ftlabels);
-
-		return $ftlabels;
-	}
-
-	/******************
-	Editable fields
-	*******************/
-
-	function getReadMoreButton() : string
-	{
-		return "<a href='" . $this->getUrl(["option"=>"articles", "id" => $this->_id]) . "'>Lees meer</a>";
-	}
-
 }
 ?>

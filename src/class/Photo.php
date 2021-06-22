@@ -72,7 +72,7 @@ class Photo extends SingleItemPage{
 		$this->idteamphoto		= $this->ftrecord['idteamphoto'];
 		$this->ftdepicted		= $this->ftrecord['ftdepicted'];
 		$this->ftdescription	= $this->ftrecord['ftdescription'];
-		$this->is_featured			= $this->ftrecord['is_featured'];
+		$this->is_featured		= $this->ftrecord['is_featured'];
 	}
 
 	
@@ -81,14 +81,22 @@ class Photo extends SingleItemPage{
 			$this->_log->write(__METHOD__ );
 		}
 
-		$json['photoId']	= $this->_id;
-		$json['photoUrl']	= $this->getUrl(["option"=>"photos", "id" => $this->_id]);
-		$json['photoImage'] = $this->getThumbnail();
+		// todo implement PhotoModel->getThumbnailData();
+		// todo remove photo from properties
+		$json['id']	= $this->_id;
+		$json['url']	= $this->getUrl(["option"=>"photos", "id" => $this->_id]);
+		$json['image'] = $this->getThumbnail();
 
 		$json = json_encode($json);
 		$view = new PhotoView($json);
 		return $view->showThumbnail();
 	}//createThumbnail
+
+	function getSourceRecord(int $idsource)
+	{
+		
+
+	}
 
 	function getContent($nmCurrentTab, $nrCurrentPage) : string
 	{
@@ -108,19 +116,26 @@ class Photo extends SingleItemPage{
 			$photo = $this->createImage();
 
 			/* get the source information */
-			$sourceObj	= new Source($this->_db, $this->_log);
-			$sourceObj->setId($this->idsource);
+			// $sourceObj	= new Source($this->_db, $this->_log);
+			// $sourceObj->setId($this->idsource);
 			
-			/** accessing the new view class */
-			$json['photoId']	= $this->_id;
-			$json['photoUrl']	= $this->nmfile;
-			$json['photoImage'] = $this->nmfile;
 
-			$json['width'] = $this->nrwidth;
-			$json['height'] = $this->nrheight;
-			$json['width'] = $this->nrwidth;
-			$json['subscript'] = $this->ftdescription;
-			$json['sourceUrl'] = $this->_sourceUrl;
+			/** accessing the new view class */
+			$photo = [];
+			$photo['id']	= $this->_id;
+			$photo['url']	= $this->nmfile;
+			$photo['image'] = $this->nmfile;
+			$photo['width'] = $this->nrwidth;
+			$photo['height'] = $this->nrheight;
+			$photo['subscript'] = $this->ftdescription;
+
+			$source = [];
+			$source['url'] = $this->_sourceUrl;
+
+			$photo['source'] = $source;
+
+			$json['photo'] = $photo;
+
 			$json['alignment'] = $this->ftalignment;
 			
 			$json = json_encode($json);
@@ -205,9 +220,9 @@ class Photo extends SingleItemPage{
 		$this->createImage();
 
 		/** accessing the new view class */
-		$json['photoId']	= $this->_id;
-		$json['photoUrl']	= $this->nmfile;
-		$json['photoImage'] = $this->nmfile;
+		$json['id']	= $this->_id;
+		$json['url']	= $this->nmfile;
+		$json['image'] = $this->nmfile;
 
 		$json['width'] = $this->nrwidth;
 		$json['height'] = $this->nrheight;
@@ -275,18 +290,19 @@ class Photo extends SingleItemPage{
 		}
 	}//setAlignment
 
-	function setIdByArticle($idarticle){
-		if ($this->_debug){
-			$this->_log->write(__METHOD__ );
-		}
+	// function setIdByArticle($idarticle){
+	// 	if ($this->_debug){
+	// 		$this->_log->write(__METHOD__ );
+	// 	}
 
-		/* set the photo is based on the newspaper article id */
-		$query	= "SELECT * FROM articlephotos WHERE idarticle = ? limit ?";
-		$rows	= $this->_db->select($query, "ii", [$idarticle, 1]);
-		if (!empty($rows)){
-			$this->_id = $rows[0]['idphoto'];
-		}
-	}
+	// 	/* set the photo is based on the newspaper article id */
+	// 	$query	= "SELECT * FROM articlephotos WHERE idarticle = ? limit ?";
+	// 	$rows	= $this->_db->select($query, "ii", [$idarticle, 1]);
+	// 	if (!empty($rows)){
+	// 		$this->_id = $rows[0]['idphoto'];
+	// 	}
+	// }
+
 	function getMugshot($idperson){
 		if ($this->_debug){
 			$this->_log->write(__METHOD__ );
@@ -380,32 +396,6 @@ class Photo extends SingleItemPage{
 		}
 
 		return $this->maxThumbnailHeight;
-	}
-
-	/******************
-	Labels
-	*******************/
-	function getLabels (){
-		if ($this->_debug){
-			$this->_log->write(__METHOD__ );
-		}
-
-		$ftlabels["idphoto"]		= "";
-		$ftlabels["idsource"]		= "Bron";
-		$ftlabels["nmphotographer"]	= "Fotograaf";
-		$ftlabels["nrorder"]		= "Bestel nummer";
-		$ftlabels["nryear"]			= "Jaar";
-		$ftlabels["dtpublish"]		= "Datum";
-		$ftlabels["idoriginal"]		= "Origineel?";
-		$ftlabels["idmugshot"]		= "Pasfoto?";
-		$ftlabels["idaction"]		= "Actiefoto?";
-		$ftlabels["idteamphoto"]	= "Teamfoto?";
-		$ftlabels["ftdepicted"]		= "Afgebeeld";
-		$ftlabels["ftdescription"]	= "Beschrijving";
-
-		$ftlabels = parent::getGenericLabels($ftlabels);
-
-		return $ftlabels;
 	}
 
 	function setThumbnailpath($path){

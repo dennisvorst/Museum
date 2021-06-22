@@ -5,9 +5,9 @@ use PHPUnit\Framework\TestCase;
 
 class ArticleTest extends TestCase
 {
-    protected $_log;
-	protected $_db;
-	protected function setup() : void
+  protected $_log;
+  protected $_db;
+  protected function setup() : void
 	{
 		/** mock the database and the log file  */
 		$this->_db = $this->createMock(MysqlDatabase::class);
