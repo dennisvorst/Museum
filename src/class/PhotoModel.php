@@ -53,7 +53,7 @@ class PhotoModel implements iModel{
 	}
 
 
-	function getDataArray()
+	function getDataArray() : array
 	{
 		$json['id']	= $this->_id;
 		$json['url']	= $this->_getUrl(["option"=>"photos", "id" => $this->_id]);

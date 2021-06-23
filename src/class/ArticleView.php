@@ -62,7 +62,9 @@ require_once "Social.php";
 }*/
 
 class ArticleView extends Media implements iView{
-	/* constructor */
+	/* defaults */
+	protected $_thumbTextLength = 380;
+
 	/** article */
 	protected $_id;
 	protected $_mainTitle;
@@ -73,6 +75,7 @@ class ArticleView extends Media implements iView{
 
 	/** photos */
 	protected $_photoCollection = [];
+	protected $_personCollection = [];
 
 	function __construct(string $json)
 	{
@@ -105,11 +108,31 @@ class ArticleView extends Media implements iView{
 
 		/** photos */
 		$this->_photoCollection = (isset($articleArray['photos']) ? $articleArray['photos'] : []);
+
+		/** persons */
+		$this->_personCollection = (isset($articleArray['persons']) ? $articleArray['persons'] : []);
+
+		if (!empty($this->_publishDate))
+		{
+			/* create the date */
+			$dateObj	= new Date();
+			$this->_publishDate	= $dateObj->translateDate($this->_publishDate, "W");
+
+		}
+		
 	}
 
 
 	function showThumbnail() : string
 	{
+		/** prepare */
+		if (strlen($this->_articleText) > $this->_thumbTextLength){
+			$this->_articleText	= substr($this->_articleText, 0, $this->_thumbTextLength);
+			$position		= strrpos($this->_articleText, " ");
+			$this->_articleText	= substr($this->_articleText, 0, $position + 1);
+		}
+
+
 		/** create */
 		$thumbnail = "";
 
