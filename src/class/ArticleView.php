@@ -6,7 +6,7 @@ ini_set('display_errors', 'On');  //On or Off
 require_once "iView.php";
 require_once "Media.php";
 require_once "Social.php";
-
+require_once "PersonView.php";
 /**
                </div>
                             <div class="col-lg-6">
@@ -73,7 +73,7 @@ class ArticleView extends Media implements iView{
 	protected $_articleText;
 	protected $_sourceLogo;
 
-	/** photos */
+	/** collection */
 	protected $_photoCollection = [];
 	protected $_personCollection = [];
 
@@ -190,6 +190,7 @@ class ArticleView extends Media implements iView{
 	{
 		/** prepare */
 		$this->_articleText = $this->_getArticle($this->_articleText);
+		$persons = $this->_showPersons();
 
 		/** show */
 		return "
@@ -210,7 +211,9 @@ class ArticleView extends Media implements iView{
 
 			<!-- article -->
 			<div class='row'>{$this->_articleText}</div>
-		</div>";
+		</div>
+		{$persons}
+		";
 	}
 
 
@@ -290,6 +293,36 @@ class ArticleView extends Media implements iView{
 			$i++;
 		}
 		return $newCollection;
+	}
+
+
+	protected function _showPersons() : string 
+	{
+		if (empty($this->_personCollection)) 
+		{
+			return "";
+		}
+
+		/** create */
+		$html = "";
+		foreach ($this->_personCollection as $person)
+		{
+			$person = new PersonView(json_encode($person));
+			$persons[] = $person->showThumbnail();
+
+			$html .= $person->showThumbnail();
+		}
+
+
+		/** show */
+		$html = "
+		<div class='container'>
+			<h2>Personen genoemd in dit artikel</h2>
+			{$html}
+		</div>";
+	
+		return $html;
+		
 	}
 }
 ?>

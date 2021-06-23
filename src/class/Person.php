@@ -76,7 +76,6 @@ class Person extends SingleItemPage{
 	protected $_photoCollection;
 	function getPhotoCollection(int $id) : array
 	{
-
 		return $this->_photoCollection;
 	}
 
@@ -233,56 +232,5 @@ class Person extends SingleItemPage{
 			return $this->_dthof;
 		}
 	}
-
-
-	function getLabels (){
-		$ftlabels["idperson"]		= "";
-		$ftlabels["nmfirst"]		= "Roepnaam";
-		$ftlabels["nmfull"]			= "Volledige naam";
-		$ftlabels["nmsur"]			= "Tussenvoegsel";
-		$ftlabels["nmlast"]			= "Achternaam";
-		$ftlabels["nmnick"]			= "Bijnaam";
-		$ftlabels["cdgender"]		= "Geslacht";
-		$ftlabels["dtbirth"]		= "Geboortedatum";
-		$ftlabels["nmbirthplace"]	= "Geboorteplaats";
-		$ftlabels["cdcountry"]		= "Land";
-		$ftlabels["dtdeath"]		= "Datum overlijden";
-		$ftlabels["nmdeathplace"]	= "Plaats van overlijden";
-		$ftlabels["nmaddress"]		= "Adres";
-		$ftlabels["nmpostal"]		= "Postcode";
-		$ftlabels["nmcity"]			= "Plaats";
-		$ftlabels["ftphone"]		= "Telefoon";
-		$ftlabels["ftcell"]			= "Mobiel";
-		$ftlabels["ftemail"]		= "Email";
-		$ftlabels["dthof"]			= "In Hall of Fame sinds";
-		$ftlabels["cdthrows"]		= "Gooit";
-		$ftlabels["cdbats"]			= "Slaat";
-		$ftlabels["cdsubscr"]		= "Geabboneerd";
-		$ftlabels["dtsend"]			= "Datum verzonden";
-		$ftlabels["nmclubstart"]	= "Eerste club";
-		$ftlabels["ftbiography"]	= "Biografie";
-
-		$ftlabels = parent::getGenericLabels($ftlabels);
-
-		return $ftlabels;
-	}
-
-	/******************
-	Editable fields
-	*******************/
-	function getEditCdbats($ftvalue = null){
-		$htmlObject = new HtmlSelect();
-		return $htmlObject->getDexterity("cdbats", $ftvalue);
-	}
-	function getEditCdthrows($ftvalue = null){
-		$htmlObject = new HtmlSelect();
-		return $htmlObject->getDexterity("cdthrows", $ftvalue);
-	}
-	function getEditIdsex($ftvalue = null){
-		$htmlObject = new HtmlSelect();
-		return $htmlObject->getSex("cdgender", $ftvalue);
-	}
-
-
 }
 ?>

@@ -140,6 +140,9 @@ class Article extends SingleItemPage{
 		/* look for a photo */
 		$json['photos'] = $this->_getPhotoCollection($this->_id);
 
+		/* look for persons */
+		$json['persons'] = $this->_getPersonCollection($this->_id);
+
 		return $json;
 	}
 

@@ -17,12 +17,12 @@ class PhotoModel implements iModel{
 	protected $_nryear;
 	protected $_dtpublish;
 	protected $_idoriginal;
-	protected $_idmugshot;
-	protected $_idaction;
-	protected $_idteamphoto;
+	protected $_isMugshot = false;
+	protected $_isActionphoto = false;
+	protected $_isTeamphoto = false;
 	protected $_ftdepicted;
 	protected $_ftdescription;
-	protected $_is_featured;
+	protected $_isFeatured = false;
 
 	function __construct(array $row)
 	{
@@ -33,12 +33,12 @@ class PhotoModel implements iModel{
 		$this->_nryear			= $row['nryear'];
 		$this->_dtpublish		= $row['dtpublish'];
 		$this->_idoriginal		= $row['idoriginal'];
-		$this->_idmugshot		= $row['idmugshot'];
-		$this->_idaction		= $row['idaction'];
-		$this->_idteamphoto		= $row['idteamphoto'];
+		$this->_isMugshot		= ($row['idmugshot'] = "J" ? true : false);
+		$this->_isActionphoto	= ($row['idaction'] = "J" ? true : false);
+		$this->_isTeamphoto		= ($row['idteamphoto'] = "J" ? true : false);
 		$this->_ftdepicted		= $row['ftdepicted'];
 		$this->_ftdescription	= $row['ftdescription'];
-		$this->_is_featured		= $row['is_featured'];
+		$this->_isFeatured		= ($row['is_featured'] = "J" ? true : false);
 
 	}
 
@@ -59,6 +59,7 @@ class PhotoModel implements iModel{
 		$json['url']	= $this->_getUrl(["option"=>"photos", "id" => $this->_id]);
 		$json['image'] = $this->_id . ".jpg";
 		$json['subscript'] = $this->_ftdescription;
+		$json['isMugshot'] = $this->_ftdescription;
 
 		$json['source']['id'] = $this->_idsource;
 		return $json;
