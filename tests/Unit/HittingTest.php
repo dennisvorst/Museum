@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
 
-final class HitttingTest extends TestCase
+final class HittingTest extends TestCase
 {
 	protected $_log;
 	protected $_db;
