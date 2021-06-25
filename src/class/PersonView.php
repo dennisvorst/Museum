@@ -27,11 +27,10 @@ class PersonView implements iView
 		$person = $personArray['person'];
 		$this->_id = $person['id'];
 		$this->_firstName 	= $person['firstName'];
-		$this->_surName		= $person['surName'];
+		$this->_surName		= (isset($person['surName']) ? $person['surName'] : null);
 		$this->_lastName	= $person['lastName'];
 
 		/** photos */
-		var_dump($personArray);
 		$this->_photoCollection = (isset($personArray['photos']) ? $personArray['photos'] : []);
 	}
 
@@ -44,7 +43,6 @@ class PersonView implements iView
 		<div class='card'>
 			<div class='container'>
 				<div class='row'>
-
 					<div class='col'>
 						<div align='center'>
 							<figure>
@@ -74,17 +72,17 @@ class PersonView implements iView
 	protected function _getFullName()
 	{
 		/* get the fullname of the player */
-		return $this->_firstName . (!empty($this->_surName) ? " " . $this->_surName : " ") . $this->_lastName;
+		return $this->_firstName . (!empty($this->_surName) ? " " . $this->_surName : null) . " " . $this->_lastName;
 	}
 
 	protected function _getMugshot()
 	{
-		$html = "<img width='150' height='150' border='0' src='./images/unknown.png'/>\n";
+		$html = "<img width='150' height='150' border='0' src='./images/unknown.png'/>";
 		foreach ($this->_photoCollection as $photo)
 		{
 			if ($photo['isMugshot'])
 			{
-				"<img width='150' height='150' border='0' src='./images/{$photo['id']}.jpg'/>\n";
+				$html = "<img width='150' height='150' border='0' src='./images/{$photo['id']}.jpg'/>";
 			}
 		}
 
