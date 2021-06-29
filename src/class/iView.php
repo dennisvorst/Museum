@@ -1,7 +1,7 @@
 <?php
 interface iView
 {
-    function __construct(string $json);
+    function __construct(array $row);
     function show() : string;
     function showThumbnail() : string;
 }

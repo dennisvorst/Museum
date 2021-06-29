@@ -11,19 +11,17 @@ class VideoView implements iView{
 	protected $_videoUrl;
 	protected $_videoName;
 	
-	function __construct(string $json)
+	function __construct(array $row)
 	{
-		if (empty($json)) 
+		if (empty($row)) 
 		{
 			throw new exception("Video is mandatory");
 		}
 
 		/** create the object */
-		$object = json_decode($json);
-
-		$this->_id = $object->videoId;
-		$this->_videoUrl = $object->videoUrl;
-		$this->_videoName = $object->videoName;
+		$this->_id = $row['id'];
+		$this->_videoUrl = $row['url'];
+		$this->_videoName = $row['name'];
 		
 	}
 

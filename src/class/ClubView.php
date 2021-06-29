@@ -4,8 +4,9 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
 require_once "iView.php";
+require_once "View.php";
 
-class ClubView implements iView
+class ClubView extends View implements iView
 {
 	/* constructor */
 
@@ -14,22 +15,20 @@ class ClubView implements iView
 	protected $_name;
 	protected $_logo;
 
-	function __construct(string $json)
+	function __construct(array $row)
 	{
-		if (empty($json)) 
+		if (empty($row)) 
 		{
 			throw new exception("Video is mandatory");
 		}
 
 		/** create the object */
-		$object = json_decode($json);
-	
-		print_r($object);
 
-		$this->_id = $object->id;
-		$this->_url = $object->url;
-		$this->_name = $object->name;
-		$this->_logo = $object->logo;
+		$this->_id = $row['id'];
+		$this->_name = $row['name'];
+
+		$this->_url = "Some Url";
+		$this->_logo = "Some Logo";
 
 		/** optional values */
 //		$this->_alignment = (property_exists($object, "alignment") ? $object->alignment : null);
@@ -76,9 +75,7 @@ class ClubView implements iView
 			<div class='tab-pane fade' id='profile' role='tabpanel' aria-labelledby='profile-tab'>Tweede</div>
 			<div class='tab-pane fade' id='contact' role='tabpanel' aria-labelledby='contact-tab'>Derde</div>
 		</div>
-			
 		";
-
 	}
 }
 ?>

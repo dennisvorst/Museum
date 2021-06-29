@@ -4,9 +4,9 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
 require_once "iView.php";
-require_once "Media.php";
+require_once "MediaView.php";
 
-class PhotoView extends Media implements iView
+class PhotoView extends MediaView implements iView
 {
 	protected $_id; 
 	protected $_url;
@@ -18,28 +18,30 @@ class PhotoView extends Media implements iView
 	protected $_subscript;
 	protected $_sourceName;
 
-	function __construct(string $json)
+	function __construct(array $row)
 	{
 		parent::__construct();
 
-		if (empty($json)) 
+		if (empty($row)) 
 		{
 			throw new exception("Photo is mandatory");
 		}
 
 		/** create the object */
-		$object = json_decode($json);
-	
-		$this->_id = $object->id;
-		$this->_url = $object->url;
-		$this->_image = $object->image;
+
+//		$article = $row['article'];
+//print_r($row);	
+
+		$this->_id = $row['id'];
+		$this->_image = $row['image'];
+		$this->_url = $this->_getUrl(["option"=>"photos", "id" => $this->_id]);
 
 		/** optional values */
-		$this->_alignment = (property_exists($object, "alignment") ? $object->alignment : null);
-		$this->_width = (property_exists($object, "width") ? $object->width : null);
-		$this->_height = (property_exists($object, "height") ? $object->height : null);
-		$this->_subscript = (property_exists($object, "subscript") ? $object->subscript : null);
-		$this->_sourceUrl = (property_exists($object, "sourceUrl") ? $object->sourceUrl : null);
+		$this->_alignment = (isset($row['alignment']) ? $row['alignment'] : null);
+		$this->_width = (isset($row['width']) ? $row['width'] : null);
+		$this->_height = (isset($row['height']) ? $row['height'] : null);
+		$this->_subscript = (isset($row['subscript']) ? $row['subscript'] : null);
+		$this->_sourceUrl = (isset($row['sourceUrl']) ? $row['sourceUrl'] : null);
 	}
 
 	function showThumbnail() : string

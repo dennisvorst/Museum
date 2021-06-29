@@ -24,8 +24,10 @@ class PhotoModel implements iModel{
 	protected $_ftdescription;
 	protected $_isFeatured = false;
 
-	function __construct(array $row)
+	function __construct(MysqlDatabase $db, Log $log, int $id)
 	{
+		$this->_id				= $id;
+
 		$this->_id				= $row['idphoto'];
 		$this->_idsource		= $row['idsource'];
 		$this->_nmphotographer	= $row['nmphotographer'];
@@ -44,45 +46,25 @@ class PhotoModel implements iModel{
 
 	function getThumbnailData() : string
 	{
-		return json_encode($this->getDataArray());
+		return json_encode($this->getData());
 	}
 
 	function getPageData() : string
 	{
-		return json_encode($this->getDataArray());
+		return json_encode($this->getData());
 	}
 
 
-	function getDataArray() : array
+	function getData() : array
 	{
 		$json['id']	= $this->_id;
-		$json['url']	= $this->_getUrl(["option"=>"photos", "id" => $this->_id]);
+//		$json['url']	= $this->_getUrl(["option"=>"photos", "id" => $this->_id]);
 		$json['image'] = $this->_id . ".jpg";
 		$json['subscript'] = $this->_ftdescription;
 		$json['isMugshot'] = $this->_ftdescription;
 
 		$json['source']['id'] = $this->_idsource;
 		return $json;
-	}
-
-	protected function _getUrl(array $items)
-	{
-		/* create the url */
-		$keys = array_keys($items);
-		$url = "";
-
-		foreach ($keys as $key)
-		{
-			if (empty($url)){
-				$url = $key . "=" . $items[$key];
-			} else {
-				if (!empty($key) && !empty($items[$key]))
-				{
-					$url = $url . "&" . $key . "=" . $items[$key];
-				}
-			}
-		}
-		return $url;
 	}
 }
 ?>

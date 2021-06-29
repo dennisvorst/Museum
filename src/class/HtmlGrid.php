@@ -2,12 +2,12 @@
 class HtmlGrid{
 	/* create a grid of div elements based on the number of columns and rows */
 	function __construct(){}
-	function createGrid($ftthumbnails, $nrrows){
+	function createGrid(array $collection, int $nrCols){
 		/* create a grid of thumbnails in a div like table */
 
 		$html = "";
 
-		if (empty($ftthumbnails) or empty($nrrows)) {
+		if (empty($collection) or empty($nrCols)) {
 			return $html;
 		}
 
@@ -16,14 +16,14 @@ class HtmlGrid{
 		/* and the first row */
 		$html .= "<div class='row'>\n";
 
-		for ($i=0; $i<count($ftthumbnails); $i++){
+		for ($i=0; $i<count($collection); $i++){
 			/* are we at the end of the row */
-			if ($i/$nrrows === intval($i/$nrrows) and $i/$nrrows > 0) {
+			if ($i/$nrCols === intval($i/$nrCols) and $i/$nrCols > 0) {
 				/* start a new div */
 				$html .= "</div>\n";
 				$html .= "<div class='row'>\n";
 			}
-			$html .= "<div class='cell'>" . $ftthumbnails[$i] . "</div>\n";
+			$html .= "<div class='cell'>" . $collection[$i] . "</div>\n";
 		}
 
 		/* close the last row */

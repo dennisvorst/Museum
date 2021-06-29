@@ -4,7 +4,7 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
 require_once "iView.php";
-require_once "Media.php";
+require_once "MediaView.php";
 require_once "Social.php";
 require_once "PersonView.php";
 /**
@@ -61,7 +61,7 @@ require_once "PersonView.php";
   }
 }*/
 
-class ArticleView extends Media implements iView{
+class ArticleView extends MediaView implements iView{
 	/* defaults */
 	protected $_thumbTextLength = 380;
 
@@ -77,20 +77,18 @@ class ArticleView extends Media implements iView{
 	protected $_photoCollection = [];
 	protected $_personCollection = [];
 
-	function __construct(string $json)
+	function __construct(array $row)
 	{
 		parent::__construct();
 
-		if (empty($json)) 
+		if (empty($row)) 
 		{
 			throw new exception("Article is mandatory");
 		}
 
-		/** create the object */
-		$articleArray = json_decode($json, true);
-
 		/** article */
-		$article = $articleArray['article'];
+		$article = $row['article'];
+
 		$this->_id = $article['id']; // $object->article->id;
 		$this->_mainTitle = $article['mainTitle'];
 		$this->_publishDate = $article['publishDate'];
@@ -100,26 +98,24 @@ class ArticleView extends Media implements iView{
 		$this->_subSubTitle = (isset($article['subSubTitle']) ? $article['subSubTitle'] : null);
 
 		/** source */
-		$source = (isset($articleArray['article']['source']) ? $articleArray['article']['source'] : null);
+		$source = (isset($row['article']['source']) ? $row['article']['source'] : null);
 		if (!empty($source)) 
 		{
 			$this->_sourceLogo = $source['logo'];
 		}
 
 		/** photos */
-		$this->_photoCollection = (isset($articleArray['photos']) ? $articleArray['photos'] : []);
+		$this->_photoCollection = (isset($row['photos']) ? $row['photos'] : []);
 
 		/** persons */
-		$this->_personCollection = (isset($articleArray['persons']) ? $articleArray['persons'] : []);
+		$this->_personCollection = (isset($row['persons']) ? $row['persons'] : []);
 
 		if (!empty($this->_publishDate))
 		{
 			/* create the date */
 			$dateObj	= new Date();
 			$this->_publishDate	= $dateObj->translateDate($this->_publishDate, "W");
-
 		}
-		
 	}
 
 

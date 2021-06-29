@@ -16,9 +16,12 @@ class PersonModel implements iModel{
 	protected $_surName;
 	protected $_lastName;
 	
+	/** collections */
 	protected $_photoCollection = [];
+	protected $_articleCollection = [];
+	protected $_videoCollection = [];
 
-	function __construct(array $row)
+	function __construct(MysqlDatabase $db, Log $log, int $id)
 	{
 		$this->_id			= $row['idperson'];
 
@@ -53,7 +56,7 @@ class PersonModel implements iModel{
 
 	}
 
-	function getDataArray() : array
+	function getData() : array
 	{
 		$json = [];
 
@@ -75,5 +78,15 @@ class PersonModel implements iModel{
 		}
 		return $this->_photoCollection;
 	}
+
+	protected function _getPersonArticles() : array
+	{
+		if (empty($this->_articleCollection))
+		{
+			$this->_articleCollection = [];
+		}
+		return $this->_articleCollection;
+	}
+
 }
 ?>

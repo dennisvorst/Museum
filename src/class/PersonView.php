@@ -4,8 +4,9 @@ ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
 require_once "iView.php";
+require_once "View.php";
 
-class PersonView implements iView
+class PersonView extends View implements iView
 {
 	protected $_id; 
 
@@ -13,25 +14,26 @@ class PersonView implements iView
 	protected $_surName;
 	protected $_lastName;
 
-	function __construct(string $json)
+	protected $_articleCollection = [];
+	protected $_photoCollection = [];
+	
+	function __construct(array $row)
 	{
-		if (empty($json)) 
+		if (empty($row)) 
 		{
 			throw new exception("Person is mandatory");
 		}
 
-		/** create the object */
-		$personArray = json_decode($json, true);
-
-		/** article */
-		$person = $personArray['person'];
-		$this->_id = $person['id'];
-		$this->_firstName 	= $person['firstName'];
-		$this->_surName		= (isset($person['surName']) ? $person['surName'] : null);
-		$this->_lastName	= $person['lastName'];
+		/** person */
+		$this->_id = $row['id'];
+		$this->_firstName 	= $row['firstName'];
+		$this->_surName		= (isset($row['surName']) ? $row['surName'] : null);
+		$this->_lastName	= $row['lastName'];
 
 		/** photos */
-		$this->_photoCollection = (isset($personArray['photos']) ? $personArray['photos'] : []);
+		$this->_articleCollection = (isset($row['articles']) ? $row['articles'] : []);		
+		$this->_videoCollection = (isset($row['videos']) ? $row['videos'] : []);
+		$this->_photoCollection = (isset($row['photos']) ? $row['photos'] : []);		
 	}
 
 	function showThumbnail() : string
@@ -61,7 +63,26 @@ class PersonView implements iView
 
 	function show() : string
 	{
+		/** prepare */
+		$fullName = $this->getFullName();
+		$hofDate = $this->_isHof($this->getHofDate());
+
+		$articles = $this->_showArticles();
+		$this->_photosCollection		= $this->_getPersonCollection($this->_id);
+		$this->_videoCollection			= $this->_getVideoCollection($this->_id);
+		$this->_statisticsCollection	= $this->_getStatisticsCollection($this->_id);
+		$this->_teamCollection 			= $this->_getTeamCollection($this->_id);
+
+
+		/** show */
 		return "
+		<div class='container'>
+			<div class='row'>
+				<h1>{$fullName}</h1>
+			</div>
+		</div>
+
+		
 		";
 	}
 
@@ -83,11 +104,74 @@ class PersonView implements iView
 			if ($photo['isMugshot'])
 			{
 				$html = "<img width='150' height='150' border='0' src='./images/{$photo['id']}.jpg'/>";
+				break;
 			}
 		}
-
 		return $html;
+	}
 
+	/** collections */
+	protected function _showArticles() : string
+	{
+		/** prepare */
+		$articles = [];
+		foreach ($this->_articleCollection as $article)
+		{
+			$article = new ArticleView($article);
+			$articles[] = $article->getThumbnail();
+		}
+
+		/** create */
+		$html = "";
+
+		
+		return $html;
+	}
+
+	protected function _showPhotos() : string
+	{
+		/** prepare */
+		$photos = [];
+		foreach ($this->_photoCollection as $photo)
+		{
+			$photo = new PhotoView($photo);
+			$photos[] = $photo->getThumbnail();
+
+		}
+
+		/** create */
+		$html = "";
+		
+		
+		return $html;
+	}
+
+	protected function _showVideos() : string
+	{
+		/** prepare */
+		$videos = [];
+		foreach ($this->_videoCollection as $video)
+		{
+			$video = new VideoView($video);
+			$videos[] = $video->getThumbnail();
+		}
+
+		/** create */
+		$html = "";
+		
+		
+		return $html;
+	}
+
+	protected function _showStatistics() : string
+	{
+		/** prepare */
+
+		/** create */
+		$html = "";
+		
+		
+		return $html;
 	}
 }
 ?>
