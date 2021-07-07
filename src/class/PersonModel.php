@@ -6,87 +6,97 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 // *** Include Section
 //*********************************************************
-require_once "iModel.php";
+require_once "iPageModel.php";
+require_once "PhotosModel.php";
 
-class PersonModel implements iModel{
+class PersonModel implements iPageModel{
 
-	protected $_id;
-
-	protected $_firstName;
-	protected $_surName;
-	protected $_lastName;
-	
 	/** collections */
 	protected $_photoCollection = [];
 	protected $_articleCollection = [];
 	protected $_videoCollection = [];
 
+	protected $_idphotohof;
+	protected $_mugshot;
+
 	function __construct(MysqlDatabase $db, Log $log, int $id)
 	{
-		$this->_id			= $row['idperson'];
+		$this->_db = $db;
+		$this->_log = $log;
+		$this->_id = $id;
 
-		$this->_firstName	= $row['nmfirst'];
-		$this->_surName		= $row['nmsur'];
-		$this->_lastName	= $row['nmlast'];
+		
 
-		// $this->_nmnick 		= $this->ftrecord['nmnick'];
-		// $this->_cdgender		= $this->ftrecord['cdgender'];
-		// $this->_dtbirth 		= $this->ftrecord['dtbirth'];
-		// $this->_nmbirthplace = $this->ftrecord['nmbirthplace'];
-		// $this->_cdcountry 	= $this->ftrecord['cdcountry'];
-		// $this->_dtdeath 		= $this->ftrecord['dtdeath'];
-		// $this->_nmdeathplace = $this->ftrecord['nmdeathplace'];
-		// $this->_nmaddress 	= $this->ftrecord['nmaddress'];
-		// $this->_nmpostal 	= $this->ftrecord['nmpostal'];
-		// $this->_nmcity 		= $this->ftrecord['nmcity'];
-		// $this->_ftphone 		= $this->ftrecord['ftphone'];
-		// $this->_ftcell 		= $this->ftrecord['ftcell'];
-		// $this->_ftemail 		= $this->ftrecord['ftemail'];
-		// $this->_cdthrows 	= $this->ftrecord['cdthrows'];
-		// $this->_cdbats 		= $this->ftrecord['cdbats'];
-		// $this->_cdsubscr 	= $this->ftrecord['cdsubscr'];
-		// $this->_dtsend 		= $this->ftrecord['dtsend'];
-		// $this->_nmclubstart 	= $this->ftrecord['nmclubstart'];
-		// $this->_dthof 		= $this->ftrecord['dthof'];
-		// $this->_idphotohof 	= $this->ftrecord['idphotohof'];
-		// $this->_ftbiography 	= $this->ftrecord['ftbiography'];
-		// $this->_is_featured 	= $this->ftrecord['is_featured'];
+		// $sql = "SELECT * FROM persons p
+		// 		LEFT JOIN photos pp ON p.idphotohof = pp.idphoto
+		// 		WHERE idperson = ?";
+		$sql = "SELECT * FROM persons 
+				WHERE idperson = ?";
+		$row = $this->_db->select($sql, "i", [$this->_id]);
 
-		//		$this->_nmfull 		= $this->ftrecord['nmfull'];
+		if (!empty($row))
+		{
+			$row = $row[0];
+			$this->_idphotohof = $row['idphotohof'];
 
+			/** person */
+			$this->_result['id'] = $row['idperson'];
+
+			$this->_result['firstName']	= $row['nmfirst'];
+			$this->_result['surName']	= $row['nmsur'];
+			$this->_result['lastName']	= $row['nmlast'];
+			$this->_result['halloffamedate'] = $row['dthof'];
+
+			/* look for the hall off fame photo */
+			$this->_getHofPhoto($row['idphotohof']);
+
+			/* look for a photo */
+			$this->_result['photos'] = $this->_getPhotoCollection($this->_id);
+   
+			/* look for clubs */
+			$this->_result['articles'] = $this->_getArticleCollection($this->_id);
+		}
 	}
 
 	function getData() : array
 	{
-		$json = [];
-
-		$json['person']['id']			= $this->_id;
-		$json['person']['firstName']	= $this->_firstName;
-		$json['person']['surName']		= $this->_surName;
-		$json['person']['lastName']		= $this->_lastName;
-
-		$json['photos'] = $this->_getPersonPhotos();
-
-		return $json;
+		return $this->_result;
 	}
 
-	protected function _getPersonPhotos() : array
+	protected function _getPhotoCollection() : array
 	{
-		if (empty($this->_photoCollection))
+		$model = new PhotosModel($this->_db, $this->_log);
+		$rows = $model->getPersonRecords($this->_id);
+		foreach ($rows as $row)
 		{
-			$this->_photoCollection = [];
+			if (empty($this->_mugshot && $row['isMugshot']))
+			{
+				$this->_mugshot = $row;
+			}
 		}
-		return $this->_photoCollection;
+		return $rows;
 	}
 
-	protected function _getPersonArticles() : array
+	protected function _getArticleCollection() : array
 	{
-		if (empty($this->_articleCollection))
-		{
-			$this->_articleCollection = [];
-		}
-		return $this->_articleCollection;
+		$model = new ArticlesModel($this->_db, $this->_log);
+		return $model->getPersonRecords($this->_id);
 	}
 
+	protected function _getHofPhoto(int $id) : array
+	{
+		if (empty($id))
+		{
+			return [];
+		}
+		else
+		{
+			$model = new PhotosModel($this->_db, $this->_log);
+			$row = $model->getSingleRecordById($id);
+			print_r($row);
+			print_r($id);
+			return $row;
+		}
+	}
 }
 ?>

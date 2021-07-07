@@ -8,7 +8,13 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 require_once "iPageModel.php";
 
-class PhotoModel implements iPageModel{
+class VideoModel implements iPageModel{
+
+	protected $_id;
+	protected $_url;
+	protected $_name;
+
+	protected $_result;
 
 	function __construct(MysqlDatabase $db, Log $log, int $id)
 	{
@@ -16,22 +22,18 @@ class PhotoModel implements iPageModel{
 		$this->_log = $log;
 		$this->_id = $id;
 
-		$sql = "SELECT * FROM photos WHERE idphoto = ?";
+		$sql = "SELECT * FROM videos WHERE idvideo = ?";
 		$row = $this->_db->select($sql, "i", [$this->_id]);
 
 		if (!empty($row))
 		{
 			$row = $row[0];
 
-			$this->_result['id']		= $row['idphoto'];
-
-			$this->_result['subscript'] = $row['ftdescription'];
-			$this->_result['isMugshot'] = $row['idmugshot'];
-
-			$this->_result['source']['id'] = $row['idsource'];
+			$this->_result['id']	= $row['idvideo'];;
+			$this->_result['name']	= $row['nmvideo'];
+			$this->_result['url']	= $row['nmurl'];
 		}
 	}
-
 
 	function getData() : array
 	{

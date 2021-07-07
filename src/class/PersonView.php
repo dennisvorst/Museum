@@ -3,10 +3,10 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-require_once "iView.php";
-require_once "View.php";
+require_once "iPageView.php";
+require_once "PageView.php";
 
-class PersonView extends View implements iView
+class PersonView extends PageView implements iPageView
 {
 	protected $_id; 
 
@@ -14,9 +14,24 @@ class PersonView extends View implements iView
 	protected $_surName;
 	protected $_lastName;
 
+	protected $_nickName;
+	protected $_gender;
+	protected $_birthDate;
+	protected $_countryCode;
+	protected $_isDead;
+	protected $_hallOfFameDate;
+	protected $_hallOfFamePhotoId;
+
+	protected $_mugshot;
+	protected $_hallOfFamePhoto;
+
+	protected $_fullName;
+	protected $_biography;
+
 	protected $_articleCollection = [];
 	protected $_photoCollection = [];
-	
+	protected $_videoCollection = [];
+
 	function __construct(array $row)
 	{
 		if (empty($row)) 
@@ -29,17 +44,32 @@ class PersonView extends View implements iView
 		$this->_firstName 	= $row['firstName'];
 		$this->_surName		= (isset($row['surName']) ? $row['surName'] : null);
 		$this->_lastName	= $row['lastName'];
+		
+		$this->_hallOfFameDate = (isset($row['halloffamedate']) ? $row['halloffamedate'] : "");
+		$this->_nickName = (isset($row['nickName']) ? $row['nickName'] : "");
+		$this->_gender = (isset($row['gender']) ? $row['gender'] : "");
+		$this->_birthDate = (isset($row['birthDate']) ? $row['birthDate'] : "");
+		$this->_countryCode = (isset($row['countryCode']) ? $row['countryCode'] : "");
+		$this->_isDead = (isset($row['isDead']) ? $row['isDead'] : "");
+		$this->_hallOfFamePhotoId = (isset($row['hallOfFamePhoto']) ? $row['hallOfFamePhoto'] : "");
+		$this->_biography = (isset($row['biography']) ? $row['biography'] : "");
+		
+		$this->_fullName = $this->_getFullName();
 
-		/** photos */
+		/** articles */
 		$this->_articleCollection = (isset($row['articles']) ? $row['articles'] : []);		
+		/** videos */
 		$this->_videoCollection = (isset($row['videos']) ? $row['videos'] : []);
-		$this->_photoCollection = (isset($row['photos']) ? $row['photos'] : []);		
+		/** photos */
+
+		$this->_photoCollection = (isset($row['photos']) ? $this->_getPhotoCollection($row['photos']) : []);
 	}
 
 	function showThumbnail() : string
 	{
-		$mugshot = $this->_getMugshot();
-
+		/** prepare */
+		$picture = "TBD"; // $this->_getPicture(true);
+		
 		/** show */
 		return "
 		<div class='card'>
@@ -48,7 +78,7 @@ class PersonView extends View implements iView
 					<div class='col'>
 						<div align='center'>
 							<figure>
-								{$mugshot}
+								{$picture}
 								<figcaption>
 									{$this->_getNameWithUrl()}
 								</figcaption>
@@ -64,31 +94,53 @@ class PersonView extends View implements iView
 	function show() : string
 	{
 		/** prepare */
-		$fullName = $this->getFullName();
-		$hofDate = $this->_isHof($this->getHofDate());
-
-		$articles = $this->_showArticles();
-		$this->_photosCollection		= $this->_getPersonCollection($this->_id);
-		$this->_videoCollection			= $this->_getVideoCollection($this->_id);
-		$this->_statisticsCollection	= $this->_getStatisticsCollection($this->_id);
-		$this->_teamCollection 			= $this->_getTeamCollection($this->_id);
-
+		$hallOfFameText = $this->_getHallOfFameText($this->_getHofDate());
+		$photoAndText = $this->_getPhotoAndText();
 
 		/** show */
 		return "
 		<div class='container'>
 			<div class='row'>
-				<h1>{$fullName}</h1>
+				<h1>{$this->_fullName}</h1>
 			</div>
+			{$hallOfFameText}
+			{$photoAndText}
 		</div>
-
-		
 		";
 	}
+
+
+	function showHofThumbnail()
+	{
+		/* todo connect to mediaview */
+
+		//"./images/thumbnails/{$this->_hallOfFamePhoto}.jpg";
+		$src = (empty($this->_hallOfFamePhoto) ? "" : $this->_hallOfFamePhoto->getSource(true));
+		$href = $this->_getUrl(["option" => "person", "id" => $this->_id]);
+
+		return "
+		<div class='card' style='width: 18rem;'>
+			<img class='card-img-top' src='{$src}' alt='{$this->_fullName}'>
+			<div class='card-body'>
+				<h5 class='card-title'><a href='{$href}'>{$this->_fullName}</a></h5>
+				<p class='card-text'>{$this->_biography}</p>
+			</div>
+	  	</div>"; 
+
+		return $html;
+	}
+
+
+	function _getHofDate() : string 
+	{
+		return (empty($this->_hallOfFameDate) ? "" : $this->_hallOfFameDate);
+	}
+
 
 	protected function _getNameWithUrl(){
 		return "<a href='index.php?option=person&id=". $this->_id . "'>" . $this->_getFullName() . "</a>";
 	}
+
 
 	protected function _getFullName()
 	{
@@ -96,19 +148,105 @@ class PersonView extends View implements iView
 		return $this->_firstName . (!empty($this->_surName) ? " " . $this->_surName : null) . " " . $this->_lastName;
 	}
 
-	protected function _getMugshot()
+
+	protected function _isInHallOfFame() : bool
 	{
-		$html = "<img width='150' height='150' border='0' src='./images/unknown.png'/>";
-		foreach ($this->_photoCollection as $photo)
+		if ($this->_hallOfFameDate) 
 		{
-			if ($photo['isMugshot'])
-			{
-				$html = "<img width='150' height='150' border='0' src='./images/{$photo['id']}.jpg'/>";
-				break;
-			}
+			return true;
+		} else {
+			return false;
 		}
-		return $html;
 	}
+
+
+	private function _getHallOfFameText(string $dthof) : string
+	{
+		if ($this->_isInHallOffame()) 
+		{
+			$date = new Date();
+			$dthof = $date->translateDate($dthof, "D");
+			return "<i class='fas fa-star'></i> in de eregalerij sinds {$dthof}";
+		}
+		return "";
+	}
+
+	protected function _getPhotoAndText()
+	{
+		$mugshot = $this->_showMugshot();
+
+		if (!empty($this->_biography) && !empty($mugshot)) 
+		{
+			return "
+			<div class='row'>
+				<div class='col'>
+					{$mugshot}
+				</div>			
+				<div class='col'>
+					{$this->_biography}
+				</div>			
+			</div>
+			";
+		}
+		elseif (empty($this->_biography))
+		{
+			/** show only photo */
+			return "
+			<div class='row'>
+				<!-- mugshot -->
+				{$mugshot}
+			</div>
+			";
+		}
+		elseif (empty($mugshot))
+		{
+			/** show only biography */
+			return "
+			<div class='row'>
+				<!-- bio -->
+				{$this->_biography}
+			</div>
+			";
+
+		}
+		else 
+		{
+			/** show nothing */
+			return "";
+		}
+	}
+
+
+	/** show the thumbnail mugshot */
+	protected function _showThumbnailMugshot()
+	{
+		if (!empty($this->_hallOfFamePhoto)) 
+		{
+			return $this->_hallOfFamePhoto->showThumbnail();
+		} elseif (!empty($this->_mugshot))
+		{
+			return $this->_mugshot->showThumbnail();
+		}
+	}
+
+
+	/** show the mugshot */
+	protected function _showMugshot() : string 
+	{
+		if (!empty($this->_hallOfFamePhoto)) 
+		{
+			return $this->_hallOfFamePhoto->show();
+		}
+		elseif (!empty($this->_mugshot))
+		{
+			return $this->_mugshot->show();
+		}
+		else 
+		{
+			return "";
+		}
+	}
+
 
 	/** collections */
 	protected function _showArticles() : string
@@ -123,26 +261,46 @@ class PersonView extends View implements iView
 
 		/** create */
 		$html = "";
-
 		
 		return $html;
 	}
 
+	/** turn all the photoarrays into objects and get the mugshot and the hall of fame photo as well */
+	protected function _getPhotoCollection(array $photos) : array
+	{
+		if (empty($this->_photoCollection)) 
+		{
+			$this->_photoCollection = [];
+			foreach ($photos as $photo)
+			{
+				$photo = new PhotoView($photo);
+				if (empty($this->_mugshot) && $photo->isMugshot())
+				{
+					$this->_mugshot = $photo;
+				}
+				if (empty($this->__hallOfFamePhoto) && $this->_hallOfFamePhotoId === $photo->getId())
+				{
+					$this->__hallOfFamePhoto = $photo;
+				}
+				$this->_photoCollection[] = $photo;
+			}
+		}
+		return $this->_photoCollection;
+	}
+
+
 	protected function _showPhotos() : string
 	{
 		/** prepare */
+		/** keep in mind that we already created objects from the array in the construct */
 		$photos = [];
 		foreach ($this->_photoCollection as $photo)
 		{
-			$photo = new PhotoView($photo);
 			$photos[] = $photo->getThumbnail();
-
 		}
 
 		/** create */
 		$html = "";
-		
-		
 		return $html;
 	}
 

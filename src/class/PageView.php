@@ -1,5 +1,5 @@
 <?php
-class View
+class PageView
 {
     function __construct()
     {
@@ -22,7 +22,12 @@ class View
 				}
 			}
 		}
-		return $url;
+		return "index.php?" . $url;
+	}
+
+	function getId() : int
+	{
+		return $this->_id;
 	}
 }
 ?>

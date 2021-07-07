@@ -6,7 +6,7 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 // *** Include Section
 //*********************************************************
-require_once "ListPage.php";
+//require_once "ListPage.php";
 
 class MenuBar{
 	static $nrcolumns = 26; /** in case of alfabet */
@@ -40,8 +40,8 @@ class MenuBar{
 			MenuBar::$nrcolumns = 12;
 			/* if no value is selected get the last value */
 			if (empty($nmvalue)){
-				ListPage::getStartYear($this->_db, $nmtable);
-				$nmvalue = ListPage::$nryear;
+//				ListPage::getStartYear($this->_db, $nmtable);
+//				$nmvalue = ListPage::$nryear;
 			}
 		} else {
 			/** not all letters in the alphabet may be present */
@@ -259,6 +259,7 @@ class MenuBar{
         return $this->lijst;
     } //function GetJaarFromEntiteit
 
+	/* todo : marked deprecated. Remove.*/
 	function getUrl($ftitems){
 		/* create the url */
 		$ftkeys = array_keys($ftitems);
@@ -273,8 +274,5 @@ class MenuBar{
 		}
 		return $fturl;
 	}
-
-
-
 }
 ?>

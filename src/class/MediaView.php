@@ -1,9 +1,9 @@
 <?php
-require_once "View.php";
+require_once "PageView.php";
 
-class MediaView extends View
+class MediaView extends PageView
 {
-    protected $_thumbnailPath = "./thumbnails/photos/";
+    protected $_thumbnailPath = "./images/thumbnails/";
     protected $_path	= "./images/photos/";
 
     function __construct()

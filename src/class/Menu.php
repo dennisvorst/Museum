@@ -5,7 +5,8 @@ ini_set('display_errors', 'On');  //On or Off
 
 /* include section */
 //require_once 'MysqlDatabase.php';
-require_once "HtmlGrid.php";
+//require_once "Bootstrap.php";
+require_once "BootstrapGrid.php";
 
 /** todo: pass mysql database as an object in the constructor*/
 class Menu{

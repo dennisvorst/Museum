@@ -3,14 +3,16 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-require_once "iListView.php";
 require_once "ListView.php";
-require_once "PersonView.php";
+require_once "iListView.php";
+require_once "VideoView.php";
 
-class PersonsView extends ListView implements iListView
+class VideosView extends ListView implements iListView
 {
-	protected $_title = "Personen";
+	protected $_title = "Video's";
 	protected $_columnCount = 3;
+
+	protected $_collection = [];
 
 	function __construct(array $rows)
 	{
@@ -18,15 +20,9 @@ class PersonsView extends ListView implements iListView
 
 		foreach ($rows as $row)
 		{
-			$object = new PersonView($row);
+			$object = new VideoView($row);
 			$this->_collection[] = $object->showThumbnail();
 		}
-	}
-
-	function showArticlePage()
-	{
-		$this->_title = "Personen in het artikel";
-		return $this->show();
 	}
 }
 ?>

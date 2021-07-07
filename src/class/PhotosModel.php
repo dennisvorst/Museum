@@ -8,7 +8,7 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 require_once "iListModel.php";
 
-class PersonsModel implements iListModel
+class PhotosModel implements iListModel
 {
 
 	protected $_collection	= [];
@@ -27,9 +27,9 @@ class PersonsModel implements iListModel
 	function getFeatured() : array
 	{
 		$sql = "SELECT *
-				FROM persons
+				FROM photos
    				WHERE is_featured = 1
-				ORDER BY nmlast";
+				ORDER BY dtpublish";
 
 		$rows = $this->_db->select($sql, "", []);
 		return $this->_getCollection($rows);
@@ -38,21 +38,19 @@ class PersonsModel implements iListModel
 
 	function getRecordsByYear(int $year) : array
 	{
-		throw new exception("To be implemented");
+		$sql = "SELECT *
+		FROM photos 
+		WHERE nryear = ?
+		ORDER BY dtpublish";
+
+		$rows = $this->_db->select($sql, "i", [$year]);
+		return $this->_getCollection($rows);
 	}
 
 
 	function getRecordsByAlphabet(string $letter) : array
 	{
-		$letter .= "%";
-
-		$sql = "SELECT *
-		FROM persons
-		WHERE nmlast LIKE ?
-		ORDER BY nmlast";
-
-		$rows = $this->_db->select($sql, "s", [$letter]);
-		return $this->_getCollection($rows);
+		throw new exception("To be implemented");
 	}
 
 
@@ -61,20 +59,27 @@ class PersonsModel implements iListModel
 		throw new exception("To be implemented");
 	}
 
-
-	function getHofRecords() : array
+	function getMugshotRecords(int $id) : array
 	{
-		$sql = "SELECT *
-		FROM persons
-		WHERE dthof IS NOT NULL
-		ORDER BY dthof";
+		$sql = "SELECT * FROM photos p, personphotos pp
+				WHERE p.idphoto = pp.idphoto
+				AND p.idmugshot = ?
+				AND idperson = ?";
 
-		$rows = $this->_db->select($sql);
+		$rows = $this->_db->select($sql, "ii", [1, $id]);
 		return $this->_getCollection($rows);
 	}
 
+	function getSingleRecordById(int $id) : array
+	{
+		$sql = "SELECT * FROM photos
+				WHERE idphoto = ?";
 
-	/** subsection selects */
+		$rows = $this->_db->select($sql, "i", [$id]);
+
+		return $this->_getCollection($rows);
+	}
+
 	function getArticleRecords(int $id) : array
 	{
 		$sql = "SELECT p.*
@@ -90,13 +95,27 @@ class PersonsModel implements iListModel
 
 	function getClubRecords(int $id) : array
 	{
-		throw new exception("To be implemented");
+		$sql = "SELECT p.*
+		FROM photos p, clubphotos cp 
+		WHERE p.idphoto = cp.idphoto 
+		AND cp.idclub = ?
+		ORDER BY nryear, dtpublish";
+
+		$rows = $this->_db->select($sql, "i", [$id]);
+		return $this->_getCollection($rows);
 	}
 
 
     function getPersonRecords(int $id) : array
 	{
-		throw new exception("Not required for Persons");
+		$sql = "SELECT p.*
+		FROM photos p, personphotos pp 
+		WHERE p.idphoto = pp.idphoto 
+		AND pp.idperson = ?
+		ORDER BY nryear, dtpublish";
+
+		$rows = $this->_db->select($sql, "i", [$id]);
+		return $this->_getCollection($rows);
 	}
 
 
@@ -118,25 +137,18 @@ class PersonsModel implements iListModel
 		$this->_collection = [];
 		foreach ($rows as $row)
 		{
-			$person = [];			
+			$photo = [];
 
-			$person['id']			= $row['idperson'];
-			$person['firstName']	= $row['nmfirst'];
-			$person['surName']		= $row['nmsur'];
-			$person['lastName']		= $row['nmlast'];
+			$photo['id']		= $row['idphoto'];
+			$photo['subscript'] = $row['ftdescription'];
+			$photo['isMugshot'] = $row['idmugshot'];
 
-			$person['nickName']		= $row['nmnick'];
-			$person['gender']		= $row['cdgender'];
-			$person['birthDate']	= $row['dtbirth'];
-			$person['countryCode']	= $row['cdcountry'];
-			$person['isDead']		= $row['hasdied'];
-			$person['hallOfFameDate']	= $row['dthof'];
-			$person['hallOfFamePhoto']	= $row['idphotohof'];
-			$person['biography']	= $row['ftbiography'];
+			$photo['source']['id'] = $row['idsource'];
 
-			$person['person'] = $person;
 
-			$this->_collection[] = $person;
+			$photo['photo'] = $photo;
+
+			$this->_collection[] = $photo;
 		}
 		return $this->_collection;
 	}

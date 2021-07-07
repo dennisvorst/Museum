@@ -8,9 +8,8 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 require_once "iListModel.php";
 
-class PersonsModel implements iListModel
+class VideosModel implements iListModel
 {
-
 	protected $_collection	= [];
 
 	protected $_db;
@@ -22,14 +21,12 @@ class PersonsModel implements iListModel
 		$this->_log = $log;
 	}
 
-
-	/** get the articles of a specific year */
 	function getFeatured() : array
 	{
 		$sql = "SELECT *
-				FROM persons
+				FROM videos
    				WHERE is_featured = 1
-				ORDER BY nmlast";
+				ORDER BY nmvideo";
 
 		$rows = $this->_db->select($sql, "", []);
 		return $this->_getCollection($rows);
@@ -38,7 +35,7 @@ class PersonsModel implements iListModel
 
 	function getRecordsByYear(int $year) : array
 	{
-		throw new exception("To be implemented");
+		throw new exception("Not required for videos");
 	}
 
 
@@ -46,10 +43,9 @@ class PersonsModel implements iListModel
 	{
 		$letter .= "%";
 
-		$sql = "SELECT *
-		FROM persons
-		WHERE nmlast LIKE ?
-		ORDER BY nmlast";
+		$sql = "SELECT * 
+				FROM videos 
+				WHERE nmvideo LIKE ?";
 
 		$rows = $this->_db->select($sql, "s", [$letter]);
 		return $this->_getCollection($rows);
@@ -62,41 +58,21 @@ class PersonsModel implements iListModel
 	}
 
 
-	function getHofRecords() : array
-	{
-		$sql = "SELECT *
-		FROM persons
-		WHERE dthof IS NOT NULL
-		ORDER BY dthof";
-
-		$rows = $this->_db->select($sql);
-		return $this->_getCollection($rows);
-	}
-
-
-	/** subsection selects */
 	function getArticleRecords(int $id) : array
-	{
-		$sql = "SELECT p.*
-		FROM persons p, personarticles pa
-		WHERE p.idperson = pa.idperson
-		AND pa.idarticle = ?
-		ORDER BY nmlast";
-
-		$rows = $this->_db->select($sql, "i", [$id]);
-		return $this->_getCollection($rows);
-	}
-
-
-	function getClubRecords(int $id) : array
 	{
 		throw new exception("To be implemented");
 	}
 
 
+	function getClubRecords(int $id) : array
+	{
+		throw new exception("Not required for clubs");
+	}
+
+
     function getPersonRecords(int $id) : array
 	{
-		throw new exception("Not required for Persons");
+		throw new exception("To be implemented");
 	}
 
 
@@ -118,25 +94,15 @@ class PersonsModel implements iListModel
 		$this->_collection = [];
 		foreach ($rows as $row)
 		{
-			$person = [];			
+			$video = [];
 
-			$person['id']			= $row['idperson'];
-			$person['firstName']	= $row['nmfirst'];
-			$person['surName']		= $row['nmsur'];
-			$person['lastName']		= $row['nmlast'];
+			$video['id']		= $row['idvideo'];
+			$video['name']		= $row['nmvideo'];
+			$video['url']		= $row['nmurl'];
 
-			$person['nickName']		= $row['nmnick'];
-			$person['gender']		= $row['cdgender'];
-			$person['birthDate']	= $row['dtbirth'];
-			$person['countryCode']	= $row['cdcountry'];
-			$person['isDead']		= $row['hasdied'];
-			$person['hallOfFameDate']	= $row['dthof'];
-			$person['hallOfFamePhoto']	= $row['idphotohof'];
-			$person['biography']	= $row['ftbiography'];
+			$video['video'] = $video;
 
-			$person['person'] = $person;
-
-			$this->_collection[] = $person;
+			$this->_collection[] = $video;
 		}
 		return $this->_collection;
 	}
