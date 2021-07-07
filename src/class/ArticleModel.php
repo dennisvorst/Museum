@@ -6,11 +6,12 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 // *** Include Section
 //*********************************************************
-require_once "iModel.php";
+require_once "iPageModel.php";
 
 require_once "PersonsModel.php";
+require_once "ClubsModel.php";
 
-class ArticleModel implements iModel
+class ArticleModel implements iPageModel
 {
 	protected $_debug;
 
@@ -60,6 +61,9 @@ class ArticleModel implements iModel
    
 			/* look for persons */
 			$this->_result['persons'] = $this->_getPersonCollection($this->_id);
+
+			/* look for clubs */
+			$this->_result['clubs'] = $this->_getClubCollection($this->_id);
 		}
 	}
 
@@ -104,55 +108,14 @@ class ArticleModel implements iModel
 	protected function _getPersonCollection() : array 
 	{
 		$model = new PersonsModel($this->_db, $this->_log);
-		return $model->getArticlePersons($this->_id);
+		return $model->getArticleRecords($this->_id);
 	}
 
 
-	// protected function _getPersonCollection() : array 
-	// {
-	// 	if ($this->_debug){
-	// 		$this->_log->write(__METHOD__ );
-	// 	}
-
-	// 	if (empty($this->_personCollection))
-	// 	{
-	// 		/* get the persons that go with the article */
-	// 		$query	= "SELECT p.* FROM personarticles a, persons p WHERE idarticle = ? AND a.idperson = p.idperson ORDER BY p.nmlast";
-
-	// 		$rows	= $this->_db->select($query, "i", [$this->_id]);
-	// 		foreach ($rows as $row){
-	// 			$person = [];
-
-	// 			$person['id']			= $row['idperson'];
-	// 			$person['firstName']	= $row['nmfirst'];
-	// 			$person['surName']		= $row['nmsur'];
-	// 			$person['lastName']		= $row['nmlast'];
-		
-	// 			$this->_personCollection[]	= $person;
-	// 		}
-	// 	}
-	// 	return $this->_personCollection;
-	// }
-
-	
-	function getClubCollection() : array
+	protected function _getClubCollection() : array
 	{
-		if ($this->_debug){
-			$this->_log->write(__METHOD__ );
-		}
-
-		/* get the clubs that go with the article */
-		$query	= "SELECT c.* FROM clubs c, clubarticles ac WHERE idarticle = ? AND c.idclub = ac.idclub ORDER BY nmsearch";
-		$rows	= $this->_db->select($query, "i", [$this->_id]);
-
-		foreach ($rows as $row)
-		{
-			$club = [];
-
-
-			$this->_clubCollection[]	= $club;
-		}
-		return $this->_clubCollection;
+		$model = new ClubsModel($this->_db, $this->_log);
+		return $model->getArticleRecords($this->_id);
 	}
 }
 ?>

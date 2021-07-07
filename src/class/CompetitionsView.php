@@ -5,12 +5,12 @@ ini_set('display_errors', 'On');  //On or Off
 
 require_once "iListView.php";
 require_once "ListView.php";
-require_once "ClubView.php";
+require_once "CompetitionView.php";
 
-class ClubsView extends ListView implements iListView
+class CompetitionsView extends ListView implements iListView
 {
-  protected $_title = "Clubs";
-  protected $_columnCount = 3;
+  protected $_title = "Competities";
+  protected $_columnCount = 1;
   
 	function __construct(array $rows)
 	{
@@ -18,15 +18,9 @@ class ClubsView extends ListView implements iListView
 
     foreach ($rows as $row)
     {
-      $object = new ClubView($row);
+      $object = new CompetitionView($row);
       $this->_collection[] = $object->showThumbnail();
     }
-	}
-
-  function showArticlePage()
-	{
-		$this->_title = "Verenigingen in het artikel";
-		return $this->show();
 	}
 }
 ?>

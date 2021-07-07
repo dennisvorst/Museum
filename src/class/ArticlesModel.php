@@ -6,9 +6,9 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 // *** Include Section
 //*********************************************************
-require_once "iModel.php";
+require_once "iListModel.php";
 
-class ArticlesModel
+class ArticlesModel implements iListModel
 {
 
 	protected $_articlesCollection		= [];
@@ -26,33 +26,46 @@ class ArticlesModel
 	/** get the articles of a specific year */
 	function getFeatured() : array
 	{
-		$sql = "SELECT a.idarticle, fttitle1, a.dtpublish, nmauthor, ftarticle, min(ap.idphoto) AS idphoto, p.ftdescription
+		// $sql = "SELECT a.idarticle, fttitle1, a.dtpublish, nmauthor, ftarticle, min(ap.idphoto) AS idphoto, p.ftdescription
+		// 		FROM articles a
+   		// 		LEFT JOIN articlephotos ap ON ap.idarticle = a.idarticle
+   		// 		LEFT JOIN photos p ON p.idphoto = ap.idphoto
+   		// 		WHERE a.is_featured = 1
+		// 		GROUP BY a.idarticle";
+
+		$sql = "SELECT a.idarticle, fttitle1, a.dtpublish, nmauthor, ftarticle, min(ap.idphoto) AS idphoto, ap.ftdescription
 				FROM articles a
    				LEFT JOIN articlephotos ap ON ap.idarticle = a.idarticle
-   				LEFT JOIN photos p ON p.idphoto = ap.idphoto
    				WHERE a.is_featured = 1
 				GROUP BY a.idarticle";
 
 		$rows = $this->_db->select($sql, "", []);
-		return $this->_getArticlesCollection($rows);
+		return $this->_getCollection($rows);
 	}
 	
 
 	/** get the articles of a specific year */
-	function getYearArticles(int $year) : array
+	function getRecordsByYear(int $year) : array
 	{
-		$sql = "SELECT a.idarticle, fttitle1, dtpublish, nmauthor, ftarticle, idphoto
-				FROM articles a 
-				LEFT JOIN articlephotos ap ON a.idarticle = ap.idarticle
-				WHERE nryear = ?";
+		$sql = "SELECT a.idarticle, fttitle1, a.dtpublish, nmauthor, ftarticle, min(ap.idphoto) AS idphoto, ap.ftdescription
+				FROM articles a
+		   		LEFT JOIN articlephotos ap ON ap.idarticle = a.idarticle
+				WHERE a.nryear = ?
+				GROUP BY a.idarticle";
 
-		$rows = $this->_db->select($sql, "i", [$date]);
-		return $this->_getArticlesCollection($rows);
+		$rows = $this->_db->select($sql, "i", [$year]);
+		return $this->_getCollection($rows);
+	}
+
+
+	function getRecordsByAlphabet(string $letter) : array
+	{
+		throw new exception("Not required for articles");
 	}
 
 
 	/** get the articles of a specific date */
-	function getDateArticles(string $date) : array
+	function getRecordsByDate(string $date) : array
 	{
 		$sql = "SELECT a.idarticle, fttitle1, dtpublish, nmauthor, ftarticle, idphoto
 				FROM articles a 
@@ -60,11 +73,17 @@ class ArticlesModel
 				WHERE dtpublsh = ?";
 
 		$rows = $this->_db->select($sql, "s", [$date]);
-		return $this->_getArticlesCollection($rows);
+		return $this->_getCollection($rows);
 	}
 
 
-	function getClubArticles(int $id) : array
+	function getArticleRecords(int $id) : array
+	{
+		throw new exception("Not required for articles");
+	}
+
+
+	function getClubRecords(int $id) : array
 	{
 		$sql = "SELECT a.idarticle, fttitle1, dtpublish, nmauthor, ftarticle, idphoto
 				FROM clubarticles ac, articles a 
@@ -75,30 +94,46 @@ class ArticlesModel
 				LIMIT ? OFFSET ?";
 
 		$rows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
-		return $this->_getArticlesCollection($rows);
+		return $this->_getCollection($rows);
 	}
 
 
-	function getPersonArticles(int $id) : array 
+	function getPersonRecords(int $id) : array 
 	{
-		$sql = "SELECT a.idarticle, fttitle1, dtpublish, nmauthor, ftarticle, idphoto
-				FROM personarticles ap, articles a
+		$sql = "SELECT *
+				FROM personarticles pa, articles a
 				LEFT JOIN articlephotos ap ON a.idarticle = ap.idarticle
-				WHERE a.idarticle = ap.idarticle
-				AND ap.idperson = ?
-				ORDER BY a.dtpublish 
-				LIMIT ? OFFSET ?";
+				WHERE a.idarticle = pa.idarticle
+				AND pa.idperson = ?";
+				// ORDER BY a.dtpublish 
+				// LIMIT ? OFFSET ?";
 
-		$rows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
-		return $this->_getArticlesCollection($rows);
+//			$rows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
+			$rows = $this->_db->select($sql, "i", [$id]);
+			return $this->_getCollection($rows);
 	}
 
-	protected function _getArticlesCollection(array $rows) : array
+
+    function getPhotoRecords(int $id) : array
+	{
+		return [];
+	}
+
+
+    function getVideoRecords(int $id) : array
+	{
+		return [];
+	}
+
+
+	protected function _getCollection(array $rows) : array
 	{
 		/** add the properties we meed to create the thumbnail */
 		$this->_articlesCollection = [];
 		foreach ($rows as $row)
 		{
+			$article = [];
+
 			$article['article']['id'] = $row['idarticle'];
 			$article['article']['mainTitle'] = $row['fttitle1'];
 			$article['article']['publishDate'] = $row['dtpublish'];

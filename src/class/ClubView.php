@@ -3,10 +3,10 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-require_once "iView.php";
-require_once "View.php";
+require_once "iPageView.php";
+require_once "PageView.php";
 
-class ClubView extends View implements iView
+class ClubView extends PageView implements iPageView
 {
 	/* constructor */
 
@@ -19,7 +19,7 @@ class ClubView extends View implements iView
 	{
 		if (empty($row)) 
 		{
-			throw new exception("Video is mandatory");
+			throw new exception("Club is mandatory");
 		}
 
 		/** create the object */
@@ -27,7 +27,7 @@ class ClubView extends View implements iView
 		$this->_id = $row['id'];
 		$this->_name = $row['name'];
 
-		$this->_url = "Some Url";
+		$this->_url = $this->_getUrl(["option" => "club", "id" => $this->_id]);
 		$this->_logo = "Some Logo";
 
 		/** optional values */

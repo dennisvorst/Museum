@@ -3,37 +3,39 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-require_once "iView.php";
-require_once "MediaView.php";
-require_once "Social.php";
-require_once "PersonView.php";
+require_once "iListView.php";
+require_once "ListView.php";
+require_once "ArticleView.php";
 
-class ArticlesView
+class ArticlesView extends ListView implements iListView
 {
-  protected $_articlesCollection = [];
+	protected $_title = "Artikelen";
+	protected $_columnCount = 1;
+	
+	protected $_articlesCollection = [];
 
 	function __construct(array $rows)
 	{
-    foreach ($rows as $row)
-    {
-      $object = new ArticleView($row);
-      $this->_articlesCollection[] = $object->showThumbnail();
-    }
+		parent::__construct();
+
+		foreach ($rows as $row)
+		{
+			$object = new ArticleView($row);
+			$this->_collection[] = $object->showThumbnail();
+		}
 	}
 
 
-	function show() : string
+	function showPersons()
 	{
-    /** prepare */
-    $object = new  HtmlGrid();
-    $html = $object->createGrid($this->_articlesCollection, 1);
-
-    /** create */
-    return "
-      <h1>Artikelen</h1>
-
-      {$html}
-    ";
+		$this->_title = "Personen genoemd in dit article";
 	}
+
+
+	function showClubs()
+	{
+		$this->_title = "Verenigingen genoemd in dit article";
+	}
+
 }
 ?>

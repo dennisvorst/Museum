@@ -3,65 +3,12 @@
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
-require_once "iView.php";
+require_once "iPageView.php";
 require_once "MediaView.php";
-require_once "Social.php";
-require_once "PersonView.php";
-/**
-               </div>
-                            <div class="col-lg-6">
-                                <!-- main part of the website -->
-                                array(2) {
-  ["article"]=>
-  array(6) {
-    ["id"]=> 844
-    ["mainTitle"]=> "Ongenaakbaar HCAW hoofdklasser na 12-1 overwinning op Storks"
-    ["publishDate"]=> "13 september 1966"
-    ["authorName"]=> ""
-    ["text"]=>
-    string(3071) "Door een grandioze 12"
-    ["source"]=> {
-      ["logo"]=> "./images/sources/courant.jpg"
-    }
-  }
-  ["photos"]=> {
-    [0]=> {
-      ["id"]=>
-      ["url"]=> "option=photos&id=372"
-      ["image"]=> "372.jpg"
-      ["subscript"]=> "Nog onder de indruk van het gejuich van de Bussumse supporters namen de spelers van HCAW in het honkbalstadion de Escamp afscheid. De laatste line-up in de eerste klasse. Door een 12Ã¢â‚¬â€1 overwinning werd glansrijk de hoofdklasse bereikt."
-      ["source"]=> {
-        ["id"]=> 19
-      }
-    }
-    [1]=> {
-      ["id"]=>373
-      ["url"]=> "option=photos&id=373"
-      ["image"]=> "373.jpg"
-      ["subscript"]=> "Het naar de hoofdklasse van de K.N.H.B. gepromoveerde team van HCAW, onmiddellijk na de succesvolle wedstrijd tegen Storks in Den Haag. Jimmy Bell staat verscholen achter Rob Hoffmann."
-      ["source"]=>{
-        ["id"]=>19
-      }
-    }
-    [2]=> {
-      ["id"]=>
-      int(374)
-      ["url"]=>
-      string(20) "option=photos&id=374"
-      ["image"]=>
-      string(7) "374.jpg"
-      ["subscript"]=>
-      string(115) "Jimmy Bell brengt de stand voor HCAW in de eerste innings op 3-0. Scheidsrechter Schijvenaar kijkt nauwlettend toe."
-      ["source"]=>
-      array(1) {
-        ["id"]=>
-        int(19)
-      }
-    }
-  }
-}*/
+require_once "ClubsView.php";
+require_once "PersonsView.php";
 
-class ArticleView extends MediaView implements iView{
+class ArticleView extends MediaView implements iPageView{
 	/* defaults */
 	protected $_thumbTextLength = 380;
 
@@ -74,8 +21,9 @@ class ArticleView extends MediaView implements iView{
 	protected $_sourceLogo;
 
 	/** collection */
-	protected $_photoCollection = [];
+	protected $_clubCollection = [];
 	protected $_personCollection = [];
+	protected $_photoCollection = [];
 
 	function __construct(array $row)
 	{
@@ -109,6 +57,9 @@ class ArticleView extends MediaView implements iView{
 
 		/** persons */
 		$this->_personCollection = (isset($row['persons']) ? $row['persons'] : []);
+
+		/** clubs */
+		$this->_clubCollection = (isset($row['clubs']) ? $row['clubs'] : []);
 
 		if (!empty($this->_publishDate))
 		{
@@ -187,6 +138,8 @@ class ArticleView extends MediaView implements iView{
 		/** prepare */
 		$this->_articleText = $this->_getArticle($this->_articleText);
 		$persons = $this->_showPersons();
+		$clubs = $this->_showClubs();
+		
 
 		/** show */
 		return "
@@ -209,6 +162,7 @@ class ArticleView extends MediaView implements iView{
 			<div class='row'>{$this->_articleText}</div>
 		</div>
 		{$persons}
+		{$clubs}
 		";
 	}
 
@@ -299,26 +253,23 @@ class ArticleView extends MediaView implements iView{
 			return "";
 		}
 
-		/** create */
-		$html = "";
-		foreach ($this->_personCollection as $person)
-		{
-			$person = new PersonView(json_encode($person));
-			$persons[] = $person->showThumbnail();
+		$view = new PersonsView($this->_personCollection);
+	
+		return $view->showArticlePage();
+	}
 
-			$html .= $person->showThumbnail();
+
+	protected function _showClubs() : string 
+	{
+		if (empty($this->_clubCollection)) 
+		{
+			return "";
 		}
 
-
-		/** show */
-		$html = "
-		<div class='container'>
-			<h2>Personen genoemd in dit artikel</h2>
-			{$html}
-		</div>";
+		$view = new ClubsView($this->_clubCollection);
 	
-		return $html;
-		
+		return $view->showArticlePage();
 	}
+
 }
 ?>

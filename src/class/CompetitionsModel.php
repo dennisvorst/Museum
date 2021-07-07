@@ -8,9 +8,8 @@ ini_set('display_errors', 'On');  //On or Off
 //*********************************************************
 require_once "iListModel.php";
 
-class ClubsModel implements iListModel
+class CompetitionsModel implements iListModel
 {
-
 	protected $_collection	= [];
 
 	protected $_db;
@@ -22,14 +21,12 @@ class ClubsModel implements iListModel
 		$this->_log = $log;
 	}
 
-
-	/** get the articles of a specific year */
 	function getFeatured() : array
 	{
 		$sql = "SELECT *
-				FROM clubs
+				FROM videos
    				WHERE is_featured = 1
-				ORDER BY nmclub";
+				ORDER BY nmvideo";
 
 		$rows = $this->_db->select($sql, "", []);
 		return $this->_getCollection($rows);
@@ -38,21 +35,18 @@ class ClubsModel implements iListModel
 
 	function getRecordsByYear(int $year) : array
 	{
-		throw new exception("Not required for clubs");
+		$sql = "SELECT * 
+				FROM competitions 
+				WHERE nryear = ?";
+
+		$rows = $this->_db->select($sql, "i", [$year]);
+		return $this->_getCollection($rows);
 	}
 
 
 	function getRecordsByAlphabet(string $letter) : array
 	{
-		$letter .= "%";
-
-		$sql = "SELECT *
-		FROM clubs
-		WHERE nmclub LIKE ?
-		ORDER BY nmclub";
-
-		$rows = $this->_db->select($sql, "s", [$letter]);
-		return $this->_getCollection($rows);
+		throw new exception("Not required for videos");
 	}
 
 
@@ -64,14 +58,7 @@ class ClubsModel implements iListModel
 
 	function getArticleRecords(int $id) : array
 	{
-		$sql = "SELECT c.*
-		FROM clubs c, clubarticles ca
-		WHERE c.idclub  = ca.idclub
-		AND ca.idarticle = ?
-		ORDER BY nmclub";
-
-		$rows = $this->_db->select($sql, "i", [$id]);
-		return $this->_getCollection($rows);
+		throw new exception("To be implemented");
 	}
 
 
@@ -105,14 +92,15 @@ class ClubsModel implements iListModel
 		$this->_collection = [];
 		foreach ($rows as $row)
 		{
-			$club = [];
+			$competition = [];
 			
-			$club['id']		= $row['idclub'];
-			$club['name']	= $row['nmclub'];
+			$competition['id']		= $row['idcompetition'];
+			$competition['name']	= $row['nmcompetition'];
+			$competition['sub']		= $row['nmsub'];
 
-			$club['club'] = $club;
+			$competition['competition'] = $competition;
 
-			$this->_collection[] = $club;
+			$this->_collection[] = $competition;
 		}
 		return $this->_collection;
 	}
