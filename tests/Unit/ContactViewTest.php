@@ -9,5 +9,11 @@ class ContactViewTest extends TestCase
     {
         $this->assertTrue(class_exists("ContactView"));
     }
+
+    public function testClassContactViewCanBeInstatiated()
+    {
+		$object = new ContactView([]);
+		$this->assertInstanceOf(ContactView::class, $object);	
+    }
 }
 ?>

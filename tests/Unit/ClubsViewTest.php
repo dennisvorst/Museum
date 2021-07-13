@@ -9,5 +9,11 @@ class ClubsViewTest extends TestCase
     {
         $this->assertTrue(class_exists("ClubsView"));
     }
+
+    public function testClassClubsViewCanBeInstatiated()
+    {
+		$object = new ClubsView([]);
+		$this->assertInstanceOf(ClubsView::class, $object);	
+    }
 }
 ?>

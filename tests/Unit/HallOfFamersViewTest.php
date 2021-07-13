@@ -9,5 +9,11 @@ class HallOfFamersViewTest extends TestCase
     {
         $this->assertTrue(class_exists("HallOfFamersView"));
     }
+
+    public function testClassHallOfFamersViewCanBeInstatiated()
+    {
+		$object = new HallOfFamersView([]);
+		$this->assertInstanceOf(HallOfFamersView::class, $object);	
+    }
 }
 ?>

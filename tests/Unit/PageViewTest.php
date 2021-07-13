@@ -9,5 +9,11 @@ class PageViewTest extends TestCase
     {
         $this->assertTrue(class_exists("PageView"));
     }
+
+    public function testClassPageViewCanBeInstatiated()
+    {
+		$object = new PageView([]);
+		$this->assertInstanceOf(PageView::class, $object);	
+    }
 }
 ?>

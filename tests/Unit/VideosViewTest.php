@@ -9,5 +9,11 @@ class VideosViewTest extends TestCase
     {
         $this->assertTrue(class_exists("VideosView"));
     }
+
+    public function testClassVideosViewCanBeInstatiated()
+    {
+		$object = new VideosView([]);
+		$this->assertInstanceOf(VideosView::class, $object);	
+    }
 }
 ?>

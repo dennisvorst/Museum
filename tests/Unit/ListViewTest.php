@@ -9,5 +9,11 @@ class ListViewTest extends TestCase
     {
         $this->assertTrue(class_exists("ListView"));
     }
+
+    public function testClassListViewCanBeInstatiated()
+    {
+		$object = new ListView([]);
+		$this->assertInstanceOf(ListView::class, $object);	
+    }
 }
 ?>

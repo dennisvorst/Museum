@@ -9,5 +9,11 @@ class MediaViewTest extends TestCase
     {
         $this->assertTrue(class_exists("MediaView"));
     }
+
+    public function testClassMediaViewCanBeInstatiated()
+    {
+		$object = new MediaView([]);
+		$this->assertInstanceOf(MediaView::class, $object);	
+    }
 }
 ?>

@@ -9,5 +9,11 @@ class GamesViewTest extends TestCase
     {
         $this->assertTrue(class_exists("GamesView"));
     }
+
+    public function testClassGamesViewCanBeInstatiated()
+    {
+		$object = new GamesView([]);
+		$this->assertInstanceOf(GamesView::class, $object);	
+    }
 }
 ?>
