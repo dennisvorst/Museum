@@ -15,6 +15,11 @@ class HomeView
 
 	function __construct(array $rows)
 	{
+		if (empty($rows)) 
+		{
+			throw new InvalidArgumentException("Home is mandatory");
+		}
+
     $this->_articlesCollection= $rows['articles'];
     $this->_clubsCollection		= $rows['clubs'];
     $this->_personsCollection	= $rows['persons'];

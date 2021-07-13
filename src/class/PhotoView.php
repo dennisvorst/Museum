@@ -27,7 +27,7 @@ class PhotoView extends MediaView implements iPageView
 
 		if (empty($row)) 
 		{
-			throw new exception("Photo is mandatory");
+			throw new InvalidArgumentException("Photo is mandatory");
 		}
 
 		/** mandatory values */

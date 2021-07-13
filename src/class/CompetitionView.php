@@ -23,21 +23,23 @@ class CompetitionView extends PageView implements iPageView
 	{
 		if (empty($row)) 
 		{
-			throw new exception("Club is mandatory");
+			throw new InvalidArgumentException("Club is mandatory");
 		}
 
 		/** create the object */
-		$this->_id = $row['id'];
-		$this->_name = $row['name'];
-		$this->_sub = $row['sub'];
+		$competition = $row['competition'];
+
+		$this->_id = $competition['id'];
+		$this->_name = $competition['name'];
+		$this->_sub = $competition['sub'];
 
 		$this->_url = $this->_getNameWithUrl();
 
 		/** participants */
-		$this->_participantCollection = (isset($row['participants']) ? $row['participants'] : []);
+		$this->_participantCollection = (isset($competition['participants']) ? $competition['participants'] : []);
 
 		/** games */
-		$this->_gameCollection = (isset($row['games']) ? $row['games'] : []);
+		$this->_gameCollection = (isset($competition['games']) ? $competition['games'] : []);
 
 	}
 

@@ -31,7 +31,7 @@ class ArticleView extends MediaView implements iPageView{
 
 		if (empty($row)) 
 		{
-			throw new exception("Article is mandatory");
+			throw new InvalidArgumentException("Article is mandatory");
 		}
 
 		/** article */

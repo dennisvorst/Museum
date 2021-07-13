@@ -7,7 +7,7 @@ require_once "iPageView.php";
 
 class BookView implements iPageView
 {
-    function __construct(string $rows)
+    function __construct(array $row)
     {
     }
 

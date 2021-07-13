@@ -11,7 +11,7 @@ class VideoView extends PageView implements iPageView
 	{
 		if (empty($row)) 
 		{
-			throw new exception("Video is mandatory");
+			throw new InvalidArgumentException("Video is mandatory");
 		}
 
 		/** create the object */

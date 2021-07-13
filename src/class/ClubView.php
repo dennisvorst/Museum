@@ -19,13 +19,14 @@ class ClubView extends PageView implements iPageView
 	{
 		if (empty($row)) 
 		{
-			throw new exception("Club is mandatory");
+			throw new InvalidArgumentException("Club is mandatory");
 		}
 
 		/** create the object */
+		$club = $row['club'];
 
-		$this->_id = $row['id'];
-		$this->_name = $row['name'];
+		$this->_id = $club['id'];
+		$this->_name = $club['name'];
 
 		$this->_url = $this->_getUrl(["option" => "club", "id" => $this->_id]);
 		$this->_logo = "Some Logo";
