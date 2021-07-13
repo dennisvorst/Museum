@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
 
-class PersonModelTest extends TestCase
+class HomeModelTest extends TestCase
 {
     protected $_log;
 	protected $_db;
@@ -15,15 +15,15 @@ class PersonModelTest extends TestCase
 		$this->_log = $this->createMock(Log::class);
 	}
 
-    public function testClassPersonModel()
+    public function testClassHomeModel()
     {
-        $this->assertTrue(class_exists("PersonModel"));
+        $this->assertTrue(class_exists("HomeModel"));
     }
 
-    public function testClassPersonModelCanBeInstatiated()
+    public function testClassHomeModelCanBeInstatiated()
     {
-		$object = new PersonModel($this->_db, $this->_log, 1);
-		$this->assertInstanceOf(PersonModel::class, $object);	
+		$object = new HomeModel($this->_db, $this->_log);
+		$this->assertInstanceOf(HomeModel::class, $object);	
     }
 }
 ?>

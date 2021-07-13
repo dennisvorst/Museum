@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 class MenuBarTest extends TestCase
 {
-    public function testClassMenuBarExists()
+    public function testClassMenuBar()
     {
         $this->assertTrue(class_exists("MenuBar"));
     }

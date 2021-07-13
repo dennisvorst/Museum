@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 class SocialTest extends TestCase
 {
-    public function testClassSocialExists()
+    public function testClassSocial()
     {
         $this->assertTrue(class_exists("Social"));
     }

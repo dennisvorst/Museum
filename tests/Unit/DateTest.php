@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 class DateTest extends TestCase
 {
-    public function testClassExists()
+    public function testClassDate()
     {
         $this->assertTrue(class_exists("Date"));
     }
