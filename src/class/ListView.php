@@ -14,12 +14,6 @@ class ListView
 
 	function show() : string
 	{
-		/** if there are no records */
-		if (empty($this->_collection))
-		{
-			return "";
-		}
-
 		/** init */
 		if (empty($this->_title) || empty($this->_columnCount))
 		{
@@ -27,8 +21,13 @@ class ListView
 		}
 
 		/** prepare */
-		$object = new  BootstrapGrid($this->_collection, $this->_columnCount);
-		$html = $object->show();
+		$html = "Geen ". strtolower($this->_title) . " gevonden";
+		if (!empty($this->_collection))
+		{
+			$object = new  BootstrapGrid($this->_collection, $this->_columnCount);
+			$html = $object->show();
+		}
+		
 
 		/** create */
 		return "

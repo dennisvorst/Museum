@@ -21,7 +21,9 @@ class PersonView extends PageView implements iPageView
 	protected $_isDead;
 
 	protected $_mugshotPhoto;
-	protected $_hallOfFamePhoto;
+
+	protected $_hallOfFame = [];
+	protected $_hallOfFamePhoto = [];
 	protected $_hallOfFameDate;
 	protected $_hallOfFamePhotoId;
 
@@ -48,7 +50,6 @@ class PersonView extends PageView implements iPageView
 		$this->_surName		= (isset($person['surName']) ? $person['surName'] : null);
 		$this->_lastName	= $person['lastName'];
 		
-		$this->_hallOfFameDate	= (isset($person['halloffamedate']) ? $person['halloffamedate'] : "");
 		$this->_nickName		= (isset($person['nickName']) ? $person['nickName'] : "");
 		$this->_gender			= (isset($person['gender']) ? $person['gender'] : "");
 		$this->_birthDate		= (isset($person['birthDate']) ? $person['birthDate'] : "");
@@ -56,7 +57,13 @@ class PersonView extends PageView implements iPageView
 		$this->_isDead			= (isset($person['isDead']) ? $person['isDead'] : "");
 		$this->_biography		= (isset($person['biography']) ? $person['biography'] : "");
 
-		$this->_hallOfFamePhoto = (isset($person['hallOfFamePhoto']) ? $person['hallOfFamePhoto'] : []);
+		/** hall of fame */
+		if (isset($person['hallOfFame']))
+		{
+			$this->_hallOfFamePhoto['photo'] = $person['hallOfFame']['photo'];
+			$this->_hallOfFamePhotoId = $person['hallOfFame']['id'];
+			$this->_hallOfFameDate = $person['hallOfFame']['date'];
+		}
 
 		$this->_fullName = $this->_getFullName();
 
@@ -123,6 +130,8 @@ class PersonView extends PageView implements iPageView
 
 		//"./images/thumbnails/{$this->_hallOfFamePhoto}.jpg";
 //		$src = (empty($this->_hallOfFamePhoto) ? "" : $this->_hallOfFamePhoto->getSource(true));
+		$src = (empty($this->_mugshotPhoto) ? "" : $this->_mugshotPhoto->showThumbnail());
+		$src = "";
 		$href = $this->_getUrl(["option" => "person", "id" => $this->_id]);
 
 		return "

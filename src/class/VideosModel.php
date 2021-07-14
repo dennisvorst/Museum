@@ -28,7 +28,7 @@ class VideosModel implements iListModel
    				WHERE is_featured = 1
 				ORDER BY nmvideo";
 
-		$rows = $this->_db->select($sql, "", []);
+		$rows = $this->_db->select($sql);
 		return $this->_getCollection($rows);
 	}
 
@@ -42,10 +42,10 @@ class VideosModel implements iListModel
 	function getRecordsByAlphabet(string $letter) : array
 	{
 		$letter .= "%";
-
 		$sql = "SELECT * 
 				FROM videos 
 				WHERE nmvideo LIKE ?";
+
 
 		$rows = $this->_db->select($sql, "s", [$letter]);
 		return $this->_getCollection($rows);

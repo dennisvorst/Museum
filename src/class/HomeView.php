@@ -42,7 +42,7 @@ class HomeView
     $view = new PersonsView($this->_personsCollection);
     $html .= $view->show();
 
-    $view = new PhotosView($this->_personsCollection);
+    $view = new PhotosView($this->_photosCollection);
     $html .= $view->show();
 
     $view = new VideosView($this->_videosCollection);

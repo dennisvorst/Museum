@@ -12,7 +12,7 @@ class ArticlesView extends ListView implements iListView
 	protected $_title = "Artikelen";
 	protected $_columnCount = 1;
 	
-	protected $_articlesCollection = [];
+	protected $_collection = [];
 
 	function __construct(array $rows)
 	{

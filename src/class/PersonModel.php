@@ -35,7 +35,6 @@ class PersonModel implements iPageModel{
 		if (!empty($row))
 		{
 			$row = $row[0];
-//			$this->_idphotohof = $row['idphotohof'];
 
 			/** person */
 			$this->_result['id'] = $row['idperson'];
@@ -43,14 +42,14 @@ class PersonModel implements iPageModel{
 			$this->_result['firstName']	= $row['nmfirst'];
 			$this->_result['surName']	= $row['nmsur'];
 			$this->_result['lastName']	= $row['nmlast'];
-			$this->_result['halloffamedate'] = $row['dthof'];
+
+			$this->_result['halloffame']['date'] = $row['dthof'];
+			$this->_result['halloffame']['id'] = $row['idphotohof'];
 
 			/* look for the hall off fame photo */
 			if (isset($row['idphotohof']) && !empty($row['idphotohof']))
 			{
-				print_r($row['idphotohof']);
-
-				$this->_result['hallOfFamePhoto'] = $this->_getHofPhoto($row['idphotohof']);
+				$this->_result['halloffame']['photo'] = $this->_getHofPhoto($row['idphotohof']);
 			}
 
 			/* look for a photo */
