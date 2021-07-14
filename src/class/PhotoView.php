@@ -25,22 +25,24 @@ class PhotoView extends MediaView implements iPageView
 	{
 		parent::__construct();
 
-		if (empty($row)) 
+		if (empty($row) | !isset($row['photo']) | !isset($row['photo']['id']))
 		{
 			throw new InvalidArgumentException("Photo is mandatory");
 		}
 
+		$photo = $row['photo'];
+
 		/** mandatory values */
-		$this->_id = $row['id'];
+		$this->_id = $photo['id'];
 
 		/** optional values */
-		$this->_alignment = (isset($row['alignment']) ? $row['alignment'] : null);
-		$this->_width = (isset($row['width']) ? $row['width'] : null);
-		$this->_height = (isset($row['height']) ? $row['height'] : null);
-		$this->_subscript = (isset($row['subscript']) ? $row['subscript'] : null);
-		$this->_sourceUrl = (isset($row['sourceUrl']) ? $row['sourceUrl'] : null);
+		$this->_alignment = (isset($photo['alignment']) ? $photo['alignment'] : null);
+//		$this->_width = (isset($photo['width']) ? $photo['width'] : null);
+//		$this->_height = (isset($photo['height']) ? $photo['height'] : null);
+		$this->_subscript = (isset($photo['subscript']) ? $photo['subscript'] : null);
+		$this->_sourceUrl = (isset($photo['sourceUrl']) ? $photo['sourceUrl'] : null);
 
-		$this->_isMugshot = (isset($row['isMugshot']) ? $row['isMugshot'] : false);
+		$this->_isMugshot = (isset($photo['isMugshot']) ? $photo['isMugshot'] : false);
 
 		/** calculated values */
 		$this->_image = $this->_id . ".jpg";

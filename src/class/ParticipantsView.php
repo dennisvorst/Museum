@@ -9,26 +9,25 @@ require_once "CompetitionView.php";
 
 class ParticipantsView extends ListView implements iListView
 {
-  protected $_title = "Competities";
-  protected $_columnCount = 1;
-  
+	protected $_title = "Competities";
+	protected $_columnCount = 1;
+
 	function __construct(array $rows)
 	{
 		parent::__construct();
 
-    foreach ($rows as $row)
-    {
-      $object = new CompetitionView($row);
-      $this->_collection[] = $object->showThumbnail();
-    }
+		foreach ($rows as $row)
+		{
+			$object = new CompetitionView($row);
+			$this->_collection[] = $object->showThumbnail();
+		}
+	}
 
-
-    function show() : string
-    {
-      return "
-        <h2>Deelnemers</h2>
-      ";
-    }
+	function show() : string
+	{
+		return "
+		<h2>Deelnemers</h2>
+		";
 	}
 }
 ?>

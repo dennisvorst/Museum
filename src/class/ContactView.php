@@ -45,5 +45,11 @@ class ContactView
 		";
 
 	}
+
+	function showThumbnail() : String
+	{
+		throw new exception("Not implemented.");
+	}
+
 }
 ?>

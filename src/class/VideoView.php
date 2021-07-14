@@ -9,15 +9,17 @@ class VideoView extends PageView implements iPageView
 
 	function __construct(array $row)
 	{
-		if (empty($row)) 
+		if (empty($row) | !isset($row['video']) | !isset($row['video']['id']))
 		{
 			throw new InvalidArgumentException("Video is mandatory");
 		}
 
 		/** create the object */
-		$this->_id = $row['id'];
-		$this->_name = $row['name'];
-		$this->_url= $row['url'];
+		$video = $row['video'];
+
+		$this->_id = $video['id'];
+		$this->_name = $video['name'];
+		$this->_url= $video['url'];
 	}
 
 

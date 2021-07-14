@@ -21,9 +21,9 @@ class CompetitionView extends PageView implements iPageView
 
 	function __construct(array $row)
 	{
-		if (empty($row)) 
+		if (empty($row) | !isset($row['competition']) | !isset($row['competition']['id']))
 		{
-			throw new InvalidArgumentException("Club is mandatory");
+			throw new InvalidArgumentException("Competition is mandatory");
 		}
 
 		/** create the object */

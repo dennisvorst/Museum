@@ -16,7 +16,7 @@ class PersonModel implements iPageModel{
 	protected $_articleCollection = [];
 	protected $_videoCollection = [];
 
-	protected $_idphotohof;
+//	protected $_idphotohof;
 	protected $_mugshot;
 
 	function __construct(MysqlDatabase $db, Log $log, int $id)
@@ -24,8 +24,6 @@ class PersonModel implements iPageModel{
 		$this->_db = $db;
 		$this->_log = $log;
 		$this->_id = $id;
-
-		
 
 		// $sql = "SELECT * FROM persons p
 		// 		LEFT JOIN photos pp ON p.idphotohof = pp.idphoto
@@ -37,7 +35,7 @@ class PersonModel implements iPageModel{
 		if (!empty($row))
 		{
 			$row = $row[0];
-			$this->_idphotohof = $row['idphotohof'];
+//			$this->_idphotohof = $row['idphotohof'];
 
 			/** person */
 			$this->_result['id'] = $row['idperson'];
@@ -48,7 +46,12 @@ class PersonModel implements iPageModel{
 			$this->_result['halloffamedate'] = $row['dthof'];
 
 			/* look for the hall off fame photo */
-			$this->_getHofPhoto($row['idphotohof']);
+			if (isset($row['idphotohof']) && !empty($row['idphotohof']))
+			{
+				print_r($row['idphotohof']);
+
+				$this->_result['hallOfFamePhoto'] = $this->_getHofPhoto($row['idphotohof']);
+			}
 
 			/* look for a photo */
 			$this->_result['photos'] = $this->_getPhotoCollection($this->_id);
@@ -58,11 +61,20 @@ class PersonModel implements iPageModel{
 		}
 	}
 
+
 	function getData() : array
 	{
 		return $this->_result;
 	}
 
+
+	protected function _getHofPhoto(int $id) : array
+	{
+		$model = new PhotoModel($this->_db, $this->_log, $id);
+		return $model->getData();
+	}
+
+	/** collections */
 	protected function _getPhotoCollection() : array
 	{
 		$model = new PhotosModel($this->_db, $this->_log);
@@ -77,26 +89,13 @@ class PersonModel implements iPageModel{
 		return $rows;
 	}
 
+
 	protected function _getArticleCollection() : array
 	{
 		$model = new ArticlesModel($this->_db, $this->_log);
 		return $model->getPersonRecords($this->_id);
 	}
 
-	protected function _getHofPhoto(int $id) : array
-	{
-		if (empty($id))
-		{
-			return [];
-		}
-		else
-		{
-			$model = new PhotosModel($this->_db, $this->_log);
-			$row = $model->getSingleRecordById($id);
-			print_r($row);
-			print_r($id);
-			return $row;
-		}
-	}
+
 }
 ?>

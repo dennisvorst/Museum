@@ -17,7 +17,7 @@ class ClubView extends PageView implements iPageView
 
 	function __construct(array $row)
 	{
-		if (empty($row)) 
+		if (empty($row) | !isset($row['club']) | !isset($row['club']['id']))
 		{
 			throw new InvalidArgumentException("Club is mandatory");
 		}

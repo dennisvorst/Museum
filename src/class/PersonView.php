@@ -19,11 +19,11 @@ class PersonView extends PageView implements iPageView
 	protected $_birthDate;
 	protected $_countryCode;
 	protected $_isDead;
+
+	protected $_mugshotPhoto;
+	protected $_hallOfFamePhoto;
 	protected $_hallOfFameDate;
 	protected $_hallOfFamePhotoId;
-
-	protected $_mugshot;
-	protected $_hallOfFamePhoto;
 
 	protected $_fullName;
 	protected $_biography;
@@ -34,26 +34,30 @@ class PersonView extends PageView implements iPageView
 
 	function __construct(array $row)
 	{
-		if (empty($row)) 
+		if (empty($row) | !isset($row['person']) | !isset($row['person']['id']))
 		{
-			throw new exception("Person is mandatory");
+			throw new InvalidArgumentException("Person is mandatory");
 		}
 
+		$person = $row['person'];
+
+
 		/** person */
-		$this->_id = $row['id'];
-		$this->_firstName 	= $row['firstName'];
-		$this->_surName		= (isset($row['surName']) ? $row['surName'] : null);
-		$this->_lastName	= $row['lastName'];
+		$this->_id = $person['id'];
+		$this->_firstName 	= $person['firstName'];
+		$this->_surName		= (isset($person['surName']) ? $person['surName'] : null);
+		$this->_lastName	= $person['lastName'];
 		
-		$this->_hallOfFameDate = (isset($row['halloffamedate']) ? $row['halloffamedate'] : "");
-		$this->_nickName = (isset($row['nickName']) ? $row['nickName'] : "");
-		$this->_gender = (isset($row['gender']) ? $row['gender'] : "");
-		$this->_birthDate = (isset($row['birthDate']) ? $row['birthDate'] : "");
-		$this->_countryCode = (isset($row['countryCode']) ? $row['countryCode'] : "");
-		$this->_isDead = (isset($row['isDead']) ? $row['isDead'] : "");
-		$this->_hallOfFamePhotoId = (isset($row['hallOfFamePhoto']) ? $row['hallOfFamePhoto'] : "");
-		$this->_biography = (isset($row['biography']) ? $row['biography'] : "");
-		
+		$this->_hallOfFameDate	= (isset($person['halloffamedate']) ? $person['halloffamedate'] : "");
+		$this->_nickName		= (isset($person['nickName']) ? $person['nickName'] : "");
+		$this->_gender			= (isset($person['gender']) ? $person['gender'] : "");
+		$this->_birthDate		= (isset($person['birthDate']) ? $person['birthDate'] : "");
+		$this->_countryCode		= (isset($person['countryCode']) ? $person['countryCode'] : "");
+		$this->_isDead			= (isset($person['isDead']) ? $person['isDead'] : "");
+		$this->_biography		= (isset($person['biography']) ? $person['biography'] : "");
+
+		$this->_hallOfFamePhoto = (isset($person['hallOfFamePhoto']) ? $person['hallOfFamePhoto'] : []);
+
 		$this->_fullName = $this->_getFullName();
 
 		/** articles */
@@ -61,8 +65,11 @@ class PersonView extends PageView implements iPageView
 		/** videos */
 		$this->_videoCollection = (isset($row['videos']) ? $row['videos'] : []);
 		/** photos */
+//		$this->_photoCollection = (isset($row['photos']) ? $this->_getPhotoCollection($row['photos']) : []);
+		$this->_photoCollection = (isset($row['photos']) ? $row['photos'] : []);		
 
-		$this->_photoCollection = (isset($row['photos']) ? $this->_getPhotoCollection($row['photos']) : []);
+		/** get the mugshot */
+		$this->_getMugshot($this->_hallOfFamePhoto, $this->_photoCollection);
 	}
 
 	function showThumbnail() : string
@@ -115,7 +122,7 @@ class PersonView extends PageView implements iPageView
 		/* todo connect to mediaview */
 
 		//"./images/thumbnails/{$this->_hallOfFamePhoto}.jpg";
-		$src = (empty($this->_hallOfFamePhoto) ? "" : $this->_hallOfFamePhoto->getSource(true));
+//		$src = (empty($this->_hallOfFamePhoto) ? "" : $this->_hallOfFamePhoto->getSource(true));
 		$href = $this->_getUrl(["option" => "person", "id" => $this->_id]);
 
 		return "
@@ -173,7 +180,8 @@ class PersonView extends PageView implements iPageView
 
 	protected function _getPhotoAndText()
 	{
-		$mugshot = $this->_showMugshot();
+		/** mugshot is a photoView */
+		$mugshot = (empty($this->_mugshotPhoto) ? "" : $this->_mugshotPhoto->show());
 
 		if (!empty($this->_biography) && !empty($mugshot)) 
 		{
@@ -207,7 +215,6 @@ class PersonView extends PageView implements iPageView
 				{$this->_biography}
 			</div>
 			";
-
 		}
 		else 
 		{
@@ -217,33 +224,24 @@ class PersonView extends PageView implements iPageView
 	}
 
 
-	/** show the thumbnail mugshot */
-	protected function _showThumbnailMugshot()
+	function _getMugshot(array $hallOfFamePhoto, array $photoCollection) : void
 	{
-		if (!empty($this->_hallOfFamePhoto)) 
-		{
-			return $this->_hallOfFamePhoto->showThumbnail();
-		} elseif (!empty($this->_mugshot))
-		{
-			return $this->_mugshot->showThumbnail();
-		}
-	}
+		/** mugshot is either the HOF photo or a mugshot from the photolist or nothing */
 
-
-	/** show the mugshot */
-	protected function _showMugshot() : string 
-	{
-		if (!empty($this->_hallOfFamePhoto)) 
+		if (!empty($hallOfFamePhoto))
 		{
-			return $this->_hallOfFamePhoto->show();
-		}
-		elseif (!empty($this->_mugshot))
-		{
-			return $this->_mugshot->show();
-		}
+			$this->_mugshotPhoto = new PhotoView($hallOfFamePhoto);
+		} 
 		else 
 		{
-			return "";
+			foreach ($photoCollection as $row)
+			{
+				if (isset($row['isMugshot']) && $row['isMugshot'] === "J")
+				{
+					$this->_mugshotPhoto = new PhotoView($row);
+					return;
+				}
+			}
 		}
 	}
 
@@ -274,14 +272,6 @@ class PersonView extends PageView implements iPageView
 			foreach ($photos as $photo)
 			{
 				$photo = new PhotoView($photo);
-				if (empty($this->_mugshot) && $photo->isMugshot())
-				{
-					$this->_mugshot = $photo;
-				}
-				if (empty($this->__hallOfFamePhoto) && $this->_hallOfFamePhotoId === $photo->getId())
-				{
-					$this->__hallOfFamePhoto = $photo;
-				}
 				$this->_photoCollection[] = $photo;
 			}
 		}
@@ -316,8 +306,6 @@ class PersonView extends PageView implements iPageView
 
 		/** create */
 		$html = "";
-		
-		
 		return $html;
 	}
 
@@ -327,8 +315,6 @@ class PersonView extends PageView implements iPageView
 
 		/** create */
 		$html = "";
-		
-		
 		return $html;
 	}
 }

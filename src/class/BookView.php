@@ -9,6 +9,13 @@ class BookView implements iPageView
 {
     function __construct(array $row)
     {
+		if (empty($row) | !isset($row['book']) | !isset($row['book']['id']))
+		{
+			throw new InvalidArgumentException("Book is mandatory");
+		}
+
+		$person = $row['book'];
+
     }
 
     function show() : string

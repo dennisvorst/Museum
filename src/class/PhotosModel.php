@@ -70,15 +70,15 @@ class PhotosModel implements iListModel
 		return $this->_getCollection($rows);
 	}
 
-	function getSingleRecordById(int $id) : array
-	{
-		$sql = "SELECT * FROM photos
-				WHERE idphoto = ?";
+	// function getSingleRecordById(int $id) : array
+	// {
+	// 	$sql = "SELECT * FROM photos
+	// 			WHERE idphoto = ?";
 
-		$rows = $this->_db->select($sql, "i", [$id]);
+	// 	$rows = $this->_db->select($sql, "i", [$id]);
 
-		return $this->_getCollection($rows);
-	}
+	// 	return $this->_getCollection($rows);
+	// }
 
 	function getArticleRecords(int $id) : array
 	{
