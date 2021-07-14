@@ -5,6 +5,19 @@ use PHPUnit\Framework\TestCase;
 
 class HomeViewTest extends TestCase
 {
+	protected $_row;
+
+    protected function setUp() : void
+    {
+		$home['articles'] = [];
+		$home['clubs'] = [];
+		$home['persons'] = [];
+		$home['photos'] = [];
+		$home['videos'] = [];
+  
+		$this->_row = $home;
+    }
+	
     public function testClassHomeView()
     {
         $this->assertTrue(class_exists("HomeView"));
@@ -12,23 +25,14 @@ class HomeViewTest extends TestCase
 
     public function testClassHomeViewCanBeInstatiated()
     {
-      $home['articles'] = [];
-      $home['clubs'] = [];
-      $home['persons'] = [];
-      $home['photos'] = [];
-      $home['videos'] = [];
-
-      $object = new HomeView($home);
-
+		$object = new HomeView($this->_row);
 	  	$this->assertInstanceOf(HomeView::class, $object);	
     }
 
     public function testEmptyHomeThrowsException()
     {
-      $this->expectException(InvalidArgumentException::class);
-
-      $object = new HomeView([]);
-//      $this->assertInstanceOf(HomeView::class, $object);	
-    }
+		$this->expectException(InvalidArgumentException::class);
+		$object = new HomeView([]);
+	}
 }
 ?>

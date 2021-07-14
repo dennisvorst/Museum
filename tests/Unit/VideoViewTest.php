@@ -5,6 +5,17 @@ use PHPUnit\Framework\TestCase;
 
 class VideoViewTest extends TestCase
 {
+	protected $_row;
+
+    protected function setUp() : void
+    {
+		$video['id'] = 1;
+		$video['name'] = "Angels in the outfield";
+		$video['url'] = "qwerty";
+  
+		$this->_row['video'] = $video;
+    }
+
     public function testClassVideoView()
     {
         $this->assertTrue(class_exists("VideoView"));
@@ -12,21 +23,30 @@ class VideoViewTest extends TestCase
 
     public function testClassVideoViewCanBeInstatiated()
     {
-      $video['id'] = 1;
-      $video['name'] = "Angels in the outfield";
-      $video['url'] = "qwerty";
-
-      $video['video'] = $video;
-
-  		$object = new VideoView($video);
+ 		$object = new VideoView($this->_row);
 	  	$this->assertInstanceOf(VideoView::class, $object);	
     }
 
     public function testEmptyVideoThrowsException()
     {
-      $this->expectException(InvalidArgumentException::class);
-
-      $object = new VideoView([]);
+		$this->expectException(InvalidArgumentException::class);
+		$object = new VideoView([]);
     }
+
+	/** show */
+	public function testFunctionShowReturnsString()
+	{
+		$object = new VideoView($this->_row);
+		$actual = $object->show();
+		$this->assertIsString($actual);	
+	}
+
+	/** thumbnail */
+	public function testFunctionShowThumbnailReturnsString()
+	{
+		$object = new VideoView($this->_row);
+		$actual = $object->showThumbnail();
+		$this->assertIsString($actual);	
+	}
 }
 ?>
