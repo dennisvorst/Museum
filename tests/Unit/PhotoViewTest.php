@@ -36,7 +36,7 @@ class PhotoViewTest extends TestCase
 	public function testFunctionShowReturnsString()
 	{
 		$object = new PhotoView($this->_row);
-		$actual = $object->show("some text");
+		$actual = $object->show();
 		$this->assertIsString($actual);	
 	}
 
@@ -47,5 +47,49 @@ class PhotoViewTest extends TestCase
 		$actual = $object->showThumbnail();
 		$this->assertIsString($actual);	
 	}
+
+	/** showPhoto */
+	public function testFunctionShowPhotoReturnsString()
+	{
+		$object = new PhotoView($this->_row);
+
+		/** without alternative text */
+		$actual = $object->showPhoto();
+		$this->assertIsString($actual);	
+
+		$expected = "<img src='./images/photos/1.jpg' class='rounded'>"; 
+		$this->assertEquals($actual, $expected);	
+
+		/** with alternative text */
+		$object = new PhotoView($this->_row);
+		$actual = $object->showPhoto("some text");
+		$this->assertIsString($actual);	
+
+		$expected = "<img src='./images/photos/1.jpg' class='rounded' alt='some text'>"; 
+		$this->assertEquals($actual, $expected);	
+	}
+
+
+	/** showThumbnailPhoto */
+	public function testFunctionShowThumbnailPhotoReturnsString()
+	{
+		/** without alternative text */
+		$object = new PhotoView($this->_row);
+		$actual = $object->showThumbnailPhoto();
+		$this->assertIsString($actual);	
+
+		$expected = "<img src='./images/thumbnails/1.jpg' class='rounded'>"; 
+		$this->assertEquals($actual, $expected);	
+
+		/** with alternative text */
+		$object = new PhotoView($this->_row);
+		$actual = $object->showThumbnailPhoto("some text");
+		$this->assertIsString($actual);	
+
+		$expected = "<img src='./images/thumbnails/1.jpg' class='rounded' alt='some text'>"; 
+		$this->assertEquals($actual, $expected);	
+	}
+
+
 }
 ?>
