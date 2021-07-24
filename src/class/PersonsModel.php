@@ -94,7 +94,7 @@ class PersonsModel implements iListModel
 	}
 
 
-    function getPersonRecords(int $id) : array
+    function getPersonalRecords(int $id) : array
 	{
 		throw new exception("Not required for Persons");
 	}
@@ -130,11 +130,22 @@ class PersonsModel implements iListModel
 			$person['birthDate']	= $row['dtbirth'];
 			$person['countryCode']	= $row['cdcountry'];
 			$person['isDead']		= $row['hasdied'];
-			$person['hallOfFameDate']	= $row['dthof'];
-			$person['hallOfFamePhoto']	= $row['idphotohof'];
-			$person['biography']	= $row['ftbiography'];
 
-			$person['person'] = $person;
+			if (!empty($row['dthof']))
+			{
+				$person['hallOfFame']['date']			= $row['dthof'];
+				if (!empty($row['idphotohof']))
+				{
+					$person['hallOfFame']['photo']['id']	= $row['idphotohof'];
+				}
+			}
+
+			$person['biography']	= $row['ftbiography'];
+			$person['person'] 		= $person;
+
+			/** get the mugshots */
+			$photosModel = new PhotosModel($this->_db, $this->_log);
+			$person['photos'] = $photosModel->getPersonMugshots($person['id']);
 
 			$this->_collection[] = $person;
 		}

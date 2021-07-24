@@ -9,7 +9,7 @@ interface iListModel
 
     function getArticleRecords(int $id) : array;
     function getClubRecords(int $id) : array;
-    function getPersonRecords(int $id) : array;
+    function getPersonalRecords(int $id) : array;
     function getPhotoRecords(int $id) : array;
     function getVideoRecords(int $id) : array;
 

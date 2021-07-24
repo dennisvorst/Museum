@@ -48,13 +48,11 @@ class ArticleModel implements iPageModel
 		{
 			$row = $row[0];
 
-			$this->_result['id'] = $row['idarticle'];;
-			$this->_result['mainTitle'] = $row['fttitle1'];
-			$this->_result['publishDate'] = $row['dtpublish'];
-			$this->_result['authorName'] = $row['nmauthor'];
-			$this->_result['text'] = $row['ftarticle'];
-
-			$this->_result['article'] = $this->_result;
+			$this->_result['article']['id'] = $row['idarticle'];;
+			$this->_result['article']['mainTitle'] = $row['fttitle1'];
+			$this->_result['article']['publishDate'] = $row['dtpublish'];
+			$this->_result['article']['authorName'] = $row['nmauthor'];
+			$this->_result['article']['text'] = $row['ftarticle'];
 			
 			/* look for a photo */
 			$this->_result['photos'] = $this->_getPhotoCollection($this->_id);
@@ -64,6 +62,9 @@ class ArticleModel implements iPageModel
 
 			/* look for clubs */
 			$this->_result['clubs'] = $this->_getClubCollection($this->_id);
+
+			/* look for videos */
+			$this->_result['videos'] = $this->_getVideoCollection($this->_id);
 		}
 	}
 
@@ -115,6 +116,12 @@ class ArticleModel implements iPageModel
 	protected function _getClubCollection() : array
 	{
 		$model = new ClubsModel($this->_db, $this->_log);
+		return $model->getArticleRecords($this->_id);
+	}
+
+	protected function _getVideoCollection() : array
+	{
+		$model = new VideosModel($this->_db, $this->_log);
 		return $model->getArticleRecords($this->_id);
 	}
 }

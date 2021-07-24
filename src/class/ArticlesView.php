@@ -17,7 +17,6 @@ class ArticlesView extends ListView implements iListView
 	function __construct(array $rows)
 	{
 		parent::__construct();
-
 		foreach ($rows as $row)
 		{
 			$object = new ArticleView($row);
@@ -26,16 +25,21 @@ class ArticlesView extends ListView implements iListView
 	}
 
 
-	function showPersons()
+	// function showPersons()
+	// {
+	// 	$this->_title = "Personen genoemd in dit article";
+	// }
+
+
+	// function showClubs()
+	// {
+	// 	$this->_title = "Verenigingen genoemd in dit article";
+	// }
+
+	function showPersonalArticles()
 	{
-		$this->_title = "Personen genoemd in dit article";
+		$this->_title = "Artikelen van deze persoon";
+		return $this->show();
 	}
-
-
-	function showClubs()
-	{
-		$this->_title = "Verenigingen genoemd in dit article";
-	}
-
 }
 ?>

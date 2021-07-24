@@ -9,6 +9,11 @@ ini_set('display_errors', 'On');  //On or Off
 require_once "iPageModel.php";
 require_once "PhotosModel.php";
 
+require_once "PitchersModel.php";
+require_once "FieldersModel.php";
+require_once "HittersModel.php";
+
+
 class PersonModel implements iPageModel{
 
 	/** collections */
@@ -16,8 +21,8 @@ class PersonModel implements iPageModel{
 	protected $_articleCollection = [];
 	protected $_videoCollection = [];
 
-//	protected $_idphotohof;
-	protected $_mugshot;
+	protected $_pitchingCollection = [];
+
 
 	function __construct(MysqlDatabase $db, Log $log, int $id)
 	{
@@ -37,11 +42,11 @@ class PersonModel implements iPageModel{
 			$row = $row[0];
 
 			/** person */
-			$this->_result['id'] = $row['idperson'];
+			$this->_result['person']['id'] = $row['idperson'];
 
-			$this->_result['firstName']	= $row['nmfirst'];
-			$this->_result['surName']	= $row['nmsur'];
-			$this->_result['lastName']	= $row['nmlast'];
+			$this->_result['person']['firstName']	= $row['nmfirst'];
+			$this->_result['person']['surName']	= $row['nmsur'];
+			$this->_result['person']['lastName']	= $row['nmlast'];
 
 			$this->_result['halloffame']['date'] = $row['dthof'];
 			$this->_result['halloffame']['id'] = $row['idphotohof'];
@@ -57,6 +62,13 @@ class PersonModel implements iPageModel{
    
 			/* look for clubs */
 			$this->_result['articles'] = $this->_getArticleCollection($this->_id);
+
+
+			/* look for stats */
+			$this->_result['stats']['pitching'] = $this->_getPitchingCollection($this->_id);
+			$this->_result['stats']['hitting'] = $this->_getHittingCollection($this->_id);
+			$this->_result['stats']['fielding'] = $this->_getFieldingCollection($this->_id);
+
 		}
 	}
 
@@ -73,28 +85,40 @@ class PersonModel implements iPageModel{
 		return $model->getData();
 	}
 
+
 	/** collections */
 	protected function _getPhotoCollection() : array
 	{
 		$model = new PhotosModel($this->_db, $this->_log);
-		$rows = $model->getPersonRecords($this->_id);
-		foreach ($rows as $row)
-		{
-			if (empty($this->_mugshot && $row['isMugshot']))
-			{
-				$this->_mugshot = $row;
-			}
-		}
-		return $rows;
+		return $model->getPersonalRecords($this->_id);
 	}
 
 
 	protected function _getArticleCollection() : array
 	{
 		$model = new ArticlesModel($this->_db, $this->_log);
-		return $model->getPersonRecords($this->_id);
+		return $model->getPersonalRecords($this->_id);
 	}
 
 
+	protected function _getPitchingCollection() : array
+	{
+		$model = new PitchersModel($this->_db, $this->_log);
+		return $model->getPersonalRecords($this->_id);
+	}
+
+	
+	protected function _getHittingCollection() : array
+	{
+		$model = new HittersModel($this->_db, $this->_log);
+		return $model->getPersonalRecords($this->_id);
+	}
+
+
+	protected function _getFieldingCollection() : array
+	{
+		$model = new FieldersModel($this->_db, $this->_log);
+		return $model->getPersonalRecords($this->_id);
+	}
 }
 ?>

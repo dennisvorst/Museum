@@ -81,7 +81,7 @@ class ClubsModel implements iListModel
 	}
 
 
-    function getPersonRecords(int $id) : array
+    function getPersonalRecords(int $id) : array
 	{
 		throw new exception("To be implemented");
 	}

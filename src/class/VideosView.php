@@ -23,5 +23,12 @@ class VideosView extends ListView implements iListView
 			$this->_collection[] = $object->showThumbnail();
 		}
 	}
+
+
+	function showPersonalVideos()
+	{
+		$this->_title = "Video's van deze persoon";
+		return $this->show();
+	}
 }
 ?>

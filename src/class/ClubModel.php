@@ -32,6 +32,7 @@ class ClubModel implements iPageModel
 			$this->_result['id'] = $row['idclub'];;
 			$this->_result['name'] = $row['nmclub'];;
 
+			$this->_result['club'] = $this->_result;
 		}
 	}
 

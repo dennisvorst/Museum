@@ -1,10 +1,32 @@
 <?php
+/**
+ * Person
+ * 	- id
+ * 	- articles
+ * 	- photos
+ * 	- videos - tbd
+ * 	- stats
+ * 		- hitting
+ * 		- pitching
+ * 		- fielding
+ * 		- hittingtotal
+ * 		- pitchingtotal
+ * 		- fieldingtotal
+ * 		 
+ *
+ */
+
 /* for testing purposes */
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');  //On or Off
 
 require_once "iPageView.php";
 require_once "PageView.php";
+require_once "HtmlTabPage.php";
+
+require_once "HittersView.php";
+require_once "PitchersView.php";
+require_once "FieldersView.php";
 
 class PersonView extends PageView implements iPageView
 {
@@ -34,15 +56,22 @@ class PersonView extends PageView implements iPageView
 	protected $_photoCollection = [];
 	protected $_videoCollection = [];
 
+	protected $_articlesView;
+	protected $_photosView;
+	protected $_videosView;
+
+	protected $_hittersView;
+	protected $_pitchersView;
+	protected $_fieldersView;
+
+
 	function __construct(array $row)
 	{
 		if (empty($row) | !isset($row['person']) | !isset($row['person']['id']))
 		{
 			throw new InvalidArgumentException("Person is mandatory");
 		}
-
 		$person = $row['person'];
-
 
 		/** person */
 		$this->_id = $person['id'];
@@ -60,29 +89,41 @@ class PersonView extends PageView implements iPageView
 		/** hall of fame */
 		if (isset($person['hallOfFame']))
 		{
-			$this->_hallOfFamePhoto['photo'] = $person['hallOfFame']['photo'];
-			$this->_hallOfFamePhotoId = $person['hallOfFame']['id'];
 			$this->_hallOfFameDate = $person['hallOfFame']['date'];
+			if (isset($person['hallOfFame']['photo']))
+			{
+				$this->_hallOfFamePhoto['photo'] = $person['hallOfFame']['photo'];
+			}
 		}
 
 		$this->_fullName = $this->_getFullName();
 
 		/** articles */
-		$this->_articleCollection = (isset($row['articles']) ? $row['articles'] : []);		
-		/** videos */
-		$this->_videoCollection = (isset($row['videos']) ? $row['videos'] : []);
-		/** photos */
-//		$this->_photoCollection = (isset($row['photos']) ? $this->_getPhotoCollection($row['photos']) : []);
-		$this->_photoCollection = (isset($row['photos']) ? $row['photos'] : []);		
+		$this->_articlesView = new ArticlesView((isset($row['articles']) ? $row['articles'] : []));
 
+		/** videos */
+		$this->_videosView = new VideosView((isset($row['videos']) ? $row['videos'] : []));
+
+		/** photos */
+		/** in case of a thumbnail the photoCollection contains only mugshots and in case of show it contains all photos */
+		$this->_photosView = new PhotosView((isset($row['photos']) ? $row['photos'] : []));
+		
 		/** get the mugshot */
-		$this->_getMugshot($this->_hallOfFamePhoto, $this->_photoCollection);
+		$this->_getMugshotPhoto($this->_hallOfFamePhoto, $this->_photoCollection);
+
+		/** stats */
+		if (isset($row['stats']))
+		{
+			$this->_hittersView = new HittersView((isset($row['stats']['hitting']) ? $row['stats']['hitting'] : []));
+			$this->_pitchersView = new PitchersView((isset($row['stats']['pitching']) ? $row['stats']['pitching'] : []));
+			$this->_fieldersView = new FieldersView((isset($row['stats']['fielding']) ? $row['stats']['fielding'] : []));
+		}
 	}
 
 	function showThumbnail() : string
 	{
 		/** prepare */
-		$picture = "TBD"; // $this->_getPicture(true);
+		$image = (empty($this->_mugshotPhoto) ? "" : $this->_mugshotPhoto->showThumbnailPhoto($this->_fullName));
 		
 		/** show */
 		return "
@@ -92,7 +133,7 @@ class PersonView extends PageView implements iPageView
 					<div class='col'>
 						<div align='center'>
 							<figure>
-								{$picture}
+								{$image}
 								<figcaption>
 									{$this->_getNameWithUrl()}
 								</figcaption>
@@ -105,11 +146,16 @@ class PersonView extends PageView implements iPageView
 		";
 	}
 
+
 	function show() : string
 	{
 		/** prepare */
 		$hallOfFameText = $this->_getHallOfFameText($this->_getHofDate());
 		$photoAndText = $this->_getPhotoAndText();
+
+		/** create the tabs  */
+		$tabs = $this->_showTabs();
+
 
 		/** show */
 		return "
@@ -119,6 +165,7 @@ class PersonView extends PageView implements iPageView
 			</div>
 			{$hallOfFameText}
 			{$photoAndText}
+			{$tabs}
 		</div>
 		";
 	}
@@ -127,16 +174,12 @@ class PersonView extends PageView implements iPageView
 	function showHofThumbnail()
 	{
 		/* todo connect to mediaview */
-
-		//"./images/thumbnails/{$this->_hallOfFamePhoto}.jpg";
-//		$src = (empty($this->_hallOfFamePhoto) ? "" : $this->_hallOfFamePhoto->getSource(true));
-		$src = (empty($this->_mugshotPhoto) ? "" : $this->_mugshotPhoto->showThumbnail());
-		$src = "";
+		$image = (empty($this->_mugshotPhoto) ? "" : $this->_mugshotPhoto->showThumbnailPhoto($this->_fullName));
 		$href = $this->_getUrl(["option" => "person", "id" => $this->_id]);
 
 		return "
 		<div class='card' style='width: 18rem;'>
-			<img class='card-img-top' src='{$src}' alt='{$this->_fullName}'>
+			{$image}
 			<div class='card-body'>
 				<h5 class='card-title'><a href='{$href}'>{$this->_fullName}</a></h5>
 				<p class='card-text'>{$this->_biography}</p>
@@ -187,10 +230,11 @@ class PersonView extends PageView implements iPageView
 		return "";
 	}
 
+
 	protected function _getPhotoAndText()
 	{
 		/** mugshot is a photoView */
-		$mugshot = (empty($this->_mugshotPhoto) ? "" : $this->_mugshotPhoto->show());
+		$mugshot = (empty($this->_mugshotPhoto) ? "" : $this->_mugshotPhoto->showPhoto($this->_fullName));
 
 		if (!empty($this->_biography) && !empty($mugshot)) 
 		{
@@ -233,21 +277,19 @@ class PersonView extends PageView implements iPageView
 	}
 
 
-	function _getMugshot(array $hallOfFamePhoto, array $photoCollection) : void
+	function _getMugshotPhoto(array $hallOfFamePhoto, array $photoCollection) : void
 	{
 		/** mugshot is either the HOF photo or a mugshot from the photolist or nothing */
 
-		if (!empty($hallOfFamePhoto))
-		{
+		if (!empty($hallOfFamePhoto)){
 			$this->_mugshotPhoto = new PhotoView($hallOfFamePhoto);
-		} 
-		else 
-		{
-			foreach ($photoCollection as $row)
+			return;
+		} else {
+			foreach ($photoCollection as $photo)
 			{
-				if (isset($row['isMugshot']) && $row['isMugshot'] === "J")
+				if ($photo->isMugshot())
 				{
-					$this->_mugshotPhoto = new PhotoView($row);
+					$this->_mugshotPhoto = $photo;
 					return;
 				}
 			}
@@ -255,76 +297,62 @@ class PersonView extends PageView implements iPageView
 	}
 
 
-	/** collections */
-	protected function _showArticles() : string
+	protected function _showTabs() : string
 	{
-		/** prepare */
-		$articles = [];
-		foreach ($this->_articleCollection as $article)
+		$tabs = [];
+		$content = [];
+
+		// if (!empty($this->_articleCollection)) 
+		// {
+		// 	$tabs[] = "Artikelen";
+		// 	$content[] = $this->_showArticles();
+		// }
+		// if (!empty($this->_photoCollection)) 
+		// {
+		// 	$tabs[] = "Foto's";
+		// 	$content[] = $this->_showPhotos();
+		// }
+
+		$tab = new HtmlTabPage();
+
+		/** articles */
+		if (!empty($this->_articlesView) & $this->_articlesView->count() > 0) 
 		{
-			$article = new ArticleView($article);
-			$articles[] = $article->getThumbnail();
+			$tab->add(new HtmlTabElement("artikelen", "Artikelen", $this->_articlesView->showPersonalArticles(), true));
 		}
 
-		/** create */
-		$html = "";
-		
-		return $html;
-	}
-
-	/** turn all the photoarrays into objects and get the mugshot and the hall of fame photo as well */
-	protected function _getPhotoCollection(array $photos) : array
-	{
-		if (empty($this->_photoCollection)) 
+		/** photos */
+		if (!empty($this->_photosView) & $this->_photosView->count() > 0) 
 		{
-			$this->_photoCollection = [];
-			foreach ($photos as $photo)
-			{
-				$photo = new PhotoView($photo);
-				$this->_photoCollection[] = $photo;
-			}
-		}
-		return $this->_photoCollection;
-	}
-
-
-	protected function _showPhotos() : string
-	{
-		/** prepare */
-		/** keep in mind that we already created objects from the array in the construct */
-		$photos = [];
-		foreach ($this->_photoCollection as $photo)
-		{
-			$photos[] = $photo->getThumbnail();
+			$tab->add(new HtmlTabElement("photos", "Foto's", $this->_photosView->showPersonalPhotos(), false));
 		}
 
-		/** create */
-		$html = "";
-		return $html;
-	}
-
-	protected function _showVideos() : string
-	{
-		/** prepare */
-		$videos = [];
-		foreach ($this->_videoCollection as $video)
+		/** videos */
+		if (!empty($this->_videosView) & $this->_videosView->count() > 0) 
 		{
-			$video = new VideoView($video);
-			$videos[] = $video->getThumbnail();
+			$tab->add(new HtmlTabElement("videos", "Video's", $this->_videosView->showPersonalVideos(), false));
 		}
 
-		/** create */
+		/** stats */
 		$html = "";
-		return $html;
-	}
+		if (!is_null($this->_hittersView)) 
+		{
+			$html .= ($this->_hittersView->count() > 0 ? $this->_hittersView->showPersonalStats() : "");
+		}
+		if (!is_null($this->_pitchersView)) 
+		{
+			$html .= ($this->_pitchersView->count() > 0 ? $this->_pitchersView->showPersonalStats() : "");
+		}
+		if (!is_null($this->_fieldersView)) 
+		{
+			$html .= ($this->_fieldersView->count() > 0 ? $this->_fieldersView->showPersonalStats() : "");
+		}
+		if (!empty($html))
+		{
+			$tab->add(new HtmlTabElement("stats", "Statistieken", $html, false));
+		}
 
-	protected function _showStatistics() : string
-	{
-		/** prepare */
-
-		/** create */
-		$html = "";
-		return $html;
+		return $tab->show();
 	}
 }
 ?>

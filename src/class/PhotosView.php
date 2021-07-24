@@ -12,15 +12,22 @@ class PhotosView extends ListView implements iListView
 	protected $_title = "Foto's";
 	protected $_columnCount = 4;
 
-  function __construct(array $rows)
+	function __construct(array $rows)
 	{
 		parent::__construct();
 
-    foreach ($rows as $row)
-    {
-      $object = new PhotoView($row);
-      $this->_collection[] = $object->showThumbnail();
-    }
+		foreach ($rows as $row)
+		{
+			$object = new PhotoView($row);
+			$this->_collection[] = $object->showThumbnail();
+		}
+	}
+
+	
+	function showPersonalPhotos()
+	{
+		$this->_title = "Foto's van deze persoon";
+		return $this->show();
 	}
 }
 ?>

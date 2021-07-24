@@ -6,7 +6,7 @@ class ListView
 {
 	protected $_title;
 	protected $_columnCount;
-	protected $_collectio;
+	protected $_collection = [];
 
 	function __construct()
     {
@@ -45,6 +45,16 @@ class ListView
     function getTitle()
 	{
 		return $this->_title;
+	}
+
+	function getCollection() : array
+	{
+		return $this->_collection;
+	}
+
+	function count() : int
+	{
+		return count($this->_collection);
 	}
 }
 ?>

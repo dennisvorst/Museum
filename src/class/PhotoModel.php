@@ -23,12 +23,12 @@ class PhotoModel implements iPageModel{
 		{
 			$row = $row[0];
 
-			$this->_result['id']		= $row['idphoto'];
+			$this->_result['photo']['id']		= $row['idphoto'];
 
-			$this->_result['subscript'] = $row['ftdescription'];
-			$this->_result['isMugshot'] = $row['idmugshot'];
+			$this->_result['photo']['subscript'] = $row['ftdescription'];
+			$this->_result['photo']['isMugshot'] = ($row['idmugshot'] == 1 ? "True" : "False");
 
-			$this->_result['source']['id'] = $row['idsource'];
+			$this->_result['photo']['source']['id'] = $row['idsource'];
 		}
 	}
 

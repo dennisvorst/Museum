@@ -60,7 +60,15 @@ class VideosModel implements iListModel
 
 	function getArticleRecords(int $id) : array
 	{
-		throw new exception("To be implemented");
+		return [];
+		$sql = "SELECT v.*
+		FROM videos v, articlevideos av
+		WHERE av.idvideo = v.idvideo
+		AND av.idarticle = ?
+		ORDER BY nmvideo";
+
+		$rows = $this->_db->select($sql, "i", [$id]);
+		return $this->_getCollection($rows);
 	}
 
 
@@ -70,7 +78,7 @@ class VideosModel implements iListModel
 	}
 
 
-    function getPersonRecords(int $id) : array
+    function getPersonalRecords(int $id) : array
 	{
 		throw new exception("To be implemented");
 	}

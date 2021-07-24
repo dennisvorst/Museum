@@ -28,7 +28,6 @@ class ArticleView extends MediaView implements iPageView{
 	function __construct(array $row)
 	{
 		parent::__construct();
-
 		if (empty($row) | !isset($row['article']) | !isset($row['article']['id']))
 		{
 			throw new InvalidArgumentException("Article is mandatory");

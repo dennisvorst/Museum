@@ -106,7 +106,7 @@ class PhotosModel implements iListModel
 	}
 
 
-    function getPersonRecords(int $id) : array
+    function getPersonalRecords(int $id) : array
 	{
 		$sql = "SELECT p.*
 		FROM photos p, personphotos pp 
@@ -130,6 +130,18 @@ class PhotosModel implements iListModel
 		throw new exception("To be implemented");
 	}
 
+	function getPersonMugshots(int $id) : array
+	{
+		$sql = "SELECT ph.*
+		FROM photos ph, personphotos pp 
+		WHERE ph.idphoto = pp.idphoto 
+		AND ph.idmugshot = '1'
+		AND pp.idperson = ?
+		ORDER BY nryear, dtpublish";
+
+		$rows = $this->_db->select($sql, "i", [$id]);
+		return $this->_getCollection($rows);
+	}
 
 	protected function _getCollection(array $rows) : array
 	{
@@ -141,10 +153,8 @@ class PhotosModel implements iListModel
 
 			$photo['id']		= $row['idphoto'];
 			$photo['subscript'] = $row['ftdescription'];
-			$photo['isMugshot'] = $row['idmugshot'];
-
+			$photo['isMugshot'] = ($row['idmugshot'] == 1 ? True : False);
 			$photo['source']['id'] = $row['idsource'];
-
 
 			$photo['photo'] = $photo;
 

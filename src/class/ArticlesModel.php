@@ -98,17 +98,16 @@ class ArticlesModel implements iListModel
 	}
 
 
-	function getPersonRecords(int $id) : array 
+	function getPersonalRecords(int $id) : array 
 	{
-		$sql = "SELECT *
+		$sql = "SELECT a.*
 				FROM personarticles pa, articles a
 				LEFT JOIN articlephotos ap ON a.idarticle = ap.idarticle
 				WHERE a.idarticle = pa.idarticle
-				AND pa.idperson = ?";
-				// ORDER BY a.dtpublish 
+				AND pa.idperson = ?
+				ORDER BY a.dtpublish";
 				// LIMIT ? OFFSET ?";
 
-//			$rows = $this->_db->select($sql, "iii", [$id, $this->nrRecordsOnPage, $nrOffSet]);
 			$rows = $this->_db->select($sql, "i", [$id]);
 			return $this->_getCollection($rows);
 	}

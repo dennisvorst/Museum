@@ -25,9 +25,10 @@ class HallOfFamersModel extends PersonsModel
 	function getRecords() : array
 	{
 		$sql = "SELECT *
-		FROM persons
-		WHERE dthof IS NOT NULL
-		ORDER BY dthof";
+		FROM persons pe
+		LEFT JOIN photos ph ON pe.idphotohof = ph.idphoto
+		WHERE pe.dthof IS NOT NULL
+		ORDER BY pe.dthof";
 
 		$rows = $this->_db->select($sql);
 		return $this->_getCollection($rows);

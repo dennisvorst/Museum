@@ -17,37 +17,43 @@ class HallOfFamersView extends ListView implements iListView
 	{
 		parent::__construct();
 
-    $date = "";
-    foreach ($rows as $row)
-    {
-      $date = $row['hallOfFameDate'];
-      $dateObj = new Date();
-      $row['hallOfFameDate'] = $dateObj->translateDate($row['hallOfFameDate'], "D");
-    }
+		$persons = [];
+		foreach ($rows as $row)
+		{
+			$hof = $row['hallOfFame'];
+			$date = $hof['date'];
 
-    foreach ($rows as $row)
-    {
-      if (empty($date) || $date !== $row['hallOfFameDate']) 
-      {
-        $this->_body .= "<h3>{$row['hallOfFameDate']}</h3>\n";
-        $date = $row['hallOfFameDate'];
-      }
-      $object = new PersonView($row);
-      $this->_body .= $object->showHofThumbnail();
-    }
+
+			$dateObj = new Date();
+			$row['hallOfFame']['date'] = $dateObj->translateDate($row['hallOfFame']['date'], "D");
+
+			$persons[] = $row;
+		}
+
+		$date = "";
+		foreach ($persons as $row)
+		{
+			if (empty($date) || $date !== $row['hallOfFame']['date']) 
+			{
+				$this->_body .= "<h3>Toegelaten op {$row['hallOfFame']['date']}</h3>\n";
+				$date = $row['hallOfFame']['date'];
+			}
+			$object = new PersonView($row);
+			$this->_body .= $object->showHofThumbnail();
+		}
 	}
 
-  /** overriden */
-  public function show() : string
-  {
-   
+	/** overriden */
+	public function show() : string
+	{
+
 		/** create */
 		return "
 		<h1>{$this->_title}</h1>
 
 		{$this->_body}
 		";
-  }
+	}
   
 }
 ?>
