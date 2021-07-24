@@ -87,12 +87,12 @@ class PersonView extends PageView implements iPageView
 		$this->_biography		= (isset($person['biography']) ? $person['biography'] : "");
 
 		/** hall of fame */
-		if (isset($person['hallOfFame']))
+		if (isset($row['hallOfFame']))
 		{
-			$this->_hallOfFameDate = $person['hallOfFame']['date'];
-			if (isset($person['hallOfFame']['photo']))
+			$this->_hallOfFameDate = $row['hallOfFame']['date'];
+			if (isset($row['hallOfFame']['photo']))
 			{
-				$this->_hallOfFamePhoto['photo'] = $person['hallOfFame']['photo'];
+				$this->_hallOfFamePhoto = $row['hallOfFame']['photo'];
 			}
 		}
 
@@ -156,14 +156,15 @@ class PersonView extends PageView implements iPageView
 		/** create the tabs  */
 		$tabs = $this->_showTabs();
 
-
 		/** show */
 		return "
 		<div class='container'>
 			<div class='row'>
 				<h1>{$this->_fullName}</h1>
 			</div>
+			<!-- hallOfFameText -->
 			{$hallOfFameText}
+			<!-- photoAndText -->
 			{$photoAndText}
 			{$tabs}
 		</div>
@@ -301,17 +302,6 @@ class PersonView extends PageView implements iPageView
 	{
 		$tabs = [];
 		$content = [];
-
-		// if (!empty($this->_articleCollection)) 
-		// {
-		// 	$tabs[] = "Artikelen";
-		// 	$content[] = $this->_showArticles();
-		// }
-		// if (!empty($this->_photoCollection)) 
-		// {
-		// 	$tabs[] = "Foto's";
-		// 	$content[] = $this->_showPhotos();
-		// }
 
 		$tab = new HtmlTabPage();
 

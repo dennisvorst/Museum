@@ -10,7 +10,7 @@ require_once "PhotoView.php";
 class PhotosView extends ListView implements iListView
 {
 	protected $_title = "Foto's";
-	protected $_columnCount = 4;
+	protected $_columnCount = 3;
 
 	function __construct(array $rows)
 	{

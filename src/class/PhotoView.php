@@ -51,20 +51,17 @@ class PhotoView extends MediaView implements iPageView
 	function showThumbnail() : string
 	{
 		/** collect */
-		$mugshot = (empty($this->_mugshotPhoto) ? "" : $this->_mugshotPhoto->showThumbnailPhoto($this->_subscript));
+		$photo = $this->showThumbnailPhoto($this->_subscript);
 
 		/** create */
 		return "
-		<div class='card'>
+		<div class='card' style='width: 10rem;height: 15rem;'>
 			<div class='container'>
-				<div class='text-center'>
+				<div class='row justify-content-center'>
 					<a href='{$this->_url}'>
-						{$mugshot}
+						{$photo}
 					</a>
 				</div>			
-				<div class='row justify-content-center'>
-						<img border='0' src=>
-				</div>
 			</div>
 		</div>
 		";		
@@ -74,14 +71,13 @@ class PhotoView extends MediaView implements iPageView
 	function show() : string
 	{
 		/** collect */
-		
-		$mugshot = (empty($this->_mugshotPhoto) ? "" : $this->_mugshotPhoto->showPhoto($this->_subscript));
+		$photo = $this->showPhoto($this->_subscript);
 
 		/** create */
 		return "
 		<div class='container photo photo-{$this->_alignment}'>
 			<div class='image'>
-				{$mugshot}
+				{$photo}
 			</div>
 			<div class='subscript'>
 				{$this->_subscript} <b>(Foto: {$this->_sourceUrl})</b>
@@ -97,21 +93,35 @@ class PhotoView extends MediaView implements iPageView
 	}
 
 
-	function showPhoto(string $alt) : string
+	function showPhoto(string $alt = null) : string
 	{
 		$image = $this->_path . $this->_image;
+		if (!empty($alt))
+		{
+			$alt = " alt='{$alt}'";
+		}
+
 //		$this->_getImageSize($image, 150);
 //		return "<img src='{$image}' class='rounded'{$this->_width}{$this->_height} alt='{$alt}'>";
-		return "<img src='{$image}' class='rounded' alt='{$alt}'>";
+		return "<img src='{$image}' class='rounded'{$alt}>";
 	}
 
 
-	function showThumbnailPhoto(string $alt) : string
+	function showThumbnailPhoto(string $alt = null) : string
 	{
+		/** collect */
+		$limit = 65;
+		if (!empty($alt))
+		{
+			$alt = (strlen($alt) > $limit ? substr($alt, 0, $limit) : $alt);
+			$alt = " alt='{$alt}'";
+		}
 		$image = $this->_thumbnailPath . $this->_image;
 //		$imageSize = $this->_getimagesize($image, 150);
 //		return "<img src='{$image}' class='rounded'{$this->_width}{$this->_height} alt='{$alt}'>";
-		return "<img src='{$image}' class='rounded' alt='{$alt}'>";
+
+		/** create */
+		return "<img src='{$image}' class='rounded'{$alt}>";
 	}
 
 	// /** 

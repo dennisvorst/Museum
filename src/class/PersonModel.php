@@ -23,7 +23,6 @@ class PersonModel implements iPageModel{
 
 	protected $_pitchingCollection = [];
 
-
 	function __construct(MysqlDatabase $db, Log $log, int $id)
 	{
 		$this->_db = $db;
@@ -45,16 +44,23 @@ class PersonModel implements iPageModel{
 			$this->_result['person']['id'] = $row['idperson'];
 
 			$this->_result['person']['firstName']	= $row['nmfirst'];
-			$this->_result['person']['surName']	= $row['nmsur'];
+			$this->_result['person']['surName']		= $row['nmsur'];
 			$this->_result['person']['lastName']	= $row['nmlast'];
 
-			$this->_result['halloffame']['date'] = $row['dthof'];
-			$this->_result['halloffame']['id'] = $row['idphotohof'];
+			$this->_result['person']['nickName']	= $row['nmnick'];
+			$this->_result['person']['gender']		= $row['cdgender'];
+			$this->_result['person']['birthDate']	= $row['dtbirth'];
+			$this->_result['person']['countryCode']	= $row['cdcountry'];
+			$this->_result['person']['isDead']		= $row['hasdied'];
+			$this->_result['person']['biography']	= $row['ftbiography'];
+
+			$this->_result['hallOfFame']['date'] = $row['dthof'];
+			$this->_result['hallOfFame']['id'] = $row['idphotohof'];
 
 			/* look for the hall off fame photo */
 			if (isset($row['idphotohof']) && !empty($row['idphotohof']))
 			{
-				$this->_result['halloffame']['photo'] = $this->_getHofPhoto($row['idphotohof']);
+				$this->_result['hallOfFame']['photo'] = $this->_getHofPhoto($row['idphotohof']);
 			}
 
 			/* look for a photo */

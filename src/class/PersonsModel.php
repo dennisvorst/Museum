@@ -130,6 +130,7 @@ class PersonsModel implements iListModel
 			$person['birthDate']	= $row['dtbirth'];
 			$person['countryCode']	= $row['cdcountry'];
 			$person['isDead']		= $row['hasdied'];
+			$person['biography']	= $row['ftbiography'];
 
 			if (!empty($row['dthof']))
 			{
@@ -140,7 +141,6 @@ class PersonsModel implements iListModel
 				}
 			}
 
-			$person['biography']	= $row['ftbiography'];
 			$person['person'] 		= $person;
 
 			/** get the mugshots */
