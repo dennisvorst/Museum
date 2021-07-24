@@ -36,7 +36,7 @@ class PhotoViewTest extends TestCase
 	public function testFunctionShowReturnsString()
 	{
 		$object = new PhotoView($this->_row);
-		$actual = $object->show();
+		$actual = $object->show("some text");
 		$this->assertIsString($actual);	
 	}
 
