@@ -51,6 +51,13 @@ class Html
 		return (empty($this->_content) ? "" : $this->_content);
 	}
 
+
+	function show() : string 
+	{
+		return $this->_encloseTags((empty($this->_getContent()) ? "" : $this->_getContent()));
+	}
+
+
 	function getElement() : string 
 	{
 		return $this->_encloseTags((empty($this->_getContent()) ? "" : $this->_getContent()));
