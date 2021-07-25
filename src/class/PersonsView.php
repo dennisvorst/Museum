@@ -18,8 +18,7 @@ class PersonsView extends ListView implements iListView
 
 		foreach ($rows as $row)
 		{
-			$object = new PersonView($row);
-			$this->_collection[] = $object->showThumbnail();
+			$this->_collection[] = new PersonView($row);
 		}
 	}
 

@@ -18,8 +18,7 @@ class ParticipantsView extends ListView implements iListView
 
 		foreach ($rows as $row)
 		{
-			$object = new CompetitionView($row);
-			$this->_collection[] = $object->showThumbnail();
+			$this->_collection[] = new CompetitionView($row);
 		}
 	}
 

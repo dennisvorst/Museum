@@ -16,14 +16,13 @@ class ClubsView extends ListView implements iListView
 	{
 		parent::__construct();
 
-    foreach ($rows as $row)
-    {
-      $object = new ClubView($row);
-      $this->_collection[] = $object->showThumbnail();
-    }
+		foreach ($rows as $row)
+		{
+		  $this->_collection[] = new ClubView($row);
+		}
 	}
 
-  function showArticlePage()
+	function showArticlePage()
 	{
 		$this->_title = "Verenigingen in het artikel";
 		return $this->show();

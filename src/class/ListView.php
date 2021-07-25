@@ -24,7 +24,13 @@ class ListView
 		$html = "Geen ". strtolower($this->_title) . " gevonden";
 		if (!empty($this->_collection))
 		{
-			$object = new  BootstrapGrid($this->_collection, $this->_columnCount);
+			$collection = [];
+			foreach ($this->_collection as $item)
+			{
+				$collection[] = $item->showThumbnail();
+			}
+
+			$object = new  BootstrapGrid($collection, $this->_columnCount);
 			$html = $object->show();
 		}
 		

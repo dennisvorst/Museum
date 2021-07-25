@@ -3,8 +3,14 @@
  * Person
  * 	- id
  * 	- articles
+ * 		- article 
+ * 			- id
  * 	- photos
+ * 		- photo
+ * 			- id
  * 	- videos - tbd
+ * 		- videp
+ * 			- id
  * 	- stats
  * 		- hitting
  * 		- pitching
@@ -92,7 +98,7 @@ class PersonView extends PageView implements iPageView
 			$this->_hallOfFameDate = $row['hallOfFame']['date'];
 			if (isset($row['hallOfFame']['photo']))
 			{
-				$this->_hallOfFamePhoto = $row['hallOfFame']['photo'];
+				$this->_hallOfFamePhoto = $row['hallOfFame'];
 			}
 		}
 
@@ -109,7 +115,7 @@ class PersonView extends PageView implements iPageView
 		$this->_photosView = new PhotosView((isset($row['photos']) ? $row['photos'] : []));
 		
 		/** get the mugshot */
-		$this->_getMugshotPhoto($this->_hallOfFamePhoto, $this->_photoCollection);
+		$this->_setMugshotPhoto($this->_hallOfFamePhoto, $this->_photosView->getCollection());
 
 		/** stats */
 		if (isset($row['stats']))
@@ -278,10 +284,9 @@ class PersonView extends PageView implements iPageView
 	}
 
 
-	function _getMugshotPhoto(array $hallOfFamePhoto, array $photoCollection) : void
+	protected function _setMugshotPhoto(array $hallOfFamePhoto, array $photoCollection) : void
 	{
 		/** mugshot is either the HOF photo or a mugshot from the photolist or nothing */
-
 		if (!empty($hallOfFamePhoto)){
 			$this->_mugshotPhoto = new PhotoView($hallOfFamePhoto);
 			return;
@@ -294,6 +299,16 @@ class PersonView extends PageView implements iPageView
 					return;
 				}
 			}
+		}
+	}
+
+	function getMugshotPhoto() : PhotoView
+	{
+		if (is_null($this->_mugshotPhoto) || get_class($this->_mugshotPhoto) !== "PhotoView")
+		{
+			throw new exception("No image photo set");
+		} else {
+			return $this->_mugshotPhoto;
 		}
 	}
 

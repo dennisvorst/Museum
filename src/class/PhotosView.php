@@ -18,8 +18,7 @@ class PhotosView extends ListView implements iListView
 
 		foreach ($rows as $row)
 		{
-			$object = new PhotoView($row);
-			$this->_collection[] = $object->showThumbnail();
+			$this->_collection[] = new PhotoView($row);
 		}
 	}
 

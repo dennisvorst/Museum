@@ -19,8 +19,7 @@ class ArticlesView extends ListView implements iListView
 		parent::__construct();
 		foreach ($rows as $row)
 		{
-			$object = new ArticleView($row);
-			$this->_collection[] = $object->showThumbnail();
+			$this->_collection[] = new ArticleView($row);
 		}
 	}
 

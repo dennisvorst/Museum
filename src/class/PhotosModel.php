@@ -149,16 +149,16 @@ class PhotosModel implements iListModel
 		$this->_collection = [];
 		foreach ($rows as $row)
 		{
-			$photo = [];
+			$record = [];
 
-			$photo['id']		= $row['idphoto'];
-			$photo['subscript'] = $row['ftdescription'];
-			$photo['isMugshot'] = ($row['idmugshot'] == 1 ? True : False);
-			$photo['source']['id'] = $row['idsource'];
+			$record['photo']['id']		= $row['idphoto'];
+			$record['photo']['subscript'] = $row['ftdescription'];
+			$record['photo']['isMugshot'] = ($row['idmugshot'] == 1 ? True : False);
+			$record['source']['id'] = $row['idsource'];
 
-			$photo['photo'] = $photo;
+//			$photo['photo'] = $photo;
 
-			$this->_collection[] = $photo;
+			$this->_collection[] = $record;
 		}
 		return $this->_collection;
 	}

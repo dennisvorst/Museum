@@ -19,8 +19,7 @@ class VideosView extends ListView implements iListView
 		parent::__construct();
 		foreach ($rows as $row)
 		{
-			$object = new VideoView($row);
-			$this->_collection[] = $object->showThumbnail();
+			$this->_collection[] = new VideoView($row);
 		}
 	}
 

@@ -16,11 +16,10 @@ class CompetitionsView extends ListView implements iListView
 	{
 		parent::__construct();
 
-    foreach ($rows as $row)
-    {
-      $object = new CompetitionView($row);
-      $this->_collection[] = $object->showThumbnail();
-    }
+		foreach ($rows as $row)
+		{
+			$this->_collection[] = new CompetitionView($row);
+		}
 	}
 }
 ?>
